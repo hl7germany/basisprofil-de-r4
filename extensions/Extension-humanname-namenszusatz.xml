@@ -21,7 +21,7 @@
 	<fhirVersion value="4.0.0" />
 	<kind value="complex-type" />
 	<abstract value="false" />
-	<contextType value="datatype" />
+
 	<context>
 		<type value="element" />
 		<expression value="HumanName.family" />
