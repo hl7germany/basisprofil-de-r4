@@ -3,7 +3,7 @@
   <meta>
     <lastUpdated value="2017-11-08T18:33:28.283+01:00" />
   </meta>
-  <url value="http://fhir.de/StructureDefinition/humanname-de-basis/0.2" />
+  <url value="http://fhir.de/StructureDefinition/humanname-de-basis" />
   <version value="0.9" />
   <name value="HumannameDeBasis" />
   <title value="HumanName, deutsches Basisprofil (Version 0.9)" />
@@ -412,7 +412,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/humanname-namenszusatz/0.2" />
+        <profile value="http://fhir.de/StructureDefinition/humanname-namenszusatz" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1454,7 +1454,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/humanname-namenszusatz/0.2" />
+        <profile value="http://fhir.de/StructureDefinition/humanname-namenszusatz" />
       </type>
       <mapping>
         <identity value="KVDT" />
