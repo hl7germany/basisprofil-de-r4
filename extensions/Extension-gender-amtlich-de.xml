@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
+  <version value="0.9" />
+  <name value="GenderAmtlichDE" />
+  <title value="Differenzierung des administrativen Geschlechts 'other'" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2019-07-06" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Extension zur genaueren Differenzierung des administrativen Geschlechts 'other', vgl. https://wiki.hl7.de/index.php?title=Geschlecht#administratives_Geschlecht." />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="extension" />
+    <expression value="Patient.gender" />
+  </context>
+  <context>
+    <type value="extension" />
+    <expression value="RelatedPerson.gender" />
+  </context>
+  <context>
+    <type value="extension" />
+    <expression value="Person.gender" />
+  </context>
+  <context>
+    <type value="extension" />
+    <expression value="Practitioner.gender" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element id="Extension.value[x]:valueCoding">
+      <path value="Extension.valueCoding" />
+      <sliceName value="valueCoding" />
+      <min value="1" />
+      <type>
+        <code value="Coding" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/gender-amtlich-de" />
+      </binding>
+    </element>
+    <element id="Extension.value[x]:valueCoding.system">
+      <path value="Extension.valueCoding.system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x]:valueCoding.code">
+      <path value="Extension.valueCoding.code" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
