@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/StructureDefinition/identifier-pkv" />
+  <name value="IdentifierPkv" />
+  <status value="draft" />
+  <date value="2019-07-06" />
+  <description value="Identifier-Profil für die Abbildung einer organisationsspezifischen Patienten-ID" />
+  <fhirVersion value="4.0.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Identifier" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Identifier.type">
+      <path value="Identifier.type" />
+      <min value="1" />
+    </element>
+    <element id="Identifier.type.coding.system">
+      <path value="Identifier.type.coding.system" />
+      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+    </element>
+    <element id="Identifier.type.coding.code">
+      <path value="Identifier.type.coding.code" />
+      <fixedCode value="PKV" />
+    </element>
+    <element id="Identifier.system">
+      <path value="Identifier.system" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Identifier.value">
+      <path value="Identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Identifier.assigner">
+      <path value="Identifier.assigner" />
+      <min value="1" />
+    </element>
+    <element id="Identifier.assigner.identifier.system">
+      <path value="Identifier.assigner.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
+    </element>
+    <element id="Identifier.assigner.identifier.value">
+      <path value="Identifier.assigner.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Identifier.assigner.display">
+      <path value="Identifier.assigner.display" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
