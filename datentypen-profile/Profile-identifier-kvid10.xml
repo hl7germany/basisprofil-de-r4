@@ -4,13 +4,6 @@
   <name value="IdentifierKvid10" />
   <status value="draft" />
   <date value="2019-07-06" />
-  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-  <contact>
-    <telecom>
-      <system value="url" />
-      <value value="http://hl7.de/technische-komitees/fhir/" />
-    </telecom>
-  </contact>
   <description value="Identifier-Profil für die 10-stellige Krankenversichertennummer" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />
@@ -30,6 +23,7 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
+      <fixedUri value="http://fhir.de/NamingSystem/gkv/kvid-10" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
