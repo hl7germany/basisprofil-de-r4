@@ -1,0 +1,35 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+	</meta>
+	<url value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+	<version value="0.2-WORK"/>
+	<name value="identifier-type-de-basis"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2017-12-06"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
+	<description value="Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."/>
+	<copyright value="HL7 Deutschland e.V."/>
+	<caseSensitive value="true"/>
+	<valueSet value="http://fhir.de/ValueSet/identifier-type-de-basis"/>
+	<content value="complete"/>
+	<concept>
+		<code value="GKV"/>
+		<display value="Gesetzliche Krankenversicherung"/>
+	</concept>
+	<concept>
+		<code value="PKV"/>
+		<display value="Private Krankenversicherung"/>
+	</concept>
+	<concept>
+		<code value="ZANR"/>
+		<display value="Zahnarztnummer"/>
+	</concept>
+</CodeSystem>
