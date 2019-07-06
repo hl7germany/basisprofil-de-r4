@@ -3,8 +3,8 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<url value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
-	<version value="0.2-WORK"/>
-	<name value="identifier-type-de-basis"/>
+	<version value="0.9"/>
+	<name value="IdentifierTypeDeBasis"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2017-12-06"/>

@@ -4,7 +4,7 @@
 	</meta>
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"/>
 	<version value="2.30"/>
-	<name value="deuev-anlage-6-vorsatzworte"/>
+	<name value="DeuevAnlage6Vorsatzworte"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2017-09-15"/>

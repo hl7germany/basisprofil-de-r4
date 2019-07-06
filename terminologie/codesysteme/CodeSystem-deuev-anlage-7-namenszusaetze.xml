@@ -4,7 +4,7 @@
 	</meta>
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"/>
 	<version value="2.25"/>
-	<name value="deuev-anlage-7-namenszusaetze"/>
+	<name value="DeuevAnlage7Namenszusaetze"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2017-09-15"/>
