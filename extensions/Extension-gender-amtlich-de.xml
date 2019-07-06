@@ -38,9 +38,8 @@
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <differential>
-    <element id="Extension.value[x]:valueCoding">
-      <path value="Extension.valueCoding" />
-      <sliceName value="valueCoding" />
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
       <min value="1" />
       <type>
         <code value="Coding" />
@@ -49,14 +48,6 @@
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/gender-amtlich-de" />
       </binding>
-    </element>
-    <element id="Extension.value[x]:valueCoding.system">
-      <path value="Extension.valueCoding.system" />
-      <min value="1" />
-    </element>
-    <element id="Extension.value[x]:valueCoding.code">
-      <path value="Extension.valueCoding.code" />
-      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>
