@@ -1,0 +1,52 @@
+<CodeSystem>
+	<url value="http://fhir.de/CodeSystem/loinc-supplement-basis"/> 
+	<version value="0.9"/> 
+	<name value="loinc-de-basis"/> 
+	<status value="draft"/> 
+	<experimental value="true"/> 
+	<date value="2019-07-11"/> 
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://hl7.de/technische-komitees/fhir/" />
+		</telecom>
+	</contact>
+	<description value="CodeSystem Supplement mit Deutschen Übersetzungen für die in den Basisprofilen verwendeten LOINC-Codes" />
+	<copyright value="HL7 Deutschland e.V." />
+
+	<content value="supplement"/> 
+	<supplements value="http://loinc.org"/> 
+	<concept> 
+		<code value="LA15173-0"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="schwanger"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA26683-5"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="nicht schwanger"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA4489-6"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="unbekannt"/> 
+		</designation> 
+	</concept> 
+</CodeSystem> 
