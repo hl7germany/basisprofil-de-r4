@@ -1,0 +1,45 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/CodeSystem/administrative-gender-supplement" />
+  <version value="0.9" />
+  <name value="SupplementAdministrativeGender" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2019-07-11" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender" />
+  <content value="supplement" />
+  <supplements value="http://hl7.org/fhir/administrative-gender" />
+  <concept>
+    <code value="male" />
+    <designation>
+      <language value="de-DE" />
+      <value value="männlich" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="female" />
+    <designation>
+      <language value="de-DE" />
+      <value value="weiblich" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="other" />
+    <designation>
+      <language value="de-DE" />
+      <value value="andere" />
+    </designation>
+  </concept>
+    <concept>
+    <code value="unknown" />
+    <designation>
+      <language value="de-DE" />
+      <value value="unbekannt" />
+    </designation>
+  </concept>
+</CodeSystem>
