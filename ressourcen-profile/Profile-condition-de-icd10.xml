@@ -80,7 +80,6 @@
     <element id="Condition.code.coding:ICD-10-GM.extension:HauptKreuzCode">
       <path value="Condition.code.coding.extension" />
       <sliceName value="HauptKreuzCode" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz" />
@@ -89,7 +88,6 @@
     <element id="Condition.code.coding:ICD-10-GM.extension:SternCode">
       <path value="Condition.code.coding.extension" />
       <sliceName value="SternCode" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
@@ -98,7 +96,6 @@
     <element id="Condition.code.coding:ICD-10-GM.extension:AusrufezeichenCode">
       <path value="Condition.code.coding.extension" />
       <sliceName value="AusrufezeichenCode" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />

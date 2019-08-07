@@ -1,0 +1,50 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://fhir.de/ValueSet/kbv/s-icd-diagnosesicherheit"/>
+	<version value="0.9"/>
+	<name value="kbv-s-icd-diagnosesicherheit"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-04-08"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
+	<description value="Angaben zur Diagnosesicherheit gemäß ICD-10-GM"/>
+	<copyright value="HL7 Deutschland e.V."/>
+	<compose>
+		<include>
+			<system value="http://fhir.de/CodeSystem/kbv/s-icd-diagnosesicherheit"/>
+		</include>
+	</compose>
+	<expansion>
+		<timestamp value="2018-04-08"/>
+		<total value="4"/>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/kbv/s-icd-diagnosesicherheit"/>
+			<version value="1.00"/>
+            <code value="A"/>
+            <display value="ausgeschlossen"/>
+		</contains>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/kbv/s-icd-diagnosesicherheit"/>
+			<version value="1.00"/>
+            <code value="G"/>
+            <display value="gesicherte Diagnose"/>
+        </contains>
+        <contains>
+			<system value="http://fhir.de/CodeSystem/kbv/s-icd-diagnosesicherheit"/>
+			<version value="1.00"/>
+            <code value="V"/>
+            <display value="Verdacht auf / zum Ausschluss von"/>
+		</contains>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/kbv/s-icd-diagnosesicherheit"/>
+			<version value="1.00"/>
+            <code value="Z"/>
+            <display value="Zustand nach"/>
+		</contains>
+	</expansion>
+</ValueSet>
