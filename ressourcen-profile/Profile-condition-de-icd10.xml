@@ -38,19 +38,19 @@
         <key value="icd-1" />
         <severity value="warning" />
         <human value="Bei Angabe eines Codes in der Haupt-Kreuz-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').code)" />
+        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').value.code)" />
       </constraint>
       <constraint>
         <key value="icd-2" />
         <severity value="warning" />
         <human value="Bei Angabe eines Codes in der Stern-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').code)" />
+        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').value.code)" />
       </constraint>
       <constraint>
         <key value="icd-3" />
         <severity value="warning" />
         <human value="Bei Angabe eines Codes in der Ausrufezeichen-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').code)" />
+        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').value.code)" />
       </constraint>
     </element>
     <element id="Condition.code.coding:ICD-10-GM">
