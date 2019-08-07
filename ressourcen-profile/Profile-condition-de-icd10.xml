@@ -34,6 +34,24 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
+      <constraint>
+        <key value="icd-1" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Haupt-Kreuz-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').code)" />
+      </constraint>
+      <constraint>
+        <key value="icd-2" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Stern-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').code)" />
+      </constraint>
+      <constraint>
+        <key value="icd-3" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Ausrufezeichen-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').code)" />
+      </constraint>
     </element>
     <element id="Condition.code.coding:ICD-10-GM">
       <path value="Condition.code.coding" />
@@ -44,12 +62,6 @@
         <code value="Coding" />
         <profile value="http://fhir.de/StructureDefinition/CodingICD10GM" />
       </type>
-      <constraint>
-        <key value="icd-1" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Haupt-Kreuz-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').code)" />
-      </constraint>
       <binding>
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/dimdi/icd-10-gm" />
