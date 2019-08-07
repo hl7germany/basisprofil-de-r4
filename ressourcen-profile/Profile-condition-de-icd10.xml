@@ -44,6 +44,12 @@
         <code value="Coding" />
         <profile value="http://fhir.de/StructureDefinition/CodingICD10GM" />
       </type>
+      <constraint>
+        <key value="icd-1" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Haupt-Kreuz-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="$this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or $this.code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').code)" />
+      </constraint>
       <binding>
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/dimdi/icd-10-gm" />
