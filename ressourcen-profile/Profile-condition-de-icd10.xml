@@ -112,6 +112,30 @@
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit/" />
       </type>
+      <constraint>
+        <key value="icd-4" />
+        <severity value="warning" />
+        <human value="Wenn die Diagnosesicherheit &quot;A (Ausschluss)&quot; verwendet wird, dann muss clinicalStatus leer bleiben und verificationStaus auf &quot;refuted&quot; gesetzt werden." />
+        <expression value="not(value.code='A') or (%resource.clinicalStatus.empty() and %resource.verificationStatus.coding.code='refuted')" />
+      </constraint>
+      <constraint>
+        <key value="icd-5" />
+        <severity value="warning" />
+        <human value="Wenn die Diagnosesicherheit &quot;G (Gesichert)&quot; verwendet wird, dann muss clinicalStatus auf &quot;active&quot; und verificationStatus auf &quot;confirmed&quot; gesetzt werden." />
+        <expression value="not(value.code='G') or (%resource.clinicalStatus.coding.code='active' and %resource.verificationStatus.coding.code='confirmed')" />
+      </constraint>
+      <constraint>
+        <key value="icd-6" />
+        <severity value="warning" />
+        <human value="Wenn die Diagnosesicherheit &quot;V (Verdacht auf)&quot; verwendet wird, dann muss clinicalStatus auf &quot;active&quot; und verificationStatus auf &quot;provisional&quot; gesetzt werden." />
+        <expression value="not(value.code='V') or (%resource.clinicalStatus.coding.code='active' and %resource.verificationStatus.coding.code='provisional')" />
+      </constraint>
+      <constraint>
+        <key value="icd-7" />
+        <severity value="warning" />
+        <human value="Wenn die Diagnosesicherheit &quot;Z (Zustand nach)&quot; verwendet wird, dann muss clinicalStatus auf &quot;resolved&quot; und verificationStatus auf &quot;confirmed&quot; gesetzt werden." />
+        <expression value="not(value.code='Z') or (%resource.clinicalStatus.coding.code='resolved' and %resource.verificationStatus.coding.code='confirmed')" />
+      </constraint>
     </element>
     <element id="Condition.bodySite.coding">
       <path value="Condition.bodySite.coding" />
