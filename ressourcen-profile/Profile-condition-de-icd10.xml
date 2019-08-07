@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2018-04-08T14:05:14.857+01:00" />
+  </meta>
+  <url value="http://fhir.de/StructureDefinition/condition-de-icd10" />
+  <version value="0.9" />
+  <name value="ConditionDeICD10" />
+  <title value="Deutsches Basisprofil einer Condition mit Codierung nach ICD-10-GM" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2019-08-07" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <description value="Deutsches Basisprofil einer Condition (Gesundheitszustand, Erkrankung) mit Codierung nach ICD10-GM" />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Condition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Condition.code">
+      <path value="Condition.code" />
+      <min value="1" />
+    </element>
+    <element id="Condition.code.coding">
+      <path value="Condition.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM">
+      <path value="Condition.code.coding" />
+      <sliceName value="ICD-10-GM" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Coding" />
+        <profile value="http://fhir.de/StructureDefinition/CodingICD10GM" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dimdi/icd-10-gm" />
+      </binding>
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM.extension">
+      <path value="Condition.code.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM.extension:HauptKreuzCode">
+      <path value="Condition.code.coding.extension" />
+      <sliceName value="HauptKreuzCode" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz" />
+      </type>
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM.extension:SternCode">
+      <path value="Condition.code.coding.extension" />
+      <sliceName value="SternCode" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
+      </type>
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM.extension:AusrufezeichenCode">
+      <path value="Condition.code.coding.extension" />
+      <sliceName value="AusrufezeichenCode" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />
+      </type>
+    </element>
+    <element id="Condition.code.coding:ICD-10-GM.extension:Diagnosesicherheit">
+      <path value="Condition.code.coding.extension" />
+      <sliceName value="Diagnosesicherheit" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit/" />
+      </type>
+    </element>
+    <element id="Condition.bodySite.coding">
+      <path value="Condition.bodySite.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation">
+      <path value="Condition.bodySite.coding" />
+      <sliceName value="ICD-10-GM-Seitenlokalisation" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/CodeSystem/kbv/s_icd_seitenlokalisation" />
+      </binding>
+    </element>
+    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation.system">
+      <path value="Condition.bodySite.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation.code">
+      <path value="Condition.bodySite.coding.code" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

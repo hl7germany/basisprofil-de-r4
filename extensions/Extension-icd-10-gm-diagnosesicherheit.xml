@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit/" />
+  <version value="0.9" />
+  <name value="ICD10GMDiagnosesicherheit" />
+  <status value="draft" />
+  <date value="2019-08-07" />
+  <fhirVersion value="4.0.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="CodeableConcept.coding" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Optional Extensions Element" />
+      <definition value="Optional Extension Element - found in all resources." />
+      <base>
+        <path value="Extension" />
+      </base>
+      <constraint>
+        <key value="ext-1" />
+        <severity value="error" />
+        <human value="Must have either extensions or value[x], not both" />
+        <expression value="extension.exists() != value.exists()" />
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="N/A" />
+      </mapping>
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="Coding" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/kbv/s-icd-diagnosesicherheit" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
