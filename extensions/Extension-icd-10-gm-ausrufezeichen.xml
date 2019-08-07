@@ -29,6 +29,10 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+     <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />
+    </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <sliceIsConstraining value="false" />
