@@ -26,34 +26,35 @@
       <type>
         <code value="Coding" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/kbv/s-icd-diagnosesicherheit" />
-      </binding>
-	  <constraint>
+	  	  <constraint>
         <key value="icd-4" />
         <severity value="warning" />
         <human value="Wenn die Diagnosesicherheit &quot;A (Ausschluss)&quot; verwendet wird, dann muss clinicalStatus leer bleiben und verificationStaus auf &quot;refuted&quot; gesetzt werden." />
-        <expression value="code!='A' or (%resource.clinicalStatus.empty() and %resource.verificationStatus.coding.code='refuted')" />
+        <expression value="code!='A' or (%resource.verificationStatus.coding.where(code='refuted').exists and %resource.clinicalStatus.empty())" />
       </constraint>
       <constraint>
         <key value="icd-5" />
         <severity value="warning" />
         <human value="Wenn die Diagnosesicherheit &quot;G (Gesichert)&quot; verwendet wird, dann muss clinicalStatus auf &quot;active&quot; und verificationStatus auf &quot;confirmed&quot; gesetzt werden." />
-        <expression value="code!='G' or (%resource.clinicalStatus.coding.code='active' and %resource.verificationStatus.coding.code='confirmed')" />
+        <expression value="code!='G' or (%resource.clinicalStatus.coding.where(code='active').exists and %resource.verificationStatus.coding.where(code='confirmed').exists)" />
       </constraint>
       <constraint>
         <key value="icd-6" />
         <severity value="warning" />
         <human value="Wenn die Diagnosesicherheit &quot;V (Verdacht auf)&quot; verwendet wird, dann muss clinicalStatus auf &quot;active&quot; und verificationStatus auf &quot;provisional&quot; gesetzt werden." />
-        <expression value="code!='V' or (%resource.clinicalStatus.coding.code='active' and %resource.verificationStatus.coding.code='provisional')" />
+        <expression value="code!='V' or (%resource.clinicalStatus.coding.where(code='active').exists and %resource.verificationStatus.coding.where(code='provisional').exists)" />
       </constraint>
       <constraint>
         <key value="icd-7" />
         <severity value="warning" />
         <human value="Wenn die Diagnosesicherheit &quot;Z (Zustand nach)&quot; verwendet wird, dann muss clinicalStatus auf &quot;resolved&quot; und verificationStatus auf &quot;confirmed&quot; gesetzt werden." />
-        <expression value="code!='Z' or (%resource.clinicalStatus.coding.code='resolved' and %resource.verificationStatus.coding.code='confirmed')" />
+        <expression value="code!='Z' or (%resource.clinicalStatus.coding.where(code='resolved').exists and %resource.verificationStatus.coding.where(code='confirmed').exists)" />
       </constraint>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/kbv/s-icd-diagnosesicherheit" />
+      </binding>
+
     </element>
   </differential>
 </StructureDefinition>
