@@ -382,10 +382,6 @@
           <type value="value" />
           <path value="type.coding.code" />
         </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="type.coding.system" />
-        </discriminator>
         <rules value="open" />
       </slicing>
       <short value="An identifier for the person as this agent" />
@@ -4461,10 +4457,6 @@
         <discriminator>
           <type value="value" />
           <path value="type.coding.code" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="type.coding.system" />
         </discriminator>
         <rules value="open" />
       </slicing>
