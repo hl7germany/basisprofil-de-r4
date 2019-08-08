@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/identifier-pkv" />
-  <name value="IdentifierPkv" />
+  <url value="http://fhir.de/StructureDefinition/identifier-lanr" />
+  <name value="IdentifierLanr" />
   <status value="draft" />
-  <date value="2019-07-06" />
-  <description value="Identifier-Profil für die Abbildung einer organisationsspezifischen Patienten-ID" />
+  <date value="2019-08-08" />
+  <description value="Identifier-Profil für die Abbildung einer lebenslangen Arztnummer" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -178,7 +178,7 @@
       <definition value="A coded type for the identifier that can be used to determine which identifier to use for a specific purpose." />
       <comment value="This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage.   Where the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type." />
       <requirements value="Allows users to make use of identifiers when the identifier system is not known." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="Identifier.type" />
@@ -367,9 +367,9 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type">
+    <element id="Identifier.type.coding:LANR-Type">
       <path value="Identifier.type.coding" />
-      <sliceName value="PKV-Type" />
+      <sliceName value="LANR-Type" />
       <short value="Code defined by a terminology system" />
       <definition value="A reference to a code defined by a terminology system." />
       <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true." />
@@ -422,7 +422,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.id">
+    <element id="Identifier.type.coding:LANR-Type.id">
       <path value="Identifier.type.coding.id" />
       <representation value="xmlAttr" />
       <short value="Unique id for inter-element referencing" />
@@ -452,7 +452,7 @@
         <map value="n/a" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.extension">
+    <element id="Identifier.type.coding:LANR-Type.extension">
       <path value="Identifier.type.coding.extension" />
       <slicing>
         <discriminator>
@@ -501,7 +501,7 @@
         <map value="N/A" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.system">
+    <element id="Identifier.type.coding:LANR-Type.system">
       <path value="Identifier.type.coding.system" />
       <short value="Identity of the terminology system" />
       <definition value="The identification of the code system that defines the meaning of the symbol in the code." />
@@ -517,7 +517,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+      <fixedUri value="http://hl7.org/fhir/v2/0203" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -544,7 +544,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.version">
+    <element id="Identifier.type.coding:LANR-Type.version">
       <path value="Identifier.type.coding.version" />
       <short value="Version of the system - if relevant" />
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged." />
@@ -585,7 +585,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.code">
+    <element id="Identifier.type.coding:LANR-Type.code">
       <path value="Identifier.type.coding.code" />
       <short value="Symbol in syntax defined by the system" />
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)." />
@@ -601,7 +601,7 @@
       <type>
         <code value="code" />
       </type>
-      <fixedCode value="PKV" />
+      <fixedCode value="LANR" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -628,7 +628,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.display">
+    <element id="Identifier.type.coding:LANR-Type.display">
       <path value="Identifier.type.coding.display" />
       <short value="Representation defined by the system" />
       <definition value="A representation of the meaning of the code in the system, following the rules of the system." />
@@ -670,7 +670,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" />
       </mapping>
     </element>
-    <element id="Identifier.type.coding:PKV-Type.userSelected">
+    <element id="Identifier.type.coding:LANR-Type.userSelected">
       <path value="Identifier.type.coding.userSelected" />
       <short value="If this coding was chosen directly by the user" />
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)." />
@@ -760,7 +760,7 @@
       <definition value="Establishes the namespace for the value - that is, a URL that describes a set values that are unique." />
       <comment value="Identifier.system is always case sensitive." />
       <requirements value="There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Identifier.system" />
@@ -770,6 +770,7 @@
       <type>
         <code value="uri" />
       </type>
+      <fixedUri value="http://hl7.org/fhir/v2/0203" />
       <example>
         <label value="General" />
         <valueUri value="http://www.acme.com/identifiers/patient" />
@@ -908,7 +909,7 @@
       <short value="Organization that issued id (may be just text)" />
       <definition value="Organization that issued/manages the identifier." />
       <comment value="The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="Identifier.assigner" />
@@ -934,7 +935,7 @@
         <expression value="reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))" />
         <xpath value="not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])" />
       </constraint>
-      <mustSupport value="true" />
+      <mustSupport value="false" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -1569,10 +1570,6 @@
     </element>
   </snapshot>
   <differential>
-    <element id="Identifier.type">
-      <path value="Identifier.type" />
-      <min value="1" />
-    </element>
     <element id="Identifier.type.coding">
       <path value="Identifier.type.coding" />
       <slicing>
@@ -1584,24 +1581,26 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="Identifier.type.coding:PKV-Type">
+    <element id="Identifier.type.coding:LANR-Type">
       <path value="Identifier.type.coding" />
-      <sliceName value="PKV-Type" />
+      <sliceName value="LANR-Type" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="Identifier.type.coding:PKV-Type.system">
+    <element id="Identifier.type.coding:LANR-Type.system">
       <path value="Identifier.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+      <fixedUri value="http://hl7.org/fhir/v2/0203" />
     </element>
-    <element id="Identifier.type.coding:PKV-Type.code">
+    <element id="Identifier.type.coding:LANR-Type.code">
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="PKV" />
+      <fixedCode value="LANR" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://hl7.org/fhir/v2/0203" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
@@ -1611,8 +1610,7 @@
     </element>
     <element id="Identifier.assigner">
       <path value="Identifier.assigner" />
-      <min value="1" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Identifier.assigner.identifier.system">
       <path value="Identifier.assigner.identifier.system" />

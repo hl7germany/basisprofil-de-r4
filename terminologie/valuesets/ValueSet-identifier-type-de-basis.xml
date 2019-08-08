@@ -1,0 +1,188 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+	</meta>
+	<url value="http://fhir.de/ValueSet/identifier-type-de-basis"/>
+	<version value="0.2-WORK"/>
+	<name value="identifier-type-de-basis"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2017-01-27"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
+	<description value="ValueSet zur Codierung des Identifier-Typs"/>
+	<copyright value="HL7 Deutschland e.V."/>
+	<compose>
+		<include>
+			<valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+		</include>
+		<include>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<concept>
+				<code value="XX"/>
+				<display value="Organisations-ID"/>
+			</concept>
+			<concept>
+				<code value="BSNR"/>
+				<display value="Betriebsstätten-Nummer"/>
+			</concept>
+			<concept>
+				<code value="LANR"/>
+				<display value="Lebenslange Arztnummer"/>
+			</concept>
+			<concept>
+				<code value="RI"/>
+				<display value="Resource identifier"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+		</include>
+	</compose>
+	<expansion>
+		<identifier value="urn:uuid:6984f695-8278-4f83-9f9e-ed8da80df028"/>
+		<timestamp value="2017-09-29T11:34:15+02:00"/>
+		<total value="21"/>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="http://hl7.org/fhir/ValueSet/identifier-type|3.0.1"/>
+		</parameter>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="http://hl7.org/fhir/v2/0203|2.8.2"/>
+		</parameter>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="http://hl7.org/fhir/identifier-type|3.0.1"/>
+		</parameter>
+		<parameter>
+			<name value="version"/>
+			<valueUri value="http://fhir.de/CodeSystem/identifier-type-de-basis|0.1"/>
+		</parameter>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="DL"/>
+			<display value="Driver's license number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="PPN"/>
+			<display value="Passport number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="BRN"/>
+			<display value="Breed Registry Number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="MR"/>
+			<display value="Medical record number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="MCN"/>
+			<display value="Microchip Number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="EN"/>
+			<display value="Employer number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="TAX"/>
+			<display value="Tax ID number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="NIIP"/>
+			<display value="National Insurance Payor Identifier (Payor)"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="PRN"/>
+			<display value="Provider number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="MD"/>
+			<display value="Medical License number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="DR"/>
+			<display value="Donor Registration Number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="ACSN"/>
+			<display value="Accession ID"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/identifier-type"/>
+			<code value="UDI"/>
+			<display value="Universal Device Identifier"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/identifier-type"/>
+			<code value="SNO"/>
+			<display value="Serial Number"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/identifier-type"/>
+			<code value="SB"/>
+			<display value="Social Beneficiary Identifier"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/identifier-type"/>
+			<code value="PLAC"/>
+			<display value="Placer Identifier"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/identifier-type"/>
+			<code value="FILL"/>
+			<display value="Filler Identifier"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="XX"/>
+			<display value="Organisations-ID"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="BSNR"/>
+			<display value="Betriebsstätten-Nummer"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="LANR"/>
+			<display value="Lebenslange Arztnummer"/>
+		</contains>
+		<contains>
+			<system value="http://hl7.org/fhir/v2/0203"/>
+			<code value="RI"/>
+			<display value="Resource identifier"/>
+		</contains>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+			<code value="GKV"/>
+			<display value="Gesetzliche Krankenversicherung"/>
+		</contains>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+			<code value="PKV"/>
+			<display value="Private Krankenversicherung"/>
+		</contains>
+        <contains>
+			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+            <code value="ZANR"/>
+            <display value="Zahnarztnummer"/>
+        </contains>
+	</expansion>
+</ValueSet>
