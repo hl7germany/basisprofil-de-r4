@@ -379,8 +379,8 @@
       <path value="Practitioner.identifier" />
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="type.coding.code" />
+          <type value="pattern" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -4455,8 +4455,8 @@
       <path value="Practitioner.identifier" />
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="type.coding.code" />
+          <type value="pattern" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
