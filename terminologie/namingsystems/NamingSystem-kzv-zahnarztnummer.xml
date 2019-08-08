@@ -26,8 +26,9 @@
 			Die Zahnarztnummer ist 1- bis 6-stellig numerisch.
 			
 			Bei der Verwendung der Canonical-URL ist 'XX' durch den Code der jeweils zuständigen KZV zu ersetzen.
+			
 			|Code|Name der KZV|
-			|-
+			|----|------------|
 			|02|KZV Baden-Württemberg|
 			|35|KZV Saarland|
 			|37|KZV Westfalen-Lippe|
