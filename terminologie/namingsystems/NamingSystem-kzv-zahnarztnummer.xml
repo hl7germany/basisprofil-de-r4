@@ -1,0 +1,47 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
+	</meta>
+	<name value="KzvZahnarztnummer"/>
+	<status value="draft"/>
+	<kind value="identifier"/>
+	<date value="2017-12-06"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
+	<responsible value="Kassenzahnärztliche Bundesvereinigung (KZBV), bzw. jeweils zuständige Landesvereinigung"/>
+	<type>
+		<coding>
+			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+            <code value="ZANR"/>
+		</coding>
+	</type>
+	<description
+			value="Dieses NamingSystem wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw. 
+			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden. 
+			Die Zahnarztnummer ist 1- bis 6-stellig numerisch.
+			
+			Bei der Verwendung der Canonical-URL ist 'XX' durch den Code der jeweils zuständigen KZV zu ersetzen.
+			|Code|Name der KZV|
+			|-
+			|02|KZV Baden-Württemberg|
+			|35|KZV Saarland|
+			|37|KZV Westfalen-Lippe|
+			|99|KZBV (Bundesvereinigung)|
+			|TODO|vervollständigen....|
+			"/>
+	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet.
+"/>
+	<uniqueId>
+		<type value="uri"/>
+		<value value="http://fhir.de/NamingSystem/kzv/XX/zahnarztnummer"/>
+		<preferred value="true"/>
+		<period>
+			<start value="2017-12-06"/>
+		</period>
+	</uniqueId>
+</NamingSystem>
