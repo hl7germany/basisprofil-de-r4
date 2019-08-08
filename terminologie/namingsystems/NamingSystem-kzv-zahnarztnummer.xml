@@ -22,18 +22,16 @@
 	</type>
 	<description
 			value="Dieses NamingSystem wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw. 
-			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden. 
-			Die Zahnarztnummer ist 1- bis 6-stellig numerisch.
-			
-			Bei der Verwendung der Canonical-URL ist 'XX' durch den Code der jeweils zuständigen KZV zu ersetzen.
-			
-			|Code|Name der KZV|
-			|----|------------|
-			|02|KZV Baden-Württemberg|
-			|35|KZV Saarland|
-			|37|KZV Westfalen-Lippe|
-			|99|KZBV (Bundesvereinigung)|
-			|TODO|vervollständigen....|
+			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.  
+			Die Zahnarztnummer ist 1- bis 6-stellig numerisch.  
+			Bei der Verwendung der Canonical-URL ist 'XX' durch den Code der jeweils zuständigen KZV zu ersetzen.  
+			|Code|Name der KZV|  
+			|----|------------|  
+			|02|KZV Baden-Württemberg|  
+			|35|KZV Saarland|  
+			|37|KZV Westfalen-Lippe|  
+			|99|KZBV (Bundesvereinigung)|  
+			|TODO|vervollständigen....|  
 			"/>
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet.
 "/>
