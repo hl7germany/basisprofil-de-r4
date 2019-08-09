@@ -1,0 +1,19 @@
+<Patient xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://fhir.de/StructureDefinition/patient-de-basis"/>
+	</meta>
+	<identifier>
+		<type>
+			<coding>
+				<system value="http://hl7.org/fhir/v2/0203"/>
+				<code value="MR"/>
+			</coding>
+		</type>
+		<system value="http://mein-krankenhaus.de/patient-identifier"/>
+		<value value="12345678"/>
+	</identifier>
+	<name>
+		<family value="Mustermann"/>
+		<given value="Max"/>
+	</name>
+</Patient>

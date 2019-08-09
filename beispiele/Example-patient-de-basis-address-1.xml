@@ -1,0 +1,53 @@
+<Patient xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://fhir.de/StructureDefinition/patient-de-basis"/>
+	</meta>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>Patient: Martina Mustermann</p>
+		</div>
+	</text>
+	<name>
+		<use value="official"/>
+		<text value="Martina Mustermann"/>
+		<family value="Mustermann"/>
+		<given value="Martina"/>
+	</name>
+	<address>
+		<use value="home"/>
+		<type value="physical"/>
+		<text value="Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland"/>
+		<line value="Musterweg 42">
+			<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+				<valueString value="Musterweg"/>
+			</extension>
+			<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+				<valueString value="42"/>
+			</extension>
+		</line>
+		<line value="Hinterhof 2. Etage">
+			<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+				<valueString value="Hinterhof 2. Etage"/>
+			</extension>
+		</line>
+		<city value="Berlin"/>
+		<state value ="DE-BE"/>
+		<postalCode value="10787"/>
+		<country value="DE"/>
+	</address>
+	<address>
+		<use value="home"/>
+		<type value="postal"/>
+		<text value="Postfach 74656, 76297 Spöck, Deutschland"/>
+		<line value="Postfach 74656">
+			<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox">
+				<valueString value="Postfach 74656"/>
+			</extension>
+		</line>
+		<city value="Spöck"/>
+		<state value="DE-BW"/>
+		<postalCode value="76297"/>
+		<country value="DE"/>
+	</address>
+</Patient>
