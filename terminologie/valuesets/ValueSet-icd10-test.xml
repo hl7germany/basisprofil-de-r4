@@ -29,7 +29,7 @@
 			<system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
 			<version value="2019"/>
 			<code value="F16.1" />
-			<display value="Psychische Verhaltensstörung duch Halluzinogene (Akute Intoxikation)" />
+			<display value="Psychische Verhaltensstörung durch Halluzinogene (Akute Intoxikation)" />
 		</contains>
 		<contains>
 			<system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
@@ -41,7 +41,7 @@
 			<system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
 			<version value="2019"/>
 			<code value="F16.1 U69.32!" />
-			<display value="Psychische Verhaltensstörung duch Halluzinogene (Akute Intoxikation) bei intravenösem Konsum" />
+			<display value="Psychische Verhaltensstörung durch Halluzinogene (Akute Intoxikation) bei intravenösem Konsum" />
 		</contains>
 		<contains>
 			<system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
