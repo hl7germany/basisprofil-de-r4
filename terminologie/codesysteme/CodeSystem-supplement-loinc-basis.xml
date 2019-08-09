@@ -1,7 +1,8 @@
 <CodeSystem>
 	<url value="http://fhir.de/CodeSystem/loinc-supplement-basis"/> 
 	<version value="0.9"/> 
-	<name value="loinc-de-basis"/> 
+	<name value="SupplementLoincDeBasis" />
+
 	<status value="draft"/> 
 	<experimental value="true"/> 
 	<date value="2019-07-11"/> 
@@ -16,6 +17,18 @@
 
 	<content value="supplement"/> 
 	<supplements value="http://loinc.org"/> 
+	<!--**********************Schwangerschaftsstatus***********************-->
+	<concept> 
+		<code value="82810-3"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Schwangerschaftsstatus"/> 
+		</designation> 
+	</concept> 
 	<concept> 
 		<code value="LA15173-0"/> 
 		<designation> 
@@ -49,4 +62,218 @@
 			<value value="unbekannt"/> 
 		</designation> 
 	</concept> 
+	<!--**********************Raucherstatus***********************-->
+	<concept> 
+		<code value="72166-2"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Raucherstatus"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18976-3"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Aktuell täglicher Raucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18977-1"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Aktuell gelegentlicher Raucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA15920-4"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="ehemaliger Raucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18978-9"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Nieraucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18979-7"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Raucher, aktueller status unbekannt"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18980-5"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="unbekannt ob jemals Raucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18981-3"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="starker Raucher"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="LA18982-1"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="leichter Raucher"/> 
+		</designation> 
+	</concept> 
+	<!--**********************Vitalparameter***********************-->
+	<concept> 
+		<code value="9279-1"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Atemfrequenz"/> 
+		</designation> 
+	</concept> 
+
+	<concept> 
+		<code value="8867-4"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Herzfrequenz"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="2708-6"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Sauerstoffsättigung, arteriell"/> 
+		</designation> 
+	</concept>
+	<concept> 
+		<code value="8310-5"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Körpertemperatur"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="8310-5"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Körpertemperatur"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="8302-2"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Körpergröße"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="29463-7"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Körpergewicht"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="85354-9"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Blutdruckmessung mit optionalen Komponenten"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="8480-6"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Blutdruck systolisch"/> 
+		</designation> 
+	</concept> 
+	<concept> 
+		<code value="8462-4"/> 
+		<designation> 
+			<language value="de"/> 
+			<use> 
+				<system value="http://terminology.hl7.org/CodeSystem/designation-usage"/> 
+				<code value="display"/> 
+			</use> 
+			<value value="Blutdruck diastolisch"/> 
+		</designation> 
+	</concept> 	
+	
+
 </CodeSystem> 
