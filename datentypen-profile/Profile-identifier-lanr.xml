@@ -20,33 +20,16 @@
     <element id="Identifier.type">
       <path value="Identifier.type" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+          <code value="ZANR" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Identifier.type.coding">
       <path value="Identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:ZANR-Type">
-      <path value="Identifier.type.coding" />
-      <sliceName value="ZANR-Type" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Identifier.type.coding:ZANR-Type.system">
-      <path value="Identifier.type.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
-    </element>
-    <element id="Identifier.type.coding:ZANR-Type.code">
-      <path value="Identifier.type.coding.code" />
-      <min value="1" />
-      <fixedCode value="ZANR" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />

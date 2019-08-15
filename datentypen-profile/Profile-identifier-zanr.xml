@@ -17,32 +17,18 @@
       <path value="Identifier.use" />
       <fixedCode value="official" />
     </element>
+    <element id="Identifier.type">
+      <path value="Identifier.type" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="LANR" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
     <element id="Identifier.type.coding">
       <path value="Identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:LANR-Type">
-      <path value="Identifier.type.coding" />
-      <sliceName value="LANR-Type" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Identifier.type.coding:LANR-Type.system">
-      <path value="Identifier.type.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://hl7.org/fhir/v2/0203" />
-    </element>
-    <element id="Identifier.type.coding:LANR-Type.code">
-      <path value="Identifier.type.coding.code" />
-      <min value="1" />
-      <fixedCode value="LANR" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />
