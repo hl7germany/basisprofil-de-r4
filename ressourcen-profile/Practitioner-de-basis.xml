@@ -22,7 +22,7 @@
       <slicing>
         <discriminator>
           <type value="pattern" />
-          <path value="$this" />
+          <path value="type" />
         </discriminator>
         <rules value="open" />
       </slicing>

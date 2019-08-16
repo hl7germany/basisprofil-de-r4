@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/identifier-zanr" />
-  <name value="IdentifierZanr" />
+  <url value="http://fhir.de/StructureDefinition/identifier-lanr" />
+  <name value="IdentifierLanr" />
   <title value="Identifier-Profil für die Abbildung einer lebenslangen Arztnummer" />
   <status value="draft" />
   <date value="2019-08-08" />
-  <description value="Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer" />
+  <description value="Identifier-Profil für die Abbildung einer lebenslangen Arztnummer" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -19,11 +19,10 @@
     </element>
     <element id="Identifier.type">
       <path value="Identifier.type" />
-      <min value="1" />
       <patternCodeableConcept>
         <coding>
-          <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
-          <code value="ZANR" />
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="LANR" />
         </coding>
       </patternCodeableConcept>
     </element>
@@ -34,22 +33,17 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <constraint>
-        <key value="zanr-1" />
-        <severity value="warning" />
-        <human value="Die NamingSystem-URL der ZANR muss dem Schema &quot;http://fhir.de/NamingSystem/kzv/[0-9][0-9]/zahnarztnummer&quot; entsprechen" />
-        <expression value="matches('http://fhir.de/NamingSystem/kzv/[0-9][0-9]/zahnarztnummer')" />
-      </constraint>
+      <fixedUri value="http://fhir.de/NamingSystem/kbv/lanr" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
       <min value="1" />
       <constraint>
-        <key value="zanr-2" />
+        <key value="lanr-1" />
         <severity value="warning" />
-        <human value="Die ZANR muss 1- bis 6-stellig numerisch sein" />
-        <expression value="matches('[0-9]{1,6}')" />
+        <human value="Eine LANR muss neunstellig numerisch sein" />
+        <expression value="matches('[0-9]{9}')" />
       </constraint>
       <mustSupport value="true" />
     </element>
