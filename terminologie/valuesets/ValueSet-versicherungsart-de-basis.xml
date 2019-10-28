@@ -25,7 +25,7 @@
 	<expansion>
 		<identifier value="urn:uuid:5d03e8e9-fe99-4f73-85a6-30102d1f5f5f"/>
 		<timestamp value="2017-09-12T19:04:54+02:00"/>
-		<total value="5"/>
+		<total value="8"/>
 		<parameter>
 			<name value="version"/>
 			<valueUri value="http://fhir.de/CodeSystem/versicherungsart-de-basis|0.1"/>
@@ -56,14 +56,19 @@
 			<display value="Sozialamt"/>
 		</contains>
 		<contains>
-		<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
+			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 			<code value="GPV"/>
 			<display value="gesetzliche Pflegeversicherung"/>
 		</contains>
 		<contains>
-		<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
+			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 			<code value="PPV"/>
 			<display value="private Pflegeversicherung"/>
+		</contains>
+		<contains>
+			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
+			<code value="BEI"/>
+			<display value="Beihilfe"/>
 		</contains>
 	</expansion>
 </ValueSet>

@@ -40,12 +40,17 @@
 		<code value="SOZ"/>
 		<display value="Sozialamt"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="GPV"/>
 		<display value="gesetzliche Pflegeversicherung"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="PPV"/>
 		<display value="private Pflegeversicherung"/>
+	</concept>
+
+	<concept>
+		<code value="BEI"/>
+		<display value="Beihilfe"/>
 	</concept>
 </CodeSystem> 
