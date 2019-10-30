@@ -29,16 +29,13 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
-      <element id="Extension.url">
+    <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <min value="1" />
-      <type>
-        <code value="code" />
-      </type>
       <type>
         <code value="Coding" />
         <profile value="http://fhir.de/StructureDefinition/CodingICD10GM" />
