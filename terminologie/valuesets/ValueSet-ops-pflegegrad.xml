@@ -1,4 +1,4 @@
-<ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
