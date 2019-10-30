@@ -3,7 +3,7 @@
   <url value="http://fhir.de/StructureDefinition/CodingOPS" />
   <version value="0.9" />
   <name value="CodingOPS" />
-  <title value="Coding-Profil für ICD-10-GM" />
+  <title value="Coding-Profil für OPS" />
   <status value="draft" />
   <date value="2019-10-30" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
