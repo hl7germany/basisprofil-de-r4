@@ -25,13 +25,7 @@
 			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.  
 			Die Zahnarztnummer ist 1- bis 6-stellig numerisch.  
 			Bei der Verwendung der Canonical-URL ist 'XX' durch den Code der jeweils zuständigen KZV zu ersetzen.  
-			|Code|Name der KZV|  
-			|----|------------|  
-			|02|KZV Baden-Württemberg|  
-			|35|KZV Saarland|  
-			|37|KZV Westfalen-Lippe|  
-			|99|KZBV (Bundesvereinigung)|  
-			|TODO|vervollständigen....|  
+			Die KZV-Codes sind hier zu finden (Seite 77): https://www.gkv-datenaustausch.de/media/dokumente/leistungserbringer_1/zahnaerzte/technische_anlagen___aktuell_1/20170727_TA_Version_3_8_oA.pdf
 			"/>
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet.
 "/>
