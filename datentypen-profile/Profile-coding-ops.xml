@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/CodingOPS" />
+  <url value="http://fhir.de/StructureDefinition/CodingICD10GM" />
   <version value="0.9" />
-  <name value="CodingOPS" />
+  <name value="CodingICD10GM" />
   <title value="Coding-Profil für ICD-10-GM" />
   <status value="draft" />
-  <date value="2019-10-30" />
+  <date value="2019-08-01" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <name value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
@@ -13,7 +13,7 @@
       <system value="url" />
     </telecom>
   </contact>
-  <description value="Abbildung der Mindestanforderungen eines OPS Prozedurencodes" />
+  <description value="Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -23,19 +23,20 @@
   <differential>
     <element id="Coding.system">
       <path value="Coding.system" />
-      <short value="Canonische ValueSet URL für OPS" />
+      <short value="Canonische ValueSet URL für ICD-10-GM" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/dimdi/ops" />
+      <fixedUri value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
     </element>
     <element id="Coding.version">
       <path value="Coding.version" />
-      <short value="Die Jahresversion des OPS Kataloges. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)" />
-      <definition value="Bie Verwendung von OPS ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von OPS ein neues Codesystem darstellt." />
+      <short value="Die Jahresversion von ICD-10-GM. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)" />
+      <definition value="Bie Verwendung von ICD-10-GM ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von ICD-10-GM ein neues Codesystem darstellt." />
       <min value="1" />
     </element>
     <element id="Coding.code">
       <path value="Coding.code" />
-      <short value="Der OPS-Code" />
+      <short value="Der (ggf. postkoordinierte) ICD-10-Code" />
+      <definition value="Der ICD 10 Code ist vollständig anzugeben, ggf. in postkoordinierter Form" />
       <min value="1" />
       <example>
         <label value="Postkoordinierter Kreuz-Stern-Code" />

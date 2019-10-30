@@ -102,6 +102,10 @@
     <element id="Observation.value[x].coding">
       <path value="Observation.value[x].coding" />
       <min value="1" />
+      <type>
+        <code value="Coding" />
+        <profile value="http://fhir.de/StructureDefinition/CodingOPS" />
+      </type>
     </element>
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
