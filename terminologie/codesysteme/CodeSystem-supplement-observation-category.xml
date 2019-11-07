@@ -1,4 +1,4 @@
-<CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
     <url value="http://fhir.de/CodeSystem/observation-category-supplement" />
     <version value="0.9" />
     <name value="SupplementObservationCategory" />
