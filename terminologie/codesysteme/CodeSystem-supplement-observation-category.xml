@@ -32,7 +32,7 @@
         <code value="imaging" />
         <designation>
             <language value="de-DE" />
-            <value value="bildgebende Diagnostik" />
+            <value value="bildgebende Verfahren" />
         </designation>
     </concept>
     <concept>
@@ -42,35 +42,35 @@
             <value value="Labor" />
         </designation>
     </concept>
-	<concept>
+    <concept>
         <code value="procedure" />
         <designation>
             <language value="de-DE" />
             <value value="Prozeduren" />
         </designation>
     </concept>
-	<concept>
+    <concept>
         <code value="survey" />
         <designation>
             <language value="de-DE" />
             <value value="Assessment-Instrumente" />
         </designation>
     </concept>
-	<concept>
+    <concept>
         <code value="exam" />
         <designation>
             <language value="de-DE" />
             <value value="körperliche Untersuchungen" />
         </designation>
     </concept>
-	<concept>
+    <concept>
         <code value="therapy" />
         <designation>
             <language value="de-DE" />
             <value value="therapeutische Maßnahmen" />
         </designation>
     </concept>
-		<concept>
+    <concept>
         <code value="activity" />
         <designation>
             <language value="de-DE" />
