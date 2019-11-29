@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
 	<meta>
-		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis/0.2"/>
+		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
 	<name value="gkv-kvk-versichertennummer"/>
 	<status value="draft"/>
