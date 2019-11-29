@@ -124,6 +124,13 @@
     </element>
     <element id="Address.extension:Stadtteil.value[x]">
       <path value="Address.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
       <type>
         <code value="string" />
       </type>
@@ -194,6 +201,13 @@
     </element>
     <element id="Address.line.extension:Strasse.value[x]">
       <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
       <type>
         <code value="string" />
       </type>
@@ -223,6 +237,13 @@
     </element>
     <element id="Address.line.extension:Hausnummer.value[x]">
       <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
       <type>
         <code value="string" />
       </type>
@@ -252,6 +273,13 @@
     </element>
     <element id="Address.line.extension:Adresszusatz.value[x]">
       <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
       <type>
         <code value="string" />
       </type>
@@ -281,6 +309,13 @@
     </element>
     <element id="Address.line.extension:Postfach.value[x]">
       <path value="Address.line.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
       <type>
         <code value="string" />
       </type>
