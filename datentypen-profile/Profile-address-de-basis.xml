@@ -6,7 +6,7 @@
   <url value="http://fhir.de/StructureDefinition/address-de-basis" />
   <version value="0.9" />
   <name value="AddressDeBasis" />
-  <title value="Adresse, deutsches Basisprofil" />
+  <title value="Adresse, deutsches Basisprofil (Version 0.9)" />
   <status value="draft" />
   <experimental value="false" />
   <date value="2019-07-04" />
@@ -92,10 +92,11 @@
         <source value="Address" />
       </constraint>
       <constraint>
-        <key value="add-6" />
+        <key value="add-7" />
         <severity value="warning" />
         <human value="Wenn die Extension 'Precinct' (Stadtteil) verwendet wird, dann muss diese Information auch als separates line-item abgebildet sein." />
-        <xpath value="extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').empty() or line.where(extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').valueString=$this).exists()" />
+        <expression value="extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').empty() or line.where(extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').valueString=$this).exists()" />
+        <source value="Address" />
       </constraint>
     </element>
     <element id="Address.extension">
@@ -117,11 +118,22 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
       </type>
     </element>
+    <element id="Address.extension:Stadtteil.url">
+      <path value="Address.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
+    </element>
     <element id="Address.extension:Stadtteil.value[x]">
       <path value="Address.extension.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
       </slicing>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Address.type">
       <path value="Address.type" />
@@ -183,11 +195,22 @@
         <map value="3107" />
       </mapping>
     </element>
+    <element id="Address.line.extension:Strasse.url">
+      <path value="Address.line.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName" />
+    </element>
     <element id="Address.line.extension:Strasse.value[x]">
       <path value="Address.line.extension.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
       </slicing>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Address.line.extension:Hausnummer">
       <path value="Address.line.extension" />
@@ -208,11 +231,22 @@
         <map value="3109" />
       </mapping>
     </element>
+    <element id="Address.line.extension:Hausnummer.url">
+      <path value="Address.line.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber" />
+    </element>
     <element id="Address.line.extension:Hausnummer.value[x]">
       <path value="Address.line.extension.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
       </slicing>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Address.line.extension:Adresszusatz">
       <path value="Address.line.extension" />
@@ -233,11 +267,22 @@
         <map value="3115" />
       </mapping>
     </element>
+    <element id="Address.line.extension:Adresszusatz.url">
+      <path value="Address.line.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator" />
+    </element>
     <element id="Address.line.extension:Adresszusatz.value[x]">
       <path value="Address.line.extension.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
       </slicing>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Address.line.extension:Postfach">
       <path value="Address.line.extension" />
@@ -258,11 +303,22 @@
         <map value="3123" />
       </mapping>
     </element>
+    <element id="Address.line.extension:Postfach.url">
+      <path value="Address.line.extension.url" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox" />
+    </element>
     <element id="Address.line.extension:Postfach.value[x]">
       <path value="Address.line.extension.value[x]" />
       <slicing>
-        <rules value="open" />
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
       </slicing>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Address.city">
       <path value="Address.city" />

@@ -29,6 +29,7 @@
         <severity value="warning" />
         <human value="EBM-Ziffern müssen dem Schema '[0-9]{5}[A-Z]{0,1}' entsprechen" />
         <expression value="coding.code.matches('[0-9]{5}[A-Z]{0,1}')" />
+        <source value="ChargeItem" />
       </constraint>
       <mustSupport value="true" />
       <binding>
@@ -48,16 +49,11 @@
           <type value="type" />
           <path value="$this" />
         </discriminator>
+        <rules value="closed" />
       </slicing>
-    </element>
-    <element id="ChargeItem.occurrence[x]:occurrenceDateTime">
-      <path value="ChargeItem.occurrence[x]" />
-      <sliceName value="occurrenceDateTime" />
-      <min value="1" />
       <type>
         <code value="dateTime" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="ChargeItem.quantity">
       <path value="ChargeItem.quantity" />
