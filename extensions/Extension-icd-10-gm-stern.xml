@@ -3,7 +3,7 @@
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
   <version value="0.9" />
   <name value="ICD10GMStern" />
-  <title value="Extension zur Erfassung des ICD-10-GM-Stern-Codes (Version 0.2)" />
+  <title value="Extension zur Erfassung des ICD-10-GM-Stern-Codes" />
   <status value="draft" />
   <date value="2019-08-01" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />

@@ -3,7 +3,7 @@
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />
   <version value="0.9" />
   <name value="ICD10GMAusrufezeichen" />
-  <title value="Extension zur Erfassung des ICD-10-GM-Ausrufezeichen-Codes (Version 0.2)" />
+  <title value="Extension zur Erfassung des ICD-10-GM-Ausrufezeichen-Codes" />
   <status value="draft" />
   <date value="2019-08-01" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />

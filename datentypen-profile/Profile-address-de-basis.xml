@@ -6,7 +6,7 @@
   <url value="http://fhir.de/StructureDefinition/address-de-basis" />
   <version value="0.9" />
   <name value="AddressDeBasis" />
-  <title value="Adresse, deutsches Basisprofil (Version 0.9)" />
+  <title value="Adresse, deutsches Basisprofil" />
   <status value="draft" />
   <experimental value="false" />
   <date value="2019-07-04" />

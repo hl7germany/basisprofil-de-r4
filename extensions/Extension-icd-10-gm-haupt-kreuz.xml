@@ -3,7 +3,7 @@
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz" />
   <version value="0.9" />
   <name value="ICD10GMHauptKreuz" />
-  <title value="Der Haupt-Code (einschließlich: Kreuz-Code), insbesonderbei e postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation)." />
+  <title value="Der Haupt-Code (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation)." />
   <status value="draft" />
   <date value="2019-08-01" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />

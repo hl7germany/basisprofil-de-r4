@@ -6,7 +6,7 @@
   <url value="http://fhir.de/StructureDefinition/humanname-de-basis" />
   <version value="0.9" />
   <name value="HumannameDeBasis" />
-  <title value="HumanName, deutsches Basisprofil (Version 0.9)" />
+  <title value="HumanName, deutsches Basisprofil" />
   <status value="draft" />
   <date value="2019-07-04" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />

@@ -6,7 +6,7 @@
 	<url value="http://fhir.de/StructureDefinition/humanname-namenszusatz" />
 	<version value="0.9" />
 	<name value="HumannameNamenszusatz" />
-	<title value="Extension zur Erfassung der VSDM Namensbestandteile (Version 0.9)" />
+	<title value="Extension zur Erfassung der VSDM Namensbestandteile" />
 	<status value="draft" />
 	<date value="2018-06-18" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
