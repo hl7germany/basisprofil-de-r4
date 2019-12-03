@@ -1,0 +1,29 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <meta>
+    <profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
+  </meta>
+  <name value="alpha-id"/>
+  <status value="draft"/>
+  <kind value="identifier"/>
+  <date value="2019-12-03"/>
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.de/technische-komitees/fhir/"/>
+    </telecom>
+  </contact>
+  <responsible value="DIMDI"/>
+  <description
+    value="Die Alpha-ID ermöglicht es, medizinische und alltagssprachliche Diagnosenbezeichnungen zu kodieren, stellt also Diagnosenkodes zur Verfügung."/>
+  <usage
+    value="Im Gegensatz zum Alphabetischen Verzeichnis zur ICD-10-GM ist die Alpha-ID kumulativ: Einträge, die im Rahmen des Pflegeverfahrens zur ICD-10-GM gestrichen werden, bleiben entsprechend gekennzeichnet in der Alpha-ID erhalten. Mit der jeweils aktuellen Version der Alpha-ID können daher auch Identifikationsnummern entschlüsselt werden, die sich auf frühere Einträge beziehen. Im Gegensatz zu den ICD-10-GM-Kodes sind die Identifikationsnummern der Alpha-ID stabil. In der Alpha-ID gibt es zu jedem Eintrag zwei Kodes: die eindeutige Identifikationsnummer und den zugehörigen ICD-Kode. Durch neue Erkenntnisse in der Medizin oder durch Umstrukturierungen der ICD-10-GM kann sich der ICD-Kode für einen bestimmten Eintrag ändern. Eine einmal vergebene Alpha-ID bleibt dagegen für immer unverändert mit ihrem Eintrag verknüpft."/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://fhir.de/NamingSystem/dimdi/alpha-id"/>
+    <preferred value="true"/>
+    <period>
+      <start value="2019-12-03T00:00:00.000+02:00"/>
+    </period>
+  </uniqueId>
+</NamingSystem>
