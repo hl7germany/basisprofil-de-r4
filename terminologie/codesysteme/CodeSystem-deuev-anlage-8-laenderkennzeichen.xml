@@ -853,10 +853,6 @@
 		<display value="Thailand"/>
 	</concept>
 	<concept>
-		<code value="TJ"/>
-		<display value="Tibet"/>
-	</concept>
-	<concept>
 		<code value="OTI"/>
 		<display value="Timor-Leste"/>
 	</concept>
