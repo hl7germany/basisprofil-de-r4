@@ -40,26 +40,19 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-      </slicing>
       <type>
         <code value="Coding" />
       </type>
     </element>
-    <element id="Extension.value[x]:valueCoding">
-      <path value="Extension.value[x]" />
-      <sliceName value="valueCoding" />
-      <type>
-        <code value="Coding" />
-      </type>
-    </element>
-    <element id="Extension.value[x]:valueCoding.code">
+    <element id="Extension.value[x].code">
       <path value="Extension.value[x].code" />
       <min value="1" />
+      <constraint>
+        <key value="gkv-1" />
+        <severity value="warning" />
+        <human value="Es sind nur die Werte 1 (&quot;Kostenerstattung für (zahn)ärztliche Versorgung&quot;) oder 2 (&quot;keine Kostenerstattung für (zahn)ärztliche Versorgung) erlaubt" />
+        <expression value="matches('[01]')" />
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>

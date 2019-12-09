@@ -64,6 +64,12 @@
         <profile value="http://fhir.de/StructureDefinition/gkv/kostenerstattung-aerztliche-versorgung" />
       </type>
     </element>
+    <element id="Coverage.extension:kostenerstattung-aerztliche-versorgung.value[x]">
+      <path value="Coverage.extension.value[x]" />
+      <slicing>
+        <rules value="open" />
+      </slicing>
+    </element>
     <element id="Coverage.identifier">
       <path value="Coverage.identifier" />
       <slicing>
@@ -78,30 +84,6 @@
       <comment value="TODO: Constraint, der prüft, dass mindestens entweder eine VersichertenID oder eine Krankenversichertennummer angegeben wurde." />
       <min value="1" />
     </element>
-    <element id="Coverage.identifier:PseudoVersichertenID">
-      <path value="Coverage.identifier" />
-      <sliceName value="PseudoVersichertenID" />
-      <short value="pseudonymisierte VersichertenID" />
-      <definition value="Wird für Registermeldungen verwendet" />
-      <max value="1" />
-    </element>
-    <element id="Coverage.identifier:PseudoVersichertenID.use">
-      <path value="Coverage.identifier.use" />
-      <max value="0" />
-    </element>
-    <element id="Coverage.identifier:PseudoVersichertenID.type">
-      <path value="Coverage.identifier.type" />
-      <max value="0" />
-    </element>
-    <element id="Coverage.identifier:PseudoVersichertenID.system">
-      <path value="Coverage.identifier.system" />
-      <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/gkv/pseudo-kvid" />
-    </element>
-    <element id="Coverage.identifier:PseudoVersichertenID.value">
-      <path value="Coverage.identifier.value" />
-      <min value="1" />
-    </element>
     <element id="Coverage.identifier:KrankenversichertenID">
       <path value="Coverage.identifier" />
       <sliceName value="KrankenversichertenID" />
@@ -111,21 +93,17 @@
         <profile value="http://fhir.de/StructureDefinition/identifier-kvid-10" />
       </type>
     </element>
-    <element id="Coverage.identifier:KrankenversichertenID.type.coding">
-      <path value="Coverage.identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
+    <element id="Coverage.identifier:pseudo-Krankenversichertennummer">
+      <path value="Coverage.identifier" />
+      <sliceName value="pseudo-Krankenversichertennummer" />
+      <type>
+        <code value="Identifier" />
+        <profile value="http://fhir.de/StructureDefinition/identifier-pseudo-kvid" />
+      </type>
     </element>
     <element id="Coverage.type">
       <path value="Coverage.type" />
       <comment value="28.07.2017 (zulip): TC Konsens bzgl. Verwendung eines eigenen ValueSets anstelle des im Standrad definierten preferred bindings, da die dortigen Codes nicht passen." />
-      <min value="1" />
     </element>
     <element id="Coverage.type.coding">
       <path value="Coverage.type.coding" />
