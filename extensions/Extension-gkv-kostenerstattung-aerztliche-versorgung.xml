@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung-aerztliche-versorgung" />
+  <version value="0.9" />
+  <name value="GkVKostenerstattungAerztlicheVersorgung" />
+  <title value="Kennzeichen Kostenerstattung Ärztliche Versorgung" />
+  <status value="draft" />
+  <date value="2019-12-11" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Gibt die vom Versicherten gewählte Kostenerstattung für die ärztliche&#xD;&#xA;Versorgung an.&#xD;&#xA;1 (true) = Kostenerstattung für ärztliche Versorgung&#xD;&#xA;0 (false) = keine Kostenerstattung für ärztliche Versorgung" />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.0" />
+  <mapping>
+    <identity value="KVDT" />
+    <name value="KVDT Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="BDT" />
+    <name value="BDT Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Coverage" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://fhir.de/StructureDefinition/gkv/kostenerstattung-aerztliche-versorgung" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+      </slicing>
+      <type>
+        <code value="Coding" />
+      </type>
+    </element>
+    <element id="Extension.value[x]:valueCoding">
+      <path value="Extension.value[x]" />
+      <sliceName value="valueCoding" />
+      <type>
+        <code value="Coding" />
+      </type>
+    </element>
+    <element id="Extension.value[x]:valueCoding.code">
+      <path value="Extension.value[x].code" />
+      <min value="1" />
+      <constraint>
+        <key value="gkv-kostenerstattung-1" />
+        <severity value="warning" />
+        <human value="Es sind nur die Werte 1 (&quot;Kostenerstattung für ärztliche Versorgung&quot;) oder  0 (&quot;keine Kostenerstattung für ärztliche Versorgung&quot;) erlaubt." />
+        <expression value="matches('[01]')" />
+        <source value="Extension" />
+      </constraint>
+    </element>
+  </differential>
+</StructureDefinition>
