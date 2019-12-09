@@ -27,7 +27,7 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
-    <type value="element" />
+    <type value="extension" />
     <expression value="Coverage" />
   </context>
   <type value="Extension" />
@@ -60,13 +60,6 @@
     <element id="Extension.value[x]:valueCoding.code">
       <path value="Extension.value[x].code" />
       <min value="1" />
-      <constraint>
-        <key value="gkv-kostenerstattung-1" />
-        <severity value="warning" />
-        <human value="Es sind nur die Werte 1 (&quot;Kostenerstattung für ärztliche Versorgung&quot;) oder  0 (&quot;keine Kostenerstattung für ärztliche Versorgung&quot;) erlaubt." />
-        <expression value="matches('[01]')" />
-        <source value="Extension" />
-      </constraint>
     </element>
   </differential>
 </StructureDefinition>

@@ -37,9 +37,11 @@
       <short value="Versicherungsart" />
       <definition value="Art der Versicherung: Selbstzahler, gesetzliche/private Versicherung, Berufsgenossenschaft oder Sozialamt" />
       <comment value="28.07.2017 (zulip): TC Konsens bzgl. Verwendung eines eigenen ValueSets anstelle des im Standrad definierten preferred bindings, da die dort igen Codes nicht passen." />
+      <min value="1" />
       <binding>
         <strength value="required" />
         <description value="Art der Versicherung: Selbstzahler, gesetzliche/private Versicherung, Berufsgenossenschaft oder Sozialamt" />
+        <valueSet value="http://fhir.de/ValueSet/versicherungsart-de-basis" />
       </binding>
     </element>
     <element id="Coverage.policyHolder">
