@@ -33,7 +33,7 @@
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <type>
-        <code value="code" />
+        <code value="string" />
       </type>
       <constraint>
         <key value="generation" />
