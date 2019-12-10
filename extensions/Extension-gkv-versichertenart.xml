@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung-aerztliche-versorgung" />
+  <url value="http://fhir.de/StructureDefinition/gkv/versichertenart" />
   <version value="0.9" />
-  <name value="GkVKostenerstattungAerztlicheVersorgung" />
-  <title value="Kennzeichen Kostenerstattung Ärztliche Versorgung" />
+  <name value="GkvVersichertenart" />
+  <title value="Versichertenart GKV" />
   <status value="draft" />
   <date value="2019-12-11" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
@@ -13,7 +13,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Gibt die vom Versicherten gewählte Kostenerstattung für die ärztliche&#xD;&#xA;Versorgung an.&#xD;&#xA;1 (true) = Kostenerstattung für ärztliche Versorgung&#xD;&#xA;0 (false) = keine Kostenerstattung für ärztliche Versorgung" />
+  <description value="Gibt die Versichertenart des Versicherten an.&#xD;&#xA;1=Mitglied&#xD;&#xA;3=Familienversicherter&#xD;&#xA;5=Rentner" />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.0" />
   <mapping>
@@ -36,23 +36,18 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/StructureDefinition/gkv/kostenerstattung-aerztliche-versorgung" />
+      <fixedUri value="http://fhir.de/StructureDefinition/gkv/versichertenart" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="1 = Mitglied | 3 = Familienversicherter | 5 = Rentner" />
       <type>
-        <code value="Coding" />
+        <code value="code" />
       </type>
-    </element>
-    <element id="Extension.value[x].code">
-      <path value="Extension.value[x].code" />
-      <min value="1" />
-      <constraint>
-        <key value="gkv-1" />
-        <severity value="warning" />
-        <human value="Es sind nur die Werte 1 (&quot;Kostenerstattung für (zahn)ärztliche Versorgung&quot;) oder 2 (&quot;keine Kostenerstattung für (zahn)ärztliche Versorgung) erlaubt" />
-        <expression value="matches('[01]')" />
-      </constraint>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/kbv/s-kbv-versichertenstatus" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

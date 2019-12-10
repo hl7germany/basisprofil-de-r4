@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2017-11-06T17:47:49.566+01:00" />
+  </meta>
+  <url value="http://fhir.de/StructureDefinition/gkv/generation-egk" />
+  <version value="0.9" />
+  <name value="GkvGenerationEgk" />
+  <title value="Extension zur Erfassung der Generation der eGK" />
+  <status value="draft" />
+  <date value="2019-12-10" />
+  <fhirVersion value="4.0.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Coverage" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="eGK Generation ( 1 | 1+ | 2 )" />
+      <definition value="Angabe der Generation der Versichertenkarte" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://fhir.de/StructureDefinition/gkv/generation-egk" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+      </slicing>
+    </element>
+    <element id="Extension.value[x]:valueCode">
+      <path value="Extension.valueCode" />
+      <sliceName value="valueCode" />
+      <short value="eGK Generation ( 1 | 1+ | 2 )" />
+      <definition value="Angabe der Generation der Versichertenkarte" />
+      <min value="1" />
+      <type>
+        <code value="code" />
+      </type>
+      <constraint>
+        <key value="gen-1" />
+        <severity value="warning" />
+        <human value="Die Extension darf nur die Werte 1, 1+ oder 2 enthalten" />
+        <expression value="matches('[0|1+|2]')" />
+        <source value="Extension" />
+      </constraint>
+    </element>
+  </differential>
+</StructureDefinition>
