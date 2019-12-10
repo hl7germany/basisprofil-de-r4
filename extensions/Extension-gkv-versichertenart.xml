@@ -27,7 +27,7 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
-    <type value="extension" />
+    <type value="element" />
     <expression value="Coverage" />
   </context>
   <type value="Extension" />
@@ -42,7 +42,7 @@
       <path value="Extension.value[x]" />
       <short value="1 = Mitglied | 3 = Familienversicherter | 5 = Rentner" />
       <type>
-        <code value="code" />
+        <code value="Coding" />
       </type>
       <binding>
         <strength value="required" />

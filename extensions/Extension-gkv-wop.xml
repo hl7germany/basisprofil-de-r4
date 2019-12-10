@@ -27,7 +27,7 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
-    <type value="element" />
+    <type value="extension" />
     <expression value="Coverage" />
   </context>
   <type value="Extension" />
@@ -42,7 +42,7 @@
       <path value="Extension.value[x]" />
       <short value="Kennzeichen Wohnortprinzip" />
       <type>
-        <code value="CodeableConcept" />
+        <code value="Coding" />
       </type>
       <binding>
         <strength value="required" />
