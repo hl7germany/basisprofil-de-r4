@@ -9,6 +9,7 @@
   <title value="Extension zur Erfassung der Generation der eGK" />
   <status value="draft" />
   <date value="2019-12-10" />
+  <description value="Extension zur Erfassung der Generation der eGK" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
