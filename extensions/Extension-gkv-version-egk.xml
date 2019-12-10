@@ -9,6 +9,13 @@
   <title value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
   <status value="draft" />
   <date value="2019-12-10" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
   <fhirVersion value="4.0.0" />
   <kind value="complex-type" />

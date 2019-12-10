@@ -48,23 +48,23 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Coverage.extension:einlesedatum-karte">
+    <element id="Coverage.extension:einlesedatumKarte">
       <path value="Coverage.extension" />
-      <sliceName value="einlesedatum-karte" />
+      <sliceName value="einlesedatumKarte" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/gkv/einlesedatum-karte" />
       </type>
     </element>
-    <element id="Coverage.extension:generation-egk">
+    <element id="Coverage.extension:generationEgk">
       <path value="Coverage.extension" />
-      <sliceName value="generation-egk" />
+      <sliceName value="generationEgk" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/gkv/generation-egk" />
       </type>
     </element>
-    <element id="Coverage.extension:generation-egk.value[x]">
+    <element id="Coverage.extension:generationEgk.value[x]">
       <path value="Coverage.extension.value[x]" />
       <slicing>
         <rules value="open" />
@@ -78,9 +78,9 @@
         <profile value="http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk" />
       </type>
     </element>
-    <element id="Coverage.extension:version-egk">
+    <element id="Coverage.extension:versionEgk">
       <path value="Coverage.extension" />
-      <sliceName value="version-egk" />
+      <sliceName value="versionEgk" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/gkv/version-egk" />
@@ -99,7 +99,7 @@
       <sliceName value="kostenerstattung" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/gkv-kostenerstattung" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
       </type>
     </element>
     <element id="Coverage.extension:wop">
@@ -108,6 +108,38 @@
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/gkv/wop" />
+      </type>
+    </element>
+    <element id="Coverage.extension:besonderePersonengruppe">
+      <path value="Coverage.extension" />
+      <sliceName value="besonderePersonengruppe" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/besondere-personengruppe" />
+      </type>
+    </element>
+    <element id="Coverage.extension:dmpKennzeichen">
+      <path value="Coverage.extension" />
+      <sliceName value="dmpKennzeichen" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen" />
+      </type>
+    </element>
+    <element id="Coverage.extension:ruhenderLeistungsanspruch">
+      <path value="Coverage.extension" />
+      <sliceName value="ruhenderLeistungsanspruch" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch" />
+      </type>
+    </element>
+    <element id="Coverage.extension:zuzahlungsstatus">
+      <path value="Coverage.extension" />
+      <sliceName value="zuzahlungsstatus" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus" />
       </type>
     </element>
     <element id="Coverage.identifier">

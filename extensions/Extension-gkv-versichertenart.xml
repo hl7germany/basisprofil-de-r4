@@ -49,5 +49,13 @@
         <valueSet value="https://fhir.kbv.de/ValueSet/74_VS_SFHIR_KBV_VERSICHERTENSTATUS" />
       </binding>
     </element>
+    <element id="Extension.value[x].system">
+      <path value="Extension.value[x].system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x].code">
+      <path value="Extension.value[x].code" />
+      <min value="1" />
+    </element>
   </differential>
 </StructureDefinition>
