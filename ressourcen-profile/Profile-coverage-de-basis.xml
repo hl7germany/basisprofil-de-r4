@@ -62,10 +62,6 @@
       <path value="Coverage.beneficiary" />
       <short value="Begünstigte Person" />
       <definition value="Person, auf die sich die Kostenübernahme bezieht (der Patient)" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://fhir.de/StructureDefinition/patient-de-basis/0.2" />
-      </type>
     </element>
     <element id="Coverage.payor">
       <path value="Coverage.payor" />
