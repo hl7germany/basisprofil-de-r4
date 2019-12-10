@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/gkv-kostenerstattung" />
+  <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
   <version value="0.9" />
   <name value="GkvKostenerstattung" />
   <status value="draft" />
@@ -98,7 +98,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/StructureDefinition/gkv-kostenerstattung" />
+      <fixedUri value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

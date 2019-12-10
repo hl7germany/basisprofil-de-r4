@@ -31,28 +31,14 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-      </slicing>
-    </element>
-    <element id="Extension.value[x]:valueCode">
-      <path value="Extension.valueCode" />
-      <sliceName value="valueCode" />
-      <short value="eGK Generation ( 1 | 1+ | 2 )" />
-      <definition value="Angabe der Generation der Versichertenkarte" />
-      <min value="1" />
       <type>
         <code value="code" />
       </type>
       <constraint>
-        <key value="gen-1" />
+        <key value="generation" />
         <severity value="warning" />
         <human value="Die Extension darf nur die Werte 1, 1+ oder 2 enthalten" />
         <expression value="matches('[0|1+|2]')" />
-        <source value="Extension" />
       </constraint>
     </element>
   </differential>

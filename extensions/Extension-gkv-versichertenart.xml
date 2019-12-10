@@ -46,7 +46,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/kbv/s-kbv-versichertenstatus" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/74_VS_SFHIR_KBV_VERSICHERTENSTATUS" />
       </binding>
     </element>
   </differential>
