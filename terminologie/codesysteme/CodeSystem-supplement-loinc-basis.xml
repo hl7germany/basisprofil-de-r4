@@ -11,7 +11,8 @@
 			<value value="http://hl7.de/technische-komitees/fhir/" />
 		</telecom>
 	</contact>
-	<description value="CodeSystem Supplement mit Deutschen Übersetzungen für die in den Basisprofilen verwendeten LOINC-Codes" />
+	<description value="CodeSystem Supplement mit Deutschen Übersetzungen für die in den Basisprofilen verwendeten LOINC-Codes. &#xD;&#xA;Dieses LOINC-Supplement enthält Übersetzungen für die in den Basisprofilen verwendeten LOINC-Codes. Es ist zu beachten, dass es hier um keine offiziellen, vom DIMDI freigegebenen Übersetzungen handelt.&#xD;&#xA;Dieses CodeSystem Supplement dient lediglich zu Testzwecken, zur Evaluierung von Tools oder für die Nutzung in nicht-produktiven Prototypen.
+	&#xD;&#xA;&#xD;&#xA;Die Bereitstellung und Erweiterung der offiziellen LOINC-Übersetzungen ist derzeit in Klärung." />
 	<content value="supplement" />
 	<supplements value="http://loinc.org" />
 	<!--**********************Schwangerschaftsstatus***********************-->
