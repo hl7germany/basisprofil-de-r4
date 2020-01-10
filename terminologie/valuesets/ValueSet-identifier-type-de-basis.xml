@@ -7,7 +7,7 @@
 	<name value="identifier-type-de-basis"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<date value="2017-01-27"/>
+	<date value="2020-01-10"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -39,6 +39,10 @@
 				<code value="RI"/>
 				<display value="Resource identifier"/>
 			</concept>
+			<concept>
+				<code value="DN"/>
+				<display value="Doctor number"/>
+			</concept>
 		</include>
 		<include>
 			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
@@ -46,8 +50,8 @@
 	</compose>
 	<expansion>
 		<identifier value="urn:uuid:6984f695-8278-4f83-9f9e-ed8da80df028"/>
-		<timestamp value="2017-09-29T11:34:15+02:00"/>
-		<total value="21"/>
+		<timestamp value="2020-01-10T14:23:00+01:00"/>
+		<total value="22"/>
 		<parameter>
 			<name value="version"/>
 			<valueUri value="http://hl7.org/fhir/ValueSet/identifier-type|3.0.1"/>
@@ -168,6 +172,11 @@
 			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
 			<code value="RI"/>
 			<display value="Resource identifier"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+			<code value="DN"/>
+			<display value="Doctor number"/>
 		</contains>
 		<contains>
 			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>

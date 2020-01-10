@@ -17,7 +17,7 @@
     <type>
         <coding>
             <system value="http://hl7.org/fhir/v2/0203" />
-            <code value="RI" />
+            <code value="DN" />
         </coding>
     </type>
     <description value="Die Einheitliche Fortbildungsnummer, kurz EFN, ist eine 15stellige Zahl, die jedem Arzt von seiner zuständigen Landesärztekammer zugeordnet wird, jedoch bundesweit (im Bereich der Bundesärztekammer) eindeutig ist und auch beim Wechsel der Ärztekammer unverändert bleibt. Sie dient als Identifier des Arztes beim Sammeln von CME-Punkten im Rahmen der Continuing Medical Education." />
