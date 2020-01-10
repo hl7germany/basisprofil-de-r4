@@ -4,7 +4,7 @@
   </meta>
   <url value="http://fhir.de/ValueSet/alpha-id" />
   <version value="0.1" />
-  <name value="Alpha-ID" />
+  <name value="alpha-id" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2020-01-20" />
