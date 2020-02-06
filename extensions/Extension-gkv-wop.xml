@@ -27,7 +27,7 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
-    <type value="extension" />
+    <type value="element" />
     <expression value="Coverage" />
   </context>
   <type value="Extension" />
