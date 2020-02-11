@@ -57,7 +57,7 @@
       </constraint>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/kbv/s-icd-diagnosesicherheit" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT" />
       </binding>
     </element>
   </differential>

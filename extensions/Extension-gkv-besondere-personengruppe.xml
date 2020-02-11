@@ -41,7 +41,7 @@
 			</type>
 			<binding>
 				<strength value="required" />
-				<valueSet value="https://fhir.kbv.de/ValueSet/74_VS_SFHIR_KBV_PERSONENGRUPPE" />
+				<valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_PERSONENGRUPPE" />
 			</binding>
 		</element>
 		<element id="Extension.value[x].system">
