@@ -16,7 +16,6 @@
 		</telecom>
 	</contact>
 	<description value="Codierung verschiedener in DE üblicher Aufnahmearten basierend gesetzlichen Grundlagen " />
-	<copyright value="HL7 Deutschland e.V." />
 	<caseSensitive value="true" />
 	<valueSet value="http://fhir.de/ValueSet/Aufnahmeart" />
 	<content value="complete" />
@@ -134,15 +133,15 @@
 		<display value="integrierte Versorgung" />
 		<definition value="ambulante Aufnahme im Rahmen der integrierten Versorgung"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="DMP" />
 		<display value="Disease Management Program" />
 		<definition value="ambulante Aufnahme im Rahmen eines Disease Management Programs"/>
 	</concept>
-			<concept>
+	<concept>
 		<code value="REHA" />
 		<display value="Rehabilitations-Einrichtungen" />
 		<definition value="stationäre Aufnahme in Rehabilitations-Einrichtungen"/>
 	</concept>
-	
+
 </CodeSystem>
