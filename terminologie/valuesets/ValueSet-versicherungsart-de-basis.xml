@@ -21,6 +21,12 @@
 		<include>
 			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 		</include>
+		<include> 
+			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/> 
+			<concept> 
+				<code value="UNK"/> 
+			</concept> 
+		</include> 
 	</compose>
 	<expansion>
 		<identifier value="urn:uuid:5d03e8e9-fe99-4f73-85a6-30102d1f5f5f"/>
@@ -69,6 +75,11 @@
 			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 			<code value="BEI"/>
 			<display value="Beihilfe"/>
+		</contains>
+		<contains>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+			<code value="UNK"/>
+			<display value="Unbekannt"/>
 		</contains>
 	</expansion>
 </ValueSet>
