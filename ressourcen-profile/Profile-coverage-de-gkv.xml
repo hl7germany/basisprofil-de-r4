@@ -72,7 +72,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/gkv/version-egk" />
+        <profile value="http://fhir.de/StructureDefinition/gkv/version-vsdm" />
       </type>
     </element>
     <element id="Coverage.extension:generationEgk">
