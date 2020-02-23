@@ -3,6 +3,9 @@
   <url value="http://fhir.de/StructureDefinition/gkv/version-egk" />
   <version value="0.9.2" />
   <name value="GkvVersionEgk" />
+  <url value="http://fhir.de/StructureDefinition/gkv/version-asdm" />
+  <version value="0.9" />
+  <name value="GkvVersionVsdm" />
   <title value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
   <status value="draft" />
   <date value="2019-12-10" />
@@ -32,7 +35,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/StructureDefinition/gkv/version-egk" />
+      <fixedUri value="http://fhir.de/StructureDefinition/gkv/version-vsdm" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
