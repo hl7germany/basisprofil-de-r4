@@ -2,13 +2,13 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
     </meta>
-    <url value="urn:oid:0.4.0.127.0.16.1.1.2.1"/>
+    <url value="http://fhir.de/CodeSystem/edqm/dose-form"/>
     <identifier>
         <use value="official"/>
         <system value="http://art-decor.org/ns/oids/vs"/>
         <value value="2.16.840.1.113883.2.6.60.4.11.27"/>
     </identifier>
-    <version value="2018-05-09T00:00:00"/>
+    <version value="0.9.2" />
     <name value="EDQMDoseForm"/>
     <title value="EDQMDoseForm"/>
     <status value="draft"/>

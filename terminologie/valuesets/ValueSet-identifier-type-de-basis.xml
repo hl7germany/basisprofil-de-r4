@@ -3,7 +3,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
 	</meta>
 	<url value="http://fhir.de/ValueSet/identifier-type-de-basis"/>
-	<version value="0.9"/>
+	<version value="0.9.2" />
 	<name value="identifier-type-de-basis"/>
 	<status value="draft"/>
 	<experimental value="true"/>

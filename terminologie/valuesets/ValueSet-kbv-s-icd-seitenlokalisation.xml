@@ -7,7 +7,7 @@
 		<system value="urn:ietf:rfc:3986"/>
 		<value value="urn:oid:1.2.276.0.76.3.1.1.5.1.22"/>
 	</identifier>
-	<version value="0.9"/>
+	<version value="0.9.2" />
 	<name value="kbv-s-icd-seitenlokalisation"/>
 	<status value="draft"/>
 	<experimental value="true"/>

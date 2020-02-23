@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<url value="http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen" />
-	<version value="0.9" />
-
+	<version value="0.9.2" />
 	<name value="GkvDmpKennzeichen" />
 	<status value="draft" />
 	<date value="2019-12-10" />

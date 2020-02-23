@@ -1,4 +1,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+	</meta>
 	<url value="http://fhir.de/CodeSystem/dimdi/ops"/>
 	<name value="ops"/>
 	<status value="draft"/>

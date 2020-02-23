@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
-  <version value="0.9" />
+  <version value="0.9.2" />
   <name value="ICD10GMStern" />
   <title value="Extension zur Erfassung des ICD-10-GM-Stern-Codes" />
   <status value="draft" />
