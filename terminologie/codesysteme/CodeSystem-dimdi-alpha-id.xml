@@ -2,6 +2,9 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
+	<identifier>
+		<value value="1.2.276.0.76.5.479"/>
+	</identifier>
 	<url value="http://fhir.de/CodeSystem/dimdi/alpha-id"/>
 	<name value="alpha-id"/>
 	<status value="draft"/>
