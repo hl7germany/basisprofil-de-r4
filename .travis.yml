@@ -6,4 +6,4 @@ before_script:
 
 script:
   - JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
-  - java -jar validator.jar -version 4.0.1 *
+  - java -jar validator.jar -version 4.0.1 beispiele -ig datentypen-profile -ig extensions -ig ressourcen-profile -ig terminologie -recurse
