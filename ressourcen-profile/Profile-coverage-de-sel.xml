@@ -21,6 +21,7 @@
   <abstract value="false" />
   <type value="Coverage" />
   <baseDefinition value="http://fhir.de/StructureDefinition/coverage-de-basis" />
+  <derivation value="constraint" />
   <differential>
     <element id="Coverage.type.coding">
       <path value="Coverage.type.coding" />
