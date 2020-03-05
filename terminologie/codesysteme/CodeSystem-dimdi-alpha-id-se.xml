@@ -3,13 +3,13 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<identifier>
-		<value value="1.2.276.0.76.5.479"/>
+		<value value="1.2.276.0.76.5.480"/>
 	</identifier>
-	<url value="http://fhir.de/CodeSystem/dimdi/alpha-id"/>
-	<name value="alpha-id"/>
+	<url value="http://fhir.de/CodeSystem/dimdi/alpha-id-se"/>
+	<name value="alpha-id-se"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<date value="2020-01-10"/>
+	<date value="2020-02-24"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -17,7 +17,7 @@
 			<value value="http://hl7.de/technische-komitees/fhir/"/>
 		</telecom>
 	</contact>
-	<description value="Alpha-ID Platzhalter-CodeSystem"/>
+	<description value="Alpha-ID-SE Platzhalter-CodeSystem"/>
 	<copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information"/>
 	<caseSensitive value="true"/>
 	<content value="not-present"/>
