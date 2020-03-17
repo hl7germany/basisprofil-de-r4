@@ -35,12 +35,7 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <constraint>
-        <key value="zanr-1" />
-        <severity value="warning" />
-        <human value="Die NamingSystem-URL der ZANR muss dem Schema &quot;http://fhir.de/NamingSystem/kzv/[0-9][0-9]/zahnarztnummer&quot; entsprechen" />
-        <expression value="matches('http://fhir.de/NamingSystem/kzv/[0-9][0-9]/zahnarztnummer')" />
-      </constraint>
+      <fixedUri value="http://fhir.de/NamingSystem/kzbv/zahnarztnummer" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
@@ -51,6 +46,7 @@
         <severity value="warning" />
         <human value="Die ZANR muss 1- bis 6-stellig numerisch sein" />
         <expression value="matches('[0-9]{1,6}')" />
+        <source value="Identifier" />
       </constraint>
       <mustSupport value="true" />
     </element>
