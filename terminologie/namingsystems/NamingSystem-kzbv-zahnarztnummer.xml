@@ -25,7 +25,7 @@
 			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.
 			Die Zahnarztnummer ist 8-stellig numerisch.
 			Sie besteht in Stelle 1-2 aus den zweistelligen numerischen Codes der herausgebenen KZV sowie in Stelle 3-8 aus der eigentlichen Zahnarztnummer.
-			Letztere ist 1- bis 6-stellig numerisch und wird bei weniger als 6 Stellen mit Nullen ("0") nach links aufgefüllt.
+			Letztere ist 1- bis 6-stellig numerisch und wird bei weniger als 6 Stellen mit Nullen (0) nach links aufgefüllt.
 			Die KZV-Codes sind hier zu finden (Seite 77): https://www.gkv-datenaustausch.de/media/dokumente/leistungserbringer_1/zahnaerzte/technische_anlagen___aktuell_1/20170727_TA_Version_3_8_oA.pdf
 			"/>
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet."/>
