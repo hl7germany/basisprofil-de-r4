@@ -20,7 +20,6 @@
     </element>
     <element id="Identifier.type">
       <path value="Identifier.type" />
-      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
