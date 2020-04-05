@@ -17,7 +17,7 @@
     </telecom>
   </contact>
   <description value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <context>

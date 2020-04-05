@@ -6,7 +6,7 @@
   <title value="Practitioner, deutsches Basisprofil" />
   <status value="draft" />
   <description value="Profile zur Darstellung von z.B. Ärzten oder Zahnärzten" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="Practitioner" />

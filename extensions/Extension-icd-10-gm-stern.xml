@@ -14,7 +14,7 @@
     </telecom>
   </contact>
   <description value="Der 'Stern'-Code aus der Kreuz-Stern-Notation. An dieser Stelle ohne '*'-Symbol" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <context>

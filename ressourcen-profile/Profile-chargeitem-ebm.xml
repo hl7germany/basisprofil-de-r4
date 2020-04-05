@@ -8,7 +8,7 @@
   <date value="2019-10-30" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <copyright value="HL7 Deutschland e.V." />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="ChargeItem" />

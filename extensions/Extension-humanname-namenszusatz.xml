@@ -15,7 +15,7 @@
 	</contact>
 	<description value="Namenszusatz als Bestandteil das Nachnamens, wie in VSDM (Versichertenstammdatenmanagement, &quot;eGK&quot;) definiert.&#xD;&#xA;Beispiele: Gräfin, Prinz oder Fürst" />
 	<copyright value="HL7 Deutschland e.V." />
-	<fhirVersion value="4.0.0" />
+	<fhirVersion value="4.0.1" />
 	<kind value="complex-type" />
 	<abstract value="false" />
 
