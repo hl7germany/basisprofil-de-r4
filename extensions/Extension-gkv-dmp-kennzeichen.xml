@@ -13,7 +13,7 @@
 		</telecom>
 	</contact>
       <description value="Gibt die Teilnahme des Versicherten an einem Disease Management Program&#xD;&#xA;an. &#xD;&#xA;Schlüsselverzeichnis:&#xD;&#xA;00 = nicht gesetzt&#xD;&#xA;01 = Diabetes mellitus Typ 2, &#xD;&#xA;02 = Brustkrebs, &#xD;&#xA;03 = Koronare Herzkrankheit, &#xD;&#xA;04 = Diabetes mellitus Typ 1, &#xD;&#xA;05 = Asthma bronchiale, &#xD;&#xA;06 = COPD (chronic obstructive pulmonary disease) &#xD;&#xA;&#xD;&#xA;Das DMP-Kennzeichen findet derzeit aufgrund bilateraler vertraglicher&#xD;&#xA;Verpflichtungen von einzelnen Kostenträgern und Leistungserbringern noch&#xD;&#xA;Verwendung. Das DMP-Kennzeichen wird in diesem Zusammenhang als&#xD;&#xA;Angabe zum Nachweis von Wahltarifen nach § 53 SGB V bzw. der Angaben&#xD;&#xA;zum Nachweis von zusätzlichen Vertragsverhältnissen verwendet." />
-	<fhirVersion value="4.0.0" />
+	<fhirVersion value="4.0.1" />
 	<mapping>
 		<identity value="rim" />
 		<uri value="http://hl7.org/v3" />

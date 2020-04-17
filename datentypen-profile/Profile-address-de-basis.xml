@@ -17,7 +17,7 @@
   <description value="Erweiterung des Komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile" />
   <purpose value="Einige Systeme und Standards in Deutschland erfordern die separate Erfassung von Straße und Hausnummer.&#xD;&#xA;Die Erweiterung des Datentyps Address fügt hierfür die entsprechenden ISO-Extensions hinzu.&#xD;&#xA;Ob deren Verwendung in einem konkreten Kontext verpflichtend ist, muss in den abgeleiteten Profilen festgelegt werden." />
   <copyright value="HL7 Deutschland e.V." />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="KVDT" />
     <name value="KVDT Mapping" />

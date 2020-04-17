@@ -6,7 +6,7 @@
   <title value="Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien" />
   <status value="draft" />
   <date value="2019-08-07" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
