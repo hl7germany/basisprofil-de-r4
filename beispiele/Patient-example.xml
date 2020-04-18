@@ -1,0 +1,35 @@
+<Patient xmlns="http://hl7.org/fhir">
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+                <code value="GKV" />
+            </coding>
+        </type>
+        <system value="http://fhir.de/NamingSystem/gkv/kvid-10" />
+        <value value="X234567890" />
+    </identifier>
+    <name>
+        <use value="official" />
+        <family value="Musterman Test">
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+                <valueString value="Test" />
+            </extension>
+        </family>
+        <given value="Martina" />
+    </name>
+    <birthDate value="1935-06-22" />
+    <address>
+        <type value="physical" />
+        <line value="Musterstr. 1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+                <valueString value="1" />
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+                <valueString value="Musterstr." />
+            </extension>
+        </line>
+        <city value="Köln" />
+        <postalCode value="50823" />
+    </address>
+</Patient>
