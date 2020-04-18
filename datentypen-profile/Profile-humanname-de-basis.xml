@@ -188,10 +188,6 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier" />
       </type>
     </element>
-    <element id="HumanName.prefix.extension:prefix-qualifier.value[x]:valueCode">
-      <path value="HumanName.prefix.extension.valueCode" />
-      <sliceName value="valueCode" />
-    </element>
     <element id="HumanName.suffix">
       <path value="HumanName.suffix" />
       <short value="Namensteile nach dem Nachnamen" />
