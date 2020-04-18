@@ -125,10 +125,6 @@
         <map value="3101" />
       </mapping>
     </element>
-    <element id="HumanName.family.extension:nachname.value[x]:valueString">
-      <path value="HumanName.family.extension.valueString" />
-      <sliceName value="valueString" />
-    </element>
     <element id="HumanName.family.extension:vorsatzwort">
       <path value="HumanName.family.extension" />
       <sliceName value="vorsatzwort" />
@@ -146,10 +142,6 @@
         <identity value="KVDT" />
         <map value="3120" />
       </mapping>
-    </element>
-    <element id="HumanName.family.extension:vorsatzwort.value[x]:valueString">
-      <path value="HumanName.family.extension.valueString" />
-      <sliceName value="valueString" />
     </element>
     <element id="HumanName.given">
       <path value="HumanName.given" />
