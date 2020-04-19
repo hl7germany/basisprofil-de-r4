@@ -99,7 +99,7 @@
       </extension>
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/kbv/lanr" />
+      <fixedUri value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
