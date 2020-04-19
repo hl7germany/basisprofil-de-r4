@@ -52,7 +52,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.kbv.de/ValueSet/VS_AW_Krankenversicherung_WOP" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KTS_WOP" />
       </binding>
     </element>
     <element id="Extension.value[x].system">
@@ -64,7 +64,6 @@
       </extension>
       <path value="Extension.value[x].system" />
       <min value="1" />
-      <fixedUri value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KTS_WOP" />
     </element>
     <element id="Extension.value[x].code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
