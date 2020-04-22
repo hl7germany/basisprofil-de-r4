@@ -1,0 +1,21 @@
+<ChargeItem xmlns="http://hl7.org/fhir">
+	<meta>
+		<profile value="http://fhir.de/StructureDefinition/chargeitem-ebm"/>
+	</meta>
+	<status value="billable"/>
+	<code>
+		<coding>
+			<system value="http://fhir.de/CodeSystem/kbv/ebm"/>
+			<version value="2017-4"/>
+			<code value="31600"/>	
+			<display value="Postoperative Behandlung durch den Hausarzt"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/Example-patient-de-basis-address-1"/>
+	</subject>
+	<occurrenceDateTime value="2017-11-07"/>
+	<quantity>
+		<value value="1"/>
+	</quantity>
+</ChargeItem>
