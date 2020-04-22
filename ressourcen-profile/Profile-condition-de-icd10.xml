@@ -152,18 +152,13 @@
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit" />
       </type>
     </element>
-<<<<<<< HEAD
     <element id="Condition.code.coding:ICD-10-GM.extension:Seitenlokalisation">
-=======
-    <element id="Condition.bodySite.coding">
->>>>>>> be488b416a3ba6f7263f663c7cff8472a4c3a870
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
         <valueCode value="4.0.0" />
       </extension>
-<<<<<<< HEAD
       <path value="Condition.code.coding.extension" />
       <sliceName value="Seitenlokalisation" />
       <max value="1" />
@@ -171,51 +166,6 @@
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/seitenlokalisation" />
       </type>
-=======
-      <path value="Condition.bodySite.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.bodySite.coding" />
-      <sliceName value="ICD-10-GM-Seitenlokalisation" />
-      <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION" />
-      </binding>
-    </element>
-    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.bodySite.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Condition.bodySite.coding:ICD-10-GM-Seitenlokalisation.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Condition.bodySite.coding.code" />
-      <min value="1" />
->>>>>>> be488b416a3ba6f7263f663c7cff8472a4c3a870
     </element>
   </differential>
 </StructureDefinition>
