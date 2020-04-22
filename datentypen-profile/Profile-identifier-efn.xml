@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/identifier-iknr" />
+  <url value="http://fhir.de/StructureDefinition/identifier-efn" />
   <version value="0.9.2" />
-  <name value="IdentifierIknr" />
-  <title value="Identifier-Profil für die Abbildung eines Instituskennzeichen" />
+  <name value="IdentifierEfn" />
+  <title value="Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)" />
   <status value="draft" />
-  <date value="2019-12-08" />
-  <description value="Identifier-Profil für die Abbildung eines Instituskennzeichens" />
+  <date value="2020-04-18" />
+  <description value="Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -23,6 +23,21 @@
       </extension>
       <path value="Identifier.use" />
       <fixedCode value="official" />
+    </element>
+    <element id="Identifier.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.type" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="LANR" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Identifier.type.coding">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -41,7 +56,7 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="Identifier.type.coding:XX-Type">
+    <element id="Identifier.type.coding:DN-Type">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -49,11 +64,11 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Identifier.type.coding" />
-      <sliceName value="XX-Type" />
+      <sliceName value="DN-Type" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="Identifier.type.coding:XX-Type.system">
+    <element id="Identifier.type.coding:DN-Type.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -64,7 +79,7 @@
       <min value="1" />
       <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
     </element>
-    <element id="Identifier.type.coding:XX-Type.code">
+    <element id="Identifier.type.coding:DN-Type.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -73,7 +88,7 @@
       </extension>
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="XX" />
+      <fixedCode value="DN" />
     </element>
     <element id="Identifier.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -84,7 +99,7 @@
       </extension>
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
+      <fixedUri value="http://fhir.de/NamingSystem/bundesaerztekammer/efn" />
       <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
@@ -97,12 +112,57 @@
       <path value="Identifier.value" />
       <min value="1" />
       <constraint>
-        <key value="ik-1" />
+        <key value="lanr-1" />
         <severity value="warning" />
-        <human value="Eine IK muss 8- (ohne Prüfziffer) oder 9-stellig (mit Prüfziffer) sein" />
-        <expression value="matches('[0-9]{8,9}')" />
+        <human value="Eine LANR muss neunstellig numerisch sein" />
+        <expression value="matches('[0-9]{9}')" />
         <source value="Identifier" />
       </constraint>
+      <mustSupport value="true" />
+    </element>
+    <element id="Identifier.assigner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.assigner" />
+      <mustSupport value="false" />
+    </element>
+    <element id="Identifier.assigner.identifier.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.assigner.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
+    </element>
+    <element id="Identifier.assigner.identifier.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.assigner.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Identifier.assigner.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Identifier.assigner.display" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
   </differential>

@@ -3,9 +3,9 @@
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
 	<name value="kbv-lanr"/>
-	<status value="draft"/>
+	<status value="retired"/>
 	<kind value="identifier"/>
-	<date value="2017-09-15"/>
+	<date value="2020-04-18"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -21,7 +21,7 @@
 		</coding>
 	</type>
 	<description
-			value="Die LANR hat 9 Stellen:  6 Stellen identifizieren lebenslang eindeutig den Arzt (Ziffern 1–6) 1 Stelle ist Prüfziffer (Ziffer 7) 2 Stellen für den Fachgruppenschlüssel der nach Versorgungsbereichen, Fachgebieten und Schwerpunkten unterscheidet (Ziffern 8–9) Damit ist es eine Mischung aus einer arztidentifizierenden Nummer und einer Fachbereichszuordnung (-berechtigung), da ein Arzt durchaus auch mehrere Nummern erhalten kann."/>
+			value="Der Namensraum für die (L)ANR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."/>
 	<usage value="Die KBV hat angegeben, dass diese Nummern auf entsprechende Formulare zu drucken sind, allerdings ist bislang nicht näher beschrieben, wie diese Informationen intern zu übermitteln sind. Für eine normale Arztpraxis ist dies ohne Belang. Im Krankenhausumfeld ist diese Information aber relevant, da die abrechnende Stelle typischerweise nicht die ist, wo die Leistungen etc. anfallen.  Durch die Vermischung der eigentlichen Informationen in eine ID ist eine präzise Zuordnung folglich nicht ohne weiteres möglich."/>
 	<uniqueId>
 		<type value="oid"/>
@@ -33,6 +33,7 @@
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>
+			<end value="2020-04-18"/>
 		</period>
 	</uniqueId>
 </NamingSystem>

@@ -3,9 +3,9 @@
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
 	<name value="kbv-bsnr"/>
-	<status value="draft"/>
+	<status value="retired"/>
 	<kind value="identifier"/>
-	<date value="2017-09-15"/>
+	<date value="2020-04-18"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -21,8 +21,8 @@
 		</coding>
 	</type>
 	<description
-			value="Die Betriebsstättennummer (BSNR) entspricht der bis zum 30. Juni 2008 gültigen siebenstelligen KV-Abrechnungsnummer, ergänzt um zwei angehängte Nullen. Sie identifiziert die Arztpraxis als abrechnende Einheit und ermöglicht die Zuordnung ärztlicher Leistungen zum Ort der Leistungserbringung. Dabei umfasst der Begriff Arztpraxis auch Medizinische Versorgungszentren (MVZ), Institute, Notfallambulanzen sowie Ermächtigungen an Krankenhäusern.  Stellen 1–2: KV-Landes- oder Bezirksstellenschlüssel[1] Stellen 3–7: eindeutige Identifikationsnummer der KV, in deren Bereich die Betriebsstätte liegt Stellen 8, 9: „00“"/>
-	<usage value="BSNR und LANR werden in der Regel kombiniert verwendet, um einen Arzt in seiner Funktion und seiner Praxis eindeutig zu identifizieren. Typische Use Cases sind Abrechnungen sowie die Übermittlung abrechnungsrelevanter medizinischer Daten"/>
+			value="Der Namensraum für die BSNR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."/>
+	<usage value="BSNR und (L)ANR werden in der Regel kombiniert verwendet, um einen Arzt in seiner Funktion und seiner Praxis eindeutig zu identifizieren. Typische Use Cases sind Abrechnungen sowie die Übermittlung abrechnungsrelevanter medizinischer Daten"/>
 	<uniqueId>
 		<type value="oid"/>
 		<value value="1.2.276.0.76.4.17"/>
@@ -33,6 +33,7 @@
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>
+			<end value="2020-04-18"/>
 		</period>
 	</uniqueId>
 </NamingSystem>

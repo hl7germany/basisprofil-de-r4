@@ -5,7 +5,7 @@
   <name value="GkvWop" />
   <title value="Kennzeichen Wohnortprinzip (WOP)" />
   <status value="draft" />
-  <date value="2019-12-11" />
+  <date value="2020-04-18" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -39,6 +39,12 @@
       <fixedUri value="http://fhir.de/StructureDefinition/gkv/wop" />
     </element>
     <element id="Extension.value[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Extension.value[x]" />
       <short value="Kennzeichen Wohnortprinzip" />
       <type>
@@ -46,8 +52,28 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.kbv.de/ValueSet/VS_AW_Krankenversicherung_WOP" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KTS_WOP" />
       </binding>
+    </element>
+    <element id="Extension.value[x].system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Extension.value[x].system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x].code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Extension.value[x].code" />
+      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>
