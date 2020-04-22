@@ -23,11 +23,11 @@
   <abstract value="false" />
   <context>
     <type value="element" />
-    <expression value="Condition.code" />
+    <expression value="CodeableConcept.coding" />
   </context>
   <context>
     <type value="element" />
-    <expression value="Procedure.code" />
+    <expression value="Coding" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
@@ -39,6 +39,7 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <min value="1" />
       <type>
         <code value="Coding" />
       </type>
