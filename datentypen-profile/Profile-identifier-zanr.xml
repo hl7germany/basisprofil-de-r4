@@ -100,7 +100,6 @@
       <path value="Identifier.system" />
       <min value="1" />
       <fixedUri value="http://fhir.de/NamingSystem/kzbv/zahnarztnummer" />
-      <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -118,17 +117,6 @@
         <expression value="matches('[0-9]{8}')" />
         <source value="Identifier" />
       </constraint>
-      <mustSupport value="true" />
-    </element>
-    <element id="Identifier.assigner">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Identifier.assigner" />
-      <mustSupport value="false" />
     </element>
     <element id="Identifier.assigner.identifier.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -163,7 +151,6 @@
       </extension>
       <path value="Identifier.assigner.display" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

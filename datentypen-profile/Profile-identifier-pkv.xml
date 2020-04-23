@@ -15,14 +15,32 @@
   <derivation value="constraint" />
   <differential>
     <element id="Identifier.use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.use" />
       <fixedCode value="secondary" />
     </element>
     <element id="Identifier.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.type" />
       <min value="1" />
     </element>
     <element id="Identifier.type.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.type.coding" />
       <slicing>
         <discriminator>
@@ -34,48 +52,92 @@
       <min value="1" />
     </element>
     <element id="Identifier.type.coding:PKV-Type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.type.coding" />
       <sliceName value="PKV-Type" />
       <min value="1" />
       <max value="1" />
     </element>
     <element id="Identifier.type.coding:PKV-Type.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.type.coding.system" />
       <min value="1" />
       <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
     </element>
     <element id="Identifier.type.coding:PKV-Type.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.type.coding.code" />
       <min value="1" />
       <fixedCode value="PKV" />
     </element>
-    <element id="Identifier.system">
-      <path value="Identifier.system" />
-      <mustSupport value="true" />
-    </element>
     <element id="Identifier.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.value" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Identifier.assigner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.assigner" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Identifier.assigner.identifier.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.assigner.identifier.system" />
       <min value="1" />
       <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
     </element>
     <element id="Identifier.assigner.identifier.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Identifier.assigner.identifier.value" />
       <min value="1" />
     </element>
     <element id="Identifier.assigner.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
       <path value="Identifier.assigner.display" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

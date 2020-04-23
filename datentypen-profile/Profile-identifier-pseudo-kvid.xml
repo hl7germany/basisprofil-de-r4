@@ -85,7 +85,6 @@
       <path value="Identifier.system" />
       <min value="1" />
       <fixedUri value="http://fhir.de/NamingSystem/gkv/pseudo-kvid" />
-      <mustSupport value="true" />
     </element>
     <element id="Identifier.value">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -96,7 +95,6 @@
       </extension>
       <path value="Identifier.value" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
