@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/normgroesse" />
-  <version value="0.9.2" />
+  <version value="0.9.5" />
   <name value="Normgroesse" />
   <status value="draft" />
   <description value="Die Packungsgrößenkennzeichnung für Medikamente ist eine in Deutschland bestehende Normierung der in der Apotheke abzugebenden Menge (Stückzahl bei Tabletten, Kapseln, Zäpfchen und anderen einzeldosierten Formen, Milliliter oder Gramm bei halbfesten und flüssigen Mitteln) eines Fertigarzneimittels im Rahmen der vertragsärztlichen Versorgung.&#xD;&#xA;Rechtsgrundlage der Normierung war bis 2010 die Packungsgrößenverordnung (PackungsV). Sie ordnete folgende drei Packungsgrößen zu – das N steht für Normgröße:&#xD;&#xA;&#xD;&#xA;N1 – kleine Packung&#xD;&#xA;N2 – mittlere Packung&#xD;&#xA;N3 – große Packung&#xD;&#xA;(siehe https://de.wikipedia.org/wiki/Packungsgr%C3%B6%C3%9Fenkennzeichnung)" />
