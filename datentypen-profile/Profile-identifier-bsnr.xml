@@ -35,7 +35,7 @@
       <patternCodeableConcept>
         <coding>
           <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
-          <code value="LANR" />
+          <code value="BSNR" />
         </coding>
       </patternCodeableConcept>
     </element>
