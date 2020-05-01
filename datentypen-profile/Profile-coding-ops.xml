@@ -38,12 +38,8 @@
       <short value="Der OPS-Code" />
       <min value="1" />
       <example>
-        <label value="Postkoordinierter Kreuz-Stern-Code" />
-        <valueCode value="A12.3+ B45.6*" />
-      </example>
-      <example>
-        <label value="Einfacher ICD-Code" />
-        <valueCode value="F17.4" />
+        <label value="Einfacher OPS-Code" />
+        <valueCode value="5-470" />
       </example>
     </element>
   </differential>
