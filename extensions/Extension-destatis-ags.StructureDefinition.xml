@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://fhir.de/StructureDefinition/destatis/ags" />
+  <version value="0.9.5" />
+  <name value="Extension-destatis-ags" />
+  <status value="draft" />
+  <description value="Extension für die Abbildung des Amtlichen Gemeindeschlüssels&#xD;&#xA;https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Address.city" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://fhir.de/StructureDefinition/destatis/ags" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="code" />
+      </type>
+      <example>
+        <label value="AGS Hildesheim" />
+        <valueCode value="03254021" />
+      </example>
+    </element>
+    <maxLength value="8" />
+  </differential>
+</StructureDefinition>
