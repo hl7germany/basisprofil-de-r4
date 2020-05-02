@@ -2,7 +2,7 @@ language: java
 jdk: openjdk11
 
 before_script:
-  - wget -q https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar -O validator.jar
+  - wget -q https://storage.googleapis.com/ig-build/org.hl7.fhir.validator.jar -O validator.jar
 
 script:
   - JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
