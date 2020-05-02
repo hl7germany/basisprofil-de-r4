@@ -3,7 +3,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
 	</meta>
 	<url value="http://fhir.de/ValueSet/versicherungsart-de-basis"/>
-	<version value="0.9.2" />
+	<version value="0.9.5" />
 	<name value="VersicherungsartDeBasis"/>
 	<status value="draft"/>
 	<experimental value="true"/>
@@ -22,6 +22,9 @@
 			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 		</include>
 		<include>
+			<system value="https://fhir.kbv.de/ValueSet/KBV_VS_FOR_Payor_type"/>
+		</include>
+		<include>
 			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
 			<concept>
 				<code value="UNK"/>
@@ -29,9 +32,9 @@
 		</include>
 	</compose>
 	<expansion>
-		<identifier value="urn:uuid:5d03e8e9-fe99-4f73-85a6-30102d1f5f5f"/>
-		<timestamp value="2017-09-12T19:04:54+02:00"/>
-		<total value="8"/>
+		<identifier value="urn:uuid:25fd023d-1403-4c86-b788-d0454a7340ae"/>
+		<timestamp value="2020-04-18T17:33:00+02:00"/>
+		<total value="10"/>
 		<parameter>
 			<name value="version"/>
 			<valueUri value="http://fhir.de/CodeSystem/versicherungsart-de-basis|0.1"/>
@@ -75,6 +78,11 @@
 			<system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 			<code value="BEI"/>
 			<display value="Beihilfe"/>
+		</contains>
+		<contains>
+			<system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Payor_Type_KBV"/>
+			<code value="SKT"/>
+			<display value="Sonstige Kostenträger"/>
 		</contains>
 		<contains>
 			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>

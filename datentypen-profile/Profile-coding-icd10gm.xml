@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-  <version value="0.9.2" />
+  <version value="0.9.5" />
   <name value="CodingICD10GM" />
   <title value="Coding-Profil für ICD-10-GM" />
   <status value="draft" />

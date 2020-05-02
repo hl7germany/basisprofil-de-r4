@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/coverage-de-gkv" />
-  <version value="0.9.2" />
+  <version value="0.9.5" />
   <name value="CoverageDeGkv" />
   <title value="Coverage, deutsches GKV-Profil" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2019-12-11" />
+  <date value="2020-04-18" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -50,6 +50,12 @@
       </slicing>
     </element>
     <element id="Coverage.extension:einlesedatumKarte">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="einlesedatumKarte" />
       <max value="1" />
@@ -59,6 +65,12 @@
       </type>
     </element>
     <element id="Coverage.extension:onlinepruefung">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="onlinepruefung" />
       <max value="1" />
@@ -68,6 +80,12 @@
       </type>
     </element>
     <element id="Coverage.extension:versionEgk">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="versionEgk" />
       <max value="1" />
@@ -77,6 +95,12 @@
       </type>
     </element>
     <element id="Coverage.extension:generationEgk">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="generationEgk" />
       <type>
@@ -85,6 +109,12 @@
       </type>
     </element>
     <element id="Coverage.extension:versichertenart">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="versichertenart" />
       <max value="1" />
@@ -94,6 +124,12 @@
       </type>
     </element>
     <element id="Coverage.extension:kostenerstattung">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="kostenerstattung" />
       <max value="1" />
@@ -103,6 +139,12 @@
       </type>
     </element>
     <element id="Coverage.extension:wop">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="wop" />
       <max value="1" />
@@ -112,6 +154,12 @@
       </type>
     </element>
     <element id="Coverage.extension:besonderePersonengruppe">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="besonderePersonengruppe" />
       <max value="1" />
@@ -121,6 +169,12 @@
       </type>
     </element>
     <element id="Coverage.extension:dmpKennzeichen">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="dmpKennzeichen" />
       <max value="1" />
@@ -130,6 +184,12 @@
       </type>
     </element>
     <element id="Coverage.extension:ruhenderLeistungsanspruch">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="ruhenderLeistungsanspruch" />
       <max value="1" />
@@ -139,6 +199,12 @@
       </type>
     </element>
     <element id="Coverage.extension:zuzahlungsstatus">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.extension" />
       <sliceName value="zuzahlungsstatus" />
       <max value="1" />
@@ -148,6 +214,12 @@
       </type>
     </element>
     <element id="Coverage.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.identifier" />
       <slicing>
         <discriminator>
@@ -162,6 +234,12 @@
       <min value="1" />
     </element>
     <element id="Coverage.identifier:KrankenversichertenID">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.identifier" />
       <sliceName value="KrankenversichertenID" />
       <max value="1" />
@@ -170,18 +248,13 @@
         <profile value="http://fhir.de/StructureDefinition/identifier-kvid-10" />
       </type>
     </element>
-    <element id="Coverage.identifier:KrankenversichertenID.type.coding">
-      <path value="Coverage.identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
     <element id="Coverage.identifier:pseudo-Krankenversichertennummer">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.identifier" />
       <sliceName value="pseudo-Krankenversichertennummer" />
       <short value="pseudonymisierte Krankenversichertennummer" />
@@ -192,24 +265,54 @@
       </type>
     </element>
     <element id="Coverage.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.type" />
       <comment value="28.07.2017 (zulip): TC Konsens bzgl. Verwendung eines eigenen ValueSets anstelle des im Standrad definierten preferred bindings, da die dortigen Codes nicht passen." />
     </element>
     <element id="Coverage.type.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.type.coding" />
       <min value="1" />
     </element>
     <element id="Coverage.type.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.type.coding.system" />
       <min value="1" />
       <fixedUri value="http://fhir.de/CodeSystem/versicherungsart-de-basis" />
     </element>
     <element id="Coverage.type.coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.type.coding.code" />
       <min value="1" />
       <fixedCode value="GKV" />
     </element>
     <element id="Coverage.subscriber.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.subscriber.identifier" />
       <short value="VersichertenID (10-stellig) des Hauptversicherten" />
       <patternIdentifier>
@@ -217,14 +320,35 @@
       </patternIdentifier>
     </element>
     <element id="Coverage.subscriber.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
       <path value="Coverage.subscriber.display" />
       <short value="Name des Hauptversicherten" />
     </element>
     <element id="Coverage.beneficiary">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.beneficiary" />
       <comment value="Die Angabe der 10-stelligen Krankenversichertennummer ist verpflichtend. Durch die Referenz auf eine Patient-Resource können weitere Informationen zum Patienten hinterlegt werden." />
     </element>
     <element id="Coverage.beneficiary.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.beneficiary.identifier" />
       <short value="Identifier der versicherten Person" />
       <patternIdentifier>
@@ -232,11 +356,26 @@
       </patternIdentifier>
     </element>
     <element id="Coverage.beneficiary.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
       <path value="Coverage.beneficiary.display" />
       <short value="Name der Versicherten Person" />
       <definition value="Die Angabe des Namens des Versicherten dient der geeigenten Darstellung für den Benutzer und hat keine technische Bedeutung." />
     </element>
     <element id="Coverage.period.start">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.period.start" />
       <mapping>
         <identity value="KVDT" />
@@ -244,6 +383,12 @@
       </mapping>
     </element>
     <element id="Coverage.period.end">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.period.end" />
       <mapping>
         <identity value="KVDT" />
@@ -251,6 +396,12 @@
       </mapping>
     </element>
     <element id="Coverage.payor">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.payor" />
       <definition value="Gibt den Kostenträger des Versicherten an. Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.&#xD;&#xA;Die Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.&#xD;&#xA;Sofern eine zweite Referenz auf einen Kostenträger existiert, so handelt es sich hierbei um den abrechnenden Kostenträger" />
       <comment value="Die Angabe der IK-Nummer des Versicherers in payor.identifier ist verpflichtend. Weitere Angaben zum Versicherer (Name, Adresse) können in einer Organization-Resource hinterlegt werden, auf die hier referenziert wird." />
@@ -261,6 +412,12 @@
       </type>
     </element>
     <element id="Coverage.payor.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Coverage.payor.identifier" />
       <type>
         <code value="Identifier" />
@@ -268,6 +425,15 @@
       </type>
     </element>
     <element id="Coverage.payor.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
       <path value="Coverage.payor.display" />
       <min value="1" />
     </element>

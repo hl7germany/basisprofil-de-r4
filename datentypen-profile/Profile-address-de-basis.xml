@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/address-de-basis" />
-  <version value="0.9.2" />
+  <version value="0.9.5" />
   <name value="AddressDeBasis" />
   <title value="Adresse, deutsches Basisprofil" />
   <status value="draft" />
@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Erweiterung des Komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile" />
+  <description value="Erweiterung des komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile" />
   <purpose value="Einige Systeme und Standards in Deutschland erfordern die separate Erfassung von Straße und Hausnummer.&#xD;&#xA;Die Erweiterung des Datentyps Address fügt hierfür die entsprechenden ISO-Extensions hinzu.&#xD;&#xA;Ob deren Verwendung in einem konkreten Kontext verpflichtend ist, muss in den abgeleiteten Profilen festgelegt werden." />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
@@ -33,6 +33,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="Address">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address" />
       <short value="Eine Adresse gemäß postalischer Konventionen" />
       <definition value="Eine Adresse gemäß postalischer Konventionen (im Gegensatz zu bspw. GPS-Koordinaten). Die Adresse kann sowohl zur Zustellung von Postsendungen oder zum Aufsuchen von Orten, die keine gültige Postadresse haben, verwendet werden.&#xD;&#xA;&#xD;&#xA;Die verwendeten Extensions in diesem Profil bilden die Struktur der Adresse ab, wie sie im VSDM-Format der elektronischen Versichertenkarte verwendet wird.&#xD;&#xA;&#xD;&#xA;Insbesondere bei ausländischen Adresse oder Adressen, die nicht durch Einlesen einer elektronischen Versichertenkarte erfasst wurden, sind abweichende Strukturen möglich. Die Verwendung der Extensions ist nicht verpflichtend." />
@@ -107,6 +113,12 @@
       </slicing>
     </element>
     <element id="Address.extension:Stadtteil">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.extension" />
       <sliceName value="Stadtteil" />
       <short value="Stadt- oder Ortsteil" />
@@ -115,24 +127,13 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
       </type>
     </element>
-    <element id="Address.extension:Stadtteil.url">
-      <path value="Address.extension.url" />
-      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
-    </element>
-    <element id="Address.extension:Stadtteil.value[x]">
-      <path value="Address.extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
     <element id="Address.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.type" />
       <mapping>
         <identity value="BDT" />
@@ -140,6 +141,12 @@
       </mapping>
     </element>
     <element id="Address.line">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.line" />
       <short value="Straßenname mit Hausnummer oder Postfach sowie weitere Angaben zur Zustellung" />
       <definition value="Diese Komponente kann Straßennamen, Hausnummer, Appartmentnummer, Postfach, c/o sowie weitere Zustellungshinweise enthalten. Die Informationen können in mehrere line-Komponenten aufgeteilt werden.&#xD;&#xA;Bei Verwendung der Extensions, um Straße, Hausnnummer und Postleitzahl strukturiert zu übermitteln, müssen diese Informationen stets vollständig auch in der line-Komponente, die sie erweitern, enthalten sein, um es Systemen, die diese Extensions nicht verwenden zu ermöglichen, auf diese Informationen zugreifen zu können." />
@@ -174,6 +181,12 @@
       </slicing>
     </element>
     <element id="Address.line.extension:Strasse">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.line.extension" />
       <sliceName value="Strasse" />
       <short value="Strassenname (ohne Hausnummer)" />
@@ -192,24 +205,13 @@
         <map value="3107" />
       </mapping>
     </element>
-    <element id="Address.line.extension:Strasse.url">
-      <path value="Address.line.extension.url" />
-      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName" />
-    </element>
-    <element id="Address.line.extension:Strasse.value[x]">
-      <path value="Address.line.extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
     <element id="Address.line.extension:Hausnummer">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.line.extension" />
       <sliceName value="Hausnummer" />
       <short value="Hausnummer" />
@@ -228,24 +230,13 @@
         <map value="3109" />
       </mapping>
     </element>
-    <element id="Address.line.extension:Hausnummer.url">
-      <path value="Address.line.extension.url" />
-      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber" />
-    </element>
-    <element id="Address.line.extension:Hausnummer.value[x]">
-      <path value="Address.line.extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
     <element id="Address.line.extension:Adresszusatz">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.line.extension" />
       <sliceName value="Adresszusatz" />
       <short value="Adresszusatz" />
@@ -264,24 +255,13 @@
         <map value="3115" />
       </mapping>
     </element>
-    <element id="Address.line.extension:Adresszusatz.url">
-      <path value="Address.line.extension.url" />
-      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator" />
-    </element>
-    <element id="Address.line.extension:Adresszusatz.value[x]">
-      <path value="Address.line.extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
     <element id="Address.line.extension:Postfach">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.line.extension" />
       <sliceName value="Postfach" />
       <short value="Postfach" />
@@ -300,24 +280,13 @@
         <map value="3123" />
       </mapping>
     </element>
-    <element id="Address.line.extension:Postfach.url">
-      <path value="Address.line.extension.url" />
-      <fixedUri value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox" />
-    </element>
-    <element id="Address.line.extension:Postfach.value[x]">
-      <path value="Address.line.extension.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-      <type>
-        <code value="string" />
-      </type>
-    </element>
     <element id="Address.city">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.city" />
       <mapping>
         <identity value="BDT" />
@@ -329,10 +298,22 @@
       </mapping>
     </element>
     <element id="Address.district">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.district" />
       <max value="0" />
     </element>
     <element id="Address.state">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.state" />
       <short value="Bundesland" />
       <definition value="Name (oder Kürzel) des Bundeslandes." />
@@ -342,6 +323,12 @@
       </binding>
     </element>
     <element id="Address.postalCode">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.postalCode" />
       <short value="Postleitzahl" />
       <definition value="Postleitzahl gemäß der im jeweiligen Land gültigen Konventionen" />
@@ -355,6 +342,12 @@
       </mapping>
     </element>
     <element id="Address.country">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.country" />
       <short value="Staat" />
       <definition value="Staat (vorzugsweise als 2-Stelliger ISO-Ländercode).&#xD;&#xA;Es obliegt abgeleiteten Profilen, hier die Verwendung der ISO-Ländercodes verbindlich vorzuschreiben" />
@@ -372,6 +365,12 @@
       </mapping>
     </element>
     <element id="Address.period.start">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.period.start" />
       <mapping>
         <identity value="BDT" />
@@ -379,6 +378,12 @@
       </mapping>
     </element>
     <element id="Address.period.end">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Address.period.end" />
       <mapping>
         <identity value="BDT" />

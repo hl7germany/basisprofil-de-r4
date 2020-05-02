@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://fhir.de/StructureDefinition/identifier-kvid-10" />
+  <url value="http://fhir.de/StructureDefinition/identifier-bsnr" />
   <version value="0.9.5" />
-  <name value="IdentifierKvid10" />
-  <title value="Identifier-Profil für die 10-stellige Krankenversichertennummer" />
+  <name value="IdentifierBsnr" />
+  <title value="Identifier-Profil für die Abbildung einer Betriebsstättennummer" />
   <status value="draft" />
-  <date value="2019-07-06" />
-  <description value="Identifier-Profil für die 10-stellige Krankenversichertennummer" />
+  <date value="2020-04-18" />
+  <description value="Identifier-Profil für die Abbildung einer Betriebsstättennummer" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -23,6 +23,21 @@
       </extension>
       <path value="Identifier.use" />
       <fixedCode value="official" />
+    </element>
+    <element id="Identifier.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.type" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="BSNR" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Identifier.type.coding">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -41,7 +56,7 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="Identifier.type.coding:GKV-Type">
+    <element id="Identifier.type.coding:BSNR-Type">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -49,11 +64,11 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Identifier.type.coding" />
-      <sliceName value="GKV-Type" />
+      <sliceName value="BSNR-Type" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="Identifier.type.coding:GKV-Type.system">
+    <element id="Identifier.type.coding:BSNR-Type.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -62,9 +77,9 @@
       </extension>
       <path value="Identifier.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
     </element>
-    <element id="Identifier.type.coding:GKV-Type.code">
+    <element id="Identifier.type.coding:BSNR-Type.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -73,7 +88,7 @@
       </extension>
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="GKV" />
+      <fixedCode value="BSNR" />
     </element>
     <element id="Identifier.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -84,7 +99,7 @@
       </extension>
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/gkv/kvid-10" />
+      <fixedUri value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR" />
     </element>
     <element id="Identifier.value">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -94,6 +109,47 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Identifier.value" />
+      <min value="1" />
+      <constraint>
+        <key value="lanr-1" />
+        <severity value="warning" />
+        <human value="Eine LANR muss neunstellig numerisch sein" />
+        <expression value="matches('[0-9]{9}')" />
+        <source value="Identifier" />
+      </constraint>
+    </element>
+    <element id="Identifier.assigner.identifier.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.assigner.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
+    </element>
+    <element id="Identifier.assigner.identifier.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <path value="Identifier.assigner.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Identifier.assigner.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Identifier.assigner.display" />
       <min value="1" />
     </element>
   </differential>

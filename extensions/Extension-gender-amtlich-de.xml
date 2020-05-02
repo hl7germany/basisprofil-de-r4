@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
-  <version value="0.9.2" />
+  <version value="0.9.5" />
   <name value="GenderAmtlichDE" />
   <title value="Differenzierung des administrativen Geschlechts 'other'" />
   <status value="draft" />
@@ -35,6 +35,10 @@
     <type value="element" />
     <expression value="Practitioner.gender" />
   </context>
+  <context>
+    <type value="element" />
+    <expression value="Patient.contact.gender" />
+  </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
@@ -44,6 +48,12 @@
       <fixedUri value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
     </element>
     <element id="Extension.value[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Extension.value[x]" />
       <min value="1" />
       <type>
