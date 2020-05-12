@@ -122,6 +122,7 @@
       <path value="Address.extension" />
       <sliceName value="Stadtteil" />
       <short value="Stadt- oder Ortsteil" />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
