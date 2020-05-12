@@ -47,6 +47,12 @@
     <element id="Extension.value[x].code">
       <path value="Extension.value[x].code" />
       <min value="1" />
+      <constraint>
+        <key value="ags-extension-1" />
+        <severity value="error" />
+        <human value="Der Amtliche Gemeindeschlüssel ist nummerisch und begrenzt auf acht Stellen" />
+        <expression value="$this.matches('[0-9]{8}')" />
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>
