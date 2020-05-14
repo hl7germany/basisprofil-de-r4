@@ -110,13 +110,6 @@
       </extension>
       <path value="Identifier.value" />
       <min value="1" />
-      <constraint>
-        <key value="lanr-1" />
-        <severity value="warning" />
-        <human value="Eine LANR muss neunstellig numerisch sein" />
-        <expression value="matches('[0-9]{9}')" />
-        <source value="Identifier" />
-      </constraint>
     </element>
     <element id="Identifier.assigner.identifier.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

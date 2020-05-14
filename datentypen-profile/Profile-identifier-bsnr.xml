@@ -5,7 +5,7 @@
   <name value="IdentifierBsnr" />
   <title value="Identifier-Profil für die Abbildung einer Betriebsstättennummer" />
   <status value="draft" />
-  <date value="2020-04-18" />
+  <date value="2020-05-14" />
   <description value="Identifier-Profil für die Abbildung einer Betriebsstättennummer" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
@@ -110,13 +110,6 @@
       </extension>
       <path value="Identifier.value" />
       <min value="1" />
-      <constraint>
-        <key value="lanr-1" />
-        <severity value="warning" />
-        <human value="Eine LANR muss neunstellig numerisch sein" />
-        <expression value="matches('[0-9]{9}')" />
-        <source value="Identifier" />
-      </constraint>
     </element>
     <element id="Identifier.assigner.identifier.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
