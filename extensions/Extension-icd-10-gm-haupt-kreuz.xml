@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz" />
-  <version value="0.9.5" />
+  <version value="0.9.6" />
   <name value="ICD10GMHauptKreuz" />
   <title value="Der Haupt-Code (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation)." />
   <status value="draft" />

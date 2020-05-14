@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/observation-pflegegrad" />
-  <version value="0.9.5" />
+  <version value="0.9.6" />
   <name value="ObservationDePflegegrad" />
   <title value="Pflegegrad, deutsches Basisprofil" />
   <status value="draft" />

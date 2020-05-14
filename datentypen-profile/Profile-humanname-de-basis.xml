@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/humanname-de-basis" />
-  <version value="0.9.5" />
+  <version value="0.9.6" />
   <name value="HumannameDeBasis" />
   <title value="HumanName, deutsches Basisprofil" />
   <status value="draft" />
