@@ -4,6 +4,7 @@
   <version value="0.9.5" />
   <name value="Normgroesse" />
   <status value="draft" />
+  <date value="2020-05-14" />
   <description value="Die Packungsgrößenkennzeichnung für Medikamente ist eine in Deutschland bestehende Normierung der in der Apotheke abzugebenden Menge (Stückzahl bei Tabletten, Kapseln, Zäpfchen und anderen einzeldosierten Formen, Milliliter oder Gramm bei halbfesten und flüssigen Mitteln) eines Fertigarzneimittels im Rahmen der vertragsärztlichen Versorgung.&#xD;&#xA;Rechtsgrundlage der Normierung war bis 2010 die Packungsgrößenverordnung (PackungsV). Sie ordnete folgende drei Packungsgrößen zu – das N steht für Normgröße:&#xD;&#xA;&#xD;&#xA;N1 – kleine Packung&#xD;&#xA;N2 – mittlere Packung&#xD;&#xA;N3 – große Packung&#xD;&#xA;(siehe https://de.wikipedia.org/wiki/Packungsgr%C3%B6%C3%9Fenkennzeichnung)" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -34,13 +35,19 @@
       <fixedUri value="http://fhir.de/StructureDefinition/normgroesse" />
     </element>
     <element id="Extension.value[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Extension.value[x]" />
       <type>
         <code value="code" />
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://www.kbv.de/fhir/ValueSet/74_VS_VM_NormGroesse" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_NORMGROESSE" />
       </binding>
     </element>
   </differential>
