@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="practitioner-de-basis" />
   <url value="http://fhir.de/StructureDefinition/practitioner-de-basis" />
   <version value="0.9.6" />
   <name value="PractitionerDeBasis" />
