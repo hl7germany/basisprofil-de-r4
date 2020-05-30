@@ -8,6 +8,7 @@
   <status value="draft" />
   <experimental value="true" />
   <date value="2019-07-11" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
       <system value="url" />
