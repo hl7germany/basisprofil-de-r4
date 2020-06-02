@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="icd-10-gm-stern" />
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
   <version value="0.9.6" />
   <name value="ICD10GMStern" />

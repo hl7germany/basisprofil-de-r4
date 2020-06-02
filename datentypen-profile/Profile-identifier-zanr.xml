@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="identifier-zanr" />
   <url value="http://fhir.de/StructureDefinition/identifier-zanr" />
   <version value="0.9.6" />
   <name value="IdentifierZanr" />
