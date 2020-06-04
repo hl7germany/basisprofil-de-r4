@@ -19,22 +19,10 @@
   <derivation value="constraint" />
   <differential>
     <element id="Condition.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Condition.code" />
       <min value="1" />
     </element>
     <element id="Condition.code.coding">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Condition.code.coding" />
       <slicing>
         <discriminator>
@@ -90,20 +78,20 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Condition.code.coding:ICD-10-GM.extension:HauptKreuzCode">
+    <element id="Condition.code.coding:ICD-10-GM.extension:Primaercode">
       <path value="Condition.code.coding.extension" />
       <sliceName value="HauptKreuzCode" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-primaercode" />
       </type>
     </element>
-    <element id="Condition.code.coding:ICD-10-GM.extension:SternCode">
+    <element id="Condition.code.coding:ICD-10-GM.extension:Manifestationscode">
       <path value="Condition.code.coding.extension" />
       <sliceName value="SternCode" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
+        <profile value="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode" />
       </type>
     </element>
     <element id="Condition.code.coding:ICD-10-GM.extension:AusrufezeichenCode">
