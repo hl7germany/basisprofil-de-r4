@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="condition-de-icd10" />
+  <id value="condition-de-icd10" />
   <url value="http://fhir.de/StructureDefinition/condition-de-icd10" />
   <version value="0.9.6" />
   <name value="ConditionDeICD10" />
@@ -19,10 +19,22 @@
   <derivation value="constraint" />
   <differential>
     <element id="Condition.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code" />
       <min value="1" />
     </element>
     <element id="Condition.code.coding">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding" />
       <slicing>
         <discriminator>
@@ -55,6 +67,12 @@
       </constraint>
     </element>
     <element id="Condition.code.coding:ICD-10-GM">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding" />
       <sliceName value="ICD-10-GM" />
       <min value="1" />
@@ -79,30 +97,55 @@
       </slicing>
     </element>
     <element id="Condition.code.coding:ICD-10-GM.extension:Primaercode">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding.extension" />
-      <sliceName value="HauptKreuzCode" />
+      <sliceName value="Primaercode" />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-primaercode" />
       </type>
     </element>
     <element id="Condition.code.coding:ICD-10-GM.extension:Manifestationscode">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding.extension" />
-      <sliceName value="SternCode" />
+      <sliceName value="Manifestationscode" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode" />
       </type>
     </element>
-    <element id="Condition.code.coding:ICD-10-GM.extension:AusrufezeichenCode">
+    <element id="Condition.code.coding:ICD-10-GM.extension:Ausrufezeichen">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding.extension" />
-      <sliceName value="AusrufezeichenCode" />
+      <sliceName value="Ausrufezeichen" />
       <type>
         <code value="Extension" />
         <profile value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />
       </type>
     </element>
     <element id="Condition.code.coding:ICD-10-GM.extension:Diagnosesicherheit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding.extension" />
       <sliceName value="Diagnosesicherheit" />
       <max value="1" />
@@ -112,6 +155,12 @@
       </type>
     </element>
     <element id="Condition.code.coding:ICD-10-GM.extension:Seitenlokalisation">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Condition.code.coding.extension" />
       <sliceName value="Seitenlokalisation" />
       <max value="1" />
