@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="practitioner-de-basis" />
   <url value="http://fhir.de/StructureDefinition/practitioner-de-basis" />
-  <version value="0.9.6" />
+  <version value="0.9.7" />
   <name value="PractitionerDeBasis" />
   <title value="Practitioner, deutsches Basisprofil" />
   <status value="draft" />

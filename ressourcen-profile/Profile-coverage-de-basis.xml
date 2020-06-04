@@ -5,7 +5,7 @@
     <valueCode value="fm" />
   </extension>
   <url value="http://fhir.de/StructureDefinition/coverage-de-basis" />
-  <version value="0.9.6" />
+  <version value="0.9.7" />
   <name value="CoverageDeBasis" />
   <title value="Coverage, deutsches Basisprofil" />
   <status value="draft" />

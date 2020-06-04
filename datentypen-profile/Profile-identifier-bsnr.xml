@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-bsnr" />
   <url value="http://fhir.de/StructureDefinition/identifier-bsnr" />
-  <version value="0.9.6" />
+  <version value="0.9.7" />
   <name value="IdentifierBsnr" />
   <title value="Identifier-Profil für die Abbildung einer Betriebsstättennummer" />
   <status value="draft" />
