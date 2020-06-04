@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="icd-10-gm-stern" />
-  <url value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
+  <url value="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode" />
   <version value="0.9.6" />
   <name value="ICD10GMStern" />
-  <title value="Extension zur Erfassung des ICD-10-GM-Stern-Codes" />
+  <title value="Extension zur Erfassung des ICD-10-GM-Manifestations-Codes (Stern-Codes)" />
   <status value="draft" />
   <date value="2019-08-01" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Der 'Stern'-Code aus der Kreuz-Stern-Notation. An dieser Stelle ohne '*'-Symbol" />
+  <description value="Der 'Manifestations'-Code aus der Kreuz-Stern-Notation. An dieser Stelle ohne '*'-Symbol" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -32,7 +32,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-stern" />
+      <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
