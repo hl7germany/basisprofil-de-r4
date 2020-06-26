@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="wop" />
+  <id value="wop" />
   <url value="http://fhir.de/StructureDefinition/gkv/wop" />
   <version value="0.9.7" />
   <name value="GkvWop" />
   <title value="Kennzeichen Wohnortprinzip (WOP)" />
   <status value="draft" />
-  <date value="2020-04-18" />
+  <date value="2020-06-26" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -53,7 +53,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KTS_WOP" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ITA_WOP" />
       </binding>
     </element>
     <element id="Extension.value[x].system">
