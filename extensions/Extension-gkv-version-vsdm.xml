@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="version-vsdm" />
   <url value="http://fhir.de/StructureDefinition/gkv/version-vsdm" />
-  <version value="0.9.7" />
+  <version value="0.9.8" />
   <name value="GkvVersionVsdm" />
   <title value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
   <status value="draft" />

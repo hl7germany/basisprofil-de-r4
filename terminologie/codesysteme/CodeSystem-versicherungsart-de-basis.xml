@@ -4,7 +4,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<url value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
-	<version value="0.9.7" />
+	<version value="0.9.8" />
 	<name value="VersicherungsartDeBasis"/>
 	<status value="draft"/>
 	<experimental value="true"/>

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-lanr" />
   <url value="http://fhir.de/StructureDefinition/identifier-lanr" />
-  <version value="0.9.7" />
+  <version value="0.9.8" />
   <name value="IdentifierLanr" />
   <title value="Identifier-Profil für die Abbildung einer lebenslangen Arztnummer" />
   <status value="draft" />

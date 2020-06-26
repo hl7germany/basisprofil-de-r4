@@ -3,7 +3,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
 	<url value="http://fhir.de/ValueSet/pflegegrad-de" />
-	<version value="0.9.7" />
+	<version value="0.9.8" />
 	<name value="PflegegradDE" />
 	<status value="draft" />
 	<experimental value="true" />

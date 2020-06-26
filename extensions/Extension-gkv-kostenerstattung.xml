@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="kostenerstattung" />
   <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
-  <version value="0.9.7" />
+  <version value="0.9.8" />
   <name value="GkvKostenerstattung" />
   <status value="draft" />
   <date value="2019-12-10" />
