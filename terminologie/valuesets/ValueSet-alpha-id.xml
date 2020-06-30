@@ -3,7 +3,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
   </meta>
   <url value="http://fhir.de/ValueSet/alpha-id" />
-  <version value="0.9.8" />
+  <version value="0.9.9" />
   <name value="alpha-id" />
   <status value="draft" />
   <experimental value="true" />

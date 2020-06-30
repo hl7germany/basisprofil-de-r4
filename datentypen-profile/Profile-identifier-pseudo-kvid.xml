@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-pseudo-kvid" />
   <url value="http://fhir.de/StructureDefinition/identifier-pseudo-kvid" />
-  <version value="0.9.8" />
+  <version value="0.9.9" />
   <name value="IdentifierPseudoKvid" />
   <title value="Identifier-Profil für die pseudonymisierte Krankenversichertennummer" />
   <status value="draft" />

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="gender-amtlich-de" />
   <url value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
-  <version value="0.9.8" />
+  <version value="0.9.9" />
   <name value="GenderAmtlichDE" />
   <title value="Differenzierung des administrativen Geschlechts 'other'" />
   <status value="draft" />

@@ -9,7 +9,7 @@
         <system value="http://art-decor.org/ns/oids/vs"/>
         <value value="2.16.840.1.113883.2.6.60.4.11.27"/>
     </identifier>
-    <version value="0.9.8" />
+    <version value="0.9.9" />
     <name value="EDQMDoseForm"/>
     <title value="EDQMDoseForm"/>
     <status value="draft"/>

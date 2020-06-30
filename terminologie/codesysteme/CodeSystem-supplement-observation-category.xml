@@ -4,7 +4,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
     </meta>
     <url value="http://fhir.de/CodeSystem/observation-category-supplement" />
-    <version value="0.9.8" />
+    <version value="0.9.9" />
     <name value="SupplementObservationCategory" />
     <status value="draft" />
     <experimental value="true" />
