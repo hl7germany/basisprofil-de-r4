@@ -6,7 +6,7 @@
   <name value="ICD10GMDiagnosesicherheit" />
   <title value="Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien" />
   <status value="draft" />
-  <date value="2019-08-07" />
+  <date value="2020-06-30" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -23,6 +23,12 @@
       <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit" />
     </element>
     <element id="Extension.value[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0" />
+      </extension>
       <path value="Extension.value[x]" />
       <min value="1" />
       <type>
@@ -39,7 +45,7 @@
         <key value="icd-5" />
         <severity value="warning" />
         <human value="Wenn die Diagnosesicherheit &quot;G (Gesichert)&quot; verwendet wird, dann muss clinicalStatus auf &quot;active&quot; und verificationStatus auf &quot;confirmed&quot; gesetzt werden." />
-        <expression value="code!='G' or (%resource.clinicalStatus.coding.where(code='active').exists and %resource.verificationStatus.coding.where(code='confirmed').exists())" />
+        <expression value="code!='G' or (%resource.clinicalStatus.coding.where(code='active').exists() and %resource.verificationStatus.coding.where(code='confirmed').exists())" />
         <source value="Extension" />
       </constraint>
       <constraint>

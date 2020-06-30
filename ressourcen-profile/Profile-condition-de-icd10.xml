@@ -7,7 +7,7 @@
   <title value="Deutsches Profil einer Condition mit Codierung nach ICD-10-GM" />
   <status value="draft" />
   <experimental value="false" />
-  <date value="2019-08-07" />
+  <date value="2020-06-30" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <description value="Deutsches Profil einer Condition (Gesundheitszustand, Erkrankung) mit Codierung nach ICD10-GM" />
   <copyright value="HL7 Deutschland e.V." />
