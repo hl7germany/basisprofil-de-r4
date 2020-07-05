@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="CodingOPS" />
-  <url value="http://fhir.de/StructureDefinition/CodingOPS" />
+  <url value="http://fhir.de/StructureDefinition/CodingPZN" />
   <version value="0.9.9" />
-  <name value="CodingOPS" />
-  <title value="Coding-Profil für OPS" />
+  <name value="CodingPZN" />
+  <title value="Coding-Profil für PZN" />
   <status value="draft" />
   <date value="2020-07-05" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
@@ -14,7 +13,7 @@
       <system value="url" />
     </telecom>
   </contact>
-  <description value="Abbildung der Mindestanforderungen eines OPS Prozedurencodes" />
+  <description value="Abbildung der Mindestanforderungen einer PZN-Codierung" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -30,21 +29,9 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Coding.system" />
-      <short value="Canonische CodeSystem URL für OPS" />
+      <short value="Canonische CodeSystem URL für PZN" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/dimdi/ops" />
-    </element>
-    <element id="Coding.version">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Coding.version" />
-      <short value="Die Jahresversion des OPS Kataloges. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)" />
-      <definition value="Bie Verwendung von OPS ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von OPS ein neues Codesystem darstellt." />
-      <min value="1" />
+      <fixedUri value="http://fhir.de/CodeSystem/ifa/pzn" />
     </element>
     <element id="Coding.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -54,12 +41,8 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Coding.code" />
-      <short value="Der OPS-Code" />
+      <short value="Der PZN-Code" />
       <min value="1" />
-      <example>
-        <label value="Einfacher OPS-Code" />
-        <valueCode value="5-470" />
-      </example>
     </element>
   </differential>
 </StructureDefinition>
