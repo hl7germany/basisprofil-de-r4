@@ -8,7 +8,7 @@
 	<status value="draft" />
 	<experimental value="true" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
-	<description value="NUR ZUR VALIDIERUNG VON BEISPIELDATENSÄTZEN!!! NICHT ZUR VALIDIERUNG VON ICD-10-DIAGNOSEN GEEIGENT!!!! Die Validierung von ICD 10 Diagnosen muss durch einen geeigneten Terminologie-Server erfolgen. Eine Expansion von ICD-10(-GM) ist aufgrund der Menge an Codes und der Postkoordination nicht ausreichend, um ICD-10-Codes zu validieren! Enthält sowohl einzelne als auch postkoordinierte Codes, um das Vorhandensein einer Post-Koordinationsgrammatik zu simulieren!" />
+	<description value="ICD-10-GM" />
 	<compose>
 		<include>
 			<system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
