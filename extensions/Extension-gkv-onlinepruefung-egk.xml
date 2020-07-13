@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="onlinepruefung-egk" />
   <url value="http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk" />
-  <version value="0.9.9" />
+  <version value="0.9.11" />
   <name value="GkvOnlinepruefungEgk" />
   <title value="Informationen zur Onlineprüfung und -aktualisierung" />
   <status value="draft" />

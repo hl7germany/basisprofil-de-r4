@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="zuzahlungsstatus" />
   <url value="http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus" />
-  <version value="0.9.9" />
+  <version value="0.9.11" />
   <name value="GkvZuzahlungsstatus" />
   <status value="draft" />
   <date value="2019-12-10" />

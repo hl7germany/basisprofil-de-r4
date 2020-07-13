@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/CodingASK" />
-  <version value="0.9.9" />
+  <version value="0.9.11" />
   <name value="CodingASK" />
   <title value="Coding-Profil für ASK" />
   <status value="draft" />

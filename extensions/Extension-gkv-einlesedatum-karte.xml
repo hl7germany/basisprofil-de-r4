@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="einlesedatum-karte" />
   <url value="http://fhir.de/StructureDefinition/gkv/einlesedatum-karte" />
-  <version value="0.9.9" />
+  <version value="0.9.11" />
   <name value="GkvEinlesedatumKarte" />
   <title value="Extension zur Erfassung des Einlesedatums der eGK bzw. KVK" />
   <status value="draft" />

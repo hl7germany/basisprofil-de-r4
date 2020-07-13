@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="icd-10-gm-ausrufezeichen" />
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen" />
-  <version value="0.9.9" />
+  <version value="0.9.11" />
   <name value="ICD10GMAusrufezeichen" />
   <title value="Extension zur Erfassung des ICD-10-GM-Ausrufezeichen-Codes" />
   <status value="draft" />
