@@ -1,8 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="alpha-id-se" />
-	<meta>
-		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
-	</meta>
 	<identifier>
 		<value value="1.2.276.0.76.5.480"/>
 	</identifier>

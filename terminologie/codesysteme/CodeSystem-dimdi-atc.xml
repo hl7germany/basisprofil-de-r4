@@ -1,8 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="atc" />
-	<meta>
-		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
-	</meta>
 	<url value="http://fhir.de/CodeSystem/dimdi/atc"/>
 	<name value="atc"/>
 	<status value="draft"/>
