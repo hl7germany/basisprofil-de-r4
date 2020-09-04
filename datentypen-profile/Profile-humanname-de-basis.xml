@@ -33,7 +33,7 @@
   <differential>
     <element id="HumanName">
       <path value="HumanName" />
-      <short value="Personenname " />
+      <short value="Personenname" />
       <definition value="Personenname mit in Deutschland üblichen Erweiterungen" />
       <comment value="Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts may or may not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely." />
       <constraint>

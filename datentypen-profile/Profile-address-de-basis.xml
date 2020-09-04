@@ -58,49 +58,49 @@
         <severity value="error" />
         <human value="Wenn die Extension 'Hausnummer' verwendet wird, muss auch Address.line gefüllt werden" />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber').empty() or $this.hasValue())" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber" />
       </constraint>
       <constraint>
         <key value="add-2" />
         <severity value="error" />
         <human value="Wenn die Extension 'Strasse' verwendet wird, muss auch Address.line gefüllt werden" />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName').empty() or $this.hasValue())" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName" />
       </constraint>
       <constraint>
         <key value="add-3" />
         <severity value="error" />
         <human value="Wenn die Extension 'Postfach' verwendet wird, muss auch Address.line gefüllt werden" />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox').empty() or $this.hasValue())" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox" />
       </constraint>
       <constraint>
         <key value="add-4" />
         <severity value="warning" />
         <human value="Eine Postfach-Adresse darf nicht vom Type &quot;physical&quot; oder &quot;both&quot; sein." />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox').empty() or $this.hasValue()) or type='postal' or type.empty()" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox" />
       </constraint>
       <constraint>
         <key value="add-5" />
         <severity value="error" />
         <human value="Wenn die Extension 'Adresszusatz' verwendet wird, muss auch Address.line gefüllt werden" />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator').empty() or $this.hasValue())" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator" />
       </constraint>
       <constraint>
         <key value="add-6" />
         <severity value="warning" />
         <human value="Wenn die Extension 'Postfach' verwendet wird, dürfen die Extensions 'Strasse' und 'Hausnummer' nicht verwendet werden" />
         <expression value="line.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox').empty() or ($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName').empty() and $this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber').empty()))" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox" />
       </constraint>
       <constraint>
         <key value="add-7" />
         <severity value="warning" />
         <human value="Wenn die Extension 'Precinct' (Stadtteil) verwendet wird, dann muss diese Information auch als separates line-item abgebildet sein." />
         <expression value="extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').empty() or line.where(extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').valueString=$this).exists()" />
-        <source value="Address" />
+        <source value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct" />
       </constraint>
     </element>
     <element id="Address.extension">

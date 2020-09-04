@@ -116,7 +116,7 @@
         <severity value="warning" />
         <human value="Eine LANR muss neunstellig numerisch sein" />
         <expression value="matches('[0-9]{9}')" />
-        <source value="Identifier" />
+        <source value="https://www.kbv.de/" />
       </constraint>
     </element>
     <element id="Identifier.assigner.identifier.system">

@@ -101,7 +101,7 @@
         <severity value="warning" />
         <human value="Eine IK muss 8- (ohne Prüfziffer) oder 9-stellig (mit Prüfziffer) sein" />
         <expression value="matches('[0-9]{8,9}')" />
-        <source value="Identifier" />
+        <source value="https://www.dguv.de/arge-ik/index.jsp" />
       </constraint>
     </element>
   </differential>

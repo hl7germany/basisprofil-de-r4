@@ -86,14 +86,14 @@
     </element>
     <element id="Extension.extension:dauer.value[x].start">
       <path value="Extension.extension.value[x].start" />
-      <short value="Beginn des ruhenden Leistungsanspruchs " />
-      <definition value="Gibt den Beginn des ruhenden Leistungsanspruchs des Versicherten bei dem&#xD;&#xA;unter Klasse Kostenträger angegebenen Kostenträger an. " />
+      <short value="Beginn des ruhenden Leistungsanspruchs" />
+      <definition value="Gibt den Beginn des ruhenden Leistungsanspruchs des Versicherten bei dem&#xD;&#xA;unter Klasse Kostenträger angegebenen Kostenträger an." />
       <min value="1" />
     </element>
     <element id="Extension.extension:dauer.value[x].end">
       <path value="Extension.extension.value[x].end" />
-      <short value="Ende des ruhenden Leistungsanspruchs " />
-      <definition value="Gibt das Ende des ruhenden Leistungsanspruchs des Versicherten bei dem&#xD;&#xA;unter Klasse Kostenträger angegebenen Kostenträger an. " />
+      <short value="Ende des ruhenden Leistungsanspruchs" />
+      <definition value="Gibt das Ende des ruhenden Leistungsanspruchs des Versicherten bei dem&#xD;&#xA;unter Klasse Kostenträger angegebenen Kostenträger an." />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
