@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="observation-pflegegrad" />
+  <id value="observation-pflegegrad" />
   <url value="http://fhir.de/StructureDefinition/observation-pflegegrad" />
   <version value="0.9.11" />
   <name value="ObservationDePflegegrad" />
@@ -81,13 +81,6 @@
     </element>
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
       <min value="1" />
       <type>
         <code value="Period" />
@@ -99,13 +92,6 @@
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
       <min value="1" />
       <type>
         <code value="CodeableConcept" />
