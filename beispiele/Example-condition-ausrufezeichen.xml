@@ -1,0 +1,30 @@
+<Condition>
+  <meta>
+    <profile value="http://fhir.de/StructureDefinition/condition-de-icd10" />
+  </meta>
+  <code>
+    <coding>
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz">
+        <valueCoding>
+          <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
+          <version value="2019" />
+          <code value="F16.1" />
+        </valueCoding>
+      </extension>
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen">
+        <valueCoding>
+          <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
+          <version value="2019" />
+          <code value="U69.32" />
+        </valueCoding>
+      </extension>
+      <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
+      <version value="2019" />
+      <code value="F16.1 U69.32!" />
+      <display value="Psychische Verhaltensstörung duch Halluzinogene (Akute Intoxikation) bei intravenösem Konsum" />
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example" />
+  </subject>
+</Condition>
