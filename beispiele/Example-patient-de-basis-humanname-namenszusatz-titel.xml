@@ -9,7 +9,7 @@
 		<use value="official"/>
 		<text value="Dr. Otto Graf Lambsdorff"/>
 		<family value="Graf Lambsdorff">
-			<extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz/0.2">
+			<extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
 				<valueString value="Graf"/>
 			</extension>
 			<extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">

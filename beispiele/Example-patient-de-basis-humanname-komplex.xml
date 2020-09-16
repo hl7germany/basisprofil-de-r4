@@ -9,7 +9,7 @@
 		<use value="official"/>
 		<text value="Prof. Dr. med. Dr. rer. nat. Fritz Julius Karl Freiherr von und zu Rathenburg vor der Isar, MdB"/>
 		<family value="Freiherr von und zu Rathenburg vor der Isar">
-			<extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz/0.2">
+			<extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
 				<valueString value="Freiherr"/>
 			</extension>
 			<extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
