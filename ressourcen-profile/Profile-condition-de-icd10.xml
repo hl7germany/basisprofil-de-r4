@@ -53,6 +53,13 @@
         <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').value.code)" />
         <source value="Condition" />
       </constraint>
+      <constraint>
+        <key value="icd-8" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Seitenlokalisations-Extension, muss dieser auch Bestandteil des ICD-Codes sein!" />
+        <expression value="extension('http://fhir.de/StructureDefinition/seitenlokalisation').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/seitenlokalisation').value.code)" />
+        <source value="Condition" />
+      </constraint>
     </element>
     <element id="Condition.code.coding:ICD-10-GM">
       <path value="Condition.code.coding" />
