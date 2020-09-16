@@ -17,12 +17,6 @@
   <derivation value="constraint" />
   <differential>
     <element id="ChargeItem.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.code" />
       <constraint>
         <key value="chrg-1" />
