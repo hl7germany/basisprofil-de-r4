@@ -38,12 +38,6 @@
       </binding>
     </element>
     <element id="ChargeItem.occurrence[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.occurrence[x]" />
       <slicing>
         <discriminator>
@@ -57,22 +51,10 @@
       </type>
     </element>
     <element id="ChargeItem.quantity">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.quantity" />
       <min value="1" />
     </element>
     <element id="ChargeItem.quantity.value">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.quantity.value" />
       <min value="1" />
     </element>
