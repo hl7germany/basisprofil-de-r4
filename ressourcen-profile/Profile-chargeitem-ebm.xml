@@ -32,13 +32,6 @@
     </element>
     <element id="ChargeItem.occurrence[x]">
       <path value="ChargeItem.occurrence[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
       <type>
         <code value="dateTime" />
       </type>
