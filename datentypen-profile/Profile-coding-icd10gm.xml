@@ -23,36 +23,18 @@
   <derivation value="constraint" />
   <differential>
     <element id="Coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für ICD-10-GM" />
       <min value="1" />
       <fixedUri value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
     </element>
     <element id="Coding.version">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Coding.version" />
       <short value="Die Jahresversion von ICD-10-GM. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)" />
       <definition value="Bie Verwendung von ICD-10-GM ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von ICD-10-GM ein neues Codesystem darstellt." />
       <min value="1" />
     </element>
     <element id="Coding.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Coding.code" />
       <short value="Der (ggf. postkoordinierte) ICD-10-Code" />
       <definition value="Der ICD 10 Code ist vollständig anzugeben, ggf. in postkoordinierter Form" />

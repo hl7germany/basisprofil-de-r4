@@ -22,24 +22,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="Coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für ASK" />
       <min value="1" />
       <fixedUri value="http://fhir.de/CodeSystem/ask" />
     </element>
     <element id="Coding.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Coding.code" />
       <short value="Der PZN-Code" />
       <min value="1" />
