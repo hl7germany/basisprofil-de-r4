@@ -13,7 +13,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Der Primärcode (einschließlich: Kreuz-Code), insbesonderbei e postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation).&#xD;&#xA;An dieser Stelle ohne '+'-Symbol" />
+  <description value="Der Primärcode (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation).&#xD;&#xA;An dieser Stelle ohne '+'-Symbol" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -34,12 +34,6 @@
       <fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-primaercode" />
     </element>
     <element id="Extension.value[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Extension.value[x]" />
       <min value="1" />
       <type>
