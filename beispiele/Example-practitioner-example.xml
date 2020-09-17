@@ -1,4 +1,5 @@
 <Practitioner>
+	<id value="Example-practitioner-example" />
   <meta>
     <profile value="http://fhir.de/StructureDefinition/practitioner-de-basis" />
   </meta>

@@ -1,4 +1,5 @@
 <Observation xmlns="http://hl7.org/fhir">
+  <id value="Example-observation-blutdruck" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
   </meta>

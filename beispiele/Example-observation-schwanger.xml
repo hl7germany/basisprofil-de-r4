@@ -1,4 +1,5 @@
 <Observation>
+  <id value="Example-observation-schwanger" />
   <meta>
     <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-status-uv-ips" />
   </meta>

@@ -1,4 +1,5 @@
 <Patient xmlns="http://hl7.org/fhir">
+	<id value="Example-patient-de-basis-mrnr" />
 	<identifier>
 		<type>
 			<coding>

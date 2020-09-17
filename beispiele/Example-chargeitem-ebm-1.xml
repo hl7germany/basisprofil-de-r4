@@ -1,4 +1,5 @@
 <ChargeItem xmlns="http://hl7.org/fhir">
+	<id value="Example-chargeitem-ebm-1" />
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/chargeitem-ebm"/>
 	</meta>

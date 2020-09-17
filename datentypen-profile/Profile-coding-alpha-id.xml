@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="coding-alpha-id" />
   <url value="http://fhir.de/StructureDefinition/CodingAlphaID" />
   <version value="0.9.11" />
   <name value="CodingAlphaID" />

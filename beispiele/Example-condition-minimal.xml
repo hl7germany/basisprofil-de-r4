@@ -1,4 +1,5 @@
 <Condition>
+  <id value="Example-condition-minimal" />
   <meta>
     <profile value="http://fhir.de/StructureDefinition/condition-de-icd10" />
   </meta>

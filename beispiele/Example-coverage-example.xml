@@ -1,4 +1,5 @@
 <Coverage xmlns="http://hl7.org/fhir">
+  <id value="Example-coverage-example" />
   <meta>
     <profile value="http://fhir.de/StructureDefinition/coverage-de-gkv" />
   </meta>

@@ -1,4 +1,5 @@
 <ValueSet xmlns="http://hl7.org/fhir">
+	<id value= "valueset-identifier-type-de-basis" />
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
 	</meta>

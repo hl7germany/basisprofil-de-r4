@@ -1,5 +1,5 @@
 <Observation xmlns="http://hl7.org/fhir">
-  <id value="bmi" />
+  <id value="Example-observation-bmi" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
   </meta>

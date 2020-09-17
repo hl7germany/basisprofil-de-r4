@@ -1,4 +1,5 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
+	<id value="namingSystem-KzbvZahnarztnummer" />
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
