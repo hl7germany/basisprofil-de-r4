@@ -43,7 +43,6 @@
       <path value="Practitioner.identifier.type" />
       <min value="1" />
     </element>
-    
     <element id="Practitioner.identifier:ZANR">
       <path value="Practitioner.identifier" />
       <sliceName value="ZANR" />
@@ -54,7 +53,6 @@
         <profile value="http://fhir.de/StructureDefinition/identifier-zanr" />
       </type>
     </element>
-    
     <element id="Practitioner.name">
       <path value="Practitioner.name" />
       <type>

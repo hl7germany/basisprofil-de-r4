@@ -17,19 +17,12 @@
   <derivation value="constraint" />
   <differential>
     <element id="ChargeItem.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.code" />
       <constraint>
         <key value="chrg-1" />
         <severity value="warning" />
         <human value="EBM-Ziffern müssen dem Schema '[0-9]{5}[A-Z]{0,1}' entsprechen" />
         <expression value="coding.code.matches('[0-9]{5}[A-Z]{0,1}')" />
-        <source value="ChargeItem" />
       </constraint>
       <binding>
         <strength value="required" />
@@ -38,12 +31,6 @@
       </binding>
     </element>
     <element id="ChargeItem.occurrence[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.occurrence[x]" />
       <slicing>
         <discriminator>
@@ -57,22 +44,10 @@
       </type>
     </element>
     <element id="ChargeItem.quantity">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.quantity" />
       <min value="1" />
     </element>
     <element id="ChargeItem.quantity.value">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="ChargeItem.quantity.value" />
       <min value="1" />
     </element>
