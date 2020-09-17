@@ -68,7 +68,6 @@
         <severity value="warning" />
         <human value="Die ZANR inclusive vorgesetzter Nummer der herausgebenden KZV muss 8-stellig numerisch sein" />
         <expression value="matches('[0-9]{8}')" />
-        <source value="Identifier" />
       </constraint>
     </element>
     <element id="Identifier.assigner.identifier.system">
