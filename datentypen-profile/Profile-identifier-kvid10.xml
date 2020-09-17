@@ -54,6 +54,12 @@
     <element id="Identifier.value">
       <path value="Identifier.value" />
       <min value="1" />
+      <constraint>
+        <key value="kvid-1" />
+        <severity value="warning" />
+        <human value="Der unveränderliche Teil der KVID muss 10-stellig sein und mit einem Großbuchstaben anfangen" />
+        <expression value="matches('^[A-Z][0-9]{9}$')" />
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>
