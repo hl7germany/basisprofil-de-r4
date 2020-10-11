@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="sd-pulsoximetrische-sauerstoffsaettigung" />
+  <url value="http://fhir.de/StructureDefinition/pulsoximetrische-sauerstoffsaettigung" />
+  <version value="0.9.11" />
+  <name value="PulsoximetrischeSauerstoffsaettigung" />
+  <title value="Pulsoximetrische Sauerstoffsättigung" />
+  <status value="draft" />
+  <date value="2020-10-11" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Mittels Pulsoximetrie gemessene Sauerstoffsättigung eines Patienten / einer Patientin" />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="sct-concept" />
+    <uri value="http://snomed.info/conceptdomain" />
+    <name value="SNOMED CT Concept Domain Binding" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="sct-attr" />
+    <uri value="http://snomed.org/attributebinding" />
+    <name value="SNOMED CT Attribute Binding" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://fhir.de/StructureDefinition/sauerstoffsaettigung" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation">
+      <path value="Observation" />
+      <definition value="This profile defines how to represent pulse oximetry and inspired oxygen concentration based on the FHIR Core Vitals Profile. INSPIRED OXYGEN CONCENTRATION observations in FHIR using a standard LOINC code and UCUM units of measure." />
+      <mustSupport value="false" />
+    </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <short value="Oxygen Saturation by Pulse Oximetry" />
+      <comment value="The code (59408-5 Oxygen saturation in Arterial blood by Pulse oximetry) is included as an additional observation code to FHIR Core vital Oxygen Saturation code (2708-6 Oxygen saturation in Arterial blood -)." />
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding:PulseOx">
+      <path value="Observation.code.coding" />
+      <sliceName value="PulseOx" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding:PulseOx.system">
+      <path value="Observation.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://loinc.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.code.coding:PulseOx.code">
+      <path value="Observation.code.coding.code" />
+      <min value="1" />
+      <fixedCode value="59408-5" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.method.coding">
+      <path value="Observation.method.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.method.coding:snomed">
+      <path value="Observation.method.coding" />
+      <sliceName value="snomed" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="708065004" />
+      </patternCoding>
+    </element>
+    <element id="Observation.method.coding:snomed.system">
+      <path value="Observation.method.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.method.coding:snomed.code">
+      <path value="Observation.method.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component">
+      <path value="Observation.component" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="code" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <short value="Component results" />
+      <definition value="Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations." />
+    </element>
+    <element id="Observation.component:FlowRate">
+      <path value="Observation.component" />
+      <sliceName value="FlowRate" />
+      <short value="Inhaled oxygen flow rate" />
+      <definition value="Sauerstoffflussrate" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.code">
+      <path value="Observation.component.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="3151-8" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Observation.component:FlowRate.code.coding">
+      <path value="Observation.component.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:loinc">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="loinc" />
+      <min value="1" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="3151-8" />
+      </patternCoding>
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:loinc.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:loinc.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:snomed">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="snomed" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="427081008" />
+      </patternCoding>
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:snomed.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.code.coding:snomed.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:FlowRate.value[x]">
+      <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+      </slicing>
+    </element>
+    <element id="Observation.component:FlowRate.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
+    <element id="Observation.component:FlowRate.value[x]:valueQuantity.value">
+      <path value="Observation.component.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:FlowRate.value[x]:valueQuantity.unit">
+      <path value="Observation.component.value[x].unit" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:FlowRate.value[x]:valueQuantity.system">
+      <path value="Observation.component.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:FlowRate.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <min value="1" />
+      <fixedCode value="L/min" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Concentration">
+      <path value="Observation.component" />
+      <sliceName value="Concentration" />
+      <short value="Inhaled oxygen concentration" />
+      <definition value="Inspiratorische O2-Konzentration im Inspirationsgasgemisch" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:Concentration.code">
+      <path value="Observation.component.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="3150-0" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Observation.component:Concentration.code.coding">
+      <path value="Observation.component.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Observation.component:Concentration.code.coding:loinc">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="loinc" />
+      <min value="1" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="3150-0" />
+      </patternCoding>
+    </element>
+    <element id="Observation.component:Concentration.code.coding:loinc.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:Concentration.code.coding:loinc.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:Concentration.code.coding:snomed">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="snomed" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="250774007" />
+      </patternCoding>
+    </element>
+    <element id="Observation.component:Concentration.code.coding:snomed.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:Concentration.code.coding:snomed.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component:Concentration.value[x]">
+      <path value="Observation.component.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+      </slicing>
+    </element>
+    <element id="Observation.component:Concentration.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
+    <element id="Observation.component:Concentration.value[x]:valueQuantity.value">
+      <path value="Observation.component.value[x].value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Concentration.value[x]:valueQuantity.unit">
+      <path value="Observation.component.value[x].unit" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Concentration.value[x]:valueQuantity.system">
+      <path value="Observation.component.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:Concentration.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <min value="1" />
+      <fixedCode value="%" />
+      <mustSupport value="true" />
+    </element>
+  </differential>
+</StructureDefinition>

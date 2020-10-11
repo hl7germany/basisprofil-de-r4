@@ -1,0 +1,45 @@
+{
+	"resourceType": "Observation",
+	"id": "Example-sauerstoffsaettigung",
+	"meta": {
+		"profile": [
+			"http://fhir.de/StructureDefinition/sauerstoffsaettigung"
+		]
+	},
+	"status": "final",
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+					"code": "vital-signs"
+				}
+			]
+		}
+	],
+	"code": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "2708-6",
+				"display": "Oxygen saturation in Arterial blood"
+			},
+			{
+				"system": "http://snomed.info/sct",
+				"code": "442476006",
+				"display": "Arterial oxygen saturation"
+			}
+		],
+		"text": "Arterielle Sauerstoffsättigung"
+	},
+	"subject": {
+		"reference": "Patient/example"
+	},
+	"effectiveDateTime": "2020-10-11",
+	"valueQuantity": {
+		"value": 98,
+		"unit": "%",
+		"system": "http://unitsofmeasure.org",
+		"code": "%"
+	}
+}

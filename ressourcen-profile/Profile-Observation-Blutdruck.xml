@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="sd-blutdruck" />
+  <url value="http://fhir.de/StructureDefinition/blutdruck" />
+  <version value="0.9.11" />
+  <name value="Blutdruck" />
+  <title value="Blutdruck" />
+  <status value="draft" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Blutdruck eines Patienten / einer Patientin" />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="sct-concept" />
+    <uri value="http://snomed.info/conceptdomain" />
+    <name value="SNOMED CT Concept Domain Binding" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="sct-attr" />
+    <uri value="http://snomed.org/attributebinding" />
+    <name value="SNOMED CT Attribute Binding" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code.coding:BPCodeSnomed">
+      <path value="Observation.code.coding" />
+      <sliceName value="BPCodeSnomed" />
+      <max value="1" />
+    </element>
+    <element id="Observation.code.coding:BPCodeSnomed.system">
+      <path value="Observation.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:BPCodeSnomed.code">
+      <path value="Observation.code.coding.code" />
+      <min value="1" />
+      <fixedCode value="75367002" />
+    </element>
+    <element id="Observation.component:SystolicBP">
+      <path value="Observation.component" />
+      <sliceName value="SystolicBP" />
+    </element>
+    <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomed">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="SBPCodeSnomed" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomed.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.component:SystolicBP.code.coding:SBPCodeSnomed.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+      <fixedCode value="271649006" />
+    </element>
+    <element id="Observation.component:DiastolicBP">
+      <path value="Observation.component" />
+      <sliceName value="DiastolicBP" />
+    </element>
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomed">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="DBPCodeSnomed" />
+      <max value="1" />
+    </element>
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomed.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.component:DiastolicBP.code.coding:DBPCodeSnomed.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+      <fixedCode value="271650006" />
+    </element>
+  </differential>
+</StructureDefinition>
