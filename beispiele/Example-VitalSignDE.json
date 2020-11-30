@@ -22,11 +22,5 @@
     "subject":{
         "reference": "Patient/test"
     },
-    "effectiveDateTime": "2020",
-    "valueQuantity":{
-        "value": "20",
-        "unit": "/d",
-        "system": "http://unitsofmeasure.org",
-        "code": "/d"
-    }
+    "effectiveDateTime": "2020"
 }
