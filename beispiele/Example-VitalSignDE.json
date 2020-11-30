@@ -22,5 +22,11 @@
     "subject":{
         "reference": "Patient/test"
     },
-    "effectiveDateTime": "2020"
+    "effectiveDateTime": "2020",
+    "dataAbsentReason":{
+        "coding":{
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+        }
+    }
 }
