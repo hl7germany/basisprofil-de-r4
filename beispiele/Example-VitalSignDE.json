@@ -25,8 +25,8 @@
     "effectiveDateTime": "2020",
     "valueQuantity":{
         "value": "20",
-        "unit": "/min",
+        "unit": "/d",
         "system": "http://unitsofmeasure.org",
-        "code": "/min"
+        "code": "/d"
     }
 }
