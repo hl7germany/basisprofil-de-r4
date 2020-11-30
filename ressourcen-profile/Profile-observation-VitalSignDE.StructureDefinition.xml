@@ -117,7 +117,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/ucum-common-de"/>
+        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE"/>
       </binding>
     </element>
     <element id="Observation.component">
@@ -147,7 +147,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/ucum-common-de"/>
+        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE"/>
       </binding>
     </element>
   </differential>
