@@ -96,7 +96,7 @@
         <key value="vs-de-1" />
         <severity value="error" />
         <human value="If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day" />
-        <expression value="$this.ofType(DateTime).exists() implies $this.toString().length() &gt;= 8" />
+        <expression value="$this.ofType(DateTime).exists() = true" />
       </constraint>
     </element>
     <element id="Observation.value[x]">
