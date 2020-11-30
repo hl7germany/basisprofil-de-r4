@@ -51,6 +51,14 @@
             "display": "per min"
           },
           {
+            "code": "/h",
+            "display": "per hour"
+          },
+          {
+            "code": "/d",
+            "display": "per day"
+          },
+          {
             "code": "kg/m2",
             "display": "kilogram / (meter ^ 2)"
           },
