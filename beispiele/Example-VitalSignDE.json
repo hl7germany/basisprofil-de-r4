@@ -10,7 +10,7 @@
     "category":{
         "coding":{
             "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-            "code": "vital-sign"
+            "code": "vital-signs"
         }
     },
     "code":{
@@ -26,6 +26,7 @@
     "valueQuantity":{
         "value": "20",
         "unit": "/min",
+        "system": "http://unitsofmeasure.org",
         "code": "/min"
     }
 }
