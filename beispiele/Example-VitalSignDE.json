@@ -22,7 +22,7 @@
     "subject":{
         "reference": "Patient/test"
     },
-    "effectiveDateTime": "2020",
+    "effectiveDateTime": "2020-11-30",
     "valueQuantity":{
         "value": "20",
         "unit": "/min",
