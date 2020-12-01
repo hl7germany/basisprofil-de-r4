@@ -48,6 +48,7 @@
         <severity value="error" />
         <human value="If there is no component or hasMember element then either a value[x] or a data absent reason must be present" />
         <expression value="(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())" />
+        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
       </constraint>
     </element>
     <element id="Observation.category">
@@ -94,9 +95,9 @@
       <slicing>
         <discriminator>
           <type value="type" />
-            <path value="$this" />
-          </discriminator>
-          <rules value="open" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
       </slicing>
       <min value="1" />
     </element>
@@ -111,6 +112,7 @@
         <severity value="error" />
         <human value="If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day" />
         <expression value="$this.toString().length() &gt;= 8" />
+        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
       </constraint>
     </element>
     <element id="Observation.value[x]">
@@ -118,9 +120,9 @@
       <slicing>
         <discriminator>
           <type value="type" />
-            <path value="$this" />
-          </discriminator>
-          <rules value="open" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
       </slicing>
     </element>
     <element id="Observation.value[x]:valueQuantity">
@@ -131,8 +133,25 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE"/>
+        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE" />
       </binding>
+    </element>
+    <element id="Observation.value[x]:valueQuantity.value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.unit">
+      <path value="Observation.value[x].unit" />
+      <min value="1" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.system">
+      <path value="Observation.value[x].system" />
+      <min value="1" />
+      <patternUri value="http://unitsofmeasure.org" />
+    </element>
+    <element id="Observation.value[x]:valueQuantity.code">
+      <path value="Observation.value[x].code" />
+      <min value="1" />
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
@@ -141,6 +160,7 @@
         <severity value="error" />
         <human value="If there is no a value a data absent reason must be present" />
         <expression value="value.exists() or dataAbsentReason.exists()" />
+        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
       </constraint>
     </element>
     <element id="Observation.component.value[x]">
@@ -148,9 +168,9 @@
       <slicing>
         <discriminator>
           <type value="type" />
-            <path value="$this" />
-          </discriminator>
-          <rules value="open" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
       </slicing>
     </element>
     <element id="Observation.component.value[x]:valueQuantity">
@@ -161,7 +181,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE"/>
+        <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE" />
       </binding>
     </element>
   </differential>
