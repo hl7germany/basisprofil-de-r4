@@ -81,19 +81,6 @@
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
     </element>
-    <element id="Observation.value[x]:valueQuantity.value">
-      <path value="Observation.value[x].value" />
-      <min value="1" />
-    </element>
-    <element id="Observation.value[x]:valueQuantity.unit">
-      <path value="Observation.value[x].unit" />
-      <min value="1" />
-    </element>
-    <element id="Observation.value[x]:valueQuantity.system">
-      <path value="Observation.value[x].system" />
-      <min value="1" />
-      <patternUri value="http://unitsofmeasure.org" />
-    </element>
     <element id="Observation.value[x]:valueQuantity.code">
       <path value="Observation.value[x].code" />
       <min value="1" />

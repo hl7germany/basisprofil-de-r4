@@ -184,5 +184,22 @@
         <valueSet value="http://fhir.de/ValueSet/UcumVitalsCommonDE" />
       </binding>
     </element>
+    <element id="Observation.component.value[x]:valueQuantity.value">
+      <path value="Observation.component.value[x].value" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component.value[x]:valueQuantity.unit">
+      <path value="Observation.component.value[x].unit" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component.value[x]:valueQuantity.system">
+      <path value="Observation.component.value[x].system" />
+      <min value="1" />
+      <patternUri value="http://unitsofmeasure.org" />
+    </element>
+    <element id="Observation.component.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <min value="1" />
+    </element>
   </differential>
 </StructureDefinition>
