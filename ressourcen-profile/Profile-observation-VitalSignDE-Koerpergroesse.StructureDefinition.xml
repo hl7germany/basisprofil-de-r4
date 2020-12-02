@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://example.org/fhir/StructureDefinition/VitalSignDE-Koerpergroesse" />
+  <url value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign-koerpergroesse" />
   <name value="VitalSignDE_Koerpergroesse" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />

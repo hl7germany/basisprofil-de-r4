@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://example.org/fhir/StructureDefinition/VitalSignDE_Atemfrequenz" />
+  <url value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign-atemfrequenz" />
   <name value="VitalSignDE_Atemfrequenz" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />

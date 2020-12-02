@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="VitalSignDE" />
-  <url value="http://fhir.de/StructureDefinition/VitalSignDE" />
+  <url value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign" />
   <name value="VitalSignDE" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
