@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="chargeitem-ebm" />
-  <url value="http://fhir.de/StructureDefinition/chargeitem-ebm" />
+  <url value="http://fhir.de/StructureDefinition/chargeitem-de-ebm" />
   <version value="0.9.11" />
   <name value="ChargeItemEBM" />
   <title value="ChargeItem für EBM-Ziffer als Abrechnungsposition" />
