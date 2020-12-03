@@ -31,7 +31,7 @@
 				"display": "Heart rate (observable entity)"
 			}
 		],
-		"text": "Herzfrequenz"
+		"text": "Puls"
 	},
 	"subject": {
 		"reference": "Patient/example"
