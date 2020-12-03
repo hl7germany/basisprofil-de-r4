@@ -2,7 +2,7 @@
   <id value="Example-observation-atemfrequenz" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
-    <profile value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign-atemfrequenz" />
+    <profile value="http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz" />
   </meta>
   <status value="final" />
   <category>

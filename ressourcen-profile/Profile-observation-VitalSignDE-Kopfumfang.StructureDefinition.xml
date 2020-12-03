@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="VitalSignDE-Kopfumfang" />
-  <url value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign-kopfumfang" />
+  <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang" />
   <name value="VitalSignDEKopfumfang" />
   <title value="Observation - VitalSignDE - Kopfumfang" />
   <status value="draft" />
@@ -39,7 +39,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Observation" />
-  <baseDefinition value="http://fhir.de/fhir/StructureDefinition/observation-de-vitalsign" />
+  <baseDefinition value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
   <derivation value="constraint" />
   <differential>
     <element id="Observation.code.coding">
