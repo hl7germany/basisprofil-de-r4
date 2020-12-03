@@ -3,8 +3,7 @@
 	"id": "Example-pulsoximetrische-sauerstoffsaettigung",
 	"meta": {
 		"profile": [
-            "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
-            "http://hl7.org/fhir/StructureDefinition/oxygensat"
+            "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 		]
 	},
 	"status": "final",
