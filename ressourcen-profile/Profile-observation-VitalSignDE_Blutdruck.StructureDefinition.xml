@@ -150,7 +150,7 @@
     <element id="Observation.component:SystolicBP.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
       <min value="1" />
-      <patternUri value="http://unitofmeasure.org" />
+      <patternUri value="http://unitsofmeasure.org" />
     </element>
     <element id="Observation.component:SystolicBP.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
@@ -214,7 +214,7 @@
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.system">
       <path value="Observation.component.value[x].system" />
       <min value="1" />
-      <patternUri value="http://unitofmeasure.org" />
+      <patternUri value="http://unitsofmeasure.org" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
