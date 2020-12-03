@@ -2,6 +2,7 @@
   <id value="Example-observation-blutdruck" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns" />
+    <profile value="http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck" />
   </meta>
   <status value="final" />
   <category>
