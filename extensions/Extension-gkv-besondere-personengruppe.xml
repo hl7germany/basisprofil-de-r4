@@ -13,7 +13,7 @@
 			<value value="http://hl7.de/technische-komitees/fhir/" />
 		</telecom>
 	</contact>
-	<description value="Gibt die Zugehörigkeit des Versicherten zu einer besonderen Personengruppe&#xD;&#xA;an. &#xD;&#xA;Schlüsselverzeichnis:&#xD;&#xA;00 = nicht gesetzt&#xD;&#xA;04 = BSHG (Bundessozialhilfegesetz) § 264 SGB V, &#xD;&#xA;06 = BVG (Gesetz über die Versorgung der Opfer des Krieges), &#xD;&#xA;07 = SVA-Kennzeichnung für zwischenstaatliches Krankenversicherungsrecht: - Personen mit&#xD;&#xA;Wohnsitz im Inland, Abrechnung nach Aufwand, &#xD;&#xA;08 = SVAKennzeichnung, Pauschal, &#xD;&#xA;09 = Empfänger von Gesundheitsleistungen nach §§ 4 und 6 des Asylbewerberleistungsgesetzes (AsylbLG)" />
+	<description value="Gibt die Zugehörigkeit des Versicherten zu einer besonderen Personengruppe&#xD;&#xA;an." />
 	<fhirVersion value="4.0.1" />
 	<mapping>
 		<identity value="rim" />
