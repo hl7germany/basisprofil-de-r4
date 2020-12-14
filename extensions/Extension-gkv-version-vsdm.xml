@@ -3,7 +3,7 @@
 	<id value="version-vsdm" />
   <url value="http://fhir.de/StructureDefinition/gkv/version-vsdm" />
   <version value="0.9.11" />
-  <name value="GkvVersionVsdm" />
+  <name value="Extension-GkvVersionVsdm" />
   <title value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
   <status value="draft" />
   <date value="2019-12-10" />
