@@ -41,24 +41,28 @@
         <severity value="error" />
         <human value="Wenn die Extension 'namenszusatz' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden" />
         <expression value="family.extension('http://fhir.de/StructureDefinition/humanname-namenszusatz').empty() or family.hasValue()" />
+        <source value="http://fhir.de/StructureDefinition/humanname-de-basis" />
       </constraint>
       <constraint>
         <key value="hum-2" />
         <severity value="error" />
         <human value="Wenn die Extension 'nachname' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden" />
         <expression value="family.extension('http://hl7.org/fhir/StructureDefinition/humanname-own-name').empty() or family.hasValue()" />
+        <source value="http://fhir.de/StructureDefinition/humanname-de-basis" />
       </constraint>
       <constraint>
         <key value="hum-3" />
         <severity value="error" />
         <human value="Wenn die Extension 'vorsatzwort' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden" />
         <expression value="family.extension('http://hl7.org/fhir/StructureDefinition/humanname-own-prefix').empty() or family.hasValue()" />
+        <source value="http://fhir.de/StructureDefinition/humanname-de-basis" />
       </constraint>
       <constraint>
         <key value="hum-4" />
         <severity value="error" />
         <human value="Wenn die Extension 'prefix-qualifier' verwendet wird, dann muss ein Namenspräfix im Attribut 'prefix' angegeben werden" />
         <expression value="prefix.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier').empty() or $this.hasValue())" />
+        <source value="http://fhir.de/StructureDefinition/humanname-de-basis" />
       </constraint>
     </element>
     <element id="HumanName.use">

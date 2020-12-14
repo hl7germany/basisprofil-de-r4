@@ -59,6 +59,7 @@
         <severity value="warning" />
         <human value="Eine IK muss 8- (ohne Prüfziffer) oder 9-stellig (mit Prüfziffer) sein" />
         <expression value="matches('[0-9]{8,9}')" />
+        <source value="http://fhir.de/StructureDefinition/identifier-iknr" />
       </constraint>
     </element>
   </differential>

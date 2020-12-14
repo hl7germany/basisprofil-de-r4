@@ -59,6 +59,7 @@
         <severity value="warning" />
         <human value="Der unveränderliche Teil der KVID muss 10-stellig sein und mit einem Großbuchstaben anfangen" />
         <expression value="matches('^[A-Z][0-9]{9}$')" />
+        <source value="http://fhir.de/StructureDefinition/identifier-kvid-10" />
       </constraint>
     </element>
   </differential>
