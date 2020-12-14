@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Gibt die Versichertenart des Versicherten an.&#xD;&#xA;1=Mitglied&#xD;&#xA;3=Familienversicherter&#xD;&#xA;5=Rentner" />
+  <description value="Gibt die Versichertenart des Versicherten an." />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
