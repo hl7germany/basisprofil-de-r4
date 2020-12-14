@@ -77,6 +77,12 @@
       <path value="Extension.extension.url" />
       <fixedUri value="errorCode" />
     </element>
+    <element id="Extension.extension:errorCode.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="code" />
+      </type>
+    </element>
     <element id="Extension.extension:pruefzifferFachdienst">
       <path value="Extension.extension" />
       <sliceName value="pruefzifferFachdienst" />
