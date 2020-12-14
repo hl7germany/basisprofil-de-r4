@@ -23,6 +23,7 @@
         <severity value="warning" />
         <human value="EBM-Ziffern müssen dem Schema '[0-9]{5}[A-Z]{0,1}' entsprechen" />
         <expression value="coding.code.matches('[0-9]{5}[A-Z]{0,1}')" />
+        <source value="http://fhir.de/StructureDefinition/chargeitem-de-ebm" />
       </constraint>
       <binding>
         <strength value="required" />

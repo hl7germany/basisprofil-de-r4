@@ -3,7 +3,7 @@
 	<id value="onlinepruefung-egk" />
   <url value="http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk" />
   <version value="0.9.11" />
-  <name value="GkvOnlinepruefungEgk" />
+  <name value="Extension-GkvOnlinepruefungEgk" />
   <title value="Informationen zur Onlineprüfung und -aktualisierung" />
   <status value="draft" />
   <date value="2019-12-10" />
@@ -76,6 +76,12 @@
     <element id="Extension.extension:errorCode.url">
       <path value="Extension.extension.url" />
       <fixedUri value="errorCode" />
+    </element>
+    <element id="Extension.extension:errorCode.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="code" />
+      </type>
     </element>
     <element id="Extension.extension:pruefzifferFachdienst">
       <path value="Extension.extension" />
