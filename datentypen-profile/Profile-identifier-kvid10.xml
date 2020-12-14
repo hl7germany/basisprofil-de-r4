@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-kvid-10" />
   <url value="http://fhir.de/StructureDefinition/identifier-kvid-10" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="IdentifierKvid10" />
   <title value="Identifier-Profil für die 10-stellige Krankenversichertennummer" />
   <status value="draft" />

@@ -4,7 +4,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <url value="http://fhir.de/CodeSystem/diagnosis-role-supplement" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="diagnosis-role" />
   <status value="draft" />
   <experimental value="true" />

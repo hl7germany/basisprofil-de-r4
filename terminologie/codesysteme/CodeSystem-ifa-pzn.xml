@@ -1,7 +1,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="pzn" />
 	<url value="http://fhir.de/CodeSystem/ifa/pzn"/>
-	<version value="0.9.11" />
+	<version value="0.9.12" />
 	<name value="pzn"/>
 	<status value="draft"/>
 	<experimental value="true"/>

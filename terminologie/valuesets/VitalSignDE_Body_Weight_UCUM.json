@@ -6,7 +6,7 @@
     ]
   },
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "title": "VitalSignDE_Body_Weigth_UCUM",
   "status": "active",
   "experimental": false,

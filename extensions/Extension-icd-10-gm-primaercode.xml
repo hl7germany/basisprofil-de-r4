@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="icd-10-gm-haupt-kreuz" />
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-primaercode" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="Extension-ICD10GMPrimaercode" />
   <title value="Der Primärcode (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation)." />
   <status value="draft" />

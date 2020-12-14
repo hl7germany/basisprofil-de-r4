@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value= "valueset-diagnosesicherheit" />
 	<url value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT"/>
-	<version value="0.9.11" />
+	<version value="0.9.12" />
 	<name value="kbv-s-icd-diagnosesicherheit"/>
 	<status value="draft"/>
 	<experimental value="true"/>

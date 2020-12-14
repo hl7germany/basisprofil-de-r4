@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="ruhender-leistungsanspruch" />
   <url value="http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="Extension-GkvRuhenderLeistungsanspruch" />
   <status value="draft" />
   <date value="2019-12-10" />
