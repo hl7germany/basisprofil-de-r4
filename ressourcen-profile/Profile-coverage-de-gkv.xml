@@ -273,10 +273,6 @@
       <definition value="Gibt den Kostenträger des Versicherten an. Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.&#xD;&#xA;Die Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.&#xD;&#xA;Sofern eine zweite Referenz auf einen Kostenträger existiert, so handelt es sich hierbei um den abrechnenden Kostenträger" />
       <comment value="Die Angabe der IK-Nummer des Versicherers in payor.identifier ist verpflichtend. Weitere Angaben zum Versicherer (Name, Adresse) können in einer Organization-Resource hinterlegt werden, auf die hier referenziert wird." />
       <max value="2" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://fhir.de/StructureDefinition/organization-de-basis" />
-      </type>
     </element>
     <element id="Coverage.payor.identifier">
       <path value="Coverage.payor.identifier" />
