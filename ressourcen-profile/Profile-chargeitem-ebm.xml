@@ -28,7 +28,7 @@
       <binding>
         <strength value="required" />
         <description value="EBM-Katalog" />
-        <valueSet value="http://fhir.de/ValueSet/kbv/ebm" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/74_VS_AW_EBM" />
       </binding>
     </element>
     <element id="ChargeItem.occurrence[x]">
