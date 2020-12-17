@@ -19,7 +19,6 @@
 	<description value="Art der Versicherung bzw. des Kostenträgers."/>
 	<copyright value="HL7 Deutschland e.V."/>
 	<caseSensitive value="true"/>
-	<valueSet value="http://fhir.de/ValueSet/versicherungsart-de-basis"/>
 	<content value="complete"/>
 	<concept>
 		<code value="GKV"/>
