@@ -36,7 +36,6 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <sliceIsConstraining value="false" />
       <min value="1" />
       <type>
         <code value="Coding" />
