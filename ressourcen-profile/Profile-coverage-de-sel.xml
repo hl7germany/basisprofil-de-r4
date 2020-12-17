@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="coverage-de-sel" />
   <url value="http://fhir.de/StructureDefinition/coverage-de-sel" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="CoverageDeSel" />
   <title value="Coverage, deutsches Selbstzahlerprofil" />
   <status value="draft" />

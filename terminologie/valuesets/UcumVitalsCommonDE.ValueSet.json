@@ -6,7 +6,7 @@
     ]
   },
   "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "title": "UCUM Vitals Common DE",
   "status": "active",
   "experimental": false,

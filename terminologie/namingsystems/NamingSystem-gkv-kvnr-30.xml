@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
-	<name value="gkv-kvnr-30"/>
+	<name value="GkvKvnr30"/>
 	<status value="draft"/>
 	<kind value="identifier"/>
 	<date value="2017-09-15"/>

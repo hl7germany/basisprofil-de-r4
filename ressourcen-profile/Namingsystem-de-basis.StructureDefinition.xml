@@ -2,8 +2,8 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="namingsystem-de-basis" />
   <url value="http://fhir.de/StructureDefinition/namingsystem-de-basis" />
-  <version value="0.9.11" />
-  <name value="namingsystem-de-basis" />
+  <version value="0.9.12" />
+  <name value="NamingsystemDeBasis" />
   <title value="Namingsystem, deutsches Basisprofil" />
   <status value="draft" />
   <date value="2019-11-29" />

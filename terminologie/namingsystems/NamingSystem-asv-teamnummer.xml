@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
-	<name value="asv-teamnummer"/>
+	<name value="AsvTeamnummer"/>
 	<status value="draft"/>
 	<kind value="identifier"/>
 	<date value="2018-06-06"/>
@@ -17,7 +17,7 @@
 	<responsible value="Kassenärztliche Bundesvereinigung (KBV)"/>
 	<type>
 		<coding>
-			<system value="http://hl7.org/fhir/v2/0203"/>
+			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
 			<code value="PRN"/>
 		</coding>
 	</type>

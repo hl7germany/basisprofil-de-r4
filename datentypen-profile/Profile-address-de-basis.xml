@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="address-de-basis" />
   <url value="http://fhir.de/StructureDefinition/address-de-basis" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="AddressDeBasis" />
   <title value="Adresse, deutsches Basisprofil" />
   <status value="draft" />

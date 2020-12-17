@@ -4,8 +4,8 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
 	<url value="http://fhir.de/ValueSet/dimdi/icd-10-gm" />
-	<version value="0.9.11" />
-	<name value="ICD-10-GM" />
+	<version value="0.9.12" />
+	<name value="ICD10GM" />
 	<status value="draft" />
 	<experimental value="true" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>

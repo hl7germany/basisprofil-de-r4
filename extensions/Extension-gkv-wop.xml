@@ -2,8 +2,8 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="wop" />
   <url value="http://fhir.de/StructureDefinition/gkv/wop" />
-  <version value="0.9.11" />
-  <name value="Extension-GkvWop" />
+  <version value="0.9.12" />
+  <name value="ExtensionGkvWop" />
   <title value="Kennzeichen Wohnortprinzip (WOP)" />
   <status value="draft" />
   <date value="2020-06-26" />

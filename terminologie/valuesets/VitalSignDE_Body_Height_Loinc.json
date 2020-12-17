@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "name": "VitalSignDE_Body_Height_Loinc",
   "title": "VitalSignDE_Body_Height_Loinc",
   "status": "active",

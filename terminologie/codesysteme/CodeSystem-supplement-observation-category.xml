@@ -4,11 +4,12 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
     </meta>
     <url value="http://fhir.de/CodeSystem/observation-category-supplement" />
-    <version value="0.9.11" />
+    <version value="0.9.12" />
     <name value="SupplementObservationCategory" />
     <status value="draft" />
     <experimental value="true" />
     <date value="2019-11-07" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <contact>
         <telecom>
             <system value="url" />

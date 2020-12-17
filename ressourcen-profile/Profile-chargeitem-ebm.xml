@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="chargeitem-ebm" />
   <url value="http://fhir.de/StructureDefinition/chargeitem-de-ebm" />
-  <version value="0.9.11" />
+  <version value="0.9.12" />
   <name value="ChargeItemEBM" />
   <title value="ChargeItem für EBM-Ziffer als Abrechnungsposition" />
   <status value="draft" />
@@ -28,7 +28,7 @@
       <binding>
         <strength value="required" />
         <description value="EBM-Katalog" />
-        <valueSet value="http://fhir.de/ValueSet/kbv/ebm" />
+        <valueSet value="https://fhir.kbv.de/ValueSet/74_VS_AW_EBM" />
       </binding>
     </element>
     <element id="ChargeItem.occurrence[x]">

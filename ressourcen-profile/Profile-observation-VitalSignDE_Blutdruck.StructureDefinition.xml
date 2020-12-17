@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck" />
+  <version value="0.9.12" />
   <name value="VitalSignDE_Blutdruck" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
@@ -63,7 +64,6 @@
     <element id="Observation.code.coding:loinc.system">
       <path value="Observation.code.coding.system" />
       <min value="1" />
-      <patternUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding:loinc.code">
       <path value="Observation.code.coding.code" />
@@ -77,7 +77,7 @@
       </type>
     </element>
     <element id="Observation.value[x]:valueQuantity">
-      <path value="Observation.valueQuantity" />
+      <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
       <max value="0" />
     </element>
@@ -122,12 +122,10 @@
     <element id="Observation.component:SystolicBP.code.coding:loinc.system">
       <path value="Observation.component.code.coding.system" />
       <min value="1" />
-      <defaultValueUri value="http://loinc.org" />
     </element>
     <element id="Observation.component:SystolicBP.code.coding:loinc.code">
       <path value="Observation.component.code.coding.code" />
       <min value="1" />
-      <patternCode value="8480-6" />
     </element>
     <element id="Observation.component:SystolicBP.value[x]">
       <path value="Observation.component.value[x]" />
@@ -139,22 +137,8 @@
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
     </element>
-    <element id="Observation.component:SystolicBP.value[x]:valueQuantity.value">
-      <path value="Observation.component.value[x].value" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:SystolicBP.value[x]:valueQuantity.unit">
-      <path value="Observation.component.value[x].unit" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:SystolicBP.value[x]:valueQuantity.system">
-      <path value="Observation.component.value[x].system" />
-      <min value="1" />
-      <patternUri value="http://unitsofmeasure.org" />
-    </element>
     <element id="Observation.component:SystolicBP.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
-      <min value="1" />
       <patternCode value="mm[Hg]" />
     </element>
     <element id="Observation.component:DiastolicBP">
@@ -186,12 +170,10 @@
     <element id="Observation.component:DiastolicBP.code.coding:loinc.system">
       <path value="Observation.component.code.coding.system" />
       <min value="1" />
-      <patternUri value="http://loinc.org" />
     </element>
     <element id="Observation.component:DiastolicBP.code.coding:loinc.code">
       <path value="Observation.component.code.coding.code" />
       <min value="1" />
-      <patternCode value="8462-4" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]">
       <path value="Observation.component.value[x]" />
@@ -203,22 +185,8 @@
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
     </element>
-    <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.value">
-      <path value="Observation.component.value[x].value" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.unit">
-      <path value="Observation.component.value[x].unit" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.system">
-      <path value="Observation.component.value[x].system" />
-      <min value="1" />
-      <patternUri value="http://unitsofmeasure.org" />
-    </element>
     <element id="Observation.component:DiastolicBP.value[x]:valueQuantity.code">
       <path value="Observation.component.value[x].code" />
-      <min value="1" />
       <patternCode value="mm[Hg]" />
     </element>
   </differential>

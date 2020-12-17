@@ -2,6 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="VitalSignDE" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
+  <version value="0.9.12" />
   <name value="VitalSignDE" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
@@ -48,7 +49,7 @@
         <severity value="error" />
         <human value="If there is no component or hasMember element then either a value[x] or a data absent reason must be present" />
         <expression value="(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())" />
-        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
+        <source value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
       </constraint>
     </element>
     <element id="Observation.category">
@@ -112,7 +113,7 @@
         <severity value="error" />
         <human value="If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day" />
         <expression value="$this.toString().length() &gt;= 8" />
-        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
+        <source value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
       </constraint>
     </element>
     <element id="Observation.value[x]">
@@ -160,7 +161,7 @@
         <severity value="error" />
         <human value="If there is no a value a data absent reason must be present" />
         <expression value="value.exists() or dataAbsentReason.exists()" />
-        <source value="http://fhir.de/StructureDefinition/VitalSignDE" />
+        <source value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
       </constraint>
     </element>
     <element id="Observation.component.value[x]">
