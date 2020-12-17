@@ -1,7 +1,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="atc" />
 	<url value="http://fhir.de/CodeSystem/dimdi/atc"/>
-	<name value="atc"/>
+	<name value="Atc"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2019-12-14"/>

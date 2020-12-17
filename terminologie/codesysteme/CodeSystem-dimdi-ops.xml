@@ -1,7 +1,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="ops" />
 	<url value="http://fhir.de/CodeSystem/dimdi/ops"/>
-	<name value="ops"/>
+	<name value="OCodeSystem-identifier-type-de-basis.xmlps"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2018-11-17"/>
