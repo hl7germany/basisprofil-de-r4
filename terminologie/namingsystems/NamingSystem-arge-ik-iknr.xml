@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
-	<name value="arge-ik-iknr"/>
+	<name value="ArgeIkIknr"/>
 	<status value="draft"/>
 	<kind value="identifier"/>
 	<date value="2017-09-15"/>
@@ -17,7 +17,7 @@
 	<responsible value="Arbeitsgemeinschaft Institutionskennzeichen (ARGE-IK)"/>
 	<type>
 		<coding>
-			<system value="http://hl7.org/fhir/v2/0203"/>
+			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
 			<code value="XX"/>
 		</coding>
 	</type>

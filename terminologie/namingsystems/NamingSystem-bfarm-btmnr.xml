@@ -3,7 +3,7 @@
    <meta>
         <profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
     </meta>
-    <name value="bfarm-btmnr" />
+    <name value="BfarmBtmnr" />
     <status value="draft" />
     <kind value="identifier" />
     <date value="2017-12-31" />
@@ -17,7 +17,7 @@
     <responsible value="Bundesinstitut für Arzneimittel und Medizinprodukte" />
     <type>
         <coding>
-            <system value="http://hl7.org/fhir/v2/0203" />
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
             <code value="RI" />
         </coding>
     </type>

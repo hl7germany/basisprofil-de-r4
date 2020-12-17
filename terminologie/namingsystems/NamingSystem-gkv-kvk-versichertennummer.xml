@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
-	<name value="gkv-kvk-versichertennummer"/>
+	<name value="GkvKvkVersichertennummer"/>
 	<status value="draft"/>
 	<kind value="identifier"/>
 	<date value="2018-06-07"/>
