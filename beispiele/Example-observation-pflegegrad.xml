@@ -1,7 +1,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="Example-observation-pflegegrad" />
   <meta>
-    <profile value="http://fhir.de/StructureDefinition/observation-pflegegrad" />
+    <profile value="http://fhir.de/StructureDefinition/observation-de-pflegegrad" />
   </meta>
   <status value="final" />
   <code>
