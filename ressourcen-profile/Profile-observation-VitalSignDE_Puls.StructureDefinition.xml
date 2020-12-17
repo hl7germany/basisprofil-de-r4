@@ -65,12 +65,10 @@
     <element id="Observation.code.coding:loinc.system">
       <path value="Observation.code.coding.system" />
       <min value="1" />
-      <patternUri value="http://loinc.org" />
     </element>
     <element id="Observation.code.coding:loinc.code">
       <path value="Observation.code.coding.code" />
       <min value="1" />
-      <defaultValueCode value="8867-4" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
@@ -84,7 +82,6 @@
     </element>
     <element id="Observation.value[x]:valueQuantity.code">
       <path value="Observation.value[x].code" />
-      <min value="1" />
       <patternCode value="/min" />
     </element>
   </differential>
