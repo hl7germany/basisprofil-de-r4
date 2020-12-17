@@ -2,7 +2,7 @@
 	<id value= "valueset-diagnosesicherheit" />
 	<url value="https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT"/>
 	<version value="0.9.12" />
-	<name value="kbv-s-icd-diagnosesicherheit"/>
+	<name value="Kbv_s_IcdDiagnosesicherheit"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2018-04-08"/>
