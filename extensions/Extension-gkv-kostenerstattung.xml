@@ -3,7 +3,7 @@
 	<id value="kostenerstattung" />
   <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
   <version value="0.9.12" />
-  <name value="Extension-GkvKostenerstattung" />
+  <name value="ExtensionGkvKostenerstattung" />
   <status value="draft" />
   <date value="2019-12-10" />
   <description value="Gibt an, ob der Kostenträger den Nachweis der Inanspruchnahme von Leisrungen der Abrechnungsart Kostnerstattung auf der eGK speichert.&#xD;&#xA;vorhanden = Nachweis wird genutzt;&#xD;&#xA;nicht vorhanden = Nachweis wird nicht genutzt" />

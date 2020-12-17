@@ -3,7 +3,7 @@
 	<id value="einlesedatum-karte" />
   <url value="http://fhir.de/StructureDefinition/gkv/einlesedatum-karte" />
   <version value="0.9.12" />
-  <name value="Extension-GkvEinlesedatumKarte" />
+  <name value="ExtensionGkvEinlesedatumKarte" />
   <title value="Extension zur Erfassung des Einlesedatums der eGK bzw. KVK" />
   <status value="draft" />
   <date value="2019-12-11" />

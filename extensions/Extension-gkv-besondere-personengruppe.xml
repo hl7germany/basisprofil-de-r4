@@ -3,7 +3,7 @@
 	<id value="besondere-personengruppe" />
 	<url value="http://fhir.de/StructureDefinition/gkv/besondere-personengruppe" />
 	<version value="0.9.12" />
-	<name value="Extension-GkvBesonderePersonengruppe" />
+	<name value="ExtensionGkvBesonderePersonengruppe" />
 	<status value="draft" />
 	<date value="2019-12-10" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />

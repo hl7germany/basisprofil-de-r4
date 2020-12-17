@@ -3,7 +3,7 @@
   <id value="ags" />
   <url value="http://fhir.de/StructureDefinition/destatis/ags" />
   <version value="0.9.12" />
-  <name value="Extension-destatis-ags" />
+  <name value="ExtensionDestatisAgs" />
   <status value="draft" />
   <description value="Extension für die Abbildung des Amtlichen Gemeindeschlüssels&#xD;&#xA;https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel" />
   <fhirVersion value="4.0.1" />
