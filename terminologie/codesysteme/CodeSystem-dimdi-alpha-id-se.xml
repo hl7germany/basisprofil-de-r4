@@ -1,9 +1,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="alpha-id-se" />
+	<url value="http://fhir.de/CodeSystem/dimdi/alpha-id-se"/>
 	<identifier>
 		<value value="1.2.276.0.76.5.480"/>
 	</identifier>
-	<url value="http://fhir.de/CodeSystem/dimdi/alpha-id-se"/>
 	<name value="alpha-id-se"/>
 	<status value="draft"/>
 	<experimental value="true"/>
