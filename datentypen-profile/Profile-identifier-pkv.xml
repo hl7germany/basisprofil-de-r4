@@ -27,8 +27,8 @@
       <path value="Identifier.type.coding" />
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="system" />
+          <type value="pattern" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -39,16 +39,18 @@
       <sliceName value="PKV-Type" />
       <min value="1" />
       <max value="1" />
+      <patternCoding>
+        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+        <code value="PKV" />
+      </patternCoding>
     </element>
     <element id="Identifier.type.coding:PKV-Type.system">
       <path value="Identifier.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
     </element>
     <element id="Identifier.type.coding:PKV-Type.code">
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="PKV" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />

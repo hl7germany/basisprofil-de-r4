@@ -32,8 +32,8 @@
       <path value="Identifier.type.coding" />
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="system" />
+          <type value="pattern" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -44,16 +44,18 @@
       <sliceName value="LANR-Type" />
       <min value="1" />
       <max value="1" />
+      <patternCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+        <code value="LANR" />
+      </patternCoding>
     </element>
     <element id="Identifier.type.coding:LANR-Type.system">
       <path value="Identifier.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
     </element>
     <element id="Identifier.type.coding:LANR-Type.code">
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="LANR" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />
@@ -81,9 +83,6 @@
       <min value="1" />
     </element>
     <element id="Identifier.assigner.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Identifier.assigner.display" />
       <min value="1" />
     </element>
