@@ -27,8 +27,8 @@
       <path value="Identifier.type.coding" />
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="system" />
+          <type value="pattern" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -39,16 +39,18 @@
       <sliceName value="MR-Type" />
       <min value="1" />
       <max value="1" />
+      <patternCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+        <code value="MR" />
+      </patternCoding>
     </element>
     <element id="Identifier.type.coding:MR-Type.system">
       <path value="Identifier.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/v2-0203" />
     </element>
     <element id="Identifier.type.coding:MR-Type.code">
       <path value="Identifier.type.coding.code" />
       <min value="1" />
-      <fixedCode value="MR" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />
