@@ -3,7 +3,7 @@
   <id value="VitalSignDE-Kopfumfang" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang" />
   <version value="0.9.12" />
-  <name value="VitalSignDEKopfumfang" />
+  <name value="VitalSignDE_Kopfumfang" />
   <title value="Observation - VitalSignDE - Kopfumfang" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
