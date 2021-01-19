@@ -36,8 +36,12 @@
 		<code value="ZANR"/>
 		<display value="Zahnarztnummer"/>
 	</concept>
-			<concept>
+	<concept>
 		<code value="BSNR"/>
 		<display value="Betriebsstättennummer"/>
+	</concept>
+	<concept>
+		<code value="KZVA"/>
+		<display value="KZVAbrechnungsnummer"/>
 	</concept>
 </CodeSystem>

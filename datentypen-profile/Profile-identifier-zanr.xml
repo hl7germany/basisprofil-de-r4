@@ -68,8 +68,8 @@
       <constraint>
         <key value="zanr-2" />
         <severity value="warning" />
-        <human value="Die ZANR inclusive vorgesetzter Nummer der herausgebenden KZV muss 8-stellig numerisch sein" />
-        <expression value="matches('[0-9]{8}')" />
+        <human value="Die ZANR bestehend aus 7-stelliger Zahnarztnummer + 2-stelliger Fachbezeichnung muss 9-stellig numerisch sein" />
+        <expression value="matches('[0-9]{9}')" />
         <source value="http://fhir.de/StructureDefinition/identifier-zanr" />
       </constraint>
     </element>
