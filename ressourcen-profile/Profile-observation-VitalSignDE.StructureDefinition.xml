@@ -54,10 +54,6 @@
     </element>
     <element id="Observation.category">
       <path value="Observation.category" />
-      <min value="1" />
-    </element>
-    <element id="Observation.category.coding">
-      <path value="Observation.category.coding" />
       <slicing>
         <discriminator>
           <type value="pattern" />
@@ -67,25 +63,17 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="Observation.category.coding:VSCat">
-      <path value="Observation.category.coding" />
-      <sliceName value="VSCat" />
+    <element id="Observation.category:vs-cat">
+      <path value="Observation.category" />
+      <sliceName value="vs-cat" />
       <min value="1" />
       <max value="1" />
-      <patternCoding>
-        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
-        <code value="vital-signs" />
-      </patternCoding>
-    </element>
-    <element id="Observation.category.coding:VSCat.system">
-      <path value="Observation.category.coding.system" />
-      <min value="1" />
-      <patternUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
-    </element>
-    <element id="Observation.category.coding:VSCat.code">
-      <path value="Observation.category.coding.code" />
-      <min value="1" />
-      <patternCode value="vital-signs" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+          <code value="vital-signs" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
