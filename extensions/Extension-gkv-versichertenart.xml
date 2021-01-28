@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="versichertenart" />
   <url value="http://fhir.de/StructureDefinition/gkv/versichertenart" />
-  <version value="0.9.12" />
+  <version value="0.9.13" />
   <name value="ExtensionGkvVersichertenart" />
   <title value="Versichertenart GKV" />
   <status value="draft" />
