@@ -41,6 +41,6 @@
     "status": "draft",
     "title": "Koerpergroesse-SNOMED",
     "url": "http://fhir.de/ValueSet/koerpergroesse-snomed-de",
-    "version": "0.9.12",
+    "version": "0.9.13",
     "resourceType": "ValueSet"
 }

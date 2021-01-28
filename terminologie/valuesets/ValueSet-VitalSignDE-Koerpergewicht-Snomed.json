@@ -43,6 +43,6 @@
     "status": "draft",
     "title": "Koerpergewicht-SNOMED",
     "url": "http://fhir.de/ValueSet/koerpergewicht-snomed-de",
-    "version": "0.9.12",
+    "version": "0.9.13",
     "resourceType": "ValueSet"
 }

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="besondere-personengruppe" />
 	<url value="http://fhir.de/StructureDefinition/gkv/besondere-personengruppe" />
-	<version value="0.9.12" />
+	<version value="0.9.13" />
 	<name value="ExtensionGkvBesonderePersonengruppe" />
 	<status value="draft" />
 	<date value="2019-12-10" />

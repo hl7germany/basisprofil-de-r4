@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-kzva" />
   <url value="http://fhir.de/StructureDefinition/identifier-kzva" />
-  <version value="0.9.12" />
+  <version value="0.9.13" />
   <name value="IdentifierKzva" />
   <title value="Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer" />
   <status value="draft" />
