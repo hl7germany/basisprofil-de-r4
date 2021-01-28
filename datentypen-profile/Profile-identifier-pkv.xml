@@ -21,36 +21,12 @@
     </element>
     <element id="Identifier.type">
       <path value="Identifier.type" />
-      <min value="1" />
-    </element>
-    <element id="Identifier.type.coding">
-      <path value="Identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:PKV-Type">
-      <path value="Identifier.type.coding" />
-      <sliceName value="PKV-Type" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
-        <code value="PKV" />
-      </patternCoding>
-    </element>
-    <element id="Identifier.type.coding:PKV-Type.system">
-      <path value="Identifier.type.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:PKV-Type.code">
-      <path value="Identifier.type.coding.code" />
-      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+          <code value="PKV" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
