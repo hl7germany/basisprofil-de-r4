@@ -47,6 +47,34 @@
         <label value="Einfacher ICD-Code" />
         <valueCode value="F17.4" />
       </example>
+      <constraint>
+        <key value="icd-1" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Primärcode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-primaercode&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-primaercode&#39;).value.code)" />
+        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
+      </constraint>
+      <constraint>
+        <key value="icd-2" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Manifestationscode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode&#39;).value.code)" />
+        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
+      </constraint>
+      <constraint>
+        <key value="icd-3" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Ausrufezeichencode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).value.code)" />
+        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
+      </constraint>
+      <constraint>
+        <key value="icd-8" />
+        <severity value="warning" />
+        <human value="Bei Angabe eines Codes in der Seitenlokalisations-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
+        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).value.code)" />
+        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>

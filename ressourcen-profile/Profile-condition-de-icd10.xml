@@ -32,34 +32,6 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
-      <constraint>
-        <key value="icd-1" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Haupt-Kreuz-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz').value.code)" />
-        <source value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-      </constraint>
-      <constraint>
-        <key value="icd-2" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Stern-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-stern').value.code)" />
-        <source value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-      </constraint>
-      <constraint>
-        <key value="icd-3" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Ausrufezeichen-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen').value.code)" />
-        <source value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-      </constraint>
-      <constraint>
-        <key value="icd-8" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Seitenlokalisations-Extension, muss dieser auch Bestandteil des ICD-Codes sein!" />
-        <expression value="extension('http://fhir.de/StructureDefinition/seitenlokalisation').empty() or code.contains($this.extension('http://fhir.de/StructureDefinition/seitenlokalisation').value.code)" />
-        <source value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-      </constraint>
     </element>
     <element id="Condition.code.coding:ICD-10-GM">
       <path value="Condition.code.coding" />
