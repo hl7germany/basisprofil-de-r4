@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung" />
   <version value="0.9.13" />
-  <name value="VitalSignDE_Sauerstoffsaettigung" />
+  <name value="VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -61,16 +61,6 @@
         <system value="http://loinc.org" />
         <code value="2708-6" />
       </patternCoding>
-    </element>
-    <element id="Observation.code.coding:loinc.system">
-      <path value="Observation.code.coding.system" />
-      <min value="1" />
-      <patternUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding:loinc.code">
-      <path value="Observation.code.coding.code" />
-      <min value="1" />
-      <patternCode value="2708-6" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
