@@ -56,20 +56,11 @@
       <path value="Observation.code.coding" />
       <sliceName value="loinc" />
       <min value="1" />
+      <max value="1" />
       <patternCoding>
         <system value="http://loinc.org" />
         <code value="8310-5" />
       </patternCoding>
-    </element>
-    <element id="Observation.code.coding:loinc.system">
-      <path value="Observation.code.coding.system" />
-      <min value="1" />
-      <patternUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.code.coding:loinc.code">
-      <path value="Observation.code.coding.code" />
-      <min value="1" />
-      <patternCode value="8310-5" />
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
