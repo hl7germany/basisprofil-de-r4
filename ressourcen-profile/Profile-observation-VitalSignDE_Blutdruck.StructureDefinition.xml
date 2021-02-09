@@ -111,14 +111,6 @@
         <code value="8480-6" />
       </patternCoding>
     </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc.system">
-      <path value="Observation.component.code.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc.code">
-      <path value="Observation.component.code.coding.code" />
-      <min value="1" />
-    </element>
     <element id="Observation.component:SystolicBP.value[x]">
       <path value="Observation.component.value[x]" />
       <type>
@@ -158,14 +150,6 @@
         <system value="http://loinc.org" />
         <code value="8462-4" />
       </patternCoding>
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc.system">
-      <path value="Observation.component.code.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc.code">
-      <path value="Observation.component.code.coding.code" />
-      <min value="1" />
     </element>
     <element id="Observation.component:DiastolicBP.value[x]">
       <path value="Observation.component.value[x]" />
