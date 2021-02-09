@@ -62,14 +62,6 @@
         <code value="85354-9" />
       </patternCoding>
     </element>
-    <element id="Observation.code.coding:loinc.system">
-      <path value="Observation.code.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc.code">
-      <path value="Observation.code.coding.code" />
-      <min value="1" />
-    </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <max value="0" />
