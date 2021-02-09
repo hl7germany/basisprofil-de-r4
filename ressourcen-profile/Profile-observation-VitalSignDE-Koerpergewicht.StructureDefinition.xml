@@ -56,6 +56,7 @@
       <path value="Observation.code.coding" />
       <sliceName value="loinc" />
       <min value="1" />
+      <max value="1" />
       <binding>
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc" />
