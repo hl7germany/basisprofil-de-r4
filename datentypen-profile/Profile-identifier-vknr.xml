@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-vknr" />
   <url value="http://fhir.de/StructureDefinition/identifier-vknr" />
-  <version value="0.9.12" />
+  <version value="0.9.13" />
   <name value="IdentifierVknr" />
   <title value="Identifier-Profil für die Abbildung einer Vertragskassennummer (VKNR)" />
   <status value="draft" />
@@ -27,35 +27,6 @@
           <code value="NIIP" />
         </coding>
       </patternCodeableConcept>
-    </element>
-    <element id="Identifier.type.coding">
-      <path value="Identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:NIIP-Type">
-      <path value="Identifier.type.coding" />
-      <sliceName value="NIIP-Type" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
-        <code value="NIIP" />
-      </patternCoding>
-    </element>
-    <element id="Identifier.type.coding:NIIP-Type.system">
-      <path value="Identifier.type.coding.system" />
-      <min value="1" />
-    </element>
-    <element id="Identifier.type.coding:NIIP-Type.code">
-      <path value="Identifier.type.coding.code" />
-      <min value="1" />
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />

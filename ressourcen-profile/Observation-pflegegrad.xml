@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-pflegegrad" />
   <url value="http://fhir.de/StructureDefinition/observation-de-pflegegrad" />
-  <version value="0.9.12" />
+  <version value="0.9.13" />
   <name value="ObservationDePflegegrad" />
   <title value="Pflegegrad, deutsches Basisprofil" />
   <status value="draft" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-  <description value="Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags uf Einstufung in einen Pflegegrad" />
+  <description value="Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad" />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>

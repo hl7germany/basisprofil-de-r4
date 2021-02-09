@@ -1,0 +1,89 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ConceptMap-OPS-SNOMED-Category-Mapping",
+  "name": "ConceptMapOPS-SNOMED-Category-Mapping",
+  "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
+  "status": "active",
+  "url": "http:/fhir.de/ConceptMap/OPS-SNOMED-Category",
+  "description": "Mapping OPS \"Klassentitel\" zu SNOMED-CT",
+  "sourceCanonical": "http://fhir.de/ValueSet/dimdi/ops",
+  "version": "1.0",
+  "targetCanonical": "http://snomed.info/sct",
+  "experimental": false,
+  "date": "2020-04-22",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "group": [
+    {
+      "element": [
+        {
+          "target": [
+            {
+              "code": "103693007",
+              "equivalence": "equivalent",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "code": "1",
+          "display": "Diagnostische Maßnahmen"
+        },
+        {
+          "target": [
+            {
+              "code": "363679005",
+              "equivalence": "equivalent",
+              "display": "Imaging"
+            }
+          ],
+          "code": "3",
+          "display": "Bildgebende Diagnostik"
+        },
+        {
+          "target": [
+            {
+              "code": "387713003",
+              "equivalence": "equivalent",
+              "display": "Surgical procedure"
+            }
+          ],
+          "code": "5",
+          "display": "Operationen"
+        },
+        {
+          "target": [
+            {
+              "code": "18629005",
+              "equivalence": "relatedto",
+              "display": "Administration of medicine"
+            }
+          ],
+          "code": "6",
+          "display": "Medikamente"
+        },
+        {
+          "target": [
+            {
+              "code": "277132007",
+              "equivalence": "equivalent",
+              "display": "Therapeutic procedure"
+            }
+          ],
+          "code": "8",
+          "display": "Nichtoperative therapeutische Maßnahmen"
+        },
+        {
+          "target": [
+            {
+              "code": "394841004",
+              "equivalence": "relatedto",
+              "display": "Other category"
+            }
+          ],
+          "code": "9",
+          "display": "Ergänzende Maßnahmen"
+        }
+      ],
+      "source": "http://fhir.de/CodeSystem/dimdi/ops",
+      "target": "http://snomed.info/sct"
+    }
+  ]
+}
