@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="healthcareFacilityTypeCode (XDSDocumentEntry) This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."/>
+                <description value="**healthcareFacilityTypeCode (XDSDocumentEntry)**&#13;&#10; This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."/>
                 <immutable value="false"/>
                 <compose>
                     <include>
@@ -58,7 +58,7 @@
                                 <valueString value="Dieser Wert kann zur Kennzeichnung der Herkunft von Dokumenten verwendet werden, die der Patient selbstst&#xE4;ndig erstellt und eingestellt hat, zum Beispiel &#xFC;ber ein Patientenportal oder eine Smartphone-App. Daten die vom Patienten &#xFC;ber eine solche L&#xF6;sung stellvertretend f&#xFC;r einen Heilberufler eingestellt werden (z.B. gescannter Arztbrief, DICOM-DVD) sollten nicht diesen Wert verwenden, sondern den f&#xFC;r den Heilberufler vorgesehenen Wert."/>
                             </extension>
                             <code value="PAT"/>
-                            <display value="Patient au&#xDF;erhalb der Betreuung "/>
+                            <display value="Patient au&#xDF;erhalb der Betreuung"/>
                         </concept>
                         <concept>
                             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">

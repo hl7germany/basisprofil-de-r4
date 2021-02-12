@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="typeCode (XDSDocumentEntry)A low-level classification of XDS Documents within a classCode that describes class, event, specialty, and setting."/>
+                <description value="**typeCode (XDSDocumentEntry)**&#13;&#10;A low-level classification of XDS Documents within a classCode that describes class, event, specialty, and setting."/>
                 <immutable value="false"/>
                 <compose>
                     <include>

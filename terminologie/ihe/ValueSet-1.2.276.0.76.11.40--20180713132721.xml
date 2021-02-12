@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="codeList (XDSFolder)The set of codes specifying the type of clinical activities that resulted in placing XDS Documents in a Folder."/>
+                <description value="**codeList (XDSFolder)**&#13;&#10;The set of codes specifying the type of clinical activities that resulted in placing XDS Documents in a Folder."/>
                 <immutable value="false"/>
                 <compose>
                     <include>

@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="contentTypeCode (XDSSubmissionSet)The code specifying the type of clinical activity that resulted in placing XDS Documents in a SubmissionSet."/>
+                <description value="**contentTypeCode (XDSSubmissionSet)**&#13;&#10;The code specifying the type of clinical activity that resulted in placing XDS Documents in a SubmissionSet."/>
                 <immutable value="false"/>
                 <compose>
                     <include>
