@@ -229,9 +229,6 @@
       </patternIdentifier>
     </element>
     <element id="Coverage.subscriber.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Coverage.subscriber.display" />
       <short value="Name des Hauptversicherten" />
     </element>
@@ -247,9 +244,6 @@
       </patternIdentifier>
     </element>
     <element id="Coverage.beneficiary.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Coverage.beneficiary.display" />
       <short value="Name der Versicherten Person" />
       <definition value="Die Angabe des Namens des Versicherten dient der geeigenten Darstellung für den Benutzer und hat keine technische Bedeutung." />
@@ -270,9 +264,29 @@
     </element>
     <element id="Coverage.payor">
       <path value="Coverage.payor" />
-      <definition value="Gibt den Kostenträger des Versicherten an. Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.&#xD;&#xA;Die Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.&#xD;&#xA;Sofern eine zweite Referenz auf einen Kostenträger existiert, so handelt es sich hierbei um den abrechnenden Kostenträger" />
+      <definition value="Gibt den Kostenträger des Versicherten an. Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.&#xD;&#xA;Die Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.&#xD;&#xA;Sofern eine zweite Referenz auf einen Kostenträger existiert, kann diese durch die Extension 'Abrechnende IK' angegeben werden." />
       <comment value="Die Angabe der IK-Nummer des Versicherers in payor.identifier ist verpflichtend. Weitere Angaben zum Versicherer (Name, Adresse) können in einer Organization-Resource hinterlegt werden, auf die hier referenziert wird." />
-      <max value="2" />
+      <max value="1" />
+    </element>
+    <element id="Coverage.payor.extension">
+      <path value="Coverage.payor.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Coverage.payor.extension:abrechnendeIK">
+      <path value="Coverage.payor.extension" />
+      <sliceName value="abrechnendeIK" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/AbrechnendeIK" />
+      </type>
     </element>
     <element id="Coverage.payor.identifier">
       <path value="Coverage.payor.identifier" />
@@ -281,21 +295,7 @@
         <profile value="http://fhir.de/StructureDefinition/identifier-iknr" />
       </type>
     </element>
-    <element id="Coverage.payor.identifier.type.coding">
-      <path value="Coverage.payor.identifier.type.coding" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
     <element id="Coverage.payor.display">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true" />
-      </extension>
       <path value="Coverage.payor.display" />
       <min value="1" />
     </element>
