@@ -4,7 +4,7 @@
   "name": "ConceptMapOPS-SNOMED-Category-Mapping",
   "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
   "status": "active",
-  "url": "http:/fhir.de/ConceptMap/OPS-SNOMED-Category",
+  "url": "http://fhir.de/ConceptMap/OPS-SNOMED-Category",
   "description": "Mapping OPS \"Klassentitel\" zu SNOMED-CT",
   "sourceCanonical": "http://fhir.de/ValueSet/dimdi/ops",
   "version": "1.0",
