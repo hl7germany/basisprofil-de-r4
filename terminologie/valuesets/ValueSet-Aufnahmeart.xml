@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
-	<url value="http://fhir.de/ValueSet/Aufnahmeart" />
+	<url value="http://fhir.de/ValueSet/dkgev/Aufnahmeart" />
 	<version value="0.9.13" />
 	<name value="Aufnahmeart" />
 	<status value="draft" />
@@ -20,7 +20,7 @@
 
 	<compose>
 		<include>
-			<system value="http://fhir.de/CodeSystem/Aufnahmeart" />
+			<system value="http://fhir.de/CodeSystem/dkgev/Aufnahmeart" />
 		</include>
 	</compose>
 </ValueSet>

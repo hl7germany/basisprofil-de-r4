@@ -3,7 +3,7 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
 	</meta>
-	<url value="http://fhir.de/CodeSystem/Aufnahmeart" />
+	<url value="http://fhir.de/CodeSystem/dkgev/Aufnahmeart" />
 	<version value="0.9.13" />
 	<name value="Aufnahmeart" />
 	<status value="draft" />
