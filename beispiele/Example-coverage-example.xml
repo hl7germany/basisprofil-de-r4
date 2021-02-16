@@ -85,12 +85,11 @@
       <value value="823746876" />
     </identifier>
     <display value="Krankenkasse A" />
-  </payor>
-  <payor>
-    <identifier>
+    <extension url="http://fhir.de/StructureDefinition/AbrechnendeIK">
+    <valueIdentifier>
       <system value="http://fhir.de/NamingSystem/arge-ik/iknr" />
       <value value="756756324" />
-    </identifier>
-    <display value="Krankenkasse A, Zweigstelle B" />
+    </valueIdentifier>
+  </extension>
   </payor>
 </Coverage>
