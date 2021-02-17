@@ -5,8 +5,8 @@
   <version value="1.0.0-alpha1" />
   <name value="CodingICD10GM" />
   <title value="Coding-Profil für ICD-10-GM" />
-  <status value="draft" />
-  <date value="2020-07-05" />
+  <status value="active" />
+  <date value="2021-02-17" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <name value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
@@ -15,6 +15,7 @@
     </telecom>
   </contact>
   <description value="Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

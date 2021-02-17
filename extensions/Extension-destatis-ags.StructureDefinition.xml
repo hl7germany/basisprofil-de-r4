@@ -4,8 +4,17 @@
   <url value="http://fhir.de/StructureDefinition/destatis/ags" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionDestatisAgs" />
-  <status value="draft" />
+  <status value="active" />
+  <date value="2021-02-17" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Extension für die Abbildung des Amtlichen Gemeindeschlüssels&#xD;&#xA;https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />

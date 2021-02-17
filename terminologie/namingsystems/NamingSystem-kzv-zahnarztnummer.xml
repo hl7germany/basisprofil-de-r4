@@ -6,7 +6,7 @@
 	<name value="KzvZahnarztnummer"/>
 	<status value="retired"/>
 	<kind value="identifier"/>
-	<date value="2017-12-06"/>
+    <date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>

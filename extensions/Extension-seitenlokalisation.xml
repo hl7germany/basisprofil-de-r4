@@ -4,8 +4,8 @@
   <url value="http://fhir.de/StructureDefinition/seitenlokalisation" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionSeitenlokalisation" />
-  <status value="draft" />
-  <date value="2020-04-22" />
+  <status value="active" />
+  <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -14,6 +14,7 @@
     </telecom>
   </contact>
   <description value="Dokumentation der Lateralität bei OPS und ICD-10 Codes" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />
