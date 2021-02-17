@@ -30,7 +30,7 @@
 	</uniqueId>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/kbv/bsnr"/>
+		<value value="http://fhir.de/identifiers/kbv/bsnr"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>

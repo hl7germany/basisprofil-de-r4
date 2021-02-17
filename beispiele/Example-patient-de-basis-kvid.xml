@@ -1,7 +1,7 @@
 <Patient xmlns="http://hl7.org/fhir">
 	<id value="Example-patient-de-basis-kvid" />
 	<identifier>
-		<system value="http://fhir.de/NamingSystem/gkv/kvid-10"/>
+		<system value="http://fhir.de/identifiers/gkv/kvid-10"/>
 		<value value="G995030567"/>
 	</identifier>
 	<name>

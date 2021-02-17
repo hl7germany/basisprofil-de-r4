@@ -25,7 +25,7 @@
     <usage value="Eindeutige Identifikationsnummer zu einem Hilfsmittel aus dem Verzeichnis der GKV." />
     <uniqueId>
         <type value="uri" />
-        <value value="http://fhir.de/NamingSystem/gkv/hmnr" />
+        <value value="http://fhir.de/identifiers/gkv/hmnr" />
         <preferred value="true" />
         <period>
             <start value="2017-12-31T00:00:00.000+02:00" />

@@ -30,7 +30,7 @@
 	</uniqueId>-->
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/gkv/pseudo-kvid"/>
+		<value value="http://fhir.de/identifiers/gkv/pseudo-kvid"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-10-30"/>

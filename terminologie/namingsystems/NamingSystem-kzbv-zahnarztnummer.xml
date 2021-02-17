@@ -32,7 +32,7 @@
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet."/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/kzbv/zahnarztnummer"/>
+		<value value="http://fhir.de/identifiers/kzbv/zahnarztnummer"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2020-03-16"/>
