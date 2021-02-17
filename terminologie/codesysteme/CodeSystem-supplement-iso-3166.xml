@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="supplement-iso-3166" />
+    <url value="http://fhir.de/CodeSystem/supplement-iso-3166" />
+    <version value="1.0.0-alpha1" />
+    <name value="CodeSystemSupplementISO3166" />
+    <title value="CodeSystem Supplement ISO 3166" />
+    <status value="active" />
+    <date value="2020-05-14" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Offizieller Name eines Staates in deutscher Sprache ISO-3166" />
+    <caseSensitive value="true" />
+    <content value="supplement" />
+    <supplements value="urn:iso:std:iso:3166" />
+    <concept>
+        <code value="AF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Afghanistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ägypten" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AX" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Åland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Albanien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Algerien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Amerikanisch-Samoa" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Amerikanische Jungferninseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Andorra" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Angola" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Anguilla" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AQ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Antarktis" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Antigua und Barbuda" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GQ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Äquatorialguinea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Argentinien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Armenien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Aruba" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ascension" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Aserbaidschan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ET" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Äthiopien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Australien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bahamas" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bahrain" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bangladesch" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BB" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Barbados" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Weißrussland (Belarus)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Belgien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Belize" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BJ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Benin" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bermuda" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bhutan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bolivien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BQ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bonaire, Saba, Sint Eustatius" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bosnien und Herzegowina" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Botswana" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bouvetinsel" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Brasilien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Britische Jungferninseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Britisches Territorium im Indischen Ozean" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Brunei" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Bulgarien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Burkina Faso" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Burundi" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ceuta, Melilla" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Chile" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Volksrepublik China" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Clipperton (reserviert für ITU)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Cookinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Costa Rica" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Curaçao" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Dänemark" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Deutsche Demokratische Republik (historisch)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Deutschland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Diego Garcia (reserviert für ITU)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Dominica" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Dominikanische Republik" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="DJ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Dschibuti" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ecuador" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Elfenbeinküste (Côte dIvoire)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="El Salvador" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ER" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Eritrea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Estland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Eswatini (Swasiland)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Europäische Gemeinschaft" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Europäische Union" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Falklandinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Färöer" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FJ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Fidschi" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Finnland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Frankreich" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FX" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Frankreich France métropolitaine" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Französisch-Guayana" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Französisch-Polynesien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Französische Süd- und Antarktisgebiete" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Gabun" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Gambia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Georgien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ghana" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Gibraltar" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Grenada" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Griechenland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Grönland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guadeloupe" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guam" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guatemala" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guernsey (Kanalinsel)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guinea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guinea-Bissau" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Guyana" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Haiti" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Heard und McDonaldinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Honduras" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Hongkong" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Indien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ID" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Indonesien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Isle of Man" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IQ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Irak" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Iran" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Irland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Island" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Israel" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Italien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="JM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Jamaika" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="JP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Japan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="YE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Jemen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="JE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Jersey (Kanalinsel)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="JO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Jordanien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Cayman Islands (Kaimaninseln)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kambodscha" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kamerun" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kanada" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="IC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kanarische Inseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kap Verde" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kasachstan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="QA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Katar" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kenia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kirgisistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kiribati" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kokosinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kolumbien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Komoren" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Demokratische Republik Kongo" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Republik Kongo" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nordkorea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Südkorea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="XK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kosovo" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kroatien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kuba" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Kuwait" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Laos" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Lesotho" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Lettland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LB" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Libanon" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Liberia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Libyen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Liechtenstein" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Litauen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Luxemburg" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Macau" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Madagaskar" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Malawi" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Malaysia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Malediven" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ML" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mali" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Malta" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Marokko" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Marshallinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MQ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Martinique" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mauretanien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mauritius" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="YT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mayotte" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MX" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mexiko" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="FM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mikronesien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Moldau (Moldawien)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Monaco" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mongolei" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ME" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Montenegro" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Montserrat" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Mosambik" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Myanmar (Burma)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="nan" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Namibia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nauru" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nepal" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Neukaledonien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Neuseeland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Neutrale Zone (Saudi-Arabien und Irak bis 1993)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nicaragua" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Niederlande" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Niederländische Antillen (historisch)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Niger" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nigeria" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Niue" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MP" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nördliche Marianen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Nordmazedonien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Norfolkinsel" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="NO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Norwegen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="OM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Oman" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Österreich" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Osttimor (Timor-Leste)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Pakistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Palästina" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Palau" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Panama" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Papua-Neuguinea" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Paraguay" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Peru" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Philippinen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Pitcairninseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Polen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Portugal" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Puerto Rico" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="RE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Réunion" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="RW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ruanda" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="RO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Rumänien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="RU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Russland" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SB" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Salomonen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="BL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Saint-Barthélemy" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="MF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Saint-Martin (französischer Teil)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ZM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sambia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="WS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Samoa" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="San Marino" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ST" />
+        <designation>
+            <language value="de-DE" />
+            <value value="São Tomé und Príncipe" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Saudi-Arabien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Schweden" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Schweiz (Confoederatio Helvetica)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Senegal" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="RS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Serbien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Serbien und Montenegro (historisch)" />
+        </designation>
+        <designation>
+            <language value="de-DE" />
+            <value value="Tschechoslowakei (historisch)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Seychellen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SL" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sierra Leone" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ZW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Simbabwe" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Singapur" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SX" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sint Maarten" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Slowakei" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SI" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Slowenien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Somalia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ES" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Spanien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sri Lanka" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sankt Helena, Ascension und Tristan da Cunha" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="KN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="St. Kitts und Nevis" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="LC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="St. Lucia" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="PM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Saint-Pierre und Miquelon" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="St. Vincent und die Grenadinen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ZA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Südafrika" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sudan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Südgeorgien und die Südlichen Sandwichinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SS" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Südsudan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Suriname" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SJ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Spitzbergen und Jan Mayen" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Syrien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TJ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tadschikistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TW" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Taiwan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tansania" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Thailand" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Togo" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TK" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tokelau" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TO" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tonga" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TT" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Trinidad und Tobago" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tristan da Cunha" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TD" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tschad" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tschechien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tunesien" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Türkei" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Turkmenistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TC" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Turks- und Caicosinseln" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="TV" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Tuvalu" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="SU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Sowjetunion (UdSSR, historisch)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="UG" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Uganda" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="UA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ukraine" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="HU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Ungarn" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="UM" />
+        <designation>
+            <language value="de-DE" />
+            <value value="United States Minor Outlying Islands" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="UY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Uruguay" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="UZ" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Usbekistan" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VU" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vanuatu" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VA" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vatikanstadt" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Venezuela" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="AE" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vereinigte Arabische Emirate" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="US" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vereinigte Staaten" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="GB" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vereinigtes Königreich (Großbritannien und Nordirland)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="VN" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Vietnam" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="WF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Wallis und Futuna" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CX" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Weihnachtsinsel" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="EH" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Westsahara" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="ZR" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Zaire (jetzt Demokratische Republik Kongo)" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CF" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Zentralafrikanische Republik" />
+        </designation>
+    </concept>
+    <concept>
+        <code value="CY" />
+        <designation>
+            <language value="de-DE" />
+            <value value="Zypern" />
+        </designation>
+    </concept>
+</CodeSystem>

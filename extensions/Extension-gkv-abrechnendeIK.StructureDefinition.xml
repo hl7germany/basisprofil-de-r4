@@ -3,7 +3,16 @@
   <id value="AbrechnendeIK" />
   <url value="http://fhir.de/StructureDefinition/AbrechnendeIK" />
   <name value="ExtensionAbrechnendeIK" />
-  <status value="draft" />
+  <status value="active" />
+  <date value="2021-02-17" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />

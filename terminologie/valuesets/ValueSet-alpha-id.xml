@@ -6,9 +6,8 @@
   <url value="http://fhir.de/ValueSet/dimdi/alpha-id" />
   <version value="1.0.0-alpha1" />
   <name value="Alpha-id" />
-  <status value="draft" />
-  <experimental value="true" />
-  <date value="2020-01-20" />
+  <status value="active" />
+  <date value="2021-02-17" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>

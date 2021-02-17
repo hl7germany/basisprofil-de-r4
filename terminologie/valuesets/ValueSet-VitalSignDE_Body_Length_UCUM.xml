@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="VitalSignDE_Body_Length_UCUM" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="http://fhir.de/ValueSet/VitalSignDE_Body_Length_UCUM" />
+    <version value="1.0.0-alpha1" />
+    <name value="VitalSignDE_Body_Length_UCUM" />
+    <title value="VitalSignDE_Body_Length_UCUM" />
+    <status value="active" />
+    <date value="2021-02-17" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="other" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="VitalSignDE_Body_Length_UCUM" />
+    <copyright value="HL7 Deutschland e.V." />
+    <compose>
+        <include>
+            <system value="http://unitsofmeasure.org" />
+            <concept>
+                <code value="cm" />
+                <display value="centimeter" />
+            </concept>
+            <concept>
+                <code value="m" />
+                <display value="meter" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

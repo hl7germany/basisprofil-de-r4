@@ -6,16 +6,15 @@
 	<url value="http://fhir.de/ValueSet/versicherungsart-de-basis"/>
 	<version value="1.0.0-alpha1" />
 	<name value="VersicherungsartDeBasis"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2017-09-15"/>
-	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
-	<contact>
-		<telecom>
-			<system value="other"/>
-			<value value="http://hl7.de/technische-komitees/fhir/"/>
-		</telecom>
-	</contact>
+    <status value="active" />
+    <date value="2021-02-17" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="other" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
 	<description value="ValueSet für die in Deutschland üblichen Versicherungsarten"/>
 	<copyright value="HL7 Deutschland e.V."/>
 	<compose>

@@ -5,9 +5,17 @@
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvOnlinepruefungEgk" />
   <title value="Informationen zur Onlineprüfung und -aktualisierung" />
-  <status value="draft" />
-  <date value="2019-12-10" />
+  <status value="active" />
+  <date value="2020-05-14" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Informationen zur Onlineprüfung und -aktualisierung &#xD;&#xA;Vgl.: Anwendung der eGK  Technische Anlage zu Anlage 4a (BMV-Ä)  Verarbeitung KVK/eGK im Rahmen der vertragsärztlichen Abrechnung im Basis-Rollout  [KBV_ITA_VGEX_Mapping_KVK.pdf] - Kapitel 2.4.1" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

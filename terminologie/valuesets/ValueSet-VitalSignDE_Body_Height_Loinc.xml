@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="ValueSetVitalSignDE_Body_Height_Loinc" />
+    <url value="http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc" />
+    <version value="1.0.0-alpha1" />
+    <name value="ValueSetVitalSignDE_Body_Height_Loinc" />
+    <title value="ValueSetVitalSignDE_Body_Height_Loinc" />
+    <status value="active" />
+    <date value="2021-02-17" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="other" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="VitalSignDE_Body_Height_Loinc" />
+    <copyright value="HL7 Deutschland e.V." />
+    <immutable value="false" />
+    <compose>
+        <include>
+            <system value="http://loinc.org" />
+            <concept>
+                <code value="8302-2" />
+                <display value="Body height" />
+            </concept>
+            <concept>
+                <code value="89269-5" />
+                <display value="Body height Measured --at birth" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

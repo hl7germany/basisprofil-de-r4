@@ -4,9 +4,17 @@
   <url value="http://fhir.de/StructureDefinition/gkv/kostenerstattung" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvKostenerstattung" />
-  <status value="draft" />
-  <date value="2019-12-10" />
+  <status value="active" />
+  <date value="2020-05-14" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Gibt an, ob der Kostenträger den Nachweis der Inanspruchnahme von Leisrungen der Abrechnungsart Kostnerstattung auf der eGK speichert.&#xD;&#xA;vorhanden = Nachweis wird genutzt;&#xD;&#xA;nicht vorhanden = Nachweis wird nicht genutzt" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="VitalSignDE_Body_Weight_Loinc" />
+    <url value="http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc" />
+    <version value="1.0.0-alpha1" />
+    <name value="VitalSignDE_Body_Weight_Loinc" />
+    <title value="VitalSignDE_Body_Weight_Loinc" />
+    <status value="active" />
+    <date value="2021-02-17" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="other" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="VitalSignDE_Body_Weight_Loinc" />
+    <copyright value="HL7 Deutschland e.V." />
+    <immutable value="false" />
+    <compose>
+        <include>
+            <system value="http://loinc.org" />
+            <concept>
+                <code value="29463-7" />
+                <display value="Body weight" />
+            </concept>
+            <concept>
+                <code value="8339-4" />
+                <display value="Birth weight Measured" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

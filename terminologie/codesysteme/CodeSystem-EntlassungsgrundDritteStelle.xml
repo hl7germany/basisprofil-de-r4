@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EntlassungsgrundDritteStelle" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
+    </meta>
+    <url value="http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle" />
+    <version value="0.9" />
+    <name value="Entlassungsgrund" />
+    <title value="Entlassungsgrund" />
+    <status value="active" />
+    <date value="2020-05-14" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <description value="Entlassungs-/Verlegungsgrund nach §21 KHEntgG (3. Stelle)" />
+    <copyright value="HL7 Deutschland e.V." />
+    <valueSet value="https://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle" />
+    <compositional value="false" />
+    <content value="complete" />
+    <count value="29" />
+    <concept>
+        <code value="1" />
+        <display value="arbeitsfähig entlassen" />
+    </concept>
+    <concept>
+        <code value="2" />
+        <display value="arbeitsunfähig entlassen" />
+    </concept>
+    <concept>
+        <code value="9" />
+        <display value="keine Angabe" />
+    </concept>
+</CodeSystem>

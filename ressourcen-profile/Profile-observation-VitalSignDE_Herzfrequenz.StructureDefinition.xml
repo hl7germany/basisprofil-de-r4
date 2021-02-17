@@ -4,7 +4,16 @@
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz" />
   <version value="1.0.0-alpha1" />
   <name value="VitalSignDE_Herzfrequenz" />
-  <status value="draft" />
+  <status value="active" />
+  <date value="2020-05-14" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />

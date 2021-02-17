@@ -5,8 +5,8 @@
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvVersionVsdm" />
   <title value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
-  <status value="draft" />
-  <date value="2019-12-10" />
+  <status value="active" />
+  <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -15,6 +15,7 @@
     </telecom>
   </contact>
   <description value="Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
