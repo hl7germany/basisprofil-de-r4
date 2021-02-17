@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="AufnahmegrundDritteStelle" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
+    </meta>
+    <url value="http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle" />
+    <version value="0.9" />
+    <name value="AufnahmegrundDritteStelle" />
+    <title value="AufnahmegrundDritteStelle" />
+    <status value="active" />
+    <date value="2020-05-14" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Aufnahmegrund nach §21 KHEntgG (3. Stelle)" />
+    <copyright value="HL7 Deutschland e.V." />
+    <valueSet value="https://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle" />
+    <compositional value="false" />
+    <content value="complete" />
+    <count value="29" />
+    <concept>
+        <code value="0" />
+        <display value="Anderes" />
+    </concept>
+    <concept>
+        <code value="2" />
+        <display value="Zuständigkeitswechsel des Kostenträgers" />
+    </concept>
+    <concept>
+        <code value="4" />
+        <display value="Behandlungen im Rahmen von Verträgen zur integrierten Versorgung" />
+    </concept>
+</CodeSystem>

@@ -4,9 +4,9 @@
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
 	<name value="KbvPnr"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<kind value="identifier"/>
-	<date value="2017-10-30"/>
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -21,8 +21,7 @@
 			<code value="PRN"/>
 		</coding>
 	</type>
-	<description
-			value="Jedes von einer Kassenärztlichen Vereinigung anerkannte Praxisnetz erhält von dieser
+	<description value="Jedes von einer Kassenärztlichen Vereinigung anerkannte Praxisnetz erhält von dieser
 eine Praxisnetznummer (PNR). Die PNR wird von den am Netz beteiligten Betriebsstätten
 und Nebenbetriebsstätten neben der jeweiligen Betriebsstättennummer
 geführt."/>

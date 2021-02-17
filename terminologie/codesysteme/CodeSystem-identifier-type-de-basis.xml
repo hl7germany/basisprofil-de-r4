@@ -32,7 +32,7 @@
 		<code value="LANR"/>
 		<display value="Lebenslange Arztnummer"/>
 	</concept>
-		<concept>
+	<concept>
 		<code value="ZANR"/>
 		<display value="Zahnarztnummer"/>
 	</concept>

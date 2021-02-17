@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="versichertenart" />
+  <id value="versichertenart" />
   <url value="http://fhir.de/StructureDefinition/gkv/versichertenart" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvVersichertenart" />
   <title value="Versichertenart GKV" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>

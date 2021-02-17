@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="CodeSystemISO31662DE" />
+    <url value="urn:iso:std:iso:3166-2:de" />
+    <version value="1.0.0-alpha1" />
+    <name value="CodeSystemISO31662DE" />
+    <title value="ISO-3166-2:de-Laendercodes" />
+    <status value="active" />
+    <date value="2020-05-14" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder." />
+    <copyright value="International Organization for Standardization" />
+    <caseSensitive value="true" />
+    <valueSet value="http://fhir.de/ValueSet/iso/bundeslaender" />
+    <content value="complete" />
+    <concept>
+        <code value="DE-BW" />
+        <display value="Baden-Württemberg" />
+    </concept>
+    <concept>
+        <code value="DE-BY" />
+        <display value="Bayern" />
+    </concept>
+    <concept>
+        <code value="DE-BE" />
+        <display value="Berlin" />
+    </concept>
+    <concept>
+        <code value="DE-BB" />
+        <display value="Brandenburg" />
+    </concept>
+    <concept>
+        <code value="DE-HB" />
+        <display value="Bremen" />
+    </concept>
+    <concept>
+        <code value="DE-HH" />
+        <display value="Hamburg" />
+    </concept>
+    <concept>
+        <code value="DE-HE" />
+        <display value="Hessen" />
+    </concept>
+    <concept>
+        <code value="DE-MV" />
+        <display value="Mecklenburg-Vorpommern" />
+    </concept>
+    <concept>
+        <code value="DE-NI" />
+        <display value="Niedersachsen" />
+    </concept>
+    <concept>
+        <code value="DE-NW" />
+        <display value="Nordrhein-Westfalen" />
+    </concept>
+    <concept>
+        <code value="DE-RP" />
+        <display value="Rheinland-Pfalz" />
+    </concept>
+    <concept>
+        <code value="DE-SL" />
+        <display value="Saarland" />
+    </concept>
+    <concept>
+        <code value="DE-SN" />
+        <display value="Sachsen" />
+    </concept>
+    <concept>
+        <code value="DE-ST" />
+        <display value="Sachsen-Anhalt" />
+    </concept>
+    <concept>
+        <code value="DE-SH" />
+        <display value="Schleswig-Holstein" />
+    </concept>
+    <concept>
+        <code value="DE-TH" />
+        <display value="Thüringen" />
+    </concept>
+</CodeSystem>

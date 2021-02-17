@@ -4,8 +4,8 @@
 	<url value="http://fhir.de/StructureDefinition/gkv/besondere-personengruppe" />
 	<version value="1.0.0-alpha1" />
 	<name value="ExtensionGkvBesonderePersonengruppe" />
-	<status value="draft" />
-	<date value="2019-12-10" />
+	<status value="active" />
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
 	<contact>
 		<telecom>

@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="observation-category-supplement" />
+    <id value="observation-category-supplement" />
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
     </meta>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EntlassungsgrundErsteUndZweiteStelle" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
+    </meta>
+    <url value="http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle" />
+    <version value="0.9" />
+    <name value="EntlassungsgrundErsteUndZweiteStelle" />
+    <title value="EntlassungsgrundErsteUndZweiteStelle" />
+    <status value="active" />
+    <date value="2020-05-14" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Entlassungs-/Verlegungsgrund nach §21 KHEntgG (1. und 2. Stelle)" />
+    <copyright value="HL7 Deutschland e.V." />
+    <valueSet value="http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle" />
+    <compositional value="false" />
+    <content value="complete" />
+    <count value="29" />
+    <concept>
+        <code value="01" />
+        <display value="Behandlung regulär beendet" />
+    </concept>
+    <concept>
+        <code value="02" />
+        <display value="Behandlung regulär beendet, nachstationäre Behandlung vorgesehen" />
+    </concept>
+    <concept>
+        <code value="03" />
+        <display value="Behandlung aus sonstigen Gründen beendet" />
+    </concept>
+    <concept>
+        <code value="04" />
+        <display value="Behandlung gegen ärztlichen Rat beendet" />
+    </concept>
+    <concept>
+        <code value="05" />
+        <display value="Zuständigkeitswechsel des Kostenträgers" />
+    </concept>
+    <concept>
+        <code value="06" />
+        <display value="Verlegung in ein anderes Krankenhaus" />
+    </concept>
+    <concept>
+        <code value="07" />
+        <display value="Tod" />
+    </concept>
+    <concept>
+        <code value="08" />
+        <display value="Verlegung in ein anderes Krankenhaus im Rahmen einer Zusammenarbeit (§ 14 Abs. 5 Satz 2 BPflV in der am 31.12.2003 geltenden Fassung)" />
+    </concept>
+    <concept>
+        <code value="09" />
+        <display value="Entlassung in eine Rehabilitationseinrichtung" />
+    </concept>
+    <concept>
+        <code value="10" />
+        <display value="Entlassung in eine Pflegeeinrichtung" />
+    </concept>
+    <concept>
+        <code value="11" />
+        <display value="Entlassung in ein Hospiz" />
+    </concept>
+    <concept>
+        <code value="12" />
+        <display value="interne Verlegung, arbeitsfähig entlassen" />
+    </concept>
+    <concept>
+        <code value="13" />
+        <display value="externe Verlegung zur psychiatrischen Behandlung" />
+    </concept>
+    <concept>
+        <code value="14" />
+        <display value="Behandlung aus sonstigen Gründen beendet, nachstationäre Behandlung vorgesehen" />
+    </concept>
+    <concept>
+        <code value="15" />
+        <display value="Behandlung gegen ärztlichen Rat beendet, nachstationäre Behandlung vorgesehen" />
+    </concept>
+    <concept>
+        <code value="16" />
+        <display value="externe Verlegung mit Rückverlegung oder Wechsel zwischen den Entgeltbereichen der DRG-Fallpau- schalen, nach der BPflV oder für besondere Einrichtungen nach § 17b Abs. 1 Satz 15 KHG mit Rückverlegung" />
+    </concept>
+    <concept>
+        <code value="17" />
+        <display value="interne Verlegung mit Wechsel zwischen den Entgeltbereichen der DRG-Fallpauschalen, nach der BPflV oder für besondere Einrichtungen nach § 17b Abs. 1 Satz 15 KHG" />
+    </concept>
+    <concept>
+        <code value="18" />
+        <display value="Rückverlegung" />
+    </concept>
+    <concept>
+        <code value="19" />
+        <display value="Entlassung vor Wiederaufnahme mit Neueinstufung" />
+    </concept>
+    <concept>
+        <code value="20" />
+        <display value="Entlassung vor Wiederaufnahme mit Neueinstufung wegen Komplikation" />
+    </concept>
+    <concept>
+        <code value="21" />
+        <display value="Entlassung oder Verlegung mit nachfolgender Wiederaufnahme" />
+    </concept>
+    <concept>
+        <code value="22" />
+        <display value="Fallabschluss (interne Verlegung) bei Wechsel zwischen voll-, teilstationärer und stationsäquivalenter Behandlung" />
+    </concept>
+    <concept>
+        <code value="23" />
+        <display value="Beginn eines externen Aufenthalts mit Abwesenheit über Mitternacht (BPflV-Bereich – für verlegende Fachabteilung)" />
+    </concept>
+    <concept>
+        <code value="24" />
+        <display value="Beendigung eines externen Aufenthalts mit Abwesenheit über Mitternacht (BPflV-Bereich – für Pseudo-Fachabteilung 0003)" />
+    </concept>
+    <concept>
+        <code value="25" />
+        <display value="Entlassung zum Jahresende bei Aufnahme im Vorjahr (für Zwecke der Abrechnung - § 4 PEPPV)" />
+    </concept>
+    <concept>
+        <code value="26" />
+        <display value="Beginn eines Zeitraumes ohne direkten Patientenkontakt (stationsäquivalente Behandlung)" />
+    </concept>
+    <concept>
+        <code value="27" />
+        <display value="Beendigung eines Zeitraumes ohne direkten Patientenkontakt (stationsäquivalente Behandlung – für Pseudo-Fachabteilung 0004)" />
+    </concept>
+    <concept>
+        <code value="28" />
+        <display value="Behandlung regulär beendet, beatmet entlassen" />
+    </concept>
+    <concept>
+        <code value="29" />
+        <display value="Behandlung regulär beendet, beatmet verlegt" />
+    </concept>
+</CodeSystem>

@@ -5,7 +5,8 @@
   <version value="1.0.0-alpha1" />
   <name value="ExtensionICD10GMPrimaercode" />
   <title value="Der Primärcode (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation)." />
-  <status value="draft" />
+  <status value="active" />
+  <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
@@ -14,6 +15,7 @@
     </telecom>
   </contact>
   <description value="Der Primärcode (einschließlich: Kreuz-Code), insbesondere bei postkoordinierten ICD-10-GM-Codes (Kreuz-Stern-Notation, Ausrufezeichen-Notation).&#xD;&#xA;An dieser Stelle ohne '+'-Symbol" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

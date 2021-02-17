@@ -5,8 +5,15 @@
   <version value="1.0.0-alpha1" />
   <name value="ObservationDePflegegrad" />
   <title value="Pflegegrad, deutsches Basisprofil" />
-  <status value="draft" />
+  <status value="active" />
+  <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad" />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
@@ -93,12 +100,12 @@
         <code value="Period"/>
       </type>
     </element>
-    <element  id="Observation.effectivePeriod">
+    <element id="Observation.effectivePeriod">
       <path value="Observation.effectivePeriod" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element  id="Observation.effectivePeriod.start">
+    <element id="Observation.effectivePeriod.start">
       <path value="Observation.effectivePeriod.start" />
       <min value="1" />
     </element>

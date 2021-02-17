@@ -6,9 +6,8 @@
 	<url value="http://fhir.de/ValueSet/dkgev/Aufnahmeart" />
 	<version value="1.0.0-alpha1" />
 	<name value="Aufnahmeart" />
-	<status value="draft" />
-	<experimental value="true" />
-	<date value="2020-02-17" />
+	<status value="active" />
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
 	<contact>
 		<telecom>
@@ -17,7 +16,7 @@
 		</telecom>
 	</contact>
 	<description value="Valueset zur Codierung verschiedener in DE üblicher Aufnahmearten basierend gesetzlichen Grundlagen " />
-
+	<copyright value="HL7 Deutschland e.V." />
 	<compose>
 		<include>
 			<system value="http://fhir.de/CodeSystem/dkgev/Aufnahmeart" />

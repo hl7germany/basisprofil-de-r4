@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="einlesedatum-karte" />
+  <id value="einlesedatum-karte" />
   <url value="http://fhir.de/StructureDefinition/gkv/einlesedatum-karte" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvEinlesedatumKarte" />
   <title value="Extension zur Erfassung des Einlesedatums der eGK bzw. KVK" />
-  <status value="draft" />
-  <date value="2019-12-11" />
+  <status value="active" />
+  <date value="2020-05-14" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>

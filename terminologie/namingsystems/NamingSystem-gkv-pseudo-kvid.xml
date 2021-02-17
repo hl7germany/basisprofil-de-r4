@@ -4,9 +4,9 @@
 		<profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
 	</meta>
 	<name value="GkvPseudoKvid"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<kind value="identifier"/>
-	<date value="2017-10-30"/>
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -21,8 +21,7 @@
 			<code value="GKV"/>
 		</coding>
 	</type>
-	<description
-			value="pseudonymisierte Versichertennummer für die Meldung an Register"/>
+	<description value="pseudonymisierte Versichertennummer für die Meldung an Register"/>
 	<!--
 	<uniqueId>
 		<type value="oid"/>

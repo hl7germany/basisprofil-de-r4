@@ -1,22 +1,22 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-  	<id value= "valueset-pflegegrad-de" />
+	<id value= "valueset-pflegegrad-de" />
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
 	<url value="http://fhir.de/ValueSet/pflegegrad-de" />
 	<version value="1.0.0-alpha1" />
 	<name value="PflegegradDE" />
-	<status value="draft" />
-	<experimental value="true" />
-	<date value="2019-07-06" />
+	<status value="active" />
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
 	<contact>
 		<telecom>
-			<system value="url" />
+			<system value="other" />
 			<value value="http://hl7.de/technische-komitees/fhir/" />
 		</telecom>
 	</contact>
 	<description value="Codes zur genaueren Differenzierung des Pflegegrads." />
+	<copyright value="HL7 Deutschland e.V." />
 	<compose>
 		<include>
 			<system value="http://fhir.de/CodeSystem/dimdi/ops" />

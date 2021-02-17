@@ -5,9 +5,17 @@
   <version value="1.0.0-alpha1" />
   <name value="IdentifierIknr" />
   <title value="Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)" />
-  <status value="draft" />
-  <date value="2019-12-08" />
+  <status value="active" />
+  <date value="2021-02-17" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
   <description value="Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)" />
+  <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

@@ -1,22 +1,22 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value= "valueset-GenderAmtlichDE" />
+  <id value= "valueset-GenderAmtlichDE" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
   </meta>
   <url value="http://fhir.de/ValueSet/gender-amtlich-de" />
   <version value="1.0.0-alpha1" />
   <name value="GenderAmtlichDE" />
-  <status value="draft" />
-  <experimental value="true" />
-  <date value="2019-07-06" />
+  <status value="active" />
+  <date value="2021-02-17" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
     <telecom>
-      <system value="url" />
+      <system value="other" />
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
   <description value="Codes zur genaueren Differenzierung des administrativen Geschlechts 'other', vgl. https://wiki.hl7.de/index.php?title=Geschlecht#administratives_Geschlecht." />
+  <copyright value="HL7 Deutschland e.V." />
   <compose>
     <include>
       <system value="http://fhir.de/CodeSystem/gender-amtlich-de" />
