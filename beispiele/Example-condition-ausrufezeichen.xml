@@ -1,11 +1,8 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="Example-condition-ausrufezeichen" />
-  <meta>
-    <profile value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-  </meta>
   <code>
     <coding>
-      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz">
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-primaercode">
         <valueCoding>
           <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
           <version value="2019" />

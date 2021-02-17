@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ExtensionAbrechnendeIK" />
-  <url value="http://fhir.de/StructureDefinition/AbrechnendeIK" />
-  <name value="ExtensionAbrechnendeIK" />
+  <url value="http://fhir.de/StructureDefinition/Entlassungsgrund" />
+  <name value="Entlassungsgrund" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -14,7 +13,7 @@
   <abstract value="false" />
   <context>
     <type value="element" />
-    <expression value="Coverage.payor" />
+    <expression value="Encounter.hospitalization.dischargeDisposition" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
@@ -22,14 +21,25 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/StructureDefinition/AbrechnendeIK" />
+      <fixedUri value="http://fhir.de/StructureDefinition/Entlassungsgrund" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <type>
-        <code value="Identifier" />
-        <profile value="http://fhir.de/StructureDefinition/identifier-iknr" />
+        <code value="Coding" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].system">
+      <path value="Extension.value[x].system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x].code">
+      <path value="Extension.value[x].code" />
+      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>

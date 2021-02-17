@@ -1,18 +1,15 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="Example-condition-invalid-icd-1" />
-  <meta>
-    <profile value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-  </meta>
   <code>
     <coding>
-      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz">
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-primaercode">
         <valueCoding>
           <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
           <version value="2019" />
           <code value="F16.1" />
         </valueCoding>
       </extension>
-      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-stern">
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode">
         <valueCoding>
           <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
           <version value="2019" />

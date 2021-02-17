@@ -1,8 +1,9 @@
 {
 	"resourceType": "CodeSystem",
+	"id": "CodeSystemSupplementISO3166",
 	"url": "http://fhir.de/CodeSystem/supplement-iso-3166",
 	"version": "0.9.13",
-	"name": "SupplementISO3166",
+	"name": "CodeSystemSupplementISO3166",
 	"title": "CodeSystem Supplement ISO 3166",
 	"status": "draft",
 	"experimental": true,

@@ -1,8 +1,5 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="Example-condition-invalid-2" />
-  <meta>
-    <profile value="http://fhir.de/StructureDefinition/condition-de-icd10" />
-  </meta>
   <code>
     <coding>
       <extension url="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit">
