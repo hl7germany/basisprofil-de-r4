@@ -31,7 +31,7 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.kbv.de/identifiers/KBV_NS_Base_ANR" />
+      <fixedUri value="https://fhir.kbv.de/sid/KBV_NS_Base_ANR" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
@@ -47,7 +47,7 @@
     <element id="Identifier.assigner.identifier.system">
       <path value="Identifier.assigner.identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/identifiers/arge-ik/iknr" />
+      <fixedUri value="http://fhir.de/sid/arge-ik/iknr" />
     </element>
     <element id="Identifier.assigner.identifier.value">
       <path value="Identifier.assigner.identifier.value" />

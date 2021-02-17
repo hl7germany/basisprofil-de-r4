@@ -42,7 +42,7 @@ neu vergeben werden"/>
 	-->
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/identifiers/kbv/pnr"/>
+		<value value="http://fhir.de/sid/kbv/pnr"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>

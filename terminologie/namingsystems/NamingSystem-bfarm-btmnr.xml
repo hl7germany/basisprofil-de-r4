@@ -31,7 +31,7 @@ Da aufgrund dieser Regelung jede Apotheke über eine BtM-Nummer verfügt, wird d
 	</uniqueId>
     <uniqueId>
         <type value="uri" />
-        <value value="http://fhir.de/identifiers/bfarm/btmnr" />
+        <value value="http://fhir.de/sid/bfarm/btmnr" />
         <preferred value="true" />
         <period>
             <start value="2017-12-31T00:00:00.000+02:00" />
