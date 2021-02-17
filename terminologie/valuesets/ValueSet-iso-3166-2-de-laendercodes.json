@@ -2,7 +2,7 @@
 	"resourceType": "ValueSet",
 	"id": "ValueSetISO31662DE",
 	"url": "http://fhir.de/ValueSet/iso/bundeslaender",
-	"version": "0.9.13",
+	"version": "1.0.0-alpha1",
 	"name": "ValueSetISO31662DE",
 	"title": "ISO-3166-2:de-Laendercodes",
 	"status": "draft",

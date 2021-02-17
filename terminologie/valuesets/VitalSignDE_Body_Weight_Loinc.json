@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc",
-  "version": "0.9.13",
+  "version": "1.0.0-alpha1",
   "name": "VitalSignDE_Body_Weight_Loinc",
   "title": "VitalSignDE_Body_Weight_Loinc",
   "status": "active",

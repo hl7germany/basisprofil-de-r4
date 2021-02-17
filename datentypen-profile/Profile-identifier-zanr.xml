@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-zanr" />
   <url value="http://fhir.de/StructureDefinition/identifier-zanr" />
-  <version value="0.9.13" />
+  <version value="1.0.0-alpha1" />
   <name value="IdentifierZanr" />
   <title value="Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer" />
   <status value="draft" />
