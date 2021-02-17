@@ -6,7 +6,7 @@
     ]
   },
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Length_UCUM",
-  "version": "0.9.13",
+  "version": "1.0.0-alpha1",
   "title": "VitalSignDE_Body_Length_UCUM",
   "status": "active",
   "experimental": false,

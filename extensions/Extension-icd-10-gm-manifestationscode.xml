@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="icd-10-gm-stern" />
   <url value="http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode" />
-  <version value="0.9.13" />
+  <version value="1.0.0-alpha1" />
   <name value="ExtensionICD10GMManifestationscode" />
   <title value="Extension zur Erfassung des ICD-10-GM-Manifestations-Codes (Stern-Codes)" />
   <status value="draft" />

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-de-vitalsign-koerpertemperatur" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur" />
-  <version value="0.9.13" />
+  <version value="1.0.0-alpha1" />
   <name value="VitalSignDE_Koerpertemperatur" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
