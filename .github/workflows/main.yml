@@ -50,7 +50,7 @@ jobs:
       # Examples need to go last otherwise we can't find the profiles used in the examples anymore on the stack when validating (the stack is FIFO)
       - name: Add resources to the Firely Terminal stack
         env:
-          path_to_resources: terminologie/CodeSystem ressourcen-profile logical-models # beispiele # Examples are currently commented out as Firely Terminal can't validate against profiles on the stack right now
+          path_to_resources: datentypen-profile extensions ressourcen-profile terminologie # beispiele # Examples are currently commented out as Firely Terminal can't validate against profiles on the stack right now
         run: |
           for p in $path_to_resources; 
           do 
