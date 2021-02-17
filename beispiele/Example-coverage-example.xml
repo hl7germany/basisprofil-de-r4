@@ -80,16 +80,16 @@
     <display value="Max Mustermann" />
   </beneficiary>
   <payor>
+    <extension url="http://fhir.de/StructureDefinition/AbrechnendeIK">
+      <valueIdentifier>
+        <system value="http://fhir.de/sid/arge-ik/iknr" />
+        <value value="756756324" />
+      </valueIdentifier>
+    </extension>
     <identifier>
       <system value="http://fhir.de/sid/arge-ik/iknr" />
       <value value="823746876" />
     </identifier>
     <display value="Krankenkasse A" />
-    <extension url="http://fhir.de/StructureDefinition/AbrechnendeIK">
-    <valueIdentifier>
-      <system value="http://fhir.de/sid/arge-ik/iknr" />
-      <value value="756756324" />
-    </valueIdentifier>
-  </extension>
   </payor>
 </Coverage>
