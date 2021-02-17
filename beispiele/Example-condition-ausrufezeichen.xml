@@ -5,7 +5,7 @@
   </meta>
   <code>
     <coding>
-      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-haupt-kreuz">
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-primaercode">
         <valueCoding>
           <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
           <version value="2019" />
