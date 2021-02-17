@@ -4,7 +4,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<url value="http://fhir.de/CodeSystem/arge-ik/klassifikation"/>
-	<version value="0.9.13" />
+	<version value="1.0.0-alpha1" />
 	<name value="ArgeIkKlassifikation"/>
 	<status value="draft"/>
 	<experimental value="true"/>

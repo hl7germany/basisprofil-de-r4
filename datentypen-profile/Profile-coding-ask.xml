@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="coding-ask" />
   <url value="http://fhir.de/StructureDefinition/CodingASK" />
-  <version value="0.9.13" />
+  <version value="1.0.0-alpha1" />
   <name value="CodingASK" />
   <title value="Coding-Profil für ASK" />
   <status value="draft" />

@@ -1,7 +1,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="ask" />
 	<url value="http://fhir.de/CodeSystem/ask"/>
-	<version value="0.9.13" />
+	<version value="1.0.0-alpha1" />
 	<name value="ask"/>
 	<status value="draft"/>
 	<experimental value="true"/>

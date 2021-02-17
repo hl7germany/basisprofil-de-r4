@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="humanname-namenszusatz" />
 	<url value="http://fhir.de/StructureDefinition/humanname-namenszusatz" />
-	<version value="0.9.13" />
+	<version value="1.0.0-alpha1" />
 	<name value="HumannameNamenszusatz" />
 	<title value="Extension zur Erfassung der VSDM Namensbestandteile" />
 	<status value="draft" />
