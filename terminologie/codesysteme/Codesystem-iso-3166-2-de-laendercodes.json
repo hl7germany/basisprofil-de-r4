@@ -1,8 +1,9 @@
 {
 	"resourceType": "CodeSystem",
+	"id": "CodeSystemISO31662DE",
 	"url": "urn:iso:std:iso:3166-2:de",
 	"version": "0.9.13",
-	"name": "ISO31662DE",
+	"name": "CodeSystemISO31662DE",
 	"title": "ISO-3166-2:de-Laendercodes",
 	"status": "draft",
 	"experimental": true,

@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+  "valueSet": "https://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle",
+  "experimental": false,
+  "date": "2020-05-09",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "count": 29,
+  "name": "Entlassungsgrund",
+  "title": "Entlassungsgrund",
+  "version": "0.9",
+  "status": "draft",
+  "description": "Entlassungs-/Verlegungsgrund nach §21 KHEntgG (3. Stelle)",
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "arbeitsfähig entlassen"
+    },
+    {
+      "code": "2",
+      "display": "arbeitsunfähig entlassen"
+    },
+    {
+      "code": "9",
+      "display": "keine Angabe"
+    }
+  ]
+}
