@@ -6,9 +6,9 @@
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-8-laenderkennzeichen"/>
 	<version value="2.56"/>
 	<name value="DeuevAnlage8Laenderkennzeichen"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2017-09-15"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>

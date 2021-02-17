@@ -12,16 +12,16 @@
     <version value="1.0.0-alpha1" />
     <name value="EDQMDoseForm"/>
     <title value="EDQMDoseForm"/>
-    <status value="draft"/>
-    <experimental value="false"/>
-    <publisher value="HL7 Deutschland e. V."/>
-    <contact>
-        <name value="HL7 Deutschland e. V."/>
-        <telecom>
-            <system value="url"/>
-            <value value="http://hl7.de"/>
-        </telecom>
-    </contact>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
     <description value="EDQMDoseForm"/>
     <caseSensitive value="true"/>
     <content value="complete"/>

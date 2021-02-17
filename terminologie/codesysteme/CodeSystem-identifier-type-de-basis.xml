@@ -6,9 +6,9 @@
 	<url value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
 	<version value="1.0.0-alpha1" />
 	<name value="IdentifierTypeDeBasis"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2017-12-06"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>

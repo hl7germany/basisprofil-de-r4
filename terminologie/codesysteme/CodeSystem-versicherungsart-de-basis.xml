@@ -6,9 +6,9 @@
 	<url value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
 	<version value="1.0.0-alpha1" />
 	<name value="VersicherungsartDeBasis"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2019-08-09"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>

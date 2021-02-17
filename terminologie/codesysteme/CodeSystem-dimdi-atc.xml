@@ -2,9 +2,9 @@
 	<id value="atc" />
 	<url value="http://fhir.de/CodeSystem/dimdi/atc"/>
 	<name value="Atc"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2019-12-14"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>

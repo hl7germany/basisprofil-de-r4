@@ -5,15 +5,16 @@
     <version value="1.0.0-alpha1" />
     <name value="CodeSystemISO31662DE" />
     <title value="ISO-3166-2:de-Laendercodes" />
-    <status value="active" />
-    <date value="2020-05-14" />
-    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-    <contact>
-        <telecom>
-            <system value="url" />
-            <value value="http://hl7.de/technische-komitees/fhir/" />
-        </telecom>
-    </contact>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
     <description value="Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder." />
     <copyright value="International Organization for Standardization" />
     <caseSensitive value="true" />

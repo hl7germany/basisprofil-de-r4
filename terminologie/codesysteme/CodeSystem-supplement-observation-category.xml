@@ -6,16 +6,16 @@
     <url value="http://fhir.de/CodeSystem/observation-category-supplement" />
     <version value="1.0.0-alpha1" />
     <name value="SupplementObservationCategory" />
-    <status value="draft" />
-    <experimental value="true" />
-    <date value="2019-11-07" />
-    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-    <contact>
-        <telecom>
-            <system value="url" />
-            <value value="http://hl7.de/technische-komitees/fhir/" />
-        </telecom>
-    </contact>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
+	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://hl7.de/technische-komitees/fhir/"/>
+		</telecom>
+	</contact>
     <description value="CodeSystem Supplement mit Deutschen Übersetzungen für ObservationCategoryCodes" />
     <content value="supplement" />
     <supplements value="http://terminology.hl7.org/CodeSystem/observation-category" />

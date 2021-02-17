@@ -6,9 +6,9 @@
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"/>
 	<version value="2.30"/>
 	<name value="DeuevAnlage6Vorsatzworte"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<date value="2017-09-15"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2021-02-17"/>
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
