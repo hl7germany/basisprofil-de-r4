@@ -35,7 +35,7 @@
       <example>
         <label value="AGS Hildesheim" />
         <valueCoding>
-          <system value="http://fhir.de/NamingSystem/destatis/ags" />
+          <system value="http://fhir.de/identifiers/destatis/ags" />
           <code value="03254021" />
         </valueCoding>
       </example>
@@ -43,7 +43,7 @@
     <element id="Extension.value[x].system">
       <path value="Extension.value[x].system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/destatis/ags" />
+      <fixedUri value="http://fhir.de/identifiers/destatis/ags" />
     </element>
     <element id="Extension.value[x].code">
       <path value="Extension.value[x].code" />

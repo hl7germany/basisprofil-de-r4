@@ -31,7 +31,7 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/bundesaerztekammer/efn" />
+      <fixedUri value="http://fhir.de/identifiers/bundesaerztekammer/efn" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
@@ -40,7 +40,7 @@
     <element id="Identifier.assigner.identifier.system">
       <path value="Identifier.assigner.identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/NamingSystem/arge-ik/iknr" />
+      <fixedUri value="http://fhir.de/identifiers/arge-ik/iknr" />
     </element>
     <element id="Identifier.assigner.identifier.value">
       <path value="Identifier.assigner.identifier.value" />

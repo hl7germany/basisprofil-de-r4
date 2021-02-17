@@ -29,7 +29,7 @@
 	</uniqueId>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/gkv/kvnr-30"/>
+		<value value="http://fhir.de/identifiers/gkv/kvnr-30"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>

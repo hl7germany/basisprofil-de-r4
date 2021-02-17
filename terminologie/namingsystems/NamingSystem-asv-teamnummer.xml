@@ -38,7 +38,7 @@ ermöglicht. Die neunte Stelle ist eine Prüfziffer. [Q: KBV]. Vgl. auch https:/
 	-->
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/asv/teamnummer"/>
+		<value value="http://fhir.de/identifiers/asv/teamnummer"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2018-06-06"/>

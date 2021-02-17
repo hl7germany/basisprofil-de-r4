@@ -24,7 +24,7 @@
 	<usage value="Das NamingSystem wird in Identifiern von Betriebsstätten von Zahnärzten (Organization) verwendet."/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/NamingSystem/kzbv/kzvabrechnungsnummer"/>
+		<value value="http://fhir.de/identifiers/kzbv/kzvabrechnungsnummer"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2021-01-28"/>
