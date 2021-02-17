@@ -1,6 +1,6 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-koerpertemperatur",
+	"id": "Example-observation-koerpertemperatur",
 	"meta": {
 		"profile": [
             "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",

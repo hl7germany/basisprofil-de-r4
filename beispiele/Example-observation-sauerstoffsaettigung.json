@@ -1,6 +1,6 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-pulsoximetrische-sauerstoffsaettigung",
+	"id": "Example-observation-sauerstoffsaettigung",
 	"meta": {
 		"profile": [
             "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"

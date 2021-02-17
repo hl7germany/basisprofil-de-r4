@@ -1,6 +1,6 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-koerpergroesse",
+	"id": "Example-observation-koerpergroesse",
 	"meta": {
 		"profile": [
             "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",

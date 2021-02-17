@@ -1,6 +1,6 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-herzfrequenz",
+	"id": "Example-observation-herzfrequenz",
 	"meta": {
 		"profile": [
             "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
