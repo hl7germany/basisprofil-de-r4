@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="identifier-lanr" />
+  <id value="identifier-reisepassnummer" />
   <url value="http://fhir.de/StructureDefinition/identifier-reisepassnummer" />
   <version value="0.9.13" />
   <name value="IdentifierReisepassnummer" />
