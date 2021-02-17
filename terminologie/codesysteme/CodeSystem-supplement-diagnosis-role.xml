@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="diagnosis-role-supplement" />
+  <id value="diagnosis-role-supplement" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
@@ -33,36 +33,36 @@
       <value value="Entlassdiagnose" />
     </designation>
   </concept>
-    <concept>
+  <concept>
     <code value="CC" />
     <designation>
       <language value="de-DE" />
       <value value="Hauptdiagnose" />
     </designation>
   </concept>
-    <concept>
+  <concept>
     <code value="CM" />
     <designation>
       <language value="de-DE" />
       <value value="Nebendiagnose" />
     </designation>
   </concept>
-    <concept>
+  <concept>
     <code value="pre-op" />
     <designation>
       <language value="de-DE" />
       <value value="prä-operative Diagnose" />
     </designation>
   </concept>
-  
-      <concept>
+
+  <concept>
     <code value="post-op" />
     <designation>
       <language value="de-DE" />
       <value value="post-operative Diagnose" />
     </designation>
   </concept>
-      <concept>
+  <concept>
     <code value="billing" />
     <designation>
       <language value="de-DE" />

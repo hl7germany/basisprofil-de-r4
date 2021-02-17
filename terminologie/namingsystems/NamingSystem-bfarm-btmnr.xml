@@ -1,19 +1,19 @@
 ﻿<NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="namingsystem-bfarm-btmnr" />
-   <meta>
+    <id value="namingsystem-bfarm-btmnr" />
+    <meta>
         <profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
     </meta>
     <name value="BfarmBtmnr" />
-	<status value="active"/>
-	<kind value="identifier"/>
+    <status value="active"/>
+    <kind value="identifier"/>
     <date value="2021-02-17" />
-	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
-	<contact>
-		<telecom>
-			<system value="other"/>
-			<value value="http://hl7.de/technische-komitees/fhir/"/>
-		</telecom>
-	</contact>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
     <responsible value="Bundesinstitut für Arzneimittel und Medizinprodukte" />
     <type>
         <coding>
@@ -25,10 +25,10 @@
 Aufgrund dieser Anzeige wird den Betreibern für jede ihrer Apotheken eine eigene BtM-Nummer schriftlich zugewiesen, mit der sie am BtM-Verkehr teilnehmen dürfen. (siehe: http://www.bfarm.de/DE/Bundesopiumstelle/Betaeubungsmittel/apoth/_node.html)
 Da aufgrund dieser Regelung jede Apotheke über eine BtM-Nummer verfügt, wird diese häufig auch in anderen Kontexten als Identifikator für Apotheken (IDF-Nummer) verwendet." />
     <usage value="Identifikation von Apotheken" />
-	<uniqueId>
-		<type value="oid"/>
-		<value value="1.2.276.0.76.4.197"/>
-	</uniqueId>
+    <uniqueId>
+        <type value="oid"/>
+        <value value="1.2.276.0.76.4.197"/>
+    </uniqueId>
     <uniqueId>
         <type value="uri" />
         <value value="http://fhir.de/sid/bfarm/btmnr" />

@@ -8,7 +8,7 @@
 		<coding>
 			<system value="http://fhir.de/CodeSystem/kbv/ebm"/>
 			<version value="2017-4"/>
-			<code value="31600"/>	
+			<code value="31600"/>
 			<display value="Postoperative Behandlung durch den Hausarzt"/>
 		</coding>
 	</code>
