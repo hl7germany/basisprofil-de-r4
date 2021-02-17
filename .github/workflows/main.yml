@@ -115,7 +115,7 @@ jobs:
 
       - name: Validate all resources in scope of the repository
         env:
-          path_to_resources: terminologie/CodeSystem ressourcen-profile logical-models # beispiele
+          path_to_resources: datentypen-profile extensions ressourcen-profile terminologie # beispiele
         run: |
           for p in $path_to_resources; 
           do  
