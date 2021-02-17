@@ -1,5 +1,6 @@
 {
   "resourceType": "ValueSet",
+  "id": "VitalSignDE_Body_Weigth_UCUM",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

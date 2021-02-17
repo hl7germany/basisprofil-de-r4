@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id": "EntlassungsgrundErsteUndZweiteStelle",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
