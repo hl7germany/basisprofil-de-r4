@@ -22,7 +22,7 @@
 		</coding>
 	</type>
 	<description
-			value="HINWEIS: Dieses NamingSystem wurde durch http://fhir.de/identifiers/kzbv/zahnarztnummer ersetzt.
+			value="HINWEIS: Dieses NamingSystem wurde durch http://fhir.de/sid/kzbv/zahnarztnummer ersetzt.
 
 			Dieses NamingSystem wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw.
 			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.
@@ -33,7 +33,7 @@
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet."/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/identifiers/kzv/XX/zahnarztnummer"/>
+		<value value="http://fhir.de/sid/kzv/XX/zahnarztnummer"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-12-06"/>

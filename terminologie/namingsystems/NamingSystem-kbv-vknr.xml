@@ -29,7 +29,7 @@
 	</uniqueId>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/identifiers/kbv/vknr"/>
+		<value value="http://fhir.de/sid/kbv/vknr"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2020-04-23"/>

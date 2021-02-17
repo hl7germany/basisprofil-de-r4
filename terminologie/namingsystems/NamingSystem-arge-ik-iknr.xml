@@ -30,7 +30,7 @@
 	</uniqueId>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/identifiers/arge-ik/iknr"/>
+		<value value="http://fhir.de/sid/arge-ik/iknr"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>

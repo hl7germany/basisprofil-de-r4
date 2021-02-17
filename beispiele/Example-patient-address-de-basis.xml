@@ -7,7 +7,7 @@
                 <code value="GKV" />
             </coding>
         </type>
-        <system value="http://fhir.de/identifiers/gkv/kvid-10" />
+        <system value="http://fhir.de/sid/gkv/kvid-10" />
         <value value="X234567890" />
     </identifier>
     <name>

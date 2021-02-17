@@ -61,7 +61,7 @@
     </extension>
   </extension>
   <identifier>
-    <system value="http://fhir.de/identifiers/gkv/kvid-10" />
+    <system value="http://fhir.de/sid/gkv/kvid-10" />
     <value value="123454321" />
   </identifier>
   <status value="active" />
@@ -81,13 +81,13 @@
   </beneficiary>
   <payor>
     <identifier>
-      <system value="http://fhir.de/identifiers/arge-ik/iknr" />
+      <system value="http://fhir.de/sid/arge-ik/iknr" />
       <value value="823746876" />
     </identifier>
     <display value="Krankenkasse A" />
     <extension url="http://fhir.de/StructureDefinition/AbrechnendeIK">
     <valueIdentifier>
-      <system value="http://fhir.de/identifiers/arge-ik/iknr" />
+      <system value="http://fhir.de/sid/arge-ik/iknr" />
       <value value="756756324" />
     </valueIdentifier>
   </extension>

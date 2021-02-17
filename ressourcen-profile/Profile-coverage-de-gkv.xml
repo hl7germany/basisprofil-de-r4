@@ -225,7 +225,7 @@
       <path value="Coverage.subscriber.identifier" />
       <short value="VersichertenID (10-stellig) des Hauptversicherten" />
       <patternIdentifier>
-        <system value="http://fhir.de/identifiers/gkv/kvid-10" />
+        <system value="http://fhir.de/sid/gkv/kvid-10" />
       </patternIdentifier>
     </element>
     <element id="Coverage.subscriber.display">
@@ -240,7 +240,7 @@
       <path value="Coverage.beneficiary.identifier" />
       <short value="Identifier der versicherten Person" />
       <patternIdentifier>
-        <system value="http://fhir.de/identifiers/gkv/kvid-10" />
+        <system value="http://fhir.de/sid/gkv/kvid-10" />
       </patternIdentifier>
     </element>
     <element id="Coverage.beneficiary.display">

@@ -25,7 +25,7 @@
 	<usage value="Dieses NamingSystem existiert aus Gründen der Rückwärtskompatibilität. Es soll verwendet werden, wenn ein Use Case die Übermittlung der Versichertennummer von der KVK benötigt."/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://fhir.de/identifiers/gkv/kvk-versichertennummer"/>
+		<value value="http://fhir.de/sid/gkv/kvk-versichertennummer"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2018-06-07"/>
