@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Entlassungsgrund" />
   <url value="http://fhir.de/StructureDefinition/Entlassungsgrund" />
   <name value="Entlassungsgrund" />
   <status value="draft" />

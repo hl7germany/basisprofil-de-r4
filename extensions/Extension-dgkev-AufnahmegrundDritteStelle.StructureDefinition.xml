@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="AufnahmegrundDritteStelle" />
   <url value="http://fhir.de/fhir/StructureDefinition/AufnahmegrundDritteStelle" />
   <name value="AufnahmegrundDritteStelle" />
   <status value="draft" />
