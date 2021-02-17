@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="authorSpecialty (XDSDocumentEntry or XDSSubmissionSet)Represents a specific specialty within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet"/>
+                <description value="**authorSpecialty (XDSDocumentEntry or XDSSubmissionSet)**&#13;&#10;Represents a specific specialty within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet"/>
                 <immutable value="false"/>
                 <compose>
                     <include>
@@ -694,7 +694,7 @@
                         </concept>
                         <concept>
                             <code value="104"/>
-                            <display value="Orientierungs- und Mobilit&#xE4;tslehrer "/>
+                            <display value="Orientierungs- und Mobilit&#xE4;tslehrer"/>
                         </concept>
                         <concept>
                             <code value="105"/>
@@ -774,7 +774,7 @@
                         </concept>
                         <concept>
                             <code value="124"/>
-                            <display value="Ingenieur Augenoptik "/>
+                            <display value="Ingenieur Augenoptik"/>
                         </concept>
                         <concept>
                             <code value="125"/>

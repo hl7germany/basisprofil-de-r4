@@ -36,11 +36,12 @@
     "date": "2020-12-04",
     "description": "Enthaelt SNOMED Codes fuer die Koerpergroesse.",
     "experimental": true,
-    "name": "KoerpergroesseSnomed",
+    "name": "ValueSetKoerpergroesseSnomed",
     "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
     "status": "draft",
     "title": "Koerpergroesse-SNOMED",
     "url": "http://fhir.de/ValueSet/koerpergroesse-snomed-de",
     "version": "0.9.13",
+    "id": "ValueSetKoerpergroesseSnomed",
     "resourceType": "ValueSet"
 }

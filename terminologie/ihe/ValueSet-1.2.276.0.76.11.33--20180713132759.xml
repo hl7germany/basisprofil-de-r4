@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="confidentialityCode (XDSDocumentEntry)The code specifying the level of confidentiality of an XDS Document."/>
+                <description value="**confidentialityCode (XDSDocumentEntry)**&#13;&#10;The code specifying the level of confidentiality of an XDS Document."/>
                 <immutable value="false"/>
                 <compose>
                     <include>

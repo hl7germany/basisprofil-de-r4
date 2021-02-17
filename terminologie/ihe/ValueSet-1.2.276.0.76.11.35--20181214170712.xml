@@ -20,7 +20,7 @@
                 <status value="draft"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="formatCode (XDSDocumentEntry)Globally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."/>
+                <description value="**formatCode (XDSDocumentEntry)**&#13;&#10;Globally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."/>
                 <immutable value="false"/>
                 <compose>
                     <include>
@@ -155,7 +155,7 @@
                         </concept>
                         <concept>
                             <code value="urn:gematik:ig:KinderuntersuchungsheftNotizen:r4.0"/>
-                            <display value=" Notizen Kinderuntersuchungsheft"/>
+                            <display value="Notizen Kinderuntersuchungsheft"/>
                         </concept>
                     </include>
                     <include>

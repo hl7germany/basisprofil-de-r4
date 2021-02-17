@@ -37,7 +37,7 @@
       <path value="Identifier.value" />
       <min value="1" />
       <constraint>
-        <key value="zanr-2" />
+        <key value="kzva-1" />
         <severity value="warning" />
         <human value="Die KZVAbrechnungsnummer muss 9-stellig numerisch sein" />
         <expression value="matches('[0-9]{9}')" />

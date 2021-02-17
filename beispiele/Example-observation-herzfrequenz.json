@@ -1,9 +1,9 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-puls",
+	"id": "Example-herzfrequenz",
 	"meta": {
 		"profile": [
-            "http://fhir.de/StructureDefinition/observation-de-vitalsign-puls",
+            "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
             "http://hl7.org/fhir/StructureDefinition/heartrate"
 		]
 	},
@@ -31,7 +31,7 @@
 				"display": "Heart rate (observable entity)"
 			}
 		],
-		"text": "Puls"
+		"text": "Herzfrequenz"
 	},
 	"subject": {
 		"reference": "Patient/example"

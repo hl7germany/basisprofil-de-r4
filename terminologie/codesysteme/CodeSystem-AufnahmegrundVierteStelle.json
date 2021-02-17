@@ -1,0 +1,47 @@
+{
+    "resourceType": "CodeSystem",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      ]
+    },
+    "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+    "valueSet": "https://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle",
+    "experimental": false,
+    "date": "2020-05-09",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "count": 29,
+    "name": "AufnahmegrundVierteStelle",
+    "title": "AufnahmegrundVierteStelle",
+    "version": "0.9",
+    "status": "draft",
+    "description": "Aufnahmegrund nach §21 KHEntgG (4. Stelle)",
+    "compositional": false,
+    "content": "complete",
+    "concept": [
+      {
+        "code": "1",
+        "display": "Normalfall"
+      },
+      {
+        "code": "2",
+        "display": "Arbeitsunfall/Berufskrankheit (§ 11 Abs. 5 SGB V)"
+      },
+      {
+        "code": "3",
+        "display": "Verkehrsunfall/Sportunfall/Sonstiger Unfall (z.B. § 116 SGB X)"
+      },
+      {
+        "code": "4",
+        "display": "Hinweis auf Einwirkung von äußerer Gewalt"
+      },
+      {
+        "code": "6",
+        "display": "Kriegsbeschädigten-Leiden/BVG-Leiden"
+      },
+      {
+        "code": "7",
+        "display": "Notfall"
+      }
+    ]
+  }

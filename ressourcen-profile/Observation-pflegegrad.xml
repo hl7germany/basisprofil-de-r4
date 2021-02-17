@@ -7,7 +7,7 @@
   <title value="Pflegegrad, deutsches Basisprofil" />
   <status value="draft" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-  <description value="Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags uf Einstufung in einen Pflegegrad" />
+  <description value="Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad" />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <mapping>

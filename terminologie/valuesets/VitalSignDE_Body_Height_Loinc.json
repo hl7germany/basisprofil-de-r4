@@ -1,9 +1,10 @@
 {
   "resourceType": "ValueSet",
+  "id": "ValueSetVitalSignDE_Body_Height_Loinc",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
   "version": "0.9.13",
-  "name": "VitalSignDE_Body_Height_Loinc",
-  "title": "VitalSignDE_Body_Height_Loinc",
+  "name": "ValueSetVitalSignDE_Body_Height_Loinc",
+  "title": "ValueSetVitalSignDE_Body_Height_Loinc",
   "status": "active",
   "experimental": false,
   "publisher": "Technisches Komitee FHIR HL7 Deutschland e.V.",

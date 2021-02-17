@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
+  "valueSet": "https://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle",
+  "experimental": false,
+  "date": "2020-05-09",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "count": 29,
+  "name": "AufnahmegrundDritteStelle",
+  "title": "AufnahmegrundDritteStelle",
+  "version": "0.9",
+  "status": "draft",
+  "description": "Aufnahmegrund nach §21 KHEntgG (3. Stelle)",
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "Anderes"
+    },
+    {
+      "code": "2",
+      "display": "Zuständigkeitswechsel des Kostenträgers"
+    },
+    {
+      "code": "4",
+      "display": "Behandlungen im Rahmen von Verträgen zur integrierten Versorgung"
+    }
+  ]
+}

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="structuredefinition-wg" />
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fm" />
-  </extension>
+	<id value="CoverageDeBasis" />
   <url value="http://fhir.de/StructureDefinition/coverage-de-basis" />
   <version value="0.9.13" />
   <name value="CoverageDeBasis" />

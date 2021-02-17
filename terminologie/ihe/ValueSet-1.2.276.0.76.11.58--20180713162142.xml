@@ -20,7 +20,7 @@
                 <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="healthcareFacilityTypeCode (XDSDocumentEntry) This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."/>
+                <description value="**healthcareFacilityTypeCode (XDSDocumentEntry)**&#13;&#10; This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."/>
                 <immutable value="false"/>
                 <compose>
                     <include>
@@ -142,7 +142,7 @@
                                 <valueString value="Eine dedizierte Einrichtung die ausschlie&#xDF;lich auf die telemedizinische Betreuung von Patienten abzielt. Dies umfasst sowohl dedizierte Care Management Organisationen, wie auch Telemonitoring-Zentren. Dokumente die im Rahmen von telemedizinischen Dienstleistungen von Krankenh&#xE4;usern oder niedergelassenen &#xC4;rzten erbracht werden, sollten nicht mit diesem Konzept gekennzeichnet werden, sondern mit dem Konzept f&#xFC;r KHS &quot;Krankenhaus&quot; bzw. PRA &quot;Arztpraxis&quot;."/>
                             </extension>
                             <code value="TMZ"/>
-                            <display value="Telemedizinisches Zentrum "/>
+                            <display value="Telemedizinisches Zentrum"/>
                         </concept>
                     </include>
                 </compose>

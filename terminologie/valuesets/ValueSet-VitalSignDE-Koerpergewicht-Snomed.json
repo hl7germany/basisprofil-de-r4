@@ -38,11 +38,12 @@
     "date": "2020-12-04",
     "description": "Enthaelt SNOMED Codes fuer das Koerpergewicht.",
     "experimental": true,
-    "name": "KoerpergewichtSnomed",
+    "name": "ValueSetKoerpergewichtSnomed",
     "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
     "status": "draft",
     "title": "Koerpergewicht-SNOMED",
     "url": "http://fhir.de/ValueSet/koerpergewicht-snomed-de",
     "version": "0.9.13",
+    "id": "ValueSetVitalSignKoerpergewichtSnomed",
     "resourceType": "ValueSet"
 }
