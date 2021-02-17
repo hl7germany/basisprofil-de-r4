@@ -3,7 +3,7 @@
 	"id": "Example-observation-sauerstoffsaettigung",
 	"meta": {
 		"profile": [
-            "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
+			"http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 		]
 	},
 	"status": "final",

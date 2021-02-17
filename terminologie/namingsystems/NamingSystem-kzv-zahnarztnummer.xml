@@ -6,7 +6,7 @@
 	<name value="KzvZahnarztnummer"/>
 	<status value="retired"/>
 	<kind value="identifier"/>
-    <date value="2021-02-17" />
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -18,11 +18,10 @@
 	<type>
 		<coding>
 			<system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
-            <code value="ZANR"/>
+			<code value="ZANR"/>
 		</coding>
 	</type>
-	<description
-			value="HINWEIS: Dieses NamingSystem wurde durch http://fhir.de/identifiers/kzbv/zahnarztnummer ersetzt.
+	<description value="HINWEIS: Dieses NamingSystem wurde durch http://fhir.de/identifiers/kzbv/zahnarztnummer ersetzt.
 
 			Dieses NamingSystem wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw.
 			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.

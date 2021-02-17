@@ -6,7 +6,7 @@
 	<name value="KbvLanr"/>
 	<status value="retired"/>
 	<kind value="identifier"/>
-    <date value="2021-02-17" />
+	<date value="2021-02-17" />
 	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
 	<contact>
 		<telecom>
@@ -21,8 +21,7 @@
 			<code value="PRN"/>
 		</coding>
 	</type>
-	<description
-			value="Der Namensraum für die (L)ANR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."/>
+	<description value="Der Namensraum für die (L)ANR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."/>
 	<usage value="Die KBV hat angegeben, dass diese Nummern auf entsprechende Formulare zu drucken sind, allerdings ist bislang nicht näher beschrieben, wie diese Informationen intern zu übermitteln sind. Für eine normale Arztpraxis ist dies ohne Belang. Im Krankenhausumfeld ist diese Information aber relevant, da die abrechnende Stelle typischerweise nicht die ist, wo die Leistungen etc. anfallen.  Durch die Vermischung der eigentlichen Informationen in eine ID ist eine präzise Zuordnung folglich nicht ohne weiteres möglich."/>
 	<uniqueId>
 		<type value="oid"/>

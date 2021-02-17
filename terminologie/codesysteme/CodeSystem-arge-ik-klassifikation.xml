@@ -127,8 +127,7 @@
 	</concept>
 	<concept>
 		<code value="44"/>
-		<display
-				value="Krankengymnasten, Physiotherapeuten, Praxen für Physiotherapie, Sportvereine, Schwangerschaftsgymnastik, Rehabilitationssport-, Herzsport- und Behindertensportgruppen, Funktionstrainingsgruppen, Sportstudios, Reittherapie"/>
+		<display value="Krankengymnasten, Physiotherapeuten, Praxen für Physiotherapie, Sportvereine, Schwangerschaftsgymnastik, Rehabilitationssport-, Herzsport- und Behindertensportgruppen, Funktionstrainingsgruppen, Sportstudios, Reittherapie"/>
 	</concept>
 	<concept>
 		<code value="45"/>
@@ -148,13 +147,11 @@
 	</concept>
 	<concept>
 		<code value="49"/>
-		<display
-				value="Sonstige therapeutische Hilfspersonen, Psychologen, Psychotherapeuten, Unterrichtshilfen, Soziotherapie, Frühfördereinrichtung, Sonderpädagogen, Mobilitätstrainer, Gebärdensprachdolmetscher, Heileurythmisten, Sozialpädiatrische Zentren, Nachsorgeeinrichtungen, PEKIP"/>
+		<display value="Sonstige therapeutische Hilfspersonen, Psychologen, Psychotherapeuten, Unterrichtshilfen, Soziotherapie, Frühfördereinrichtung, Sonderpädagogen, Mobilitätstrainer, Gebärdensprachdolmetscher, Heileurythmisten, Sozialpädiatrische Zentren, Nachsorgeeinrichtungen, PEKIP"/>
 	</concept>
 	<concept>
 		<code value="50"/>
-		<display
-				value="Caritative Organisationen, Diakonie- und Sozialstationen, Gemeindeschwestern, Selbsthilfegruppen, Kirchengemeinden, Stadtverwaltungen (Pflegedienste, Kranken-, Sozial- und Schwesternstationen)"/>
+		<display value="Caritative Organisationen, Diakonie- und Sozialstationen, Gemeindeschwestern, Selbsthilfegruppen, Kirchengemeinden, Stadtverwaltungen (Pflegedienste, Kranken-, Sozial- und Schwesternstationen)"/>
 	</concept>
 	<concept>
 		<code value="51"/>

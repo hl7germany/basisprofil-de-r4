@@ -1,19 +1,19 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-	<id value="namingsystem-BundesaerztekammerEfn" />
-   <meta>
+    <id value="namingsystem-BundesaerztekammerEfn" />
+    <meta>
         <profile value="http://fhir.de/StructureDefinition/namingsystem-de-basis"/>
     </meta>
     <name value="BundesaerztekammerEfn" />
-	<status value="active"/>
-	<kind value="identifier"/>
+    <status value="active"/>
+    <kind value="identifier"/>
     <date value="2021-02-17" />
-	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
-	<contact>
-		<telecom>
-			<system value="other"/>
-			<value value="http://hl7.de/technische-komitees/fhir/"/>
-		</telecom>
-	</contact>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
     <responsible value="Bundesärztekammer" />
     <type>
         <coding>

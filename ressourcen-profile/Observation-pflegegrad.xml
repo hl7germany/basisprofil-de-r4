@@ -100,12 +100,12 @@
         <code value="Period"/>
       </type>
     </element>
-    <element  id="Observation.effectivePeriod">
+    <element id="Observation.effectivePeriod">
       <path value="Observation.effectivePeriod" />
       <min value="1" />
       <max value="1" />
     </element>
-    <element  id="Observation.effectivePeriod.start">
+    <element id="Observation.effectivePeriod.start">
       <path value="Observation.effectivePeriod.start" />
       <min value="1" />
     </element>

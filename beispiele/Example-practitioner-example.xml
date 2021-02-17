@@ -1,5 +1,5 @@
 <Practitioner xmlns="http://hl7.org/fhir">
-	<id value="Example-practitioner-example" />
+  <id value="Example-practitioner-example" />
   <identifier>
     <type>
       <coding>

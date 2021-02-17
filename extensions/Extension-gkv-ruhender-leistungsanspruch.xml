@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ruhender-leistungsanspruch" />
+  <id value="ruhender-leistungsanspruch" />
   <url value="http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionGkvRuhenderLeistungsanspruch" />

@@ -2,16 +2,16 @@
 <NamingSystem>
     <id value="namingsystem-reisepassnummer"/>
     <name value="NamingSystemReisepassnummer"/>
-	<status value="active"/>
-	<kind value="identifier"/>
+    <status value="active"/>
+    <kind value="identifier"/>
     <date value="2021-02-17" />
-	<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
-	<contact>
-		<telecom>
-			<system value="other"/>
-			<value value="http://hl7.de/technische-komitees/fhir/"/>
-		</telecom>
-	</contact>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
     <type>
         <coding>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>

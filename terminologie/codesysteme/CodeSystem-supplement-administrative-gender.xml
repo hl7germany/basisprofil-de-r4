@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="administrative-gender-supplement" />
+  <id value="administrative-gender-supplement" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
@@ -40,7 +40,7 @@
       <value value="andere" />
     </designation>
   </concept>
-    <concept>
+  <concept>
     <code value="unknown" />
     <designation>
       <language value="de-DE" />

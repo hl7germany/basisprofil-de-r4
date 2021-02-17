@@ -3,8 +3,8 @@
 	"id": "Example-observation-koerpertemperatur",
 	"meta": {
 		"profile": [
-            "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-            "http://hl7.org/fhir/StructureDefinition/bodytemp"
+			"http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
+			"http://hl7.org/fhir/StructureDefinition/bodytemp"
 		]
 	},
 	"status": "final",

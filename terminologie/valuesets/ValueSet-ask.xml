@@ -1,5 +1,5 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value= "valueset-ask" />
+  <id value= "valueset-ask" />
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
   </meta>
@@ -10,10 +10,10 @@
   <date value="2021-02-17" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
   <contact>
-      <telecom>
-          <system value="other" />
-          <value value="http://hl7.de/technische-komitees/fhir/" />
-      </telecom>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
   </contact>
   <description value="Arzneimittel-Stoffkatalog (ASK) Nummern" />
   <copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information" />
