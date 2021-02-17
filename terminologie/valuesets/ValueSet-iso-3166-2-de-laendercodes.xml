@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="ValueSetISO31662DE" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
     <url value="http://fhir.de/ValueSet/iso/bundeslaender" />
     <version value="1.0.0-alpha1" />
     <name value="ValueSetISO31662DE" />
     <title value="ISO-3166-2:de-Laendercodes" />
     <status value="active" />
+    <experimental value="false" />
     <date value="2021-02-17" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <contact>

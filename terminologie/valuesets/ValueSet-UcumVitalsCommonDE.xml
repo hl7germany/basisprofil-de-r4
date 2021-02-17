@@ -9,6 +9,7 @@
     <name value="UCUM_Vitals_Common_DE" />
     <title value="UCUM Vitals Common DE" />
     <status value="active" />
+    <experimental value="false" />
     <date value="2021-02-17" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <contact>

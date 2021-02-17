@@ -9,6 +9,7 @@
     <name value="VitalSignDE_Body_Length_UCUM" />
     <title value="VitalSignDE_Body_Length_UCUM" />
     <status value="active" />
+    <experimental value="false" />
     <date value="2021-02-17" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <contact>

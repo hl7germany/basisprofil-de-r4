@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="VitalSignDE_Body_Weight_Loinc" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
     <url value="http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc" />
     <version value="1.0.0-alpha1" />
     <name value="VitalSignDE_Body_Weight_Loinc" />
     <title value="VitalSignDE_Body_Weight_Loinc" />
     <status value="active" />
+    <experimental value="false" />
     <date value="2021-02-17" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <contact>
