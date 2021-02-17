@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="observation-de-vitalsign-koerpergewicht" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht" />
   <version value="0.9.13" />
   <name value="VitalSignDE_Koerpergewicht" />
