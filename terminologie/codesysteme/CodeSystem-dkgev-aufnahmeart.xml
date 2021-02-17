@@ -16,7 +16,7 @@
 			<value value="http://hl7.de/technische-komitees/fhir/" />
 		</telecom>
 	</contact>
-	<description value="Codierung verschiedener in DE üblicher Aufnahmearten basierend gesetzlichen Grundlagen " />
+	<description value="Codierung verschiedener in DE üblicher Aufnahmearten basierend gesetzlichen Grundlagen" />
 	<caseSensitive value="true" />
 	<valueSet value="http://fhir.de/ValueSet/Aufnahmeart" />
 	<content value="complete" />
