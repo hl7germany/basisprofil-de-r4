@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="abrechnendeIK" />
+  <id value="AbrechnendeIK" />
   <url value="http://fhir.de/StructureDefinition/AbrechnendeIK" />
   <name value="ExtensionAbrechnendeIK" />
   <status value="draft" />
