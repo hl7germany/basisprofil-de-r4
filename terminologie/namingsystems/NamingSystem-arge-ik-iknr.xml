@@ -24,15 +24,15 @@
 	<description value="Die Institutionskennzeichen (kurz: IK) sind bundesweit eindeutige, neunstellige Zahlen, mit deren Hilfe Abrechnungen und Qualitätssicherungsmaßnahmen im Bereich der deutschen Sozialversicherung einrichtungsübergreifend abgewickelt werden können. (siehe http://www.dguv.de/arge-ik/)"/>
 	<usage value="Das IK ist ein eindeutiges Merkmal für die Abrechnung mit den Trägern der Sozialversicherung."/>
 	<uniqueId>
-		<type value="oid"/>
-		<value value="1.2.276.0.76.4.5"/>
-	</uniqueId>
-	<uniqueId>
 		<type value="uri"/>
 		<value value="http://fhir.de/sid/arge-ik/iknr"/>
 		<preferred value="true"/>
 		<period>
 			<start value="2017-09-15"/>
 		</period>
+	</uniqueId>
+	<uniqueId>
+		<type value="oid"/>
+		<value value="1.2.276.0.76.4.5"/>
 	</uniqueId>
 </NamingSystem>
