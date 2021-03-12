@@ -17,11 +17,13 @@
     </concept>
     <concept>
         <code value="vorstationaer" />
-        <display value="Vorstationärer Kontakt nach § 115 a SGB V" />
+        <display value="Vorstationär" />
+        <definition value="Vorstationärer Kontakt nach § 115 a SGB V" />
     </concept>
     <concept>
         <code value="nachstationaer" />
-        <display value="Nachstationärer Kontakt nach § 115 a SGB V" />
+        <display value="Nachstationär" />
+        <definition value="Nachstationärer Kontakt nach § 115 a SGB V" />
     </concept>
     <concept>
         <code value="teilstationaer" />
