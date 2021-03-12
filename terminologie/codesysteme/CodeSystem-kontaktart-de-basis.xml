@@ -27,6 +27,14 @@
         <code value="teilstationaer" />
         <display value="Teilstationäre Behandlung" />
         <definition value="Eine teilstationäre Behandlung unterscheidet sich im Wesentlichen von einer vollstationären Behandlung durch eine regelmäßige, aber nicht zeitlich durchgehende Anwesenheit der Patientin oder des Patienten im Krankenhaus. Im Rahmen der teilstationären Behandlung kann Unterkunft und Verpflegung gewährt werden." />
+        <concept>
+            <code value="tagesklinik" />
+            <display value="Tagesklinische Behandlung" />
+        </concept>
+        <concept>
+            <code value="nachtklinik" />
+            <display value="Behandlung in einer Nachtklinik" />
+        </concept>
     </concept>
     <concept>
         <code value="normalstationaer" />
@@ -37,10 +45,6 @@
         <code value="intensivstationaer" />
         <display value="Intensivstationär" />
         <definition value="Intensivstationäre Kontakte sind Kontakte mit einer Station, die zur intensivmedizinischen Behandlung im Krankenhausplan bzw. Förderungsbescheid zugelassen sind" />
-    </concept>
-    <concept>
-        <code value="tagesklinik" />
-        <display value="Tagesklinische Behandlung" />
     </concept>
     <concept>
         <code value="ub" />
