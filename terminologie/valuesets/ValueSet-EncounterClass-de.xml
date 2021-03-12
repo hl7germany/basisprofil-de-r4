@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="EncounterClassDE" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url value="http://fhir.de/ValueSet/EncounterClassDE" />
+    <version value="1.0.0-alpha1" />
+    <name value="EncounterClassDE" />
+    <title value="EncounterClassDE" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2021-03-12" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Fallarten und Patientenstatus zur Codierung von Encounter.class" />
+    <copyright value="HL7 Deutschland e.V." />
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+            <concept>
+                <code value="AMB" />
+                <display value="ambulatory" />
+            </concept>
+            <concept>
+                <code value="IMP" />
+                <display value="inpatient encounter" />
+            </concept>
+            <concept>
+                <code value="PRENC" />
+                <display value="pre-admission" />
+            </concept>
+            <concept>
+                <code value="VR" />
+                <display value="virtual" />
+            </concept>
+            <concept>
+                <code value="SS" />
+                <display value="short stay" />
+            </concept>
+            <concept>
+                <code value="HH" />
+                <display value="home health" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
