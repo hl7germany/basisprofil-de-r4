@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="ExtensionLebensphase" />
-  <url value="https://fhir.de/StructureDefinition/lebensphase" />
+  <url value="http://fhir.de/StructureDefinition/lebensphase" />
   <version value="1.0.0-alpha1" />
   <name value="ExtensionLebensphase" />
   <status value="active" />
@@ -40,7 +40,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.de/StructureDefinition/lebensphase" />
+      <fixedUri value="http://fhir.de/StructureDefinition/lebensphase" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
@@ -70,7 +70,7 @@
       <binding>
         <strength value="required" />
         <description value="Lebensphase" />
-        <valueSet value="https://fhir.de/ValueSet/lebensphase" />
+        <valueSet value="http://fhir.de/ValueSet/lebensphase" />
       </binding>
     </element>
     <element id="Extension.value[x]:valueCodeableConcept.coding.system">
