@@ -45,6 +45,12 @@
       <path value="Extension.extension.url" />
       <fixedUri value="ErsteUndZweiteStelle" />
     </element>
+    <element id="Extension.extension:ErsteUndZweiteStelle.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="Coding" />
+      </type>
+    </element>
     <element id="Extension.extension:DritteStelle">
       <path value="Extension.extension" />
       <sliceName value="DritteStelle" />
