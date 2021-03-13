@@ -3,7 +3,8 @@
   <id value="Aufnahmegrund" />
   <url value="http://fhir.de/StructureDefinition/Aufnahmegrund" />
   <version value="1.0.0-alpha1" />
-  <name value="Aufnahmegrund" />
+  <name value="ExtensionAufnahmegrund" />
+  <title value="ExtensionAufnahmegrund" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
