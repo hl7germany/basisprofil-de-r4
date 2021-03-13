@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="EncounterStatusDe"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+    </meta>
+    <url value="http://fhir.de/ValueSet/EncounterStatusDe" />
+    <version value="1.0.0-alpha1" />
+    <name value="EncounterStatusDe" />
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2021-03-12"/>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
+    <description value="Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"/>
+    <copyright value="HL7 Deutschland e.V."/>
+    <compose>
+        <include>
+            <system value="http://hl7.org/fhir/encounter-status" />
+            <version value="4.0.1" />
+            <concept>
+                <code value="planned" />
+                <display value="Planned" />
+            </concept>
+            <concept>
+                <code value="in-progress" />
+                <display value="In Progress" />
+            </concept>
+            <concept>
+                <code value="onleave" />
+                <display value="On Leave" />
+            </concept>
+            <concept>
+                <code value="finished" />
+                <display value="Finished" />
+            </concept>
+            <concept>
+                <code value="cancelled" />
+                <display value="Cancelled" />
+            </concept>
+            <concept>
+                <code value="entered-in-error" />
+                <display value="Entered in Error" />
+            </concept>
+            <concept>
+                <code value="unknown" />
+                <display value="Unknown" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
