@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Aufnahmegrund" />
-  <url value="http://fhir.de/fhir/StructureDefinition/Aufnahmegrund" />
+  <url value="http://fhir.de/StructureDefinition/Aufnahmegrund" />
   <version value="1.0.0-alpha1" />
   <name value="Aufnahmegrund" />
   <status value="active" />
@@ -90,7 +90,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://fhir.de/fhir/StructureDefinition/Aufnahmegrund" />
+      <fixedUri value="http://fhir.de/StructureDefinition/Aufnahmegrund" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
