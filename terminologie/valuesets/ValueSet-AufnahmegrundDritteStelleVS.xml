@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><ValueSet xmlns="http://hl7.org/fhir"><id value="AufnahmegrundDritteStelleVS"/><meta><profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/></meta><url value="http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle"/><version value="1.0.0-alpha1"/><name value="AufnahmegrundDritteStelleVS"/><status value="active"/><experimental value="false"/><date value="2021-03-12"/><publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/><contact><telecom><system value="other"/><value value="http://hl7.de/technische-komitees/fhir/"/></telecom></contact><description value="Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"/><copyright value="HL7 Deutschland e.V."/><compose><include><system value="http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle"/></include></compose></ValueSet>
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="AufnahmegrundDritteStelleVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle"/>
+  <version value="1.0.0-alpha1"/>
+  <name value="AufnahmegrundDritteStelleVS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-03-12"/>
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.de/technische-komitees/fhir/"/>
+    </telecom>
+  </contact>
+  <description value="Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"/>
+  <copyright value="HL7 Deutschland e.V."/>
+  <compose>
+    <include>
+      <system value="http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle"/>
+    </include>
+  </compose>
+</ValueSet>
