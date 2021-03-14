@@ -39,7 +39,7 @@
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.kbv.de/sid/KBV_NS_Base_ANR" />
+      <fixedUri value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
