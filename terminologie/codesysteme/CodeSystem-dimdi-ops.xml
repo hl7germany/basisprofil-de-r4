@@ -14,6 +14,7 @@
 	</contact>
 	<description value="OPS Platzhalter-CodeSystem"/>
 	<copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information"/>
+	<valueSet value=" http://fhir.de/ValueSet/dimdi/ops" />
 	<caseSensitive value="true"/>
 	<content value="not-present"/>
 </CodeSystem>
