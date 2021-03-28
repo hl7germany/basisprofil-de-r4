@@ -2,7 +2,7 @@
 
 Synchronized from ART-DECOR
 
-Last Updated on 2021-02-12 23:02:19
+Last Updated on 2021-03-28 03:03:06
 
 List of updated files:
 * terminologie/ihe/ValueSet-1.2.276.0.76.11.30--20180713131246.xml
