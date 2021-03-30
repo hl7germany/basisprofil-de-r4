@@ -20,7 +20,7 @@
                 <status value="draft"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
-                <description value="**formatCode (XDSDocumentEntry)**&#13;&#10;Globally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."/>
+                <description value="**formatCode (XDSDocumentEntry)**&#10;&#13;&#10;Globally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."/>
                 <immutable value="false"/>
                 <compose>
                     <include>
@@ -122,19 +122,19 @@
                             <display value="Datensatz f&#xFC;r pers&#xF6;nliche Erkl&#xE4;rungen (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Impfausweis:r4.0"/>
+                            <code value="urn:gematik:ig:Impfausweis:v1.0.0"/>
                             <display value="Impfausweis (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Mutterpass:r4.0"/>
+                            <code value="urn:gematik:ig:Mutterpass:v1.0.0"/>
                             <display value="Mutterpass (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Kinderuntersuchungsheft:r4.0"/>
+                            <code value="urn:gematik:ig:Kinderuntersuchungsheft:v1.0.0"/>
                             <display value="Kinderuntersuchungsheft (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Zahnbonusheft:r4.0"/>
+                            <code value="urn:gematik:ig:Zahnbonusheft:v1.0.0"/>
                             <display value="Zahnbonusheft (gematik)"/>
                         </concept>
                         <concept>
@@ -146,15 +146,15 @@
                             <display value="Verordnungsdatensatz Medikation (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:r4.0"/>
+                            <code value="urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:v1.0.0"/>
                             <display value="Untersuchungen Kinderuntersuchungsheft"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:KinderuntersuchungsheftTeilnahmekarte:r4.0"/>
+                            <code value="urn:gematik:ig:KinderuntersuchungsheftTeilnahmekarte:v1.0.0"/>
                             <display value="Teilnahmekarte Kinderuntersuchungsheft"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:KinderuntersuchungsheftNotizen:r4.0"/>
+                            <code value="urn:gematik:ig:KinderuntersuchungsheftNotizen:v1.0.0"/>
                             <display value="Notizen Kinderuntersuchungsheft"/>
                         </concept>
                     </include>
