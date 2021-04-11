@@ -122,7 +122,7 @@
                             <display value="Datensatz f&#xFC;r pers&#xF6;nliche Erkl&#xE4;rungen (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Impfausweis:v1.0.0"/>
+                            <code value="urn:gematik:ig:Impfausweis:v1.1.0"/>
                             <display value="Impfausweis (gematik)"/>
                         </concept>
                         <concept>
