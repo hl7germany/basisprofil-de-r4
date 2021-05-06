@@ -230,5 +230,17 @@
         <code value="8478-0" />
       </patternCoding>
     </element>
+    <element id="Observation.component:meanBP.value[x]:valueQuantity">
+      <path value="Observation.component.value[x]" />
+      <sliceName value="valueQuantity" />
+    </element>
+    <element id="Observation.component:meanBP.value[x]:valueQuantity.unit">
+      <path value="Observation.component.value[x].unit" />
+      <patternString value="mm[Hg]" />
+    </element>
+    <element id="Observation.component:meanBP.value[x]:valueQuantity.code">
+      <path value="Observation.component.value[x].code" />
+      <patternCode value="mm[Hg]" />
+    </element>
   </differential>
 </StructureDefinition>
