@@ -18,7 +18,7 @@
             <value value="http://hl7.de/technische-komitees/fhir/" />
         </telecom>
     </contact>
-    <description value="VitalSignDE_Body_Length_UCUM" />
+    <description value="VitalSignDE_Body_Length_UCUM enthält alle validen Einheiten zur Kodierung einer Körpergröße" />
     <copyright value="HL7 Deutschland e.V." />
     <compose>
         <include>
