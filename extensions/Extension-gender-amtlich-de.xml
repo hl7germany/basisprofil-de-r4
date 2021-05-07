@@ -53,6 +53,12 @@
       <type>
         <code value="Coding" />
       </type>
+      <constraint>
+        <key value="gender-amtlich-1" />
+        <severity value="error" />
+        <human value="Die amtliche Differenzierung der Geschlechtsangabe 'other' darf nur gefüllt sein, wenn das Geschlecht 'other' angegeben ist" />
+        <expression value="%resource.where(gender='other').exists()" />
+      </constraint>
       <binding>
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/gender-amtlich-de" />
