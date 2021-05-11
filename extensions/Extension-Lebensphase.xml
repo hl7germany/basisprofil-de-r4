@@ -70,7 +70,7 @@
       <binding>
         <strength value="required" />
         <description value="Lebensphase" />
-        <valueSet value="http://fhir.de/ValueSet/lebensphase" />
+        <valueSet value="http://fhir.de/ValueSet/lebensphase-de" />
       </binding>
     </element>
     <element id="Extension.value[x]:valueCodeableConcept.coding.system">
