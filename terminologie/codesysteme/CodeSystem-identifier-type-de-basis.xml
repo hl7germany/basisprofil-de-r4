@@ -29,16 +29,8 @@
 		<display value="Private Krankenversicherung"/>
 	</concept>
 	<concept>
-		<code value="LANR"/>
-		<display value="Lebenslange Arztnummer"/>
-	</concept>
-	<concept>
 		<code value="ZANR"/>
 		<display value="Zahnarztnummer"/>
-	</concept>
-	<concept>
-		<code value="BSNR"/>
-		<display value="Betriebsstättennummer"/>
 	</concept>
 	<concept>
 		<code value="KZVA"/>
