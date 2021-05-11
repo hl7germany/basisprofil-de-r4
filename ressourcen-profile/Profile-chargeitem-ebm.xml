@@ -31,11 +31,34 @@
         <expression value="coding.code.matches('[0-9]{5}[A-Z]{0,1}')" />
         <source value="http://fhir.de/StructureDefinition/chargeitem-de-ebm" />
       </constraint>
-      <binding>
-        <strength value="required" />
-        <description value="EBM-Katalog" />
-        <valueSet value="https://fhir.kbv.de/ValueSet/74_VS_AW_EBM" />
-      </binding>
+    </element>
+    <element id="ChargeItem.code.coding">
+      <path value="ChargeItem.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.code.coding:ebm">
+      <path value="ChargeItem.code.coding" />
+      <sliceName value="ebm" />
+      <min value="1" />
+      <max value="1" />
+      <patternCoding>
+        <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_EBM" />
+      </patternCoding>
+    </element>
+    <element id="ChargeItem.code.coding:ebm.system">
+      <path value="ChargeItem.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.code.coding:ebm.code">
+      <path value="ChargeItem.code.coding.code" />
+      <min value="1" />
     </element>
     <element id="ChargeItem.occurrence[x]">
       <path value="ChargeItem.occurrence[x]" />
