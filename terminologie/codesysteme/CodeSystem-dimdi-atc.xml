@@ -13,7 +13,7 @@
 		</telecom>
 	</contact>
 	<description value="ATC Platzhalter-CodeSystem"/>
-	<copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte "/>
+	<copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte"/>
 	<caseSensitive value="true"/>
 	<content value="not-present"/>
 </CodeSystem>

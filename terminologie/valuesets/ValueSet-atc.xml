@@ -17,7 +17,7 @@
     </telecom>
   </contact>
   <description value="Anatomisch-therapeutisch-chemische Klassifkation (ATC) mit Tagesdosen deutsche Fassung" />
-  <copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte " />
+  <copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte" />
   <compose>
     <include>
       <system value="http://fhir.de/CodeSystem/bfarm/atc" />

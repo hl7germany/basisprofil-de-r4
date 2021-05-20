@@ -13,7 +13,7 @@
 		</telecom>
 	</contact>
 	<description value="OPS Platzhalter-CodeSystem"/>
-	<copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte "/>
+	<copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte"/>
 	<valueSet value=" http://fhir.de/ValueSet/bfarm/ops" />
 	<caseSensitive value="true"/>
 	<content value="not-present"/>
