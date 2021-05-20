@@ -2,9 +2,9 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
 	</meta>
-	<url value="http://fhir.de/ValueSet/Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes" />
+	<url value="http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen" />
 	<version value="0.9" />
-	<name value="ICD-Mehrfachkodierungs-Kennzeichen" />
+	<name value="MehrfachkodierungsKennzeichen" />
 	<status value="draft" />
 	<experimental value="true" />
 	<date value="2021-05-20" />
@@ -18,7 +18,7 @@
 	<description value="Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes " />
 	<compose>
 		<include>
-			<system value="http://fhir.de/CodeSystem/ICD-Mehrfachkodierungs-Kennzeichen" />
+			<system value="http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen" />
 		</include>
 	</compose>
 </ValueSet>
