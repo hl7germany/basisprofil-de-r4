@@ -1,0 +1,37 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+<url value="http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen"/>
+<name value="ExtensionMehrfachcodierungKennzeichen"/>
+<title value="Mehrfachkodierungs-Kennzeichen bei  ICD-10-gm"/>
+<status value="draft"/>
+<fhirVersion value="4.0.1"/>
+<kind value="complex-type"/>
+<abstract value="false"/>
+ <context>
+<type value="element"/>
+<expression value="Coding"/>
+</context>
+<type value="Extension"/>
+<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+<derivation value="constraint"/>
+ <differential>
+ <element id="Extension.url">
+<path value="Extension.url"/>
+<fixedUri value="http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen"/>
+</element>
+ <element id="Extension.value[x]">
+<path value="Extension.value[x]"/>
+<min value="1"/>
+ <type>
+<code value="Coding"/>
+</type>
+</element>
+ <element id="Extension.value[x].system">
+<path value="Extension.value[x].system"/>
+<min value="1"/>
+</element>
+ <element id="Extension.value[x].code">
+<path value="Extension.value[x].code"/>
+<min value="1"/>
+</element>
+</differential>
+</StructureDefinition>
