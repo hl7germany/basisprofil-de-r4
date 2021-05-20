@@ -24,6 +24,10 @@
  <type>
 <code value="Coding"/>
 </type>
+   <binding>
+<strength value="required"/>
+<valueSet value="http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen"/>
+</binding>
 </element>
  <element id="Extension.value[x].system">
 <path value="Extension.value[x].system"/>
