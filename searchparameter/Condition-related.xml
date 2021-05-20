@@ -10,6 +10,6 @@
         <code value="related"/>
         <base value="Condition"/>
         <type value="reference"/>
-        <expression value="Condition.extension('http://hl7.org/fhir/StructureDefinition/condition-related')"/>
+        <expression value="Condition.extension('http://hl7.org/fhir/StructureDefinition/condition-related').value"/>
         <target value="Condition"/>
 </SearchParameter>
