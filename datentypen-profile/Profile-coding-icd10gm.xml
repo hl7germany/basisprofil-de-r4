@@ -1,81 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="CodingICD10GM" />
-  <url value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-  <version value="1.0.0-alpha1" />
-  <name value="CodingICD10GM" />
-  <title value="Coding-Profil für ICD-10-GM" />
-  <status value="active" />
-  <date value="2021-02-17" />
-  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-  <contact>
-    <name value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
-    <telecom>
-      <system value="url" />
-    </telecom>
-  </contact>
-  <description value="Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes" />
-  <copyright value="HL7 Deutschland e.V." />
-  <fhirVersion value="4.0.1" />
-  <kind value="complex-type" />
-  <abstract value="false" />
-  <type value="Coding" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Coding" />
-  <derivation value="constraint" />
-  <differential>
-    <element id="Coding.system">
-      <path value="Coding.system" />
-      <short value="Canonische CodeSystem URL für ICD-10-GM" />
-      <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
-    </element>
-    <element id="Coding.version">
-      <path value="Coding.version" />
-      <short value="Die Jahresversion von ICD-10-GM. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)" />
-      <definition value="Bie Verwendung von ICD-10-GM ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von ICD-10-GM ein neues Codesystem darstellt." />
-      <min value="1" />
-    </element>
-    <element id="Coding.code">
-      <path value="Coding.code" />
-      <short value="Der (ggf. postkoordinierte) ICD-10-Code" />
-      <definition value="Der ICD 10 Code ist vollständig anzugeben, ggf. in postkoordinierter Form" />
-      <min value="1" />
-      <example>
-        <label value="Postkoordinierter Kreuz-Stern-Code" />
-        <valueCode value="A12.3+ B45.6*" />
-      </example>
-      <example>
-        <label value="Einfacher ICD-Code" />
-        <valueCode value="F17.4" />
-      </example>
-      <constraint>
-        <key value="icd-1" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Primärcode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-primaercode&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-primaercode&#39;).value.code)" />
-        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-      </constraint>
-      <constraint>
-        <key value="icd-2" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Manifestationscode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-manifestationscode&#39;).value.code)" />
-        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-      </constraint>
-      <constraint>
-        <key value="icd-3" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Ausrufezeichencode-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).value.code)" />
-        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-      </constraint>
-      <constraint>
-        <key value="icd-8" />
-        <severity value="warning" />
-        <human value="Bei Angabe eines Codes in der Seitenlokalisations-Extension, muss dieser auch Bestandteil des postkoordinierten ICD-Codes sein!" />
-        <expression value="%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).empty() or %resource.code.coding.code.contains(%resource.code.coding.extension(&#39;http://fhir.de/StructureDefinition/icd-10-gm-ausrufezeichen&#39;).value.code)" />
-        <source value="http://fhir.de/StructureDefinition/CodingICD10GM" />
-      </constraint>
-    </element>
-  </differential>
+ <StructureDefinition xmlns="http://hl7.org/fhir">
+<id value="CodingICD10GM"/>
+<url value="http://fhir.de/StructureDefinition/CodingICD10GM"/>
+<version value="1.0.0-alpha1"/>
+<name value="CodingICD10GM"/>
+<title value="Coding-Profil für ICD-10-GM"/>
+<status value="active"/>
+<date value="2021-02-17"/>
+<publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+ <contact>
+<name value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+ <telecom>
+<system value="url"/>
+</telecom>
+</contact>
+<description value="Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes"/>
+<copyright value="HL7 Deutschland e.V."/>
+<fhirVersion value="4.0.1"/>
+<kind value="complex-type"/>
+<abstract value="false"/>
+<type value="Coding"/>
+<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Coding"/>
+<derivation value="constraint"/>
+ <differential>
+ <element id="Coding.extension">
+<path value="Coding.extension"/>
+ <slicing>
+ <discriminator>
+<type value="value"/>
+<path value="url"/>
+</discriminator>
+<rules value="open"/>
+</slicing>
+</element>
+ <element id="Coding.extension:Mehrfachcodierungs-Kennzeichen">
+<path value="Coding.extension"/>
+<sliceName value="Mehrfachcodierungs-Kennzeichen"/>
+<min value="0"/>
+<max value="1"/>
+ <type>
+<code value="Extension"/>
+<profile value="http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen"/>
+</type>
+</element>
+ <element id="Coding.extension:Seitenlokalisation">
+<path value="Coding.extension"/>
+<sliceName value="Seitenlokalisation"/>
+<min value="0"/>
+<max value="1"/>
+ <type>
+<code value="Extension"/>
+<profile value="http://fhir.de/StructureDefinition/seitenlokalisation"/>
+</type>
+</element>
+ <element id="Coding.extension:Diagnosesicherheit">
+<path value="Coding.extension"/>
+<sliceName value="Diagnosesicherheit"/>
+<min value="0"/>
+<max value="1"/>
+ <type>
+<code value="Extension"/>
+<profile value="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit"/>
+</type>
+</element>
+ <element id="Coding.system">
+<path value="Coding.system"/>
+<short value="Canonische CodeSystem URL für ICD-10-GM"/>
+<min value="1"/>
+<fixedUri value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+</element>
+ <element id="Coding.version">
+<path value="Coding.version"/>
+<short value="Die Jahresversion von ICD-10-GM. Angegeben wird immer die vierstellige Jahreszahl (z.B. &quot;2017&quot;)"/>
+<definition value="Bie Verwendung von ICD-10-GM ist die Angabe der Version zwingend erforderlich.&#xD;&#xA;Hierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von ICD-10-GM ein neues Codesystem darstellt."/>
+<min value="1"/>
+</element>
+ <element id="Coding.code">
+<path value="Coding.code"/>
+<short value="Der ICD-10-Code"/>
+<min value="1"/>
+ <example>
+<label value="Einfacher ICD-Code"/>
+<valueCode value="F17.4"/>
+</example>
+</element>
+</differential>
 </StructureDefinition>
