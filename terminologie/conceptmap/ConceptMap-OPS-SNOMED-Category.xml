@@ -10,10 +10,10 @@
     <date value="2020-04-22" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <description value="Mapping OPS &quot;Klassentitel&quot; zu SNOMED-CT" />
-    <sourceCanonical value="http://fhir.de/ValueSet/dimdi/ops" />
+    <sourceCanonical value="http://fhir.de/ValueSet/bfarm/ops" />
     <targetCanonical value="http://snomed.info/sct" />
     <group>
-        <source value="http://fhir.de/CodeSystem/dimdi/ops" />
+        <source value="http://fhir.de/CodeSystem/bfarm/ops" />
         <target value="http://snomed.info/sct" />
         <element>
             <code value="1" />

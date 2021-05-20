@@ -27,7 +27,7 @@
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für OPS" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/dimdi/ops" />
+      <fixedUri value="http://fhir.de/CodeSystem/bfarm/ops" />
     </element>
     <element id="Coding.version">
       <path value="Coding.version" />

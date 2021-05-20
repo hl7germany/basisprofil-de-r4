@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="ops" />
-	<url value="http://fhir.de/CodeSystem/dimdi/ops"/>
+	<url value="http://fhir.de/CodeSystem/bfarm/ops"/>
 	<name value="OPS"/>
 	<status value="active"/>
 	<experimental value="false"/>
@@ -13,8 +13,8 @@
 		</telecom>
 	</contact>
 	<description value="OPS Platzhalter-CodeSystem"/>
-	<copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information"/>
-	<valueSet value=" http://fhir.de/ValueSet/dimdi/ops" />
+	<copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte "/>
+	<valueSet value=" http://fhir.de/ValueSet/bfarm/ops" />
 	<caseSensitive value="true"/>
 	<content value="not-present"/>
 </CodeSystem>
