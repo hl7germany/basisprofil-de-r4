@@ -1,5 +1,10 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="Example-condition-ausrufezeichen-sekundaer" />
+    <extension url="http://hl7.org/fhir/StructureDefinition/condition-related">
+    <valueReference>
+      <reference value="Condition/Example-condition-ausrufezeichen-primaer" />
+    </valueReference>
+  </extension>
   <code>
     <coding>
       <extension url="http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen">
@@ -14,11 +19,7 @@
       <display value="Intravenöser Konsum sonstiger psychotroper Substanzen" />
     </coding>
   </code>
-  <extension url="http://hl7.org/fhir/StructureDefinition/condition-related">
-    <valueReference>
-      <reference value="Condition/Example-condition-ausrufezeichen-primaer" />
-    </valueReference>
-  </extension>
+
   <subject>
     <reference value="Patient/example" />
   </subject>
