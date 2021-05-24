@@ -6,7 +6,7 @@
 	<status value="billable"/>
 	<code>
 		<coding>
-			<system value="http://fhir.de/CodeSystem/kbv/ebm"/>
+			<system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_EBM"/>
 			<version value="2017-4"/>
 			<code value="31600"/>
 			<display value="Postoperative Behandlung durch den Hausarzt"/>
