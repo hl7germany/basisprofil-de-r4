@@ -23,6 +23,12 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Coding" />
   <derivation value="constraint" />
   <differential>
+    <element id="Coding">
+    <path value="Coding"/>
+    <patternCoding>
+          <system value="http://fhir.de/CodeSystem/bfarm/alpha-id"/>
+    </patternCoding>
+    </element>
     <element id="Coding.system">
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für Alpha-ID" />
