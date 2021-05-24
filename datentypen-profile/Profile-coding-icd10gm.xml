@@ -82,6 +82,13 @@
 <label value="Einfacher ICD-Code"/>
 <valueCode value="F17.4"/>
 </example>
+  <constraint>
+<key value="icd-regex"/>
+<severity value="warning"/>
+<human value="In code sind nur gültige ICD-10-Codes ohne Zusätze erlaubt"/>
+<expression value="matches('^[A-Z][0-9][A-Z0-9](\\.?[A-Z0-9]{0,4})?$')"/>
+<source value="http://fhir.de/StructureDefinition/CodingICD10GM"/>
+</constraint>
 </element>
 </differential>
 </StructureDefinition>
