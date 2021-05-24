@@ -3,7 +3,7 @@
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
     </meta>
-    <url value="http://fhir.de/CodeSystem/edqm/dose-form"/>
+    <url value="http://standardterms.edqm.eu"/>
     <identifier>
         <use value="official"/>
         <system value="http://art-decor.org/ns/oids/vs"/>
