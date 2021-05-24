@@ -23,10 +23,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Identifier" />
   <derivation value="constraint" />
   <differential>
-    <element id="Identifier.use">
-      <path value="Identifier.use" />
-      <fixedCode value="usual" />
-    </element>
     <element id="Identifier.type">
       <path value="Identifier.type" />
       <min value="1" />
