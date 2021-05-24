@@ -43,6 +43,6 @@ jobs:
         with:
           PATH_TO_CONFORMANCE_RESOURCES: extensions ressourcen-profile terminologie datentypen-profile
           PATH_TO_EXAMPLES: beispiele
-          DOTNET_VALIDATION_ENABLED: false
+          DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
           OUTPUT_FORMAT: RAW
