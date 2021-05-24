@@ -58,7 +58,7 @@
 		<code value="S" />
 		<designation>
 			<language value="de-DE" />
-			<value value="nie verheiratet" />
+			<value value="ledig" />
 		</designation>
 	</concept>
 	<concept>
@@ -72,7 +72,7 @@
 		<code value="U" />
 		<designation>
 			<language value="de-DE" />
-			<value value="Ledig" />
+			<value value="unverheiratet" />
 		</designation>
 	</concept>
 
