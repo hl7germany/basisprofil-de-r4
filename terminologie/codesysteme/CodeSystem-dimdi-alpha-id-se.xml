@@ -4,7 +4,7 @@
 	<identifier>
 		<value value="1.2.276.0.76.5.480"/>
 	</identifier>
-	<name value="alpha-id-se"/>
+	<name value="AlphaIdSe"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<date value="2021-02-17"/>
