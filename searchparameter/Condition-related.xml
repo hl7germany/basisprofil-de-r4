@@ -1,15 +1,16 @@
-<SearchParameter>
-        <id value="Condition-related"/>
-        <url value="http://fhir.de/SearchParameter/Condition-related"/>
-        <version value="4.0.1"/>
-        <name value="related"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-05-20"/>
-        <description value="Bezug zur Primärdiagnose (z.B. bei Mehrfachkodierung)"/>
-        <code value="related"/>
-        <base value="Condition"/>
-        <type value="reference"/>
-        <expression value="Condition.extension('http://hl7.org/fhir/StructureDefinition/condition-related').value"/>
-        <target value="Condition"/>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Condition-related"/>
+  <url value="http://fhir.de/SearchParameter/Condition-related"/>
+  <version value="4.0.1"/>
+  <name value="related"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-20"/>
+  <description value="Bezug zur Primärdiagnose (z.B. bei Mehrfachkodierung)"/>
+  <code value="related"/>
+  <base value="Condition"/>
+  <type value="reference"/>
+  <expression
+    value="Condition.extension('http://hl7.org/fhir/StructureDefinition/condition-related').value"/>
+  <target value="Condition"/>
 </SearchParameter>
