@@ -33,7 +33,6 @@
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für ASK" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/ask" />
     </element>
     <element id="Coding.code">
       <path value="Coding.code" />
