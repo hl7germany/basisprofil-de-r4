@@ -30,7 +30,7 @@
 		<code value="MR" />
 		<designation>
 			<language value="de-DE" />
-			<value value="Patientennummer?" />
+			<value value="Einrichtungsinterne Patienten(-Akten-)Nummer" />
 		</designation>
 	</concept>
 	<concept>
