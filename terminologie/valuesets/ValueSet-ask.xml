@@ -17,7 +17,7 @@
     </telecom>
   </contact>
   <description value="Arzneimittel-Stoffkatalog (ASK) Nummern" />
-  <copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information" />
+  <copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte" />
   <compose>
     <include>
       <system value="http://fhir.de/CodeSystem/ask" />

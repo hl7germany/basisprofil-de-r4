@@ -27,7 +27,7 @@
       <path value="Coding.system" />
       <short value="Canonische CodeSystem URL für Alpha-ID" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/dimdi/alpha-id" />
+      <fixedUri value="http://fhir.de/CodeSystem/bfarm/alpha-id" />
     </element>
     <element id="Coding.version">
       <path value="Coding.version" />

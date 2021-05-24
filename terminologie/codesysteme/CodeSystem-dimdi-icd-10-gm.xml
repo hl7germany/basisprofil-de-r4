@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="icd-10-gm" />
-  <url value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
+  <url value="http://fhir.de/CodeSystem/bfarm/icd-10-gm" />
   <name value="Icd-10-gm" />
 	<status value="active"/>
 	<experimental value="false"/>
@@ -13,7 +13,7 @@
 		</telecom>
 	</contact>
   <description value="ICD-10-GM Platzhalter-CodeSystem" />
-  <copyright value="DIMDI - Deutsches Institut für Medizinische Dokumentation und Information" />
+  <copyright value="BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte" />
   <caseSensitive value="true" />
   <content value="not-present" />
 </CodeSystem>

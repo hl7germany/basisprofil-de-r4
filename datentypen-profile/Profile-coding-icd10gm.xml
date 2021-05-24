@@ -66,7 +66,7 @@
 <path value="Coding.system"/>
 <short value="Canonische CodeSystem URL für ICD-10-GM"/>
 <min value="1"/>
-<fixedUri value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+<fixedUri value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
 </element>
  <element id="Coding.version">
 <path value="Coding.version"/>

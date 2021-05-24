@@ -20,7 +20,7 @@
 	<copyright value="HL7 Deutschland e.V." />
 	<compose>
 		<include>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<filter>
 				<property value="parent"/>
 				<op value="="/>
@@ -33,32 +33,32 @@
 		<timestamp value="2019-07-06" />
 		<total value="6" />
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.6" />
 			<display value="Pflegebedürftig nach Pflegegrad 1" />
 		</contains>
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.7" />
 			<display value="Pflegebedürftig nach Pflegegrad 2" />
 		</contains>
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.8" />
 			<display value="Pflegebedürftig nach Pflegegrad 3" />
 		</contains>
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.9" />
 			<display value="Pflegebedürftig nach Pflegegrad 4" />
 		</contains>
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.a" />
 			<display value="Pflegebedürftig nach Pflegegrad 5" />
 		</contains>
 		<contains>
-			<system value="http://fhir.de/CodeSystem/dimdi/ops" />
+			<system value="http://fhir.de/CodeSystem/bfarm/ops" />
 			<code value="9-984.b" />
 			<display value="Erfolgter Antrag auf Einstufung in einen Pflegegrad" />
 		</contains>
