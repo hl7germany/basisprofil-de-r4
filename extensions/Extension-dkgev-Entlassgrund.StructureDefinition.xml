@@ -36,10 +36,6 @@
       <path value="Extension.extension" />
       <sliceName value="ErsteUndZweiteStelle" />
       <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle" />
-      </binding>
     </element>
     <element id="Extension.extension:ErsteUndZweiteStelle.url">
       <path value="Extension.extension.url" />
@@ -50,15 +46,15 @@
       <type>
         <code value="Coding" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle" />
+      </binding>
     </element>
     <element id="Extension.extension:DritteStelle">
       <path value="Extension.extension" />
       <sliceName value="DritteStelle" />
       <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle" />
-      </binding>
     </element>
     <element id="Extension.extension:DritteStelle.url">
       <path value="Extension.extension.url" />
