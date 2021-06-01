@@ -36,10 +36,6 @@
       <path value="Extension.extension" />
       <sliceName value="ErsteUndZweiteStelle" />
       <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle" />
-      </binding>
     </element>
     <element id="Extension.extension:ErsteUndZweiteStelle.url">
       <path value="Extension.extension.url" />
@@ -50,15 +46,15 @@
       <type>
         <code value="Coding" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle" />
+      </binding>
     </element>
     <element id="Extension.extension:DritteStelle">
       <path value="Extension.extension" />
       <sliceName value="DritteStelle" />
       <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle" />
-      </binding>
     </element>
     <element id="Extension.extension:DritteStelle.url">
       <path value="Extension.extension.url" />
@@ -69,15 +65,15 @@
       <type>
         <code value="Coding" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle" />
+      </binding>
     </element>
     <element id="Extension.extension:VierteStelle">
       <path value="Extension.extension" />
       <sliceName value="VierteStelle" />
       <max value="1" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle" />
-      </binding>
     </element>
     <element id="Extension.extension:VierteStelle.url">
       <path value="Extension.extension.url" />
@@ -88,6 +84,10 @@
       <type>
         <code value="Coding" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle" />
+      </binding>
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
