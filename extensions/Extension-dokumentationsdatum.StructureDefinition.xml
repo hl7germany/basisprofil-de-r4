@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Prozedur_Dokumentationsdatum"/>
-  <url value="http://fhir.de/StructureDefinition/Prozedur_Dokumentationsdatum" />
+  <url value="http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum" />
   <version value="1.0" />
-  <name value="Prozedur_Dokumentationsdatum" />
+  <name value="ExtensionProzedurDokumentationsdatum" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -28,7 +28,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://gematik.de/fhir/StructureDefinition/Prozedur_Dokumentationsdatum" />
+      <fixedUri value="http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
