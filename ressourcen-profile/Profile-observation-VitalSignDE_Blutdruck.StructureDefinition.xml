@@ -93,11 +93,12 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="1" />
+      <min value="2" />
     </element>
     <element id="Observation.component:SystolicBP">
       <path value="Observation.component" />
       <sliceName value="SystolicBP" />
+      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.component:SystolicBP.code">
@@ -147,6 +148,7 @@
     <element id="Observation.component:DiastolicBP">
       <path value="Observation.component" />
       <sliceName value="DiastolicBP" />
+      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.component:DiastolicBP.code">
