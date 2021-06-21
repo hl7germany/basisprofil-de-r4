@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-de-vitalsign-blutdruck" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck" />
-  <version value="1.0.0-alpha1" />
+  <version value="1.0.0" />
   <name value="VitalSignDE_Blutdruck" />
   <status value="active" />
   <date value="2020-05-14" />
@@ -93,12 +93,11 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="2" />
+      <min value="1" />
     </element>
     <element id="Observation.component:SystolicBP">
       <path value="Observation.component" />
       <sliceName value="SystolicBP" />
-      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.component:SystolicBP.code">
@@ -148,7 +147,6 @@
     <element id="Observation.component:DiastolicBP">
       <path value="Observation.component" />
       <sliceName value="DiastolicBP" />
-      <min value="1" />
       <max value="1" />
     </element>
     <element id="Observation.component:DiastolicBP.code">

@@ -5,7 +5,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
     <url value="http://fhir.de/ValueSet/UcumVitalsCommonDE" />
-    <version value="1.0.0-alpha1" />
+    <version value="1.0.0" />
     <name value="UCUM_Vitals_Common_DE" />
     <title value="UCUM Vitals Common DE" />
     <status value="active" />

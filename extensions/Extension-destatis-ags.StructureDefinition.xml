@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="ags" />
   <url value="http://fhir.de/StructureDefinition/destatis/ags" />
-  <version value="1.0.0-alpha1" />
+  <version value="1.0.0" />
   <name value="ExtensionDestatisAgs" />
   <status value="active" />
   <date value="2021-02-17" />
