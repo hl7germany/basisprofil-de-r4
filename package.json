@@ -1,6 +1,6 @@
 {
   "name": "de.basisprofil.r4",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0",
   "description": "Projekt Basisprofilierung R4 (HL7 Deutschland e.V.)",
   "author": "stefanlang1",
   "fhirVersions": [
