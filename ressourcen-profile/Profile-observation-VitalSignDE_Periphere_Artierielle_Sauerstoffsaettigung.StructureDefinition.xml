@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-de-vitalsign-sauerstoffsaettigung" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung" />
-  <version value="1.0.0-alpha1" />
+  <version value="1.0.0" />
   <name value="VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung" />
   <status value="active" />
   <date value="2020-05-14" />

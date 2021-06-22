@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="generation-egk" />
   <url value="http://fhir.de/StructureDefinition/gkv/generation-egk" />
-  <version value="1.0.0-alpha1" />
+  <version value="1.0.0" />
   <name value="ExtensionGkvGenerationEgk" />
   <title value="Extension zur Erfassung der Generation der eGK" />
   <status value="active" />
