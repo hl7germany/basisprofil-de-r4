@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="VitalSignDE_Body_Weight_Loinc" />
+    <id value="VitalSignDE-Body-Weight-Loinc" />
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="VitalSignDE_Body_Length_UCUM" />
+    <id value="VitalSignDE-Body-Length-UCUM" />
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
