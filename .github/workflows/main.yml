@@ -39,7 +39,7 @@ jobs:
           java-version: 1.8
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.2.0-alpha14
+        uses: FirelyTeam/firely-terminal-pipeline@v0.2.0
         with:
           PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile terminologie/codesysteme terminologie/valuesets terminologie/namingsystems terminologie/ihe terminologie/conceptmap datentypen-profile extensions
           PATH_TO_EXAMPLES: beispiele
