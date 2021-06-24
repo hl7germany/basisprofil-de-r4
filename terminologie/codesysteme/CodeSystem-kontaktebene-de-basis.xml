@@ -5,8 +5,8 @@
     <version value="1.0.0" />
     <name value="Kontaktebene" />
     <status value="active" />
-    <date value="2021-02-12" />
     <experimental value="false" />
+    <date value="2021-02-12" />
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <description value="CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung" />
     <caseSensitive value="true" />

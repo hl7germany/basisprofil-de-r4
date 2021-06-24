@@ -19,8 +19,8 @@
         </telecom>
     </contact>
     <description value="VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Messung einer Körpergröße (inkl. Größe bei der Geburt)" />
-    <copyright value="HL7 Deutschland e.V." />
     <immutable value="false" />
+    <copyright value="HL7 Deutschland e.V." />
     <compose>
         <include>
             <system value="http://loinc.org" />
