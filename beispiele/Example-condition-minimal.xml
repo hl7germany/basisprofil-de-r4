@@ -4,8 +4,8 @@
     <coding>
       <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm" />
       <version value="2019" />
-      <code value="F71" />
-      <display value="Mittelgradige Intelligenzminderung" />
+      <code value="F71.0" />
+      <display value="Mittelgradige Intelligenzminderung Keine oder geringfügige Verhaltensstörung" />
     </coding>
   </code>
   <subject>
