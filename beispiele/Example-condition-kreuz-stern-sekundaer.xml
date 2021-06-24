@@ -13,7 +13,7 @@
           <code value="*" />
         </valueCoding>
       </extension>
-      <system value="http://fhir.de/CodeSystem/bfarm/-icd-10-gm" />
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm" />
       <version value="2019" />
       <code value="H36.0" />
       <display value="Retinopathia diabetica" />
