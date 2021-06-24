@@ -134,10 +134,6 @@
                             <display value="Kinderuntersuchungsheft (gematik)"/>
                         </concept>
                         <concept>
-                            <code value="urn:gematik:ig:Zahnbonusheft:v1.0.0"/>
-                            <display value="Zahnbonusheft (gematik)"/>
-                        </concept>
-                        <concept>
                             <code value="urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:r4.0"/>
                             <display value="Arbeitsunf&#xE4;higkeitsbescheinigung (gematik)"/>
                         </concept>
@@ -156,6 +152,14 @@
                         <concept>
                             <code value="urn:gematik:ig:KinderuntersuchungsheftNotizen:v1.0.0"/>
                             <display value="Notizen Kinderuntersuchungsheft"/>
+                        </concept>
+                        <concept>
+                            <code value="urn:hl7-de:DGUV-StatEntlassbrief:2020"/>
+                            <display value="Station&#xE4;rer Entlassbrief der DGUV"/>
+                        </concept>
+                        <concept>
+                            <code value="urn:gematik:ig:Zahnbonusheft:v1.1.0"/>
+                            <display value="Zahnbonusheft (gematik)"/>
                         </concept>
                     </include>
                     <include>
