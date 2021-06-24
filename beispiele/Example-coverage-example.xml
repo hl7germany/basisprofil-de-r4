@@ -62,7 +62,7 @@
   </extension>
   <identifier>
     <system value="http://fhir.de/sid/gkv/kvid-10" />
-    <value value="123454321" />
+    <value value="A123454321" />
   </identifier>
   <status value="active" />
   <type>
