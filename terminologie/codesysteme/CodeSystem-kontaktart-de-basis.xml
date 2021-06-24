@@ -6,8 +6,8 @@
     <name value="KontaktArtDe" />
     <title value="KontaktArtDe" />
     <status value="active" />
-    <date value="2021-02-12" />
     <experimental value="false" />
+    <date value="2021-02-12" />
     <valueSet value="http://fhir.de/ValueSet/kontaktart-de" />
     <compositional value="false" />
     <content value="complete" />
