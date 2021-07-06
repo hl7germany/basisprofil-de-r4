@@ -17,7 +17,7 @@
                 <version value="2018-12-14T17:07:12"/>
                 <name value="IHEXDSformatCodeDE"/>
                 <title value="IHE XDS formatCode"/>
-                <status value="draft"/>
+                <status value="active"/>
                 <experimental value="false"/>
                 <publisher value="IHE Deutschland e.V."/>
                 <description value="**formatCode (XDSDocumentEntry)**&#10;&#13;&#10;Globally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."/>
@@ -155,7 +155,7 @@
                         </concept>
                         <concept>
                             <code value="urn:hl7-de:DGUV-StatEntlassbrief:2020"/>
-                            <display value="Station&#xE4;rer Entlassbrief der DGUV"/>
+                            <display value="DGUV Station&#xE4;rer Entlassbrief"/>
                         </concept>
                         <concept>
                             <code value="urn:gematik:ig:Zahnbonusheft:v1.1.0"/>
