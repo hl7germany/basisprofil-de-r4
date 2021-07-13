@@ -27,6 +27,10 @@
     <type value="element" />
     <expression value="Condition.code.coding" />
   </context>
+  <context>
+    <type value="element" />
+    <expression value="Procedure.code.coding" />
+  </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
