@@ -18,7 +18,7 @@
             <value value="http://hl7.de/technische-komitees/fhir/" />
         </telecom>
     </contact>
-    <description value="VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Kröpergewichtes (inkl. Gewicht bei der Geburt)" />
+    <description value="VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Körpergewichtes (inkl. Gewicht bei der Geburt)" />
     <immutable value="false" />
     <copyright value="HL7 Deutschland e.V." />
     <compose>
