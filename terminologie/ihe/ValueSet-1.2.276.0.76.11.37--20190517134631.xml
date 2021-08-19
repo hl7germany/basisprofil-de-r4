@@ -11,8 +11,8 @@
                 <url value="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode"/>
                 <identifier>
                     <use value="official"/>
-                    <system value="http://art-decor.org/ns/oids/vs"/>
-                    <value value="1.2.276.0.76.11.37"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.276.0.76.11.37"/>
                 </identifier>
                 <version value="2019-05-17T13:46:31"/>
                 <name value="IHEXDSpracticeSettingCode"/>

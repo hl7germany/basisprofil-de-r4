@@ -11,8 +11,8 @@
                 <url value="http://ihe-d.de/ValueSets/IHEXDSeventCodeList"/>
                 <identifier>
                     <use value="official"/>
-                    <system value="http://art-decor.org/ns/oids/vs"/>
-                    <value value="1.2.276.0.76.11.34"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.276.0.76.11.34"/>
                 </identifier>
                 <version value="2018-07-13T13:28:43"/>
                 <name value="IHEXDSeventCodeList"/>
