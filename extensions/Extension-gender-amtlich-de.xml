@@ -3,7 +3,7 @@
   <id value="gender-amtlich-de" />
   <url value="http://fhir.de/StructureDefinition/gender-amtlich-de" />
   <version value="1.0.0" />
-  <name value="GenderAmtlichDE" />
+  <name value="GenderOtherDE" />
   <title value="Differenzierung des administrativen Geschlechts 'other'" />
   <status value="active" />
   <date value="2021-02-17" />
@@ -61,7 +61,7 @@
       </constraint>
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/gender-amtlich-de" />
+        <valueSet value="http://fhir.de/ValueSet/gender-other-de" />
       </binding>
     </element>
   </differential>
