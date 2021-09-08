@@ -132,7 +132,7 @@
         <label value="Beipiel für Adresszeile mit Extensions für Straße und Hausnummer" />
         <valueString value="Musterweg 42">
           <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
-            <valueString value="Musterweg 42" />
+            <valueString value="Musterweg" />
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
             <valueString value="42" />
