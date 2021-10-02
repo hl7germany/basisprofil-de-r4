@@ -144,5 +144,9 @@
 		<display value="Rehabilitations-Einrichtungen" />
 		<definition value="stationäre Aufnahme in Rehabilitations-Einrichtungen"/>
 	</concept>
-
+	<concept>
+		<code value="PSY" />
+		<display value="Psychiatrie und Psychosomatik leistungsorientierte, pauschalierte Entgelte" />
+		<definition value="Entgelt nach BPflV für psychiatrische Einrichtungen und psychosomatische Einrichtungen gem. § 17d Abs. 1 KHG (BPflV-Entgeltbereich)"/>
+	</concept>
 </CodeSystem>
