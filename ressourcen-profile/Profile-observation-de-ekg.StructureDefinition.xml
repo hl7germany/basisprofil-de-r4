@@ -61,6 +61,7 @@
     </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
+      <min value="1" />
       <patternCoding>
         <system value="http://loinc.org" />
         <code value="LP6244-0" />
