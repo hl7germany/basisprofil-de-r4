@@ -41,7 +41,7 @@
     </concept>
     <concept>
         <code value="0500" />
-        <display value="Hamatologie und internistische Onkologie" />
+        <display value="Hämatologie und internistische Onkologie" />
     </concept>
     <concept>
         <code value="0600" />
@@ -61,7 +61,7 @@
     </concept>
     <concept>
         <code value="1000" />
-        <display value="Padiatrie" />
+        <display value="Pädiatrie" />
     </concept>
     <concept>
         <code value="1100" />
@@ -113,7 +113,7 @@
     </concept>
     <concept>
         <code value="2300" />
-        <display value="Orthopadie" />
+        <display value="Orthopädie" />
     </concept>
     <concept>
         <code value="2400" />
@@ -169,7 +169,7 @@
     </concept>
     <concept>
         <code value="2316" />
-        <display value="Orthopadie und Unfallchirurgie" />
+        <display value="Orthopädie und Unfallchirurgie" />
     </concept>
     <concept>
         <code value="2425" />
