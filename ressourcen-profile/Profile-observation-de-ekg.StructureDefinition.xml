@@ -9,7 +9,7 @@
   </extension>
   <url value="http://fhir.de/StructureDefinition/observation-de-ekg" />
   <version value="1.0.0" />
-  <name value="DEEkg" />
+  <name value="EkgDE" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
