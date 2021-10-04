@@ -48,26 +48,23 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.category:vs-cat">
+    <element id="Observation.category">
       <path value="Observation.category" />
-      <sliceName value="vs-cat" />
       <min value="1" />
     </element>
-    <element id="Observation.category:vs-cat.coding.system">
-      <path value="Observation.category.coding.system" />
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
+    <element id="Observation.category.coding">
+      <path value="Observation.category.coding" />
+      <patternCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+        <code value="procedure" />
+      </patternCoding>
     </element>
-    <element id="Observation.category:vs-cat.coding.code">
-      <path value="Observation.category.coding.code" />
-      <fixedCode value="procedure" />
-    </element>
-    <element id="Observation.code.coding.system">
-      <path value="Observation.code.coding.system" />
-      <fixedUri value="http://snomed.info/sct" />
-    </element>
-    <element id="Observation.code.coding.code">
-      <path value="Observation.code.coding.code" />
-      <fixedCode value="257467001" />
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <patternCoding>
+        <system value="http://loinc.org" />
+        <code value="LP6244-0" />
+      </patternCoding>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
