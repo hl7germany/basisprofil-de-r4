@@ -85,43 +85,30 @@
     </element>
     <element id="Observation.component">
       <path value="Observation.component" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="code" />
-        </discriminator>
-        <description value="Slice based on the component.code pattern" />
-        <rules value="open" />
-      </slicing>
       <min value="1" />
     </element>
-    <element id="Observation.component:Lead">
-      <path value="Observation.component" />
-      <sliceName value="Lead" />
-      <min value="1" />
-    </element>
-    <element id="Observation.component:Lead.code">
+    <element id="Observation.component.code">
       <path value="Observation.component.code" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <description value="Slice based on the component.code pattern" />
-        <rules value="open" />
-      </slicing>
       <binding>
         <strength value="extensible" />
         <description value="Codes identifying the EKG lead" />
         <valueSet value="http://fhir.de/ValueSet/EkgLeads" />
       </binding>
     </element>
-    <element id="Observation.component:Lead.value[x]">
+    <element id="Observation.component.code.coding">
+      <path value="Observation.component.code.coding" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component.value[x]">
       <path value="Observation.component.value[x]" />
       <min value="1" />
       <type>
         <code value="SampledData" />
       </type>
+    </element>
+    <element id="Observation.component.value[x].data">
+      <path value="Observation.component.value[x].data" />
+      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>
