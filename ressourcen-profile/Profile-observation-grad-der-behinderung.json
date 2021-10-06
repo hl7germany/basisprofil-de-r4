@@ -1,0 +1,129 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GradDerBehinderung",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
+  "version": "1.0.1",
+  "name": "GradDerBehinderung",
+  "status": "active",
+  "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "116149007"
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org/"
+        },
+        "minValueQuantity": {
+          "value": 10,
+          "code": "%",
+          "system": "http://unitsofmeasure.org/",
+          "unit": "%"
+        },
+        "maxValueQuantity": {
+          "value": 100,
+          "code": "%",
+          "system": "http://unitsofmeasure.org/",
+          "unit": "%"
+        },
+        "constraint": [
+          {
+            "key": "value-only-tenth",
+            "severity": "error",
+            "human": "Ergebnis muss eine durch 10 teilbare Zahl sein",
+            "xpath": "$matches('^[1-9|10][0]')",
+            "source": "http://fhir.de/StructureDefinition/GradDerBehinderung"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x].value",
+        "path": "Observation.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/CodeSystem/merkzeichen-de"
+        }
+      },
+      {
+        "id": "Observation.component.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "patternBoolean": true
+      }
+    ]
+  }
+}

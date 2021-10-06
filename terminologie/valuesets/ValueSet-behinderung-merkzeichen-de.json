@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Merkzeichen",
+  "id": "vs-merkzeichen-de",
+  "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
+  "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
+  "version": "1.0.1",
+  "url": "http://fhir.de/ValueSet/vs-merkzeichen-de",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/merkzeichen-de"
+      }
+    ]
+  }
+}
