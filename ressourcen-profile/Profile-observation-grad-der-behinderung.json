@@ -57,9 +57,41 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding.code",
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "ordered": false
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomedct",
+        "path": "Observation.code.coding",
+        "sliceName": "snomedct",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.code.coding:snomedct.system",
+        "path": "Observation.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.code.coding:snomedct.code",
         "path": "Observation.code.coding.code",
         "patternCode": "116149007"
+      },
+      {
+        "id": "Observation.code.coding:snomedct.display",
+        "path": "Observation.code.coding.display",
+        "patternString": "Disability percentage (finding)"
       },
       {
         "id": "Observation.value[x]",
@@ -91,7 +123,7 @@
             "key": "value-only-tenth",
             "severity": "error",
             "human": "Ergebnis muss eine durch 10 teilbare Zahl sein",
-            "xpath": "$matches('^[1-9|10][0]')",
+            "expression": "matches('^[1-9|10][0]$')",
             "source": "http://fhir.de/StructureDefinition/GradDerBehinderung"
           }
         ]
@@ -107,8 +139,26 @@
         "fixedString": "%"
       },
       {
-        "id": "Observation.component.code",
-        "path": "Observation.component.code",
+        "id": "Observation.component.code.coding",
+        "path": "Observation.component.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open",
+          "ordered": false
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.component.code.coding:merkzeichen-de",
+        "path": "Observation.component.code.coding",
+        "sliceName": "merkzeichen-de",
+        "min": 1,
+        "max": "1",
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/CodeSystem/merkzeichen-de"
