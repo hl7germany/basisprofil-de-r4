@@ -9,7 +9,7 @@
   "url": "http://fhir.de/ValueSet/vs-merkzeichen-de",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
   "compose": {
