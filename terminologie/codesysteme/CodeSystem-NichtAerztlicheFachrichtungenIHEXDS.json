@@ -1,0 +1,95 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "codesystem-nicht-aerztliche-fachrichtungen-ihe-xds",
+	"url": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5",
+	"identifier": [
+		{
+			"system": "urn:ietf:rfc:3986",
+			"value": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5"
+		}
+	],
+	"version": "0.1.0",
+	"name": "NichtAerztlicheFachrichtungenIHEXDS",
+	"title": "Nicht Ärztliche Fachrichtungen IHE XDS",
+	"status": "draft",
+	"experimental": true,
+	"date": "2021-10-20",
+	"publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+	"contact": [
+		{
+			"telecom": [
+				{
+					"system": "url",
+					"value": "http://hl7.de/technische-komitees/fhir/"
+				}
+			]
+		}
+	],
+	"description": "CodeSystem für nicht-ärztliche Fachrichtungen IHE XDS Practice Setting Codes",
+	"caseSensitive": true,
+	"content": "complete",
+	"concept": [
+		{
+			"code": "ERG",
+			"display": "Ergotherapie"
+		},
+		{
+			"code": "ERN",
+			"display": "Ernährung und Diätetik"
+		},
+		{
+			"code": "FOR",
+			"display": "Forschung"
+		},
+		{
+			"code": "PFL",
+			"display": "Pflege und Betreuung",
+			"concept": [
+				{
+					"code": "ALT",
+					"display": "Altenpflege"
+				},
+				{
+					"code": "KIN",
+					"display": "Kinderpflege"
+				}
+			]
+		},
+		{
+			"code": "PAT",
+			"display": "Patient außerhalb der Betreuung"
+		},
+		{
+			"code": "PHZ",
+			"display": "Pharmazeutik"
+		},
+		{
+			"code": "POD",
+			"display": "Podologie"
+		},
+		{
+			"code": "PRV",
+			"display": "Prävention"
+		},
+		{
+			"code": "SOZ",
+			"display": "Sozialwesen"
+		},
+		{
+			"code": "SPR",
+			"display": "Sprachtherapie"
+		},
+		{
+			"code": "VKO",
+			"display": "Versorgungskoordination"
+		},
+		{
+			"code": "VER",
+			"display": "Verwaltung"
+		},
+		{
+			"code": "PST",
+			"display": "Psychotherapie"
+		}
+	]
+}
