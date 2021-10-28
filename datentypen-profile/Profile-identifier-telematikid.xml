@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="identifier-telematik-id" />
+  <url value="http://fhir.de/StructureDefinition/identifier-telematik-id" />
+  <version value="1.0.0" />
+  <name value="IdentifierTelematikId" />
+  <title value="Identifier-Profil für die Telematik-ID" />
+  <status value="active" />
+  <date value="2021-10-28" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Die Telematik-ID repräsentiert als eineindeutiges Merkmal die Identität eines Teilnehmers, also eines Leistungserbringers im HBA respektive einer Organisation/Einrichtung des Gesundheitswesens in einer SMC-B." />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Identifier" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Identifier.type">
+      <path value="Identifier.type" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="PRN" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Identifier.system">
+      <path value="Identifier.system" />
+      <min value="1" />
+      <fixedUri value="https://gematik.de/fhir/sid/telematik-id" />
+    </element>
+    <element id="Identifier.value">
+      <path value="Identifier.value" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
