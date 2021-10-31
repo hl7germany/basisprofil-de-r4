@@ -5,7 +5,7 @@
                 </meta>
                 <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
                     <valuePeriod>
-                        <start value="2018-07-13T13:27:21+02:00"/>
+                        <start value="2018-07-13T13:27:21+01:00"/>
                     </valuePeriod>
                 </extension>
                 <url value="http://ihe-d.de/ValueSets/IHEXDScodeList"/>
