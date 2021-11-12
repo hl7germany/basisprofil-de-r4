@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "ISiKEkg",
+    "id": "Example-observation-ekg",
     "meta": {
       "profile": [
         "http://fhir.de/StructureDefinition/observation-de-ekg"
