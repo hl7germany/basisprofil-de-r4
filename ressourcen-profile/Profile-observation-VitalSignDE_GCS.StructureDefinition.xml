@@ -77,14 +77,10 @@
       <type>
         <code value='Quantity'/>
       </type>
-    </element>
-    <element id='Observation.value[x].system'>
-      <path value='Observation.value[x].system'/>
-      <patternUri value='http://unitsofmeasure.org'/>
-    </element>
-    <element id='Observation.value[x].code'>
-      <path value='Observation.value[x].code'/>
-      <patternCode value='{score}'/>
+      <patternQuantity>
+        <system value="http://unitsofmeasure.org" />
+        <code value="{score}" />
+      </patternQuantity>
     </element>
     <element id='Observation.component'>
       <path value='Observation.component'/>
@@ -102,14 +98,10 @@
       <type>
         <code value='Quantity'/>
       </type>
-    </element>
-    <element id='Observation.component.value[x].system'>
-      <path value='Observation.component.value[x].system'/>
-      <patternUri value='http://unitsofmeasure.org'/>
-    </element>
-    <element id='Observation.component.value[x].code'>
-      <path value='Observation.component.value[x].code'/>
-      <patternCode value='{score}'/>
+      <patternQuantity>
+        <system value="http://unitsofmeasure.org" />
+        <code value="{score}" />
+      </patternQuantity>
     </element>
     <element id='Observation.component:eye'>
       <min value='1'/>
@@ -126,12 +118,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id='Observation.component:eye.value[x]'>
-      <path value='Observation.component.value[x]'/>
-      <type>
-        <code value='Quantity'/>
-      </type>
-    </element>
     <element id='Observation.component:motor'>
       <min value='1'/>
       <path value='Observation.component'/>
@@ -147,12 +133,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id='Observation.component:motor.value[x]'>
-      <path value='Observation.component.value[x]'/>
-      <type>
-        <code value='Quantity'/>
-      </type>
-    </element>
     <element id='Observation.component:verbal'>
       <min value='1'/>
       <path value='Observation.component'/>
@@ -167,12 +147,6 @@
           <code value='9270-0'/>
         </coding>
       </patternCodeableConcept>
-    </element>
-    <element id='Observation.component:verbal.value[x]'>
-      <path value='Observation.component.value[x]'/>
-      <type>
-        <code value='Quantity'/>
-      </type>
     </element>
   </differential>
 </StructureDefinition>
