@@ -72,7 +72,7 @@
         <code value='9269-2'/>
       </patternCoding>
     </element>
-    <element id='Observation.value[x]'>
+    <element id='Observation.value[x]:valueQuantity'>
       <path value='Observation.value[x]'/>
       <type>
         <code value='Quantity'/>
@@ -93,7 +93,7 @@
       </slicing>
       <min value='3'/>
     </element>
-    <element id='Observation.component.value[x]'>
+    <element id='Observation.component.value[x]:valueQuantity'>
       <path value='Observation.component.value[x]'/>
       <type>
         <code value='Quantity'/>
