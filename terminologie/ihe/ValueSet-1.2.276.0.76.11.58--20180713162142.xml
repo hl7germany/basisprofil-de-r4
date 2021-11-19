@@ -15,7 +15,7 @@
                     <value value="urn:oid:1.2.276.0.76.11.58"/>
                 </identifier>
                 <version value="2018-07-13T16:21:42"/>
-                <name value="IHEXDShealthcareFacilityTypeCodePatientReleatedHealthcare"/>
+                <name value="IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare"/>
                 <title value="IHE XDS healthcareFacilityTypeCode Patient Related Healthcare"/>
                 <status value="active"/>
                 <experimental value="false"/>
