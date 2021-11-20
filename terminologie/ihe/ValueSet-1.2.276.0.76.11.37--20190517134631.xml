@@ -26,6 +26,8 @@
                     <include>
                         <valueSet value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559"/>
                     </include>
-                    <include canonicalUri="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeNonDoctoral"/>
+                    <include>
+                        <valueSet value="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeNonDoctoral"/>
+                    </include>
                 </compose>
             </ValueSet>
