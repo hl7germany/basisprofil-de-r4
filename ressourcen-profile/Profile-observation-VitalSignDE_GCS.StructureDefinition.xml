@@ -51,6 +51,18 @@
   <baseDefinition value='http://fhir.de/StructureDefinition/observation-de-vitalsign'/>
   <derivation value='constraint'/>
   <differential>
+    <element id="Observation.dataAbsentReason">
+      <path value="Observation.dataAbsentReason" />
+      <max value="0" />
+    </element>
+    <element id="Observation.bodySite">
+      <path value="Observation.bodySite" />
+      <max value="0" />
+    </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <max value="0" />
+    </element>
     <element id='Observation.code.coding'>
       <path value='Observation.code.coding'/>
       <slicing>
