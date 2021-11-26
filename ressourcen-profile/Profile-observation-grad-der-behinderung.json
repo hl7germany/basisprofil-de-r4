@@ -107,7 +107,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "code.coding.system"
+              "path": "code"
             }
           ],
           "ordered": false,
