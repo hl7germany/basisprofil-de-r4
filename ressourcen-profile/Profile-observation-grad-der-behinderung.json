@@ -66,8 +66,8 @@
               "path": "$this"
             }
           ],
-          "rules": "open",
-          "ordered": false
+          "ordered": false,
+          "rules": "open"
         },
         "min": 1
       },
@@ -76,48 +76,20 @@
         "path": "Observation.code.coding",
         "sliceName": "snomedct",
         "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Observation.code.coding:snomedct.system",
-        "path": "Observation.code.coding.system",
-        "fixedUri": "http://snomed.info/sct"
-      },
-      {
-        "id": "Observation.code.coding:snomedct.code",
-        "path": "Observation.code.coding.code",
-        "patternCode": "116149007"
-      },
-      {
-        "id": "Observation.code.coding:snomedct.display",
-        "path": "Observation.code.coding.display",
-        "patternString": "Disability percentage (finding)"
+        "max": "1",
+        "patternCoding": {
+          "code": "116149007",
+          "system": "http://snomed.info/sct"
+        }
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1,
         "type": [
           {
-            "code": "Quantity"
+            "code": "integer"
           }
         ],
-        "patternQuantity": {
-          "code": "%",
-          "system": "http://unitsofmeasure.org/"
-        },
-        "minValueQuantity": {
-          "value": 10,
-          "code": "%",
-          "system": "http://unitsofmeasure.org/",
-          "unit": "%"
-        },
-        "maxValueQuantity": {
-          "value": 100,
-          "code": "%",
-          "system": "http://unitsofmeasure.org/",
-          "unit": "%"
-        },
         "constraint": [
           {
             "key": "value-only-tenth",
@@ -129,49 +101,58 @@
         ]
       },
       {
-        "id": "Observation.value[x].value",
-        "path": "Observation.value[x].value",
-        "min": 1
-      },
-      {
-        "id": "Observation.value[x].unit",
-        "path": "Observation.value[x].unit",
-        "fixedString": "%"
-      },
-      {
-        "id": "Observation.component.code.coding",
-        "path": "Observation.component.code.coding",
+        "id": "Observation.component",
+        "path": "Observation.component",
         "slicing": {
           "discriminator": [
             {
               "type": "value",
-              "path": "system"
+              "path": "code.coding.system"
             }
           ],
-          "rules": "open",
-          "ordered": false
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.component.code.coding:merkzeichen-de",
-        "path": "Observation.component.code.coding",
-        "sliceName": "merkzeichen-de",
-        "min": 1,
-        "max": "1",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/CodeSystem/merkzeichen-de"
+          "ordered": false,
+          "rules": "open"
         }
       },
       {
-        "id": "Observation.component.value[x]",
+        "id": "Observation.component:merkzeichen",
+        "path": "Observation.component",
+        "sliceName": "merkzeichen",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:merkzeichen.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/merkzeichen-de"
+        }
+      },
+      {
+        "id": "Observation.component:merkzeichen.value[x]",
         "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "boolean"
           }
-        ],
+        ]
+      },
+      {
+        "id": "Observation.component:merkzeichen.valueBoolean",
+        "path": "Observation.component.valueBoolean",
+        "min": 0,
+        "max": "1",
         "patternBoolean": true
       }
     ]
