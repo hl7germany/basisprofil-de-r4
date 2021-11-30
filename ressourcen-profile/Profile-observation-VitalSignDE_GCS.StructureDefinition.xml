@@ -55,8 +55,8 @@
       <path value="Observation" />
       <constraint>
         <key value="vs-de-2" />
-        <severity value="error" />
-        <human value="Falls kein Vitalwert verf&#252;gbar ist, muss eine Grund für die Abwesendheit des Wertes angegeben werden" />
+        <severity value="warning" />
+        <human value="Falls kein Vitalwert verf&#252;gbar ist, muss eine Grund für die Abwesenheit des Wertes angegeben werden" />
         <expression value="value.exists().not() implies dataAbsentReason.exists()" />
       </constraint>
     </element>
