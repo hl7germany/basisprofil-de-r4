@@ -56,7 +56,7 @@
       <constraint>
         <key value="vs-de-2" />
         <severity value="warning" />
-        <human value="Falls kein Vitalwert verf&#252;gbar ist, muss eine Grund für die Abwesenheit des Wertes angegeben werden" />
+        <human value="Falls kein Vitalwert verf&#252;gbar ist, muss ein Grund für die Abwesenheit des Wertes angegeben werden" />
         <expression value="value.exists().not() implies dataAbsentReason.exists()" />
       </constraint>
     </element>
