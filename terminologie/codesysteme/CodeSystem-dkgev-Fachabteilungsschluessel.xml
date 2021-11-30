@@ -5,7 +5,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
     </meta>
     <url value="http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel" />
-    <version value="1.0" />
+    <version value="1.0.0" />
     <name value="CodeSystemFachabteilungsschluessel" />
     <title value="Fachabteilungsschluessel" />
 	<status value="active"/>

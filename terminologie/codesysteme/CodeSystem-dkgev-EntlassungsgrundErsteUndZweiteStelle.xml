@@ -5,7 +5,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
     </meta>
     <url value="http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle" />
-    <version value="0.9" />
+    <version value="1.0.0" />
     <name value="EntlassungsgrundErsteUndZweiteStelle" />
     <title value="EntlassungsgrundErsteUndZweiteStelle" />
 	<status value="active"/>
