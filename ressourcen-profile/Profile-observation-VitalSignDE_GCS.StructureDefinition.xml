@@ -51,15 +51,6 @@
   <baseDefinition value='http://fhir.de/StructureDefinition/observation-de-vitalsign'/>
   <derivation value='constraint'/>
   <differential>
-    <element id="Observation">
-      <path value="Observation" />
-      <constraint>
-        <key value="vs-de-2" />
-        <severity value="warning" />
-        <human value="Falls kein Vitalwert verf&#252;gbar ist, muss ein Grund für die Abwesenheit des Wertes angegeben werden" />
-        <expression value="value.exists().not() implies dataAbsentReason.exists()" />
-      </constraint>
-    </element>
     <element id="Observation.bodySite">
       <path value="Observation.bodySite" />
       <max value="0" />
