@@ -52,17 +52,29 @@
 			  "display": "Glasgow coma score motor"
 			}
 		  ]
+		},
+		"valueQuantity": {
+		  "system": "http://unitsofmeasure.org",
+		  "value": 4,
+		  "code": "{score}",
+		  "unit": "{score}"
 		}
 	  },
 	  {
 		"code": {
 		  "coding": [
 			{
-			  "code": "9270-0",
+			  "code": "9267-6",
 			  "system": "http://loinc.org",
-			  "display": "Glasgow coma score verbal"
+			  "display": "Glasgow coma score eye opening"
 			}
 		  ]
+		},
+		"valueQuantity": {
+		  "system": "http://unitsofmeasure.org",
+		  "value": 3,
+		  "code": "{score}",
+		  "unit": "{score}"
 		}
 	  }
 	],
