@@ -82,13 +82,7 @@
     </element>
     <element id='Observation.value[x]'>
       <path value='Observation.value[x]'/>
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open"/>
-      </slicing>
+      <min value="1" />
       <type>
         <code value='Quantity'/>
       </type>
@@ -97,9 +91,6 @@
       <path value='Observation.value[x]'/>
       <sliceName value='valueQuantity'/>
       <min value='1'/>
-      <type>
-        <code value='Quantity'/>
-      </type>
       <patternQuantity>
         <system value="http://unitsofmeasure.org" />
         <code value="{score}" />
@@ -118,25 +109,15 @@
     </element>
     <element id='Observation.component.value[x]'>
       <path value='Observation.component.value[x]'/>
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open"/>
-      </slicing>
+      <min value="1" />
       <type>
         <code value='Quantity'/>
       </type>
-      <min value='1'/>
     </element>
     <element id='Observation.component.value[x]:valueQuantity'>
       <path value='Observation.component.value[x]'/>
       <sliceName value='valueQuantity'/>
       <min value='1'/>
-      <type>
-        <code value='Quantity'/>
-      </type>
       <patternQuantity>
         <system value="http://unitsofmeasure.org" />
         <code value="{score}" />
