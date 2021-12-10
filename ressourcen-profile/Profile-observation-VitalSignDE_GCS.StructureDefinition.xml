@@ -51,13 +51,13 @@
   <baseDefinition value='http://fhir.de/StructureDefinition/observation-de-vitalsign'/>
   <derivation value='constraint'/>
   <differential>
-    <element id="Observation.bodySite">
-      <path value="Observation.bodySite" />
-      <max value="0" />
+    <element id='Observation.bodySite'>
+      <max value='0'/>
+      <path value='Observation.bodySite'/>
     </element>
-    <element id="Observation.specimen">
-      <path value="Observation.specimen" />
-      <max value="0" />
+    <element id='Observation.specimen'>
+      <max value='0'/>
+      <path value='Observation.specimen'/>
     </element>
     <element id='Observation.code.coding'>
       <path value='Observation.code.coding'/>
@@ -71,29 +71,25 @@
       <min value='1'/>
     </element>
     <element id='Observation.code.coding:loinc'>
-      <min value='1'/>
+      <max value='1'/>
       <path value='Observation.code.coding'/>
       <sliceName value='loinc'/>
-      <max value='1'/>
+      <min value='1'/>
       <patternCoding>
         <system value='http://loinc.org'/>
         <code value='9269-2'/>
       </patternCoding>
     </element>
     <element id='Observation.value[x]'>
+      <min value='1'/>
       <path value='Observation.value[x]'/>
-      <min value="1" />
       <type>
         <code value='Quantity'/>
       </type>
-    </element>
-    <element id='Observation.value[x]:valueQuantity'>
-      <path value='Observation.value[x]'/>
-      <sliceName value='valueQuantity'/>
-      <min value='1'/>
       <patternQuantity>
-        <system value="http://unitsofmeasure.org" />
-        <code value="{score}" />
+        <unit value='{score}'/>
+        <system value='http://unitsofmeasure.org'/>
+        <code value='1'/>
       </patternQuantity>
     </element>
     <element id='Observation.component'>
@@ -101,72 +97,68 @@
       <slicing>
         <discriminator>
           <type value='pattern'/>
-          <path value='$this'/>
+          <path value='code'/>
         </discriminator>
         <rules value='open'/>
       </slicing>
       <min value='3'/>
     </element>
     <element id='Observation.component.value[x]'>
+      <min value='1'/>
       <path value='Observation.component.value[x]'/>
-      <min value="1" />
       <type>
         <code value='Quantity'/>
       </type>
-    </element>
-    <element id='Observation.component.value[x]:valueQuantity'>
-      <path value='Observation.component.value[x]'/>
-      <sliceName value='valueQuantity'/>
-      <min value='1'/>
       <patternQuantity>
-        <system value="http://unitsofmeasure.org" />
-        <code value="{score}" />
+        <unit value='{score}'/>
+        <system value='http://unitsofmeasure.org'/>
+        <code value='1'/>
       </patternQuantity>
     </element>
     <element id='Observation.component:eye'>
-      <min value='1'/>
+      <max value='1'/>
       <path value='Observation.component'/>
       <sliceName value='eye'/>
-      <max value='1'/>
+      <min value='1'/>
     </element>
     <element id='Observation.component:eye.code'>
-      <path value='Observation.component.code'/>
       <patternCodeableConcept>
         <coding>
           <system value='http://loinc.org'/>
           <code value='9267-6'/>
         </coding>
       </patternCodeableConcept>
+      <path value='Observation.component.code'/>
     </element>
     <element id='Observation.component:motor'>
-      <min value='1'/>
+      <max value='1'/>
       <path value='Observation.component'/>
       <sliceName value='motor'/>
-      <max value='1'/>
+      <min value='1'/>
     </element>
     <element id='Observation.component:motor.code'>
-      <path value='Observation.component.code'/>
       <patternCodeableConcept>
         <coding>
           <system value='http://loinc.org'/>
           <code value='9268-4'/>
         </coding>
       </patternCodeableConcept>
+      <path value='Observation.component.code'/>
     </element>
     <element id='Observation.component:verbal'>
-      <min value='1'/>
+      <max value='1'/>
       <path value='Observation.component'/>
       <sliceName value='verbal'/>
-      <max value='1'/>
+      <min value='1'/>
     </element>
     <element id='Observation.component:verbal.code'>
-      <path value='Observation.component.code'/>
       <patternCodeableConcept>
         <coding>
           <system value='http://loinc.org'/>
           <code value='9270-0'/>
         </coding>
       </patternCodeableConcept>
+      <path value='Observation.component.code'/>
     </element>
   </differential>
 </StructureDefinition>
