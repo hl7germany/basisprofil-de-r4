@@ -39,7 +39,7 @@
 		"valueQuantity": {
 		  "system": "http://unitsofmeasure.org",
 		  "value": 4,
-		  "code": "{score}",
+		  "code": "1",
 		  "unit": "{score}"
 		}
 	  },
@@ -56,7 +56,7 @@
 		"valueQuantity": {
 		  "system": "http://unitsofmeasure.org",
 		  "value": 4,
-		  "code": "{score}",
+		  "code": "1",
 		  "unit": "{score}"
 		}
 	  },
@@ -73,7 +73,7 @@
 		"valueQuantity": {
 		  "system": "http://unitsofmeasure.org",
 		  "value": 3,
-		  "code": "{score}",
+		  "code": "1",
 		  "unit": "{score}"
 		}
 	  }
@@ -81,7 +81,7 @@
 	"valueQuantity": {
 	  "system": "http://unitsofmeasure.org",
 	  "value": 11,
-	  "code": "{score}",
+	  "code": "1",
 	  "unit": "{score}"
 	},
 	"status": "final",
