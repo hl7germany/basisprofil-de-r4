@@ -83,7 +83,6 @@
       <path value='Observation.valueQuantity'/>
       <min value='1'/>
       <patternQuantity>
-        <unit value='{score}'/>
         <system value='http://unitsofmeasure.org'/>
         <code value='1'/>
       </patternQuantity>
@@ -153,7 +152,6 @@
     <element id='Observation.component:Eye.valueQuantity'>
       <path value='Observation.component.valueQuantity'/>
       <patternQuantity>
-        <unit value='{score}'/>
         <system value='http://unitsofmeasure.org'/>
         <code value='1'/>
       </patternQuantity>
@@ -204,7 +202,6 @@
     <element id='Observation.component:Motor.valueQuantity'>
       <path value='Observation.component.valueQuantity'/>
       <patternQuantity>
-        <unit value='{score}'/>
         <system value='http://unitsofmeasure.org'/>
         <code value='1'/>
       </patternQuantity>
@@ -255,7 +252,6 @@
     <element id='Observation.component:Verbal.valueQuantity'>
       <path value='Observation.component.valueQuantity'/>
       <patternQuantity>
-        <unit value='{score}'/>
         <system value='http://unitsofmeasure.org'/>
         <code value='1'/>
       </patternQuantity>
