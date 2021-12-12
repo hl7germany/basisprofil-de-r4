@@ -40,7 +40,7 @@
 		  "system": "http://unitsofmeasure.org",
 		  "value": 4,
 		  "code": "1",
-		  "unit": "{score}"
+		  "unit": "score"
 		}
 	  },
 	  {
@@ -57,7 +57,7 @@
 		  "system": "http://unitsofmeasure.org",
 		  "value": 4,
 		  "code": "1",
-		  "unit": "{score}"
+		  "unit": "score"
 		}
 	  },
 	  {
@@ -74,7 +74,7 @@
 		  "system": "http://unitsofmeasure.org",
 		  "value": 3,
 		  "code": "1",
-		  "unit": "{score}"
+		  "unit": "score"
 		}
 	  }
 	],
@@ -82,7 +82,7 @@
 	  "system": "http://unitsofmeasure.org",
 	  "value": 11,
 	  "code": "1",
-	  "unit": "{score}"
+	  "unit": "score"
 	},
 	"status": "final",
 	"subject": {
