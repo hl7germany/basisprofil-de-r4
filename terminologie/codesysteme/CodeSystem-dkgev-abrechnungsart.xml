@@ -86,8 +86,8 @@
 	</concept>
 	<concept>
 		<code value="PS" />
-		<display value="Privatsprechstunge" />
-		<definition value="ambulante Aufnahme in Privatsprechstunge mit Privatliquidation"/>
+		<display value="Privatsprechstunde" />
+		<definition value="ambulante Aufnahme in Privatsprechstunde mit Privatliquidation"/>
 	</concept>
 	<concept>
 		<code value="SZ" />
