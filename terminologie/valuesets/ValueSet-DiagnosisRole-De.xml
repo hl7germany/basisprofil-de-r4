@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DiagnosisRoleDe"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+    </meta>
+    <url value="http://fhir.de/ValueSet/DiagnosisRoleDe" />
+    <version value="1.0.0" />
+    <name value="DiagnosisRoleDe" />
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2021-03-12"/>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
+    <description value="Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"/>
+    <copyright value="HL7 Deutschland e.V."/>
+    <compose>
+        <include>
+            <system value="http://terminology.hl7.org/CodeSystem/diagnosis-role" />
+            <version value="4.0.1" />
+            <concept>
+                <code value="AD" />
+                <display value="Admission diagnosis" />
+            </concept>
+            <concept>
+                <code value="DD" />
+                <display value="Discharge diagnosis" />
+            </concept>
+            <concept>
+                <code value="CC" />
+                <display value="Chief complaint" />
+            </concept>
+            <concept>
+                <code value="CM" />
+                <display value="Comorbidity diagnosis" />
+            </concept>
+            <concept>
+                <code value="pre-op" />
+                <display value="pre-op diagnosis" />
+            </concept>
+            <concept>
+                <code value="post-op" />
+                <display value="post-op diagnosis" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
