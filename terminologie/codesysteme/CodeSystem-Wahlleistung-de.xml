@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="wahlleistungen-de" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
+    </meta>
+    <url value="http://fhir.de/CodeSystem/wahlleistungen-de" />
+    <version value="1.0.0" />
+    <name value="CodeSystemWahlleistungen" />
+    <title value="Wahlleistungen" />
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2021-12-21"/>
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)"/>
+    <contact>
+        <telecom>
+            <system value="other"/>
+            <value value="http://hl7.de/technische-komitees/fhir/"/>
+        </telecom>
+    </contact>
+    <description value="Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen" />
+    <copyright value="HL7 Deutschland e.V." />
+    <valueSet value="http://fhir.de/ValueSet/wahlleistungen-de" />
+    <content value="complete" />
+    <count value="10" />
+    <concept>
+        <code value="einzelbettzimmer-mit-sanitaerzone" />
+        <display value="Einbettzimmer mit Sanitärzone" />
+    </concept>
+    <concept>
+        <code value="zweibettzimmer-mit-sanitaerzone" />
+        <display value="Zweibettzimmer mit Sanitärzone" />
+    </concept>
+    <concept>
+        <code value="chef-oder-wahlarztbehandlung" />
+        <display value="Persönliche Behandlung durch den Chef- bzw. Wahlarzt" />
+    </concept>
+    <concept>
+        <code value="unterkunft-und-verpflegung-begleitperson-kinder" />
+        <display value="Unterkunft und Verpflegung einer Begleitperson von Kindern ohne Anspruch auf ein eigenes Zimmer" />
+    </concept>
+    <concept>
+        <code value="unterkunft-und-verpflegung-begleitperson-kinder-ohne-med-begruedung" />
+        <display value="Unterkunft und Verpflegung einer Begleitperson ohne med. Begründung" />
+    </concept>
+    <concept>
+        <code value="multimediaangebot" />
+        <display value="Multimediaangebot" />
+    </concept>
+    <concept>
+        <code value="hygieneset" />
+        <display value="Hygieneset" />
+    </concept>
+    <concept>
+        <code value="tageszeitung" />
+        <display value="Tageszeitung" />
+    </concept>
+    <concept>
+        <code value="persoenlicher-oder-concierge-service" />
+        <display value="Persönlicher bzw. Concierge Service" />
+    </concept>
+    <concept>
+        <code value="waescheservice" />
+        <display value="Wäscheservice" />
+    </concept>
+</CodeSystem>
