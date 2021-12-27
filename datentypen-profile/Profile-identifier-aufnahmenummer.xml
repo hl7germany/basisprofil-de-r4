@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <description value="Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (&quotFallnummer&quot)" />
+  <description value="Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (&quot;Fallnummer&quot;)" />
   <copyright value="HL7 Deutschland e.V." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
