@@ -230,6 +230,12 @@
         <code value="8478-0" />
       </patternCoding>
     </element>
+    <element id="Observation.component:meanBP.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
     <element id="Observation.component:meanBP.value[x]:valueQuantity">
       <path value="Observation.component.value[x]" />
       <sliceName value="valueQuantity" />
