@@ -16,4 +16,10 @@ Usage: #definition
 * uniqueId.value = "http://fhir.de/sid/asv/teamnummer"
 * uniqueId.preferred = true
 * uniqueId.period.start = "2018-06-06"
-* uniqueId.fhir_comments = "Stand 06.06.2018: es existiert noch keine OID\n\t<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.XXX.XXX:XXX.XXX\"/>\n\t</uniqueId>"
+/*
+Stand 06.06.2018: es existiert noch keine OID
+	<uniqueId>
+		<type value="oid"/>
+		<value value="1.2.276.0.XXX.XXX:XXX.XXX"/>
+	</uniqueId>
+*/
