@@ -20,5 +20,8 @@
   "subject": {
     "reference": "Patient/Example-patient-de-basis-address-1"
   },
-  "occurrenceDateTime": "2017-11-07"
+  "occurrenceDateTime": "2017-11-07",
+  "quantity": {
+    "value": 1
+  }
 }
