@@ -18,7 +18,10 @@ Description: "Personenname mit in Deutschland üblichen Erweiterungen"
   * extension ^slicing.discriminator.type = #value
     * ^slicing.discriminator.path = "url"
     * ^slicing.rules = #open
-  * extension contains HumannameNamenszusatz named namenszusatz 0..1
+  * extension contains 
+    HumannameNamenszusatz named namenszusatz 0..1 and
+    $humanname-own-name named nachname 0..1 and
+    $humanname-own-prefix named vorsatzwort 0..1
   * extension[nachname] only $humanname-own-name
     * ^sliceName = "nachname"
     * ^short = "Nachname ohne Vor- und Zusätze"
