@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "not-present",
+  "name": "Ask",
+  "id": "ask",
+  "description": "Arzneimittel-Stoffkatalog (ASK) Platzhalter-CodeSystem",
+  "version": "1.0.0",
+  "url": "http://fhir.de/CodeSystem/ask",
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "caseSensitive": true
+}

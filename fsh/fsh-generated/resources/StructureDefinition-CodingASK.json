@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CodingASK",
+  "url": "http://fhir.de/StructureDefinition/CodingASK",
+  "version": "1.0.0",
+  "name": "CodingASK",
+  "title": "Coding-Profil für ASK",
+  "status": "active",
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "name": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+      "telecom": [
+        {
+          "system": "url"
+        }
+      ]
+    }
+  ],
+  "description": "Abbildung der Mindestanforderungen einer ASK-Codierung",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "orim",
+      "uri": "http://hl7.org/orim",
+      "name": "Ontological RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Coding",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coding",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coding.system",
+        "path": "Coding.system",
+        "short": "Canonische CodeSystem URL für ASK",
+        "min": 1,
+        "fixedUri": "http://fhir.de/CodeSystem/ask"
+      },
+      {
+        "id": "Coding.code",
+        "path": "Coding.code",
+        "short": "Der PZN-Code",
+        "min": 1
+      }
+    ]
+  }
+}

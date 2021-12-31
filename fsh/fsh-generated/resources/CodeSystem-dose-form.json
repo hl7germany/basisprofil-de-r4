@@ -1,0 +1,4410 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "EDQMDoseForm",
+  "id": "dose-form",
+  "title": "EDQMDoseForm",
+  "description": "EDQMDoseForm",
+  "version": "1.0.0",
+  "url": "http://standardterms.edqm.eu",
+  "concept": [
+    {
+      "code": "10101000",
+      "display": "Oral drops, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zum Einnehmen, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10102000",
+      "display": "Oral drops, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zum Einnehmen, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10103000",
+      "display": "Oral drops, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zum Einnehmen, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10104000",
+      "display": "Oral liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10105000",
+      "display": "Oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10106000",
+      "display": "Oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10107000",
+      "display": "Oral emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10108000",
+      "display": "Oral gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10109000",
+      "display": "Oral paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Paste zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10110000",
+      "display": "Powder for oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10111000",
+      "display": "Powder for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10112000",
+      "display": "Granules for oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat zur Herstellung einer Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10113000",
+      "display": "Granules for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10114000",
+      "display": "Powder and solvent for oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10115000",
+      "display": "Powder and solvent for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10116000",
+      "display": "Lyophilisate for suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat zur Herstellung einer Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10117000",
+      "display": "Syrup",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sirup"
+        }
+      ]
+    },
+    {
+      "code": "10118000",
+      "display": "Powder for syrup",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung eines Sirups"
+        }
+      ]
+    },
+    {
+      "code": "10119000",
+      "display": "Granules for syrup",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat zur Herstellung eines Sirups"
+        }
+      ]
+    },
+    {
+      "code": "10120000",
+      "display": "Soluble tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10121000",
+      "display": "Dispersible tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10122000",
+      "display": "Herbal tea",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Arzneitee"
+        }
+      ]
+    },
+    {
+      "code": "10201000",
+      "display": "Oral powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10202000",
+      "display": "Instant herbal tea",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Teeaufgusspulver"
+        }
+      ]
+    },
+    {
+      "code": "10203000",
+      "display": "Effervescent powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Brausepulver"
+        }
+      ]
+    },
+    {
+      "code": "10204000",
+      "display": "Granules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat"
+        }
+      ]
+    },
+    {
+      "code": "10205000",
+      "display": "Effervescent granules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Brausegranulat"
+        }
+      ]
+    },
+    {
+      "code": "10206000",
+      "display": "Gastro-resistant granules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistentes Granulat"
+        }
+      ]
+    },
+    {
+      "code": "10207000",
+      "display": "Prolonged-release granules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Retardgranulat"
+        }
+      ]
+    },
+    {
+      "code": "10208000",
+      "display": "Modified-release granules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat mit veränderter Wirkstofffreisetzung"
+        }
+      ]
+    },
+    {
+      "code": "10209000",
+      "display": "Cachet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Oblatenkapsel"
+        }
+      ]
+    },
+    {
+      "code": "10210000",
+      "display": "Capsule, hard",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hartkapsel"
+        }
+      ]
+    },
+    {
+      "code": "10211000",
+      "display": "Capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Weichkapsel"
+        }
+      ]
+    },
+    {
+      "code": "10212000",
+      "display": "Gastro-resistant capsule, hard",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistente Hartkapsel"
+        }
+      ]
+    },
+    {
+      "code": "10213000",
+      "display": "Gastro-resistant capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistente Weichkapsel"
+        }
+      ]
+    },
+    {
+      "code": "10214000",
+      "display": "Chewable capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Weichkapsel zum Zerbeißen"
+        }
+      ]
+    },
+    {
+      "code": "10215000",
+      "display": "Prolonged-release capsule, hard",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hartkapsel, retardiert"
+        }
+      ]
+    },
+    {
+      "code": "10216000",
+      "display": "Prolonged-release capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Weichkapsel, retardiert"
+        }
+      ]
+    },
+    {
+      "code": "10217000",
+      "display": "Modified-release capsule, hard",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hartkapsel mit veränderter Wirkstofffreisetzung"
+        }
+      ]
+    },
+    {
+      "code": "10218000",
+      "display": "Modified-release capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Weichkapsel mit veränderter Wirkstofffreisetzung"
+        }
+      ]
+    },
+    {
+      "code": "10219000",
+      "display": "Tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette"
+        }
+      ]
+    },
+    {
+      "code": "10220000",
+      "display": "Coated tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "überzogene Tablette"
+        }
+      ]
+    },
+    {
+      "code": "10221000",
+      "display": "Film-coated tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Filmtablette"
+        }
+      ]
+    },
+    {
+      "code": "10222000",
+      "display": "Effervescent tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Brausetablette"
+        }
+      ]
+    },
+    {
+      "code": "10223000",
+      "display": "Orodispersible tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schmelztablette"
+        }
+      ]
+    },
+    {
+      "code": "10224000",
+      "display": "Oral lyophilisate",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "10225000",
+      "display": "Gastro-resistant tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistente Tablette"
+        }
+      ]
+    },
+    {
+      "code": "10226000",
+      "display": "Prolonged-release tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Retardtablette"
+        }
+      ]
+    },
+    {
+      "code": "10227000",
+      "display": "Modified-release tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette mit veränderter Wirkstofffreisetzung"
+        }
+      ]
+    },
+    {
+      "code": "10228000",
+      "display": "Chewable tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kautablette"
+        }
+      ]
+    },
+    {
+      "code": "10229000",
+      "display": "Medicated chewing-gum",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "wirkstoffhaltiges Kaugummi"
+        }
+      ]
+    },
+    {
+      "code": "10230000",
+      "display": "Oral gum",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lutschpastille"
+        }
+      ]
+    },
+    {
+      "code": "10231000",
+      "display": "Pillules",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Streukügelchen"
+        }
+      ]
+    },
+    {
+      "code": "10236100",
+      "display": "Orodispersible film",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schmelzfilm"
+        }
+      ]
+    },
+    {
+      "code": "10301000",
+      "display": "Gargle",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gurgellösung"
+        }
+      ]
+    },
+    {
+      "code": "10302000",
+      "display": "Concentrate for gargle",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Gurgellösung"
+        }
+      ]
+    },
+    {
+      "code": "10303000",
+      "display": "Gargle, powder for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Gurgellösung"
+        }
+      ]
+    },
+    {
+      "code": "10304000",
+      "display": "Gargle, tablet for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Gurgellösung"
+        }
+      ]
+    },
+    {
+      "code": "10305000",
+      "display": "Oromucosal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10306000",
+      "display": "Oromucosal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10307000",
+      "display": "Oromucosal drops",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10308000",
+      "display": "Oromucosal spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10309000",
+      "display": "Sublingual spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sublingualspray"
+        }
+      ]
+    },
+    {
+      "code": "10310000",
+      "display": "Mouthwash",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Mundwasser"
+        }
+      ]
+    },
+    {
+      "code": "10311000",
+      "display": "Mouthwash, tablet for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung eines Mundwassers"
+        }
+      ]
+    },
+    {
+      "code": "10312000",
+      "display": "Gingival solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Anwendung am Zahnfleisch"
+        }
+      ]
+    },
+    {
+      "code": "10313000",
+      "display": "Oromucosal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10314000",
+      "display": "Oromucosal paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Paste zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10314005",
+      "display": "Oromucosal ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Salbe zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10314010",
+      "display": "Oromucosal cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Creme zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10314011",
+      "display": "Buccal film",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Buccalfilm"
+        }
+      ]
+    },
+    {
+      "code": "10315000",
+      "display": "Gingival gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur Anwendung am Zahnfleisch"
+        }
+      ]
+    },
+    {
+      "code": "10316000",
+      "display": "Gingival paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Paste zur Anwendung am Zahnfleisch"
+        }
+      ]
+    },
+    {
+      "code": "10317000",
+      "display": "Oromucosal capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kapsel zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "10318000",
+      "display": "Sublingual tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sublingualtablette"
+        }
+      ]
+    },
+    {
+      "code": "10319000",
+      "display": "Muco-adhesive buccal tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "mucoadhäsive Buccaltablette"
+        }
+      ]
+    },
+    {
+      "code": "10320000",
+      "display": "Buccal tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Buccaltablette"
+        }
+      ]
+    },
+    {
+      "code": "10321000",
+      "display": "Lozenge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lutschtablette"
+        }
+      ]
+    },
+    {
+      "code": "10322000",
+      "display": "Compressed lozenge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lutschtablette, gepresst"
+        }
+      ]
+    },
+    {
+      "code": "10323000",
+      "display": "Pastille",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pastille"
+        }
+      ]
+    },
+    {
+      "code": "10401000",
+      "display": "Periodontal powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur periodontalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "10402000",
+      "display": "Dental gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalgel"
+        }
+      ]
+    },
+    {
+      "code": "10403000",
+      "display": "Dental stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalstift"
+        }
+      ]
+    },
+    {
+      "code": "10404000",
+      "display": "Dental insert",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Insert für Parodontaltaschen"
+        }
+      ]
+    },
+    {
+      "code": "10405000",
+      "display": "Dental powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalpulver"
+        }
+      ]
+    },
+    {
+      "code": "10406000",
+      "display": "Dental solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentallösung"
+        }
+      ]
+    },
+    {
+      "code": "10407000",
+      "display": "Dental suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "10408000",
+      "display": "Dental emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalemulsion"
+        }
+      ]
+    },
+    {
+      "code": "10409000",
+      "display": "Toothpaste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Zahnpaste"
+        }
+      ]
+    },
+    {
+      "code": "10410000",
+      "display": "Periodontal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur periodontalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "10411000",
+      "display": "Periodontal insert",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Insert zur periodontalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "10501000",
+      "display": "Bath additive",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Badezusatz"
+        }
+      ]
+    },
+    {
+      "code": "10502000",
+      "display": "Cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Creme"
+        }
+      ]
+    },
+    {
+      "code": "10503000",
+      "display": "Gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel"
+        }
+      ]
+    },
+    {
+      "code": "10504000",
+      "display": "Ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Salbe"
+        }
+      ]
+    },
+    {
+      "code": "10505000",
+      "display": "Cutaneous paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Paste zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10506000",
+      "display": "Medicated plaster",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "wirkstoffhaltiges Pflaster"
+        }
+      ]
+    },
+    {
+      "code": "10507000",
+      "display": "Cutaneous foam",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schaum zur  Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10508000",
+      "display": "Shampoo",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Shampoo"
+        }
+      ]
+    },
+    {
+      "code": "10509000",
+      "display": "Cutaneous spray, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung auf der Haut, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10510000",
+      "display": "Cutaneous spray, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung auf der Haut, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10511000",
+      "display": "Cutaneous spray, powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver-Spray zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10512000",
+      "display": "Cutaneous liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10513000",
+      "display": "Cutaneous solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10514000",
+      "display": "Concentrate for cutaneous solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Lösung zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10515000",
+      "display": "Cutaneous suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10516000",
+      "display": "Cutaneous emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10517000",
+      "display": "Cutaneous powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10517500",
+      "display": "Cutaneous patch",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kutanes Pflaster"
+        }
+      ]
+    },
+    {
+      "code": "10518000",
+      "display": "Solution for iontophoresis",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Iontophorese"
+        }
+      ]
+    },
+    {
+      "code": "10519000",
+      "display": "Transdermal patch",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "transdermales Pflaster"
+        }
+      ]
+    },
+    {
+      "code": "10520000",
+      "display": "Collodion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "filmbildende Flüssigkeit"
+        }
+      ]
+    },
+    {
+      "code": "10521000",
+      "display": "Medicated nail lacquer",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "wirkstoffhaltiger Nagellack"
+        }
+      ]
+    },
+    {
+      "code": "10521500",
+      "display": "Nail solution"
+    },
+    {
+      "code": "10522000",
+      "display": "Poultice",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Umschlagpaste"
+        }
+      ]
+    },
+    {
+      "code": "10523000",
+      "display": "Cutaneous stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Stift zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10524000",
+      "display": "Cutaneous sponge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schwämmchen zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "10525000",
+      "display": "Impregnated dressing",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "imprägnierter Verband"
+        }
+      ]
+    },
+    {
+      "code": "10539500",
+      "display": "Scrub"
+    },
+    {
+      "code": "10546500",
+      "display": "Transdermal spray, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "transdermales Spray, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10547000",
+      "display": "Transdermal system",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "transdermales System"
+        }
+      ]
+    },
+    {
+      "code": "10548000",
+      "display": "Solution for skin-prick test",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pricktestlösung"
+        }
+      ]
+    },
+    {
+      "code": "10549000",
+      "display": "Solution for skin-scratch test",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Scratchtestlösung"
+        }
+      ]
+    },
+    {
+      "code": "10550000",
+      "display": "Plaster for provocation test",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pflaster für Provokationstest"
+        }
+      ]
+    },
+    {
+      "code": "10601000",
+      "display": "Eye cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augencreme"
+        }
+      ]
+    },
+    {
+      "code": "10602000",
+      "display": "Eye gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augengel"
+        }
+      ]
+    },
+    {
+      "code": "10603000",
+      "display": "Eye ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augensalbe"
+        }
+      ]
+    },
+    {
+      "code": "10604000",
+      "display": "Eye drops, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfen, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10604500",
+      "display": "Eye drops, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfen, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10605000",
+      "display": "Eye drops, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfensuspension"
+        }
+      ]
+    },
+    {
+      "code": "10606000",
+      "display": "Eye drops, powder and solvent for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung von Augentropfen"
+        }
+      ]
+    },
+    {
+      "code": "10607000",
+      "display": "Eye drops, powder and solvent for suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Augentropfensuspension"
+        }
+      ]
+    },
+    {
+      "code": "10608000",
+      "display": "Eye drops, solvent for reconstitution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösungsmittel zur Herstellung von Augentropfen"
+        }
+      ]
+    },
+    {
+      "code": "10609000",
+      "display": "Eye drops, prolonged-release",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfen mit verlängerter Wirkungsdauer"
+        }
+      ]
+    },
+    {
+      "code": "10610000",
+      "display": "Eye lotion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augenbad"
+        }
+      ]
+    },
+    {
+      "code": "10611000",
+      "display": "Eye lotion, solvent for reconstitution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösungsmittel zur Herstellung eines Augenbades"
+        }
+      ]
+    },
+    {
+      "code": "10612000",
+      "display": "Ophthalmic insert",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augeninsert"
+        }
+      ]
+    },
+    {
+      "code": "10613000",
+      "display": "Ophthalmic strip",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Teststreifen zur Anwendung am Auge"
+        }
+      ]
+    },
+    {
+      "code": "10701000",
+      "display": "Ear cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrencreme"
+        }
+      ]
+    },
+    {
+      "code": "10702000",
+      "display": "Ear gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrengel"
+        }
+      ]
+    },
+    {
+      "code": "10703000",
+      "display": "Ear ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrensalbe"
+        }
+      ]
+    },
+    {
+      "code": "10704000",
+      "display": "Ear drops, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrentropfen, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10705000",
+      "display": "Ear drops, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrentropfen, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10706000",
+      "display": "Ear drops, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrentropfen, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10707000",
+      "display": "Ear drops, powder and solvent for suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Ohrentropfensuspension"
+        }
+      ]
+    },
+    {
+      "code": "10708000",
+      "display": "Ear powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenpulver"
+        }
+      ]
+    },
+    {
+      "code": "10709000",
+      "display": "Ear spray, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspray, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10710000",
+      "display": "Ear spray, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspray, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10711000",
+      "display": "Ear spray, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspray, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10712000",
+      "display": "Ear wash, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspüllösung"
+        }
+      ]
+    },
+    {
+      "code": "10713000",
+      "display": "Ear wash, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspülung, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10714000",
+      "display": "Ear tampon",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrentampon"
+        }
+      ]
+    },
+    {
+      "code": "10715000",
+      "display": "Ear stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenstäbchen"
+        }
+      ]
+    },
+    {
+      "code": "10801000",
+      "display": "Nasal cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasencreme"
+        }
+      ]
+    },
+    {
+      "code": "10802000",
+      "display": "Nasal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasengel"
+        }
+      ]
+    },
+    {
+      "code": "10803000",
+      "display": "Nasal ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasensalbe"
+        }
+      ]
+    },
+    {
+      "code": "10804000",
+      "display": "Nasal drops, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasentropfen, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10805000",
+      "display": "Nasal drops, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasentropfen, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10806000",
+      "display": "Nasal drops, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasentropfen, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10807000",
+      "display": "Nasal powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenpulver"
+        }
+      ]
+    },
+    {
+      "code": "10808000",
+      "display": "Nasal spray, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspray, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "10809000",
+      "display": "Nasal spray, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspray, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "10810000",
+      "display": "Nasal spray, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspray, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "10811000",
+      "display": "Nasal wash",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspülung"
+        }
+      ]
+    },
+    {
+      "code": "10812000",
+      "display": "Nasal stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenstift"
+        }
+      ]
+    },
+    {
+      "code": "10900500",
+      "display": "Intravaginal ring"
+    },
+    {
+      "code": "10901000",
+      "display": "Vaginal cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalcreme"
+        }
+      ]
+    },
+    {
+      "code": "10902000",
+      "display": "Vaginal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalgel"
+        }
+      ]
+    },
+    {
+      "code": "10903000",
+      "display": "Vaginal ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalsalbe"
+        }
+      ]
+    },
+    {
+      "code": "10904000",
+      "display": "Vaginal foam",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalschaum"
+        }
+      ]
+    },
+    {
+      "code": "10905000",
+      "display": "Vaginal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginallösung"
+        }
+      ]
+    },
+    {
+      "code": "10906000",
+      "display": "Vaginal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "10907000",
+      "display": "Vaginal emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalemulsion"
+        }
+      ]
+    },
+    {
+      "code": "10908000",
+      "display": "Tablet for vaginal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Vaginallösung"
+        }
+      ]
+    },
+    {
+      "code": "10909000",
+      "display": "Pessary",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalzäpfchen"
+        }
+      ]
+    },
+    {
+      "code": "10910000",
+      "display": "Vaginal capsule, hard",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hartkapsel zur vaginalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "10911000",
+      "display": "Vaginal capsule, soft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Weichkapsel zur vaginalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "10912000",
+      "display": "Vaginal tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginaltablette"
+        }
+      ]
+    },
+    {
+      "code": "10913000",
+      "display": "Effervescent vaginal tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schaumovula"
+        }
+      ]
+    },
+    {
+      "code": "10914000",
+      "display": "Medicated vaginal tampon",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wirkstoffhaltiger Vaginaltampon"
+        }
+      ]
+    },
+    {
+      "code": "10915000",
+      "display": "Vaginal delivery system",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "vaginales Wirkstofffreisetzungssystem"
+        }
+      ]
+    },
+    {
+      "code": "10916000",
+      "display": "Vaginal sponge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schwämmchen"
+        }
+      ]
+    },
+    {
+      "code": "11001000",
+      "display": "Rectal cream",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalcreme"
+        }
+      ]
+    },
+    {
+      "code": "11002000",
+      "display": "Rectal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalgel"
+        }
+      ]
+    },
+    {
+      "code": "11003000",
+      "display": "Rectal ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalsalbe"
+        }
+      ]
+    },
+    {
+      "code": "11004000",
+      "display": "Rectal foam",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalschaum"
+        }
+      ]
+    },
+    {
+      "code": "11005000",
+      "display": "Rectal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektallösung"
+        }
+      ]
+    },
+    {
+      "code": "11006000",
+      "display": "Rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "11007000",
+      "display": "Rectal emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalemulsion"
+        }
+      ]
+    },
+    {
+      "code": "11008000",
+      "display": "Concentrate for rectal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Rektallösung"
+        }
+      ]
+    },
+    {
+      "code": "11009000",
+      "display": "Powder for rectal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Rektallösung"
+        }
+      ]
+    },
+    {
+      "code": "11010",
+      "display": "Oral drops",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "11010000",
+      "display": "Powder for rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "11011000",
+      "display": "Tablet for rectal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Rektallösung"
+        }
+      ]
+    },
+    {
+      "code": "11012000",
+      "display": "Tablet for rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung einer Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "11013000",
+      "display": "Suppository",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Zäpfchen"
+        }
+      ]
+    },
+    {
+      "code": "11014000",
+      "display": "Rectal capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektalkapsel"
+        }
+      ]
+    },
+    {
+      "code": "11015000",
+      "display": "Rectal tampon",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rektaltampon"
+        }
+      ]
+    },
+    {
+      "code": "11050",
+      "display": "Oral liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "11101000",
+      "display": "Nebuliser solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "11102000",
+      "display": "Nebuliser suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "11103000",
+      "display": "Powder for nebuliser suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Suspension für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "11104000",
+      "display": "Powder for nebuliser solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "11105000",
+      "display": "Nebuliser emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "11106000",
+      "display": "Pressurised inhalation, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Druckgasinhalation, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "11107000",
+      "display": "Pressurised inhalation, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Druckgasinhalation, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "11108000",
+      "display": "Pressurised inhalation, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Druckgasinhalation, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "11109000",
+      "display": "Inhalation powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11110000",
+      "display": "Inhalation powder, hard capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hartkapsel mit Pulver zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11111000",
+      "display": "Inhalation powder, pre-dispensed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "einzeldosiertes Pulver zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11112000",
+      "display": "Inhalation vapour, powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11113000",
+      "display": "Inhalation vapour, capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kapsel zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11114000",
+      "display": "Inhalation vapour, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11115000",
+      "display": "Inhalation vapour, tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11116000",
+      "display": "Inhalation vapour, ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Salbe zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11117000",
+      "display": "Inhalation vapour, liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "11118000",
+      "display": "Inhalation gas",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Inhalationsgas"
+        }
+      ]
+    },
+    {
+      "code": "11201000",
+      "display": "Solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11202000",
+      "display": "Suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "11203000",
+      "display": "Emulsion for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur Injektion"
+        }
+      ]
+    },
+    {
+      "code": "11204000",
+      "display": "Gel for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur Injektion"
+        }
+      ]
+    },
+    {
+      "code": "11205000",
+      "display": "Powder for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11206000",
+      "display": "Powder for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "11207000",
+      "display": "Powder and solvent for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11208000",
+      "display": "Powder and solvent for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "11209000",
+      "display": "Concentrate for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11210000",
+      "display": "Solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11210500",
+      "display": "Solution for infusion in administration system",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Infusionslösung im Applikationssystem"
+        }
+      ]
+    },
+    {
+      "code": "11211000",
+      "display": "Emulsion for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur Infusion"
+        }
+      ]
+    },
+    {
+      "code": "11212000",
+      "display": "Powder for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11213000",
+      "display": "Concentrate for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11214000",
+      "display": "Powder and solvent for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11214500",
+      "display": "Lyophilisate and solvent for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat und Lösungsmittel zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11215000",
+      "display": "Lyophilisate for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11216000",
+      "display": "Solvent for parenteral use",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösungsmittel zur Herstellung von Parenteralia"
+        }
+      ]
+    },
+    {
+      "code": "11217000",
+      "display": "Lyophilisate for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "11218000",
+      "display": "Lyophilisate for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lyophilisat zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "11301000",
+      "display": "Implant",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Implantat"
+        }
+      ]
+    },
+    {
+      "code": "11302000",
+      "display": "Implantation tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur Implantation"
+        }
+      ]
+    },
+    {
+      "code": "11303000",
+      "display": "Implantation chain",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kette zur Implantation"
+        }
+      ]
+    },
+    {
+      "code": "11303500",
+      "display": "Implantation suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur Implantation"
+        }
+      ]
+    },
+    {
+      "code": "11304000",
+      "display": "Powder and solvent for implantation paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Dispersionsmittel zur Herstellung einer Paste für Implantate"
+        }
+      ]
+    },
+    {
+      "code": "11401000",
+      "display": "Solution for peritoneal dialysis",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Peritonealdialyselösung"
+        }
+      ]
+    },
+    {
+      "code": "11402000",
+      "display": "Solution for haemofiltration",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hämofiltrationslösung"
+        }
+      ]
+    },
+    {
+      "code": "11403000",
+      "display": "Solution for haemodiafiltration",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hämodiafiltrationslösung"
+        }
+      ]
+    },
+    {
+      "code": "11404000",
+      "display": "Solution for haemodialysis",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hämodialyselösung"
+        }
+      ]
+    },
+    {
+      "code": "11405000",
+      "display": "Concentrate for haemodialysis solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Hämodialyselösung"
+        }
+      ]
+    },
+    {
+      "code": "11501000",
+      "display": "Solution for intravesical use",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur intravesikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11502000",
+      "display": "Bladder irrigation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Blasenspüllösung"
+        }
+      ]
+    },
+    {
+      "code": "11503000",
+      "display": "Powder for bladder irrigation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Blasenspüllösung"
+        }
+      ]
+    },
+    {
+      "code": "11504000",
+      "display": "Urethral gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur Anwendung in der Harnröhre"
+        }
+      ]
+    },
+    {
+      "code": "11505000",
+      "display": "Urethral stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Stäbchen zur Anwendung in der Harnröhre"
+        }
+      ]
+    },
+    {
+      "code": "11601000",
+      "display": "Endotracheopulmonary instillation, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur endotracheopulmonalen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "11602000",
+      "display": "Endotracheopulmonary instillation, powder for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung zur endotracheopulmonalen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "11603000",
+      "display": "Endotracheopulmonary instillation, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur endotracheopulmonalen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "11604000",
+      "display": "Endotracheopulmonary instillation, powder and solvent for solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur endotracheopulmonalen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "11701000",
+      "display": "Endocervical gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur endozervikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11702000",
+      "display": "Powder and solvent for endocervical gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung eines Gels zur endozervikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11901000",
+      "display": "Intrauterine delivery system",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Intrauterines Wirkstofffreisetzungssystem"
+        }
+      ]
+    },
+    {
+      "code": "11902000",
+      "display": "Intrauterine solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11903000",
+      "display": "Intrauterine suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11904000",
+      "display": "Intrauterine emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11905000",
+      "display": "Intrauterine tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "11906000",
+      "display": "Intrauterine capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kapsel zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "12004000",
+      "display": "Nebulisation solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "12100",
+      "display": "Capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kapsel"
+        }
+      ]
+    },
+    {
+      "code": "12100500",
+      "display": "Absorbable coated sponge"
+    },
+    {
+      "code": "12101000",
+      "display": "Denture lacquer",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lack für die Gebisskontaktfläche"
+        }
+      ]
+    },
+    {
+      "code": "12102000",
+      "display": "Anticoagulant and preservative solution for blood",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Stabilisatorlösung für Blutkonserven"
+        }
+      ]
+    },
+    {
+      "code": "12103000",
+      "display": "Solution for blood fraction modification",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Modifikation einer Blutfraktion"
+        }
+      ]
+    },
+    {
+      "code": "12104000",
+      "display": "Wound stick",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wundstäbchen"
+        }
+      ]
+    },
+    {
+      "code": "12105000",
+      "display": "Radiopharmaceutical precursor",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Markerzubereitung"
+        }
+      ]
+    },
+    {
+      "code": "12106000",
+      "display": "Radionuclide generator",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Radionuklidgenerator"
+        }
+      ]
+    },
+    {
+      "code": "12107000",
+      "display": "Kit for radiopharmaceutical preparation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kit für ein radioaktives Arzneimittel"
+        }
+      ]
+    },
+    {
+      "code": "12108000",
+      "display": "Gastroenteral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur gastrointestinalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "12109000",
+      "display": "Dispersion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dispersion"
+        }
+      ]
+    },
+    {
+      "code": "12109500",
+      "display": "Fibrin sealant-powder and solvent for fibrin sealant"
+    },
+    {
+      "code": "12110000",
+      "display": "Gastroenteral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zur gastrointestinalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "12111000",
+      "display": "Gastroenteral emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur gastrointestinalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "12112000",
+      "display": "Solution for organ preservation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Organkonservierungslösung"
+        }
+      ]
+    },
+    {
+      "code": "12113000",
+      "display": "Irrigation solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spüllösung"
+        }
+      ]
+    },
+    {
+      "code": "12114000",
+      "display": "Stomach irrigation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Magenspülflüssigkeit"
+        }
+      ]
+    },
+    {
+      "code": "12115000",
+      "display": "Sealant",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gewebekleber"
+        }
+      ]
+    },
+    {
+      "code": "12115500",
+      "display": "Solution of perfusion of organs"
+    },
+    {
+      "code": "12116000",
+      "display": "Powder and solvent for sealant",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel für einen Gewebekleber"
+        }
+      ]
+    },
+    {
+      "code": "12117000",
+      "display": "Impregnated pad",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Imprägnierter Tampon"
+        }
+      ]
+    },
+    {
+      "code": "12118000",
+      "display": "Living tissue equivalent",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "lebendes Gewebeäquivalent"
+        }
+      ]
+    },
+    {
+      "code": "12119000",
+      "display": "Medicated sponge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "wirkstoffhaltiges Schwämmchen"
+        }
+      ]
+    },
+    {
+      "code": "12120",
+      "display": "Gastro-resistant capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistente Kapsel"
+        }
+      ]
+    },
+    {
+      "code": "12120000",
+      "display": "Intestinal gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gel zur intestinalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "12130000",
+      "display": "Medicated thread",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "wirkstoffhaltiger Faden"
+        }
+      ]
+    },
+    {
+      "code": "12131000",
+      "display": "Solution for provocation test",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Provokationstestlösung"
+        }
+      ]
+    },
+    {
+      "code": "12150",
+      "display": "Prolonged-release capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Retardkapsel"
+        }
+      ]
+    },
+    {
+      "code": "12200",
+      "display": "Tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette"
+        }
+      ]
+    },
+    {
+      "code": "12301000",
+      "display": "Medicinal gas, compressed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gas zur medizinischen Anwendung, druckverdichtet"
+        }
+      ]
+    },
+    {
+      "code": "12302000",
+      "display": "Medicinal gas, cryogenic",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gas zur medizinischen Anwendung, kälteverflüssigt"
+        }
+      ]
+    },
+    {
+      "code": "12303000",
+      "display": "Medicinal gas, liquefied",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gas zur medizinischen Anwendung, verflüssigt"
+        }
+      ]
+    },
+    {
+      "code": "13050",
+      "display": "Oromucosal liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "13220",
+      "display": "Lozenge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lutschtablette"
+        }
+      ]
+    },
+    {
+      "code": "14050",
+      "display": "Dental liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalflüssigkeit"
+        }
+      ]
+    },
+    {
+      "code": "15090",
+      "display": "Cutaneous spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "15130",
+      "display": "Cutaneous liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "16040",
+      "display": "Eye drops",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfen"
+        }
+      ]
+    },
+    {
+      "code": "17040",
+      "display": "Ear drops",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrentropfen"
+        }
+      ]
+    },
+    {
+      "code": "17090",
+      "display": "Ear spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspray"
+        }
+      ]
+    },
+    {
+      "code": "17120",
+      "display": "Ear wash",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ohrenspülung"
+        }
+      ]
+    },
+    {
+      "code": "18040",
+      "display": "Nasal drops",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasentropfen"
+        }
+      ]
+    },
+    {
+      "code": "18080",
+      "display": "Nasal spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspray"
+        }
+      ]
+    },
+    {
+      "code": "19050",
+      "display": "Vaginal liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur vaginalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "19100",
+      "display": "Vaginal capsule",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vaginalkapsel"
+        }
+      ]
+    },
+    {
+      "code": "20050",
+      "display": "Enema",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Klistier"
+        }
+      ]
+    },
+    {
+      "code": "21010",
+      "display": "Nebuliser liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "21060",
+      "display": "Pressurised inhalation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Druckgasinhalation"
+        }
+      ]
+    },
+    {
+      "code": "21100",
+      "display": "Inhalation powder",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "21140",
+      "display": "Inhalation vapour",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dampf zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "22010",
+      "display": "Injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektion"
+        }
+      ]
+    },
+    {
+      "code": "22050",
+      "display": "Powder for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Injektionszubereitung"
+        }
+      ]
+    },
+    {
+      "code": "22090",
+      "display": "Sterile concentrate",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "steriles Konzentrat"
+        }
+      ]
+    },
+    {
+      "code": "22100",
+      "display": "Infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Infusion"
+        }
+      ]
+    },
+    {
+      "code": "22120",
+      "display": "Powder for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "26010",
+      "display": "Endotracheopulmonary instillation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur endotracheopulmonalen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "29020",
+      "display": "Intrauterine liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "30047500",
+      "display": "Pouch",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Beutelchen"
+        }
+      ]
+    },
+    {
+      "code": "31030",
+      "display": "Blood fraction modifier",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Zubereitung zur Modifikation einer Blutfraktion"
+        }
+      ]
+    },
+    {
+      "code": "31080",
+      "display": "Gastroenteral liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Flüssigkeit zur gastrointestinalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50001000",
+      "display": "Chewable/dispersible tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kautablette/Tablette zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50001250",
+      "display": "Coated granules in sachet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Befilmtes Granulat im Beutel"
+        }
+      ]
+    },
+    {
+      "code": "50001500",
+      "display": "Concentrate and diluent for solution for infusion"
+    },
+    {
+      "code": "50002000",
+      "display": "Concentrate and solvent for concentrate for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50003000",
+      "display": "Concentrate and solvent for cutaneous solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat und Lösungsmittel zur Herstellung einer Lösung zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "50004000",
+      "display": "Concentrate and solvent for cutaneous use"
+    },
+    {
+      "code": "50005000",
+      "display": "Concentrate and solvent for injection"
+    },
+    {
+      "code": "50006000",
+      "display": "Concentrate and solvent for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat und Lösungsmittel zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50007000",
+      "display": "Concentrate and solvent for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat und Lösungsmittel zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50008000",
+      "display": "Concentrate and solvent for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat und Lösungsmittel zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "50009000",
+      "display": "Concentrate for cutaneous spray, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung eines Sprays zur Anwendung auf der Haut, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "50009300",
+      "display": "Concentrate for dispersion for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Infusionsdispersion"
+        }
+      ]
+    },
+    {
+      "code": "50009500",
+      "display": "Concentrate for emulsion for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Emulsion zur Infusion"
+        }
+      ]
+    },
+    {
+      "code": "50010000",
+      "display": "Concentrate for oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Lösung  zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50011000",
+      "display": "Concentrate for oral/rectal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Lösung zum Einnehmen /Rektallösung"
+        }
+      ]
+    },
+    {
+      "code": "50012000",
+      "display": "Concentrate for peritoneal dialysis solution"
+    },
+    {
+      "code": "50013000",
+      "display": "Concentrate for solution for intravesical use"
+    },
+    {
+      "code": "50013500",
+      "display": "Concentrate for spray emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung eines Sprays, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "50014000",
+      "display": "Concentrate for suspension for infusion"
+    },
+    {
+      "code": "50015000",
+      "display": "Cutaneous and nasal ointment"
+    },
+    {
+      "code": "50015300",
+      "display": "Cutaneous/oromucosal/oral solution"
+    },
+    {
+      "code": "50015400",
+      "display": "Cutaneous/oromucosal spray"
+    },
+    {
+      "code": "50015500",
+      "display": "Cutaneous spray, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung auf der Haut, Emulsion"
+        }
+      ]
+    },
+    {
+      "code": "50016000",
+      "display": "Cutaneous spray, ointment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Spray zur Anwendung auf der Haut, Salbe"
+        }
+      ]
+    },
+    {
+      "code": "50017000",
+      "display": "Dental paste",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dentalpaste"
+        }
+      ]
+    },
+    {
+      "code": "50018000",
+      "display": "Ear/eye drops, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augen-/Ohrentropfen, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "50019000",
+      "display": "Ear/eye oinment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augen-/Ohrensalbe"
+        }
+      ]
+    },
+    {
+      "code": "50020000",
+      "display": "Ear/eye/nose drops, solution"
+    },
+    {
+      "code": "50020500",
+      "display": "Effervescent buccal tablet"
+    },
+    {
+      "code": "50021000",
+      "display": "Emulsion for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur Injektion/Infusion"
+        }
+      ]
+    },
+    {
+      "code": "50021500",
+      "display": "Emulsion and suspension for emulsion for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion und Suspension zur Herstellung einer Emulsion zur Injektion"
+        }
+      ]
+    },
+    {
+      "code": "50022000",
+      "display": "Endosinusial wash, suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nebenhöhlenspülung, Suspension"
+        }
+      ]
+    },
+    {
+      "code": "50023000",
+      "display": "Eye drops, solution in single-dose container",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Augentropfen, Lösung im Einzeldosisbehältnis"
+        }
+      ]
+    },
+    {
+      "code": "50023500",
+      "display": "Film coated gastro-resistant tablet"
+    },
+    {
+      "code": "50024000",
+      "display": "Gargle/mouthwash",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gurgellösung/Mundspülung"
+        }
+      ]
+    },
+    {
+      "code": "50025000",
+      "display": "Gastro-resistant coated tablet"
+    },
+    {
+      "code": "50026000",
+      "display": "Gastro-resistant granules for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "magensaftresistentes Granulat zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50026250",
+      "display": "Gastro-resistant prolonged-release tablet"
+    },
+    {
+      "code": "50026500",
+      "display": "Granules and solvent for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat und Lösungsmittel zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50027000",
+      "display": "Granules and solvent for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat und Lösungsmittel zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "50028000",
+      "display": "Granules for oral and rectal suspension"
+    },
+    {
+      "code": "50029000",
+      "display": "Granules for oral drops, solution"
+    },
+    {
+      "code": "50029250",
+      "display": "Granules for use in drinking water",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat zum Eingeben über das Trinkwasser"
+        }
+      ]
+    },
+    {
+      "code": "50029500",
+      "display": "Granules for vaginal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat zur Herstellung einer Vaginallösung"
+        }
+      ]
+    },
+    {
+      "code": "50029600",
+      "display": "Hard capsule with gastro-resistant pellets"
+    },
+    {
+      "code": "50029700",
+      "display": "Herbal tea in bag",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Arzneitee im Beutel"
+        }
+      ]
+    },
+    {
+      "code": "50030000",
+      "display": "Inhalation powder, tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tablette mit Pulver zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "50031000",
+      "display": "Inhalation vapour, effervescent tablet",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Brausetablette zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "50032000",
+      "display": "Inhalation vapour, emulsion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Emulsion zur Herstellung eines Dampfs zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "50033000",
+      "display": "Inhalation vapour, impregnated pad",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dampf zur Inhalation, imprägnierter Einsatz"
+        }
+      ]
+    },
+    {
+      "code": "50033300",
+      "display": "Intrauterine foam",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schaum zur intrauterinen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50033500",
+      "display": "Intravitreal implant in applicator",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "intravitreales Implantat im Applikator"
+        }
+      ]
+    },
+    {
+      "code": "50034000",
+      "display": "Liquefied gas for dental use"
+    },
+    {
+      "code": "50035000",
+      "display": "Modified-release film-coated tablet"
+    },
+    {
+      "code": "50036000",
+      "display": "Modified-release granules for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Granulat mit veränderter Wirkstofffreisetzung zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50036100",
+      "display": "Muco-adhesive buccal prolonged-release tablet"
+    },
+    {
+      "code": "50036500",
+      "display": "Nasal/oromucosal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur nasalen Anwendung/Lösung zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "50037000",
+      "display": "Nasal spray and oromucosal solution"
+    },
+    {
+      "code": "50037250",
+      "display": "Nasal spray, solution in single-dose container",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nasenspray, Lösung im Einzeldosisbehältnis"
+        }
+      ]
+    },
+    {
+      "code": "50037750",
+      "display": "Oral drops, liquid",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tropfen zum Einnehmen, Flüssigkeit"
+        }
+      ]
+    },
+    {
+      "code": "50038000",
+      "display": "Oral/rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zum Einnehmen/Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "50038500",
+      "display": "Oral solution/concentrate for nebuliser solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zum Einnehmen/ Konzentrat zur Herstellung einer Lösung für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "50039000",
+      "display": "Oromucosal patch",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pflaster zur Anwendung in der Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "50039300",
+      "display": "Oromucosal powder in pouch",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulverbeutelchen zur Anwendung in Mundhöhle"
+        }
+      ]
+    },
+    {
+      "code": "50039500",
+      "display": "Oromucosal/laryngopharyngeal solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Anwendung in der Mundhöhle/im Rachenraum und am Kehlkopf"
+        }
+      ]
+    },
+    {
+      "code": "50040000",
+      "display": "Oromucosal/laryngopharyngeal solution/spray"
+    },
+    {
+      "code": "50041000",
+      "display": "Pillules in single-dose container",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Streukügelchen im Einzeldosisbehältnis"
+        }
+      ]
+    },
+    {
+      "code": "50041500",
+      "display": "Powder and solution for solution for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösung zur Herstellung einer Injektionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50042000",
+      "display": "Powder and solvent for concentrate for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50043000",
+      "display": "Powder for concentrate for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50044000",
+      "display": "Powder and solvent for cutaneous solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur Anwendung auf der Haut"
+        }
+      ]
+    },
+    {
+      "code": "50044500",
+      "display": "Powder and solvent for dispersion for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektionsdispersion"
+        }
+      ]
+    },
+    {
+      "code": "50045000",
+      "display": "Powder and solvent for endosinusial solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur Anwendung in den Nebenhöhlen"
+        }
+      ]
+    },
+    {
+      "code": "50045500",
+      "display": "Powder and solvent for epilesional solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zum Auftragen auf die Wunde"
+        }
+      ]
+    },
+    {
+      "code": "50046000",
+      "display": "Powder and solvent for gingival gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung eines Gels zur Anwendung am Zahnfleisch"
+        }
+      ]
+    },
+    {
+      "code": "50047000",
+      "display": "Powder and solvent for instillation solution for intraocular use",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur intraokularen Instillation"
+        }
+      ]
+    },
+    {
+      "code": "50047500",
+      "display": "Powder and solvent for intravesical solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur intravesikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50047700",
+      "display": "Powder and solvent for nebuliser solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Lösung für einen Vernebler"
+        }
+      ]
+    },
+    {
+      "code": "50048000",
+      "display": "Powder and solvent for prolonged-release suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Depot-Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "50048250",
+      "display": "Powder and solvent for solution for injection in pre-filled syringe",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung in einer Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "50048300",
+      "display": "Powder and solvent for suspension for injection in pre-filled syringe",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension in einer Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "50048500",
+      "display": "Powder and suspension for suspension for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Suspension zur Herstellung einer Injektionssuspension"
+        }
+      ]
+    },
+    {
+      "code": "50048600",
+      "display": "Powder, dispersion and solvent for concentrate for dispersion for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver, Dispersion und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionsdispersion"
+        }
+      ]
+    },
+    {
+      "code": "50048750",
+      "display": "Powder for concentrate for dispersion for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver für ein Konzentrat zur Herstellung einer Infusionsdispersion"
+        }
+      ]
+    },
+    {
+      "code": "50049000",
+      "display": "Powder for concentrate for haemodialysis solution,",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver für ein Konzentrat zur Herstellung einer Hämodialyselösung"
+        }
+      ]
+    },
+    {
+      "code": "50049100",
+      "display": "Powder for concentrate for intravesical suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver für ein Konzentrat zur Herstellung einer Suspension zur intravesikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50049250",
+      "display": "Powder for concentrate for solution for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver für ein Konzentrat zur Herstellung einer Injektions-/Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50049270",
+      "display": "Powder for dental solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Dentallösung"
+        }
+      ]
+    },
+    {
+      "code": "50049300",
+      "display": "Powder for epilesional solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung zum Auftragen auf die Wunde"
+        }
+      ]
+    },
+    {
+      "code": "50049500",
+      "display": "Powder for implantation suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Suspension zur Implantation"
+        }
+      ]
+    },
+    {
+      "code": "50050000",
+      "display": "Powder for intravesical solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung zur intravesikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50051000",
+      "display": "Powder for intravesical suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Suspensionen zur intravesikalen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50051100",
+      "display": "Powder for mouth wash"
+    },
+    {
+      "code": "50052000",
+      "display": "Powder for oral/rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Suspension zum Einnehmen/Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "50053000",
+      "display": "Powder for solution for injection or infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Injektions- bzw. Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50053500",
+      "display": "Powder for solution for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Injektions-/Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50054000",
+      "display": "Powder for solution for intravesical use"
+    },
+    {
+      "code": "50055000",
+      "display": "Powder for solution for nasal spray"
+    },
+    {
+      "code": "50055500",
+      "display": "Prolonged-release film-coated tablet"
+    },
+    {
+      "code": "50056000",
+      "display": "Prolonged-release granules for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Retardgranulat zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50056500",
+      "display": "Radiopharmaceutical precursor, solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Markerzubereitung, Lösung"
+        }
+      ]
+    },
+    {
+      "code": "50057000",
+      "display": "Solution for haemodialysis/haemofiltration",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hämodialyselösung/Hämofiltrationslösung"
+        }
+      ]
+    },
+    {
+      "code": "50058000",
+      "display": "Solution for infusion and oral solution"
+    },
+    {
+      "code": "50059000",
+      "display": "Solution for injection/concentrate for solution for infusion"
+    },
+    {
+      "code": "50060000",
+      "display": "Solution for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektions-/Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50060100",
+      "display": "Solution for injection in cartridge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionslösung in einer Patrone"
+        }
+      ]
+    },
+    {
+      "code": "50060200",
+      "display": "Solution for injection in pre-filled pen",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionslösung im Fertigpen"
+        }
+      ]
+    },
+    {
+      "code": "50060300",
+      "display": "Solution for injection in pre-filled syringe",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionslösung in einer Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "50060400",
+      "display": "Solution for injection in pre-filled syringe with automatic needle guard"
+    },
+    {
+      "code": "50060500",
+      "display": "Solution for injection/infusion in pre-filled syringe",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektions-/Infusionslösung in einer Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "50061000",
+      "display": "Solution for intraperitoneal use"
+    },
+    {
+      "code": "50061300",
+      "display": "Solution for use in drinking water",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zum Eingeben über das Trinkwasser"
+        }
+      ]
+    },
+    {
+      "code": "50061500",
+      "display": "Solution for sealant",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung für Gewebekleber"
+        }
+      ]
+    },
+    {
+      "code": "50061600",
+      "display": "Solvent for nasal use"
+    },
+    {
+      "code": "50062000",
+      "display": "Suspension and effervescent granules for oral suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension und Brausegranulat zur Herstellung einer Suspension zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50062500",
+      "display": "Suspension and solution for spray",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension und Lösung zur Herstellung eines Sprays"
+        }
+      ]
+    },
+    {
+      "code": "50063000",
+      "display": "Suspension for infusion"
+    },
+    {
+      "code": "50063100",
+      "display": "Suspension for injection in cartridge",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionssuspension in einer Patrone"
+        }
+      ]
+    },
+    {
+      "code": "50063200",
+      "display": "Suspension for injection in pre-filled pen",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionssuspension in einem Fertigpen"
+        }
+      ]
+    },
+    {
+      "code": "50063300",
+      "display": "Suspension for injection in pre-filled syringe",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Injektionssuspension in einer Fertigspritze"
+        }
+      ]
+    },
+    {
+      "code": "50063500",
+      "display": "Suspension for use in drinking water",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspension zum Eingeben über das Trinkwasser"
+        }
+      ]
+    },
+    {
+      "code": "50064000",
+      "display": "Tablet and solvent for rectal suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tabletten und Lösungsmittel zur Herstellung einer Rektalsuspension"
+        }
+      ]
+    },
+    {
+      "code": "50065000",
+      "display": "Tablet and powder for oral solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Tabletten und Pulver zur Herstellung einer Lösung zum Einnehmen"
+        }
+      ]
+    },
+    {
+      "code": "50066000",
+      "display": "Tablet for oral suspension"
+    },
+    {
+      "code": "50070000",
+      "display": "Oral suspension for use in drinking water"
+    },
+    {
+      "code": "50071000",
+      "display": "Powder and solvent for dental gel",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung eines Dentalgels"
+        }
+      ]
+    },
+    {
+      "code": "50072000",
+      "display": "Powder for use in drinking water",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zum Eingeben über das Trinkwasser"
+        }
+      ]
+    },
+    {
+      "code": "50073000",
+      "display": "Powder for solution for intraocular irrigation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung einer Lösung zur intraokularen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50074000",
+      "display": "Solvent for solution for intraocular irrigation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösungsmittel zur Herstellung einer Lösung zur intraokularen Anwendung"
+        }
+      ]
+    },
+    {
+      "code": "50076000",
+      "display": "Solvent for solution for infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösungsmittel zur Herstellung einer Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50077000",
+      "display": "Dispersion for injection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dispersion zur Injektion"
+        }
+      ]
+    },
+    {
+      "code": "50078000",
+      "display": "Gas and solvent for dispersion for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gas und Lösungsmittel zur Herstellung einer Injektions-/Infusionsdispersion"
+        }
+      ]
+    },
+    {
+      "code": "50079000",
+      "display": "Concentrate for solution for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Konzentrat zur Herstellung einer Injektions- /Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50080000",
+      "display": "Powder and solvent for solution for injection/infusion",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver und Lösungsmittel zur Herstellung einer Injektions-/Infusionslösung"
+        }
+      ]
+    },
+    {
+      "code": "50081000",
+      "display": "Inhalation solution",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lösung zur Inhalation"
+        }
+      ]
+    },
+    {
+      "code": "50082000",
+      "display": "Oral drops, powder for suspension",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pulver zur Herstellung von Tropfen zum Einnehmen, Suspension"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://art-decor.org/ns/oids/vs",
+      "value": "2.16.840.1.113883.2.6.60.4.11.27"
+    }
+  ],
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "count": 461
+}

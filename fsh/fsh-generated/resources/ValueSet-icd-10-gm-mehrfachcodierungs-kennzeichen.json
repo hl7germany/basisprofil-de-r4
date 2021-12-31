@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MehrfachkodierungsKennzeichen",
+  "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
+  "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes ",
+  "version": "1.0.0",
+  "url": "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": true,
+  "date": "2021-05-20",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen"
+      }
+    ]
+  }
+}

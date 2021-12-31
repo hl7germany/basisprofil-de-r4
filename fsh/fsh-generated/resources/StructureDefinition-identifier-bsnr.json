@@ -1,0 +1,94 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "identifier-bsnr",
+  "url": "http://fhir.de/StructureDefinition/identifier-bsnr",
+  "version": "1.0.0",
+  "name": "IdentifierBsnr",
+  "title": "Identifier-Profil für die Abbildung einer Betriebsstättennummer",
+  "status": "active",
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier-Profil für die Abbildung einer Betriebsstättennummer",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Identifier",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Identifier",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Identifier.use",
+        "path": "Identifier.use",
+        "fixedCode": "official"
+      },
+      {
+        "id": "Identifier.type",
+        "path": "Identifier.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "BSNR",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Identifier.system",
+        "path": "Identifier.system",
+        "min": 1,
+        "fixedUri": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR"
+      },
+      {
+        "id": "Identifier.value",
+        "path": "Identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Identifier.assigner.identifier.system",
+        "path": "Identifier.assigner.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.de/sid/arge-ik/iknr"
+      },
+      {
+        "id": "Identifier.assigner.identifier.value",
+        "path": "Identifier.assigner.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Identifier.assigner.display",
+        "path": "Identifier.assigner.display",
+        "min": 1
+      }
+    ]
+  }
+}

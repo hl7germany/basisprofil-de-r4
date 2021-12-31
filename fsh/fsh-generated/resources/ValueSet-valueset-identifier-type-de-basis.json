@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "IdentifierTypeDeBasis",
+  "id": "valueset-identifier-type-de-basis",
+  "description": "ValueSet zur Codierung des Identifier-Typs",
+  "version": "1.0.0",
+  "url": "http://fhir.de/ValueSet/identifier-type-de-basis",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/ValueSet/identifier-type"
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "concept": [
+          {
+            "code": "XX",
+            "display": "Organisations-ID"
+          },
+          {
+            "code": "BSNR",
+            "display": "Betriebsstätten-Nummer"
+          },
+          {
+            "code": "LANR",
+            "display": "Lebenslange Arztnummer"
+          },
+          {
+            "code": "RI",
+            "display": "Resource identifier"
+          },
+          {
+            "code": "DN",
+            "display": "Doctor number"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "Diagnosis-role",
+  "id": "diagnosis-role-supplement",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen",
+  "version": "1.0.0",
+  "url": "http://fhir.de/CodeSystem/diagnosis-role-supplement",
+  "concept": [
+    {
+      "code": "AD",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aufnahmediagnose"
+        }
+      ]
+    },
+    {
+      "code": "DD",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Entlassdiagnose"
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hauptdiagnose"
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nebendiagnose"
+        }
+      ]
+    },
+    {
+      "code": "pre-op",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "prä-operative Diagnose"
+        }
+      ]
+    },
+    {
+      "code": "post-op",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "post-operative Diagnose"
+        }
+      ]
+    },
+    {
+      "code": "billing",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abrechnungsdiagnose"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "supplements": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+}

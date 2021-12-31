@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AufnahmegrundVierteStelleVS",
+  "id": "AufnahmegrundVierteStelleVS",
+  "description": "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.0.0",
+  "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-03-12",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle"
+      }
+    ]
+  }
+}

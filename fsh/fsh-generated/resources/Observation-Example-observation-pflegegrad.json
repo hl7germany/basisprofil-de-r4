@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-observation-pflegegrad",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-pflegegrad"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "80391-6",
+        "system": "http://loinc.org",
+        "display": "Pflegegrad"
+      }
+    ]
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectivePeriod": {
+    "start": "2019-01-09"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "version": "2019",
+        "code": "9-984.6",
+        "system": "http://fhir.de/CodeSystem/bfarm/ops",
+        "display": "Pflegebedürftig nach Pflegegrad 1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "UCUM_Vitals_Common_DE",
+  "id": "UcumVitalsCommonDE",
+  "title": "UCUM Vitals Common DE",
+  "description": "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten",
+  "version": "1.0.0",
+  "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "%",
+            "display": "percent"
+          },
+          {
+            "code": "cm",
+            "display": "centimeter"
+          },
+          {
+            "code": "m",
+            "display": "meter"
+          },
+          {
+            "code": "kg",
+            "display": "kilogram"
+          },
+          {
+            "code": "g",
+            "display": "gram"
+          },
+          {
+            "code": "Cel",
+            "display": "degree Celsius"
+          },
+          {
+            "code": "mm[Hg]",
+            "display": "millimeter of mecury"
+          },
+          {
+            "code": "/min",
+            "display": "per min"
+          },
+          {
+            "code": "/h",
+            "display": "per hour"
+          },
+          {
+            "code": "/d",
+            "display": "per day"
+          },
+          {
+            "code": "kg/m2",
+            "display": "kilogram / (meter ^ 2)"
+          },
+          {
+            "code": "m2",
+            "display": "square meter"
+          },
+          {
+            "code": "L/min",
+            "display": "liter per minute"
+          },
+          {
+            "code": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

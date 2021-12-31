@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "KontaktebeneDe",
+  "id": "kontaktebene-de",
+  "description": "Kontaktebene für die Codierung von Encounter.type",
+  "version": "1.0.0",
+  "url": "http://fhir.de/ValueSet/kontaktebene-de",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-03-12",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/Kontaktebene"
+      }
+    ]
+  }
+}

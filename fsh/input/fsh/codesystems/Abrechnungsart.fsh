@@ -1,0 +1,41 @@
+CodeSystem: Abrechnungsart
+Id: Aufnahmeart
+Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^url = "http://fhir.de/CodeSystem/dkgev/Abrechnungsart"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2021-02-17"
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.telecom.system = #other
+* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* ^caseSensitive = true
+* ^valueSet = "http://fhir.de/ValueSet/Abrechnungsart"
+* ^content = #complete
+* #AOP "Ambulantes Operieren" "Aufnahme zum ambulanten Operieren gem. §115 SGB V"
+* #HSA "Hochschulambulanz" "Ambulante Aufnahme in Hochschulambulanz gem. §115 SGB V"
+* #PIA "Psychiatrische Institutsambulanz" "Ambulante Aufnahme in Psychiatrische Institutsambulanz gem. §115 SGB V"
+* #SPZ "Sozialpädiatrische Zentren" "Ambulante Aufnahme in Sozialpädiatrisches Zentrum gem. §115 SGB V"
+* #ASV "Ambulante Spezialfachärztliche Versorgung" "Ambulante Aufnahme zur spezialfachärztlichen Versorgung gem. §115 SGB V"
+* #KIA "Spezialambulanz in Kinderkliniken" "Ambulante Aufnahme in Spezialambulanz in Kinderkliniken"
+* #DRG "Diagnosebezogene Fallgruppen" "Voll-/Teilstationäre Aufnahme gem. §301 SGB V: Diagnosebezogene Fallgruppen"
+* #PEPP "Pauschalierendes Entgeltsystem Psychiatrie und Psychosomatik" "Voll-/Teilstationäre Aufnahme gem. §301 SGB V: Pauschalierendes Entgeltsystem Psychiatrie und Psychosomatik"
+* #VNSB "Vor-/Nachstationäre Behandlung" "Vor-/Nachstationäre Behandlung"
+* #AP "Ausländische Patienten (nicht EU)" "Voll-/Teilstationäre Aufnahme ausländischer Patienten (nicht-EU)"
+* #SPB "Stationsäquivalente psychiatrische Behandlung"
+* #WLU "Wahlleistung Unterkunft" "Voll-/Teilstationäre Aufnahme gem §301 SGB mit Wahlleistung Unterkunft"
+* #WLA "Wahlleistung Arzt" "Voll-/Teilstationäre Aufnahme gem §301 SGB mit Wahlleistung Arzt, Chefarztabrechnung, Privatliquidation"
+* #PS "Privatsprechstunde" "ambulante Aufnahme in Privatsprechstunde mit Privatliquidation"
+* #SZ "Selbstzahlerrechnung" "ambulante Aufnahme mit Selbstzahlerrechnung"
+* #IGEL "Medizinische Wahlleistung (IGeL)" "ambulante Aufnahme mit mit medizinischer Wahlleistung (IGeL)"
+* #KV "KV-Ermächtigung / Notfallabrechnung" "ambulante Aufnahme gem §295 SGB V"
+* #BG "Berufsgenossenschaft" "ambulante Aufnahme mit BG-Abrechnung"
+* #SL "sonstige Leistungserbringer" "Abrechnung sonstiger Leistungserbringer (z.B. Physiotherapie, Ergotherapie, Logopädie)"
+* #KEK "Konsile für externe Krankenhäuser" "Konsile für externe Krankenhäuser"
+* #IA "Gutachten, Institutsabrechnung" "Gutachten, Institutsabrechnung"
+* #MVZ "Medizinische Versorgungszentren" "ambulante Aufnahme in Medizinisches Versorgungszentrum"
+* #IV "integrierte Versorgung" "ambulante Aufnahme im Rahmen der integrierten Versorgung"
+* #DMP "Disease Management Program" "ambulante Aufnahme im Rahmen eines Disease Management Programs"
+* #REHA "Rehabilitations-Einrichtungen" "stationäre Aufnahme in Rehabilitations-Einrichtungen"
+* #PSY "Psychiatrie und Psychosomatik leistungsorientierte, pauschalierte Entgelte" "Entgelt nach BPflV für psychiatrische Einrichtungen und psychosomatische Einrichtungen gem. § 17d Abs. 1 KHG (BPflV-Entgeltbereich)"
