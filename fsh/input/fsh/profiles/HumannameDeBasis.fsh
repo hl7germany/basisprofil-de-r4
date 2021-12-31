@@ -37,7 +37,8 @@ Description: "Personenname mit in Deutschland üblichen Erweiterungen"
   * extension ^slicing.discriminator.type = #value
     * ^slicing.discriminator.path = "url"
     * ^slicing.rules = #open
-  * extension[prefix-qualifier] only $iso21090-EN-qualifier
+  * extension contains $iso21090-EN-qualifier named prefix-qualifier 0..1
+  * extension[prefix-qualifier]
     * ^sliceName = "prefix-qualifier"
     * ^definition = "Spezialisierung der Art des Präfixes, z.B. \"AC\" für Akademische Titel"
 * suffix ^short = "Namensteile nach dem Nachnamen"
