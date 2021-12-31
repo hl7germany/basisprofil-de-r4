@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "supplement",
-  "name": "Diagnosis-role",
+  "name": "Diagnosis_role",
   "id": "diagnosis-role-supplement",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen",
   "version": "1.0.0",

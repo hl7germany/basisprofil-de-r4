@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "not-present",
-  "name": "Icd-10-gm",
+  "name": "Icd_10_gm",
   "id": "icd-10-gm",
   "description": "ICD-10-GM Platzhalter-CodeSystem",
   "version": "1.0.0",

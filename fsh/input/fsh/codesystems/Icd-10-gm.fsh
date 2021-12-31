@@ -1,4 +1,4 @@
-CodeSystem: Icd-10-gm
+CodeSystem: Icd_10_gm
 Id: icd-10-gm
 Description: "ICD-10-GM Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
