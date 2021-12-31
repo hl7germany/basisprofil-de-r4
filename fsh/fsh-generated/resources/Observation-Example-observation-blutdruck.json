@@ -7,7 +7,6 @@
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -29,6 +28,51 @@
     ],
     "text": "Systolischer und Diastolischer Blutdruck"
   },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org",
+            "display": "Systolic blood pressure"
+          },
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 107,
+        "code": "mm[Hg]",
+        "unit": "mmHg"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org",
+            "display": "Diastolic blood pressure"
+          },
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 60,
+        "code": "mm[Hg]",
+        "unit": "mmHg"
+      }
+    }
+  ],
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
@@ -58,41 +102,5 @@
         "display": "Right arm"
       }
     ]
-  },
-  "component": [
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "8480-6",
-            "system": "http://loinc.org",
-            "display": "Systolic blood pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "value": 107,
-        "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org",
-        "unit": "mmHg"
-      }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "8462-4",
-            "system": "http://loinc.org",
-            "display": "Diastolic blood pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "value": 60,
-        "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org",
-        "unit": "mmHg"
-      }
-    }
-  ]
+  }
 }
