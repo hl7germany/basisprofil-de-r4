@@ -15,7 +15,7 @@ Description: "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 S
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle"
 * ^compositional = false
 * ^content = #complete
-* ^count = 29
+* ^count = 3
 * #0 "Anderes"
 * #2 "Zuständigkeitswechsel des Kostenträgers"
 * #4 "Behandlungen im Rahmen von Verträgen zur integrierten Versorgung"

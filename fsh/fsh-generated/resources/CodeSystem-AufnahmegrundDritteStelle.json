@@ -43,5 +43,5 @@
   "copyright": "HL7 Deutschland e.V.",
   "valueSet": "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle",
   "compositional": false,
-  "count": 29
+  "count": 3
 }

@@ -55,5 +55,5 @@
   "copyright": "HL7 Deutschland e.V.",
   "valueSet": "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle",
   "compositional": false,
-  "count": 29
+  "count": 6
 }

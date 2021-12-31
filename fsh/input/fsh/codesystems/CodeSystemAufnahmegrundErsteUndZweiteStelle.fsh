@@ -15,7 +15,7 @@ Description: "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 A
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle"
 * ^compositional = false
 * ^content = #complete
-* ^count = 29
+* ^count = 9
 * #01 "Krankenhausbehandlung, vollstationär"
 * #02 "Krankenhausbehandlung, vollstationär mit vorausgegangener vorstationärer Behandlung"
 * #03 "Krankenhausbehandlung, teilstationär"

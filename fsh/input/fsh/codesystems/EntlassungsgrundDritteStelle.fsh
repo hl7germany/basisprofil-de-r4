@@ -15,7 +15,7 @@ Description: "Entlassungs-/Verlegungsgrund (3. Stelle), Datenübermittlung nach 
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle"
 * ^compositional = false
 * ^content = #complete
-* ^count = 29
+* ^count = 3
 * #1 "arbeitsfähig entlassen"
 * #2 "arbeitsunfähig entlassen"
 * #9 "keine Angabe"

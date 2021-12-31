@@ -15,7 +15,7 @@ Description: "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 S
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle"
 * ^compositional = false
 * ^content = #complete
-* ^count = 29
+* ^count = 6
 * #1 "Normalfall"
 * #2 "Arbeitsunfall/Berufskrankheit (§ 11 Abs. 5 SGB V)"
 * #3 "Verkehrsunfall/Sportunfall/Sonstiger Unfall (z.B. § 116 SGB X)"
