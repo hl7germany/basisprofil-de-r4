@@ -165,7 +165,19 @@
         "example": [
           {
             "label": "Beipiel für Adresszeile mit Extensions für Straße und Hausnummer",
-            "valueString": "Musterweg 42"
+            "valueString": "Musterweg 42",
+            "_valueString": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                  "valueString": "Musterweg"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                  "valueString": "42"
+                }
+              ]
+            }
           }
         ],
         "mapping": [
