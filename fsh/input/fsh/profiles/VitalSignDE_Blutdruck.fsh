@@ -11,9 +11,9 @@ Id: observation-de-vitalsign-blutdruck
   * ^slicing.rules = #open
 * code.coding contains loinc 1..1
 * code.coding[loinc] = $loinc#85354-9
-* value[x] ..0
 * value[x] only Quantity
 * valueQuantity ..0
+* value[x] ..0
 * component ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "code"
   * ^slicing.rules = #open
