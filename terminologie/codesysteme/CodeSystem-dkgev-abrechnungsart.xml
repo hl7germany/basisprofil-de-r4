@@ -103,6 +103,14 @@
 		<code value="KV" />
 		<display value="KV-Ermächtigung / Notfallabrechnung" />
 		<definition value="ambulante Aufnahme gem §295 SGB V"/>
+		<concept>
+			<code value="KVN" />
+			<display value="KV-Notfall" />
+		</concept>
+		<concept>
+			<code value="KVI" />
+			<display value="KV-Institutsermächtigung" />
+		</concept>
 	</concept>
 	<concept>
 		<code value="BG" />
