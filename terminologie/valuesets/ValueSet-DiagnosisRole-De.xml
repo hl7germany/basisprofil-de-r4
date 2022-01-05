@@ -17,7 +17,7 @@
             <value value="http://hl7.de/technische-komitees/fhir/"/>
         </telecom>
     </contact>
-    <description value="Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"/>
+    <description value="Einschränkung von DiagnosisRole (Encounter.diagnosis.use) in Vorbereitung auf Änderungen in FHIR R5"/>
     <copyright value="HL7 Deutschland e.V."/>
     <compose>
         <include>
