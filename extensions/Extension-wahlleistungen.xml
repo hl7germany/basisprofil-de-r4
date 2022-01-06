@@ -43,7 +43,7 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <valueSet value="http://fhir.de/CodeSystem/wahlleistungen-de" />
+        <valueSet value="http://fhir.de/ValueSet/wahlleistungen-de" />
       </binding>
     </element>
     <element id="Extension.value[x].system">
