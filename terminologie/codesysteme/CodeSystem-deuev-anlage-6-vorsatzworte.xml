@@ -4,7 +4,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"/>
-	<version value="2.30"/>
+	<version value="1.0.0"/>
 	<name value="DeuevAnlage6Vorsatzworte"/>
 	<status value="active"/>
 	<experimental value="false"/>

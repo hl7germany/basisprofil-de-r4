@@ -4,7 +4,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
 	</meta>
 	<url value="http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"/>
-	<version value="2.25"/>
+	<version value="1.0.0"/>
 	<name value="DeuevAnlage7Namenszusaetze"/>
 	<status value="active"/>
 	<experimental value="false"/>
