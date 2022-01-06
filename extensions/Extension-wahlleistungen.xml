@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="wahlleistungen" />
-  <url value="http://fhir.de/StructureDefinition/wahlleistungen" />
+  <id value="Wahlleistung" />
+  <url value="http://fhir.de/StructureDefinition/Wahlleistung" />
   <version value="1.0.0" />
-  <name value="ExtensionWahlleistungen" />
+  <name value="ExtensionWahlleistung" />
   <status value="active" />
   <date value="2020-12-21" />
   <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
