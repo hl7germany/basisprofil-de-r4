@@ -10,7 +10,7 @@
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <description value="CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung" />
     <caseSensitive value="true" />
-    <valueSet value="http://fhir.de/ValueSet/Kontaktebene" />
+    <valueSet value="http://fhir.de/ValueSet/kontaktebene-de" />
     <content value="complete" />
     <concept>
         <code value="einrichtungskontakt" />
