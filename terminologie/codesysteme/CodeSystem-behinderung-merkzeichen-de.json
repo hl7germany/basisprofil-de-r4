@@ -14,7 +14,7 @@
   "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
   "version": "1.2.0",
   "url": "http://fhir.de/CodeSystem/cs-merkzeichen-de",
-  "caseSensitive": "true",
+  "caseSensitive": true,
   "concept": [
     {
       "code": "G",
