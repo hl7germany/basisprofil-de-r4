@@ -18,7 +18,8 @@
 	</contact>
 	<description value="Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen" />
 	<caseSensitive value="true" />
-	<valueSet value="http://fhir.de/ValueSet/Abrechnungsart" />
+	<valueSet value="http://fhir.de/ValueSet/dkgev/Abrechnungsart" />
+	<hierarchyMeaning value="grouped-by" />
 	<content value="complete" />
 	<concept>
 		<code value="AOP" />
