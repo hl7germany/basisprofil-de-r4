@@ -24,7 +24,7 @@
     <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle" />
     <compositional value="false" />
     <content value="complete" />
-    <count value="29" />
+    <count value="6" />
     <concept>
         <code value="1" />
         <display value="Normalfall" />
