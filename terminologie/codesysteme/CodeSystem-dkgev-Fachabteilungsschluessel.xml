@@ -20,6 +20,7 @@
 	</contact>
     <description value="Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung" />
     <copyright value="HL7 Deutschland e.V." />
+    <caseSensitive value="false" />
     <valueSet value="http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel" />
     <content value="fragment" />
     <count value="39" />
