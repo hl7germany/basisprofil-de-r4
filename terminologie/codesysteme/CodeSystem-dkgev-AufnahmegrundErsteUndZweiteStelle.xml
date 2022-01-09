@@ -20,10 +20,11 @@
 	</contact>
     <description value="Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V" />
     <copyright value="HL7 Deutschland e.V." />
+    <caseSensitive value="false" />
     <valueSet value="http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle" />
     <compositional value="false" />
     <content value="complete" />
-    <count value="29" />
+    <count value="9" />
     <concept>
         <code value="01" />
         <display value="Krankenhausbehandlung, vollstationär" />

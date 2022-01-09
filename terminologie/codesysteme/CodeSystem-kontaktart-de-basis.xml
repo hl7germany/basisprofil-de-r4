@@ -8,9 +8,12 @@
     <status value="active" />
     <experimental value="false" />
     <date value="2021-02-12" />
+    <caseSensitive value="true" />
     <valueSet value="http://fhir.de/ValueSet/kontaktart-de" />
+    <hierarchyMeaning value="is-a" />
     <compositional value="false" />
     <content value="complete" />
+    <count value="12" />
     <concept>
         <code value="begleitperson" />
         <display value="Begleitperson" />

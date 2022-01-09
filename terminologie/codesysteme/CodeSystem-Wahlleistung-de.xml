@@ -20,6 +20,7 @@
     </contact>
     <description value="Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen" />
     <copyright value="HL7 Deutschland e.V." />
+    <caseSensitive value="true" />
     <valueSet value="http://fhir.de/ValueSet/wahlleistungen-de" />
     <content value="complete" />
     <count value="10" />
