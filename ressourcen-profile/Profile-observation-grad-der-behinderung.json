@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "name": "GradDerBehinderung",
   "status": "active",
   "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",

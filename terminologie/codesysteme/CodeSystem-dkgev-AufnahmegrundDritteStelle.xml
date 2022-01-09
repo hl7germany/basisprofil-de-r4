@@ -5,7 +5,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
     </meta>
     <url value="http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle" />
-    <version value="1.0.0" />
+    <version value="1.2.0" />
     <name value="AufnahmegrundDritteStelle" />
     <title value="AufnahmegrundDritteStelle" />
 	<status value="active"/>
