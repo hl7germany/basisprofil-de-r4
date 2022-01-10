@@ -95,7 +95,7 @@
             "key": "value-only-tenth",
             "severity": "error",
             "human": "Ergebnis muss eine durch 10 teilbare Zahl sein",
-            "expression": "matches('^[1-9|10][0]$')",
+            "expression": "$this <= 100 and $this != 0 and $this mod 10 = 0",
             "source": "http://fhir.de/StructureDefinition/GradDerBehinderung"
           }
         ]
