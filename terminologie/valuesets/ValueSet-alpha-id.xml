@@ -5,7 +5,7 @@
   </meta>
   <url value="http://fhir.de/ValueSet/bfarm/alpha-id" />
   <version value="1.2.0" />
-  <name value="Alpha-id" />
+  <name value="AlphaId" />
   <status value="active" />
   <experimental value="false" />
   <date value="2021-02-17" />
