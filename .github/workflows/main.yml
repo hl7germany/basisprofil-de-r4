@@ -39,13 +39,12 @@ jobs:
           java-version: 1.8
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.3.2-alpha3
+        uses: FirelyTeam/firely-terminal-pipeline@v0.3.2-alpha4
         with:
           PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile terminologie/codesysteme terminologie/valuesets terminologie/namingsystems terminologie/ihe terminologie/conceptmap datentypen-profile extensions
           PATH_TO_EXAMPLES: beispiele
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
-          JAVA_VALIDATION_OPTIONS: -recurse
           OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_EXAMPLES_JAVA
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
