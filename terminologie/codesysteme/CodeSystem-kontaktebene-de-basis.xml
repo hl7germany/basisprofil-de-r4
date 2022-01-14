@@ -2,7 +2,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="Kontaktebene" />
     <url value="http://fhir.de/CodeSystem/Kontaktebene" />
-    <version value="1.0.0" />
+    <version value="1.2.0" />
     <name value="Kontaktebene" />
     <status value="active" />
     <experimental value="false" />
@@ -10,7 +10,7 @@
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <description value="CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung" />
     <caseSensitive value="true" />
-    <valueSet value="http://fhir.de/ValueSet/Kontaktebene" />
+    <valueSet value="http://fhir.de/ValueSet/kontaktebene-de" />
     <content value="complete" />
     <concept>
         <code value="einrichtungskontakt" />

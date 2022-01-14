@@ -4,7 +4,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
 	</meta>
 	<url value="http://fhir.de/CodeSystem/dkgev/Abrechnungsart" />
-	<version value="1.0.0" />
+	<version value="1.2.0" />
 	<name value="Abrechnungsart" />
 	<status value="active"/>
 	<experimental value="false"/>
@@ -18,7 +18,8 @@
 	</contact>
 	<description value="Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen" />
 	<caseSensitive value="true" />
-	<valueSet value="http://fhir.de/ValueSet/Abrechnungsart" />
+	<valueSet value="http://fhir.de/ValueSet/dkgev/Abrechnungsart" />
+	<hierarchyMeaning value="is-a" />
 	<content value="complete" />
 	<concept>
 		<code value="AOP" />

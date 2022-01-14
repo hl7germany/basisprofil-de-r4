@@ -2,15 +2,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="KontaktArtDe" />
     <url value="http://fhir.de/CodeSystem/kontaktart-de" />
-    <version value="1.0.0" />
+    <version value="1.2.0" />
     <name value="KontaktArtDe" />
     <title value="KontaktArtDe" />
     <status value="active" />
     <experimental value="false" />
     <date value="2021-02-12" />
+    <caseSensitive value="true" />
     <valueSet value="http://fhir.de/ValueSet/kontaktart-de" />
+    <hierarchyMeaning value="is-a" />
     <compositional value="false" />
     <content value="complete" />
+    <count value="12" />
     <concept>
         <code value="begleitperson" />
         <display value="Begleitperson" />

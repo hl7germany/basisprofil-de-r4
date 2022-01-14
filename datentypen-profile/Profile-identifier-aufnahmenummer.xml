@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="identifier-aufnahmenummer" />
   <url value="http://fhir.de/StructureDefinition/identifier-aufnahmenummer" />
-  <version value="1.0.0" />
+  <version value="1.2.0" />
   <name value="IdentifierAufnahmenummer" />
   <title value="Identifier-Profil für die Abbildung einer Aufnahmenummer (&quot;Fallnummer&quot;)" />
   <status value="active" />
