@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="Fachabteilungsschluessel-erweitert" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
+    </meta>
+    <url value="http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert" />
+    <version value="1.0.0" />
+    <name value="CodeSystemFachabteilungsschluesselErweitert" />
+    <title value="Fachabteilungsschluessel Erweitert" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2021-01-10" />
+    <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+    <contact>
+        <telecom>
+            <system value="other" />
+            <value value="http://hl7.de/technische-komitees/fhir/" />
+        </telecom>
+    </contact>
+    <description value="Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung" />
+    <copyright value="HL7 Deutschland e.V." />
+    <valueSet value="http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert" />
+    <content value="fragment" />
+    <count value="148" />
+    <concept>
+        <code value="0100" />
+        <display value="Innere Medizin" />
+    </concept>
+    <concept>
+        <code value="0200" />
+        <display value="Geriatrie" />
+    </concept>
+    <concept>
+        <code value="0300" />
+        <display value="Kardiologie" />
+    </concept>
+    <concept>
+        <code value="0400" />
+        <display value="Nephrologie" />
+    </concept>
+    <concept>
+        <code value="0500" />
+        <display value="Hämatologie und internistische Onkologie" />
+    </concept>
+    <concept>
+        <code value="0600" />
+        <display value="Endokrinologie" />
+    </concept>
+    <concept>
+        <code value="0700" />
+        <display value="Gastroenterologie" />
+    </concept>
+    <concept>
+        <code value="0800" />
+        <display value="Pneumologie" />
+    </concept>
+    <concept>
+        <code value="0900" />
+        <display value="Rheumatologie" />
+    </concept>
+    <concept>
+        <code value="1000" />
+        <display value="Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="1100" />
+        <display value="Kinderkardiologie" />
+    </concept>
+    <concept>
+        <code value="1200" />
+        <display value="Neonatologie" />
+    </concept>
+    <concept>
+        <code value="1300" />
+        <display value="Kinderchirurgie" />
+    </concept>
+    <concept>
+        <code value="1400" />
+        <display value="Lungen- und Bronchialheilkunde" />
+    </concept>
+    <concept>
+        <code value="1500" />
+        <display value="Allgemeine Chirurgie" />
+    </concept>
+    <concept>
+        <code value="1600" />
+        <display value="Unfallchirurgie" />
+    </concept>
+    <concept>
+        <code value="1700" />
+        <display value="Neurochirurgie" />
+    </concept>
+    <concept>
+        <code value="1800" />
+        <display value="Gefäßchirurgie" />
+    </concept>
+    <concept>
+        <code value="1900" />
+        <display value="Plastische Chirurgie" />
+    </concept>
+    <concept>
+        <code value="2000" />
+        <display value="Thoraxchirurgie" />
+    </concept>
+    <concept>
+        <code value="2100" />
+        <display value="Herzchirurgie" />
+    </concept>
+    <concept>
+        <code value="2200" />
+        <display value="Urologie" />
+    </concept>
+    <concept>
+        <code value="2300" />
+        <display value="Orthopädie" />
+    </concept>
+    <concept>
+        <code value="2400" />
+        <display value="Frauenheilkunde und Geburtshilfe" />
+    </concept>
+    <concept>
+        <code value="2500" />
+        <display value="Geburtshilfe" />
+    </concept>
+    <concept>
+        <code value="2600" />
+        <display value="Hals-, Nasen-, Ohrenheilkunde" />
+    </concept>
+    <concept>
+        <code value="2700" />
+        <display value="Augenheilkunde" />
+    </concept>
+    <concept>
+        <code value="2800" />
+        <display value="Neurologie" />
+    </concept>
+    <concept>
+        <code value="2900" />
+        <display value="Allgemeine Psychiatrie" />
+    </concept>
+    <concept>
+        <code value="3000" />
+        <display value="Kinder- und Jugendpsychiatrie" />
+    </concept>
+    <concept>
+        <code value="3100" />
+        <display value="Psychosomatik/Psychotherapie" />
+    </concept>
+    <concept>
+        <code value="3200" />
+        <display value="Nuklearmedizin" />
+    </concept>
+    <concept>
+        <code value="3300" />
+        <display value="Strahlenheilkunde" />
+    </concept>
+    <concept>
+        <code value="3400" />
+        <display value="Dermatologie" />
+    </concept>
+    <concept>
+        <code value="3500" />
+        <display value="Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie" />
+    </concept>
+    <concept>
+        <code value="3600" />
+        <display value="Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="2316" />
+        <display value="Orthopädie und Unfallchirurgie" />
+    </concept>
+    <concept>
+        <code value="2425" />
+        <display value="Frauenheilkunde" />
+    </concept>
+    <concept>
+        <code value="3700" />
+        <display value="Sonstige Fachabteilung" />
+    </concept>
+    <concept>
+        <code value="0102" />
+        <display value="Innere Medizin/Schwerpunkt Geriatrie" />
+    </concept>
+    <concept>
+        <code value="0103" />
+        <display value="Innere Medizin/Schwerpunkt Kardiologie" />
+    </concept>
+    <concept>
+        <code value="0104" />
+        <display value="Innere Medizin/Schwerpunkt Nephrologie" />
+    </concept>
+    <concept>
+        <code value="0105" />
+        <display value="Innere Medizin/Schwerpunkt Hämatologie und internistische Onkologie" />
+    </concept>
+    <concept>
+        <code value="0106" />
+        <display value="Innere Medizin/Schwerpunkt Endokrinologie" />
+    </concept>
+    <concept>
+        <code value="0107" />
+        <display value="Innere Medizin/Schwerpunkt Gastroenterologie" />
+    </concept>
+    <concept>
+        <code value="0108" />
+        <display value="Innere Medizin/Schwerpunkt Pneumologie" />
+    </concept>
+    <concept>
+        <code value="0109" />
+        <display value="Innere Medizin/Schwerpunkt Rheumatologie" />
+    </concept>
+    <concept>
+        <code value="0114" />
+        <display value="Innere Medizin/Schwerpunkt Lungen- und Bronchialheilkunde" />
+    </concept>
+    <concept>
+        <code value="0150" />
+        <display value="Innere Medizin/Tumorforschung" />
+    </concept>
+    <concept>
+        <code value="0151" />
+        <display value="Innere Medizin/Schwerpunkt Coloproktologie" />
+    </concept>
+    <concept>
+        <code value="0152" />
+        <display value="Innere Medizin/Schwerpunkt Infektionskrankheiten" />
+    </concept>
+    <concept>
+        <code value="0153" />
+        <display value="Innere Medizin/Schwerpunkt Diabetes" />
+    </concept>
+    <concept>
+        <code value="0154" />
+        <display value="Innere Medizin/Schwerpunkt Naturheilkunde" />
+    </concept>
+    <concept>
+        <code value="0156" />
+        <display value="Innere Medizin/Schwerpunkt Schlaganfallpatienten" />
+    </concept>
+    <concept>
+        <code value="0224" />
+        <display value="Geriatrie/Schwerpunkt Frauenheilkunde" />
+    </concept>
+    <concept>
+        <code value="0260" />
+        <display value="Geriatrie/Tagesklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="0261" />
+        <display value="Geriatrie/Nachtklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="0410" />
+        <display value="Nephrologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="0436" />
+        <display value="Nephrologie/Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="0510" />
+        <display value="Hämatologie und internistische Onkologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="0524" />
+        <display value="Hämatologie und internistische Onkologie/Schwerpunkt Frauenheilkunde" />
+    </concept>
+    <concept>
+        <code value="0533" />
+        <display value="Hämatologie und internistische Onkologie/Schwerpunkt Strahlenheilkunde" />
+    </concept>
+    <concept>
+        <code value="0607" />
+        <display value="Endokrinologie/Schwerpunkt Gastroenterologie" />
+    </concept>
+    <concept>
+        <code value="0610" />
+        <display value="Endokrinologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="0706" />
+        <display value="Gastroenterologie/Schwerpunkt Endokrinologie" />
+    </concept>
+    <concept>
+        <code value="0710" />
+        <display value="Gastroenterologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="0910" />
+        <display value="Rheumatologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="1004" />
+        <display value="Pädiatrie/Schwerpunkt Nephrologie" />
+    </concept>
+    <concept>
+        <code value="1005" />
+        <display value="Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie" />
+    </concept>
+    <concept>
+        <code value="1006" />
+        <display value="Pädiatrie/Schwerpunkt Endokrinologie" />
+    </concept>
+    <concept>
+        <code value="1007" />
+        <display value="Pädiatrie/Schwerpunkt Gastroenterologie" />
+    </concept>
+    <concept>
+        <code value="1009" />
+        <display value="Pädiatrie/Schwerpunkt Rheumatologie" />
+    </concept>
+    <concept>
+        <code value="1011" />
+        <display value="Pädiatrie/Schwerpunkt Kinderkardiologie" />
+    </concept>
+    <concept>
+        <code value="1012" />
+        <display value="Pädiatrie/Schwerpunkt Neonatologie" />
+    </concept>
+    <concept>
+        <code value="1014" />
+        <display value="Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde" />
+    </concept>
+    <concept>
+        <code value="1028" />
+        <display value="Pädiatrie/Schwerpunkt Kinderneurologie" />
+    </concept>
+    <concept>
+        <code value="1050" />
+        <display value="Pädiatrie/Schwerpunkt Perinatalmedizin" />
+    </concept>
+    <concept>
+        <code value="1051" />
+        <display value="Langzeitbereich Kinder" />
+    </concept>
+    <concept>
+        <code value="1136" />
+        <display value="Kinderkardiologie/Schwerpunkt Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="1410" />
+        <display value="Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="1513" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Kinderchirurgie" />
+    </concept>
+    <concept>
+        <code value="1516" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Unfallchirurgie" />
+    </concept>
+    <concept>
+        <code value="1518" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Gefäßchirurgie" />
+    </concept>
+    <concept>
+        <code value="1519" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Plastische Chirurgie" />
+    </concept>
+    <concept>
+        <code value="1520" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Thoraxchirurgie" />
+    </concept>
+    <concept>
+        <code value="1523" />
+        <display value="Chirurgie/Schwerpunkt Orthopädie" />
+    </concept>
+    <concept>
+        <code value="1536" />
+        <display value="Allgemeine Chirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3, 2. Halbs. BPflV in der am 31.12.2003 geltenden Fassung)" />
+    </concept>
+    <concept>
+        <code value="1550" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Abdominal- und Gefäßchirurgie" />
+    </concept>
+    <concept>
+        <code value="1551" />
+        <display value="Allgemeine Chirurgie/Schwerpunkt Handchirurgie" />
+    </concept>
+    <concept>
+        <code value="2021" />
+        <display value="Thoraxchirurgie/Schwerpunkt Herzchirurgie" />
+    </concept>
+    <concept>
+        <code value="2036" />
+        <display value="Thoraxchirurgie/Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="2050" />
+        <display value="Thoraxchirurgie/Schwerpunkt Herzchirurgie Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="2118" />
+        <display value="Herzchirurgie/Schwerpunkt Gefäßchirurgie" />
+    </concept>
+    <concept>
+        <code value="2120" />
+        <display value="Herzchirurgie/Schwerpunkt Thoraxchirurgie" />
+    </concept>
+    <concept>
+        <code value="2136" />
+        <display value="Herzchirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3 2. Halbsatz BPflV in der am 31.12.2003 geltenden Fassung)" />
+    </concept>
+    <concept>
+        <code value="2150" />
+        <display value="Herzchirurgie/Schwerpunkt Thoraxchirurgie Intensivmedizin" />
+    </concept>
+    <concept>
+        <code value="2309" />
+        <display value="Orthopädie/Schwerpunkt Rheumatologie" />
+    </concept>
+    <concept>
+        <code value="2315" />
+        <display value="Orthopädie/Schwerpunkt Chirurgie" />
+    </concept>
+    <concept>
+        <code value="2402" />
+        <display value="Frauenheilkunde/Schwerpunkt Geriatrie" />
+    </concept>
+    <concept>
+        <code value="2405" />
+        <display value="Frauenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie" />
+    </concept>
+    <concept>
+        <code value="2406" />
+        <display value="Frauenheilkunde/Schwerpunkt Endokrinologie" />
+    </concept>
+    <concept>
+        <code value="2810" />
+        <display value="Neurologie/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="2851" />
+        <display value="Neurologie/Schwerpunkt Gerontologie" />
+    </concept>
+    <concept>
+        <code value="2852" />
+        <display value="Neurologie/Schwerpunkt Neurologische Frührehabilitation" />
+    </concept>
+    <concept>
+        <code value="2856" />
+        <display value="Neurologie/Schwerpunkt Schlaganfallpatienten" />
+    </concept>
+    <concept>
+        <code value="2928" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Neurologie" />
+    </concept>
+    <concept>
+        <code value="2930" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Kinder- und Jugendpsychiatrie" />
+    </concept>
+    <concept>
+        <code value="2931" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Psychosomatik/Psychotherapie" />
+    </concept>
+    <concept>
+        <code value="2950" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung" />
+    </concept>
+    <concept>
+        <code value="2951" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie" />
+    </concept>
+    <concept>
+        <code value="2952" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Forensische Behandlung" />
+    </concept>
+    <concept>
+        <code value="2953" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik" />
+    </concept>
+    <concept>
+        <code value="2954" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Nachtklinik" />
+    </concept>
+    <concept>
+        <code value="2955" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Tagesklinik" />
+    </concept>
+    <concept>
+        <code value="2956" />
+        <display value="Allgemeine Psychiatrie/Schwerpunkt Gerontopsychiatrie, Nachtklinik" />
+    </concept>
+    <concept>
+        <code value="2960" />
+        <display value="Allgemeine Psychiatrie/Tagesklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="2961" />
+        <display value="Allgemeine Psychiatrie/Nachtklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3060" />
+        <display value="Kinder- und Jugendpsychiatrie/Tagesklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3061" />
+        <display value="Kinder- und Jugendpsychiatrie/Nachtklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3110" />
+        <display value="Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik" />
+    </concept>
+    <concept>
+        <code value="3160" />
+        <display value="Psychosomatik/Psychotherapie/Tagesklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3161" />
+        <display value="Psychosomatik/Psychotherapie/Nachtklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3233" />
+        <display value="Nuklearmedizin/Schwerpunkt Strahlenheilkunde" />
+    </concept>
+    <concept>
+        <code value="3305" />
+        <display value="Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie" />
+    </concept>
+    <concept>
+        <code value="3350" />
+        <display value="Strahlenheilkunde/Schwerpunkt Radiologie" />
+    </concept>
+    <concept>
+        <code value="3460" />
+        <display value="Dermatologie/Tagesklinik (für teilstationäre Pflegesätze)" />
+    </concept>
+    <concept>
+        <code value="3601" />
+        <display value="Intensivmedizin/Schwerpunkt Innere Medizin" />
+    </concept>
+    <concept>
+        <code value="3603" />
+        <display value="Intensivmedizin/Schwerpunkt Kardiologie" />
+    </concept>
+    <concept>
+        <code value="3610" />
+        <display value="Intensivmedizin/Schwerpunkt Pädiatrie" />
+    </concept>
+    <concept>
+        <code value="3617" />
+        <display value="Intensivmedizin/Schwerpunkt Neurochirurgie" />
+    </concept>
+    <concept>
+        <code value="3618" />
+        <display value="Intensivmedizin/Schwerpunkt Chirurgie" />
+    </concept>
+    <concept>
+        <code value="3621" />
+        <display value="Intensivmedizin/Herzchirurgie" />
+    </concept>
+    <concept>
+        <code value="3622" />
+        <display value="Intensivmedizin/Schwerpunkt Urologie" />
+    </concept>
+    <concept>
+        <code value="3624" />
+        <display value="Intensivmedizin/Schwerpunkt Frauenheilkunde und Geburtshilfe" />
+    </concept>
+    <concept>
+        <code value="3626" />
+        <display value="Intensivmedizin/Schwerpunkt Hals-, Nasen-, Ohrenheilkunde" />
+    </concept>
+    <concept>
+        <code value="3628" />
+        <display value="Intensivmedizin/Schwerpunkt Neurologie" />
+    </concept>
+    <concept>
+        <code value="3650" />
+        <display value="Operative Intensivmedizin/Schwerpunkt Chirurgie" />
+    </concept>
+    <concept>
+        <code value="3651" />
+        <display value="Intensivmedizin/Thorax-Herzchirurgie" />
+    </concept>
+    <concept>
+        <code value="3652" />
+        <display value="Intensivmedizin/Herz-Thoraxchirurgie" />
+    </concept>
+    <concept>
+        <code value="3750" />
+        <display value="Angiologie" />
+    </concept>
+    <concept>
+        <code value="3751" />
+        <display value="Radiologie" />
+    </concept>
+    <concept>
+        <code value="3752" />
+        <display value="Palliativmedizin" />
+    </concept>
+    <concept>
+        <code value="3753" />
+        <display value="Schmerztherapie" />
+    </concept>
+    <concept>
+        <code value="3754" />
+        <display value="Heiltherapeutische Abteilung" />
+    </concept>
+    <concept>
+        <code value="3755" />
+        <display value="Wirbelsäulenchirurgie" />
+    </concept>
+    <concept>
+        <code value="3756" />
+        <display value="Suchtmedizin" />
+    </concept>
+    <concept>
+        <code value="3757" />
+        <display value="Visceralchirurgie" />
+    </concept>
+    <concept>
+        <code value="3758" />
+        <display value="Weaningeinheit" />
+    </concept>
+</CodeSystem>
