@@ -18,7 +18,7 @@
             <value value="http://hl7.de/technische-komitees/fhir/" />
         </telecom>
     </contact>
-    <description value="Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung" />
+    <description value="Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen" />
     <copyright value="HL7 Deutschland e.V." />
     <valueSet value="http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert" />
     <content value="fragment" />
