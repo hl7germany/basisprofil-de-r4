@@ -1,23 +1,5 @@
-- include: minimal
-
-- name: id-mandatory
-  status: "Checking if all resources have an id"
-  predicate: id.exists()
-  filter: ImplementationGuide.exists().not() # Exclude IG resource, metadata cannot be set in Simplifier right now
-  error-message: "Resource {{filepath}} must have an id"
-
-- name: no-snapshot
-  status: "Checking that structure definitions do not have a pre-generated snapshot"
-  filter: StructureDefinition
-  predicate: snapshot.element.count() = 0
-  error-message: You should not generate a snapshot in your source. Allow the tools to generate the snapshot.
-
-- name: canonical-starts-with
-  filter: url.exists() and ImplementationGuide.exists().not()
-  # Excluding IGs for now, since they have a Simplifier.net canonical
-  status: "Checking if canonical URL starts with correct base"
-  predicate: url.startsWith('http://fhir.de/') or url = 'urn:iso:std:iso:3166-2:de'
-  error-message: "Canonical URL doesn't start with correct base"
+- include: recommended
+  name: include-recommended
 
 - name: version-filled
   filter: (StructureDefinition or ValueSet or CodeSystem or CapabilityStatement or SearchParameter or ConceptMap).exists()
