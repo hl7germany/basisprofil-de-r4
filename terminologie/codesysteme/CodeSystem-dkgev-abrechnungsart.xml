@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="Aufnahmeart" />
+	<id value="Abrechnungsart" />
 	<meta>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem" />
 	</meta>
@@ -24,42 +24,42 @@
 	<concept>
 		<code value="AOP" />
 		<display value="Ambulantes Operieren" />
-		<definition value="Aufnahme zum ambulanten Operieren gem. §115 SGB V"/>
+		<definition value="Ambulantes Operieren gem. §115 SGB V"/>
 	</concept>
 	<concept>
 		<code value="HSA" />
 		<display value="Hochschulambulanz" />
-		<definition value="Ambulante Aufnahme in Hochschulambulanz gem. §115 SGB V"/>
+		<definition value="Hochschulambulanz gem. §117 SGB V"/>
 	</concept>
 	<concept>
 		<code value="PIA" />
 		<display value="Psychiatrische Institutsambulanz" />
-		<definition value="Ambulante Aufnahme in Psychiatrische Institutsambulanz gem. §115 SGB V"/>
+		<definition value="Psychiatrische Institutsambulanz gem. §118 SGB V"/>
 	</concept>
 	<concept>
 		<code value="SPZ" />
 		<display value="Sozialpädiatrische Zentren" />
-		<definition value="Ambulante Aufnahme in Sozialpädiatrisches Zentrum gem. §115 SGB V"/>
+		<definition value="Sozialpädiatrisches Zentrum gem. §119 SGB V"/>
 	</concept>
 	<concept>
 		<code value="ASV" />
 		<display value="Ambulante Spezialfachärztliche Versorgung" />
-		<definition value="Ambulante Aufnahme zur spezialfachärztlichen Versorgung gem. §115 SGB V"/>
+		<definition value="Ambulante Sezialfachärztlichen Versorgung gem. §116 SGB V"/>
 	</concept>
 	<concept>
 		<code value="KIA" />
 		<display value="Spezialambulanz in Kinderkliniken" />
-		<definition value="Ambulante Aufnahme in Spezialambulanz in Kinderkliniken"/>
+		<definition value="Spezialambulanz in Kinderkliniken"/>
 	</concept>
 	<concept>
 		<code value="DRG" />
 		<display value="Diagnosebezogene Fallgruppen" />
-		<definition value="Voll-/Teilstationäre Aufnahme gem. §301 SGB V: Diagnosebezogene Fallgruppen"/>
+		<definition value="Abrechnung voll-/teilstationäre Leistungen gem. §301 SGB V: Diagnosebezogene Fallgruppen"/>
 	</concept>
 	<concept>
 		<code value="PEPP" />
 		<display value="Pauschalierendes Entgeltsystem Psychiatrie und Psychosomatik" />
-		<definition value="Voll-/Teilstationäre Aufnahme gem. §301 SGB V: Pauschalierendes Entgeltsystem Psychiatrie und Psychosomatik"/>
+		<definition value="Abrechnung voll-/teilstationäre Leistungen gem. §301 SGB V: Pauschalierendes Entgeltsystem Psychiatrie und Psychosomatik"/>
 	</concept>
 	<concept>
 		<code value="VNSB" />
@@ -69,7 +69,7 @@
 	<concept>
 		<code value="AP" />
 		<display value="Ausländische Patienten (nicht EU)" />
-		<definition value="Voll-/Teilstationäre Aufnahme ausländischer Patienten (nicht-EU)"/>
+		<definition value="Abrechnung voll-/teilstationäre Leistungen ausländischer Patienten (nicht-EU)"/>
 	</concept>
 	<concept>
 		<code value="SPB" />
@@ -78,32 +78,27 @@
 	<concept>
 		<code value="WLU" />
 		<display value="Wahlleistung Unterkunft" />
-		<definition value="Voll-/Teilstationäre Aufnahme gem §301 SGB mit Wahlleistung Unterkunft"/>
+		<definition value="Wahlleistung Unterkunft gem §301 SGB"/>
 	</concept>
 	<concept>
 		<code value="WLA" />
 		<display value="Wahlleistung Arzt" />
-		<definition value="Voll-/Teilstationäre Aufnahme gem §301 SGB mit Wahlleistung Arzt, Chefarztabrechnung, Privatliquidation"/>
+		<definition value="Wahlleistung Arzt, Chefarztabrechnung, Privatliquidation gem §301 SGB"/>
 	</concept>
 	<concept>
 		<code value="PS" />
 		<display value="Privatsprechstunde" />
-		<definition value="ambulante Aufnahme in Privatsprechstunde mit Privatliquidation"/>
+		<definition value="Privatsprechstunde mit Privatliquidation"/>
 	</concept>
 	<concept>
 		<code value="SZ" />
 		<display value="Selbstzahlerrechnung" />
-		<definition value="ambulante Aufnahme mit Selbstzahlerrechnung"/>
-	</concept>
-	<concept>
-		<code value="IGEL" />
-		<display value="Medizinische Wahlleistung (IGeL)" />
-		<definition value="ambulante Aufnahme mit mit medizinischer Wahlleistung (IGeL)"/>
+		<definition value="Selbstzahlerrechnung"/>
 	</concept>
 	<concept>
 		<code value="KV" />
 		<display value="KV-Ermächtigung / Notfallabrechnung" />
-		<definition value="ambulante Aufnahme gem §295 SGB V"/>
+		<definition value="Abrechnung von Leistungen gem §295 SGB V"/>
 		<concept>
 			<code value="KVN" />
 			<display value="KV-Notfall" />
@@ -116,7 +111,7 @@
 	<concept>
 		<code value="BG" />
 		<display value="Berufsgenossenschaft" />
-		<definition value="ambulante Aufnahme mit BG-Abrechnung"/>
+		<definition value="BG-Abrechnung"/>
 	</concept>
 	<concept>
 		<code value="SL" />
@@ -136,22 +131,22 @@
 	<concept>
 		<code value="MVZ" />
 		<display value="Medizinische Versorgungszentren" />
-		<definition value="ambulante Aufnahme in Medizinisches Versorgungszentrum"/>
+		<definition value="Abrechnung von ambulanten Leistungen in einem Medizinischen Versorgungszentrum"/>
 	</concept>
 	<concept>
 		<code value="IV" />
 		<display value="integrierte Versorgung" />
-		<definition value="ambulante Aufnahme im Rahmen der integrierten Versorgung"/>
+		<definition value="Abrechnung von Leistungen im Rahmen der integrierten Versorgung"/>
 	</concept>
 	<concept>
 		<code value="DMP" />
 		<display value="Disease Management Program" />
-		<definition value="ambulante Aufnahme im Rahmen eines Disease Management Programs"/>
+		<definition value="Abrechnung von Leistungen im Rahmen eines Disease Management Programs"/>
 	</concept>
 	<concept>
 		<code value="REHA" />
 		<display value="Rehabilitations-Einrichtungen" />
-		<definition value="stationäre Aufnahme in Rehabilitations-Einrichtungen"/>
+		<definition value="Abrechnung von Leistungen in Rehabilitations-Einrichtungen"/>
 	</concept>
 	<concept>
 		<code value="PSY" />
