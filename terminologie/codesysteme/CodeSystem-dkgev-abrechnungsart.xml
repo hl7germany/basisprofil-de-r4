@@ -44,7 +44,7 @@
 	<concept>
 		<code value="ASV" />
 		<display value="Ambulante Spezialfachärztliche Versorgung" />
-		<definition value="Ambulante Sezialfachärztlichen Versorgung gem. §116 SGB V"/>
+		<definition value="Ambulante Spezialfachärztliche Versorgung gem. §116 SGB V"/>
 	</concept>
 	<concept>
 		<code value="KIA" />
