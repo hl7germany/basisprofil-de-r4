@@ -52,17 +52,24 @@
     </element>
     <element id="Coverage.type.coding">
       <path value="Coverage.type.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
       <min value="1" />
     </element>
-    <element id="Coverage.type.coding.system">
-      <path value="Coverage.type.coding.system" />
+    <element id="Coverage.type.coding:VersicherungsArtDeBasis">
+      <path value="Coverage.type.coding" />
+      <sliceName value="VersicherungsArtDeBasis" />
       <min value="1" />
-      <fixedUri value="http://fhir.de/CodeSystem/versicherungsart-de-basis" />
-    </element>
-    <element id="Coverage.type.coding.code">
-      <path value="Coverage.type.coding.code" />
-      <min value="1" />
-      <fixedCode value="SEL" />
+      <max value="1" />
+      <patternCoding>
+        <system value="http://fhir.de/CodeSystem/versicherungsart-de-basis" />
+        <code value="SEL" />
+      </patternCoding>
     </element>
     <element id="Coverage.subscriber">
       <path value="Coverage.subscriber" />
