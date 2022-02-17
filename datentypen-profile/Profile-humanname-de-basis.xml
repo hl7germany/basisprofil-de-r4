@@ -82,7 +82,7 @@
       </mapping>
       <mapping>
         <identity value="KVDT" />
-        <map value="3120 + 3100 + 3101" />
+        <map value="3100 + 3120 + 3101" />
       </mapping>
     </element>
     <element id="HumanName.family.extension">
