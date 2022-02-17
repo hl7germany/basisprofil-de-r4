@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsart",
-  "url": "http://example.org/StructureDefinition/ExtensionAbrechnungsart",
+  "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsart",
   "version": "1.2.0",
   "name": "ExtensionAbrechnungsart",
   "title": "Abrechnungsart",
@@ -33,7 +33,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Account.coverage"
     }
   ],
   "type": "Extension",
@@ -54,7 +54,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/ExtensionAbrechnungsart"
+        "fixedUri": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsart"
       },
       {
         "id": "Extension.value[x]",
