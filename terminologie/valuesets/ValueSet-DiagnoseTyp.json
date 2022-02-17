@@ -4,7 +4,7 @@
   "name": "DiagnoseTyp",
   "id": "DiagnoseTyp",
   "version": "1.2.0",
-  "url": "http://example.org/ValueSet/DiagnoseTyp",
+  "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
   "date": "2022-02-17",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -22,7 +22,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.org/CodeSystem/KontaktDiagnoseProzedur",
+        "system": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
         "concept": [
           {
             "code": "referral-diagnosis",
