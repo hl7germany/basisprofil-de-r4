@@ -27,8 +27,8 @@
       <path value="Identifier.type" />
       <patternCodeableConcept>
         <coding>
-          <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
-          <code value="GKV" />
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+          <code value="ANON" />
         </coding>
       </patternCodeableConcept>
     </element>
