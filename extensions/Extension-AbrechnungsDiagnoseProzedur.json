@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsDiagnoseProzedur",
-  "url": "http://example.org/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur",
+  "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur",
   "version": "1.2.0",
   "name": "ExtensionAbrechnungsDiagnoseProzedur",
   "title": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren",
@@ -33,7 +33,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Account"
     }
   ],
   "type": "Extension",
@@ -90,7 +90,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "http://example.org/ValueSet/AbrechnungsDiagnoseProzedur"
+          "valueSet": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur"
         }
       },
       {
@@ -127,7 +127,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur"
+        "fixedUri": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur"
       },
       {
         "id": "Extension.value[x]",
