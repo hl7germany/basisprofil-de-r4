@@ -81,10 +81,10 @@
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.value[x]" />
       <sliceName value="valueQuantity" />
-    </element>
-    <element id="Observation.value[x]:valueQuantity.code">
-      <path value="Observation.value[x].code" />
-      <patternCode value="/min" />
+      <patternQuantity>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="/min"/>
+      </patternQuantity>
     </element>
   </differential>
 </StructureDefinition>
