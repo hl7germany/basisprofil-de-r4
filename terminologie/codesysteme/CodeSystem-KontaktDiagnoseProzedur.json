@@ -46,6 +46,7 @@
     }
   ],
   "experimental": false,
+  "caseSensitive": false,
   "date": "2022-02-17",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
