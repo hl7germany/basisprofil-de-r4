@@ -4,7 +4,7 @@
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <url value="http://fhir.de/ValueSet/dkgev/FachabteilungsschluesselErweitert"/>
+  <url value="http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"/>
   <version value="1.2.0"/>
   <name value="ValueSetFachabteilungsschluesselErweitert"/>
   <status value="active"/>
