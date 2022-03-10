@@ -53,6 +53,13 @@
     <element id="Identifier.assigner.identifier.value">
       <path value="Identifier.assigner.identifier.value" />
       <min value="1" />
+      <constraint>
+        <key value="bsnr-1" />
+        <severity value="warning" />
+        <human value="Eine BSNR muss neunstellig numerisch sein" />
+        <expression value="matches('[0-9]{9}')" />
+        <source value="http://fhir.de/StructureDefinition/identifier-bsnr" />
+      </constraint>
     </element>
     <element id="Identifier.assigner.display">
       <path value="Identifier.assigner.display" />
