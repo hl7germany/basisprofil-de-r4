@@ -21,13 +21,9 @@
 			<code value="ZANR"/>
 		</coding>
 	</type>
-	<description value="Dieses NamingSystem wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw.
-			den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden.
-			Die Zahnarztnummer ist 8-stellig numerisch.
-			Sie besteht in Stelle 1-2 aus den zweistelligen numerischen Codes der herausgebenen KZV sowie in Stelle 3-8 aus der eigentlichen Zahnarztnummer.
-			Letztere ist 1- bis 6-stellig numerisch und wird bei weniger als 6 Stellen mit Nullen (0) nach links aufgefüllt.
-			Die KZV-Codes sind hier zu finden (Seite 77): https://www.gkv-datenaustausch.de/media/dokumente/leistungserbringer_1/zahnaerzte/technische_anlagen___aktuell_1/20170727_TA_Version_3_8_oA.pdf
-			"/>
+	<description value="Dieses NamingSystem umfasst wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet. Hierunter fallen zwei verschiedene Definitionen:
+	1. Ab dem 01.01.2023 wird die Zahnarztnummer durch die KZVen in einem 9-stelligen Format herausgegben. Die Zahnarztnummer hat die Struktur einer neunstelligen Ziffernfolge. Die Nummer setzt sich aus einer sechsstelligen eineindeutigen Ziffernfolge (Ziffern 1 - 6) und einer Prüfziffer (Ziffer 7) zusammen. Die Stellen 1-7 werden als Identifizierer bezeichnet und sind für jeden Zahnarzt eindeutig. An der achten und neunten Stelle wird ihr analog zu der im ärztlichen Bereich verwendeten zweistelligen Fachgruppenkennung eine besondere Zahnarztkennung zugewiesen.
+	2. Historische Zahnarztnummern haben gleichermaßen einen neunstelligen Aufbau. Die Zahnarztnummer setzt sich aus insgesamt neun Ziffern zusammen: 1. einer sechsstelligen eineindeutigen Ziffernfolge (Ziffern 1 - 6) 2. einer Prüfziffer (Ziffer 7) 3. einer zweistelligen Zahnarztkennung (Ziffern 8 - 9)."/>
 	<usage value="Das NamingSystem wird in Identifiern von Zahnärzten (Practitioner) verwendet."/>
 	<uniqueId>
 		<type value="uri"/>
