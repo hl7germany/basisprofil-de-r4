@@ -2,7 +2,7 @@
 	<id value="wg14" />
 	<url value="http://fhir.de/CodeSystem/abdata/wg14"/>
 	<version value="1.2.0" />
-	<name value="Wg14"/>
+	<name value="WG14"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<date value="2021-02-17"/>
