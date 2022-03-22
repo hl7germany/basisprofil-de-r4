@@ -20,7 +20,7 @@
   <copyright value="ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH"/>
   <compose>
     <include>
-      <system value="http://fhir.de/CodeSystem/bfarm/atc" />
+      <system value="http://fhir.de/CodeSystem/abdata/wg14" />
     </include>
   </compose>
 </ValueSet>
