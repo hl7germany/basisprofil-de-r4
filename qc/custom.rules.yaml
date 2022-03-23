@@ -8,7 +8,7 @@
   predicate: version.exists() and (version in ('1.3.0'))
   error-message: "version not filled (correctly)"
 
-  - action: Check for valid ids
+- action: Check for valid ids
   # See https://github.com/FirelyTeam/firely-net-sdk/issues/1773
   predicate: id.matches('^[A-Za-z0-9\\-\\.]{1,64}$')
   error: The resource must have a valid id
