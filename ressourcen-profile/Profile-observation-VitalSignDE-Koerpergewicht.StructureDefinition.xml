@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="observation-de-vitalsign-koerpergewicht" />
   <url value="http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht" />
-  <version value="1.2.0" />
+  <version value="1.3.0" />
   <name value="VitalSignDE_Koerpergewicht" />
   <status value="active" />
   <date value="2020-05-14" />
