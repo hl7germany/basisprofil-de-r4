@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="CodingAlphaID" />
   <url value="http://fhir.de/StructureDefinition/CodingAlphaID" />
-  <version value="1.2.0" />
+  <version value="1.3.0" />
   <name value="CodingAlphaID" />
   <title value="Coding-Profil für Alpha-ID" />
   <status value="active" />
