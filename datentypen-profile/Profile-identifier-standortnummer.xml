@@ -27,7 +27,7 @@ Form und Inhalt der Nutzdaten zur Vereinbarung gemäß § 293 Abs. 6 SGB V)." /
     <element id="Identifier.system">
       <path value="Identifier.system" />
       <min value="1" />
-      <fixedUri value="https://fhir.de/fhir/sid/dkgev/standortnummer" />
+      <fixedUri value="http://fhir.de/fhir/sid/dkgev/standortnummer" />
     </element>
     <element id="Identifier.value">
       <path value="Identifier.value" />
