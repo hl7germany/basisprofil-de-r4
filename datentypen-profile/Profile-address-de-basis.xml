@@ -92,7 +92,7 @@
         <key value="add-7" />
         <severity value="warning" />
         <human value="Wenn die Extension 'Precinct' (Stadtteil) verwendet wird, dann muss diese Information auch als separates line-item abgebildet sein." />
-        <expression value="extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').empty() or line.where(extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').value.ofType(string)=$this).exists()" />
+        <expression value="extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').empty() or all(line contains extension('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct').value.ofType(string))" />
         <source value="http://fhir.de/StructureDefinition/address-de-basis" />
       </constraint>
     </element>
