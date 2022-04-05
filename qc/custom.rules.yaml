@@ -5,7 +5,7 @@
   filter: (StructureDefinition or ValueSet or CodeSystem or CapabilityStatement or SearchParameter or ConceptMap).exists()
   # Excluding NamingSystem as they have no version, also exclude ImplementationGuide as metadata cannot be set in Simplifier right now
   status: "Checking if all resources have version filled"
-  predicate: version.exists() and (version in ('1.3.0'))
+  predicate: version.exists() and (version in ('1.3.2'))
   error-message: "version not filled (correctly)"
 
 - action: Check for valid ids

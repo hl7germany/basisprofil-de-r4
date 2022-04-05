@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="CodingATC" />
   <url value="http://fhir.de/StructureDefinition/CodingATC" />
-  <version value="1.3.0" />
+  <version value="1.3.2" />
   <name value="CodingATC" />
   <title value="Coding-Profil für ATC" />
   <status value="active" />
