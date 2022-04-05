@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsart",
   "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsart",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "name": "ExtensionAbrechnungsart",
   "title": "Abrechnungsart",
   "status": "draft",

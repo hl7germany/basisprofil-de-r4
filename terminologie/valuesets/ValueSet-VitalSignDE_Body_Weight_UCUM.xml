@@ -5,7 +5,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
     </meta>
     <url value="http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM" />
-    <version value="1.3.0" />
+    <version value="1.3.2"/>
     <name value="VitalSignDE_Body_Weigth_UCUM" />
     <title value="VitalSignDE_Body_Weigth_UCUM" />
     <status value="active" />

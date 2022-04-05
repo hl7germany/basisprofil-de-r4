@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="normgroesse" />
   <url value="http://fhir.de/StructureDefinition/normgroesse" />
-  <version value="1.3.0" />
+  <version value="1.3.2" />
   <name value="ExtensionNormgroesseDeBasis" />
   <status value="active" />
   <date value="2020-05-14" />
