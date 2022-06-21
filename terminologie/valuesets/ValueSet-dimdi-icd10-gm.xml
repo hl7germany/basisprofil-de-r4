@@ -21,6 +21,7 @@
 	<compose>
 		<include>
 			<system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm" />
+			<version value="*" />
 		</include>
 	</compose>
 </ValueSet>
