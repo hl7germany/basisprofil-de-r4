@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "DiagnoseTyp",
   "id": "DiagnoseTyp",
   "version": "1.3.2",
