@@ -266,7 +266,7 @@
     <element id="Coverage.beneficiary.display">
       <path value="Coverage.beneficiary.display" />
       <short value="Name der Versicherten Person" />
-      <definition value="Die Angabe des Namens des Versicherten dient der geeigenten Darstellung für den Benutzer und hat keine technische Bedeutung." />
+      <definition value="Die Angabe des Namens des Versicherten dient der geeigneten Darstellung für den Benutzer und hat keine technische Bedeutung." />
     </element>
     <element id="Coverage.period.start">
       <path value="Coverage.period.start" />
