@@ -26,11 +26,11 @@
         "concept": [
           {
             "code": "referral-diagnosis",
-            "display": "Überweisungsdiagnose"
+            "display": "Einweisungs-/Überweisungsdiagnose"
           },
           {
             "code": "treatment-diagnosis",
-            "display": "Behandlungsdiagnose"
+            "display": "Behandlungsrelevante Diagnosen"
           }
         ]
       }
