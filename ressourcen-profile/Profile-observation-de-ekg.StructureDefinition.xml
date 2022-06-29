@@ -62,10 +62,10 @@
     <element id="Observation.code">
       <path value="Observation.code" />
       <patternCodeableConcept>
-        <patternCoding>
+        <coding>
           <system value="http://loinc.org" />
           <code value="LP6244-0" />
-        </patternCoding>
+        </coding>
       </patternCodeableConcept>
     </element>
     <element id="Observation.subject">
