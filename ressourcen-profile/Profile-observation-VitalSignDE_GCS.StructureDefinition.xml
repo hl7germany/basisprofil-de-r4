@@ -51,26 +51,14 @@
   <baseDefinition value='http://fhir.de/StructureDefinition/observation-de-vitalsign'/>
   <derivation value='constraint'/>
   <differential>
-    <element id='Observation.code.coding'>
-      <path value='Observation.code.coding'/>
-      <slicing>
-        <discriminator>
-          <type value='pattern'/>
-          <path value='$this'/>
-        </discriminator>
-        <rules value='open'/>
-      </slicing>
-      <min value='1'/>
-    </element>
-    <element id='Observation.code.coding:loinc'>
-      <path value='Observation.code.coding'/>
-      <sliceName value='loinc'/>
-      <min value='1'/>
-      <max value='1'/>
-      <patternCoding>
-        <system value='http://loinc.org'/>
-        <code value='9269-2'/>
-      </patternCoding>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value='9269-2'/>
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id='Observation.value[x]'>
       <path value='Observation.value[x]'/>
@@ -121,27 +109,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id='Observation.component:Eye.code.coding'>
-      <path value='Observation.component.code.coding'/>
-      <slicing>
-        <discriminator>
-          <type value='pattern'/>
-          <path value='$this'/>
-        </discriminator>
-        <rules value='open'/>
-      </slicing>
-      <min value='1'/>
-    </element>
-    <element id='Observation.component:Eye.code.coding:loinc'>
-      <path value='Observation.component.code.coding'/>
-      <sliceName value='loinc'/>
-      <min value='1'/>
-      <max value='1'/>
-      <patternCoding>
-        <system value='http://loinc.org'/>
-        <code value='9267-6'/>
-      </patternCoding>
-    </element>
     <element id='Observation.component:Eye.value[x]'>
       <path value='Observation.component.value[x]'/>
       <min value='1'/>
@@ -171,27 +138,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id='Observation.component:Motor.code.coding'>
-      <path value='Observation.component.code.coding'/>
-      <slicing>
-        <discriminator>
-          <type value='pattern'/>
-          <path value='$this'/>
-        </discriminator>
-        <rules value='open'/>
-      </slicing>
-      <min value='1'/>
-    </element>
-    <element id='Observation.component:Motor.code.coding:loinc'>
-      <path value='Observation.component.code.coding'/>
-      <sliceName value='loinc'/>
-      <min value='1'/>
-      <max value='1'/>
-      <patternCoding>
-        <system value='http://loinc.org'/>
-        <code value='9268-4'/>
-      </patternCoding>
-    </element>
     <element id='Observation.component:Motor.value[x]'>
       <path value='Observation.component.value[x]'/>
       <min value='1'/>
@@ -220,27 +166,6 @@
           <code value='9270-0'/>
         </coding>
       </patternCodeableConcept>
-    </element>
-    <element id='Observation.component:Verbal.code.coding'>
-      <path value='Observation.component.code.coding'/>
-      <slicing>
-        <discriminator>
-          <type value='pattern'/>
-          <path value='$this'/>
-        </discriminator>
-        <rules value='open'/>
-      </slicing>
-      <min value='1'/>
-    </element>
-    <element id='Observation.component:Verbal.code.coding:loinc'>
-      <path value='Observation.component.code.coding'/>
-      <sliceName value='loinc'/>
-      <min value='1'/>
-      <max value='1'/>
-      <patternCoding>
-        <system value='http://loinc.org'/>
-        <code value='9270-0'/>
-      </patternCoding>
     </element>
     <element id='Observation.component:Verbal.value[x]'>
       <path value='Observation.component.value[x]'/>

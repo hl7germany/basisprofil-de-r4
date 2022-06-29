@@ -51,26 +51,14 @@
   <baseDefinition value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc">
-      <path value="Observation.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="9279-1" />
-      </patternCoding>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="9279-1" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />

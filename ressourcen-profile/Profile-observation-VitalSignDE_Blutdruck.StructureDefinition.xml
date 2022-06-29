@@ -51,26 +51,14 @@
   <baseDefinition value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Observation.code.coding:loinc">
-      <path value="Observation.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="85354-9" />
-      </patternCoding>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="85354-9" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
@@ -110,27 +98,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id="Observation.component:SystolicBP.code.coding">
-      <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Observation.component:SystolicBP.code.coding:loinc">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="8480-6" />
-      </patternCoding>
-    </element>
     <element id="Observation.component:SystolicBP.value[x]">
       <path value="Observation.component.value[x]" />
       <type>
@@ -160,27 +127,6 @@
         </coding>
       </patternCodeableConcept>
     </element>
-    <element id="Observation.component:DiastolicBP.code.coding">
-      <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Observation.component:DiastolicBP.code.coding:loinc">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="8462-4" />
-      </patternCoding>
-    </element>
     <element id="Observation.component:DiastolicBP.value[x]">
       <path value="Observation.component.value[x]" />
       <type>
@@ -208,27 +154,6 @@
           <code value="8478-0" />
         </coding>
       </patternCodeableConcept>
-    </element>
-    <element id="Observation.component:meanBP.code.coding">
-      <path value="Observation.component.code.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Observation.component:meanBP.code.coding:loinc">
-      <path value="Observation.component.code.coding" />
-      <sliceName value="loinc" />
-      <min value="1" />
-      <max value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="8478-0" />
-      </patternCoding>
     </element>
     <element id="Observation.component:meanBP.value[x]">
       <path value="Observation.component.value[x]" />

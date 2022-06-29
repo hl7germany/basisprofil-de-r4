@@ -59,13 +59,14 @@
         <code value="procedure" />
       </patternCoding>
     </element>
-    <element id="Observation.code.coding">
-      <path value="Observation.code.coding" />
-      <min value="1" />
-      <patternCoding>
-        <system value="http://loinc.org" />
-        <code value="LP6244-0" />
-      </patternCoding>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://loinc.org" />
+          <code value="LP6244-0" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />

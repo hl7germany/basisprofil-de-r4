@@ -26,6 +26,11 @@
 				"display": "Body height"
 			},
 			{
+				"system": "http://loinc.org",
+				"code": "89269-5",
+				"display": "Body height Measured --at birth"
+			},
+			{
 				"system": "http://snomed.info/sct",
 				"code": "50373000",
 				"display": "Body height measure"
@@ -38,7 +43,7 @@
 	},
 	"effectiveDateTime": "2020-10-11",
 	"valueQuantity": {
-		"value": 174,
+		"value": 52,
 		"unit": "centimeter",
 		"system": "http://unitsofmeasure.org",
 		"code": "cm"

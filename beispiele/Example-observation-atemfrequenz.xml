@@ -19,6 +19,11 @@
       <code value="9279-1" />
       <display value="Respiratory rate" />
     </coding>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="86290005" />
+      <display value="Respiratory rate (observable entity)" />
+    </coding>
     <text value="Atemfrequenz" />
   </code>
   <subject>
