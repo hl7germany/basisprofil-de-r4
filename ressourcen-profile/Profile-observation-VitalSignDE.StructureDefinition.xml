@@ -162,7 +162,7 @@
         <key value="vs-de-3" />
         <severity value="error" />
         <human value="If there is no a value a data absent reason must be present" />
-        <expression value="value.exists() or dataAbsentReason.exists()" />
+        <expression value="value.exists() xor dataAbsentReason.exists()" />
         <source value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
       </constraint>
     </element>
