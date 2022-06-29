@@ -44,6 +44,13 @@
     <element id="Identifier.value">
       <path value="Identifier.value" />
       <min value="1" />
+      <constraint>
+        <key value="bsnr-1" />
+        <severity value="warning" />
+        <human value="Eine BSNR muss 9-stellig numerisch sein" />
+        <expression value="matches('^[0-9]{9}$')" />
+        <source value="http://fhir.de/StructureDefinition/identifier-iknr" />
+      </constraint>
     </element>
     <element id="Identifier.assigner.identifier.system">
       <path value="Identifier.assigner.identifier.system" />
