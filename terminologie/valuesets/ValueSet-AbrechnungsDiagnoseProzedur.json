@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "AbrechnungsDiagnoseProzedur",
   "id": "AbrechnungsDiagnoseProzedur",
   "version": "1.4.0",
