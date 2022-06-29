@@ -31,7 +31,7 @@
     </element>
     <element id="Coding.code">
       <path value="Coding.code" />
-      <short value="Der PZN-Code" />
+      <short value="Der ASK-Code" />
       <min value="1" />
     </element>
   </differential>
