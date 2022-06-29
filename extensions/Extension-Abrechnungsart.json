@@ -2,11 +2,10 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsart",
   "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsart",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "name": "ExtensionAbrechnungsart",
   "title": "Abrechnungsart",
-  "status": "draft",
-  "experimental": false,
+  "status": "active",
   "date": "2022-02-17",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
