@@ -51,6 +51,13 @@
   <baseDefinition value="http://fhir.de/StructureDefinition/observation-de-vitalsign" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <patternCodeableConcept>
+        <system value="http://loinc.org" />
+        <code value="8302-2" />
+      </patternCodeableConcept>
+    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -66,7 +73,7 @@
       <path value="Observation.code.coding" />
       <sliceName value="loinc" />
       <min value="1" />
-      <max value="1" />
+      <max value="*" />
       <binding>
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc" />
