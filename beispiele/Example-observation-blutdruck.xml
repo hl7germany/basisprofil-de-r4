@@ -49,6 +49,11 @@
         <code value="8480-6" />
         <display value="Systolic blood pressure" />
       </coding>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <code value="271649006" />
+        <display value="Systolic blood pressure (observable entity)" />
+      </coding>
     </code>
     <valueQuantity>
       <value value="107" />
@@ -63,6 +68,11 @@
         <system value="http://loinc.org" />
         <code value="8462-4" />
         <display value="Diastolic blood pressure" />
+      </coding>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <code value="271650006" />
+        <display value="Diastolic blood pressure (observable entity)" />
       </coding>
     </code>
     <valueQuantity>
