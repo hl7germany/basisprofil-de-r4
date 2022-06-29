@@ -31,6 +31,10 @@
           <code value="PRN" />
         </coding>
       </patternCodeableConcept>
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="http://fhir.de/ValueSet/identifier-type-de-basis" />
+      </binding>
     </element>
     <element id="Identifier.system">
       <path value="Identifier.system" />
