@@ -44,6 +44,13 @@
     <element id="Identifier.value">
       <path value="Identifier.value" />
       <min value="1" />
+      <constraint>
+        <key value="pkvid-1" />
+        <severity value="warning" />
+        <human value="Der unveränderliche Teil der PKVID muss 10-stellig sein und mit einem Großbuchstaben anfangen" />
+        <expression value="matches('^[A-Z][0-9]{9}$')" />
+        <source value="http://fhir.de/StructureDefinition/identifier-pkv-kvid-10" />
+      </constraint>
     </element>
   </differential>
 </StructureDefinition>
