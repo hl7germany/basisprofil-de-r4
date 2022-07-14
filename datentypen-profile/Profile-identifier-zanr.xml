@@ -52,7 +52,7 @@
         <key value="zanr-1" />
         <severity value="warning" />
         <human value="Die ZANR bestehend aus 7-stelliger Zahnarztnummer + 2-stelliger Fachbezeichnung muss 9-stellig numerisch sein" />
-        <expression value="matches('[0-9]{9}')" />
+        <expression value="matches('^[0-9]{9}$')" />
         <source value="http://fhir.de/StructureDefinition/identifier-zanr" />
       </constraint>
     </element>

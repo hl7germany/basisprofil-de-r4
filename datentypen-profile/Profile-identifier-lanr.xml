@@ -52,7 +52,7 @@
         <key value="lanr-1" />
         <severity value="warning" />
         <human value="Eine LANR muss neunstellig numerisch sein" />
-        <expression value="matches('[0-9]{9}')" />
+        <expression value="matches('^[0-9]{9}$')" />
         <source value="http://fhir.de/StructureDefinition/identifier-lanr" />
       </constraint>
     </element>
