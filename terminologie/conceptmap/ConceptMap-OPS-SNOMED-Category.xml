@@ -11,7 +11,7 @@
     <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
     <description value="Mapping OPS &quot;Klassentitel&quot; zu SNOMED-CT" />
     <sourceCanonical value="http://fhir.de/ValueSet/bfarm/ops" />
-    <targetCanonical value="http://snomed.info/sct" />
+    <targetCanonical value="http://snomed.info/sct?fhir_vs" />
     <group>
         <source value="http://fhir.de/CodeSystem/bfarm/ops" />
         <target value="http://snomed.info/sct" />
