@@ -61,7 +61,7 @@
         <key value="ags-extension-1" />
         <severity value="error" />
         <human value="Der Amtliche Gemeindeschlüssel ist nummerisch und begrenzt auf acht Stellen" />
-        <expression value="$this.matches('[0-9]{8}')" />
+        <expression value="$this.matches('^[0-9]{8}$')" />
       </constraint>
     </element>
   </differential>
