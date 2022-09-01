@@ -38,7 +38,8 @@
       "preferred": true,
       "period": {
         "start": "2017-10-30"
-      }
+      },
+      "comment": "<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.8\"/>\n\t</uniqueId>"
     }
   ]
 }

@@ -15,4 +15,4 @@ Usage: #definition
 * uniqueId.value = "http://fhir.de/sid/gkv/pseudo-kvid"
 * uniqueId.preferred = true
 * uniqueId.period.start = "2017-10-30"
-* uniqueId.fhir_comments = "<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.8\"/>\n\t</uniqueId>"
+* uniqueId.comment = "<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.8\"/>\n\t</uniqueId>"

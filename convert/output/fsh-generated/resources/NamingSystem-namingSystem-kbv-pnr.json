@@ -39,7 +39,8 @@
       "preferred": true,
       "period": {
         "start": "2017-09-15"
-      }
+      },
+      "comment": "Gibt es dafür eine OID?\n\t<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.17\"/>\n\t</uniqueId>"
     }
   ]
 }

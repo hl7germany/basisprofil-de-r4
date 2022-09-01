@@ -16,4 +16,4 @@ Usage: #definition
 * uniqueId.value = "http://fhir.de/sid/kbv/pnr"
 * uniqueId.preferred = true
 * uniqueId.period.start = "2017-09-15"
-* uniqueId.fhir_comments = "Gibt es dafür eine OID?\n\t<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.17\"/>\n\t</uniqueId>"
+* uniqueId.comment = "Gibt es dafür eine OID?\n\t<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.17\"/>\n\t</uniqueId>"
