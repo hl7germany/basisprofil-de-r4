@@ -7,9 +7,9 @@ Id: observation-de-vitalsign-blutdruck
 * ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * ^copyright = "HL7 Deutschland e.V."
 * code = $loinc#85354-9
-* value[x] ..0
 * value[x] only Quantity
 * valueQuantity ..0
+* value[x] ..0
 * component ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "code"
   * ^slicing.rules = #open
