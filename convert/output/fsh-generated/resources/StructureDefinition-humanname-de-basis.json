@@ -228,6 +228,22 @@
         ]
       },
       {
+        "id": "HumanName.prefix.extension:prefix-qualifier",
+        "path": "HumanName.prefix.extension",
+        "sliceName": "prefix-qualifier",
+        "definition": "Spezialisierung der Art des Präfixes, z.B. \"AC\" für Akademische Titel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"
+            ]
+          }
+        ]
+      },
+      {
         "id": "HumanName.suffix",
         "path": "HumanName.suffix",
         "short": "Namensteile nach dem Nachnamen",
