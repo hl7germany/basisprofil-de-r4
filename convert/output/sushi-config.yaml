@@ -1,0 +1,8 @@
+canonical: http://fhir.de
+fhirVersion: 4.0.1
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+id: fhir
+name: Fhir
+status: active
+version: 1.4.0
