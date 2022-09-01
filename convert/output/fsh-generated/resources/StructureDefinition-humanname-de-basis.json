@@ -142,6 +142,60 @@
         ]
       },
       {
+        "id": "HumanName.family.extension:nachname",
+        "path": "HumanName.family.extension",
+        "sliceName": "nachname",
+        "short": "Nachname ohne Vor- und Zusätze",
+        "definition": "Nachname ohne Vor- und Zusätze.\r\nDient z.B. der alphabetischen Einordnung des Namens.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "BDT",
+            "map": "3101"
+          },
+          {
+            "identity": "KVDT",
+            "map": "3101"
+          }
+        ]
+      },
+      {
+        "id": "HumanName.family.extension:vorsatzwort",
+        "path": "HumanName.family.extension",
+        "sliceName": "vorsatzwort",
+        "short": "Vorsatzwort",
+        "definition": "Vorsatzwort wie z.B.: von, van, zu\r\nVgl. auch VSDM-Spezifikation der Gematik (Versichertenstammdatenmanagement, \"eGK\")",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "BDT",
+            "map": "3120"
+          },
+          {
+            "identity": "KVDT",
+            "map": "3120"
+          }
+        ]
+      },
+      {
         "id": "HumanName.given",
         "path": "HumanName.given",
         "short": "Vorname",
