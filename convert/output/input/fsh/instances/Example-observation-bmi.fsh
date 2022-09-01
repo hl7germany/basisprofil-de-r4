@@ -1,8 +1,8 @@
 Instance: Example-observation-bmi
-InstanceOf: $vitalsigns
+InstanceOf: VitalSignDE
 Usage: #example
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
+* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
   * text = "Vital Signs"
 * code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"
   * text = "BMI"

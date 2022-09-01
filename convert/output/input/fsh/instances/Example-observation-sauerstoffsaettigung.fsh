@@ -2,7 +2,7 @@ Instance: Example-observation-sauerstoffsaettigung
 InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Usage: #example
 * status = #final
-* category = $observation-category#vital-signs
+* category[vs-cat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"

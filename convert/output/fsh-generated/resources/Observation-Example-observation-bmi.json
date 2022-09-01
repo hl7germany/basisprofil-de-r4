@@ -3,21 +3,27 @@
   "id": "Example-observation-bmi",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign"
     ]
   },
   "category": [
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "display": "Vital Signs"
         }
       ],
       "text": "Vital Signs"
     }
   ],
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 16.2,
+    "code": "kg/m2",
+    "unit": "kg/m2"
+  },
   "status": "final",
   "code": {
     "coding": [
@@ -32,11 +38,5 @@
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "1999-07-02",
-  "valueQuantity": {
-    "value": 16.2,
-    "code": "kg/m2",
-    "system": "http://unitsofmeasure.org",
-    "unit": "kg/m2"
-  }
+  "effectiveDateTime": "1999-07-02"
 }
