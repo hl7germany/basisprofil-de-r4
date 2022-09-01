@@ -1,0 +1,23 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Example-practitioner-example" />
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+        <code value="LANR" />
+      </coding>
+    </type>
+    <system value="https://fhir.kbv.de/sid/KBV_NS_Base_ANR" />
+    <value value="012345678" />
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+        <code value="ZANR" />
+      </coding>
+    </type>
+    <system value="http://fhir.de/sid/kzbv/zahnarztnummer" />
+    <value value="01234567" />
+  </identifier>
+</Practitioner>

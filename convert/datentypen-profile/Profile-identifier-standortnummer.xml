@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="identifier-standortnummer" />
+  <url value="http://fhir.de/StructureDefinition/identifier-standortnummer" />
+  <version value="1.4.0" />
+  <name value="IdentifierStandortnummer" />
+  <title value="Identifier-Profil für die Standortnummer" />
+  <status value="active" />
+  <date value="2022-03-18" />
+  <publisher value="HL7 Deutschland e.V. (Technisches Komitee FHIR)" />
+  <contact>
+    <telecom>
+      <system value="other" />
+      <value value="http://hl7.de/technische-komitees/fhir/" />
+    </telecom>
+  </contact>
+  <description value="Die Standortnummer dient der eindeutigen Identifikation eines Standortes oder der Ambulanzen eines Krankenhauses. Vgl. § 293 Abs. 6 SGB V. Es ist zu beachten, dass der zugrundeliegende Namensraum nicht stabil ist und Identifier neu vergeben werden können (siehe Anlage 1
+Form und Inhalt der Nutzdaten zur Vereinbarung gemäß § 293 Abs. 6 SGB V)." />
+  <copyright value="HL7 Deutschland e.V." />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Identifier" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Identifier" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Identifier.system">
+      <path value="Identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://fhir.de/sid/dkgev/standortnummer" />
+    </element>
+    <element id="Identifier.value">
+      <path value="Identifier.value" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

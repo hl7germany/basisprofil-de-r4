@@ -1,0 +1,32 @@
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="Example-condition-zustand-nach" />
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
+      <code value="resolved" />
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status" />
+      <code value="confirmed" />
+    </coding>
+  </verificationStatus>
+  <code>
+    <coding>
+      <extension url="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit">
+        <valueCoding>
+          <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_DIAGNOSESICHERHEIT" />
+          <code value="Z" />
+        </valueCoding>
+      </extension>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm" />
+      <version value="2019" />
+      <code value="F16.1" />
+      <display value="Psychische Verhaltensstörung durch Halluzinogene (Akute Intoxikation)" />
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example" />
+  </subject>
+</Condition>
