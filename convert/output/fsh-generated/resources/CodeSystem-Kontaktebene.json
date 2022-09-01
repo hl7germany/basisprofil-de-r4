@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Kontaktebene",
+  "id": "Kontaktebene",
+  "description": "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/Kontaktebene",
+  "concept": [
+    {
+      "code": "einrichtungskontakt",
+      "display": "Einrichtungskontakt",
+      "definition": "Beschreibt den Kontakt zur Einrichtung."
+    },
+    {
+      "code": "abteilungskontakt",
+      "display": "Abteilungskontakt",
+      "definition": "Beschreibt den Kontakt zur Abteilung."
+    },
+    {
+      "code": "versorgungsstellenkontakt",
+      "display": "Versorgungsstellenkontakt",
+      "definition": "Beschreibt den Kontakt zur Versorgungsstelle."
+    }
+  ],
+  "experimental": false,
+  "date": "2021-02-12",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/kontaktebene-de",
+  "count": 3
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "not-present",
+  "name": "Pzn",
+  "id": "pzn",
+  "description": "PZN Platzhalter-CodeSystem",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/ifa/pzn",
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "IFA GmbH",
+  "caseSensitive": true
+}

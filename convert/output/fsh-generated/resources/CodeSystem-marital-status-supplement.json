@@ -1,0 +1,112 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementMaritalStatus",
+  "id": "marital-status-supplement",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/marital-status-supplement",
+  "concept": [
+    {
+      "code": "A",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "annulliert"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "geschieden"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "getrennt lebend"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "verheiratet"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "polygam"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "ledig"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Lebenspartner"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "unverheiratet"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "verwitwet"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "supplements": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+}

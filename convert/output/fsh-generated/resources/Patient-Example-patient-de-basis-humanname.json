@@ -1,0 +1,22 @@
+{
+  "resourceType": "Patient",
+  "id": "Example-patient-de-basis-humanname",
+  "name": [
+    {
+      "use": "official",
+      "text": "Martha Mustermann",
+      "family": "Mustermann",
+      "given": [
+        "Martha"
+      ]
+    },
+    {
+      "use": "maiden",
+      "family": "Testinghausen"
+    },
+    {
+      "use": "old",
+      "family": "Beispühl"
+    }
+  ]
+}

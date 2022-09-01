@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CodeSystemWahlleistungen",
+  "id": "wahlleistungen-de",
+  "title": "Wahlleistungen",
+  "description": "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/wahlleistungen-de",
+  "concept": [
+    {
+      "code": "einzelbettzimmer-mit-sanitaerzone",
+      "display": "Einbettzimmer mit Sanitärzone"
+    },
+    {
+      "code": "zweibettzimmer-mit-sanitaerzone",
+      "display": "Zweibettzimmer mit Sanitärzone"
+    },
+    {
+      "code": "chef-oder-wahlarztbehandlung",
+      "display": "Persönliche Behandlung durch den Chef- bzw. Wahlarzt"
+    },
+    {
+      "code": "unterkunft-und-verpflegung-begleitperson-kinder",
+      "display": "Unterkunft und Verpflegung einer Begleitperson von Kindern ohne Anspruch auf ein eigenes Zimmer"
+    },
+    {
+      "code": "unterkunft-und-verpflegung-begleitperson-kinder-ohne-med-begruedung",
+      "display": "Unterkunft und Verpflegung einer Begleitperson ohne med. Begründung"
+    },
+    {
+      "code": "multimediaangebot",
+      "display": "Multimediaangebot"
+    },
+    {
+      "code": "hygieneset",
+      "display": "Hygieneset"
+    },
+    {
+      "code": "tageszeitung",
+      "display": "Tageszeitung"
+    },
+    {
+      "code": "persoenlicher-oder-concierge-service",
+      "display": "Persönlicher bzw. Concierge Service"
+    },
+    {
+      "code": "waescheservice",
+      "display": "Wäscheservice"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-12-21",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/wahlleistungen-de",
+  "count": 10
+}

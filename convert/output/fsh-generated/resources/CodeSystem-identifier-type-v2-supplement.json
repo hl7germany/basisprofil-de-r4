@@ -1,0 +1,76 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementIdentifierTypeV2",
+  "id": "identifier-type-v2-supplement",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/identifier-type-v2-supplement",
+  "concept": [
+    {
+      "code": "DL",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Führerscheinnummer"
+        }
+      ]
+    },
+    {
+      "code": "MR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Einrichtungsinterne Patienten(-Akten-)Nummer"
+        }
+      ]
+    },
+    {
+      "code": "TAX",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Steuernummer"
+        }
+      ]
+    },
+    {
+      "code": "PLAC",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Auftragsnummer"
+        }
+      ]
+    },
+    {
+      "code": "EN",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Mitarbeiternummer"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "supplements": "http://terminology.hl7.org/CodeSystem/v2-0203"
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ICD10GM",
+  "id": "valueset-ICD-10-GM",
+  "description": "ICD-10-GM",
+  "version": "1.4.0",
+  "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "version": "*"
+      }
+    ]
+  }
+}

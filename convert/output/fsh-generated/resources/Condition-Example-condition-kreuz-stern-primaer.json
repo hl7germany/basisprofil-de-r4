@@ -1,0 +1,27 @@
+{
+  "resourceType": "Condition",
+  "id": "Example-condition-kreuz-stern-primaer",
+  "code": {
+    "coding": [
+      {
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen",
+            "valueCoding": {
+              "version": "2021",
+              "code": "†",
+              "system": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen"
+            }
+          }
+        ],
+        "version": "2019",
+        "code": "E10.30",
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "display": "Diabetes mellitus"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  }
+}

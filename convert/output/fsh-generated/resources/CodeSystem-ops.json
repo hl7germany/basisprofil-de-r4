@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "not-present",
+  "name": "OPS",
+  "id": "ops",
+  "description": "OPS Platzhalter-CodeSystem",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/bfarm/ops",
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte",
+  "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/bfarm/ops"
+}

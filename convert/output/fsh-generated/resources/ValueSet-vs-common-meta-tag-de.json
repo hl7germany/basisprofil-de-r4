@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VS_CommonMetaTag_De",
+  "id": "vs-common-meta-tag-de",
+  "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
+  "version": "1.4.0",
+  "url": "http://fhir.de/ValueSet/common-meta-tag-de",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2022-03-10",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/common-meta-tag-de"
+      }
+    ]
+  }
+}

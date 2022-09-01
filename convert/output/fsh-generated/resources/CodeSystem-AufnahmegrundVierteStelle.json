@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AufnahmegrundVierteStelle",
+  "id": "AufnahmegrundVierteStelle",
+  "title": "AufnahmegrundVierteStelle",
+  "description": "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Normalfall"
+    },
+    {
+      "code": "2",
+      "display": "Arbeitsunfall/Berufskrankheit (§ 11 Abs. 5 SGB V)"
+    },
+    {
+      "code": "3",
+      "display": "Verkehrsunfall/Sportunfall/Sonstiger Unfall (z.B. § 116 SGB X)"
+    },
+    {
+      "code": "4",
+      "display": "Hinweis auf Einwirkung von äußerer Gewalt"
+    },
+    {
+      "code": "6",
+      "display": "Kriegsbeschädigten-Leiden/BVG-Leiden"
+    },
+    {
+      "code": "7",
+      "display": "Notfall"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "caseSensitive": false,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle",
+  "compositional": false,
+  "count": 6
+}

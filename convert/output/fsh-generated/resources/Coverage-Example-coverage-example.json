@@ -1,0 +1,130 @@
+{
+  "resourceType": "Coverage",
+  "id": "Example-coverage-example",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/coverage-de-gkv"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "GKV",
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis"
+      }
+    ]
+  },
+  "payor": [
+    {
+      "identifier": {
+        "system": "http://fhir.de/sid/arge-ik/iknr",
+        "value": "823746876"
+      },
+      "extension": [
+        {
+          "url": "http://fhir.de/StructureDefinition/AbrechnendeIK",
+          "valueIdentifier": {
+            "system": "http://fhir.de/sid/arge-ik/iknr",
+            "value": "756756324"
+          }
+        }
+      ],
+      "display": "Krankenkasse A"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte",
+      "valueDateTime": "2019-12-03"
+    },
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/version-vsdm",
+      "valueString": "5.2.1"
+    },
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/generation-egk",
+      "valueString": "1+"
+    },
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/versichertenart",
+      "valueCoding": {
+        "code": "1",
+        "system": "https://fhir.kbv.de/CodeSystem/74_CS_SFHIR_KBV_VERSICHERTENSTATUS"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "aerztlicheVersorgung",
+          "valueBoolean": true
+        },
+        {
+          "url": "zahnaerztlicheVersorgung",
+          "valueBoolean": false
+        }
+      ],
+      "url": "http://fhir.de/StructureDefinition/gkv/kostenerstattung"
+    },
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/wop",
+      "valueCoding": {
+        "code": "38",
+        "system": "https://fhir.kbv.de/CodeSystem/CS_AW_Krankenversicherung_WOP",
+        "display": "Nordrhein"
+      }
+    },
+    {
+      "url": "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe",
+      "valueCoding": {
+        "code": "06",
+        "system": "https://fhir.kbv.de/CodeSystem/74_CS_SFHIR_KBV_PERSONENGRUPPE",
+        "display": "BVG (Gesetz über die Versorgung der Opfer des Krieges)"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "art",
+          "valueCoding": {
+            "code": "1"
+          }
+        },
+        {
+          "url": "dauer",
+          "valuePeriod": {
+            "start": "2018-01-01"
+          }
+        }
+      ],
+      "url": "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"
+    },
+    {
+      "extension": [
+        {
+          "url": "status",
+          "valueBoolean": true
+        },
+        {
+          "url": "gueltigBis",
+          "valueDate": "2020-12-31"
+        }
+      ],
+      "url": "http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://fhir.de/sid/gkv/kvid-10",
+      "value": "A123454321"
+    }
+  ],
+  "status": "active",
+  "subscriber": {
+    "reference": "Patient/example",
+    "display": "Max Mustermann"
+  },
+  "beneficiary": {
+    "reference": "Patient/example",
+    "display": "Max Mustermann"
+  }
+}
