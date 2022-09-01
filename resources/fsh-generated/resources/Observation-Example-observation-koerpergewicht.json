@@ -7,7 +7,6 @@
       "http://hl7.org/fhir/StructureDefinition/bodyweight"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,14 +32,15 @@
     ],
     "text": "Körpergewicht"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 79,
+    "code": "kg",
+    "unit": "kilogram"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2020-10-11",
-  "valueQuantity": {
-    "value": 79,
-    "code": "kg",
-    "system": "http://unitsofmeasure.org",
-    "unit": "kilogram"
-  }
+  "effectiveDateTime": "2020-10-11"
 }

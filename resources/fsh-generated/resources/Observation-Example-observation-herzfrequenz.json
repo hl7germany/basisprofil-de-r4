@@ -7,7 +7,6 @@
       "http://hl7.org/fhir/StructureDefinition/heartrate"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,14 +32,15 @@
     ],
     "text": "Herzfrequenz"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 63,
+    "code": "/min",
+    "unit": "per minute"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2020-10-11",
-  "valueQuantity": {
-    "value": 63,
-    "code": "/min",
-    "system": "http://unitsofmeasure.org",
-    "unit": "per minute"
-  }
+  "effectiveDateTime": "2020-10-11"
 }

@@ -7,7 +7,6 @@
       "http://hl7.org/fhir/StructureDefinition/bodyheight"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -38,14 +37,15 @@
     ],
     "text": "Körpergröße"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 52,
+    "code": "cm",
+    "unit": "centimeter"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2020-10-11",
-  "valueQuantity": {
-    "value": 52,
-    "code": "cm",
-    "system": "http://unitsofmeasure.org",
-    "unit": "centimeter"
-  }
+  "effectiveDateTime": "2020-10-11"
 }

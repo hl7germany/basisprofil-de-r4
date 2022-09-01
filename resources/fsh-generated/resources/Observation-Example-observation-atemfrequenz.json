@@ -7,7 +7,6 @@
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -35,14 +34,15 @@
     ],
     "text": "Atemfrequenz"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 26,
+    "code": "/min",
+    "unit": "Atemzüge pro Minute"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2019-07-02",
-  "valueQuantity": {
-    "value": 26,
-    "code": "/min",
-    "system": "http://unitsofmeasure.org",
-    "unit": "Atemzüge pro Minute"
-  }
+  "effectiveDateTime": "2019-07-02"
 }

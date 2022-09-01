@@ -7,7 +7,6 @@
       "http://hl7.org/fhir/StructureDefinition/bodytemp"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,14 +32,15 @@
     ],
     "text": "Körpertemperatur"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 36.8,
+    "code": "Cel",
+    "unit": "°C"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2020-10-11",
-  "valueQuantity": {
-    "value": 36.8,
-    "code": "Cel",
-    "system": "http://unitsofmeasure.org",
-    "unit": "°C"
-  }
+  "effectiveDateTime": "2020-10-11"
 }

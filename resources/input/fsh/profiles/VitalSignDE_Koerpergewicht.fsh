@@ -16,3 +16,17 @@ Id: observation-de-vitalsign-koerpergewicht
     * code 1..
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
+
+Instance: Example-observation-koerpergewicht
+InstanceOf: VitalSignDE_Koerpergewicht
+Usage: #example
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
+* status = #final
+* category[vs-cat] = $observation-category#vital-signs
+* code.coding[0] = $loinc#29463-7 "Body weight"
+* code.coding[+] = $sct#27113001 "Body weight"
+* code.text = "Körpergewicht"
+* subject = Reference(Patient/example)
+* effectiveDateTime = "2020-10-11"
+* valueQuantity = 79 'kg' "kilogram"
