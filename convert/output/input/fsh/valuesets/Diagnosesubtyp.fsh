@@ -12,5 +12,5 @@ Id: Diagnosesubtyp
 * KontaktDiagnoseProzedur#department-main-diagnosis "Abteilung Hauptdiagnose"
 * KontaktDiagnoseProzedur#cause-of-death "Todesursache"
 * KontaktDiagnoseProzedur#infection-control-diagnosis "Infektionsschutzdiagnose"
-* DiagnosisRole#AD "Admission diagnosis"
-* DiagnosisRole#DD "Discharge diagnosis"
+* $diagnosis-role#AD "Admission diagnosis"
+* $diagnosis-role#DD "Discharge diagnosis"
