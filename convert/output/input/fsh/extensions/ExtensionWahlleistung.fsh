@@ -1,5 +1,5 @@
 Extension: ExtensionWahlleistung
-Id: Wahlleistung
+Id: wahlleistungen
 Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärztliche Wahlleistungen) während eines Kontaktes mit einer Gesundheitseinrichtung"
 * ^version = "1.4.0"
 * ^date = "2020-12-21"
@@ -9,7 +9,6 @@ Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärz
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Encounter.hospitalization"
-* url = "http://fhir.de/StructureDefinition/wahlleistungen" (exactly)
 * value[x] 1..
 * value[x] only Coding
 * value[x] from Wahlleistungen (preferred)
