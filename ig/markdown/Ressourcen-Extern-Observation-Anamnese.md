@@ -1,0 +1,4 @@
+----
+### Anamnese
+
+{{index:Anamnese}}
