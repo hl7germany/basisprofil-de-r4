@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>{{ guide-title }}</title>
+
+        <link rel="icon" href="{{content}}/styles/common/favicon.ico" />
+
+        <script src="{{content}}/styles/common/jquery/jquery.min.js"></script>
+        <script src="{{content}}/styles/common/bootstrap/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="{{content}}/styles/common/main.min.css" />
+        <link rel="stylesheet" href="{{content}}/styles/common/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="{{content}}/styles/common/rendering/rendering.min.css" />
+
+        <script src="{{content}}/styles/common/rendering/stu3TreeTable.min.js"></script>
+        <script src="{{content}}/styles/common/rendering/baseTreetable.min.js"></script>
+
+        <link rel="stylesheet" href="{{content}}/{{style-folder}}/style.css?v={{version}}" />
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 fhir-logo">
+                        <a href="http://hl7.org/fhir/{{guide-fhir-version}}/">
+                            <img src="{{content}}/{{style-folder}}/fhir-logo.png?v={{version}}" alt="logo fhir">
+                        </a>
+                    </div>
+                    <div class="col-md-16 title">
+                        <div>
+                            <a href="/">
+                                {{ guide-title }}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 hl7-logo">
+                        <a href="http://www.hl7.de">
+                            <img src="data:image;base64, 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" alt="visit the hl7 website" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{ dropdown-navigation }}
+        </header>
+
+        <div class="content container">
+            {{ page-with-children }}
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <span>Version: {{ guide-version }}</span>
+                        <span>FHIR Version: {{ guide-fhir-version }}</span>
+                    </div>
+                    <br />
+                    <p>Powered by <b>SIMPLIFIER.NET</b></p>
+                    <div>
+                        HL7<sup>&reg;</sup> and FHIR<sup>&reg;</sup> are the registered trademarks of Health Level Seven International
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

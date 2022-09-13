@@ -1,0 +1,3 @@
+# Ressourcen
+
+{{index:current}}
