@@ -1,7 +1,7 @@
 ## Nomenklatur der Ressourcen
 Für die Namensgebung der Terminologie-Resourcen im Rahmen dieses Leitfadens gelten folgende Regeln
 
-- CodeSystems, ValueSets und NamingSystems, die im Rahmen des Basis-Profils erstmals *als FHIR-Resourcen* publiziert werden, erhalten eine [canonical URL](codesystem.html#4.7.3.1 "Resource Identity") aus der Domäne 
+- CodeSystems, ValueSets und NamingSystems, die im Rahmen des Basis-Profils erstmals *als FHIR-Resourcen* publiziert werden, erhalten eine canonical URL aus der Domäne 
 ~~~~
 http://fhir.de/
 ~~~~
