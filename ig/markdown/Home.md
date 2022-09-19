@@ -4,7 +4,7 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.4.0 (STU2) [(Release Notes)](https://simplifier.net/guide/basisprofil-de-r4/ReleaseNotes)
+Version: 1.4.0 (STU2) ({{pagelink:ReleaseNotes}})
 
 Datum: 29.06.2022
 
