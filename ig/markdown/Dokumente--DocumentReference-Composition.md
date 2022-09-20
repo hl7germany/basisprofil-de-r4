@@ -19,7 +19,7 @@ Für die Klassifikation und Typisierung von Dokumenten können die von IHE-Deuts
 
 [IHE-ClassCode-ValueSet in Art-Decor](https://art-decor.org/art-decor/decor-valuesets--ihede-?id=1.2.276.0.76.11.32&effectiveDate=2018-07-13T13:23:15&language=de-DE)
 
-Diese ValueSets werden als FHIR ValueSet Ressource innerhalb der Deutschen Basisprofile publiziert. Siehe {{pagelink:Terminologie-ValueSets}}.
+Diese ValueSets werden als FHIR ValueSet Ressource innerhalb der Deutschen Basisprofile publiziert. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets}}.
 
 Für eine feingranularere Unterscheidung klinischer Dokumenttypen, kommt zusätzlich die vom DVMD publizierte Klinische Dokumentenliste (KDL) in Frage, die einschließlich der Mappings auf IHE-Class- und Typecodes als FHIR-Ressourcen publiziert ist:
 https://simplifier.net/KDL

@@ -1,7 +1,7 @@
 ----
 ### ICD-10 GM
 
-Bei der Kodierung per [ICD-10-GM](https://www.dimdi.de/dynamic/de/klassifikationen/icd/icd-10-gm/) muss das Element Condition.code mit mindestens einem Coding gefüllt sein, das den Anforderungen der ICD-Kodierung genügt. Hierzu sollte beim Einbinden des Coding-Profils in das entsprechende Use-Case-Profil ein Binding auf das ICD-10-GM ValueSet hinzugefügt werden. Siehe {{pagelink:Terminologie-ValueSets}}.
+Bei der Kodierung per [ICD-10-GM](https://www.dimdi.de/dynamic/de/klassifikationen/icd/icd-10-gm/) muss das Element Condition.code mit mindestens einem Coding gefüllt sein, das den Anforderungen der ICD-Kodierung genügt. Hierzu sollte beim Einbinden des Coding-Profils in das entsprechende Use-Case-Profil ein Binding auf das ICD-10-GM ValueSet hinzugefügt werden. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets}}.
 
 Die Angabe der ICD-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, das ICD-GM nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahresangaben in der Bedeutung wechseln.
 

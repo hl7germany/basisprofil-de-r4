@@ -10,7 +10,7 @@ Die Kodierung des Diagnose-Typs erfolgt über Encounter.diagnosis.use.
 Es ist zu beachten, dass hier nur klinische Aspekte abgebildet werden, also "Hauptdiagnose" im Sinne von "Fokus der Behandlung". 
 Die Qualifizierung von Diagnosen im Kontext der Abrechnung wird derzeit noch nicht berücksichtigt und muss ggf. über den [Account](https://www.hl7.org/fhir/account.html) dargestellt werden. Dies gilt inbesondere Falls Diagnosen aus nicht-medizinischen Gründen priorisiert abgebildet werden müssen (i.A.a. Encounter.diagnosis.rank). 
 
-Ein CodeSystem Supplement wird für das CodeSystem [DiagnosisRole](http://terminology.hl7.org/CodeSystem/diagnosis-role) herausgegeben. Dies kann für die Deutsche Übersetzung der Codes für Encounter.diagnosis.use verwendet werden. Siehe {{pagelink: Terminologie-Uebersetzungen}}.
+Ein CodeSystem Supplement wird für das CodeSystem [DiagnosisRole](http://terminology.hl7.org/CodeSystem/diagnosis-role) herausgegeben. Dies kann für die Deutsche Übersetzung der Codes für Encounter.diagnosis.use verwendet werden. Siehe {{pagelink:ig/markdown/ Terminologie-Uebersetzungen}}.
 
 Im Falle einer Referenzierung einer per ICD-10-GM kodierten Condition, welche eine Mehrfachkodierung abbildet, ist nur die Condition  des Primärcodes in Encounter.diagnosis.condition anzugeben. Alle weiteren dazugehörigen Conditions können, wie zuvor beschrieben, durch weitere Abfragen ermittelt werden.
 

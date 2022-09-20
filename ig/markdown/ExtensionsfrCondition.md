@@ -47,7 +47,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 **Constraints**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit' for differential.element.constraint select key,severity,human, expression```
 
-**Hinweise**: Siehe Kodierungshinweise für ICD-10 GM - {{pagelink:Datentypen-ICD-10GM-Coding}}
+**Hinweise**: Siehe Kodierungshinweise für ICD-10 GM - {{pagelink:ig/markdown/Datentypen-ICD-10GM-Coding}}
 
 **Beispiel**:
 
@@ -73,7 +73,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 {{tree:http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen, hybrid}}
 
-**Hinweise**: Siehe Kodierungshinweise für ICD-10 GM - {{pagelink:Datentypen-ICD-10GM-Coding}}
+**Hinweise**: Siehe Kodierungshinweise für ICD-10 GM - {{pagelink:ig/markdown/Datentypen-ICD-10GM-Coding}}
 
 **Beispiel**:
 
