@@ -13,4 +13,4 @@ Für Versicherungsverhältnisse, die kein spezialisiertes Profil haben, sollte d
 
 {{tree:http://fhir.de/StructureDefinition/coverage-de-basis, hybrid}}
 
-Für die Angabe der Versicherungsart (Coverage.type) wurde ein ValueSet abgestimmt welches unter {{pagelink:ig/markdown/Coverage-ValueSets}} zu finden ist.
+Für die Angabe der Versicherungsart (Coverage.type) wurde ein ValueSet abgestimmt welches unter {{pagelink:ig/markdown/Coverage-ValueSets.md}} zu finden ist.

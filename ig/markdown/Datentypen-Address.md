@@ -1,3 +1,3 @@
 ## Adresse
 
-Das Datentyp-Profil für 'Address' wird im Kontext von der "Patient"-Ressource beschrieben. Siehe Abschnitt {{pagelink:ig/markdown/Ressourcen-Patient-Addresse}}. Das Datentyp-Profil kann jedoch in allen anderen Kontexten in denen eine Addresse erlaubt ist verwendet werden (Claim, ClaimResponse, ExplanationOfBenefit, InsurancePlan, Location, Organization, Patient, Person, Practitioner and RelatedPerson).
+Das Datentyp-Profil für 'Address' wird im Kontext von der "Patient"-Ressource beschrieben. Siehe Abschnitt {{pagelink:ig/markdown/Ressourcen-Patient-Addresse.md}}. Das Datentyp-Profil kann jedoch in allen anderen Kontexten in denen eine Addresse erlaubt ist verwendet werden (Claim, ClaimResponse, ExplanationOfBenefit, InsurancePlan, Location, Organization, Patient, Person, Practitioner and RelatedPerson).

@@ -33,7 +33,7 @@ Die Profilierung eines abgeleiteten Profils erfolgt identisch mit der Profilieru
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Coverage" />
 ~~~~
 
-Im verbreitet eingesetzten FHIR-Profil-Editor **[Forge](https://simplifier.net/forge/)** wird zur Ableitung von einem Profil der Menüpunkt **File -> New Derived Profile** verwendet. Anschließend kann das Profil, von dem abgeleitet werden soll, als Datei ausgewählt werden. Es ist zu beachten, dass vorab das FHIR Package der Deutschen Basisprofile lokal installiert werden muss. Siehe {{pagelink:ig/markdown/Anwendungshinweise-RessourcenPaket}}.
+Im verbreitet eingesetzten FHIR-Profil-Editor **[Forge](https://simplifier.net/forge/)** wird zur Ableitung von einem Profil der Menüpunkt **File -> New Derived Profile** verwendet. Anschließend kann das Profil, von dem abgeleitet werden soll, als Datei ausgewählt werden. Es ist zu beachten, dass vorab das FHIR Package der Deutschen Basisprofile lokal installiert werden muss. Siehe {{pagelink:ig/markdown/Anwendungshinweise-RessourcenPaket.md}}.
 
 **Hinweis**: Vor der Gestaltung eines abgeleiteten Profil sollte unbedingt geprüft werden, ob ein solches Profil nicht bereits in anderen (nationalen) Projekten (z.B. in Projekten der [KBV](https://simplifier.net/organization/kassenrztlichebundesvereinigungkbv/~projects), [gematik](https://simplifier.net/organization/gematik), [Medizin-Informatik-Initative](https://simplifier.net/organization/koordinationsstellemii/~projects), [International Patient Summary](http://hl7.org/fhir/uv/ips/)) existiert.
 

@@ -1,7 +1,7 @@
 ----
 ### OPS
 
-Bei der Kodierung per [OPS](https://www.dimdi.de/dynamic/de/klassifikationen/ops/) muss das Element Condition.code mit mindestens einem Coding gefüllt sein, das den Anforderungen der OPS-Kodierung genügt. Hierzu sollte beim Einbinden des Coding-Profils in das entsprechende Use-Case-Profil ein Binding auf das OPS ValueSet hinzugefügt werden. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets}}.
+Bei der Kodierung per [OPS](https://www.dimdi.de/dynamic/de/klassifikationen/ops/) muss das Element Condition.code mit mindestens einem Coding gefüllt sein, das den Anforderungen der OPS-Kodierung genügt. Hierzu sollte beim Einbinden des Coding-Profils in das entsprechende Use-Case-Profil ein Binding auf das OPS ValueSet hinzugefügt werden. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets.md}}.
 
 Die Angabe der OPS-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, da OPS nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahrensangaben in der Bedeutung wechseln.
 
