@@ -6,4 +6,4 @@ Als `Identifier` für Patienten (FHIR-Element: Patient.identifier) sind verschie
 
 Welche Identifier jeweils geeignet, verfügbar und zulässig sind, muss abhängig vom UseCase entschieden werden.
 
-Folgende Identifier-Profile werden durch die Deutschen Basisprofile spezifiziert, sodass diese Use-Case und Profil-übergreifend einheitlich verwendet werden können. Siehe Übersicht {{pagelink:identifierfrpatient}}.
+Folgende Identifier-Profile werden durch die Deutschen Basisprofile spezifiziert, sodass diese Use-Case und Profil-übergreifend einheitlich verwendet werden können. Siehe Übersicht {{pagelink:ig/markdown/identifierfrpatient}}.

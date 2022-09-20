@@ -18,7 +18,7 @@ Für die Geschlechtskennzeichen "unbestimmt" und "divers" ist der code "other" z
 <gender value="other"/>
 ```
 
-Falls ein administratives Geschlecht 'divers' abzubilden ist (z.B. da dieses Geschlecht auf offiziellen Ausweisen eingetragen ist) muss eine Differenzierung zwischen 'other' und 'divers' als positiver Geschlechtseintrag erfolgen. Hierfür ist die 'other-amtlich'-Extension zu verwenden. Siehe Extensions-Dokumentation für {{pagelink:ExtensionsfrPatient}}.
+Falls ein administratives Geschlecht 'divers' abzubilden ist (z.B. da dieses Geschlecht auf offiziellen Ausweisen eingetragen ist) muss eine Differenzierung zwischen 'other' und 'divers' als positiver Geschlechtseintrag erfolgen. Hierfür ist die 'other-amtlich'-Extension zu verwenden. Siehe Extensions-Dokumentation für {{pagelink:ig/markdown/ExtensionsfrPatient}}.
 
 #### Beispiel: divers
 ```xml

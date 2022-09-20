@@ -6,7 +6,7 @@ Der Begriff "Fall" gruppiert im Sprachgebrauch verschiedene Konzepte, die in FHI
 
 Der stationäre Aufenthalt oder ambulante Kontakt eines Patienten in einer Gesundheitseinrichtung wird in FHIR durch die Ressource `Encounter` abgebildet.
 
-Für folgenden Elemente des Encounters werden innerhalb der Deutschen Basisprofile eigene Empfehlungen für ValueSets-Bindings herausgegeben. Siehe {{pagelink:Terminologie-ValueSets}}.
+Für folgenden Elemente des Encounters werden innerhalb der Deutschen Basisprofile eigene Empfehlungen für ValueSets-Bindings herausgegeben. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets}}.
 
     - Encounter.serviceType - Fachabteilungsschlüssel
     - Encounter.type - Kontaktart

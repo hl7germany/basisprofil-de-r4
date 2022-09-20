@@ -11,7 +11,7 @@
 Da es bei der Aufnahmenummer Identifier keinen einheitlichen Namensraum gibt, da dieser organisationsintern ist, muss der `type`-Codes "VN" (Visit number) verpflichtend, um den Identifier einrichtungsübergreifend als solche erkennen zu können.
 
 Jede Einrichtung muss für ihren Namensraum eine NamingSystem-URL festlegen.
-Hinweise zur Nomenklatur organisationsinterner `Identifier.system`-URLs siehe {{pagelink: Terminologie-Namensraueme-LokaleNamensraeume}}.
+Hinweise zur Nomenklatur organisationsinterner `Identifier.system`-URLs siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-LokaleNamensraeume}}.
 
 Beispiel:
 

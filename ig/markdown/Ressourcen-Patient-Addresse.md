@@ -14,7 +14,7 @@ Dies Address-bezogenen Bestandteilen der Anschrift lassen sich in FHIR wie folgt
 
 | DIN 5008 Element  | FHIR-Repräsentation  |
 |---|---|
-| Name  |  Siehe {{pagelink:Ressourcen-Patient-Name.md}} oder Patient.contact.organization (z.B. bei der Anschrift eines Arbeitgebers) |
+| Name  |  Siehe {{pagelink:ig/markdown/Ressourcen-Patient-Name.md}} oder Patient.contact.organization (z.B. bei der Anschrift eines Arbeitgebers) |
 | Zustell- oder Abholangabe  |  Address.line |
 | Postleitzahl  |  Address.postalCode |
 | Ort |  Address.city |
@@ -65,7 +65,7 @@ Alle Adresse können zusätzlich einen Ortsteil enthalten. Weitere Infos siehe A
 In machen Fällen kann die explizite Differenzierung der Adressbestandteile in eigene Elemente erforderlich sein, sei es nur, um einen von der eGK eingelesenen Datensatz, in dem eine solche Differenzierung stattfindet, exakt reproduzieren zu können.
 Für diesen Fall stehen diverse Extensions zur Verfügung.
 
-Alle Extensions die innerhalb der Deutschen Basisprofile spezifiziert werden sind im Abschnitt {{pagelink:ExtensionsfrPatient}} dokumentiert.
+Alle Extensions die innerhalb der Deutschen Basisprofile spezifiziert werden sind im Abschnitt {{pagelink:ig/markdown/ExtensionsfrPatient}} dokumentiert.
 
 Es ist jedoch zu beachten, dass Address.line auch bei Verwendung der Extensions stets gefüllt sein muss, da nicht davon ausgegangen werden kann, dass alle Systeme die Extensions interpretieren können!
 
@@ -151,4 +151,4 @@ Beispiel:
 ------------
 
 #### Amtlicher Gemeindeschlüssel
-Für Forschungsdatensätzen mit Bezug auf regionale Auswertungen kann zusätzlich zur PLZ der [Amtliche Gemeindeschlüssel](https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel) angegeben werden. Hierzu kann die Extension Extension-destatis-ags verwendet werden. Siehe {{pagelink:ExtensionsfrPatient}}.
+Für Forschungsdatensätzen mit Bezug auf regionale Auswertungen kann zusätzlich zur PLZ der [Amtliche Gemeindeschlüssel](https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel) angegeben werden. Hierzu kann die Extension Extension-destatis-ags verwendet werden. Siehe {{pagelink:ig/markdown/ExtensionsfrPatient}}.
