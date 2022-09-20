@@ -11,7 +11,7 @@
 Da es beim organisationsinternen Identifier keinen einheitlichen Namensraum gibt, ist hier die Angabe des `type`-Codes "MR" (Medical Record Number) verpflichtend, um die PID einrichtungsübergreifend als solche erkennen zu können.
 
 Jede Einrichtung muss für ihren Namensraum eine NamingSystem-URL festlegen.
-Hinweise zur Nomenklatur organisationsinterner `Identifier.system`-URLs siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-LokaleNamensraeume}}.
+Hinweise zur Nomenklatur organisationsinterner `Identifier.system`-URLs siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-LokaleNamensraeume.md}}.
 
 ##### Beispiel PID
 ```xml

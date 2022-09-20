@@ -40,9 +40,9 @@ Dieser Leitfaden richtet sich an
 
 Dieser Leitfaden enthält
 * Strukturelle Vorgaben in Form von 
-    - FHIR-Profilen für div. FHIR Ressourcen (Siehe Abschnitt {{pagelink:ig/markdown/Ressourcen-Uebersicht}})
-    - FHIR-Profile für Datentypen (Siehe Abschnitt {{pagelink:ig/markdown/Datentypen-Uebersicht}})
-    - FHIR-Extensions (Siehe Abschnitt {{pagelink:ig/markdown/Extensions-Uebersicht}})
+    - FHIR-Profilen für div. FHIR Ressourcen (Siehe Abschnitt {{pagelink:ig/markdown/Ressourcen-Uebersicht.md}})
+    - FHIR-Profile für Datentypen (Siehe Abschnitt {{pagelink:ig/markdown/Datentypen-Uebersicht.md}})
+    - FHIR-Extensions (Siehe Abschnitt {{pagelink:ig/markdown/Extensions-Uebersicht.md}})
 <br><br>
-* Semantische Vorgaben in Form von Value Sets, Codesystemen und Namensräumen (Siehe Abschnitt {{pagelink:ig/markdown/Terminologie-Uebersicht}})
-* Hinweise zur Anwendung dieser Profile in konkreten Use-Cases finden sich unter {{pagelink:ig/markdown/Anwendungshinweise}}.
+* Semantische Vorgaben in Form von Value Sets, Codesystemen und Namensräumen (Siehe Abschnitt {{pagelink:ig/markdown/Terminologie-Uebersicht.md}})
+* Hinweise zur Anwendung dieser Profile in konkreten Use-Cases finden sich unter {{pagelink:ig/markdown/Anwendungshinweise.md}}.

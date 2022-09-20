@@ -8,7 +8,7 @@ Die Datenstruktur, die auf den Deutschen gesetzlichen Krankenversichertenkarten 
 
 Daher wurde das deutsche Profil für `HumanName` mit Extensions versehen, die es erlauben, die Granularität der Daten von den Versichertenkarten in FHIR 1:1 abzubilden.
 
-Alle Extensions sind im Abschnitt {{pagelink:ig/markdown/ExtensionsfrPatient}} dokumentiert.
+Alle Extensions sind im Abschnitt {{pagelink:ig/markdown/ExtensionsfrPatient.md}} dokumentiert.
 
 Häufig ist dies jedoch nicht erforderlich, da die Standard-Felder `family`, `given`, `prefix` den meisten Systemen ausreichend Information bieten. Die Implementierung der Extensions ist daher nicht zwingend erforderlich. Es ist jedoch stets zu beachten, dass alle Informationen, die in den Extensions abgebildet werden, stets auch in den Standard-Feldern enthalten sein müssen, so dass Systeme, die die Extensions ignorieren, zwar Granularität, nicht jedoch Information verlieren.
 

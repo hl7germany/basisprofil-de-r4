@@ -29,7 +29,7 @@ Das Technische Komitee hat jedoch beschlossen, dafür keinen zusätzlichen Code 
 Für die eingetragene Lebenspartnerschaft ist daher der Code "M" (verheiratet) zu verwenden.
 
 Dieser Leitfaden enthält ein Supplement zum CodeSystem `v3-MaritalStatus` mit deutschen Anzeigetexten:  
-{{pagelink:ig/markdown/Terminologie-CodeSystemSupplement-marital-status}}
+{{pagelink:ig/markdown/Terminologie-CodeSystemSupplement-marital-status.md}}
 
 
 
