@@ -53,3 +53,4 @@ jobs:
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
           SUSHI_VERSION: 3.0.0-beta.1
+          SUSHI_OPTIONS: resources/
