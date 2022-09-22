@@ -3,7 +3,6 @@ Id: anlage-6-vorsatzworte
 Description: "Tabelle der gültigen Vorsatzworte"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

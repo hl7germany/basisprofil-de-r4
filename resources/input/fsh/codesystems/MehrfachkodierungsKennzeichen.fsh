@@ -2,7 +2,6 @@ CodeSystem: MehrfachkodierungsKennzeichen
 Id: icd-10-gm-mehrfachcodierungs-kennzeichen
 Description: "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = true
 * ^date = "2021-05-20"

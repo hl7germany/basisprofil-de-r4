@@ -3,7 +3,6 @@ Id: valueset-ICD-10-GM
 Description: "ICD-10-GM"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/bfarm/icd-10-gm"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

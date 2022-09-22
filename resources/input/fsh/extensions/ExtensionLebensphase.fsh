@@ -1,7 +1,6 @@
 Extension: ExtensionLebensphase
 Id: ExtensionLebensphase
 * ^url = "http://fhir.de/StructureDefinition/lebensphase"
-* ^version = "1.4.0"
 * ^date = "2020-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

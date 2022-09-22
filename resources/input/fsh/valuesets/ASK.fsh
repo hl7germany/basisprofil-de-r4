@@ -3,7 +3,6 @@ Id: valueset-ask
 Description: "Arzneimittel-Stoffkatalog (ASK) Nummern"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/ask"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

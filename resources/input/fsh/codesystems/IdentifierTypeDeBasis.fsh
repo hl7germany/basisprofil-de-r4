@@ -2,7 +2,6 @@ CodeSystem: IdentifierTypeDeBasis
 Id: identifier-type-de-basis
 Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

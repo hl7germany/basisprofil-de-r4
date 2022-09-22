@@ -3,7 +3,6 @@ Id: vs-common-meta-tag-de
 Description: "Gebräuchliche Codes zur Kodierung von Resource.meta.tag"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/common-meta-tag-de"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2022-03-10"

@@ -2,7 +2,6 @@ ValueSet: ValueSetLebensphaseDe
 Id: ValueSetLebensphaseDe
 Description: "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase"
 * ^url = "http://fhir.de/ValueSet/lebensphase-de"
-* ^version = "1.4.0"
 * ^status = #active
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

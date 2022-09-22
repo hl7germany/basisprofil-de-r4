@@ -2,7 +2,6 @@ CodeSystem: CodeSystemSupplementISO3166
 Id: supplement-iso-3166
 Title: "CodeSystem Supplement ISO 3166"
 Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

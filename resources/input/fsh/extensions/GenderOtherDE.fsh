@@ -2,7 +2,6 @@ Extension: GenderOtherDE
 Id: gender-amtlich-de
 Title: "Differenzierung des administrativen Geschlechts 'other'"
 Description: "Extension zur genaueren Differenzierung des administrativen Geschlechts 'other', vgl. https://wiki.hl7.de/index.php?title=Geschlecht#administratives_Geschlecht."
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

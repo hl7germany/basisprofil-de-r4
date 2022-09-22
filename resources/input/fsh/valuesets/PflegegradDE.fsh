@@ -3,7 +3,6 @@ Id: valueset-pflegegrad-de
 Description: "Codes zur genaueren Differenzierung des Pflegegrads."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/pflegegrad-de"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

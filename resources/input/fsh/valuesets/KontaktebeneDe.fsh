@@ -2,7 +2,6 @@ ValueSet: KontaktebeneDe
 Id: kontaktebene-de
 Description: "Kontaktebene für die Codierung von Encounter.type"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-03-12"

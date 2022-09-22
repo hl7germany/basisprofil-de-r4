@@ -1,7 +1,6 @@
 Extension: ExtenstionEntlassungsgrund
 Id: Entlassungsgrund
 Title: "ExtenstionEntlassungsgrund"
-* ^version = "1.4.0"
 * ^context.type = #element
 * ^context.expression = "Encounter.hospitalization.dischargeDisposition"
 * extension ^slicing.discriminator.type = #value

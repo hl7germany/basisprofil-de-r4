@@ -3,7 +3,6 @@ Id: valueset-VersicherungsartDeBasis
 Description: "ValueSet für die in Deutschland üblichen Versicherungsarten"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/versicherungsart-de-basis"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

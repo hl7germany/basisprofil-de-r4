@@ -3,7 +3,6 @@ Parent: Identifier
 Id: identifier-pid
 Title: "Identifier-Profil für die Abbildung einer Patienten-ID"
 Description: "Identifier-Profil für die Abbildung einer organisationsspezifischen Patienten-ID"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

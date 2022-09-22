@@ -3,7 +3,6 @@ Id: ags
 Description: """Extension für die Abbildung des Amtlichen Gemeindeschlüssels
 https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel"""
 * ^url = "http://fhir.de/StructureDefinition/destatis/ags"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

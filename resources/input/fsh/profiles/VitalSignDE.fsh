@@ -2,7 +2,6 @@ Profile: VitalSignDE
 Parent: Observation
 Id: VitalSignDE
 * ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

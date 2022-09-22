@@ -3,7 +3,6 @@ Id: AbrechnungsartVS
 Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/dkgev/Abrechnungsart"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-03-12"

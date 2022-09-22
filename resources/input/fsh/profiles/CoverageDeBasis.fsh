@@ -3,7 +3,6 @@ Parent: Coverage
 Id: coverage-de-basis
 Title: "Coverage, deutsches Basisprofil"
 Description: "Basis-Profil für die Nutzung der Coverage-Resource in Deutschland"
-* ^version = "1.4.0"
 * ^status = #active
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

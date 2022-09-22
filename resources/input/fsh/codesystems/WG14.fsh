@@ -2,7 +2,6 @@ CodeSystem: WG14
 Id: wg14
 Description: "ABDATA WG14 Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/abdata/wg14"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

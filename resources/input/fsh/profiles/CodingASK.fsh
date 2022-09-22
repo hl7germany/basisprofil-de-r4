@@ -3,7 +3,6 @@ Parent: Coding
 Id: CodingASK
 Title: "Coding-Profil für ASK"
 Description: "Abbildung der Mindestanforderungen einer ASK-Codierung"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

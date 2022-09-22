@@ -3,7 +3,6 @@ Id: anlage-7-namenszusaetze
 Description: "Tabelle der gültigen Namenszusätze"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

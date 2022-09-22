@@ -3,7 +3,6 @@ Id: wahlleistungen-de
 Title: "Wahlleistungen"
 Description: "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-12-21"

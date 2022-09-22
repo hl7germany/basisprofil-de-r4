@@ -3,7 +3,6 @@ Id: KontaktDiagnoseProzedur
 Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
 * ^status = #active
 * ^content = #complete
-* ^version = "1.4.0"
 * ^experimental = false
 * ^caseSensitive = false
 * ^date = "2022-02-17"

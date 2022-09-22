@@ -2,7 +2,6 @@ Profile: ChargeItemEBM
 Parent: ChargeItem
 Id: chargeitem-de-ebm
 Title: "ChargeItem für EBM-Ziffer als Abrechnungsposition"
-* ^version = "1.4.0"
 * ^status = #active
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

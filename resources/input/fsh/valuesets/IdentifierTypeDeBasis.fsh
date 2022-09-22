@@ -3,7 +3,6 @@ Id: valueset-identifier-type-de-basis
 Description: "ValueSet zur Codierung des Identifier-Typs"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/identifier-type-de-basis"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

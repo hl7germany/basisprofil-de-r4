@@ -3,7 +3,6 @@ Id: besondere-personengruppe
 Description: """Gibt die Zugehörigkeit des Versicherten zu einer besonderen Personengruppe
 an."""
 * ^url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

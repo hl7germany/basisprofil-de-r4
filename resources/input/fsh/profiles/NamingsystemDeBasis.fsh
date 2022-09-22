@@ -3,7 +3,6 @@ Parent: NamingSystem
 Id: namingsystem-de-basis
 Title: "Namingsystem, deutsches Basisprofil"
 Description: "Definition für NamingSystem-Ressourcen in deutschen Profilen"
-* ^version = "1.4.0"
 * ^status = #active
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

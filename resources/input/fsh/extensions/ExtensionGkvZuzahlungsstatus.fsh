@@ -2,7 +2,6 @@ Extension: ExtensionGkvZuzahlungsstatus
 Id: zuzahlungsstatus
 Description: "Gibt an, ob für den Versicherten eine Befreiung von der Zuzahlungspflicht nach § 62 Abs. 3 SGB V vorliegt."
 * ^url = "http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

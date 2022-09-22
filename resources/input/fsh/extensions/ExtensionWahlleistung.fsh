@@ -1,7 +1,6 @@
 Extension: ExtensionWahlleistung
 Id: wahlleistungen
 Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärztliche Wahlleistungen) während eines Kontaktes mit einer Gesundheitseinrichtung"
-* ^version = "1.4.0"
 * ^date = "2020-12-21"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

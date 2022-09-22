@@ -2,7 +2,6 @@ CodeSystem: DiagnosisRole
 Id: diagnosis-role-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

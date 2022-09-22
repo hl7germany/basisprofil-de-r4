@@ -2,7 +2,6 @@ CodeSystem: OPS
 Id: ops
 Description: "OPS Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/bfarm/ops"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

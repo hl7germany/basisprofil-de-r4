@@ -3,7 +3,6 @@ Id: UcumVitalsCommonDE
 Title: "UCUM Vitals Common DE"
 Description: "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

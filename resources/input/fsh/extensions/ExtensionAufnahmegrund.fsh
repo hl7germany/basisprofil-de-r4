@@ -1,7 +1,6 @@
 Extension: ExtensionAufnahmegrund
 Id: Aufnahmegrund
 Title: "ExtensionAufnahmegrund"
-* ^version = "1.4.0"
 * ^context.type = #element
 * ^context.expression = "Encounter"
 * extension ^slicing.discriminator.type = #value

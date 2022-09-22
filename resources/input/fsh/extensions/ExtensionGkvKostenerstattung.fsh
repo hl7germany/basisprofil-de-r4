@@ -4,7 +4,6 @@ Description: """Gibt an, ob der Kostenträger den Nachweis der Inanspruchnahme v
 vorhanden = Nachweis wird genutzt;
 nicht vorhanden = Nachweis wird nicht genutzt"""
 * ^url = "http://fhir.de/StructureDefinition/gkv/kostenerstattung"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

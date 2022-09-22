@@ -3,7 +3,6 @@ Parent: Coding
 Id: CodingPZN
 Title: "Coding-Profil für PZN"
 Description: "Abbildung der Mindestanforderungen einer PZN-Codierung"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

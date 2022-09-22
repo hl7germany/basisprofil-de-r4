@@ -4,7 +4,6 @@ Title: "AufnahmegrundDritteStelle"
 Description: "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

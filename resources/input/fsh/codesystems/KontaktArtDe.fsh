@@ -2,7 +2,6 @@ CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-12"

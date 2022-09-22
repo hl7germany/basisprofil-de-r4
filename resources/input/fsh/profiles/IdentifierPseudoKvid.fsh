@@ -3,7 +3,6 @@ Parent: Identifier
 Id: identifier-pseudo-kvid
 Title: "Identifier-Profil für die pseudonymisierte Krankenversichertennummer"
 Description: "Identifier-Profil für die pseudonymisierte Krankenversichertennummer (Wird für Registermeldungen verwendet)"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

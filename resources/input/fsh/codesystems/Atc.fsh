@@ -2,7 +2,6 @@ CodeSystem: Atc
 Id: atc
 Description: "ATC Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/bfarm/atc"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

@@ -1,6 +1,5 @@
 Extension: ExtensionProzedurDokumentationsdatum
 Id: ProzedurDokumentationsdatum
-* ^version = "1.4.0"
 * ^context.type = #element
 * ^context.expression = "Procedure"
 * . ^short = "Dokumentationsdatum der Prozedur"

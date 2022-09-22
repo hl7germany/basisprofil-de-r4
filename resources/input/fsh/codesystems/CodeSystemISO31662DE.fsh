@@ -3,7 +3,6 @@ Id: CodeSystemISO31662DE
 Title: "ISO-3166-2:de-Laendercodes"
 Description: "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder."
 * ^url = "urn:iso:std:iso:3166-2:de"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

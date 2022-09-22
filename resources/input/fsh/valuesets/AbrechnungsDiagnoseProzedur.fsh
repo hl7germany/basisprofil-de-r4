@@ -1,7 +1,6 @@
 ValueSet: AbrechnungsDiagnoseProzedur
 Id: AbrechnungsDiagnoseProzedur
 * ^status = #active
-* ^version = "1.4.0"
 * ^experimental = false
 * ^date = "2022-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

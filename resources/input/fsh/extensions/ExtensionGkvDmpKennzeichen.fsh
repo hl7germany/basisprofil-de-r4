@@ -7,7 +7,6 @@ Verwendung. Das DMP-Kennzeichen wird in diesem Zusammenhang als
 Angabe zum Nachweis von Wahltarifen nach § 53 SGB V bzw. der Angaben
 zum Nachweis von zusätzlichen Vertragsverhältnissen verwendet."""
 * ^url = "http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen"
-* ^version = "1.4.0"
 * ^status = #draft
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

@@ -6,7 +6,6 @@ Description: "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet
 * ^identifier.value = "urn:oid:1.2.276.0.76.5.528"
 * ^status = #active
 * ^content = #complete
-* ^version = "1.4.0"
 * ^url = "http://fhir.de/CodeSystem/merkzeichen-de"
 * ^caseSensitive = true
 * ^count = 14

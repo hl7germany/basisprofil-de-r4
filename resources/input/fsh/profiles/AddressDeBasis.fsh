@@ -3,7 +3,6 @@ Parent: Address
 Id: address-de-basis
 Title: "Adresse, deutsches Basisprofil"
 Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

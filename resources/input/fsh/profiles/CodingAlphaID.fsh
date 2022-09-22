@@ -3,7 +3,6 @@ Parent: Coding
 Id: CodingAlphaID
 Title: "Coding-Profil für Alpha-ID"
 Description: "Abbildung der Mindestanforderungen eines Alpha-ID-Codes"
-* ^version = "1.4.0"
 * ^date = "2021-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

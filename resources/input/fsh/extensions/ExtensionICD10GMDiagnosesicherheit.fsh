@@ -1,7 +1,6 @@
 Extension: ExtensionICD10GMDiagnosesicherheit
 Id: icd-10-gm-diagnosesicherheit
 Title: "Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

@@ -2,7 +2,6 @@ ValueSet: EncounterStatusDe
 Id: EncounterStatusDe
 Description: "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-03-12"

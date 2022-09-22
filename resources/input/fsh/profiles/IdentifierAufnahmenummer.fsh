@@ -3,7 +3,6 @@ Parent: Identifier
 Id: identifier-aufnahmenummer
 Title: "Identifier-Profil für die Abbildung einer Aufnahmenummer (\"Fallnummer\")"
 Description: "Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (\"Fallnummer\")"
-* ^version = "1.4.0"
 * ^date = "2021-12-27"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

@@ -1,7 +1,6 @@
 Extension: ExtensionAbrechnungsart
 Id: ExtensionAbrechnungsart
 Title: "Abrechnungsart"
-* ^version = "1.4.0"
 * ^date = "2022-02-17"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other

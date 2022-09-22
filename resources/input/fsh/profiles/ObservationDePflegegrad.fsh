@@ -3,7 +3,6 @@ Parent: Observation
 Id: observation-de-pflegegrad
 Title: "Pflegegrad, deutsches Basisprofil"
 Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

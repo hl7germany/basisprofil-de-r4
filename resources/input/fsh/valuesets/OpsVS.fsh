@@ -3,7 +3,6 @@ Id: ops-vs
 Description: "OPS ValueSet"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/bfarm/ops"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-03-12"

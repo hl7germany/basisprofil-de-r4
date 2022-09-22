@@ -3,7 +3,6 @@ Id: EncounterClassDE
 Title: "EncounterClassDE"
 Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-03-12"

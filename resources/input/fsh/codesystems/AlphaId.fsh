@@ -3,7 +3,6 @@ Id: alpha-id
 Description: "Alpha-ID Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/bfarm/alpha-id"
 * ^identifier.value = "1.2.276.0.76.5.479"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

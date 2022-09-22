@@ -1,7 +1,6 @@
 Extension: ExtensionSeitenlokalisation
 Id: seitenlokalisation
 Description: "Dokumentation der Lateralität bei OPS und ICD-10 Codes"
-* ^version = "1.4.0"
 * ^date = "2020-05-14"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url

@@ -2,7 +2,6 @@ CodeSystem: Pzn
 Id: pzn
 Description: "PZN Platzhalter-CodeSystem"
 * ^url = "http://fhir.de/CodeSystem/ifa/pzn"
-* ^version = "1.4.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

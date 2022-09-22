@@ -2,7 +2,6 @@ Profile: GradDerBehinderung
 Parent: Observation
 Id: GradDerBehinderung
 Description: "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen"
-* ^version = "1.4.0"
 * code.coding ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"
   * ^slicing.ordered = false
