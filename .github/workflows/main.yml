@@ -42,8 +42,7 @@ jobs:
       - name: Firely.Terminal (GitHub Actions)
         uses: FirelyTeam/firely-terminal-pipeline@v0.3.5
         with:
-          PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile terminologie/codesysteme terminologie/valuesets terminologie/namingsystems terminologie/ihe terminologie/conceptmap datentypen-profile extensions
-          PATH_TO_EXAMPLES: beispiele
+          PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
