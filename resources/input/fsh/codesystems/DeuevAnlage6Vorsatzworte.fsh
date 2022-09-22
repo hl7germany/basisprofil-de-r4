@@ -1,7 +1,7 @@
 CodeSystem: DeuevAnlage6Vorsatzworte
 Id: anlage-6-vorsatzworte
 Description: "Tabelle der gültigen Vorsatzworte"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
 * ^status = #active
 * ^experimental = false

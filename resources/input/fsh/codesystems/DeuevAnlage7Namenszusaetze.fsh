@@ -1,7 +1,7 @@
 CodeSystem: DeuevAnlage7Namenszusaetze
 Id: anlage-7-namenszusaetze
 Description: "Tabelle der gültigen Namenszusätze"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"
 * ^status = #active
 * ^experimental = false

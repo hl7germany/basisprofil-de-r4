@@ -30,6 +30,7 @@ Alias: $identifier-type-de-basis = http://fhir.de/CodeSystem/identifier-type-de-
 Alias: $ags = http://fhir.de/sid/destatis/ags
 Alias: $vitalsigns = http://hl7.org/fhir/StructureDefinition/vitalsigns
 Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareablevalueset
+Alias: $shareablecodesystem = http://hl7.org/fhir/StructureDefinition/shareablecodesystem
 Alias: $iso21090-ADXP-precinct = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct
 Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
 Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber

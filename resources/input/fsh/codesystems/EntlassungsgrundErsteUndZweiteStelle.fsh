@@ -2,7 +2,7 @@ CodeSystem: EntlassungsgrundErsteUndZweiteStelle
 Id: EntlassungsgrundErsteUndZweiteStelle
 Title: "EntlassungsgrundErsteUndZweiteStelle"
 Description: "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle"
 * ^status = #active
 * ^experimental = false

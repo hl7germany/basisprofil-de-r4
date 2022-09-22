@@ -2,7 +2,7 @@ CodeSystem: CodeSystemWahlleistungen
 Id: wahlleistungen-de
 Title: "Wahlleistungen"
 Description: "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-12-21"

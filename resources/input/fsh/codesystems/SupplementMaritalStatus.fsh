@@ -1,7 +1,7 @@
 CodeSystem: SupplementMaritalStatus
 Id: marital-status-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

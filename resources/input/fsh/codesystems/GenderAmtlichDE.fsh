@@ -1,7 +1,7 @@
 CodeSystem: GenderAmtlichDE
 Id: gender-amtlich-de
 Description: "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"

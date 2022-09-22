@@ -1,7 +1,7 @@
 CodeSystem: Abrechnungsart
 Id: Abrechnungsart
 Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Abrechnungsart"
 * ^status = #active
 * ^experimental = false

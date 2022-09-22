@@ -1,7 +1,7 @@
 CodeSystem: SupplementIdentifierTypeV2
 Id: identifier-type-v2-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"
