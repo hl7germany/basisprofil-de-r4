@@ -18,12 +18,10 @@ Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten inc
 * effective[x] only Period
 * effectivePeriod 1..
 * effectivePeriod only Period
-  * ^sliceName = "effectivePeriod"
   * start 1..
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..
 * valueCodeableConcept only CodeableConcept
-  * ^sliceName = "valueCodeableConcept"
   * coding 1..
   * coding from PflegegradDE (required)
 * bodySite ..0
