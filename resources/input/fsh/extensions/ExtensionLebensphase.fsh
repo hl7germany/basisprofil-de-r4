@@ -16,11 +16,6 @@ Id: ExtensionLebensphase
 * url = "http://fhir.de/StructureDefinition/lebensphase" (exactly)
 * value[x] 1..
 * value[x] only CodeableConcept
-  * ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* valueCodeableConcept only CodeableConcept
-  * ^sliceName = "valueCodeableConcept"
   * coding 1..1
   * coding from ValueSetLebensphaseDe (required)
     * ^binding.description = "Lebensphase"
