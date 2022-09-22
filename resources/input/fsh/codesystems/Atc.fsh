@@ -1,6 +1,7 @@
 CodeSystem: Atc
 Id: atc
 Description: "ATC Platzhalter-CodeSystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/bfarm/atc"
 * ^status = #active
 * ^experimental = false

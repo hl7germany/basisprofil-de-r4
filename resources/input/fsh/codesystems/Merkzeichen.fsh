@@ -2,6 +2,7 @@ CodeSystem: Merkzeichen
 Id: cs-merkzeichen-de
 Title: "Deutsche Merkzeichen auf dem Behindertenausweis"
 Description: "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden"
+* ^meta.profile = $shareablecodesystem
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.5.528"
 * ^status = #active

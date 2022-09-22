@@ -1,6 +1,7 @@
 CodeSystem: KontaktDiagnoseProzedur
 Id: KontaktDiagnoseProzedur
 Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^content = #complete
 * ^experimental = false

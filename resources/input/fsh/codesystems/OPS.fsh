@@ -1,6 +1,7 @@
 CodeSystem: OPS
 Id: ops
 Description: "OPS Platzhalter-CodeSystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/bfarm/ops"
 * ^status = #active
 * ^experimental = false

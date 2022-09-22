@@ -1,6 +1,7 @@
 CodeSystem: Pzn
 Id: pzn
 Description: "PZN Platzhalter-CodeSystem"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/ifa/pzn"
 * ^status = #active
 * ^experimental = false

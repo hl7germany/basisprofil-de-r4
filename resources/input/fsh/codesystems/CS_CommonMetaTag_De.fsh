@@ -2,6 +2,7 @@ CodeSystem: CS_CommonMetaTag_De
 Id: cs-common-meta-tag-de
 Title: "CS Basisprofil Common Meta Tag DE"
 Description: "Gebräuchliche Codes zur Kodierung von Resource.meta.tag"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^content = #complete
 * ^url = "http://fhir.de/CodeSystem/common-meta-tag-de"

@@ -1,6 +1,7 @@
 CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
+* ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
 * ^status = #active
 * ^experimental = false

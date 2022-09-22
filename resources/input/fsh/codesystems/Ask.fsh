@@ -1,6 +1,7 @@
 CodeSystem: Ask
 Id: ask
 Description: "Arzneimittel-Stoffkatalog (ASK) Platzhalter-CodeSystem"
+* ^meta.profile = $shareablecodesystem
 * ^status = #active
 * ^experimental = false
 * ^date = "2021-02-17"
