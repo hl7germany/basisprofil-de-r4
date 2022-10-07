@@ -46,5 +46,5 @@ Usage: #example
 * component[Eye].valueQuantity = 3 '1' "Punktwert"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
-* subject.reference = "https://server/Patient/example"
+* subject.reference = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"
