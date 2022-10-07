@@ -2,12 +2,7 @@ CodeSystem: DiagnosisRole
 Id: diagnosis-role-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/diagnosis-role"
 * #AD

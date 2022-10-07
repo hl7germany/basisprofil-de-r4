@@ -3,10 +3,7 @@ Parent: Identifier
 Id: identifier-kvid-10
 Title: "Identifier-Profil für die 10-stellige Krankenversichertennummer"
 Description: "Identifier-Profil für die 10-stellige Krankenversichertennummer"
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * type = $identifier-type-de-basis#GKV
 * type from IdentifierTypeDeBasis (extensible)

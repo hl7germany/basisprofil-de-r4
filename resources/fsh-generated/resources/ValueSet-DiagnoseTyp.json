@@ -6,7 +6,7 @@
   "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
-  "date": "2022-02-17",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

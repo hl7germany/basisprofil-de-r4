@@ -6,13 +6,14 @@
   "name": "HumannameDeBasis",
   "title": "HumanName, deutsches Basisprofil",
   "status": "active",
-  "date": "2021-02-17",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
@@ -36,14 +37,6 @@
       "identity": "servd",
       "uri": "http://www.omg.org/spec/ServD/1.0/",
       "name": "ServD"
-    },
-    {
-      "identity": "BDT",
-      "name": "BDT Mapping"
-    },
-    {
-      "identity": "KVDT",
-      "name": "KVDT Mapping"
     }
   ],
   "kind": "complex-type",
@@ -91,30 +84,10 @@
         ]
       },
       {
-        "id": "HumanName.use",
-        "path": "HumanName.use",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "1211 (in BDT als Freitext!)"
-          }
-        ]
-      },
-      {
         "id": "HumanName.family",
         "path": "HumanName.family",
         "short": "Familienname",
-        "definition": "Der vollständige Familienname, einschließlich aller Vorsatz- und Zusatzwörter, mit Leerzeichen getrennt.",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3120 + 3100 + 3101"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3100 + 3120 + 3101"
-          }
-        ]
+        "definition": "Der vollständige Familienname, einschließlich aller Vorsatz- und Zusatzwörter, mit Leerzeichen getrennt."
       },
       {
         "id": "HumanName.family.extension:namenszusatz",
@@ -128,16 +101,6 @@
             "profile": [
               "http://fhir.de/StructureDefinition/humanname-namenszusatz"
             ]
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3100"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3100"
           }
         ]
       },
@@ -156,16 +119,6 @@
               "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
             ]
           }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3101"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3101"
-          }
         ]
       },
       {
@@ -183,49 +136,19 @@
               "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix"
             ]
           }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3120"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3120"
-          }
         ]
       },
       {
         "id": "HumanName.given",
         "path": "HumanName.given",
         "short": "Vorname",
-        "definition": "Vorname der Person",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3102"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3102"
-          }
-        ]
+        "definition": "Vorname der Person"
       },
       {
         "id": "HumanName.prefix",
         "path": "HumanName.prefix",
         "short": "Namensteile vor dem Vornamen",
-        "definition": "Namensteile vor dem Vornamen, z.B. akademischer Titel.",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3104"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3104"
-          }
-        ]
+        "definition": "Namensteile vor dem Vornamen, z.B. akademischer Titel."
       },
       {
         "id": "HumanName.prefix.extension:prefix-qualifier",

@@ -132,27 +132,11 @@
       {
         "id": "Observation.component:merkzeichen.value[x]",
         "path": "Observation.component.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "boolean"
           }
-        ]
-      },
-      {
-        "id": "Observation.component:merkzeichen.valueBoolean",
-        "path": "Observation.component.valueBoolean",
-        "min": 0,
-        "max": "1",
+        ],
         "patternBoolean": true
       }
     ]

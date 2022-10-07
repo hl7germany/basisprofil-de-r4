@@ -7,10 +7,7 @@ Gesetzes zur Einführung des Wohnortprinzips bei Honorarvereinbarungen für
 Ärzte und Zahnärzte und zur Krankenversichertenkarte gemäß § 291 Abs. 2
 Fünftes Sozialgesetzbuch (SGB V) erforderlich."""
 * ^url = "http://fhir.de/StructureDefinition/gkv/wop"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

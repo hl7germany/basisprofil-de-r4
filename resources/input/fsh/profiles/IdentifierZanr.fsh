@@ -3,10 +3,7 @@ Parent: Identifier
 Id: identifier-zanr
 Title: "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer"
 Description: "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer"
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $identifier-type-de-basis#ZANR

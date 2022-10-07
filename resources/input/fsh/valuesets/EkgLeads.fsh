@@ -2,10 +2,7 @@ ValueSet: EkgLeads
 Id: EkgLeads
 Title: "EKG/ECG leads"
 Description: "EKG/ECG leads"
-* ^status = #active
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * $loinc#LP7383-5 "Lead AVF"
 * $loinc#LP7384-3 "Lead AVL"

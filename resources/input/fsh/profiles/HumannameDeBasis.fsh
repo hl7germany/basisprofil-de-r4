@@ -3,10 +3,7 @@ Parent: HumanName
 Id: humanname-de-basis
 Title: "HumanName, deutsches Basisprofil"
 Description: "Personenname mit in Deutschland üblichen Erweiterungen"
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * obeys hum-1 and hum-2 and hum-3 and hum-4
 * . ^short = "Personenname"

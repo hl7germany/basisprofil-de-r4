@@ -3,10 +3,7 @@ Parent: Address
 Id: address-de-basis
 Title: "Adresse, deutsches Basisprofil"
 Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile"
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^purpose = "Einige Systeme und Standards in Deutschland erfordern die separate Erfassung von Straße und Hausnummer.\r\nDie Erweiterung des Datentyps Address fügt hierfür die entsprechenden ISO-Extensions hinzu.\r\nOb deren Verwendung in einem konkreten Kontext verpflichtend ist, muss in den abgeleiteten Profilen festgelegt werden."
 * ^copyright = "HL7 Deutschland e.V."
 * obeys add-1 and add-2 and add-3 and add-4 and add-5 and add-6 and add-7

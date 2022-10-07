@@ -1,10 +1,7 @@
 Extension: ExtensionLebensphase
 Id: ExtensionLebensphase
 * ^url = "http://fhir.de/StructureDefinition/lebensphase"
-* ^date = "2020-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"
 * ^context[0].type = #element
 * ^context[=].expression = "DateTime"

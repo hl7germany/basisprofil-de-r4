@@ -3,10 +3,7 @@ Parent: Observation
 Id: observation-de-pflegegrad
 Title: "Pflegegrad, deutsches Basisprofil"
 Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code.coding ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"

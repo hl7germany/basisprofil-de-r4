@@ -4,12 +4,7 @@ Title: "ISO-3166-2:de-Laendercodes"
 Description: "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder."
 * ^meta.profile = $shareablecodesystem
 * ^url = "urn:iso:std:iso:3166-2:de"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "International Organization for Standardization"
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/iso/bundeslaender"

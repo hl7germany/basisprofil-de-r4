@@ -4,17 +4,11 @@ Title: "Fachabteilungsschluessel Erweitert"
 Description: "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-01-10"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
 * ^content = #fragment
-* ^count = 148
 * #0100 "Innere Medizin"
 * #0200 "Geriatrie"
 * #0300 "Kardiologie"

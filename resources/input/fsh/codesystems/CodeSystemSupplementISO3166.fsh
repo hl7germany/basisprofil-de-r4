@@ -3,12 +3,7 @@ Id: supplement-iso-3166
 Title: "CodeSystem Supplement ISO 3166"
 Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^caseSensitive = true
 * ^content = #supplement
 * ^supplements = "urn:iso:std:iso:3166"

@@ -3,10 +3,7 @@ Parent: CoverageDeBasis
 Id: coverage-de-sel
 Title: "Coverage, deutsches Selbstzahlerprofil"
 Description: "Profil für die Nutzung der Coverage-Resource in Deutschland zur Darstellung eines Selbstzahlerverhältnisses."
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * identifier ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"

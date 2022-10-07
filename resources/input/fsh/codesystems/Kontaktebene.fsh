@@ -2,10 +2,7 @@ CodeSystem: Kontaktebene
 Id: Kontaktebene
 Description: "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-12"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* insert addMetadata
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/kontaktebene-de"
 * ^content = #complete

@@ -4,10 +4,7 @@ Id: coverage-de-basis
 Title: "Coverage, deutsches Basisprofil"
 Description: "Basis-Profil für die Nutzung der Coverage-Resource in Deutschland"
 * ^status = #active
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^purpose = "Coverage wird verwedet um Informationen über die Versicherung eines Patienten zu speichern/kommunizieren"
 * ^copyright = "HL7 Deutschland e.V."
 * . ^short = "Versicherungsdaten"

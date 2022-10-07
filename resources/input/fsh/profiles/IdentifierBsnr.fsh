@@ -3,10 +3,7 @@ Parent: Identifier
 Id: identifier-bsnr
 Title: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
 Description: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#BSNR

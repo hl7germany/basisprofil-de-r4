@@ -2,7 +2,6 @@ Instance: ConceptMap-OPS-SNOMED-Category-Mapping
 InstanceOf: ConceptMap
 Usage: #definition
 * url = "http://fhir.de/ConceptMap/OPS-SNOMED-Category"
-* version = "1.4.0"
 * name = "ConceptMapOPS-SNOMED-Category-Mapping"
 * title = "ConceptMap - OPS_SNOMED-Category-Mapping"
 * status = #active

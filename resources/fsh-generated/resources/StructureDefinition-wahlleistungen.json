@@ -5,13 +5,14 @@
   "version": "1.4.0",
   "name": "ExtensionWahlleistung",
   "status": "active",
-  "date": "2020-12-21",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]

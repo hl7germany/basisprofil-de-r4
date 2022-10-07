@@ -3,12 +3,7 @@ Id: klassifikation
 Description: "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/arge-ik/klassifikation"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/arge-ik/klassifikation"

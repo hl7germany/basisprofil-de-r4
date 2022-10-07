@@ -3,12 +3,7 @@ Id: valueset-identifier-type-de-basis
 Description: "ValueSet zur Codierung des Identifier-Typs"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/identifier-type-de-basis"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * include codes from valueset $identifier-type
 * $v2-0203#XX "Organisations-ID"

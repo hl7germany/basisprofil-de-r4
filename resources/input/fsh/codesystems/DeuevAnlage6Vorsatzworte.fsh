@@ -3,12 +3,7 @@ Id: anlage-6-vorsatzworte
 Description: "Tabelle der gültigen Vorsatzworte"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete

@@ -172,7 +172,7 @@
     ]
   },
   "experimental": false,
-  "date": "2021-01-10",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -186,6 +186,5 @@
   ],
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": false,
-  "valueSet": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel",
-  "count": 39
+  "valueSet": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel"
 }

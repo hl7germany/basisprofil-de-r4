@@ -3,10 +3,7 @@ Id: ValueSetLebensphaseDe
 Description: "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase"
 * ^url = "http://fhir.de/ValueSet/lebensphase-de"
 * ^status = #active
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"
 * SNOMED_CT#41847000 "Adulthood (qualifier value)"
 * SNOMED_CT#263659003 "Adolescence (qualifier value)"

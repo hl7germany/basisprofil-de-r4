@@ -4,18 +4,12 @@ Title: "EntlassungsgrundErsteUndZweiteStelle"
 Description: "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle"
 * ^compositional = false
 * ^content = #complete
-* ^count = 29
 * #01 "Behandlung regulär beendet"
 * #02 "Behandlung regulär beendet, nachstationäre Behandlung vorgesehen"
 * #03 "Behandlung aus sonstigen Gründen beendet"

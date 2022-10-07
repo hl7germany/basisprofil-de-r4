@@ -2,10 +2,7 @@ Profile: VitalSignDE
 Parent: Observation
 Id: VitalSignDE
 * ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * obeys vs-de-2
 * category ^slicing.discriminator.type = #pattern

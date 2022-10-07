@@ -16,13 +16,14 @@
   "name": "VitalSignDE_Kopfumfang",
   "title": "Observation - VitalSignDE - Kopfumfang",
   "status": "active",
-  "date": "2020-05-14",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
@@ -91,8 +92,14 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE_Body_Length_UCUM"

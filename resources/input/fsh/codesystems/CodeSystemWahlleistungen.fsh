@@ -3,17 +3,11 @@ Id: wahlleistungen-de
 Title: "Wahlleistungen"
 Description: "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-12-21"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/wahlleistungen-de"
 * ^content = #complete
-* ^count = 10
 * #einzelbettzimmer-mit-sanitaerzone "Einbettzimmer mit Sanitärzone"
 * #zweibettzimmer-mit-sanitaerzone "Zweibettzimmer mit Sanitärzone"
 * #chef-oder-wahlarztbehandlung "Persönliche Behandlung durch den Chef- bzw. Wahlarzt"

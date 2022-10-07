@@ -3,10 +3,7 @@ Parent: CoverageDeBasis
 Id: coverage-de-gkv
 Title: "Coverage, deutsches GKV-Profil"
 Description: "Profil für die Nutzung der Coverage-Resource zur Darstellung eines gesetzlichen Versicherungsverhältnisses in Deutschland"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * . ^definition = "Kostenübernahme im Rahmen eines gesetzlichen Versicherungsverhältnisses in Deutschland."
 * extension ^slicing.discriminator.type = #value

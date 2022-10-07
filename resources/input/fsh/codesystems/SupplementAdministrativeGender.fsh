@@ -2,12 +2,7 @@ CodeSystem: SupplementAdministrativeGender
 Id: administrative-gender-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/administrative-gender"
 * #male

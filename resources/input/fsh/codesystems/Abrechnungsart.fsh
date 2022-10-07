@@ -3,12 +3,7 @@ Id: Abrechnungsart
 Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Abrechnungsart"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/Abrechnungsart"
 * ^hierarchyMeaning = #is-a

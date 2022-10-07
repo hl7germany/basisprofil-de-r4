@@ -15,13 +15,14 @@
   "version": "1.4.0",
   "name": "VitalSignDE",
   "status": "active",
-  "date": "2020-05-14",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
@@ -139,8 +140,9 @@
         "min": 1
       },
       {
-        "id": "Observation.effectiveDateTime",
-        "path": "Observation.effectiveDateTime",
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
         "min": 0,
         "max": "1",
         "type": [
@@ -159,8 +161,9 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
         "min": 0,
         "max": "1",
         "type": [
@@ -174,24 +177,24 @@
         }
       },
       {
-        "id": "Observation.valueQuantity.value",
-        "path": "Observation.valueQuantity.value",
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
         "min": 1
       },
       {
-        "id": "Observation.valueQuantity.unit",
-        "path": "Observation.valueQuantity.unit",
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
         "min": 1
       },
       {
-        "id": "Observation.valueQuantity.system",
-        "path": "Observation.valueQuantity.system",
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
         "min": 1,
         "patternUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.valueQuantity.code",
-        "path": "Observation.valueQuantity.code",
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
         "min": 1
       },
       {
@@ -208,8 +211,9 @@
         ]
       },
       {
-        "id": "Observation.component.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
         "min": 0,
         "max": "1",
         "type": [
@@ -223,24 +227,24 @@
         }
       },
       {
-        "id": "Observation.component.valueQuantity.value",
-        "path": "Observation.component.valueQuantity.value",
+        "id": "Observation.component.value[x]:valueQuantity.value",
+        "path": "Observation.component.value[x].value",
         "min": 1
       },
       {
-        "id": "Observation.component.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "min": 1
       },
       {
-        "id": "Observation.component.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "min": 1,
         "patternUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "min": 1
       }
     ]

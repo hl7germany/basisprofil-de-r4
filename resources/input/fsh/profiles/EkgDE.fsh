@@ -1,6 +1,7 @@
 Profile: EkgDE
 Parent: Observation
 Id: observation-de-ekg
+* insert addMetadata
 * category 1..
   * coding = $observation-category#procedure
 * code = $loinc#LP6244-0

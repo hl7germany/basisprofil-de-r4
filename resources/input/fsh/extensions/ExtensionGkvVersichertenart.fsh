@@ -3,10 +3,7 @@ Id: versichertenart
 Title: "Versichertenart GKV"
 Description: "Gibt die Versichertenart des Versicherten an."
 * ^url = "http://fhir.de/StructureDefinition/gkv/versichertenart"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

@@ -3,10 +3,7 @@ Id: generation-egk
 Title: "Extension zur Erfassung der Generation der eGK"
 Description: "Extension zur Erfassung der Generation der eGK"
 * ^url = "http://fhir.de/StructureDefinition/gkv/generation-egk"
-* ^date = "2020-05-14"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

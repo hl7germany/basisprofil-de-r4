@@ -6,7 +6,8 @@
   "name": "ExtensionAbrechnungsDiagnoseProzedur",
   "title": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren",
   "status": "active",
-  "date": "2022-02-17",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -66,27 +67,11 @@
       {
         "id": "Extension.extension:Use.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "Coding"
           }
-        ]
-      },
-      {
-        "id": "Extension.extension:Use.valueCoding",
-        "path": "Extension.extension.valueCoding",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur"

@@ -6,7 +6,8 @@
   "name": "AddressDeBasis",
   "title": "Adresse, deutsches Basisprofil",
   "status": "active",
-  "date": "2021-02-17",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -42,14 +43,6 @@
       "identity": "vcard",
       "uri": "http://w3.org/vcard",
       "name": "vCard Mapping"
-    },
-    {
-      "identity": "BDT",
-      "name": "BDT Mapping"
-    },
-    {
-      "identity": "KVDT",
-      "name": "KVDT Mapping"
     }
   ],
   "kind": "complex-type",
@@ -147,16 +140,6 @@
         ]
       },
       {
-        "id": "Address.type",
-        "path": "Address.type",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "1202 (1=physical, 2=postal)"
-          }
-        ]
-      },
-      {
         "id": "Address.line",
         "path": "Address.line",
         "short": "Straßenname mit Hausnummer oder Postfach sowie weitere Angaben zur Zustellung",
@@ -179,16 +162,6 @@
               ]
             }
           }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3107 + 3109 + 3115 oder 3123"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3107 + 3109 + 3115 oder 3123"
-          }
         ]
       },
       {
@@ -205,16 +178,6 @@
             "profile": [
               "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
             ]
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3107"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3107"
           }
         ]
       },
@@ -233,16 +196,6 @@
               "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
             ]
           }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3109"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3109"
-          }
         ]
       },
       {
@@ -260,16 +213,6 @@
               "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator"
             ]
           }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3115"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3115"
-          }
         ]
       },
       {
@@ -286,30 +229,6 @@
             "profile": [
               "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox"
             ]
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3123"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3123"
-          }
-        ]
-      },
-      {
-        "id": "Address.city",
-        "path": "Address.city",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3113 oder 3122 (Postfach)"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3113 oder 3122 (Postfach)"
           }
         ]
       },
@@ -332,17 +251,7 @@
         "id": "Address.postalCode",
         "path": "Address.postalCode",
         "short": "Postleitzahl",
-        "definition": "Postleitzahl gemäß der im jeweiligen Land gültigen Konventionen",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3112 oder 3121 (Postfach)"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3112 oder 3121 (Postfach)"
-          }
-        ]
+        "definition": "Postleitzahl gemäß der im jeweiligen Land gültigen Konventionen"
       },
       {
         "id": "Address.country",
@@ -352,37 +261,7 @@
         "binding": {
           "strength": "preferred",
           "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
-        },
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "3114 oder 3124 (Postfach), abweichendes CodeSystem"
-          },
-          {
-            "identity": "KVDT",
-            "map": "3114 oder 3124 (Postfach), abweichendes CodeSystem"
-          }
-        ]
-      },
-      {
-        "id": "Address.period.start",
-        "path": "Address.period.start",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "8226"
-          }
-        ]
-      },
-      {
-        "id": "Address.period.end",
-        "path": "Address.period.end",
-        "mapping": [
-          {
-            "identity": "BDT",
-            "map": "8227"
-          }
-        ]
+        }
       }
     ]
   }

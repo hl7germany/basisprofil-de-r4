@@ -5,7 +5,8 @@
   "version": "1.4.0",
   "name": "ExtensionAbrechnendeIK",
   "status": "active",
-  "date": "2021-02-17",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

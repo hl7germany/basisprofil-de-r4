@@ -1,10 +1,7 @@
 Extension: ExtensionInformationRecipient
 Id: informationrecipient
 Description: "Dokumentation des Empfängers von Information (z.B. eines Dokumentes)"
-* ^date = "2020-12-22"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Composition"

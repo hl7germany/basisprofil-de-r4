@@ -3,12 +3,7 @@ Id: anlage-8-laenderkennzeichen
 Description: "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschriften. Diese Übersicht basiert auf dem in der Staats- und Gebietssystematik des statistischen Bundesamtes verwendeten Schlüsselverzeichnis. Insofern wird bei den folgenden verwendeten Bezeichnungen, ihrer Auswahl und der Art der Wiedergabe des Inhalts nicht zum völker- oder staatsrechtlichen Status von Ländern, Hoheitsgebieten, Städten oder Gebieten oder ihrer Behörden oder zum Verlauf ihrer Grenzen oder Grenzlinien Stellung genommen."
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-8-laenderkennzeichen"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete

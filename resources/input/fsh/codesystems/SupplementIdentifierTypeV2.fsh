@@ -2,12 +2,7 @@ CodeSystem: SupplementIdentifierTypeV2
 Id: identifier-type-v2-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)"
 * ^meta.profile = $shareablecodesystem
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * #DL

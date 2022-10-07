@@ -1,6 +1,7 @@
 Extension: ExtensionAufnahmegrund
 Id: Aufnahmegrund
 Title: "ExtensionAufnahmegrund"
+* insert addMetadata
 * ^context.type = #element
 * ^context.expression = "Encounter"
 * extension ^slicing.discriminator.type = #value

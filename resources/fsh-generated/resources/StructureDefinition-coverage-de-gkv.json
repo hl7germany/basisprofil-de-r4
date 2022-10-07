@@ -16,13 +16,14 @@
   "name": "CoverageDeGkv",
   "title": "Coverage, deutsches GKV-Profil",
   "status": "active",
-  "date": "2020-05-14",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
@@ -61,18 +62,6 @@
       "identity": "cpha3pharm",
       "uri": "http://www.pharmacists.ca/",
       "name": "Canadian Pharmacy Associaiton eclaims standard"
-    },
-    {
-      "identity": "BDT",
-      "name": "BDT Mapping"
-    },
-    {
-      "identity": "KHEntgG",
-      "name": "Datensatzbeschreibung nach Krankenhaus-Entgelt-Gesetz"
-    },
-    {
-      "identity": "KVDT",
-      "name": "KVDT Mapping"
     }
   ],
   "kind": "resource",
@@ -391,26 +380,6 @@
         "path": "Coverage.beneficiary.display",
         "short": "Name der Versicherten Person",
         "definition": "Die Angabe des Namens des Versicherten dient der geeigneten Darstellung für den Benutzer und hat keine technische Bedeutung."
-      },
-      {
-        "id": "Coverage.period.start",
-        "path": "Coverage.period.start",
-        "mapping": [
-          {
-            "identity": "KVDT",
-            "map": "4133"
-          }
-        ]
-      },
-      {
-        "id": "Coverage.period.end",
-        "path": "Coverage.period.end",
-        "mapping": [
-          {
-            "identity": "KVDT",
-            "map": "4110"
-          }
-        ]
       },
       {
         "id": "Coverage.payor",

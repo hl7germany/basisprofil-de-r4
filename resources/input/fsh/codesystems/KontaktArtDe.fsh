@@ -3,15 +3,12 @@ Id: KontaktArtDe
 Title: "KontaktArtDe"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-12"
+* insert addMetadata
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/kontaktart-de"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^content = #complete
-* ^count = 12
 * #begleitperson "Begleitperson" "Begleitperson definiert nach § 11 Abs. 3 SGB V"
 * #vorstationaer "Vorstationär" "Vorstationärer Kontakt nach § 115 a SGB V"
 * #nachstationaer "Nachstationär" "Nachstationärer Kontakt nach § 115 a SGB V"

@@ -91,9 +91,15 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
         "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "1",
           "system": "http://unitsofmeasure.org"
@@ -153,8 +159,14 @@
         ]
       },
       {
-        "id": "Observation.component:Eye.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Eye.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "1",
           "system": "http://unitsofmeasure.org"
@@ -190,8 +202,14 @@
         ]
       },
       {
-        "id": "Observation.component:Motor.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Motor.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "1",
           "system": "http://unitsofmeasure.org"
@@ -227,8 +245,14 @@
         ]
       },
       {
-        "id": "Observation.component:Verbal.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Verbal.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "1",
           "system": "http://unitsofmeasure.org"

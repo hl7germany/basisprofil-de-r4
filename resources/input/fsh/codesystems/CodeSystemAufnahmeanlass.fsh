@@ -4,18 +4,12 @@ Title: "CodeSystemAufnahmeanlass"
 Description: "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass"
-* ^status = #active
-* ^experimental = false
-* ^date = "2021-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/dgkev/Aufnahmeanlass"
 * ^compositional = false
 * ^content = #complete
-* ^count = 8
 * #E "Einweisung durch einen Arzt"
 * #Z "Einweisung durch einen Zahnarzt"
 * #N "Notfall"

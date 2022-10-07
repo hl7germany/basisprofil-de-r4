@@ -1,10 +1,7 @@
 Extension: ExtensionAbrechnungsDiagnoseProzedur
 Id: ExtensionAbrechnungsDiagnoseProzedur
 Title: "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
-* ^date = "2022-02-17"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #other
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Account"

@@ -15,13 +15,14 @@
   "version": "1.4.0",
   "name": "VitalSignDE_Blutdruck",
   "status": "active",
-  "date": "2020-05-14",
+  "experimental": false,
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
@@ -91,9 +92,15 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
-        "max": "0"
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "max": "0",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
       },
       {
         "id": "Observation.component",
@@ -138,8 +145,14 @@
         ]
       },
       {
-        "id": "Observation.component:SystolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:SystolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"
@@ -174,8 +187,14 @@
         ]
       },
       {
-        "id": "Observation.component:DiastolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:DiastolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"
@@ -210,8 +229,14 @@
         ]
       },
       {
-        "id": "Observation.component:meanBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:meanBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"
