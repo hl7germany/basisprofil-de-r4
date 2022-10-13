@@ -53,3 +53,8 @@ jobs:
           SUSHI_ENABLED: true
           SUSHI_OPTIONS: resources/
           SUSHI_VERSION: 3.0.0-beta.1
+    
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'fsh-generated/resources/'
