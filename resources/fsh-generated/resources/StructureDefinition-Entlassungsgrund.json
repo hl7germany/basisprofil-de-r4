@@ -1,0 +1,115 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Entlassungsgrund",
+  "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+  "version": "1.4.0",
+  "name": "ExtenstionEntlassungsgrund",
+  "title": "ExtenstionEntlassungsgrund",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Encounter.hospitalization.dischargeDisposition"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension:ErsteUndZweiteStelle",
+        "path": "Extension.extension",
+        "sliceName": "ErsteUndZweiteStelle",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:ErsteUndZweiteStelle.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:ErsteUndZweiteStelle.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "ErsteUndZweiteStelle"
+      },
+      {
+        "id": "Extension.extension:ErsteUndZweiteStelle.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle"
+        }
+      },
+      {
+        "id": "Extension.extension:DritteStelle",
+        "path": "Extension.extension",
+        "sliceName": "DritteStelle",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:DritteStelle.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:DritteStelle.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "DritteStelle"
+      },
+      {
+        "id": "Extension.extension:DritteStelle.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle"
+        }
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/Entlassungsgrund"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

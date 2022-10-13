@@ -1,0 +1,66 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "einlesedatum-karte",
+  "url": "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte",
+  "version": "1.4.0",
+  "name": "ExtensionGkvEinlesedatumKarte",
+  "title": "Extension zur Erfassung des Einlesedatums der eGK bzw. KVK",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Extension zur Erfassung des Einlesedatums der eGK bzw. KVK",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Coverage"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "coverage-de-basis",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Financial.Support"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.de/StructureDefinition/coverage-de-basis",
+  "version": "1.4.0",
+  "name": "CoverageDeBasis",
+  "title": "Coverage, deutsches Basisprofil",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Basis-Profil für die Nutzung der Coverage-Resource in Deutschland",
+  "purpose": "Coverage wird verwedet um Informationen über die Versicherung eines Patienten zu speichern/kommunizieren",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "cdanetv4",
+      "uri": "http://www.cda-adc.ca/en/services/cdanet/",
+      "name": "Canadian Dental Association eclaims standard"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "cpha3pharm",
+      "uri": "http://www.pharmacists.ca/",
+      "name": "Canadian Pharmacy Associaiton eclaims standard"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coverage",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage",
+        "path": "Coverage",
+        "short": "Versicherungsdaten",
+        "definition": "Angaben zur Versicherung oder zur Kostenübernahme durch den Patienten selbst oder durch Dritte."
+      },
+      {
+        "id": "Coverage.type",
+        "path": "Coverage.type",
+        "short": "Versicherungsart",
+        "definition": "Art der Versicherung: Selbstzahler, gesetzliche/private Versicherung, Berufsgenossenschaft oder Sozialamt",
+        "comment": "28.07.2017 (zulip): TC Konsens bzgl. Verwendung eines eigenen ValueSets anstelle des im Standrad definierten preferred bindings, da die dort igen Codes nicht passen.",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/versicherungsart-de-basis",
+          "description": "Art der Versicherung: Selbstzahler, gesetzliche/private Versicherung, Berufsgenossenschaft oder Sozialamt"
+        }
+      },
+      {
+        "id": "Coverage.policyHolder",
+        "path": "Coverage.policyHolder",
+        "comment": "Es gibt derzeit in DE keine Verwendung für dieses Attribut\r\n(Konsens Interop-Forum 12.6.2017)\r\nFalls es UseCases gibt, die dieses Attribut benötigen, bitte Info auf chat.fhir.org",
+        "max": "0"
+      },
+      {
+        "id": "Coverage.subscriber",
+        "path": "Coverage.subscriber",
+        "short": "Hauptversicherte Person / Mitglied",
+        "definition": "Hauptversicherte Person (ggf. abweichend von beneficiary), z.B. bei Familienversicherung"
+      },
+      {
+        "id": "Coverage.subscriberId",
+        "path": "Coverage.subscriberId",
+        "max": "0"
+      },
+      {
+        "id": "Coverage.beneficiary",
+        "path": "Coverage.beneficiary",
+        "short": "Begünstigte Person",
+        "definition": "Person, auf die sich die Kostenübernahme bezieht (der Patient)"
+      },
+      {
+        "id": "Coverage.payor",
+        "path": "Coverage.payor",
+        "short": "Versicherer",
+        "definition": "Versicherer, der die Police ausgegeben hat oder Persopn/Organisation, die die Kosten übernimmt."
+      },
+      {
+        "id": "Coverage.order",
+        "path": "Coverage.order",
+        "comment": "Es git derzeit in DE keine Verwendung für dieses Attribut\r\n(Konsens Interop-Forum 12.6.2017)\r\nFür die Priorisierung der Versicherungsverhältnisse sollte statt dessen Account.coverage.priority verwendet werden, da die Priorisierung abhängig von Fall-  und Abrechnungsart unterschiedlich sein kann.\r\nFalls es UseCases gibt, die dieses Attribut benötigen, bitte Info auf chat.fhir.org",
+        "max": "0"
+      },
+      {
+        "id": "Coverage.network",
+        "path": "Coverage.network",
+        "definition": "Die Versicherungsleistungen sind an ein bestimmtes Netzwerk von Gesundheitsdienstleistern gebunden",
+        "comment": "Es gibt derzeit in DE keine Verwendung für dieses Attribut\r\n(Konsens Interop-Forum 12.6.2017)\r\nFalls es UseCases gibt, die dieses Attribut benötigen, bitte Info auf chat.fhir.org",
+        "max": "0"
+      }
+    ]
+  }
+}

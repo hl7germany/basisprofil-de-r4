@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FachabteilungsschluesselVS",
+  "id": "FachabteilungsschluesselVS",
+  "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
+  "version": "1.4.0",
+  "url": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"
+      }
+    ]
+  }
+}

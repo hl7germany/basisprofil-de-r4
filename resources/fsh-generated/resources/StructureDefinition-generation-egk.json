@@ -1,0 +1,81 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "generation-egk",
+  "url": "http://fhir.de/StructureDefinition/gkv/generation-egk",
+  "version": "1.4.0",
+  "name": "ExtensionGkvGenerationEgk",
+  "title": "Extension zur Erfassung der Generation der eGK",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Extension zur Erfassung der Generation der eGK",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Coverage"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "eGK Generation ( 1 | 1+ | 2 )",
+        "definition": "Angabe der Generation der Versichertenkarte"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/gkv/generation-egk"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "generation",
+            "severity": "warning",
+            "human": "Die Extension darf nur die Werte 1, 1+ oder 2 enthalten",
+            "expression": "matches('^(1\\\\+{0,1}|2)$')",
+            "source": "http://fhir.de/StructureDefinition/gkv/generation-egk"
+          }
+        ]
+      }
+    ]
+  }
+}

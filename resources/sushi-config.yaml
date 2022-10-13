@@ -1,0 +1,8 @@
+canonical: http://fhir.de
+fhirVersion: 4.0.1
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+# id: fhir <- Only relevant for IG creation
+# name: Fhir <- Only relevant for IG creation
+# status: active <- Only relevant for IG creation
+version: 1.4.0

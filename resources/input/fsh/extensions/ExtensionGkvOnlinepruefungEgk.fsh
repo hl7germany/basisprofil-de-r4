@@ -1,0 +1,31 @@
+Extension: ExtensionGkvOnlinepruefungEgk
+Id: onlinepruefung-egk
+Title: "Informationen zur Onlineprüfung und -aktualisierung"
+Description: """Informationen zur Onlineprüfung und -aktualisierung 
+Vgl.: Anwendung der eGK  Technische Anlage zu Anlage 4a (BMV-Ä)  Verarbeitung KVK/eGK im Rahmen der vertragsärztlichen Abrechnung im Basis-Rollout  [KBV_ITA_VGEX_Mapping_KVK.pdf] - Kapitel 2.4.1"""
+* ^url = "http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk"
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
+* ^context.type = #element
+* ^context.expression = "Coverage"
+* extension ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "url"
+  * ^slicing.rules = #open
+* extension contains
+    timestamp 1..1 and
+    ergebnis 1..1 and
+    errorCode 1..1 and
+    pruefzifferFachdienst 0..1
+* extension[timestamp] ^short = "Datum und Uhrzeit der Onlineprüfung und -aktualisierung"
+  * ^definition = "Datum und Uhrzeit der Onlineprüfung und -aktualisierung"
+  * value[x] only dateTime
+* extension[ergebnis] ^short = "Ergebnis der Onlineprüfung und -aktualisierung"
+  * ^definition = "Ergebnis der Onlineprüfung und -aktualisierung \r\n(Code 1-6)"
+  * value[x] only code
+* extension[errorCode] ^short = "Error-Code"
+  * ^definition = "ErrorCode"
+  * value[x] only code
+* extension[pruefzifferFachdienst] ^short = "Prüfziffer des Fachdienstes"
+  * ^definition = "Prüfziffer des Fachdienstes"
+  * value[x] only string
+* url = "http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk" (exactly)

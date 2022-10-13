@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-observation-koerpertemperatur",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
+      "http://hl7.org/fhir/StructureDefinition/bodytemp"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "8310-5",
+        "system": "http://loinc.org",
+        "display": "Body temperature"
+      },
+      {
+        "code": "386725007",
+        "system": "http://snomed.info/sct",
+        "display": "Body temperature (observable entity)"
+      }
+    ],
+    "text": "Körpertemperatur"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 36.8,
+    "code": "Cel",
+    "unit": "°C"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

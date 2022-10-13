@@ -1,0 +1,161 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "coverage-de-sel",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Financial.Support"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.de/StructureDefinition/coverage-de-sel",
+  "version": "1.4.0",
+  "name": "CoverageDeSel",
+  "title": "Coverage, deutsches Selbstzahlerprofil",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Profil für die Nutzung der Coverage-Resource in Deutschland zur Darstellung eines Selbstzahlerverhältnisses.",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "cdanetv4",
+      "uri": "http://www.cda-adc.ca/en/services/cdanet/",
+      "name": "Canadian Dental Association eclaims standard"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "cpha3pharm",
+      "uri": "http://www.pharmacists.ca/",
+      "name": "Canadian Pharmacy Associaiton eclaims standard"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "http://fhir.de/StructureDefinition/coverage-de-basis",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage.identifier",
+        "path": "Coverage.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Coverage.identifier:pkv",
+        "path": "Coverage.identifier",
+        "sliceName": "pkv",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://fhir.de/StructureDefinition/identifier-pkv"
+            ]
+          }
+        ],
+        "patternIdentifier": {
+          "type": {
+            "coding": [
+              {
+                "code": "PKV",
+                "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "Coverage.type.coding",
+        "path": "Coverage.type.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Coverage.type.coding:VersicherungsArtDeBasis",
+        "path": "Coverage.type.coding",
+        "sliceName": "VersicherungsArtDeBasis",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "SEL",
+          "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis"
+        }
+      },
+      {
+        "id": "Coverage.subscriber",
+        "path": "Coverage.subscriber",
+        "short": "Unterzeichner der Kostenübernahme",
+        "definition": "Person, die dies Kostenübernahme zusichert (entweder der Patient selbst oder eine andere Person, z.B. ein Elternteil)"
+      },
+      {
+        "id": "Coverage.payor",
+        "path": "Coverage.payor",
+        "short": "Kostenübernehmer",
+        "definition": "Person, die die Kosten übernimmt (beim Selbstzahlerverhältnis i.d.R. identisch mit subscriber) \r\nSonderfall: Die Kostenübernahme wird von einer Person (subscriber) erklärt, die Übernahme erfolgt jedoch durch eine Organisation",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Organization",
+              "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

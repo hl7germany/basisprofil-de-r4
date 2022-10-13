@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CS_CommonMetaTag_De",
+  "id": "cs-common-meta-tag-de",
+  "title": "CS Basisprofil Common Meta Tag DE",
+  "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
+  "version": "1.4.0",
+  "url": "http://fhir.de/CodeSystem/common-meta-tag-de",
+  "concept": [
+    {
+      "code": "external",
+      "display": "External",
+      "definition": "Informationen welche in der Ressource abgebildet werden stammen aus einem externen, potentiell unverifizierten System"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "valueSet": "http://fhir.de/ValueSet/common-meta-tag-de",
+  "caseSensitive": true,
+  "count": 1
+}

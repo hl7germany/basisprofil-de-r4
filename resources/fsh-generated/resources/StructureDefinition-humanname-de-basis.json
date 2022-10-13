@@ -1,0 +1,177 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "humanname-de-basis",
+  "url": "http://fhir.de/StructureDefinition/humanname-de-basis",
+  "version": "1.4.0",
+  "name": "HumannameDeBasis",
+  "title": "HumanName, deutsches Basisprofil",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Personenname mit in Deutschland üblichen Erweiterungen",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "HumanName",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/HumanName",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "HumanName",
+        "path": "HumanName",
+        "short": "Personenname",
+        "definition": "Personenname mit in Deutschland üblichen Erweiterungen",
+        "comment": "Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts may or may not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.",
+        "constraint": [
+          {
+            "key": "hum-1",
+            "severity": "error",
+            "human": "Wenn die Extension 'namenszusatz' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden",
+            "expression": "family.extension('http://fhir.de/StructureDefinition/humanname-namenszusatz').empty() or family.hasValue()",
+            "source": "http://fhir.de/StructureDefinition/humanname-de-basis"
+          },
+          {
+            "key": "hum-2",
+            "severity": "error",
+            "human": "Wenn die Extension 'nachname' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden",
+            "expression": "family.extension('http://hl7.org/fhir/StructureDefinition/humanname-own-name').empty() or family.hasValue()",
+            "source": "http://fhir.de/StructureDefinition/humanname-de-basis"
+          },
+          {
+            "key": "hum-3",
+            "severity": "error",
+            "human": "Wenn die Extension 'vorsatzwort' verwendet wird, dann muss der vollständige Name im Attribut 'family' angegeben werden",
+            "expression": "family.extension('http://hl7.org/fhir/StructureDefinition/humanname-own-prefix').empty() or family.hasValue()",
+            "source": "http://fhir.de/StructureDefinition/humanname-de-basis"
+          },
+          {
+            "key": "hum-4",
+            "severity": "error",
+            "human": "Wenn die Extension 'prefix-qualifier' verwendet wird, dann muss ein Namenspräfix im Attribut 'prefix' angegeben werden",
+            "expression": "prefix.all($this.extension('http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier').empty() or $this.hasValue())",
+            "source": "http://fhir.de/StructureDefinition/humanname-de-basis"
+          }
+        ]
+      },
+      {
+        "id": "HumanName.family",
+        "path": "HumanName.family",
+        "short": "Familienname",
+        "definition": "Der vollständige Familienname, einschließlich aller Vorsatz- und Zusatzwörter, mit Leerzeichen getrennt."
+      },
+      {
+        "id": "HumanName.family.extension:namenszusatz",
+        "path": "HumanName.family.extension",
+        "sliceName": "namenszusatz",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.de/StructureDefinition/humanname-namenszusatz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "HumanName.family.extension:nachname",
+        "path": "HumanName.family.extension",
+        "sliceName": "nachname",
+        "short": "Nachname ohne Vor- und Zusätze",
+        "definition": "Nachname ohne Vor- und Zusätze.\r\nDient z.B. der alphabetischen Einordnung des Namens.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "HumanName.family.extension:vorsatzwort",
+        "path": "HumanName.family.extension",
+        "sliceName": "vorsatzwort",
+        "short": "Vorsatzwort",
+        "definition": "Vorsatzwort wie z.B.: von, van, zu\r\nVgl. auch VSDM-Spezifikation der Gematik (Versichertenstammdatenmanagement, \"eGK\")",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "HumanName.given",
+        "path": "HumanName.given",
+        "short": "Vorname",
+        "definition": "Vorname der Person"
+      },
+      {
+        "id": "HumanName.prefix",
+        "path": "HumanName.prefix",
+        "short": "Namensteile vor dem Vornamen",
+        "definition": "Namensteile vor dem Vornamen, z.B. akademischer Titel."
+      },
+      {
+        "id": "HumanName.prefix.extension:prefix-qualifier",
+        "path": "HumanName.prefix.extension",
+        "sliceName": "prefix-qualifier",
+        "definition": "Spezialisierung der Art des Präfixes, z.B. \"AC\" für Akademische Titel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "HumanName.suffix",
+        "path": "HumanName.suffix",
+        "short": "Namensteile nach dem Nachnamen",
+        "definition": "Namensteile nach dem Nachnamen"
+      }
+    ]
+  }
+}

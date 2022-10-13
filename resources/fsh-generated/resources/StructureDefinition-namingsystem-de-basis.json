@@ -1,0 +1,76 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "namingsystem-de-basis",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Foundation.Terminology"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "anonymous"
+    }
+  ],
+  "url": "http://fhir.de/StructureDefinition/namingsystem-de-basis",
+  "version": "1.4.0",
+  "name": "NamingsystemDeBasis",
+  "title": "Namingsystem, deutsches Basisprofil",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Definition für NamingSystem-Ressourcen in deutschen Profilen",
+  "purpose": "Definition für NamingSystem-Ressourcen in deutschen Profilen",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "NamingSystem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/NamingSystem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "NamingSystem.type",
+        "path": "NamingSystem.type",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/identifier-type-de-basis"
+        }
+      }
+    ]
+  }
+}

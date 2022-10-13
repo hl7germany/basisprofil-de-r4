@@ -1,0 +1,131 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "chargeitem-de-ebm",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Financial.General"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://fhir.de/StructureDefinition/chargeitem-de-ebm",
+  "version": "1.4.0",
+  "name": "ChargeItemEBM",
+  "title": "ChargeItem für EBM-Ziffer als Abrechnungsposition",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-09-23",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ChargeItem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ChargeItem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ChargeItem.code",
+        "path": "ChargeItem.code",
+        "constraint": [
+          {
+            "key": "chrg-1",
+            "severity": "warning",
+            "human": "EBM-Ziffern müssen dem Schema '[0-9]{5}[A-Z]{0,1}' entsprechen",
+            "expression": "coding.code.matches('[0-9]{5}[A-Z]{0,1}')",
+            "source": "http://fhir.de/StructureDefinition/chargeitem-de-ebm"
+          }
+        ]
+      },
+      {
+        "id": "ChargeItem.code.coding",
+        "path": "ChargeItem.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.code.coding:ebm",
+        "path": "ChargeItem.code.coding",
+        "sliceName": "ebm",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_EBM"
+        }
+      },
+      {
+        "id": "ChargeItem.code.coding:ebm.system",
+        "path": "ChargeItem.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.code.coding:ebm.code",
+        "path": "ChargeItem.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.occurrence[x]",
+        "path": "ChargeItem.occurrence[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ChargeItem.quantity",
+        "path": "ChargeItem.quantity",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.quantity.value",
+        "path": "ChargeItem.quantity.value",
+        "min": 1
+      }
+    ]
+  }
+}
