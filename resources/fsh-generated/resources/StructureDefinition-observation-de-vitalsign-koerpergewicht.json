@@ -126,14 +126,8 @@
         ]
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
-        "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
+        "id": "Observation.valueQuantity",
+        "path": "Observation.valueQuantity",
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM"
