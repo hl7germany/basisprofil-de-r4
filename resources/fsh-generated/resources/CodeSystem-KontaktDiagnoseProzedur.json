@@ -65,7 +65,7 @@
   ],
   "caseSensitive": false,
   "copyright": "HL7 Deutschland e.V.",
-  "valueSet": "http://fhir.de/ValueSet/kontakt-diagnose-prozedur",
+  "valueSet": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "compositional": false,
   "count": 9
 }

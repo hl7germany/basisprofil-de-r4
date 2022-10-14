@@ -7,11 +7,6 @@
   "description": "Alpha-ID Platzhalter-CodeSystem",
   "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
   "identifier": [
     {
       "value": "1.2.276.0.76.5.479"

@@ -1,6 +1,7 @@
 CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
+Description: "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
 * insert addMetadata
