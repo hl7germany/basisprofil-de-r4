@@ -88,6 +88,16 @@
           {
             "code": "Quantity"
           }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
         ],
         "patternQuantity": {
           "code": "/min",
