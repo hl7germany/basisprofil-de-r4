@@ -5,6 +5,7 @@
   "name": "KontaktArtDe",
   "id": "KontaktArtDe",
   "title": "KontaktArtDe",
+  "description": "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
   "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/kontaktart-de",
   "concept": [

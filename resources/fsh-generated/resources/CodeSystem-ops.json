@@ -7,11 +7,6 @@
   "description": "OPS Platzhalter-CodeSystem",
   "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/ops",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
   "experimental": false,
   "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
