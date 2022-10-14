@@ -43,7 +43,7 @@ jobs:
         uses: FirelyTeam/firely-terminal-pipeline@v0.3.5
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
-          DOTNET_VALIDATION_ENABLED: true
+          DOTNET_VALIDATION_ENABLED: false
           JAVA_VALIDATION_ENABLED: true
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
           OUTPUT_FORMAT: RAW
