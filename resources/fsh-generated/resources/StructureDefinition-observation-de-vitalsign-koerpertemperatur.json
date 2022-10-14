@@ -91,14 +91,8 @@
         ]
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
-        "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
+        "id": "Observation.valueQuantity",
+        "path": "Observation.valueQuantity",
         "patternQuantity": {
           "code": "Cel",
           "system": "http://unitsofmeasure.org"
