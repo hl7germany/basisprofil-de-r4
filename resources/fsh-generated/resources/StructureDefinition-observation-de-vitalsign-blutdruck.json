@@ -92,9 +92,15 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
-        "max": "0"
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "max": "0",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
       },
       {
         "id": "Observation.component",
@@ -139,8 +145,14 @@
         ]
       },
       {
-        "id": "Observation.component:SystolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:SystolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"
@@ -175,8 +187,14 @@
         ]
       },
       {
-        "id": "Observation.component:DiastolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:DiastolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"
@@ -211,8 +229,14 @@
         ]
       },
       {
-        "id": "Observation.component:meanBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:meanBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "mm[Hg]",
           "system": "http://unitsofmeasure.org"

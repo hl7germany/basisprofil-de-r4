@@ -112,16 +112,6 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "min": 1,
         "type": [
           {
@@ -130,29 +120,13 @@
         ]
       },
       {
-        "id": "Observation.effectivePeriod",
-        "path": "Observation.effectivePeriod",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Observation.effectivePeriod.start",
-        "path": "Observation.effectivePeriod.start",
+        "id": "Observation.effective[x].start",
+        "path": "Observation.effective[x].start",
         "min": 1
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "min": 1,
         "type": [
           {
@@ -161,14 +135,8 @@
         ]
       },
       {
-        "id": "Observation.valueCodeableConcept",
-        "path": "Observation.valueCodeableConcept",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Observation.valueCodeableConcept.coding",
-        "path": "Observation.valueCodeableConcept.coding",
+        "id": "Observation.value[x].coding",
+        "path": "Observation.value[x].coding",
         "min": 1,
         "binding": {
           "strength": "required",
