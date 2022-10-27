@@ -1,5 +1,5 @@
 Extension: ExtensionWahlleistung
-Id: wahlleistungen
+Id: Wahlleistung
 Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärztliche Wahlleistungen) während eines Kontaktes mit einer Gesundheitseinrichtung"
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
