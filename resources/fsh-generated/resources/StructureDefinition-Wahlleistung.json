@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "wahlleistung",
-  "url": "http://fhir.de/StructureDefinition/wahlleistung",
+  "id": "Wahlleistung",
+  "url": "http://fhir.de/StructureDefinition/Wahlleistung",
   "version": "1.4.0",
   "name": "ExtensionWahlleistung",
   "status": "active",
@@ -49,7 +49,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/wahlleistung"
+        "fixedUri": "http://fhir.de/StructureDefinition/Wahlleistung"
       },
       {
         "id": "Extension.value[x]",
