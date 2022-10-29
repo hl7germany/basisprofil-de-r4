@@ -12,6 +12,8 @@ Folgende Extensions werden im Kontext der [FHIR Ressource 'Composition'](https:/
 
 {{tree:http://fhir.de/StructureDefinition/informationrecipient, snapshot}}
 
+**Hinweise**: Bei der Extension handelt es sich um eine Übergangslösung die notwendig für die Transformation von CDA-Dokumenten nach FHIR ist. In CDA ist die Angabe des Empfängers Bestandteil des Dokumentes und nicht (nur) des Transport-Wrappers um das Dokument herum. Zu beachten ist weiterhin, dass HL7 International in [FHIR-13635](https://jira.hl7.org/browse/FHIR-13635) eine Standard-Extension für das Element einzuführen. Diese Änderung wurde jedoch zum Zeitpunkt der Veröffentlichung der vorliegenden Spezifikation noch nicht umgesetzt.
+
 **Beispiel**:
 
 ```xml
