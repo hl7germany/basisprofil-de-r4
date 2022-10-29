@@ -10,7 +10,8 @@ Id: observation-de-vitalsign-atemfrequenz
 Instance: Example-observation-atemfrequenz
 InstanceOf: VitalSignDE_Atemfrequenz
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/resprate"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/resprate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"

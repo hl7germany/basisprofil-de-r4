@@ -46,6 +46,8 @@ Id: VitalSignDE
 Instance: Example-observation-bmi
 InstanceOf: VitalSignDE
 Usage: #example
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bmi"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"

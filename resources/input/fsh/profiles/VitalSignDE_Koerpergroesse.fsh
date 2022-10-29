@@ -17,8 +17,9 @@ Id: observation-de-vitalsign-koerpergroesse
 Instance: Example-observation-koerpergroesse
 InstanceOf: VitalSignDE_Koerpergroesse
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $loinc#8302-2 "Body height"
