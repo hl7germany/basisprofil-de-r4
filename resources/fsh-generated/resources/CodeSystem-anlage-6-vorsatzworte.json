@@ -5,7 +5,7 @@
   "name": "DeuevAnlage6Vorsatzworte",
   "id": "anlage-6-vorsatzworte",
   "description": "Tabelle der gültigen Vorsatzworte",
-  "version": "1.4.0",
+  "version": "2.30",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte",
   "concept": [
     {
