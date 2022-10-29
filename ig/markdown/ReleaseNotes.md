@@ -142,7 +142,7 @@ v1.0.0-alpha3 - 12.03.21
 
 v1.0.0-alpha2 - 12.03.21
 ------------------------
-* `added` Lebensphase Extension (auf Basis der KBV Extension) für ``Conditon.onset[x]``
+* `added` Lebensphase Extension (auf Basis der KBV Extension) für ``Condition.onset[x]``
 * `added` ValueSet EncounterClassDE hinzugefügt
 * `changed` Aufnahmegrund sollte nicht auf Encounter.reasonCode abgebildet werden. Dort sollten nur medizinische Gründe, keine Abrechnungsgründe dokumentiert werden.
 * `added` CodeSystem für Kontaktebene hinzugefügt
