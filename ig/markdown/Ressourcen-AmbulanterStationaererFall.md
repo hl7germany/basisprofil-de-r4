@@ -8,11 +8,12 @@ Der stationäre Aufenthalt oder ambulante Kontakt eines Patienten in einer Gesun
 
 Für folgenden Elemente des Encounters werden innerhalb der Deutschen Basisprofile eigene Empfehlungen für ValueSets-Bindings herausgegeben. Siehe {{pagelink:ig/markdown/Terminologie-ValueSets.md}}.
 
-    - Encounter.serviceType - Fachabteilungsschlüssel
-    - Encounter.type - Kontaktart
-    - Encounter (Extension) - Aufnahmegrund
-    - Encounter.hospitalization.admitSource - Aufnahmeanlass
-    - Encounter.hospitalization.dischargeDisposition (Extension) - Entlassungsgrund
+    - [Encounter.serviceType - Fachabteilungsschlüssel](http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel)
+    - [Encounter.type - Kontaktart](http://fhir.de/CodeSystem/kontaktart-de)
+    - [Encounter (Extension) - Aufnahmegrund](http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle)
+    - [Encounter.hospitalization.admitSource - Aufnahmeanlass](http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass)
+    - [Encounter.hospitalization.dischargeDisposition (Extension) - Entlassungsgrund](http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle)
+    - [Encounter.hospitalization (Extension) - Wahlleistung](http://fhir.de/CodeSystem/wahlleistungen-de)
 
 Für die Ausgestaltung des Encounters im stationären Kontext wird auf das [Basismodul 'Fall' der Medizininformatik-Initative](https://simplifier.net/guide/medizininformatikinitiative-modulfall-implementationguide/igmiikdsmodulfall) verwiesen und das [ISiK Basismodul Stufe 2 der gematik](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Kontakt?version=current).
 
