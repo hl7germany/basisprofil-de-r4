@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang, hybrid}}
 
-{{xml:Example-observation-kopfumfang}}
+{{xml:basisprofil-de-r4/example-observation-kopfumfang}}

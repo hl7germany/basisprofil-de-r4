@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse, hybrid}}
 
-{{xml:Example-koerpergroesse}}
+{{xml:basisprofil-de-r4/example-observation-koerpergroesse}}

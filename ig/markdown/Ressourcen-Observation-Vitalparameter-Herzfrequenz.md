@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz, hybrid}}
 
-{{xml:example-observation-herzfrequenz}}
+{{xml:basisprofil-de-r4/example-observation-herzfrequenz}}

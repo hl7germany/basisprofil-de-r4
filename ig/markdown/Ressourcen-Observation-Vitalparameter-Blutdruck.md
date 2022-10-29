@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck, hybrid}}
 
-{{xml:example-observation-blutdruck}}
+{{xml:basisprofil-de-r4/example-observation-blutdruck}}

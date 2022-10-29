@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs, hybrid}}
 
-{{json:example-observation-gcs}}
+{{json:basisprofil-de-r4/example-observation-gcs}}

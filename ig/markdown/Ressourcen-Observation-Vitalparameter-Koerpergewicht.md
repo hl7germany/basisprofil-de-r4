@@ -6,4 +6,4 @@
 
 {{tree:http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht, hybrid}}
 
-{{xml:example-koerpergewicht}}
+{{xml:basisprofil-de-r4/example-observation-koerpergewicht}}
