@@ -404,6 +404,11 @@
                           "nameUrl": "ig/markdown/ExtensionsfrAccount.md",
                           "title": "Extensions für Account",
                           "generation": "markdown"
+                      },
+                      {
+                          "nameUrl": "ig/markdown/ExtensionsfrSchedule.md",
+                          "title": "Extensions für Schedule",
+                          "generation": "markdown"
                       }
                   ]
               },
