@@ -11,5 +11,5 @@ Title: "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
     Referenz 0..* MS
 * extension[Use].value[x] only Coding
 * extension[Use].valueCoding 0..1
-* extension[Use].valueCoding from AbrechnungsDiagnoseProzedur (required)
+* extension[Use].valueCoding from AbrechnungsDiagnoseProzedur (extensible)
 * extension[Referenz].value[x] only Reference(Condition or Procedure)

@@ -8,4 +8,4 @@ Title: "Abrechnungsart"
 * . ^short = "Abrechnungsart"
 * value[x] only Coding
 * valueCoding 0..1
-* valueCoding from AbrechnungsartVS (required)
+* valueCoding from AbrechnungsartVS (extensible)
