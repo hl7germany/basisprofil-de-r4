@@ -3,6 +3,7 @@ Id: anlage-6-vorsatzworte
 Description: "Tabelle der gültigen Vorsatzworte"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
+* ^version = "2.30"
 * insert addMetadata
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
