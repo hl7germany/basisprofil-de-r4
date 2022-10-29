@@ -36,7 +36,7 @@ Id: observation-de-vitalsign-gcs
 Instance: Example-observation-gcs
 InstanceOf: VitalSignDE_GCS
 Usage: #example
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#9269-2 "Glasgow coma score total"
 * component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[Verbal].valueQuantity = 4 '1' "Punktwert"

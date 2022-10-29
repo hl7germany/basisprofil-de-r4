@@ -30,7 +30,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"
   * text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(Patient/example)

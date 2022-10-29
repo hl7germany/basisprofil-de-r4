@@ -20,7 +20,7 @@ Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $loinc#8302-2 "Body height"
 * code.coding[+] = $loinc#89269-5 "Body height Measured --at birth"
 * code.coding[+] = $sct#50373000 "Body height measure"

@@ -13,7 +13,7 @@ Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $loinc#8310-5 "Body temperature"
 * code.coding[+] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
