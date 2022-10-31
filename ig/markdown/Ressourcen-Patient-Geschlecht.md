@@ -23,7 +23,7 @@ Falls ein administratives Geschlecht 'divers' abzubilden ist (z.B. da dieses Ges
 #### Beispiel: divers
 ```xml
 <gender value="other">
-    <extension url="http://fhir.de/StructureDefinition/gender-amtlich-de"/>
+    <extension url="http://fhir.de/StructureDefinition/gender-amtlich-de">
         <valueCoding>
             <system value="http://fhir.de/CodeSystem/gender-amtlich-de"/>
             <code value="D"/>
