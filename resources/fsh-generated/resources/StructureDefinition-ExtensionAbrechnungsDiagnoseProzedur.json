@@ -73,7 +73,7 @@
           }
         ],
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur"
         }
       },
