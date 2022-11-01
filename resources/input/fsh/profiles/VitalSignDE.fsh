@@ -8,8 +8,8 @@ Id: VitalSignDE
 * category ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open
-* category contains vs-cat 1..1
-* category[vs-cat] = $observation-category#vital-signs
+* category contains VSCat 1..1
+* category[VSCat] = $observation-category#vital-signs
 * subject 1..
 * subject only Reference(Patient or Group)
 * effective[x] 1..
@@ -46,11 +46,11 @@ Id: VitalSignDE
 Instance: Example-observation-bmi
 InstanceOf: VitalSignDE
 Usage: #example
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bmi"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
-  * text = "Vital Signs"
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"
-  * text = "BMI"
 * subject.reference = "Patient/example"
 * effectiveDateTime = "1999-07-02"
 * valueQuantity = 16.2 'kg/m2' "kg/m2"
