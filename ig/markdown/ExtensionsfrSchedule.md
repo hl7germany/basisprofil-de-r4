@@ -3,7 +3,7 @@
 
 **Name**: Extension Kalendername
 
-**Beschreibung**: Menschenlesbare Beschreibung eines Kalenders, geeignet zu Anzeige- und Suchzwecke.
+**Beschreibung**: Menschenlesbare Beschreibung eines Kalenders, geeignet für Anzeige- und Suchzwecke.
 
 **Canonical**: `http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name`
 
