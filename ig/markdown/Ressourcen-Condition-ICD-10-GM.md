@@ -50,7 +50,7 @@ Um stets alle Codes einer Mehrfachkodierung zu erhalten, empfiehlt es sich ICD-1
 Der Übersichtlichkeit halber werden die Beispiele hier nur im XML-Format dargestellt.
 Die Beispiele sind über das [Simplifier-Projekt](https://simplifier.net/basisprofil-de-r4/~resources?category=Example&exampletype=Condition&sortBy=RankScore_desc) jedoch auch im json-Format abrufbar.
 
-{{xml:basisprofil-de-r4/example-condition-minimal}}
+{{xml:Example-condition-minimal}}
 
 #### Beispiel: ICD-Code mit Kreuz-Stern-Notation
 
