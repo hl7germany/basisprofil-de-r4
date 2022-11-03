@@ -10,4 +10,4 @@ Das folgende Profil stellt die Dokumentation einer erbrachten Leistung gemäß E
 {{tree:http://fhir.de/StructureDefinition/chargeitem-de-ebm, hybrid}}
 
 Beispiel:
-{{xml:basisprofil-de-r4/example-chargeitem-ebm-1}}
+{{xml:Example-chargeitem-ebm-1}}
