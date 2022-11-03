@@ -9,6 +9,6 @@ Id: ExtensionFachabteilungsschluessel301
     gueltigkeitszeitaum 1..1 MS
 * extension[schluessel].value[x] only Coding
 * extension[schluessel].valueCoding from FachabteilungsschluesselVS (extensible)
-* extension[schluessel].value[x] ^binding.extension contains 
-    http://hl7.org/fhir/tools/StructureDefinition/additional-binding named AdditionalBinding 0.1 MS
+* extension[schluessel].value[x] ^binding.extension[http://hl7.org/fhir/tools/StructureDefinition/additional-binding].extension[purpose].valueCode = #maximum
+* extension[schluessel].value[x] ^binding.extension[http://hl7.org/fhir/tools/StructureDefinition/additional-binding].extension[valueSet].valueCanonical = http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert
 * extension[gueltigkeitszeitaum].value[x] only Period
