@@ -99,11 +99,47 @@ vielen verschiedenen diagnostischen Parametern (z.B. Alter, Vorerkrankungen, Nie
 'Observation.valueQuantity.system: =http://unitsofmeasure.org
 'Observation.valueQuantity.code: =1
 'Observation.valueQuantity.unit': Hier wird der gewünschte Display-Wert (“Punktwert” oder “Punkte”) gesetzt.
-'Observation.referenceRange: da die Interpretation eines Scores nicht selbsterklärend ist, sollten die Referenzbereiche in den Instanzen stets mit angegeben werden. 
-
-Beispiel für die Angabe der Referenzbereiche in des IBS-SSS 
-
+'Observation.referenceRange: da die Interpretation eines Scores nicht selbsterklärend ist, sollten die Referenzbereiche und deren Interpretation in den Instanzen stets mit angegeben werden. 
 
 #### Beispiele in FHIR:
 * [Glasgow Coma Scale](https://simplifier.net/basisprofil-de-r4/example-observation-gcs)
 * [APGAR-Score](http://hl7.org/fhir/observation-example-5minute-apgar-score.xml.html) (Anm: bei den Einzelkomponenten handelt es sich offenbar um Ordinalskalen, lediglich der Gesamtwert ist ein Score!)
+* Beispiel für die Angabe der Referenzbereiche des IBS-SSS (Irritable Bowel Syndrome Severity Scoring System):
+```xml
+    <referenceRange>
+        <low>
+            <value value="0" />
+        </low>
+        <high>
+            <value value="74" />
+        </high>
+        <text value="Sehr milde Symptome" />
+    </referenceRange>
+    <referenceRange>
+        <low>
+            <value value="75" />
+        </low>
+        <high>
+            <value value="174" />
+        </high>
+        <text value="Milde Symptome" />
+    </referenceRange>
+    <referenceRange>
+        <low>
+            <value value="175" />
+        </low>
+        <high>
+            <value value="299" />
+        </high>
+        <text value="Moderate Symptome" />
+    </referenceRange>
+    <referenceRange>
+        <low>
+            <value value="300" />
+        </low>
+        <high>
+            <value value="500" />
+        </high>
+        <text value="Schwere Symptome" />
+    </referenceRange>
+```
