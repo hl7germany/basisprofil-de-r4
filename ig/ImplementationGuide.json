@@ -262,6 +262,11 @@
                                   "nameUrl": "ig/markdown/EKG.md",
                                   "title": "EKG",
                                   "generation": "markdown"
+                              },
+                              {
+                                  "nameUrl": "ig/markdown/Ressourcen-Observation-Skalen-und-Scores.md",
+                                  "title": "Skalen und Scores",
+                                  "generation": "markdown"
                               }
                           ]
                       },
