@@ -6,15 +6,15 @@ FHIR versucht weniger für einen konkreten UseCase eine konkrete Lösung zu biet
 
 Dies hat jedoch zur Folge, dass die Interoperabilität einzelner Implementierungen nur dann gewährleistet werden kann, wenn über die Kernspezifikation hinaus einschränkende Vereinbarungen zur Nutzung von FHIR in einem konkreten Umfeld getroffen werden.
 
-Die hier vom Technischen Komittee für FHIR von HL7 Deutschland vorgelegten FHIR Basisprofile trifft solche Vereinbarungen für die Nutzung von FHIR im Rahmen des Deutschen Gesundheitswesens.
+Die hier vom Technischen Komittee für FHIR von HL7 Deutschland vorgelegten FHIR Basisprofile treffen Vereinbarungen für die Nutzung von FHIR im Rahmen des Deutschen Gesundheitswesens, jedoch ohne Festlegungen auf ein konkretes Anwendungsszenario.
 
-### Die 80%-Regel
+### Die 80%-Regel und Extensions
 Das Design der [HL7 FHIR-Spezifikation](http://hl7.org/fhir/) folgt auf internationaler Ebene einer sogenannten [80%-Regel](http://www.healthintersections.com.au/?p=1924), die besagt, dass nur diejenigen Dinge in FHIR spezifiziert werden, bei denen davon auszugehen ist, dass Sie in 80% der Anwendungsfälle tstsächlich benötigt werden. Dies schliesst die besonderen Gegebenheiten einzelner medizinischer Fachrichtungen, konkreter UseCases oder auch landesspezifische Besonderheiten aus. 
 Während zum Beispiel in HL7 Version 2 noch ein Feld für die "Rasse des Patienten" vorgesehen war, gibt es kein entsprechendes Element in der FHIR-Ressourcen Patient mehr, da es sich bei der Erfassung dieser Eigenschaft um eine landesspezifische Besonderheit in den USA handelt.
 
 Es ist daher stets davon auszugehen, dass Elemente, die aufgrund landesspezifischer Besonderheiten benötigt werden und zu denen es keinen internationalen Konsens gibt, auf Landesebene festgelegt werden müssen.
 
-Die FHIR-Basisprofile spezifizieren, wie landestypische Merkmale unter Verwendung der Ressourcen und Elemente der FHIR-KErnspezifikation abgebildet werden können und veröffentlichen - wo nötig - landesspezifische Extensions, um die vorhandenen Ressourcen um die benötigten zusätzliche Elemente zu erweitern.
+Die FHIR-Basisprofile spezifizieren, wie landestypische Merkmale unter Verwendung der Ressourcen und Elemente der FHIR-Kernspezifikation abgebildet werden können und veröffentlichen - wo nötig - landesspezifische Extensions, um die vorhandenen Ressourcen um die benötigten zusätzliche Elemente zu erweitern.
 
 ### Terminologien
 Weiterhin ist die Bindung an ValueSets im Standard überwiegend exemplarischer Natur, da die tatsächlich verwendeten Vokabularien von Land zu Land und Domäne zu Domäne unterschiedlich sein können. Inbesondere die Nutzung der internationalen SNOMED-Terminologie ist von lizenzrechtlichen Rahmenbedingungen abhängig, die sich in einzelnen Ländern unterscheiden können, weshalb die FHIR-Kernspezifikation die Verwendung von SNOMED bestenfalls empfielt, aber nicht verbindlich vorgibt.
@@ -26,20 +26,6 @@ In der Kernspezifikation sind nur wenige Elemente in den Ressourcen verflichtend
 
 Da die FHIR-Basisprofile weiterhin unabhängig von einem konkreten UseCase bleiben und in Deutschland möglicht übergreifend eingesetzt werden können, wird auf die Festlegung von PFlcihtfeldern weitestgehend verzichtet.
 
-
-
-## Technische Umsetzung der FHIR-Basisprofile
-
-FHIR bietet ein eigenes [Conformance-Framework](https://www.hl7.org/fhir/conformance-rules.html), in konkrete Vereinbarungen zur Nutzung von FHIR in maschinenlesbarer Form definiert und validiert werden können.
-
-Mit Hilfe von [Profilen](http://hl7.org/implement/standards/fhir/profiling.html) können Ressourcen und Datentypen für die konkreten Anforderungen eines Use-Cases, einer Jurisdiktion oder einer Domäne adaptiert werden.
-Inhalte eines solchen Profils sind u.a.:
-* Beschreibungen und Erläuterungen zu den Attributen
-* Einschränkungen der Minimalen und maximalen Kardinalität von Attributen (Festlegung von Pflichtfeldern, Ausschluss von nicht verwendeten Attributen)
-* Markierung der Attribute, die von den implementierenden Systemen verarbeitet, bzw "verstanden" werden müssen (“must-support”)
-* Vereinbarung der zulässigen Werte für codierte Informationen (ValueSet-Binding)
-* Definition von zusätzlichen Regeln, die für eine Ressource gelten (Invarianten)
-* Einbinden der benötigten Extensions
 
 ## Zielsetzung der FHIR-Basisprofile
 
@@ -54,7 +40,22 @@ Die Basisprofile stellen keinen unmittelbar implementierbaren Leitfaden dar, son
 
 Ersteller von FHIR-basierten Spezifikationen in Deutschland sollten zwingend auf die Einhaltung der in dieser Spezifikation getroffenen Vereinbarungen achten um zu verhindern, dass übergreifende Konzepte wie zum Beispiel die Abbildung einer gesetzlichen Krankenversichertennummer, der Umgang mit den Geschlechtkennzeichen "divers" und "unbestimmt" oder die Codierung von Diagnosen mit ICD-10 in verschiedenen Kontexten nicht unterschiedlich (und damit inkompatibel) spezifiziert werden.
 
-Die Verwendung der Basisprofile ist keine Gewährleistung für die Kompatibilität der darauf basierenden Spezifikationen. Sie stellt lediglich den kleinsten gemeinsamen Nenner dar.
+**Die Verwendung der Basisprofile ist keine Gewährleistung für die Kompatibilität der darauf basierenden Spezifikationen!** Sie stellt lediglich den kleinsten gemeinsamen Nenner dar!
+
+<!--
+## Technische Umsetzung der FHIR-Basisprofile
+
+FHIR bietet ein eigenes [Conformance-Framework](https://www.hl7.org/fhir/conformance-rules.html), in konkrete Vereinbarungen zur Nutzung von FHIR in maschinenlesbarer Form definiert und validiert werden können.
+
+Mit Hilfe von [Profilen](http://hl7.org/implement/standards/fhir/profiling.html) können Ressourcen und Datentypen für die konkreten Anforderungen eines Use-Cases, einer Jurisdiktion oder einer Domäne adaptiert werden.
+Inhalte eines solchen Profils sind u.a.:
+* Beschreibungen und Erläuterungen zu den Attributen
+* Einschränkungen der Minimalen und maximalen Kardinalität von Attributen (Festlegung von Pflichtfeldern, Ausschluss von nicht verwendeten Attributen)
+* Markierung der Attribute, die von den implementierenden Systemen verarbeitet, bzw "verstanden" werden müssen (“must-support”)
+* Vereinbarung der zulässigen Werte für codierte Informationen (ValueSet-Binding)
+* Definition von zusätzlichen Regeln, die für eine Ressource gelten (Invarianten)
+* Einbinden der benötigten Extensions
+-->
 
 ## Aufbau dieses Implementierungsleitfadens
 
