@@ -2,29 +2,29 @@
 
 ## Motivation
 Die FHIR-Kernspezifikation kann als ein Bausatz betrachtet werden, der es den Anwendern völlig frei stellt, was sie damit bauen möchten. FHIR schänkt wenig ein und lässt vieles offen, um dem Bau möglichst vielfältiger Lösungen in allen Bereichen des Gesundheistwesens zu unterstützen.
-FHIR versucht weniger für einen konkreten UseCase eine konkrete Lösung zu bieten, sondern vielmehr, für möglichst viele UseCases eine gemeinsame Basistechnologie bereitszustellen.
+FHIR versucht weniger für einen konkreten UseCase eine konkrete Lösung zu bieten, sondern vielmehr, für möglichst viele UseCases eine gemeinsame Basistechnologie bereitzustellen.
 
 Dies hat jedoch zur Folge, dass die Interoperabilität einzelner Implementierungen nur dann gewährleistet werden kann, wenn über die Kernspezifikation hinaus einschränkende Vereinbarungen zur Nutzung von FHIR in einem konkreten Umfeld getroffen werden.
 
-Die hier vom Technischen Komittee für FHIR von HL7 Deutschland vorgelegten FHIR Basisprofile treffen Vereinbarungen für die Nutzung von FHIR im Rahmen des Deutschen Gesundheitswesens, jedoch ohne Festlegungen auf ein konkretes Anwendungsszenario.
+Die hier vom Technischen Komittee für FHIR von HL7 Deutschland vorgelegten "FHIR Basisprofile" treffen Vereinbarungen für die Nutzung von FHIR im Rahmen des Deutschen Gesundheitswesens, jedoch *ohne* Festlegungen auf ein konkretes Anwendungsszenario.
 
 ### Die 80%-Regel und Extensions
-Das Design der [HL7 FHIR-Spezifikation](http://hl7.org/fhir/) folgt auf internationaler Ebene einer sogenannten [80%-Regel](http://www.healthintersections.com.au/?p=1924), die besagt, dass nur diejenigen Dinge in FHIR spezifiziert werden, bei denen davon auszugehen ist, dass Sie in 80% der Anwendungsfälle tstsächlich benötigt werden. Dies schliesst die besonderen Gegebenheiten einzelner medizinischer Fachrichtungen, konkreter UseCases oder auch landesspezifische Besonderheiten aus. 
+Das Design der [HL7 FHIR-Spezifikation](http://hl7.org/fhir/) folgt auf internationaler Ebene einer sogenannten [80%-Regel](http://www.healthintersections.com.au/?p=1924), die besagt, dass nur diejenigen Dinge in FHIR spezifiziert werden, bei denen davon auszugehen ist, dass Sie in 80% der Anwendungsfälle tatsächlich benötigt werden. Dies schliesst die besonderen Gegebenheiten einzelner medizinischer Fachrichtungen, konkreter UseCases oder auch landesspezifische Besonderheiten aus. 
 Während zum Beispiel in HL7 Version 2 noch ein Feld für die "Rasse des Patienten" vorgesehen war, gibt es kein entsprechendes Element in der FHIR-Ressourcen Patient mehr, da es sich bei der Erfassung dieser Eigenschaft um eine landesspezifische Besonderheit in den USA handelt.
 
-Es ist daher stets davon auszugehen, dass Elemente, die aufgrund landesspezifischer Besonderheiten benötigt werden und zu denen es keinen internationalen Konsens gibt, auf Landesebene festgelegt werden müssen.
+Es ist daher stets davon auszugehen, dass Elemente, die aufgrund landesspezifischer Besonderheiten benötigt werden und zu denen es keinen internationalen Konsens gibt, auf Landesebene festgelegt und dem Standard in Form von sog. ["Extensions"](http://hl7.org/fhir/extensibility.html) hinzugefügt werden müssen.
 
 Die FHIR-Basisprofile spezifizieren, wie landestypische Merkmale unter Verwendung der Ressourcen und Elemente der FHIR-Kernspezifikation abgebildet werden können und veröffentlichen - wo nötig - landesspezifische Extensions, um die vorhandenen Ressourcen um die benötigten zusätzliche Elemente zu erweitern.
 
 ### Terminologien
-Weiterhin ist die Bindung an ValueSets im Standard überwiegend exemplarischer Natur, da die tatsächlich verwendeten Vokabularien von Land zu Land und Domäne zu Domäne unterschiedlich sein können. Inbesondere die Nutzung der internationalen SNOMED-Terminologie ist von lizenzrechtlichen Rahmenbedingungen abhängig, die sich in einzelnen Ländern unterscheiden können, weshalb die FHIR-Kernspezifikation die Verwendung von SNOMED bestenfalls empfielt, aber nicht verbindlich vorgibt.
+Die Bindung von Elementen an ValueSets ist im Standard überwiegend exemplarischer Natur, da die tatsächlich verwendeten Vokabularien von Land zu Land und Domäne zu Domäne unterschiedlich sein können. Inbesondere die Nutzung der internationalen SNOMED-Terminologie ist von lizenzrechtlichen Rahmenbedingungen abhängig, die sich in einzelnen Ländern unterscheiden können, weshalb die FHIR-Kernspezifikation die Verwendung von SNOMED bestenfalls empfielt, aber nicht verbindlich vorgibt.
 
-Die FHIR-Basisprofile verweisen auf im Deutschen Gesundheitswesen gebräuchliche Terminologien, stellen diese - sofern möglich - als FHIR-Ressourcen zur Verfügung und sprechen Empfehlungen aus, wie internationale Terminologien in unserem Kontext eingesetzt werden können.
+Die FHIR-Basisprofile verweisen auf die im Deutschen Gesundheitswesen gebräuchlichen Terminologien, stellen diese - sofern möglich - als FHIR-Ressourcen zur Verfügung und sprechen Empfehlungen aus, wie internationale Terminologien in unserem Kontext eingesetzt werden können.
 
 ### Kardinalitäten
 In der Kernspezifikation sind nur wenige Elemente in den Ressourcen verflichtend (Minimum-Kardinalität: 1), da die Festlegung, welche Informationen benötigt und zu einem spezifischen Zeitpunkt bekannt bzw. aus datenschutzrechtlichen Erwägungen heraus erhoben bzw. geteilt werden dürfen, stark vom konkreten UseCase abhängt. So ist zum Beispiel ohne Kenntnis des Einsatzszenarios heraus nicht zu sagen, ob der Name eines Patienten ein Pflichtfeld sein sollte, oder nicht (Versorgung: Vielleicht, Abrechnung; Ja, Forschung: Nein)
 
-Da die FHIR-Basisprofile weiterhin unabhängig von einem konkreten UseCase bleiben und in Deutschland möglicht übergreifend eingesetzt werden können, wird auf die Festlegung von PFlcihtfeldern weitestgehend verzichtet.
+Da die FHIR-Basisprofile weiterhin unabhängig von einem konkreten UseCase bleiben und in Deutschland möglichst übergreifend eingesetzt werden können, wird auf die Festlegung von Pflichtfeldern weitestgehend verzichtet.
 
 
 ## Zielsetzung der FHIR-Basisprofile
