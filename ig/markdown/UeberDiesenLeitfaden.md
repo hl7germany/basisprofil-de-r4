@@ -70,7 +70,15 @@ Dieser Leitfaden enthält
 
 ## Standard Level
 
-In Anlehnung an den ["Standards Development Process" von HL7 International](https://www.hl7.org/fhir/versions.html#std-process) wird der Inhalt dieses Leitfadens als "Trial Use" herausgegeben. Voraussetzung hierfür ist, dass die dazugehörigen Artefakte ballotiert wurden sind als "Standard for Trial Use (STU)". Falls bestimmte Artefakte nicht ballotiert wurden sind oder die Autoren sich für einen abweichenden "Standard Level" entschieden haben wird dies im jeweiligen Abschnitt im Implementierungsleitfaden hervorgehoben.
+In Anlehnung an den ["Standards Development Process" von HL7 International](https://www.hl7.org/fhir/versions.html#std-process) wird der Inhalt dieses Leitfadens mit dem Status "for Trial Use" herausgegeben. Dies bedeutet gem. Definition von HL7 Int.:
+```quote
+Dieser Inhalt wurde gründlich überprüft und ist nach Ansicht der Autoren für den Einsatz in Produktionssystemen geeignet. 
+Er wurde einer Abstimmung (Ballot) unterzogen und als offizielle Norm genehmigt. 
+Er wurde jedoch noch nicht in dem gesamten Spektrum der Szenarien, in denen er eingesetzt werden soll, im produktiven Einsatz eingesetzt. 
+In einigen Fällen kann es dokumentierte, bekannte Probleme geben, für deren Behebung Erfahrung bei der Implementierung erforderlich ist.
+```
+
+Falls bestimmte Artefakte noch nicht ballotiert wurden oder noch nicht als "implementierbar" erachtet werden, wird dies im jeweiligen Abschnitt im Implementierungsleitfaden hervorgehoben.
 
 ## Zielgruppe
 
