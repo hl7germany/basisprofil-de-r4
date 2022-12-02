@@ -83,7 +83,7 @@
             "key": "ruhend-1",
             "severity": "warning",
             "human": "Es sind nur die Werte \"1\" (vollständig) und \"2\" (eingeschränkt) erlaubt.",
-            "expression": "matches('[12]')",
+            "expression": "matches('^[12]$')",
             "source": "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"
           }
         ]
