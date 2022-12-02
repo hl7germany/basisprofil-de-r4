@@ -68,7 +68,7 @@
             "key": "chrg-1",
             "severity": "warning",
             "human": "EBM-Ziffern müssen dem Schema '[0-9]{5}[A-Z]{0,1}' entsprechen",
-            "expression": "coding.code.matches('[0-9]{5}[A-Z]{0,1}')",
+            "expression": "coding.code.matches('^[0-9]{5}[A-Z]{0,1}$')",
             "source": "http://fhir.de/StructureDefinition/chargeitem-de-ebm"
           }
         ]
