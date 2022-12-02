@@ -42,6 +42,22 @@ Ersteller von FHIR-basierten Spezifikationen in Deutschland sollten zwingend auf
 
 **Die Verwendung der Basisprofile ist keine Gewährleistung für die Kompatibilität der darauf basierenden Spezifikationen!** Sie stellt lediglich den kleinsten gemeinsamen Nenner dar!
 
+## Vorgehensweise
+
+Wie der Name "Basisprofile" vermuten lässt, war die ursprüngliche Idee, für häufig und UseCase-übergreifend genutzte Ressourcentypen (z.B. Patient, Encounter, Condition, etc.) Profile zu publizieren, von denen dann jeweils UseCase-spezifische Profile hierarchisch abgeleitet werden können.
+
+Dies hat sich jedoch aus folgenden Gründen als nicht praktikabel erwiesen:
+
+Es gibt in Deutschland sehr wenige Festlegungen, die tatsächlich allübergreifend gelten. Meist enden Vereinbarungen an den Sektorengrenzen.
+Allein für den Identifier eines Patienten gibt es etliche mögliche Varianten (einrichtungsspezifische Patienten-ID, Versichertennummer, Reisepassnummer...), die zwar übergreifend einheitlich verwendet werden sollten und daher in den Basisprofile spezifiziert werden müssen, welche davon jedoch tatsächlich verwendet werden unterscheidet sich von UseCase zu UseCase. 
+Der ursprüngliche Ansatz, bspw. ein Patientenprofil zu publizieren, in dem alle Eventualitäten und Optionen profiliert sind, hat sich als nicht zielführend erwiesen. Das Profil war massiv überladen und hochkomplex, abgeleitete Profile mussten nicht benötigte Anteile wieder mittels Constraints reduzieren, die hohe Komplexität stand dem einfachen Verständnis und der Pflege der Profile entgegen. 
+
+Daher wurde ein Großteil der Ressourcentyp-Profile bei der Migration von FHIR STU3 auf R4 aus den Basisprofilen wieder entfernt. An deren Stelle traten Kapitel, die BestPractice-Empfehlungen zu den einzelnen Ressourcentypen sowie Datentypprofile (z.B: für verschiedene Arten von Identifiern und Adressen) bereitstellen, so dass Entwickler von FHIR-Spezifikationen, die jeweils benötigten Artefakte im Sinne eines Bausatzes gezielt auswählen und bedarfsgerecht in ihre UseCase-spezifischen Profile einbauen können.
+
+Ressourcentyp-Profile werden nur noch dann publiziert, wenn davon ausgegangen werden kann, das für ein Artefakt, UseCase- und sektorenübergreifend die gleichen Vereinbarungen gelten (z.B. Vitalparameter).
+
+Weiterhin werden Festlegungen zu übergreifend genutzen Namensräumen und Terminologien getroffen, jedoch ohne die Annahme, dass diese in allen deutschen Spezifikationen benötigt werden.
+
 <!--
 ## Technische Umsetzung der FHIR-Basisprofile
 
