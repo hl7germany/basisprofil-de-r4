@@ -24,5 +24,5 @@ Siehe {{pagelink:ig/markdown/ExtensionsfrCoverage.md}}.
 
 Folgendes Beispiel deckt das GKV-Profil vollständig ab:
 
-{{xml:Coverage-example}}
+{{xml:Coverage/Example-coverage-example}}
 

@@ -50,23 +50,23 @@ Um stets alle Codes einer Mehrfachkodierung zu erhalten, empfiehlt es sich ICD-1
 Der Übersichtlichkeit halber werden die Beispiele hier nur im XML-Format dargestellt.
 Die Beispiele sind über das [Simplifier-Projekt](https://simplifier.net/basisprofil-de-r4/~resources?category=Example&exampletype=Condition&sortBy=RankScore_desc) jedoch auch im json-Format abrufbar.
 
-{{xml:Basisprofil-DE-R4/Condition-example-minimal}}
+{{xml:Condition/Example-condition-minimal}}
 
 #### Beispiel: ICD-Code mit Kreuz-Stern-Notation
 
 
 Primärcode:
-{{xml:basisprofil-de-r4/example-condition-kreuz-stern-primaer}}
+{{xml:Condition/Example-condition-kreuz-stern-primaer}}
 Sekundärcode:
-{{xml:basisprofil-de-r4/example-condition-kreuz-stern-sekundaer-stern}}
+{{xml:Condition/Example-condition-kreuz-stern-sekundaer}}
 
 
 #### Beispiel: ICD-Code mit Ausrufezeichen-Notation
 
 Primärcode: example-condition-ausrufezeichen-primaer
-{{xml:Basisprofil-DE-R4/example-condition-ausrufezeichen-primaer}}
+{{xml:Condition/Example-condition-ausrufezeichen-primaer}}
 Sekundärcode:
-{{xml:Basisprofil-DE-R4/example-condition-ausrufezeichen-sekundaer-ausrufezeichen}}
+{{xml:Condition/Example-condition-ausrufezeichen-sekundaer}}
 
 ----
 
@@ -96,7 +96,7 @@ Die Äquivalenz von clinicalStatus/verificationStatus und der Diagnosesicherheit
 
 #### Beispiel: Diagnosesicherheit: "Zustand nach"
 
-{{xml:Basisprofil-DE-R4/example-condition-zustand-nach}}
+{{xml:Condition/Example-condition-zustand-nach}}
 
 ----
 
