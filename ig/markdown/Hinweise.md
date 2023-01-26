@@ -16,13 +16,7 @@
 |---------|---------------------|
 |![Information](https://wiki.hl7.de/images/thumb/Talk.svg/100px-Talk.svg.png)| Mit diesem Symbol wird auf Diskussionen im FHIR-Chat verwiesen |
 
-<!--
 
-| Hinweis | Standard Level: Draft!|
-|---------|---------------------|
-| {{render:Warning}} | Der nachfolgende Abschnitt des Implementierungsleitfadens wird als nicht vollständig genug oder nicht ausreichend geprüft angesehen, um ausschließen zu können das zukünftige Versionen rückwärtskompatibel bleiben. Im Anschluss an eine Ballotierung wird der Status in der Regel auf "Trial-Use" angehoben. Wir bitten hierzu um Meinungen und Vorschläge aus der Community.|
-
--->
 ### Status-Hinweise zu nicht-ballotierten Bereichen des Implementierungsleitfadens
 | Hinweis | Standard Level: Draft!|
 |---------|---------------------|
