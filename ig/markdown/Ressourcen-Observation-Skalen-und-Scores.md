@@ -1,4 +1,8 @@
 # Skalen und Scores
+| Hinweis | Standard Level: Proposal!|
+|---------|---------------------|
+|![Information](https://wiki.hl7.de/images/thumb/Under_construction_icon-blue.svg/100px-Under_construction_icon-blue.svg.png)| Der nachfolgende Abschnitt des Implementierungsleitfadens ist vollständig, wurde jedoch noch nicht ausführlich getestet und umfassend implementiert. Der Abschnitt kann noch überarbeitet werden, falls sich die Vorschläge in der Praxis nicht bewähren sollten. Feedback, Fragen und Verbesserungsvorschläge bitte im [deutschsprachigen Bereich des internationalen FHIR-Chats](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)) diskutieren.|
+| | **Nicht-kompatible Änderungen sind nach wie vor möglich!** |
 
 ## Motivation
 Die Repräsentation von Skalen und Scores in der Medizin stellt häufig eine Herausforderung dar. 
