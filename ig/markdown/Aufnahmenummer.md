@@ -6,7 +6,7 @@
 
 {{tree:http://fhir.de/StructureDefinition/identifier-aufnahmenummer, hybrid}}
 
-**Kontext**: Der Identifier kann u.a. in Encounter.identifier oder Account.identifier verwendet werden.
+**Kontext**: Der Identifier kann u.a. in Encounter.identifier verwendet werden.
 
 Da es bei der Aufnahmenummer Identifier keinen einheitlichen Namensraum gibt, da dieser organisationsintern ist, muss der `type`-Codes "VN" (Visit number) verpflichtend, um den Identifier einrichtungsübergreifend als solche erkennen zu können.
 
