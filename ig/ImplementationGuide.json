@@ -561,8 +561,8 @@
                                   "generation": "markdown",
                                   "page":  [
                                       {
-                                          "nameUrl": "ig/markdown/AufnahmenummerFallnummer.md",
-                                          "title": "Aufnahmenummer (\"Fallnummer\")",
+                                          "nameUrl": "ig/markdown/Aufnahmenummer.md",
+                                          "title": "Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
                                           "generation": "markdown"
                                       }
                                   ]
