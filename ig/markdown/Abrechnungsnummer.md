@@ -27,3 +27,5 @@ Beispiel:
         <value value="123456" />
     </identifier>
 ```
+
+Für den Aufnahmenummer Identifier (Encounter) ist folgendes Profil zu verwenden: ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-aufnahmenummer&scope=de.basisprofil.r4@1.4.0))
