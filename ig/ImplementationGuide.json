@@ -564,6 +564,11 @@
                                           "nameUrl": "ig/markdown/Aufnahmenummer.md",
                                           "title": "Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
                                           "generation": "markdown"
+                                      },
+                                      {
+                                        "nameUrl": "ig/markdown/Abrechnungsnummer.md",
+                                        "title": "Abrechnungsnummer (\"Fallnummer\")",
+                                        "generation": "markdown"
                                       }
                                   ]
                               },
