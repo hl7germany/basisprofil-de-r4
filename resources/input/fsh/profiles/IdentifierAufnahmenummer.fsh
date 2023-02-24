@@ -1,8 +1,8 @@
 Profile: IdentifierAufnahmenummer
 Parent: Identifier
 Id: identifier-aufnahmenummer
-Title: "Identifier-Profil für die Abbildung einer Aufnahmenummer (\"Fallnummer\")"
-Description: "Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (\"Fallnummer\")"
+Title: "Identifier-Profil für die Abbildung einer Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")"
+Description: "Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")"
 * ^date = "2021-12-27"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #other
