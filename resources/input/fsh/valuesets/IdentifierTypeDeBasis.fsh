@@ -11,4 +11,5 @@ Description: "ValueSet zur Codierung des Identifier-Typs"
 * $v2-0203#LANR "Lebenslange Arztnummer"
 * $v2-0203#RI "Resource identifier"
 * $v2-0203#DN "Doctor number"
+* $v2-0203#AN "Account number"
 * include codes from system IdentifierTypeDeBasis
