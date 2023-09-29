@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-iknr",
   "url": "http://fhir.de/StructureDefinition/identifier-iknr",
+  "version": "1.4.0",
   "name": "IdentifierIknr",
   "title": "Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)",
   "status": "active",

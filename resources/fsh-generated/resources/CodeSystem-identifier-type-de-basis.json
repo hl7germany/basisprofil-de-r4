@@ -5,6 +5,7 @@
   "name": "IdentifierTypeDeBasis",
   "id": "identifier-type-de-basis",
   "description": "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen.",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/identifier-type-de-basis",
   "concept": [
     {

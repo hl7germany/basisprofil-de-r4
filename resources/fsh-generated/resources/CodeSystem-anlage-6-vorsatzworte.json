@@ -5,6 +5,7 @@
   "name": "DeuevAnlage6Vorsatzworte",
   "id": "anlage-6-vorsatzworte",
   "description": "Tabelle der gültigen Vorsatzworte",
+  "version": "2.30",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte",
   "concept": [
     {
@@ -761,7 +762,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "version": "2.30",
   "experimental": false,
   "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

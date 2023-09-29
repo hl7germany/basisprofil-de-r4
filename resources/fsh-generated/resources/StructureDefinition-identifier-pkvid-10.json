@@ -2,9 +2,10 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pkvid-10",
   "url": "http://fhir.de/StructureDefinition/identifier-pkv-kvid-10",
+  "version": "1.4.0",
   "name": "IdentifierPkvVersichertenId10",
   "title": "Identifier-Profil für die 10-stellige Versicherten ID (PKV)",
-  "status": "draft",
+  "status": "active",
   "date": "2022-06-27",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [

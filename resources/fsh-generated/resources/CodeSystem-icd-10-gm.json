@@ -5,6 +5,7 @@
   "name": "ICD10GM",
   "id": "icd-10-gm",
   "description": "ICD-10-GM Platzhalter-CodeSystem",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
   "experimental": false,
   "date": "2022-09-23",

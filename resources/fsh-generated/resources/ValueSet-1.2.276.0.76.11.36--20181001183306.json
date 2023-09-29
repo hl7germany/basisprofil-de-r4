@@ -5,6 +5,7 @@
   "id": "1.2.276.0.76.11.36--20181001183306",
   "title": "IHE XDS healthcareFacilityTypeCode",
   "description": "**healthcareFacilityTypeCode (XDSDocumentEntry)**\nThis code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred.",
+  "version": "2018-10-01T18:33:06",
   "url": "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCode",
   "meta": {
     "profile": [
@@ -26,7 +27,6 @@
       "value": "urn:oid:1.2.276.0.76.11.36"
     }
   ],
-  "version": "2018-10-01T18:33:06",
   "experimental": false,
   "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

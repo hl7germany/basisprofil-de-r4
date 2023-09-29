@@ -1,7 +1,18 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergewicht",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
+  "version": "1.4.0",
   "name": "VitalSignDE_Koerpergewicht",
   "status": "active",
   "experimental": false,

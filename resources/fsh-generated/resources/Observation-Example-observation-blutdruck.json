@@ -47,8 +47,8 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "code": "mm[Hg]",
         "value": 107,
+        "code": "mm[Hg]",
         "unit": "mmHg"
       }
     },
@@ -69,8 +69,8 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "code": "mm[Hg]",
         "value": 60,
+        "code": "mm[Hg]",
         "unit": "mmHg"
       }
     }

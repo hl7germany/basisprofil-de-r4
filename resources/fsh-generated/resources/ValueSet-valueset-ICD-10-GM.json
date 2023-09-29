@@ -4,6 +4,7 @@
   "name": "ICD10GM",
   "id": "valueset-ICD-10-GM",
   "description": "ICD-10-GM",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
   "meta": {
     "profile": [

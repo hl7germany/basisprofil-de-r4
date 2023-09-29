@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "humanname-namenszusatz",
   "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+  "version": "1.4.0",
   "name": "HumannameNamenszusatz",
   "title": "Extension zur Erfassung der VSDM Namensbestandteile",
   "status": "active",

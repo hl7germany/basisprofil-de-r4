@@ -4,6 +4,7 @@
   "name": "AbrechnungsartVS",
   "id": "AbrechnungsartVS",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/dkgev/Abrechnungsart",
   "meta": {
     "profile": [

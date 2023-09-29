@@ -5,6 +5,7 @@
   "name": "AlphaId",
   "id": "alpha-id",
   "description": "Alpha-ID Platzhalter-CodeSystem",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/alpha-id",
   "identifier": [
     {

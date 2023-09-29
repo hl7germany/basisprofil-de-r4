@@ -5,6 +5,7 @@
   "id": "1.2.276.0.76.11.31--20180713132208",
   "title": "IHE XDS authorSpecialty",
   "description": "**authorSpecialty (XDSDocumentEntry or XDSSubmissionSet)**\nRepresents a specific specialty within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet",
+  "version": "2018-07-13T13:22:08",
   "url": "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality",
   "meta": {
     "profile": [
@@ -39,7 +40,6 @@
       "value": "urn:oid:1.2.276.0.76.11.31"
     }
   ],
-  "version": "2018-07-13T13:22:08",
   "immutable": false,
   "compose": {
     "include": [

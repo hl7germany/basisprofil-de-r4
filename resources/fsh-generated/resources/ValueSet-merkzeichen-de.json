@@ -5,6 +5,7 @@
   "id": "merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
   "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/merkzeichen-de",
   "meta": {
     "profile": [

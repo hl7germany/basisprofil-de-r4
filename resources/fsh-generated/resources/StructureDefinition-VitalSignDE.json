@@ -1,7 +1,18 @@
 {
   "resourceType": "StructureDefinition",
   "id": "VitalSignDE",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
+  "version": "1.4.0",
   "name": "VitalSignDE",
   "status": "active",
   "experimental": false,
@@ -150,19 +161,6 @@
         ]
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
         "id": "Observation.value[x]:valueQuantity",
         "path": "Observation.value[x]",
         "sliceName": "valueQuantity",
@@ -211,19 +209,6 @@
             "source": "http://fhir.de/StructureDefinition/observation-de-vitalsign"
           }
         ]
-      },
-      {
-        "id": "Observation.component.value[x]",
-        "path": "Observation.component.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        }
       },
       {
         "id": "Observation.component.value[x]:valueQuantity",

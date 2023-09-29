@@ -5,6 +5,7 @@
   "name": "SupplementIdentifierTypeV2",
   "id": "identifier-type-v2-supplement",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/identifier-type-v2-supplement",
   "concept": [
     {

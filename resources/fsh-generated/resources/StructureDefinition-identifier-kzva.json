@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-kzva",
   "url": "http://fhir.de/StructureDefinition/identifier-kzva",
+  "version": "1.4.0",
   "name": "IdentifierKzva",
   "title": "Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer",
   "status": "active",
