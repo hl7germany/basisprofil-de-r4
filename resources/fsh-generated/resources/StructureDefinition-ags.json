@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "ags",
   "url": "http://fhir.de/StructureDefinition/destatis/ags",
-  "version": "1.4.0",
   "name": "ExtensionDestatisAgs",
   "status": "active",
   "experimental": false,

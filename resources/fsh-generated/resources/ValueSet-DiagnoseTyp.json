@@ -3,7 +3,6 @@
   "status": "active",
   "name": "DiagnoseTyp",
   "id": "DiagnoseTyp",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
   "date": "2022-09-23",

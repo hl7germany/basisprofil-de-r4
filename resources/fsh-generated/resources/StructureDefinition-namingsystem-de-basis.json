@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "namingsystem-de-basis",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Foundation.Terminology"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "anonymous"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/namingsystem-de-basis",
-  "version": "1.4.0",
   "name": "NamingsystemDeBasis",
   "title": "Namingsystem, deutsches Basisprofil",
   "status": "active",

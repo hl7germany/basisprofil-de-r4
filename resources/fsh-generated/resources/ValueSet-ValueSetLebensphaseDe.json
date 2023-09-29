@@ -4,7 +4,6 @@
   "name": "ValueSetLebensphaseDe",
   "id": "ValueSetLebensphaseDe",
   "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,
   "date": "2022-09-23",

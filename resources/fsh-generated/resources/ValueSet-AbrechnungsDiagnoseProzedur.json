@@ -3,7 +3,6 @@
   "status": "active",
   "name": "AbrechnungsDiagnoseProzedur",
   "id": "AbrechnungsDiagnoseProzedur",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "meta": {
     "profile": [
