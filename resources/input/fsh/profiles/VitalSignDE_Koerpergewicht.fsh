@@ -22,7 +22,9 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[snomed] = $sct#27113001 "Body weight"
+* code.coding[+] = $loinc#29463-7 "Body weight"
+* code.coding[+] = $sct#27113001 "Body weight"
+* code.coding[+] = $loinc#8339-4 "Birth weight Measured"
 * code.text = "Körpergewicht"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"
