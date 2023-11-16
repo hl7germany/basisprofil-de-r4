@@ -8,6 +8,7 @@ Id: observation-de-vitalsign-koerpergroesse
   * coding[loinc] from ValueSetVitalSignDE_Body_Height_Loinc (required)
     * system 1..
     * code 1..
+  * coding[snomed] = $sct#50373000 "Body height measure"
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
