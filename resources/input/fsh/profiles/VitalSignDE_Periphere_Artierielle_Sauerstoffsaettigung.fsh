@@ -3,7 +3,13 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* code = $loinc#2708-6
+* code
+  * coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+    * system 1..
+    * code 1..
+  * coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
+    * system 1..
+    * code 1..
 * value[x] only Quantity
 * valueQuantity = $unitsofmeasure#%
 
@@ -15,7 +21,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code.coding[+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
