@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "coverage-de-basis",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Financial.Support"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/coverage-de-basis",
-  "version": "1.4.0",
   "name": "CoverageDeBasis",
   "title": "Coverage, deutsches Basisprofil",
   "status": "active",

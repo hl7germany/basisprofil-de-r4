@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "version-vsdm",
   "url": "http://fhir.de/StructureDefinition/gkv/version-vsdm",
-  "version": "1.4.0",
   "name": "ExtensionGkvVersionVsdm",
   "title": "Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK",
   "status": "active",

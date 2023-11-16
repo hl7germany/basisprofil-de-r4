@@ -4,7 +4,6 @@
   "name": "KontaktartDe",
   "id": "kontaktart-de",
   "description": "Kontaktarten für die Codierung von Encounter.type",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
   "meta": {
     "profile": [

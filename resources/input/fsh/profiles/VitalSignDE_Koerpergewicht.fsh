@@ -3,7 +3,8 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpergewicht
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* code = $loinc#29463-7
+* code
+  * coding[loinc] = $loinc#29463-7 "Body weight"
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
@@ -18,8 +19,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[0] = $loinc#29463-7 "Body weight"
-* code.coding[+] = $sct#27113001 "Body weight"
+* code.coding[snomed] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"

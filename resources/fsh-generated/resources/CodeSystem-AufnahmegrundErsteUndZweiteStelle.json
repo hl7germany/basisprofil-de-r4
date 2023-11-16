@@ -6,7 +6,6 @@
   "id": "AufnahmegrundErsteUndZweiteStelle",
   "title": "CodeSystemAufnahmegrundErsteUndZweiteStelle",
   "description": "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
   "concept": [
     {

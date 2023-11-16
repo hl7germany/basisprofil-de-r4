@@ -4,7 +4,6 @@
   "name": "GenderOtherDE",
   "id": "ValueSet-GenderOtherDE",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KB",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/gender-other-de",
   "meta": {
     "profile": [

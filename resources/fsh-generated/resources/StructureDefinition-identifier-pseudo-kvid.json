@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pseudo-kvid",
   "url": "http://fhir.de/StructureDefinition/identifier-pseudo-kvid",
-  "version": "1.4.0",
   "name": "IdentifierPseudoKvid",
   "title": "Identifier-Profil für die pseudonymisierte Krankenversichertennummer",
   "status": "active",

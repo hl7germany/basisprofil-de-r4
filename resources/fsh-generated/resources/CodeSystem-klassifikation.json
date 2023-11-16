@@ -5,7 +5,6 @@
   "name": "ArgeIkKlassifikation",
   "id": "klassifikation",
   "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/arge-ik/klassifikation",
   "concept": [
     {

@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "coverage-de-gkv",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Financial.Support"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/coverage-de-gkv",
-  "version": "1.4.0",
   "name": "CoverageDeGkv",
   "title": "Coverage, deutsches GKV-Profil",
   "status": "active",

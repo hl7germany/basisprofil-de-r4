@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "icd-10-gm-diagnosesicherheit",
   "url": "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit",
-  "version": "1.4.0",
   "name": "ExtensionICD10GMDiagnosesicherheit",
   "title": "Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien",
   "status": "active",

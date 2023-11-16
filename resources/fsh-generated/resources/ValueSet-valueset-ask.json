@@ -4,7 +4,6 @@
   "name": "ASK",
   "id": "valueset-ask",
   "description": "Arzneimittel-Stoffkatalog (ASK) Nummern",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/ask",
   "meta": {
     "profile": [

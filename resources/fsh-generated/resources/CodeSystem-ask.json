@@ -5,7 +5,6 @@
   "name": "Ask",
   "id": "ask",
   "description": "Arzneimittel-Stoffkatalog (ASK) Platzhalter-CodeSystem",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/ask",
   "experimental": false,
   "date": "2022-09-23",

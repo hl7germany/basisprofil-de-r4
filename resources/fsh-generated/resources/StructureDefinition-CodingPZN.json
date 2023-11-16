@@ -2,10 +2,9 @@
   "resourceType": "StructureDefinition",
   "id": "CodingPZN",
   "url": "http://fhir.de/StructureDefinition/CodingPZN",
-  "version": "1.4.0",
   "name": "CodingPZN",
   "title": "Coding-Profil für PZN",
-  "status": "active",
+  "status": "draft",
   "date": "2021-02-17",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [

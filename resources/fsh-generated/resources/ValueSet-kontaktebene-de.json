@@ -4,7 +4,6 @@
   "name": "KontaktebeneDe",
   "id": "kontaktebene-de",
   "description": "Kontaktebene für die Codierung von Encounter.type",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/kontaktebene-de",
   "meta": {
     "profile": [

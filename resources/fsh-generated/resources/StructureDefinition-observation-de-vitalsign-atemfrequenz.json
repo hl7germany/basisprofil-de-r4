@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-atemfrequenz",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
-  "version": "1.4.0",
   "name": "VitalSignDE_Atemfrequenz",
   "status": "active",
   "experimental": false,

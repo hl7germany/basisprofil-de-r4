@@ -6,7 +6,6 @@
   "id": "Fachabteilungsschluessel",
   "title": "Fachabteilungsschluessel",
   "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
   "concept": [
     {

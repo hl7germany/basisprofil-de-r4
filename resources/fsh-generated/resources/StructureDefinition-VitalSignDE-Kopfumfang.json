@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "VitalSignDE-Kopfumfang",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
-  "version": "1.4.0",
   "name": "VitalSignDE_Kopfumfang",
   "title": "Observation - VitalSignDE - Kopfumfang",
   "status": "active",
