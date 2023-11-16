@@ -93,6 +93,16 @@
         }
       },
       {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "type": [
