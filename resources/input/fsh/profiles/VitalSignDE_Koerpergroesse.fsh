@@ -4,10 +4,6 @@ Id: observation-de-vitalsign-koerpergroesse
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code = $loinc#8302-2
-  * coding ^slicing.discriminator.type = #pattern
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * coding contains loinc 1..*
   * coding[loinc] from ValueSetVitalSignDE_Body_Height_Loinc (required)
     * system 1..
     * code 1..

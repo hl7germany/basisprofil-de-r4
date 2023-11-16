@@ -4,10 +4,6 @@ Id: observation-de-vitalsign-koerpergewicht
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code = $loinc#29463-7
-  * coding ^slicing.discriminator.type = #pattern
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * coding contains loinc 1..*
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
