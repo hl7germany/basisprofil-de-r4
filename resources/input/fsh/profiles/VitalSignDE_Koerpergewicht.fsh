@@ -8,6 +8,7 @@ Id: observation-de-vitalsign-koerpergewicht
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
+  * coding[snomed] = $sct#27113001 "Body weight"
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
 
