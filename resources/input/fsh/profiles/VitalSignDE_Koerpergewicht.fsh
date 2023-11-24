@@ -4,11 +4,11 @@ Id: observation-de-vitalsign-koerpergewicht
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#29463-7 "Body weight"
+  * coding[loinc] = $loinc#29463-7
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#27113001 "Body weight"
+  * coding[snomed] = $sct#27113001
     * system 1..
     * code 1..
 * value[x] only Quantity

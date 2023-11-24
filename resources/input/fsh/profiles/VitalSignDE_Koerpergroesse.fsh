@@ -4,11 +4,11 @@ Id: observation-de-vitalsign-koerpergroesse
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#8302-2 "Body height"
+  * coding[loinc] = $loinc#8302-2
   * coding[loinc] from ValueSetVitalSignDE_Body_Height_Loinc (required)
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#50373000 "Body height measure"
+  * coding[snomed] = $sct#50373000
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 

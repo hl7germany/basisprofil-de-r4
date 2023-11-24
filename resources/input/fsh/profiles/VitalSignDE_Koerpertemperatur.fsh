@@ -4,10 +4,10 @@ Id: observation-de-vitalsign-koerpertemperatur
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#8310-5 "Body temperature"
+  * coding[loinc] = $loinc#8310-5
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
+  * coding[snomed] = $sct#386725007
     * system 1..
     * code 1..
 * value[x] only Quantity
@@ -21,6 +21,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code.coding[loinc] = $loinc#8310-5 "Body temperature"
 * code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
 * subject = Reference(Patient/example)

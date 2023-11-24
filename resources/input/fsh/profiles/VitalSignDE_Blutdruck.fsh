@@ -4,10 +4,10 @@ Id: observation-de-vitalsign-blutdruck
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+  * coding[loinc] = $loinc#85354-9
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+  * coding[snomed] = $sct#75367002
     * system 1..
     * code 1..
 * value[x] only Quantity
@@ -40,6 +40,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code
   * text = "Systolischer und Diastolischer Blutdruck"
+* code.coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
 * code.coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2012-09-17"

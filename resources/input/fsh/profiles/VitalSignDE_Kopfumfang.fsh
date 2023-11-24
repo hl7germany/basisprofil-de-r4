@@ -6,10 +6,10 @@ Title: "Observation - VitalSignDE - Kopfumfang"
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
+  * coding[loinc] = $loinc#9843-4
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+  * coding[snomed] = $sct#363812007
     * system 1..
     * code 1..
 * value[x] only Quantity
@@ -23,6 +23,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.text = "Kopfumfang"
 * subject = Reference(Patient/example)

@@ -4,10 +4,10 @@ Id: observation-de-vitalsign-sauerstoffsaettigung
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * code
-  * coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+  * coding[loinc] = $loinc#2708-6
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
+  * coding[snomed] = $sct#442476006
     * system 1..
     * code 1..
 * value[x] only Quantity
