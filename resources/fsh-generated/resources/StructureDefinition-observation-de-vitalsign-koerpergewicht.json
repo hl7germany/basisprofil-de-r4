@@ -64,8 +64,7 @@
         "sliceName": "loinc",
         "patternCoding": {
           "code": "29463-7",
-          "system": "http://loinc.org",
-          "display": "Body weight"
+          "system": "http://loinc.org"
         },
         "binding": {
           "strength": "required",
@@ -88,8 +87,7 @@
         "sliceName": "snomed",
         "patternCoding": {
           "code": "27113001",
-          "system": "http://snomed.info/sct",
-          "display": "Body weight"
+          "system": "http://snomed.info/sct"
         }
       },
       {

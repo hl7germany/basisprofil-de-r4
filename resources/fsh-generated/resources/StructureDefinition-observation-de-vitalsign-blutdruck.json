@@ -64,8 +64,7 @@
         "sliceName": "loinc",
         "patternCoding": {
           "code": "85354-9",
-          "system": "http://loinc.org",
-          "display": "Blood pressure panel with all children optional"
+          "system": "http://loinc.org"
         }
       },
       {
@@ -84,8 +83,7 @@
         "sliceName": "snomed",
         "patternCoding": {
           "code": "75367002",
-          "system": "http://snomed.info/sct",
-          "display": "Blood pressure (observable entity)"
+          "system": "http://snomed.info/sct"
         }
       },
       {

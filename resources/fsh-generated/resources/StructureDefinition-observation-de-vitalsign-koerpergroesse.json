@@ -64,8 +64,7 @@
         "sliceName": "loinc",
         "patternCoding": {
           "code": "8302-2",
-          "system": "http://loinc.org",
-          "display": "Body height"
+          "system": "http://loinc.org"
         },
         "binding": {
           "strength": "required",
@@ -88,8 +87,7 @@
         "sliceName": "snomed",
         "patternCoding": {
           "code": "50373000",
-          "system": "http://snomed.info/sct",
-          "display": "Body height measure"
+          "system": "http://snomed.info/sct"
         }
       },
       {

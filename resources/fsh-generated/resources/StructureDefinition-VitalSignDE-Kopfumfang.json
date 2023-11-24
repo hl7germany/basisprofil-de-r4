@@ -65,8 +65,7 @@
         "sliceName": "loinc",
         "patternCoding": {
           "code": "9843-4",
-          "system": "http://loinc.org",
-          "display": "Head Occipital-frontal circumference"
+          "system": "http://loinc.org"
         }
       },
       {
@@ -85,8 +84,7 @@
         "sliceName": "snomed",
         "patternCoding": {
           "code": "363812007",
-          "system": "http://snomed.info/sct",
-          "display": "Head circumference (observable entity)"
+          "system": "http://snomed.info/sct"
         }
       },
       {

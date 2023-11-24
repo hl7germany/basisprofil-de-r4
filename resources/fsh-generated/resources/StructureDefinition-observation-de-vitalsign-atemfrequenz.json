@@ -64,8 +64,7 @@
         "sliceName": "loinc",
         "patternCoding": {
           "code": "9279-1",
-          "system": "http://loinc.org",
-          "display": "Respiratory rate"
+          "system": "http://loinc.org"
         }
       },
       {
@@ -84,8 +83,7 @@
         "sliceName": "snomed",
         "patternCoding": {
           "code": "86290005",
-          "system": "http://snomed.info/sct",
-          "display": "Respiratory rate (observable entity)"
+          "system": "http://snomed.info/sct"
         }
       },
       {
