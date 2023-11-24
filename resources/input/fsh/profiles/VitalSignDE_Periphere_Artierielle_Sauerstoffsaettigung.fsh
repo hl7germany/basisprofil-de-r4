@@ -21,6 +21,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
+// Nov 2023: These assignments will trigger a numeric index warning. Please disregard until SUSHI supports multiple slice assignments in instances.
 * code.coding[+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"

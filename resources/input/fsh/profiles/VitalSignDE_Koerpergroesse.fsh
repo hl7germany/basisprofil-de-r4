@@ -20,6 +20,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
+// Nov 2023: These assignments will trigger a numeric index warning. Please disregard until SUSHI supports multiple slice assignments in instances.
 * code.coding[+] = $loinc#8302-2 "Body height"
 * code.coding[+] = $loinc#89269-5 "Body height Measured --at birth"
 * code.coding[+] = $sct#50373000 "Body height measure"
