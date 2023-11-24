@@ -5,6 +5,7 @@
   "id": "1.2.276.0.76.11.37--20190517134631",
   "title": "IHE XDS practiceSettingCode",
   "description": "**practiceSettingCode (XDSDocumentEntry)**\nThe code for an XDS Document that specifies the clinical specialty where the act that resulted in the document was performed (e.g., Family Practice, Laboratory, Radiology).",
+  "version": "2019-05-17T13:46:31",
   "url": "http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode",
   "meta": {
     "profile": [
@@ -26,7 +27,6 @@
       "value": "urn:oid:1.2.276.0.76.11.37"
     }
   ],
-  "version": "2019-05-17T13:46:31",
   "experimental": false,
   "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

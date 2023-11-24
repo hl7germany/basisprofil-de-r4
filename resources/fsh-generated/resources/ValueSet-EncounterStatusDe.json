@@ -4,6 +4,7 @@
   "name": "EncounterStatusDe",
   "id": "EncounterStatusDe",
   "description": "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/EncounterStatusDe",
   "meta": {
     "profile": [

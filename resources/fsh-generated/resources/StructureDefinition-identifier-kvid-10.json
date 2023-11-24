@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-kvid-10",
   "url": "http://fhir.de/StructureDefinition/identifier-kvid-10",
+  "version": "1.4.0",
   "name": "IdentifierKvid10",
   "title": "Identifier-Profil für die 10-stellige Krankenversichertennummer",
   "status": "active",

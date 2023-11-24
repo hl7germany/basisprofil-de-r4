@@ -5,6 +5,7 @@
   "name": "Pzn",
   "id": "pzn",
   "description": "PZN Platzhalter-CodeSystem",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/ifa/pzn",
   "experimental": false,
   "date": "2022-09-23",

@@ -4,6 +4,7 @@
   "name": "PflegegradDE",
   "id": "valueset-pflegegrad-de",
   "description": "Codes zur genaueren Differenzierung des Pflegegrads.",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "meta": {
     "profile": [

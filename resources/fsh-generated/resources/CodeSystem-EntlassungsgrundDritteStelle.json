@@ -6,6 +6,7 @@
   "id": "EntlassungsgrundDritteStelle",
   "title": "EntlassungsgrundDritteStelle",
   "description": "Entlassungs-/Verlegungsgrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
   "concept": [
     {

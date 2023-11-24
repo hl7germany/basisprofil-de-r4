@@ -1,7 +1,18 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-pflegegrad",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-pflegegrad",
+  "version": "1.4.0",
   "name": "ObservationDePflegegrad",
   "title": "Pflegegrad, deutsches Basisprofil",
   "status": "active",

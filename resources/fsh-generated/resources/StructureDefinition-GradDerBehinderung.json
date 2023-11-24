@@ -1,9 +1,20 @@
 {
   "resourceType": "StructureDefinition",
   "id": "GradDerBehinderung",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
+  "version": "1.4.0",
   "name": "GradDerBehinderung",
-  "status": "draft",
+  "status": "active",
   "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",
   "fhirVersion": "4.0.1",
   "mapping": [

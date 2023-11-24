@@ -5,6 +5,7 @@
   "id": "ValueSetVitalSignDE-Body-Height-Loinc",
   "title": "ValueSetVitalSignDE_Body_Height_Loinc",
   "description": "VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Messung einer Körpergröße (inkl. Größe bei der Geburt)",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
   "meta": {
     "profile": [

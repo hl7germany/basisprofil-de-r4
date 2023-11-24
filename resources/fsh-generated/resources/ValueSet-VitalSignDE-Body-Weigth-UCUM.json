@@ -5,6 +5,7 @@
   "id": "VitalSignDE-Body-Weigth-UCUM",
   "title": "VitalSignDE_Body_Weigth_UCUM",
   "description": "VitalSignDE_Body_Weigth_UCUM enthält alle validen Einheiten zur Kodierung eines Körpergewichtes",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM",
   "meta": {
     "profile": [

@@ -1,7 +1,18 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-ekg",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-ekg",
+  "version": "1.4.0",
   "name": "EkgDE",
   "status": "active",
   "experimental": false,

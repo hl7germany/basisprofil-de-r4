@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Entlassungsgrund",
   "url": "http://fhir.de/StructureDefinition/Entlassungsgrund",
+  "version": "1.4.0",
   "name": "ExtenstionEntlassungsgrund",
   "title": "ExtenstionEntlassungsgrund",
   "status": "active",

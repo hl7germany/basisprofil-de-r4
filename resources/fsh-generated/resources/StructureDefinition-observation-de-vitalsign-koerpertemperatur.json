@@ -1,7 +1,18 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpertemperatur",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
+  "version": "1.4.0",
   "name": "VitalSignDE_Koerpertemperatur",
   "status": "active",
   "experimental": false,

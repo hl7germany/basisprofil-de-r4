@@ -4,6 +4,7 @@
   "name": "OpsVS",
   "id": "ops-vs",
   "description": "OPS ValueSet",
+  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/bfarm/ops",
   "meta": {
     "profile": [

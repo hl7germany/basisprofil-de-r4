@@ -5,6 +5,7 @@
   "name": "OPS",
   "id": "ops",
   "description": "OPS Platzhalter-CodeSystem",
+  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/ops",
   "experimental": false,
   "date": "2022-09-23",
