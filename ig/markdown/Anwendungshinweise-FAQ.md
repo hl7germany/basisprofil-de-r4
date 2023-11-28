@@ -28,13 +28,13 @@ Statt dessen werden ab R4 nur noch die Bausteine spezifiziert (z.B. einzelne Ide
 ### F: Darf man die Ressourcen des Standards ändern/anpassen?
 
 **A**:
-Wenn man Ressourcen selbst anpasst (sprich: die [StructureDefinition](http://hl7.org/fhir/structuredefinition.html) bzw. das XML-Schema ändert), ist es nicht mehr der FHIR-Standard. Alle Ressourcen-Instanzen müssen stets gegen die Basisprofile valide sein.
+Wenn man Ressourcen selbst anpasst (sprich: die [StructureDefinition](http://hl7.org/fhir/r4/structuredefinition.html) bzw. das XML-Schema ändert), ist es nicht mehr der FHIR-Standard. Alle Ressourcen-Instanzen müssen stets gegen die Basisprofile valide sein.
 
-Für die Erweiterung von Ressourcen verwendet man in FHIR stattdessen [Extensions](http://hl7.org/fhir/extensibility.html).
+Für die Erweiterung von Ressourcen verwendet man in FHIR stattdessen [Extensions](http://hl7.org/fhir/r4/extensibility.html).
 
 Folgende Schritte sollten befolgt werden, wenn der Bedarf einer Erweiterung/Änderung besteht:
 - [In der Community](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)) das Problem/fehlende Elemente schildern. Manchmal klärt sich dann schon ein Verständnisproblem, weil man auf einen anderen Ressourcentyp hingewiesen wird.
-- Ansonsten, sofern offensichtlich wird, dass im Standard (z.B. an einer Ressource mit [niedriger Maturity](http://hl7.org/fhir/versions.html#maturity)) etwas fehlt, sollte man einen Change Request einreichen. Ein Account bei https://jira.hl7.org/ kann kostenlos und frei von einer Mitgliedschaft bei HL7 International erstellt werden. Das Technische Komitee FHIR übernimmt die Einreichung von Änderungsanträgen auch gerne auf Anfrage.
+- Ansonsten, sofern offensichtlich wird, dass im Standard (z.B. an einer Ressource mit [niedriger Maturity](http://hl7.org/fhir/r4/versions.html#maturity)) etwas fehlt, sollte man einen Change Request einreichen. Ein Account bei https://jira.hl7.org/ kann kostenlos und frei von einer Mitgliedschaft bei HL7 International erstellt werden. Das Technische Komitee FHIR übernimmt die Einreichung von Änderungsanträgen auch gerne auf Anfrage.
 - Bis die Änderung in FHIR einfließt, oder ggf. eben auch nicht oder anders, je nach Diskussionsergebnis der zuständigen Arbeitsgruppe, sollte man eine Extension verwenden. Dies aber in dem Wissen, dass man diese mit einer späteren FHIR-Version durch das passende neue FHIR-Element ersetzen sollte.
 
 ### F: Darf man in FHIR eigene Ressourcen erstellen und verwenden?
@@ -43,13 +43,13 @@ Folgende Schritte sollten befolgt werden, wenn der Bedarf einer Erweiterung/Änd
 
 In der Regel gibt es bessere Lösungen:
 - [In der Community](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)) das Problem/fehlende Ressource schildern. Häufig hat man die geeignete Ressource schlicht noch nicht entdeckt, da hilft die Schwarmintelligenz.
-- Verwendung der [Basic-Ressource](http://hl7.org/fhir/basic.html) mit [Extensions](http://hl7.org/fhir/extensibility.html). 
+- Verwendung der [Basic-Ressource](http://hl7.org/fhir/r4/basic.html) mit [Extensions](http://hl7.org/fhir/r4/extensibility.html). 
 
 ### F: Ist FHIR lizenzpflichtig?
-**A:** Nein, FHIR ist nicht lizenzpflichtig. Die offiziellen Lizenzbestimmungen von FHIR finden sich [hier](https://www.hl7.org/fhir/license.html).
+**A:** Nein, FHIR ist nicht lizenzpflichtig. Die offiziellen Lizenzbestimmungen von FHIR finden sich [hier](https://www.hl7.org/fhir/r4/license.html).
 
 ### F: Darf ich das FHIR Logo verwenden?
-**A:** Das Logo darf verwendet werden um auf die FHIR-Spezifikation an sich zu verweisen. Nähere Details finden sich [hier](https://www.hl7.org/fhir/license.html#2.20.2.1) in den FHIR Lizenzbestimmungen. 
+**A:** Das Logo darf verwendet werden um auf die FHIR-Spezifikation an sich zu verweisen. Nähere Details finden sich [hier](https://www.hl7.org/fhir/r4/license.html#2.20.2.1) in den FHIR Lizenzbestimmungen. 
 
 ### F: Ich möchte Profile erstellen. Wie gehe ich am Besten vor?
 **A:** Für die Erstellung eines oder mehrerer Profile sind folgende Fragen u.a. aus meiner Sicht leitend:
@@ -70,7 +70,7 @@ Diese Frage klingt vielleicht trivial, weil man selbst den Use Case schon im Hin
 Es ist auch immer hilfreich, sich vor Augen zu führen, was man eigentlich darstellen will. In der Diskussion mit anderen entdeckt man vielleicht auch das eine oder andere, was nicht so ganz passt, oder bemerkt fehlende Attribute. Diese Diskussion kann offen oder auch nur innerhalb der eigenen Einrichtung geführt werden, das hängt auch von der Reichweite ab,
 
 **Welche Ressourcen benötige ich, um die Informationen abzubilden?**
-Für diese Frage sollte man die einzelnen Ressourcen von FHIR anschauen und ihren jeweiligen Scope. Eine Übersicht gibt es hier: http://hl7.org/fhir/resourcelist.html. Mitunter kann es auch helfen, hier im Chat zu schauen (Suche, auch international), ob dort schon Fragen in diese Richtung gestellt und diskutiert wurden.
+Für diese Frage sollte man die einzelnen Ressourcen von FHIR anschauen und ihren jeweiligen Scope. Eine Übersicht gibt es hier: http://hl7.org/fhir/r4/resourcelist.html. Mitunter kann es auch helfen, hier im Chat zu schauen (Suche, auch international), ob dort schon Fragen in diese Richtung gestellt und diskutiert wurden.
 
 **Was gibt es schon auf nationaler und internationaler Ebene, was ich wiederverwenden kann?**
 Bei unseren Bemühungen sollte Interoperabilität nicht nur zwischen zwei Einrichtungen bzw. einer Schnittstelle, sondern auch auf nationaler und internationale Ebene eine Rolle spielen. Daher sollten nationale Entwicklungen bei der eigenen Erstellung von Profilen eine wichtige Rolle spielen. Für Deutschland gibt es beispielsweise die in diesem IG beschriebenen Deutschen Basisprofile von HL7 Deutschland (https://simplifier.net/Basisprofil-DE-R4/), die man für die eigene Profilierung verwenden darf. Auf internationaler Ebene gibt es zu einigen Ressourcen schon Standard-Erweiterungen (Extensions), die einzelne Ergänzungen schon berücksichtigen, aber die 80%-Regel nicht erfüllen. Bei ähnlichem Use-Case sind diese bevorzugt zu verwenden. Auch kann es sein, dass der eigene oder ein ähnlich gelagerter Use Case schon woanders bearbeitet wurde / wird und man sich von dort Profile oder Ideen holen kann. Dazu gibt es zum Einen die FHIR Registry (https://registry.fhir.org/) oder die FHIR Implementation Guide Registry (https://www.fhir.org/guides/registry/), aber auch eine Suche bei simplifier lohnt sich (https://simplifier.net/).

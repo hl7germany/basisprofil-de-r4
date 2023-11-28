@@ -3,7 +3,7 @@
 
 Innerhalb der Deutschen Basisprofile werden Profile für den Ressourcen-Typ 'Observation' spezifiziert welche genutzt werden können um Vitalparameter und Körpermaße zu kodieren.
 
-Diese Profile sind angelehnt an die Internationlen [VitalSign Profile](https://hl7.org/fhir/R4/observation-vitalsigns.html) enthalten jedoch technische Korrekturen (Verbessertes Slicing und korrigierte FHIRPath-Expressions) oder Einschränkungen auf in Deutschland gebräuchliche Maßeinheiten.
+Diese Profile sind angelehnt an die Internationlen [VitalSign Profile](https://hl7.org/fhir/r4/observation-vitalsigns.html) enthalten jedoch technische Korrekturen (Verbessertes Slicing und korrigierte FHIRPath-Expressions) oder Einschränkungen auf in Deutschland gebräuchliche Maßeinheiten.
 
 Folgende Observation-Profile wurden in diesem Zusammenhang abgestimmt:
 

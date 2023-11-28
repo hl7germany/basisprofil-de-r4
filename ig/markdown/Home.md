@@ -20,7 +20,7 @@ frühere Fassungen: vgl. [Versions-Historie](http://ig.fhir.de/basisprofile-de/)
 
 ## Impressum
 
-Dieser Leitfaden ist im Rahmen des Interoperabilitätsforums und den Technischen Komitees von HL7 Deutschland e. V. sowie der entsprechenden Projektgruppen zusammengestellt und unterliegt dem [Abstimmungsverfahren des Interoperabilitätsforums](http://wiki.hl7.de/index.php?title=Abstimmungsverfahren_(Regeln)) und der Technischen Komitees von [HL7 Deutschland e. V.](http://www.hl7.de).
+Dieser Leitfaden ist im Rahmen des Interoperabilitätsforums und den Technischen Komitees von HL7 Deutschland e. V. sowie der entsprechenden Projektgruppen zusammengestellt und unterliegt dem [Abstimmungsverfahren von HL7 Deutschland](https://hl7.de/technische-komitees/ballotierung/) und der Technischen Komitees von [HL7 Deutschland e. V.](http://www.hl7.de).
 
 ## Ansprechpartner
 
@@ -58,7 +58,7 @@ Copyright © 2016-2021: HL7 Deutschland e. V., Anna-Louisa-Karsch-Str. 2, 10178 
 
 Der Inhalt dieser Spezifikation ist öffentlich. Die Nachnutzungs- bzw. Veröffentlichungsansprüche sind nicht beschränkt.
 
-Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die [FHIR-Basis-Spezifikation](https://www.hl7.org/fhir/).
+Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die [FHIR-Basis-Spezifikation](https://www.hl7.org/fhir/r4).
 
 Einige verwendete Codesysteme werden von anderen Organisationen herausgegeben und gepflegt. Es gilt das Copyright der dort jeweils aufgeführten Herausgeber (Publisher).
 

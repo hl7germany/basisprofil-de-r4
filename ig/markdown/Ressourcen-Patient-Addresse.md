@@ -134,7 +134,7 @@ Bei der Angabe einer Postfach-Adresse ist auf die Verwendung der entsprecheneden
 #### Stadtteil/Ortsteil
 Nach § 21 KHEntgG muss beim Wohnort eines Patienten in Stadtstaaten zusätzlich in der Adresse der Stadtteil (oft auch "Ortsteil" genannt) angeben werden. Z.b. "Musterstraße 1a, 10409 Berlin, Kreuzberg". Es ist zu beachten, dass "Kreuzberg" hier ein eigenständiges Datenelement ist und nicht mit dem Wohnort (Address.city) vermischt werden sollte.
 
-Der Ortsteil wird in FHIR als Address.line abgebildet. Zusätzlich kann die Extension [iso21090-ADXP-precinct](http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct) zur Differenzierung von anderen Adresskomponenten genutzt werden.
+Der Ortsteil wird in FHIR als Address.line abgebildet. Zusätzlich kann die Extension [iso21090-ADXP-precinct](http://hl7.org/fhir/r4/StructureDefinition/iso21090-ADXP-precinct) zur Differenzierung von anderen Adresskomponenten genutzt werden.
 
 Beispiel:
 ```xml
