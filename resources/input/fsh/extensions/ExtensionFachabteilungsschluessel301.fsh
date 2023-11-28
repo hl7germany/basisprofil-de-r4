@@ -1,5 +1,7 @@
 Extension: ExtensionFachabteilungsschluessel301
 Id: ExtensionFachabteilungsschluessel301
+Description: "Extension zur Dokumentation der Historie des Fachabteilungsschlüssels nach §301 SGB V. Der jeweils aktuelle Fachabteilungsschlüssel SOLLTE unter Organization.type zusätzlich angegeben werden. Die Extension ist NICHT zur Dokumentation des Fachabteilungsschlüssels im Kontext eines Encounters zu verwenden. Dort SOLLTE Encounter.serviceType zur Kodierung verwendet werden."
+* ^url = "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301"
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
