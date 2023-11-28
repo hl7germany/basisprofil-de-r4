@@ -52,7 +52,7 @@ ob der Unterschied zwischen Note 1 und 2 gleich groß ist wie der zwischen Note 
 'Observation.code': Wahl eines (LOINC-/SNOMED-)Codes für die Beschreibung der verwendeten Skala
 
 'Observation.value[x]': Datentyp CodeableConcept mit einem Binding an ein ValueSet, das die Skalenwerte repräsentiert und deren Bedeutung definiert. 
-Verwendung der [ordinal-Value-Extension](http://hl7.org/fhir/extension-ordinalvalue.html) bei der Definition des CodeSystems (bzw. des CodeSystem-Supplements) 
+Verwendung der [ordinal-Value-Extension](https://hl7.org/fhir/r4/extension-ordinalvalue.html) bei der Definition des CodeSystems (bzw. des CodeSystem-Supplements) 
 oder des ValueSets, wenn die Rangfolge für die Auswertung relevant ist.
 
 #### Beispiele in FHIR:
@@ -81,8 +81,8 @@ Verhältnisse von Merkmalswerten dürfen also gebildet werden (z. B. x = y · z)
 'Observation.value[x]': Datentyp Quantity mit Angabe der UCUM-codierten Maßeinheit
 
 #### Beispiele in FHIR:
-[Körpertemperatur](https://simplifier.net/isik-modulvitalparameter/isikkoerpertemperatur)
-[Körpergröße](https://simplifier.net/isik-modulvitalparameter/isikkoerpergewicht)
+[Körpertemperatur](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3/isikkoerpertemperatur)
+[Körpergröße](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3/isikkoerpergewichtt)
 
 ## Scores
 
