@@ -1,6 +1,6 @@
 ## Extensions für Condition
 
-Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10 GM](https://www.dimdi.de/dynamic/de/klassifikationen/icd/icd-10-gm/) definiert:
+Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10 GM](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-10-GM/_node.html) definiert:
 
 
 ----
