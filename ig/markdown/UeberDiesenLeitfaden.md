@@ -26,7 +26,6 @@ In der Kernspezifikation sind nur wenige Elemente in den Ressourcen verflichtend
 
 Da die FHIR-Basisprofile weiterhin unabhängig von einem konkreten UseCase bleiben und in Deutschland möglichst übergreifend eingesetzt werden können, wird auf die Festlegung von Pflichtfeldern weitestgehend verzichtet.
 
-
 ## Zielsetzung der FHIR-Basisprofile
 
 Die Basisprofile verfolgen das Ziel, 
@@ -58,21 +57,6 @@ Ressourcentyp-Profile werden nur noch dann publiziert, wenn davon ausgegangen we
 
 Weiterhin werden Festlegungen zu übergreifend genutzen Namensräumen und Terminologien getroffen, jedoch ohne die Annahme, dass diese in allen deutschen Spezifikationen benötigt werden.
 
-<!--
-## Technische Umsetzung der FHIR-Basisprofile
-
-FHIR bietet ein eigenes [Conformance-Framework](https://www.hl7.org/fhir/conformance-rules.html), in konkrete Vereinbarungen zur Nutzung von FHIR in maschinenlesbarer Form definiert und validiert werden können.
-
-Mit Hilfe von [Profilen](http://hl7.org/implement/standards/fhir/profiling.html) können Ressourcen und Datentypen für die konkreten Anforderungen eines Use-Cases, einer Jurisdiktion oder einer Domäne adaptiert werden.
-Inhalte eines solchen Profils sind u.a.:
-* Beschreibungen und Erläuterungen zu den Attributen
-* Einschränkungen der Minimalen und maximalen Kardinalität von Attributen (Festlegung von Pflichtfeldern, Ausschluss von nicht verwendeten Attributen)
-* Markierung der Attribute, die von den implementierenden Systemen verarbeitet, bzw "verstanden" werden müssen (“must-support”)
-* Vereinbarung der zulässigen Werte für codierte Informationen (ValueSet-Binding)
-* Definition von zusätzlichen Regeln, die für eine Ressource gelten (Invarianten)
-* Einbinden der benötigten Extensions
--->
-
 ## Aufbau dieses Implementierungsleitfadens
 
 Dieser Leitfaden enthält
@@ -92,7 +76,6 @@ In Anlehnung an den ["Standards Development Process" von HL7 International](http
 > Er wurde einer Abstimmung (Ballot) unterzogen und als offizielle Norm genehmigt. 
 > Er wurde jedoch noch nicht in dem gesamten Spektrum der Szenarien, in denen er eingesetzt werden soll, im produktiven Einsatz eingesetzt. 
 > In einigen Fällen kann es dokumentierte, bekannte Probleme geben, für deren Behebung Erfahrung bei der Implementierung erforderlich ist.
-
 
 Falls bestimmte Artefakte noch nicht ballotiert wurden oder noch nicht als "implementierbar" erachtet werden, wird dies im jeweiligen Abschnitt im Implementierungsleitfaden hervorgehoben.
 

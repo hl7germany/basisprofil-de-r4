@@ -1,6 +1,6 @@
 ### Extensions für Procedure
 
-Folgende Extensions werden im Kontext der [FHIR Ressource 'Procedure'](https://www.hl7.org/fhir/procedure.html) definiert:
+Folgende Extensions werden im Kontext der [FHIR Ressource 'Procedure'](https://www.hl7.org/fhir/r4/procedure.html) definiert:
 
 ----
 

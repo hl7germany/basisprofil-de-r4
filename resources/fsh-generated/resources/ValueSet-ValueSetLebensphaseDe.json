@@ -50,6 +50,10 @@
             "display": "Neonatal (qualifier value)"
           },
           {
+            "code": "303112003",
+            "display": "Fetal period (qualifier value)"
+          },
+          {
             "code": "271872005",
             "display": "Old age (qualifier value)"
           }

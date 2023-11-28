@@ -3,12 +3,12 @@
 ### Diagnosetypen 
 
 Grundsätzlich gilt zu beachten, dass Attribute wie "Aufnahme- oder Entlass-Diagnose", stets im Kontext eines stationären Aufenthaltes zu sehen sind.
-Sie werden daher als Eigenschaft des [Encounters](http://hl7.org/fhir/encounter.html) modelliert.
+Sie werden daher als Eigenschaft des [Encounters](http://hl7.org/fhir/r4/encounter.html) modelliert.
 
 Die Kodierung des Diagnose-Typs erfolgt über Encounter.diagnosis.use.
 
 Es ist zu beachten, dass hier nur klinische Aspekte abgebildet werden, also "Hauptdiagnose" im Sinne von "Fokus der Behandlung". 
-Die Qualifizierung von Diagnosen im Kontext der Abrechnung wird derzeit noch nicht berücksichtigt und muss ggf. über den [Account](https://www.hl7.org/fhir/account.html) dargestellt werden. Dies gilt inbesondere Falls Diagnosen aus nicht-medizinischen Gründen priorisiert abgebildet werden müssen (i.A.a. Encounter.diagnosis.rank). 
+Die Qualifizierung von Diagnosen im Kontext der Abrechnung wird derzeit noch nicht berücksichtigt und muss ggf. über den [Account](https://www.hl7.org/fhir/r4/account.html) dargestellt werden. Dies gilt inbesondere Falls Diagnosen aus nicht-medizinischen Gründen priorisiert abgebildet werden müssen (i.A.a. Encounter.diagnosis.rank). 
 
 Ein CodeSystem Supplement wird für das CodeSystem [DiagnosisRole](http://terminology.hl7.org/CodeSystem/diagnosis-role) herausgegeben. Dies kann für die Deutsche Übersetzung der Codes für Encounter.diagnosis.use verwendet werden. Siehe {{pagelink:ig/markdown/Terminologie-Uebersetzungen.md}}.
 

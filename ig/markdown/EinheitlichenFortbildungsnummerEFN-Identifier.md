@@ -2,7 +2,7 @@
 
 Die Abbldung einer Einheitlichen Fortbildungsnummer zur eindeutigen Identifizierung eines persönliches Fortbildungskonto nach § 95d SGB V kann durch folgendes Identifier-Profil erfolgen:
 
-**Name**: IdentifierLanr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-efn&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierEfn ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-efn&scope=de.basisprofil.r4@1.4.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-efn`
 

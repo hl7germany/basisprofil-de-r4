@@ -110,7 +110,7 @@
             "key": "bsnr-1",
             "severity": "warning",
             "human": "Eine BSNR muss neunstellig numerisch sein",
-            "expression": "matches('[0-9]{9}')",
+            "expression": "matches('^[0-9]{9}$')",
             "xpath": "@value|f:*|h:div",
             "source": "http://fhir.de/StructureDefinition/identifier-bsnr"
           }

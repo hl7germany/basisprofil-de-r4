@@ -40,7 +40,7 @@ Zudem wird empfohlen bei der Einbindung der Extension in ein eigenes FHIR-Profil
 
 ``gender.exists() and gender = 'other' implies gender.extension('http://fhir.de/StructureDefinition/gender-amtlich-de').exists()``
 
-Für Extensions zur Differenzierung von z.B. Gender Identity, Sex Assigned At Brith, siehe [Patient Gender and Sex](https://www.hl7.org/fhir/patient.html#gender)
+Für Extensions zur Differenzierung von z.B. Gender Identity, Sex Assigned At Brith, siehe [Patient Gender and Sex](https://www.hl7.org/fhir/r4/patient.html#gender)
 
 #### Beispiel: unbestimmt
 ```xml

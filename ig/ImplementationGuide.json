@@ -357,8 +357,13 @@
                                   "generation": "markdown"
                               },
                               {
-                                  "nameUrl": "ig/markdown/SignaldatenObservation.md",
-                                  "title": "Signaldaten (Observation)",
+                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Terminplanung.md",
+                                  "title": "Terminplanung (Appointment, Schedule, Slot)",
+                                  "generation": "markdown"
+                              },
+                              {
+                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Dokumentenaustausch.md",
+                                  "title": "Dokumentenaustausch (DocumentReference)",
                                   "generation": "markdown"
                               }
                           ]
@@ -408,6 +413,11 @@
                       {
                           "nameUrl": "ig/markdown/ExtensionsfrAccount.md",
                           "title": "Extensions für Account",
+                          "generation": "markdown"
+                      },
+                      {
+                          "nameUrl": "ig/markdown/ExtensionsfrSchedule.md",
+                          "title": "Extensions für Schedule",
                           "generation": "markdown"
                       }
                   ]
@@ -561,9 +571,14 @@
                                   "generation": "markdown",
                                   "page":  [
                                       {
-                                          "nameUrl": "ig/markdown/AufnahmenummerFallnummer.md",
-                                          "title": "Aufnahmenummer (\"Fallnummer\")",
+                                          "nameUrl": "ig/markdown/Aufnahmenummer.md",
+                                          "title": "Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
                                           "generation": "markdown"
+                                      },
+                                      {
+                                        "nameUrl": "ig/markdown/Abrechnungsnummer.md",
+                                        "title": "Abrechnungsnummer (\"Fallnummer\")",
+                                        "generation": "markdown"
                                       }
                                   ]
                               },
@@ -639,7 +654,7 @@
                                   "generation": "markdown"
                               },
                               {
-                                  "nameUrl": "ig/markdown/AbrechnungsfallAccount-duplicate-2.md",
+                                  "nameUrl": "ig/markdown/AbrechnungsfallAccount.md",
                                   "title": "Abrechnungsfall (Account)",
                                   "generation": "markdown"
                               },
@@ -649,7 +664,7 @@
                                   "generation": "markdown"
                               },
                               {
-                                  "nameUrl": "ig/markdown/Meta-duplicate-2.md",
+                                  "nameUrl": "ig/markdown/Meta.md",
                                   "title": "Meta",
                                   "generation": "markdown"
                               },

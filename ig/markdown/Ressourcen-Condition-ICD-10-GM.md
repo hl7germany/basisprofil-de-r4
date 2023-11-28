@@ -6,14 +6,14 @@ Nachfolgend wird dokumentiert welche Besonderheiten beachtet werden müssen bei 
 
 | Hinweis | Information |
 |---------|---------------------|
-|![Information](https://wiki.hl7.de/images/thumb/Information_icon.svg/100px-Information_icon.svg.png)| Hintergrundinformationen zu ICD-10 GM werden durch das BfArM herausgegeben. Siehe [Übersicht ICD-10 GM DIMDI](https://www.dimdi.de/dynamic/de/klassifikationen/icd/icd-10-gm/) oder [Basiswissen Kodieren, 2010 (.pdf)](https://www.dimdi.de/static/.downloads/deutsch/basiswissen-kodieren-2010.pdf). |
+|![Information](https://wiki.hl7.de/images/thumb/Information_icon.svg/100px-Information_icon.svg.png)| Hintergrundinformationen zu ICD-10 GM werden durch das BfArM herausgegeben. Siehe [Übersicht ICD-10 GM DIMDI](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-10-GM/_node.html) oder [Basiswissen Kodieren, 2010 (.pdf)](https://www.bfarm.de/SharedDocs/Downloads/DE/Kodiersysteme/basiswissen-kodieren-2010.pdf?__blob=publicationFile). |
 
 
 Ein ICD-10 GM Code kann innerhalb eines Coding-Elementes in FHIR erfasst werden. Hierzu auf folgendes Datentyp-Profil verwiesen: {{pagelink:ig/markdown/Datentypen-ICD-10GM-Coding.md}}.
 
 Das zuvor genannte ICD-10 GM Datentyp-Profil kann in eigenen Use Cases zur Erfassung der Diagnose unter Condition.code.coding verwendet werden.
 
-In vielen Fällen kann eine Diagnose jedoch zuätzlich in weiteren Kodiersystemen erfasst werden (z.B. [SNOMED-CT](https://www.bfarm.de/DE/Kodiersysteme/Terminologien/SNOMED-CT/_node.html), [Alpha-ID](https://www.dimdi.de/dynamic/de/klassifikationen/icd/alpha-id/) oder [Orphanet](https://www.orpha.net/consor/cgi-bin/index.php)). Aufgrund dessen wird kein Condition-Profil in den Deutschen Basisprofilen herausgegeben, da die Zusammenstellung der verwendeten Kodiersystemen abhängig vom Use Case ist und somit in eigenständigen FHIR-Profilen erfolgen sollte.
+In vielen Fällen kann eine Diagnose jedoch zuätzlich in weiteren Kodiersystemen erfasst werden (z.B. [SNOMED-CT](https://www.bfarm.de/DE/Kodiersysteme/Terminologien/SNOMED-CT/_node.html), [Alpha-ID](https://www.bfarm.de/DE/Kodiersysteme/Terminologien/Alpha-ID-SE/_node.html) oder [Orphanet](https://www.orpha.net/consor/cgi-bin/index.php)). Aufgrund dessen wird kein Condition-Profil in den Deutschen Basisprofilen herausgegeben, da die Zusammenstellung der verwendeten Kodiersystemen abhängig vom Use Case ist und somit in eigenständigen FHIR-Profilen erfolgen sollte.
 
 Hinweise zum ValueSet welches für ein entsprechendes Binding des ICD-10 Codings verwendet werden kann, siehe {{pagelink:ig/markdown/Terminologie-Codesysteme.md}}.
 
@@ -50,23 +50,23 @@ Um stets alle Codes einer Mehrfachkodierung zu erhalten, empfiehlt es sich ICD-1
 Der Übersichtlichkeit halber werden die Beispiele hier nur im XML-Format dargestellt.
 Die Beispiele sind über das [Simplifier-Projekt](https://simplifier.net/basisprofil-de-r4/~resources?category=Example&exampletype=Condition&sortBy=RankScore_desc) jedoch auch im json-Format abrufbar.
 
-{{xml:Basisprofil-DE-R4/Condition-example-minimal}}
+{{xml:Condition/Example-condition-minimal}}
 
 #### Beispiel: ICD-Code mit Kreuz-Stern-Notation
 
 
 Primärcode:
-{{xml:basisprofil-de-r4/example-condition-kreuz-stern-primaer}}
+{{xml:Condition/Example-condition-kreuz-stern-primaer}}
 Sekundärcode:
-{{xml:basisprofil-de-r4/example-condition-kreuz-stern-sekundaer-stern}}
+{{xml:Condition/Example-condition-kreuz-stern-sekundaer}}
 
 
 #### Beispiel: ICD-Code mit Ausrufezeichen-Notation
 
 Primärcode: example-condition-ausrufezeichen-primaer
-{{xml:Basisprofil-DE-R4/example-condition-ausrufezeichen-primaer}}
+{{xml:Condition/Example-condition-ausrufezeichen-primaer}}
 Sekundärcode:
-{{xml:Basisprofil-DE-R4/example-condition-ausrufezeichen-sekundaer-ausrufezeichen}}
+{{xml:Condition/Example-condition-ausrufezeichen-sekundaer}}
 
 ----
 
@@ -86,17 +86,15 @@ Die Äquivalente gelten wie folgt:
 
 Die Äquivalenz von clinicalStatus/verificationStatus und der Diagnosesicherheit wird durch die Invarianten icd-4 bis icd-7 geprüft. 
 
-
 | Hinweis | Diskussion |
 |---------|---------------------|
-|![Information](https://wiki.hl7.de/images/thumb/Talk.svg/100px-Talk.svg.png)| [Invarianten für Diagnosesicherheit]( https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)/topic/Invarianten.20f.C3.BCr.20Diagnosesicherheit) |
-
+|![Information](https://wiki.hl7.de/images/thumb/Talk.svg/100px-Talk.svg.png)| [Invarianten für Diagnosesicherheit](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)/topic/Invarianten.20f.C3.BCr.20Diagnosesicherheit) |
 
 <br><br>
 
 #### Beispiel: Diagnosesicherheit: "Zustand nach"
 
-{{xml:Basisprofil-DE-R4/example-condition-zustand-nach}}
+{{xml:Condition/Example-condition-zustand-nach}}
 
 ----
 

@@ -10,7 +10,7 @@ Das Element `birthDate` kann ein tages-, monat- oder jahresgenaues Datum enthalt
 
 #### Zeitgenaue Angabe des Geburtsdatums
 
-Wenn eine höhrere Genauigkeit benötigt wird, so mus die Extension [patient-birthtime](https://www.hl7.org/fhir/extension-patient-birthtime.html) dafür verwendet werden.
+Wenn eine höhrere Genauigkeit benötigt wird, so mus die Extension [patient-birthtime](https://www.hl7.org/fhir/r4/extension-patient-birthtime.html) dafür verwendet werden.
 
 Beispiel: 
 ```xml
@@ -33,7 +33,7 @@ Ein Geburtsdatum, bei dem lediglich das Jahr bekannt ist, wird wie folgt notiert
 In VSDM ist auch die Angabe "00000000" für ein vollständig fehlendes Geburtsdatum möglich.
 In FHIR würde dies durch das Weglassen des birthDate-Elementes ausgedrückt.
 
-Sofern bekannt kann auch die [data-absent-reasons](https://www.hl7.org/fhir/extension-data-absent-reason.html)-Extension eingesetzt werden, genauere Angaben zum Grund der fehlenden Information anzugeben.
+Sofern bekannt kann auch die [data-absent-reasons](https://www.hl7.org/fhir/r4/extension-data-absent-reason.html)-Extension eingesetzt werden, genauere Angaben zum Grund der fehlenden Information anzugeben.
 
 Beispiel: Angabe zum Geburtsdatum fehlt, da es nicht erfragt wurde:
 ```xml
