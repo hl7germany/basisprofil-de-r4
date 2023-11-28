@@ -5,7 +5,7 @@
   "name": "DeuevAnlage8Laenderkennzeichen",
   "id": "anlage-8-laenderkennzeichen",
   "description": "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschriften. Diese Übersicht basiert auf dem in der Staats- und Gebietssystematik des statistischen Bundesamtes verwendeten Schlüsselverzeichnis. Insofern wird bei den folgenden verwendeten Bezeichnungen, ihrer Auswahl und der Art der Wiedergabe des Inhalts nicht zum völker- oder staatsrechtlichen Status von Ländern, Hoheitsgebieten, Städten oder Gebieten oder ihrer Behörden oder zum Verlauf ihrer Grenzen oder Grenzlinien Stellung genommen.",
-  "version": "1.4.0",
+  "version": "2.56",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-8-laenderkennzeichen",
   "concept": [
     {

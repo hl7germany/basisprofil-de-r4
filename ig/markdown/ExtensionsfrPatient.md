@@ -2,7 +2,7 @@
 
 ### Name
 
-Folgende Extensions werden im Kontext des [FHIR Datentyps 'HumanName'](https://www.hl7.org/fhir/datatypes.html#HumanName) definiert. Zu beachten ist, dass das Datentyp-Profil zudem internationale Standard-Extensions verwendet, welche hier nicht genauer dokumentiert werden.
+Folgende Extensions werden im Kontext des [FHIR Datentyps 'HumanName'](https://www.hl7.org/fhir/r4/datatypes.html#HumanName) definiert. Zu beachten ist, dass das Datentyp-Profil zudem internationale Standard-Extensions verwendet, welche hier nicht genauer dokumentiert werden.
 
 ----
 
@@ -32,7 +32,7 @@ Weitere Infos siehe UC_PersoenlicheVersichertendatenXML/Versicherter/Person/Name
 
 ### Extension - Datentyp-Profil 'Address'
 
-Folgende Extensions werden im Kontext des [FHIR Datentyps 'Addresse'](https://www.hl7.org/fhir/datatypes.html#Address) definiert. Zu beachten ist, dass das Datentyp-Profil zudem internationale Standard-Extensions verwendet, welche hier nicht genauer dokumentiert werden.
+Folgende Extensions werden im Kontext des [FHIR Datentyps 'Addresse'](https://www.hl7.org/fhir/r4/datatypes.html#Address) definiert. Zu beachten ist, dass das Datentyp-Profil zudem internationale Standard-Extensions verwendet, welche hier nicht genauer dokumentiert werden.
 
 ----
 

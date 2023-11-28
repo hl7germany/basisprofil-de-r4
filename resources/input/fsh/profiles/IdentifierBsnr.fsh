@@ -29,7 +29,7 @@ Description: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
   * ^constraint.human = "Eine BSNR muss neunstellig numerisch sein"
 // WARNING: The constraint index in the following rule (e.g., constraint[0]) may be incorrect.
 // Please compare with the constraint array in the original definition's snapshot and adjust as necessary.
-  * ^constraint.expression = "matches('[0-9]{9}')"
+  * ^constraint.expression = "matches('^[0-9]{9}$')"
 // WARNING: The constraint index in the following rule (e.g., constraint[0]) may be incorrect.
 // Please compare with the constraint array in the original definition's snapshot and adjust as necessary.
   * ^constraint.source = "http://fhir.de/StructureDefinition/identifier-bsnr"

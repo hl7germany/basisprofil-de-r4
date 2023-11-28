@@ -10,8 +10,11 @@ Id: observation-de-vitalsign-sauerstoffsaettigung
 Instance: Example-observation-sauerstoffsaettigung
 InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Usage: #example
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"

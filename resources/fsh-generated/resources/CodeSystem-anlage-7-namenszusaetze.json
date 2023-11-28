@@ -5,7 +5,7 @@
   "name": "DeuevAnlage7Namenszusaetze",
   "id": "anlage-7-namenszusaetze",
   "description": "Tabelle der gültigen Namenszusätze",
-  "version": "1.4.0",
+  "version": "2.25",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [
     {

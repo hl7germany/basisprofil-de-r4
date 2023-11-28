@@ -54,6 +54,10 @@
           {
             "code": "DN",
             "display": "Doctor number"
+          },
+          {
+            "code": "AN",
+            "display": "Account number"
           }
         ]
       },

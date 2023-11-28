@@ -2,14 +2,14 @@
 
 ## Motivation
 
-Der [HL7 Standard FHIR](http://hl7.org/fhir/) lässt in der Kernspezifikation viele Freiheitsgrade, um zu gewährleisten, dass dieser für sämtliche Use-Cases im Spektrum des Gesundheitswesens überall auf der Welt eingesetzt werden kann.
+Der [HL7 Standard FHIR](https://hl7.org/fhir/r4) lässt in der Kernspezifikation viele Freiheitsgrade, um zu gewährleisten, dass dieser für sämtliche Use-Cases im Spektrum des Gesundheitswesens überall auf der Welt eingesetzt werden kann.
 So werden zum Beispiel bis auf sehr wenige Ausnahmen keine Pflichtfelder definiert.
 Weiterhin ist die Bindung an ValueSets im Standard überwiegend exemplarischer Natur, da die tatsächlich verwendeten Vokabularien von Land zu Land und Domäne zu Domäne unterschiedlich sein können.
 Eine grundlegende Eigenschaft des FHIR-Standards ist die Erweiterbarkeit von Resourcen und Datentypen mit sog. "Extensions".
 
-FHIR bietet ein eigenes [Conformance-Framework](https://www.hl7.org/fhir/conformance-rules.html), in dem die Rahmenbedingungen für die konkrete Implementierung in maschinenlesbarer Form definiert und validiert werden können.
+FHIR bietet ein eigenes [Conformance-Framework](https://www.hl7.org/fhir/r4/conformance-rules.html), in dem die Rahmenbedingungen für die konkrete Implementierung in maschinenlesbarer Form definiert und validiert werden können.
 
-Mit Hilfe von [Profilen](http://hl7.org/implement/standards/fhir/profiling.html) können Ressourcen für die konkreten Anforderungen eines Use-Cases, einer Jurisdiktion oder einer Domäne adaptiert werden.
+Mit Hilfe von [Profilen](https://hl7.org/implement/standards/fhir/r4/profiling.html) können Ressourcen für die konkreten Anforderungen eines Use-Cases, einer Jurisdiktion oder einer Domäne adaptiert werden.
 Inhalte eines solchen Profils sind u.a.:
 * Beschreibungen und Erläuterungen zu den Attributen
 * Einschränkungen der Minimalen und maximalen Kardinalität von Attributen (Festlegung von Pflichtfeldern, Ausschluss von nicht verwendeten Attributen)
@@ -28,7 +28,7 @@ Gut durchdachte, vollständige und getestete Basis-Profile sind die Grundvorauss
 
 ## Standard Level
 
-In Anlehnung an den ["Standards Development Process" von HL7 International](https://www.hl7.org/fhir/versions.html#std-process) wird der Inhalt dieses Leitfadens als "Trial Use" herausgegeben. Voraussetzung hierfür ist, dass die dazugehörigen Artefakte ballotiert wurden sind als "Standard for Trial Use (STU)". Falls bestimmte Artefakte nicht ballotiert wurden sind oder die Autoren sich für einen abweichenden "Standard Level" entschieden haben wird dies im jeweiligen Abschnitt im Implementierungsleitfaden hervorgehoben.
+In Anlehnung an den ["Standards Development Process" von HL7 International](https://www.hl7.org/fhir/r4/versions.html#std-process) wird der Inhalt dieses Leitfadens als "Trial Use" herausgegeben. Voraussetzung hierfür ist, dass die dazugehörigen Artefakte ballotiert wurden sind als "Standard for Trial Use (STU)". Falls bestimmte Artefakte nicht ballotiert wurden sind oder die Autoren sich für einen abweichenden "Standard Level" entschieden haben wird dies im jeweiligen Abschnitt im Implementierungsleitfaden hervorgehoben.
 
 ## Zielgruppe
 

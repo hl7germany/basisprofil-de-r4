@@ -2,7 +2,7 @@
 
 ## FHIR
 
-[Fast Healthcare Interoperable Resources](http://hl7.org/fhir/) (FHIR, ausgesprochen wie engl. “fire”) ist ein von HL7 International erarbeiteter Standard. Ziel ist die Unterstützung eines Datenaustausches zwischen Softwaresystemen im Gesundheitswesen.
+[Fast Healthcare Interoperable Resources](http://hl7.org/fhir/r4) (FHIR, ausgesprochen wie engl. “fire”) ist ein von HL7 International erarbeiteter Standard. Ziel ist die Unterstützung eines Datenaustausches zwischen Softwaresystemen im Gesundheitswesen.
 Hierzu definiert FHIR modulare Komponenten als sogenannte "Ressourcen". In diesen Ressourcen werden für unterschiedliche Kontexte (Human- und Veterinärmedizin, klinische Versorgung, Öffentliche Gesundheit, klinische Studien, Verwaltung und Abrechnung) Datenelemente, Einschränkungen und Beziehungen definiert. Zudem bietet FHIR verschiedene Serialisierungsformate und Schnittstellendefinitionen (z.B. per RESTful API, Messagging) an, um FHIR Ressourcen auszutauschen. Die Vorteile der etablierten HL7-Standards Version 2, Version 3 und CDA werden dabei mit jenen aktueller Web-Standards kombiniert. Ein starker Fokus liegt auf einer einfachen Implementierbarkeit.
 
 Siehe: http://hl7.org/fhir
@@ -23,26 +23,26 @@ Anleitungen zu verschiedenen Möglichkeiten, Ressourcen zu validieren befinden s
 
 ### Partizipation
 Dieser Leitfaden wird vom Technischen Komitee für FHIR von HL7 Deutschland erstellt und gepflegt.
-Die Diskussion dazu findet im [internationalen FHIR-Chat](http://chat.fhir.org "FHIR-Chat") im Stream "[german (d-a-ch)](https://chat.fhir.org/#narrow/stream/german.20(d-a-ch))" statt.
-Weiterhin gibt es regelmäßige Treffen im Rahmen des [Interoperabilitätsforums](http://interoperabilitaetsforum.de/).
+Die Diskussion dazu findet im [internationalen FHIR-Chat](https://chat.fhir.org "FHIR-Chat") im Stream "[german (d-a-ch)](https://chat.fhir.org/#narrow/stream/german.20(d-a-ch))" statt.
+Weiterhin gibt es regelmäßige Treffen im Rahmen des [Interoperabilitätsforums](https://interoperabilitaetsforum.de/).
 Die Teilnahme und Mitarbeit steht jedem offen. 
-Weitere Hinweise zu den Mitwirkungsmöglichkeiten finden Sie [im Wiki von HL7 Deutschland](http://wiki.hl7.de/index.php?title=TC_FHIR#M.C3.B6glichkeiten_zur_Partizipation)
+Weitere Hinweise zu den Mitwirkungsmöglichkeiten finden Sie [auf der Webseite von HL7 Deutschland](https://hl7.de/technische-komitees/mitmachen/)
 
 ### Abstimmungsverfahren
 Dieser Leitfaden wird in regelmäßigen Abständen zur Abstimmung und Kommentierung gestellt. 
-Es gelten die von HL7 Deutschland e.V. festgelegten [Regeln](http://wiki.hl7.de/index.php?title=Abstimmungsverfahren_(Regeln)) für das Abstimmungsverfahren.
+Es gelten die von HL7 Deutschland e.V. festgelegten [Regeln](https://hl7.de/technische-komitees/ballotierung/) für das Abstimmungsverfahren.
 
 
 ### Einreichung von Kommentaren
-Kommentare können auch außerhalb eines Abstimmungsverfahrens entweder per Mail an tc@fhir.de eingereicht, oder direkt über den [Issue-Tracker](https://github.com/hl7germany/basisprofil-de-r4/issues) erstellt werden.
+Kommentare können auch außerhalb eines Abstimmungsverfahrens entweder per Mail an tc@fhir.de eingereicht, oder direkt über das [Ballotierungsportal von HL7 Deutschland](https://ballots.hl7.de) erstellt werden.
 
 ### Auflösung von Kommentaren
-Die Auflösung der Kommentare obliegt dem Technischen Komittee für FHIR bei HL7 Deutschland und folgt dem von diesem Komitee festgelegten [Verfahren](http://wiki.hl7.de/index.php?title=TC_FHIR#Aufl.C3.B6sung_von_Kommentaren).
+Die Auflösung der Kommentare obliegt dem Technischen Komittee für FHIR bei HL7 Deutschland und folgt dem von diesem Komitee festgelegten [Verfahren](https://hl7germany.sharepoint.com/:b:/s/HL7Deutschlande.V/EUEeKz6ygShEtXXmxPzq2XABLaLaQWY-mOmNZm1Jq9bclg?e=pDV2xf).
 
 ### Weiterentwicklung dieses Leitfadens
 Dieser Leitfaden erhebt keinen Anspruch auf Vollständigkeit.
 Weitere Profile werden hinzugefügt, wenn sich aufgrund der aktuellen Aktivitäten der Deutschen Community der Bedarf für weitere Profile ergibt.
-Vorschläge zur Erweiterung dieses Leitfadens können per Mail an [tc@fhir.de](mailto:tc@fhir.de) oder über den [Issue-Tracker](https://github.com/hl7germany/basisprofil-de/issues) eingereicht werden.
+Vorschläge zur Erweiterung dieses Leitfadens können per Mail an [tc@fhir.de](mailto:tc@fhir.de) oder über das [Ballotierungsportal von HL7 Deutschland](https://ballots.hl7.de) eingereicht werden.
 
 
 ### Nomenklatur
