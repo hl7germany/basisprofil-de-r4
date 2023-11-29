@@ -26,11 +26,11 @@ Hinweise zum ValueSet welches für ein entsprechendes Binding des ICD-10 Codings
 | ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Die Empfehlung zum Umgang mit mehrfachkodierten ICD-10-Codes weicht in dieser Version des Leitfadens von der vorherigen Empfehlung (Basisprofile < Version 1.0.0), diese als *eine* Condition abzubilden ab. Mehr Informationen zu den Gründen und der entsprechenden Konsensbildung in der Community können im [FHIR-Chat](https://chat.fhir.org/#narrow/stream/179183-german-.28d-a-ch.29/topic/Breaking.20Change.3A.20Condition) nachgelesen werden. |
 
 
-ICD-10(-GM) Codes können in mehrfachkodierter Form auftreten (siehe [Kodierfragen DIMDI](https://www.dimdi.de/dynamic/de/klassifikationen/kodierfrage/Warum-gibt-es-fuer-manche-Diagnosen-mehr-als-eine-Schluesselnummer-z.B.-beim-Kreuz-Stern-System-ICD-10-GMnbspNr.nbsp0010/)).
+ICD-10(-GM) Codes können in mehrfachkodierter Form auftreten (siehe [Kodierfragen BfArM](https://www.bfarm.de/DE/Kodiersysteme/Services/Kodierfragen/ICD-10-GM/Allgemeine-Kodierfragen/icd-10-gm-0010.html)).
 
 Aufgrund der gängigen Praxis, die es Erlaubt, dass zusammengesetzte Codes unabhängig voneinander Zusatzkennzeichen wie Diagnosesicherheit und -lokalisation zugeordnet werden können, müssen beide Codebestandteile als separate Conditions aufgefasst werden, die miteinander in Beziehung stehen (Verlinkung).
 
-Die Verlinkung von Sekundär- auf die assoziierte Primärdiagnose erfolgt mit Hilfe der international abgestimmten Extension [condition-related](http://hl7.org/fhir/extension-condition-related.html). Eine Verlinkung der Sekundärdiagnose in Richtung Primärdiagnose sollte vermieden werden, sodass keine zirkuläre Referenzierung entsteht.
+Die Verlinkung von Sekundär- auf die assoziierte Primärdiagnose erfolgt mit Hilfe der international abgestimmten Extension [condition-related](https://hl7.org/fhir/r4/extension-condition-related.html). Eine Verlinkung der Sekundärdiagnose in Richtung Primärdiagnose sollte vermieden werden, sodass keine zirkuläre Referenzierung entsteht.
 
 Um auf der condition-related Extension auch Suchen zu können wurde wurde der Suchparameter **related** ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/SearchParameter/Condition-related&scope=de.basisprofil.r4@1.4.0)) erstellt.
 
