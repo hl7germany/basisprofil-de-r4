@@ -43,6 +43,7 @@ Dieser Leitfaden ist im Rahmen des Interoperabilitätsforums und den Technischen
 * Noemi Deppenwiese (ND), Universitätsklinikum Erlangen
 * Julian Saß (JS), Berlin Institute of Health at Charité
 * Yannick Börner (YB), Gefyra GmbH
+* Jonas Schön (JS2), Tiplu GmbH
 
 Desweiteren bedanken wir uns für Hinweise, Anregungen und Feedback bei den folgenden Personen und Organisationen:
 
