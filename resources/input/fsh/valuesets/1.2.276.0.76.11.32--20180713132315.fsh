@@ -15,13 +15,13 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**classCode (XDSDocumentEntry)**\r\n A high-level classification of XDS Documents that indicates the kind of document, e.g., report, summary, note, consent."
 * immutable = false
-* compose.include[0].system = "http://loinc.org"
+* compose.include[+].system = "http://loinc.org"
 * compose.include[=].concept.extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept.extension.valueString = "IHE BPPC verwendet laut IHE ITI TF-3 Rev 12.1 (5.1.2.1.1.1) diesen Class Code für \"Patient Privacy Consent Acknowledgment Documents\", d.h. Patienteneinwilligungen, die auf vordefinierte Zugriffsregelungen verweisen."
 * compose.include[=].concept.code = #57016-8
 * compose.include[=].concept.display = "Patienteneinverständniserklärung"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
-* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Anträge, Aufklärung, Bescheinigungen; auch juristische Dokumente, Vereinbarungen und Verträge; Anmeldungen, Regelungen, Einwilligungen, Bestellungen, Rechnungen, Bescheide, Anordnungen (im juristischen Sinne), Aufträge, Ausweise (außer medizinische Ausweise wie Impfpässe, siehe Konzept AUS (\"Medizinischer Ausweis\")), Meldungen, Qualitätssicherungsdokumente"
 * compose.include[=].concept[=].code = #ADM
 * compose.include[=].concept[=].display = "Administratives Dokument"

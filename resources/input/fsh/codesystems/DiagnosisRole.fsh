@@ -1,8 +1,8 @@
 CodeSystem: DiagnosisRole
 Id: diagnosis-role-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
-* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/diagnosis-role"
 * #AD

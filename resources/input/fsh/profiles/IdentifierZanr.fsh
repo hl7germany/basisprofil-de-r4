@@ -3,8 +3,7 @@ Parent: Identifier
 Id: identifier-zanr
 Title: "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer"
 Description: "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * use = #official (exactly)
 * type = $identifier-type-de-basis#ZANR
 * type from IdentifierTypeDeBasis (extensible)

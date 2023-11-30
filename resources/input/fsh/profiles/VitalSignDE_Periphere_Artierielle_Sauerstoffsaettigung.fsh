@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#2708-6
 * value[x] only Quantity
 * valueQuantity = $unitsofmeasure#%
@@ -10,7 +9,7 @@ Id: observation-de-vitalsign-sauerstoffsaettigung
 Instance: Example-observation-sauerstoffsaettigung
 InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final

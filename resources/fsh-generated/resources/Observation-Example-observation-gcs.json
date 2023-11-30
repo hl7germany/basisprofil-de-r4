@@ -46,8 +46,8 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "value": 3,
         "code": "1",
+        "value": 3,
         "unit": "Punktwert"
       }
     },
@@ -63,8 +63,8 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "value": 4,
         "code": "1",
+        "value": 4,
         "unit": "Punktwert"
       }
     },
@@ -80,8 +80,8 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "value": 4,
         "code": "1",
+        "value": 4,
         "unit": "Punktwert"
       }
     }

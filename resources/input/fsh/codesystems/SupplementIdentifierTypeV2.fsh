@@ -1,8 +1,8 @@
 CodeSystem: SupplementIdentifierTypeV2
 Id: identifier-type-v2-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
-* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * #DL

@@ -6,7 +6,6 @@
   "id": "EntlassungsgrundErsteUndZweiteStelle",
   "title": "EntlassungsgrundErsteUndZweiteStelle",
   "description": "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle",
   "concept": [
     {
@@ -126,24 +125,25 @@
       "display": "Behandlung regulär beendet, beatmet verlegt"
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
+  "version": "1.5.0",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": false,
   "valueSet": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle",

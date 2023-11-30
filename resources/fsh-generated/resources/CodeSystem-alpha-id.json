@@ -5,24 +5,24 @@
   "name": "AlphaId",
   "id": "alpha-id",
   "description": "Alpha-ID Platzhalter-CodeSystem",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-  "identifier": [
-    {
-      "value": "1.2.276.0.76.5.479"
-    }
-  ],
+  "version": "1.5.0",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
+    }
+  ],
+  "identifier": [
+    {
+      "value": "1.2.276.0.76.5.479"
     }
   ],
   "copyright": "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte",

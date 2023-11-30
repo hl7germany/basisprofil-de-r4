@@ -15,13 +15,13 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**typeCode (XDSDocumentEntry)**\r\nA low-level classification of XDS Documents within a classCode that describes class, event, specialty, and setting."
 * immutable = false
-* compose.include[0].system = "http://loinc.org"
+* compose.include[+].system = "http://loinc.org"
 * compose.include[=].concept.extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept.extension.valueString = "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln.\n        "
 * compose.include[=].concept.code = #57016-8
 * compose.include[=].concept.display = "Patienteneinverständniserklärung"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
-* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Administrative Dokumente, die die Abrechnung eines Patientenfalles betreffen. Medizinische Dokumentation, die als Grundlage für die Abrechnung oder als Begründung für die Behandlung herangezogen wird, ist mit dem entsprechenden Konzept abzubilden. Einwilligungen zur Datenweitergabe an Abrechnungsstellen usw. werden mit dem Konzept EINW (\"Einwilligungen/Aufklärungen\") abgebildet. Der nicht abrechnungsbezogene Schriftwechsel mit der Krankenkasse wird mit dem Konzept SCHR (\"Schriftwechsel (administrativ)\") abgebildet.Beispiele: Abrechnungsschein,\n          Rechnung ambulante/stationäre Behandlung, Kostenübernahmeverlängerung"
 * compose.include[=].concept[=].code = #ABRE
 * compose.include[=].concept[=].display = "Abrechnungsdokumente"
