@@ -1,33 +1,23 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-gcs",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "VitalSignDE_GCS",
   "status": "active",
-  "date": "2021-11-04",
+  "experimental": false,
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "url",
+          "system": "other",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

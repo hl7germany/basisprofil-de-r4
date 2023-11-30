@@ -2,8 +2,8 @@ Extension: ExtensionDestatisAgs
 Id: ags
 Description: """Extension für die Abbildung des Amtlichen Gemeindeschlüssels
 https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel"""
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/destatis/ags"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Address.city"

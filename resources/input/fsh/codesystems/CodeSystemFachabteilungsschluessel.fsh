@@ -2,9 +2,9 @@ CodeSystem: CodeSystemFachabteilungsschluessel
 Id: Fachabteilungsschluessel
 Title: "Fachabteilungsschluessel"
 Description: "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"
-* insert addMetadata
 * ^experimental = false
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false

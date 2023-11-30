@@ -1,23 +1,13 @@
 {
   "resourceType": "StructureDefinition",
   "id": "chargeitem-de-ebm",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Financial.General"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/chargeitem-de-ebm",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "ChargeItemEBM",
   "title": "ChargeItem für EBM-Ziffer als Abrechnungsposition",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

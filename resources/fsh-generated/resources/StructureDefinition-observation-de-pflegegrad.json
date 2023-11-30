@@ -1,23 +1,13 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-pflegegrad",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-pflegegrad",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "ObservationDePflegegrad",
   "title": "Pflegegrad, deutsches Basisprofil",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -30,7 +20,6 @@
     }
   ],
   "description": "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

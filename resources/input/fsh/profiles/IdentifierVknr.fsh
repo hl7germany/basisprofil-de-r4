@@ -3,8 +3,7 @@ Parent: Identifier
 Id: identifier-vknr
 Title: "Identifier-Profil für die Abbildung einer Vertragskassennummer (VKNR)"
 Description: "Identifier-Profil für die Abbildung einer Vertragskassennummer (VKNR)"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * use = #official (exactly)
 * type = $v2-0203#NIIP
 * type from IdentifierTypeDeBasis (extensible)

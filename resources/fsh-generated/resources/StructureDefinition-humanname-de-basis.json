@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "humanname-de-basis",
   "url": "http://fhir.de/StructureDefinition/humanname-de-basis",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "HumannameDeBasis",
   "title": "HumanName, deutsches Basisprofil",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,7 +20,6 @@
     }
   ],
   "description": "Personenname mit in Deutschland üblichen Erweiterungen",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

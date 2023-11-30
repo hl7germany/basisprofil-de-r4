@@ -2,8 +2,8 @@ Extension: ExtensionGkvGenerationEgk
 Id: generation-egk
 Title: "Extension zur Erfassung der Generation der eGK"
 Description: "Extension zur Erfassung der Generation der eGK"
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/generation-egk"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

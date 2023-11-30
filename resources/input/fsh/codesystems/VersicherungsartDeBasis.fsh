@@ -1,8 +1,8 @@
 CodeSystem: VersicherungsartDeBasis
 Id: versicherungsart-de-basis
 Description: "Art der Versicherung bzw. des Kostenträgers."
+* insert Meta
 * ^meta.profile = $shareablecodesystem
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^content = #complete

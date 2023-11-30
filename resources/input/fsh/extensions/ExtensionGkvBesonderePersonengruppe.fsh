@@ -2,8 +2,8 @@ Extension: ExtensionGkvBesonderePersonengruppe
 Id: besondere-personengruppe
 Description: """Gibt die Zugehörigkeit des Versicherten zu einer besonderen Personengruppe
 an."""
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
-* insert addMetadata
 * ^context.type = #element
 * ^context.expression = "Coverage"
 * url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe" (exactly)

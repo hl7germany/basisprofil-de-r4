@@ -1,8 +1,8 @@
 Extension: ExtensionGkvZuzahlungsstatus
 Id: zuzahlungsstatus
 Description: "Gibt an, ob für den Versicherten eine Befreiung von der Zuzahlungspflicht nach § 62 Abs. 3 SGB V vorliegt."
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

@@ -6,7 +6,6 @@
   "id": "Aufnahmeanlass",
   "title": "CodeSystemAufnahmeanlass",
   "description": "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
   "concept": [
     {
@@ -42,13 +41,9 @@
       "display": "Begleitperson oder mitaufgenommene Pflegekraft"
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
+  "version": "1.5.0",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -60,6 +55,11 @@
       ]
     }
   ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/dgkev/Aufnahmeanlass",
