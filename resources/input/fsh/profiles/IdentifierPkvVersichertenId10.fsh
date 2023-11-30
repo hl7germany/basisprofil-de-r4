@@ -1,6 +1,6 @@
 Profile: IdentifierPkvVersichertenId10
 Parent: Identifier
-Id: identifier-pkvid-10
+Id: identifier-pkv-kvid-10
 Title: "Identifier-Profil für die 10-stellige Versicherten ID (PKV)"
 Description: "Identifier-Profil für den unveränderlichen 10-stelligen Teil der Versicherten ID der privaten Krankenversicherungen"
 * insert Meta
