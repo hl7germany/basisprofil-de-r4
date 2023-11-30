@@ -2,24 +2,24 @@
   "resourceType": "StructureDefinition",
   "id": "CodingAlphaID",
   "url": "http://fhir.de/StructureDefinition/CodingAlphaID",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "CodingAlphaID",
   "title": "Coding-Profil für Alpha-ID",
   "status": "active",
-  "date": "2021-02-17",
+  "experimental": false,
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
-      "name": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
       "telecom": [
         {
-          "system": "url"
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Abbildung der Mindestanforderungen eines Alpha-ID-Codes",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

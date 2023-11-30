@@ -1,22 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-atemfrequenz",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "VitalSignDE_Atemfrequenz",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -28,7 +18,6 @@
       ]
     }
   ],
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

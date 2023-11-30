@@ -5,15 +5,10 @@
   "id": "UcumVitalsCommonDE",
   "title": "UCUM Vitals Common DE",
   "description": "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten",
-  "version": "1.4.0",
   "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "version": "1.5.0",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -25,7 +20,11 @@
       ]
     }
   ],
-  "copyright": "HL7 Deutschland e.V.",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "compose": {
     "include": [
       {

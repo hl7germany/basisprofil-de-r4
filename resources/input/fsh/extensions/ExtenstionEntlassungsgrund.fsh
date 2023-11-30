@@ -1,7 +1,7 @@
 Extension: ExtenstionEntlassungsgrund
 Id: Entlassungsgrund
 Title: "ExtenstionEntlassungsgrund"
-* insert addMetadata
+* insert Meta
 * ^context.type = #element
 * ^context.expression = "Encounter.hospitalization.dischargeDisposition"
 * extension ^slicing.discriminator.type = #value

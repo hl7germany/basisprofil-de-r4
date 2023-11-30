@@ -1,9 +1,9 @@
 Extension: ExtensionLebensphase
 Id: ExtensionLebensphase
 * ^url = "http://fhir.de/StructureDefinition/lebensphase"
-* insert addMetadata
+* insert Meta
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"
-* ^context[0].type = #element
+* ^context[+].type = #element
 * ^context[=].expression = "DateTime"
 * ^context[+].type = #element
 * ^context[=].expression = "Period.start"

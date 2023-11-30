@@ -1,23 +1,13 @@
 {
   "resourceType": "StructureDefinition",
   "id": "namingsystem-de-basis",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Foundation.Terminology"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "anonymous"
-    }
-  ],
   "url": "http://fhir.de/StructureDefinition/namingsystem-de-basis",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "NamingsystemDeBasis",
   "title": "Namingsystem, deutsches Basisprofil",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -31,7 +21,6 @@
   ],
   "description": "Definition für NamingSystem-Ressourcen in deutschen Profilen",
   "purpose": "Definition für NamingSystem-Ressourcen in deutschen Profilen",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

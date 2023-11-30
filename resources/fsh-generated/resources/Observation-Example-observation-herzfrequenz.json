@@ -36,8 +36,8 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 63,
     "code": "/min",
+    "value": 63,
     "unit": "per minute"
   },
   "status": "final",

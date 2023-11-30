@@ -1,7 +1,7 @@
 Instance: Example-patient-de-basis-humanname
 InstanceOf: Patient
 Usage: #example
-* name[0].use = #official
+* name[+].use = #official
 * name[=].text = "Martha Mustermann"
 * name[=].family = "Mustermann"
 * name[=].given = "Martha"

@@ -3,10 +3,7 @@ Parent: Coverage
 Id: coverage-de-basis
 Title: "Coverage, deutsches Basisprofil"
 Description: "Basis-Profil für die Nutzung der Coverage-Resource in Deutschland"
-* ^status = #active
-* insert addMetadata
-* ^purpose = "Coverage wird verwedet um Informationen über die Versicherung eines Patienten zu speichern/kommunizieren"
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * . ^short = "Versicherungsdaten"
   * ^definition = "Angaben zur Versicherung oder zur Kostenübernahme durch den Patienten selbst oder durch Dritte."
 * type 1..

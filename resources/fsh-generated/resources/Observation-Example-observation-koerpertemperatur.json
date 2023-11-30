@@ -36,8 +36,8 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 36.8,
     "code": "Cel",
+    "value": 36.8,
     "unit": "°C"
   },
   "status": "final",

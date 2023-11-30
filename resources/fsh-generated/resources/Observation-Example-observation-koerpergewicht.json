@@ -22,13 +22,17 @@
   "code": {
     "coding": [
       {
-        "code": "29463-7",
-        "system": "http://loinc.org",
+        "code": "27113001",
+        "system": "http://snomed.info/sct",
         "display": "Body weight"
       },
       {
-        "code": "27113001",
-        "system": "http://snomed.info/sct",
+        "code": "29463-7",
+        "system": "http://loinc.org"
+      },
+      {
+        "code": "29463-7",
+        "system": "http://loinc.org",
         "display": "Body weight"
       },
       {

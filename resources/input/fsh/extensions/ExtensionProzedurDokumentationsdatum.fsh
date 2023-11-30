@@ -1,6 +1,6 @@
 Extension: ExtensionProzedurDokumentationsdatum
 Id: ProzedurDokumentationsdatum
-* insert addMetadata
+* insert Meta
 * ^context.type = #element
 * ^context.expression = "Procedure"
 * . ^short = "Dokumentationsdatum der Prozedur"

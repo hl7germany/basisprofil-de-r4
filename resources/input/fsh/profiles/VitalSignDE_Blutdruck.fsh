@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Blutdruck
 Parent: VitalSignDE
 Id: observation-de-vitalsign-blutdruck
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code
   * coding[loinc] = $loinc#85354-9
     * system 1..
@@ -33,7 +32,7 @@ Id: observation-de-vitalsign-blutdruck
 Instance: Example-observation-blutdruck
 InstanceOf: VitalSignDE_Blutdruck
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bp"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
@@ -48,9 +47,9 @@ Usage: #example
 * interpretation = $v3-ObservationInterpretation#L "low"
   * text = "Below low normal"
 * bodySite = $sct#368209003 "Right arm"
-* component[SystolicBP].code.coding[0] = $loinc#8480-6 "Systolic blood pressure"
+* component[SystolicBP].code.coding[+] = $loinc#8480-6 "Systolic blood pressure"
 * component[SystolicBP].code.coding[+] = $sct#271649006 "Systolic blood pressure (observable entity)"
 * component[SystolicBP].valueQuantity = 107 'mm[Hg]' "mmHg"
-* component[DiastolicBP].code.coding[0] = $loinc#8462-4 "Diastolic blood pressure"
+* component[DiastolicBP].code.coding[+] = $loinc#8462-4 "Diastolic blood pressure"
 * component[DiastolicBP].code.coding[+] = $sct#271650006 "Diastolic blood pressure (observable entity)"
 * component[DiastolicBP].valueQuantity = 60 'mm[Hg]' "mmHg"

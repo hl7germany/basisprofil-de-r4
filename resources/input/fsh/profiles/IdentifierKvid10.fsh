@@ -3,8 +3,7 @@ Parent: Identifier
 Id: identifier-kvid-10
 Title: "Identifier-Profil für die 10-stellige Krankenversichertennummer"
 Description: "Identifier-Profil für die 10-stellige Krankenversichertennummer"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * type = $identifier-type-de-basis#GKV
 * type from IdentifierTypeDeBasis (extensible)
 * system 1..
