@@ -3,8 +3,7 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpergewicht
 * insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* code
-  * coding[loinc] = $loinc#29463-7
+* code = $loinc#29463-7
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
@@ -17,15 +16,14 @@ Id: observation-de-vitalsign-koerpergewicht
 Instance: Example-observation-koerpergewicht
 InstanceOf: VitalSignDE_Koerpergewicht
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-// Nov 2023: These assignments will trigger a numeric index warning. Please disregard until SUSHI supports multiple slice assignments in instances.
-* code.coding[+] = $loinc#29463-7 "Body weight"
-* code.coding[+] = $sct#27113001 "Body weight"
-* code.coding[+] = $loinc#8339-4 "Birth weight Measured"
+* code.coding[loinc][+] = $loinc#29463-7 "Body weight"
+* code.coding[loinc][+] = $loinc#8339-4 "Birth weight Measured"
+* code.coding[snomed] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"
