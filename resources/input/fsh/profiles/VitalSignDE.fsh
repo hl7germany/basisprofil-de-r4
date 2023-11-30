@@ -3,11 +3,18 @@ Parent: Observation
 Id: observation-de-vitalsign
 * insert Meta
 * obeys vs-de-2
-* category ^slicing.discriminator.type = #pattern
+* category
+  * ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open
 * category contains VSCat 1..1
 * category[VSCat] = $observation-category#vital-signs
+* code
+  * coding
+    * ^slicing.discriminator.type = #pattern
+    * ^slicing.discriminator.path = "$this"
+    * ^slicing.rules = #open
+  * coding contains loinc 1..* and snomed 0..*
 * subject 1..
 * subject only Reference(Patient or Group)
 * effective[x] 1..

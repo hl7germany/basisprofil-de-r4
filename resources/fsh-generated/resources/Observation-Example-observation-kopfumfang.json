@@ -8,7 +8,6 @@
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
     ]
   },
-  "status": "final",
   "category": [
     {
       "coding": [
@@ -23,8 +22,8 @@
   "code": {
     "coding": [
       {
-        "code": "9843-4",
         "system": "http://loinc.org",
+        "code": "9843-4",
         "display": "Head Occipital-frontal circumference"
       },
       {
@@ -35,14 +34,15 @@
     ],
     "text": "Kopfumfang"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 38,
+    "code": "cm",
+    "unit": "Centimeter"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
-  "effectiveDateTime": "2019-07-02",
-  "valueQuantity": {
-    "value": 38,
-    "code": "cm",
-    "system": "http://unitsofmeasure.org",
-    "unit": "Centimeter"
-  }
+  "effectiveDateTime": "2019-07-02"
 }

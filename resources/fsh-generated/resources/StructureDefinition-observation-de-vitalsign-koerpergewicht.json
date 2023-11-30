@@ -71,25 +71,9 @@
         }
       },
       {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "min": 1,
-        "max": "*",
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc"
@@ -102,6 +86,25 @@
       },
       {
         "id": "Observation.code.coding:loinc.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "27113001",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
         "path": "Observation.code.coding.code",
         "min": 1
       },

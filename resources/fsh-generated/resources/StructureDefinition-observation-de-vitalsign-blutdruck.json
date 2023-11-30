@@ -71,6 +71,43 @@
         }
       },
       {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:loinc.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "75367002",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "max": "0",
