@@ -6,9 +6,8 @@
   "id": "wg14",
   "description": "ABDATA WG14 Platzhalter-CodeSystem",
   "url": "http://fhir.de/CodeSystem/abdata/wg14",
-  "version": "1.5.0",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-kzva",
   "url": "http://fhir.de/StructureDefinition/identifier-kzva",
-  "version": "1.5.0",
   "name": "IdentifierKzva",
   "title": "Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +19,7 @@
     }
   ],
   "description": "Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

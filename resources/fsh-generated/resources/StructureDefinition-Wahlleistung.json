@@ -2,11 +2,10 @@
   "resourceType": "StructureDefinition",
   "id": "Wahlleistung",
   "url": "http://fhir.de/StructureDefinition/Wahlleistung",
-  "version": "1.5.0",
   "name": "ExtensionWahlleistung",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -7,9 +7,9 @@ N1 – kleine Packung
 N2 – mittlere Packung
 N3 – große Packung
 (siehe https://de.wikipedia.org/wiki/Packungsgr%C3%B6%C3%9Fenkennzeichnung)"""
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* ^context[+].type = #element
+* ^context[0].type = #element
 * ^context[=].expression = "Medication"
 * ^context[+].type = #element
 * ^context[=].expression = "MedicationRequest.dispenseRequest.quantity"

@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-kvid-10",
   "url": "http://fhir.de/StructureDefinition/identifier-kvid-10",
-  "version": "1.5.0",
   "name": "IdentifierKvid10",
   "title": "Identifier-Profil für die 10-stellige Krankenversichertennummer",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +19,7 @@
     }
   ],
   "description": "Identifier-Profil für die 10-stellige Krankenversichertennummer",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

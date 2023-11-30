@@ -1,7 +1,7 @@
 Extension: ExtensionInformationRecipient
 Id: informationrecipient
 Description: "Dokumentation des Empfängers von Information (z.B. eines Dokumentes)"
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Composition"

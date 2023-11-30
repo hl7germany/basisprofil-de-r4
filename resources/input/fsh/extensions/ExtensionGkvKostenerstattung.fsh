@@ -3,8 +3,8 @@ Id: kostenerstattung
 Description: """Gibt an, ob der Kostenträger den Nachweis der Inanspruchnahme von Leisrungen der Abrechnungsart Kostnerstattung auf der eGK speichert.
 vorhanden = Nachweis wird genutzt;
 nicht vorhanden = Nachweis wird nicht genutzt"""
-* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/kostenerstattung"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

@@ -1,8 +1,8 @@
 CodeSystem: KontaktDiagnoseProzedur
 Id: KontaktDiagnoseProzedur
 Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
+* insert addMetadata
 * ^content = #complete
 * ^caseSensitive = false
 * ^copyright = "HL7 Deutschland e.V."

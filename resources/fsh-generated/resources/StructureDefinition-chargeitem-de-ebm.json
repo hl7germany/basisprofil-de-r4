@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "chargeitem-de-ebm",
   "url": "http://fhir.de/StructureDefinition/chargeitem-de-ebm",
-  "version": "1.5.0",
   "name": "ChargeItemEBM",
   "title": "ChargeItem für EBM-Ziffer als Abrechnungsposition",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -2,24 +2,23 @@
   "resourceType": "StructureDefinition",
   "id": "CodingOPS",
   "url": "http://fhir.de/StructureDefinition/CodingOPS",
-  "version": "1.5.0",
   "name": "CodingOPS",
   "title": "Coding-Profil für OPS",
-  "status": "active",
-  "experimental": false,
-  "date": "2023-11-30",
+  "status": "draft",
+  "date": "2021-02-17",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
+      "name": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
       "telecom": [
         {
-          "system": "other",
-          "value": "http://hl7.de/technische-komitees/fhir/"
+          "system": "url"
         }
       ]
     }
   ],
   "description": "Abbildung der Mindestanforderungen eines OPS Prozedurencodes",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

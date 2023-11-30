@@ -15,8 +15,8 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**authorRole (XDSDocumentEntry or XDSSubmissionSet)**\r\nRepresents the role of the author with respect to the patient at the time that an XDS Document or XDS Submission Set was created. "
 * immutable = false
-* compose.include[+].system = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
-* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[0].system = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
+* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Die Person, die die Einweisung veranlasst hat. (Sie wird auch als Zuweiser bezeichnet.)"
 * compose.include[=].concept[=].code = #1
 * compose.include[=].concept[=].display = "Einweiser"
@@ -85,7 +85,7 @@ Usage: #definition
 * compose.include[=].concept[=].code = #16
 * compose.include[=].concept[=].display = "Informierender"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
-* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "der Hausarzt (Primärversorger) des Patienten"
 * compose.include[=].concept[=].code = #101
 * compose.include[=].concept[=].display = "Hausarzt"

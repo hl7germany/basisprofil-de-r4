@@ -3,11 +3,11 @@ Id: 1.2.276.0.76.11.31--20180713132208
 Title: "IHE XDS authorSpecialty"
 Description: """**authorSpecialty (XDSDocumentEntry or XDSSubmissionSet)**
 Represents a specific specialty within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet"""
-* insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-13T13:22:08+01:00"
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality"
+* insert addMetadata
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.31"

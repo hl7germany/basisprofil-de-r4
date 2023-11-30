@@ -3,7 +3,8 @@ Parent: Identifier
 Id: identifier-reisepassnummer
 Title: "Identifier-Profil für die Abbildung einer Reisepassnummer"
 Description: "Identifier-Profil für die Abbildung einer Reisepassnummer"
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#PPN
 * type from IdentifierTypeDeBasis (extensible)

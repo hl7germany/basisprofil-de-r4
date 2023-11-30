@@ -2,8 +2,8 @@ Extension: ExtensionGkvVersionVsdm
 Id: version-vsdm
 Title: "Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK"
 Description: "Extension zur Erfassung der Version des CDM-Datensatzes auf der eGK"
-* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/version-vsdm"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

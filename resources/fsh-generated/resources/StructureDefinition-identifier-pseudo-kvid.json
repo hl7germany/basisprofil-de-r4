@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pseudo-kvid",
   "url": "http://fhir.de/StructureDefinition/identifier-pseudo-kvid",
-  "version": "1.5.0",
   "name": "IdentifierPseudoKvid",
   "title": "Identifier-Profil für die pseudonymisierte Krankenversichertennummer",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +19,7 @@
     }
   ],
   "description": "Identifier-Profil für die pseudonymisierte Krankenversichertennummer (Wird für Registermeldungen verwendet)",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

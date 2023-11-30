@@ -5,9 +5,13 @@
   "id": "ValueSet-GenderOtherDE",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KB",
   "url": "http://fhir.de/ValueSet/gender-other-de",
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,11 +23,7 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "copyright": "HL7 Deutschland e.V.",
   "compose": {
     "include": [
       {

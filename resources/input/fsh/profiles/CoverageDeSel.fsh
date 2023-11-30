@@ -3,7 +3,8 @@ Parent: CoverageDeBasis
 Id: coverage-de-sel
 Title: "Coverage, deutsches Selbstzahlerprofil"
 Description: "Profil für die Nutzung der Coverage-Resource in Deutschland zur Darstellung eines Selbstzahlerverhältnisses."
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * identifier ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open

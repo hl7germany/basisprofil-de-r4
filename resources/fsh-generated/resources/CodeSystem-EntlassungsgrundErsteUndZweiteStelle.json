@@ -125,9 +125,13 @@
       "display": "Behandlung regulär beendet, beatmet verlegt"
     }
   ],
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -139,11 +143,6 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": false,
   "valueSet": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle",

@@ -3,8 +3,10 @@ Parent: NamingSystem
 Id: namingsystem-de-basis
 Title: "Namingsystem, deutsches Basisprofil"
 Description: "Definition für NamingSystem-Ressourcen in deutschen Profilen"
-* insert Meta
+* ^status = #active
+* insert addMetadata
 * ^purpose = "Definition für NamingSystem-Ressourcen in deutschen Profilen"
+* ^copyright = "HL7 Deutschland e.V."
 * type 1..
 * type from IdentifierTypeDeBasis (extensible)
 
@@ -22,7 +24,7 @@ Usage: #definition
 * type = $v2-0203#XX
 * description = "Die Institutionskennzeichen (kurz: IK) sind bundesweit eindeutige, neunstellige Zahlen, mit deren Hilfe Abrechnungen und Qualitätssicherungsmaßnahmen im Bereich der deutschen Sozialversicherung einrichtungsübergreifend abgewickelt werden können. (siehe http://www.dguv.de/arge-ik/)"
 * usage = "Das IK ist ein eindeutiges Merkmal für die Abrechnung mit den Trägern der Sozialversicherung."
-* uniqueId[+].type = #uri
+* uniqueId[0].type = #uri
 * uniqueId[=].value = "http://fhir.de/sid/arge-ik/iknr"
 * uniqueId[=].preferred = true
 * uniqueId[=].period.start = "2017-09-15"
@@ -63,7 +65,7 @@ Usage: #definition
 * type = $v2-0203#RI
 * description = "Einer Erlaubnis nach § 3 des Betäubungsmittelgesetzes (BtMG) bedarf nach § 4 BtMG nicht, wer im Rahmen des Betriebs einer Apotheke am Betäubungsmittelverkehr (BtM-Verkehr) teilnimmt. Die Apotheken haben jedoch ihre Teilnahme am Betäubungsmittelverkehr gem. § 4 Abs. 3 BtMG zuvor der Bundesopiumstelle schriftlich anzuzeigen.\nAufgrund dieser Anzeige wird den Betreibern für jede ihrer Apotheken eine eigene BtM-Nummer schriftlich zugewiesen, mit der sie am BtM-Verkehr teilnehmen dürfen. (siehe: http://www.bfarm.de/DE/Bundesopiumstelle/Betaeubungsmittel/apoth/_node.html)\nDa aufgrund dieser Regelung jede Apotheke über eine BtM-Nummer verfügt, wird diese häufig auch in anderen Kontexten als Identifikator für Apotheken (IDF-Nummer) verwendet."
 * usage = "Identifikation von Apotheken"
-* uniqueId[+].type = #oid
+* uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.197"
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.de/sid/bfarm/btmnr"
@@ -122,7 +124,7 @@ Usage: #definition
 * type = $identifier-type-de-basis#GKV
 * description = "Die Versicherten-ID ist der 10-stellige unveränderliche Teil der 30-stelligen Krankenversichertennummer. Sie wird häufig ebenfalls als Krankenversichertennummer bezeichnet. Der Term 'Versicherten-ID' wird hier in Übereinstimmung mit der Gematik-Spezifikation für das VSDM verwendet."
 * usage = "Die Krankenkasse verwendet für jeden Versicherten eine Krankenversichertennummer. Die Krankenversichertennummer besteht aus einem unveränderbaren Teil zur Identifikation des Versicherten (der 10-stelligen Krankenversicherten-ID), sowie einem veränderlichen Teil, der die Kassenzugehörigkeit in Form des Institutionskennzeichens der Krankenkasse (9 Stellen) und ggf. Daten zum Hauptversicherten (10 Stellen), sowie eine Prüfziffer (1 Stelle) enthält. Dieses NamingSystem wird für den unveränderlichen Teil, also die ersten 10 Stellen, der 30-stellige Krankenversichertennummer verwendet."
-* uniqueId[+].type = #uri
+* uniqueId[0].type = #uri
 * uniqueId[=].value = "http://fhir.de/sid/gkv/kvid-10"
 * uniqueId[=].preferred = true
 * uniqueId[=].period.start = "2017-09-15"
@@ -161,7 +163,7 @@ Usage: #definition
 * type = $identifier-type-de-basis#GKV
 * description = "Die vollständige, bis zu 30-stellige, Krankenversichertennummer."
 * usage = "Die Krankenkasse verwendet für jeden Versicherten eine Krankenversichertennummer. Die Krankenversichertennummer besteht aus einem unveränderbaren Teil zur Identifikation des Versicherten (der 10-stelligen Krankenversicherten-ID), sowie einem veränderlichen Teil, der die Kassenzugehörigkeit in Form des Institutionskennzeichens der Krankenkasse (9 Stellen) und ggf. Daten zum Hauptversicherten (10 Stellen), sowie eine Prüfziffer (1 Stelle) enthält. Dieses NamingSystem wird für die vollständige, 30-stellige Krankenversichertennummer verwendet."
-* uniqueId[+].type = #oid
+* uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.1"
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.de/sid/gkv/kvnr-30"
@@ -201,7 +203,7 @@ Usage: #definition
 * type = $v2-0203#PRN
 * description = "Der Namensraum für die BSNR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."
 * usage = "BSNR und (L)ANR werden in der Regel kombiniert verwendet, um einen Arzt in seiner Funktion und seiner Praxis eindeutig zu identifizieren. Typische Use Cases sind Abrechnungen sowie die Übermittlung abrechnungsrelevanter medizinischer Daten"
-* uniqueId[+].type = #oid
+* uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.17"
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.de/NamingSystem/kbv/bsnr"
@@ -223,7 +225,7 @@ Usage: #definition
 * type = $v2-0203#PRN
 * description = "Der Namensraum für die (L)ANR ist nunmehr durch die KBV definiert. Vgl. das entsprechende Identifier-Profil."
 * usage = "Die KBV hat angegeben, dass diese Nummern auf entsprechende Formulare zu drucken sind, allerdings ist bislang nicht näher beschrieben, wie diese Informationen intern zu übermitteln sind. Für eine normale Arztpraxis ist dies ohne Belang. Im Krankenhausumfeld ist diese Information aber relevant, da die abrechnende Stelle typischerweise nicht die ist, wo die Leistungen etc. anfallen.  Durch die Vermischung der eigentlichen Informationen in eine ID ist eine präzise Zuordnung folglich nicht ohne weiteres möglich."
-* uniqueId[+].type = #oid
+* uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.16"
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.de/NamingSystem/kbv/lanr"
@@ -264,7 +266,7 @@ Usage: #definition
 * responsible = "Kassenärztliche Bundesvereinigung (KBV)"
 * type = $v2-0203#NIIP
 * description = "Die Vertragskassennummer der Kassenärztlichen Vereinigungen (VKNR) identifiziert Krankenkassen für Abrechnungszwecke. Rechtliche Grundlage hierfür ist § 15 der 1. Änderung des Vertrages über den Datenaustausch auf Datenträgern (Anlage 6 des Bundesmantelvertrages Ärzte vom 1. Juli 2018). Die VKNR ist wie folgt aufgebaut: 1. und 2. Stelle: Nummer der KV-Abrechnungsstelle; 3. bis 5. Stelle: Seriennummer der Krankenkasse innerhalb der Kassenart"
-* uniqueId[+].type = #oid
+* uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.7"
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.de/sid/kbv/vknr"

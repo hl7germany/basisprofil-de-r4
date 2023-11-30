@@ -15,8 +15,8 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**confidentialityCode (XDSDocumentEntry)**\r\nThe code specifying the level of confidentiality of an XDS Document."
 * immutable = false
-* compose.include[+].system = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
-* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[0].system = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
+* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Aus Sicht der Betroffenen sind die Daten so sensibel, dass sie für praktisch niemanden außer ihr selbst sichtbar sein sollten."
 * compose.include[=].concept[=].code = #PV
 * compose.include[=].concept[=].display = "gesperrt"
@@ -29,7 +29,7 @@ Usage: #definition
 * compose.include[=].concept[=].code = #PN
 * compose.include[=].concept[=].display = "übliche Vertraulichkeit"
 * compose.include[+].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-* compose.include[=].concept[+].code = #N
+* compose.include[=].concept[0].code = #N
 * compose.include[=].concept[=].display = "normal"
 * compose.include[=].concept[+].code = #R
 * compose.include[=].concept[=].display = "restricted"

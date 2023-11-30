@@ -69,9 +69,13 @@
       "definition": "Aufenthalt in OP-Bereichen zur Durchführung von operativen Eingriffen inklusive Vor- und Nachbereitung"
     }
   ],
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -83,11 +87,6 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/kontaktart-de",
   "hierarchyMeaning": "is-a",

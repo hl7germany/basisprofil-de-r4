@@ -5,9 +5,13 @@
   "id": "kontaktart-de",
   "description": "Kontaktarten für die Codierung von Encounter.type",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,11 +23,7 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "copyright": "HL7 Deutschland e.V.",
   "compose": {
     "include": [
       {

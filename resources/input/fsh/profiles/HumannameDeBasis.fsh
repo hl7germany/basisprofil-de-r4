@@ -3,7 +3,8 @@ Parent: HumanName
 Id: humanname-de-basis
 Title: "HumanName, deutsches Basisprofil"
 Description: "Personenname mit in Deutschland üblichen Erweiterungen"
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * obeys hum-1 and hum-2 and hum-3 and hum-4
 * . ^short = "Personenname"
   * ^definition = "Personenname mit in Deutschland üblichen Erweiterungen"

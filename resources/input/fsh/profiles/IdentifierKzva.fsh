@@ -3,7 +3,8 @@ Parent: Identifier
 Id: identifier-kzva
 Title: "Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer"
 Description: "Identifier-Profil für die Abbildung einer KZVAbrechnungsnummer"
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $identifier-type-de-basis#KZVA
 * type from IdentifierTypeDeBasis (extensible)

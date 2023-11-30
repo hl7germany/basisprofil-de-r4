@@ -3,7 +3,11 @@ Parent: Coding
 Id: CodingAlphaID
 Title: "Coding-Profil für Alpha-ID"
 Description: "Abbildung der Mindestanforderungen eines Alpha-ID-Codes"
-* insert Meta
+* ^date = "2021-02-17"
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.telecom.system = #url
+* ^copyright = "HL7 Deutschland e.V."
 * system 1..
 * system = "http://fhir.de/CodeSystem/bfarm/alpha-id" (exactly)
   * ^short = "Canonische CodeSystem URL für Alpha-ID"

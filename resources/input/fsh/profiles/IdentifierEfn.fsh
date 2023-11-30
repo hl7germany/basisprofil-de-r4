@@ -3,7 +3,7 @@ Parent: Identifier
 Id: identifier-efn
 Title: "Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)"
 Description: "Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)"
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#DN

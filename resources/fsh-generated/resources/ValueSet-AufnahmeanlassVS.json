@@ -5,9 +5,13 @@
   "id": "AufnahmeanlassVS",
   "description": "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V",
   "url": "http://fhir.de/ValueSet/dgkev/Aufnahmeanlass",
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,11 +23,7 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "copyright": "HL7 Deutschland e.V.",
   "compose": {
     "include": [
       {

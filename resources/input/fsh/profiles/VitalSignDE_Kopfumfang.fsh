@@ -1,8 +1,10 @@
 Profile: VitalSignDE_Kopfumfang
 Parent: VitalSignDE
-Id: observation-de-vitalsign-kopfumfang
+Id: VitalSignDE-Kopfumfang
 Title: "Observation - VitalSignDE - Kopfumfang"
-* insert Meta
+* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * code = $loinc#9843-4
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
@@ -16,7 +18,7 @@ Title: "Observation - VitalSignDE - Kopfumfang"
 Instance: Example-observation-kopfumfang
 InstanceOf: VitalSignDE_Kopfumfang
 Usage: #example
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/headcircum"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final

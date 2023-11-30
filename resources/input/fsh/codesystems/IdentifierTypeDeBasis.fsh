@@ -1,8 +1,8 @@
 CodeSystem: IdentifierTypeDeBasis
 Id: identifier-type-de-basis
 Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."
-* insert Meta
 * ^meta.profile = $shareablecodesystem
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^content = #complete

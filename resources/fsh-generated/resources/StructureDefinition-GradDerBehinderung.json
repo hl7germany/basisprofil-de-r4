@@ -2,22 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "GradDerBehinderung",
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
-  "version": "1.5.0",
   "name": "GradDerBehinderung",
-  "status": "active",
-  "experimental": false,
-  "date": "2023-11-30",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "other",
-          "value": "http://hl7.de/technische-komitees/fhir/"
-        }
-      ]
-    }
-  ],
+  "status": "draft",
   "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",
   "fhirVersion": "4.0.1",
   "mapping": [

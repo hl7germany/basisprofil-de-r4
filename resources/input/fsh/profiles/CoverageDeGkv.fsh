@@ -3,7 +3,8 @@ Parent: CoverageDeBasis
 Id: coverage-de-gkv
 Title: "Coverage, deutsches GKV-Profil"
 Description: "Profil für die Nutzung der Coverage-Resource zur Darstellung eines gesetzlichen Versicherungsverhältnisses in Deutschland"
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * . ^definition = "Kostenübernahme im Rahmen eines gesetzlichen Versicherungsverhältnisses in Deutschland."
 * extension ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "url"
@@ -67,7 +68,7 @@ Description: "Profil für die Nutzung der Coverage-Resource zur Darstellung eine
 Instance: Example-coverage-example
 InstanceOf: CoverageDeGkv
 Usage: #example
-* extension[+].url = "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte"
+* extension[0].url = "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte"
 * extension[=].valueDateTime = "2019-12-03"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/version-vsdm"
 * extension[=].valueString = "5.2.1"
@@ -75,7 +76,7 @@ Usage: #example
 * extension[=].valueString = "1+"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/versichertenart"
 * extension[=].valueCoding = $74_CS_SFHIR_KBV_VERSICHERTENSTATUS#1
-* extension[+].extension[+].url = "aerztlicheVersorgung"
+* extension[+].extension[0].url = "aerztlicheVersorgung"
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "zahnaerztlicheVersorgung"
 * extension[=].extension[=].valueBoolean = false
@@ -84,12 +85,12 @@ Usage: #example
 * extension[=].valueCoding = $CS_AW_Krankenversicherung_WOP#38 "Nordrhein"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
 * extension[=].valueCoding = $74_CS_SFHIR_KBV_PERSONENGRUPPE#06 "BVG (Gesetz über die Versorgung der Opfer des Krieges)"
-* extension[+].extension[+].url = "art"
+* extension[+].extension[0].url = "art"
 * extension[=].extension[=].valueCoding.code = #1
 * extension[=].extension[+].url = "dauer"
 * extension[=].extension[=].valuePeriod.start = "2018-01-01"
 * extension[=].url = "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"
-* extension[+].extension[+].url = "status"
+* extension[+].extension[0].url = "status"
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "gueltigBis"
 * extension[=].extension[=].valueDate = "2020-12-31"

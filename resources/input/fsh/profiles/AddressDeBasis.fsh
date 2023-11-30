@@ -3,7 +3,7 @@ Parent: Address
 Id: address-de-basis
 Title: "Adresse, deutsches Basisprofil"
 Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kontext der Deutschen Basis-Profile"
-* insert Meta
+* insert addMetadata
 * ^purpose = "Einige Systeme und Standards in Deutschland erfordern die separate Erfassung von Straße und Hausnummer.\r\nDie Erweiterung des Datentyps Address fügt hierfür die entsprechenden ISO-Extensions hinzu.\r\nOb deren Verwendung in einem konkreten Kontext verpflichtend ist, muss in den abgeleiteten Profilen festgelegt werden."
 * ^copyright = "HL7 Deutschland e.V."
 * obeys add-1 and add-2 and add-3 and add-4 and add-5 and add-6 and add-7
@@ -24,7 +24,7 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
   * ^short = "Straßenname mit Hausnummer oder Postfach sowie weitere Angaben zur Zustellung"
   * ^definition = "Diese Komponente kann Straßennamen, Hausnummer, Appartmentnummer, Postfach, c/o sowie weitere Zustellungshinweise enthalten. Die Informationen können in mehrere line-Komponenten aufgeteilt werden.\r\nBei Verwendung der Extensions, um Straße, Hausnnummer und Postleitzahl strukturiert zu übermitteln, müssen diese Informationen stets vollständig auch in der line-Komponente, die sie erweitern, enthalten sein, um es Systemen, die diese Extensions nicht verwenden zu ermöglichen, auf diese Informationen zugreifen zu können."
   * ^example.label = "Beipiel für Adresszeile mit Extensions für Straße und Hausnummer"
-  * ^example.valueString.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
+  * ^example.valueString.extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
   * ^example.valueString.extension[=].valueString = "Musterweg"
   * ^example.valueString.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
   * ^example.valueString.extension[=].valueString = "42"

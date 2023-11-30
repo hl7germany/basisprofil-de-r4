@@ -3,7 +3,11 @@ Parent: Coding
 Id: CodingICD10GM
 Title: "Coding-Profil für ICD-10-GM"
 Description: "Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes"
-* insert Meta
+* ^date = "2021-02-17"
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.telecom.system = #url
+* ^copyright = "HL7 Deutschland e.V."
 * extension ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "url"
   * ^slicing.rules = #open

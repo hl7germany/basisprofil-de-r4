@@ -3,7 +3,11 @@ Parent: Coding
 Id: CodingATC
 Title: "Coding-Profil für ATC"
 Description: "Abbildung der Mindestanforderungen eines ATC-Codes"
-* insert Meta
+* ^date = "2021-02-17"
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.name = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^contact.telecom.system = #url
+* ^copyright = "HL7 Deutschland e.V."
 * system 1..
 * system = "http://fhir.de/CodeSystem/bfarm/atc" (exactly)
   * ^short = "Canonische CodeSystem URL für ATC"

@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-efn",
   "url": "http://fhir.de/StructureDefinition/identifier-efn",
-  "version": "1.5.0",
   "name": "IdentifierEfn",
   "title": "Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

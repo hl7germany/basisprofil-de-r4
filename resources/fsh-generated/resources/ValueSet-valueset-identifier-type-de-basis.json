@@ -2,12 +2,16 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "IdentifierTypeDeBasis",
-  "id": "identifier-type-de-basis",
+  "id": "valueset-identifier-type-de-basis",
   "description": "ValueSet zur Codierung des Identifier-Typs",
   "url": "http://fhir.de/ValueSet/identifier-type-de-basis",
-  "version": "1.5.0",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,11 +23,7 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "copyright": "HL7 Deutschland e.V.",
   "compose": {
     "include": [
       {

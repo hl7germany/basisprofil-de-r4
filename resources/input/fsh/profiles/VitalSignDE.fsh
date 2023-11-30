@@ -1,7 +1,9 @@
 Profile: VitalSignDE
 Parent: Observation
-Id: observation-de-vitalsign
-* insert Meta
+Id: VitalSignDE
+* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign"
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * obeys vs-de-2
 * category
   * ^slicing.discriminator.type = #pattern
@@ -51,7 +53,7 @@ Id: observation-de-vitalsign
 Instance: Example-observation-bmi
 InstanceOf: VitalSignDE
 Usage: #example
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bmi"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"

@@ -1,6 +1,7 @@
 ValueSet: Diagnosesubtyp
 Id: Diagnosesubtyp
-* insert Meta
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * KontaktDiagnoseProzedur#surgery-diagnosis "Operationsdiagnose"
 * KontaktDiagnoseProzedur#department-main-diagnosis "Abteilung Hauptdiagnose"
 * KontaktDiagnoseProzedur#cause-of-death "Todesursache"

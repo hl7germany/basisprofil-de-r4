@@ -12,7 +12,7 @@ Usage: #example
 * birthDate = "1935-06-22"
 * address.type = #physical
 * address.line = "Musterstr. 1"
-  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
+  * extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
   * extension[=].valueString = "1"
   * extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
   * extension[=].valueString = "Musterstr."

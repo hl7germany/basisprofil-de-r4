@@ -2,9 +2,9 @@ CodeSystem: CodeSystemAufnahmegrundErsteUndZweiteStelle
 Id: AufnahmegrundErsteUndZweiteStelle
 Title: "CodeSystemAufnahmegrundErsteUndZweiteStelle"
 Description: "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle"

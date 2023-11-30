@@ -1,7 +1,7 @@
 Profile: EkgDE
 Parent: Observation
 Id: observation-de-ekg
-* insert Meta
+* insert addMetadata
 * category 1..
   * coding = $observation-category#procedure
 * code = $loinc#LP6244-0
@@ -26,7 +26,7 @@ Usage: #example
 * category = $observation-category#procedure
 * device.reference = "Device/example"
 * effectiveDateTime = "2019-07-02"
-* component[+].code = $loinc#LP7386-8 "Lead I"
+* component[0].code = $loinc#LP7386-8 "Lead I"
 * component[=].valueSampledData.origin.value = 2048
 * component[=].valueSampledData.period = 10
 * component[=].valueSampledData.dimensions = 1

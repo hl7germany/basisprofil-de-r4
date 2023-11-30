@@ -1,9 +1,9 @@
 Extension: ExtensionSeitenlokalisation
 Id: seitenlokalisation
 Description: "Dokumentation der Lateralität bei OPS und ICD-10 Codes"
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* ^context[+].type = #element
+* ^context[0].type = #element
 * ^context[=].expression = "Condition.code.coding"
 * ^context[+].type = #element
 * ^context[=].expression = "Procedure.code.coding"

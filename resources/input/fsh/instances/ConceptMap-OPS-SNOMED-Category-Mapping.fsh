@@ -13,7 +13,7 @@ Usage: #definition
 * targetCanonical = "http://snomed.info/sct?fhir_vs"
 * group.source = "http://fhir.de/CodeSystem/bfarm/ops"
 * group.target = "http://snomed.info/sct"
-* group.element[+].code = #1
+* group.element[0].code = #1
 * group.element[=].display = "Diagnostische Maßnahmen"
 * group.element[=].target.code = #103693007
 * group.element[=].target.display = "Diagnostic procedure"

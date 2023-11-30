@@ -16,7 +16,7 @@ Usage: #definition
 * description = "**contentTypeCode (XDSSubmissionSet)**\r\nThe code specifying the type of clinical activity that resulted in placing XDS Documents in a SubmissionSet."
 * immutable = false
 * compose.include.system = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
-* compose.include.concept[+].code = #1
+* compose.include.concept[0].code = #1
 * compose.include.concept[=].display = "Patientenkontakt"
 * compose.include.concept[+].code = #2
 * compose.include.concept[=].display = "Verlegung"

@@ -2,12 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-zanr",
   "url": "http://fhir.de/StructureDefinition/identifier-zanr",
-  "version": "1.5.0",
   "name": "IdentifierZanr",
   "title": "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2022-09-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +19,7 @@
     }
   ],
   "description": "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

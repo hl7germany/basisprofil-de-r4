@@ -15,8 +15,8 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**formatCode (XDSDocumentEntry)**\r\nGlobally unique code specifying the format of an XDS Document. Along with the typeCode, it should provide sufficient information to allow a potential consumer to know if it will be able to process the document."
 * immutable = false
-* compose.include[+].system = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
-* compose.include[=].concept[+].code = #urn:ihe-d:ig:Entlassmanagementbrief:2018
+* compose.include[0].system = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
+* compose.include[=].concept[0].code = #urn:ihe-d:ig:Entlassmanagementbrief:2018
 * compose.include[=].concept[=].display = "Entlassmanagementbrief"
 * compose.include[=].concept[+].code = #urn:ihe-d:ig:NotaufnahmeregisterTraumaModul:2017
 * compose.include[=].concept[=].display = "NotaufnahmeregisterTraumamodul"

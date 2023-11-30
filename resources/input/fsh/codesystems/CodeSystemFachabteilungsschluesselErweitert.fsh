@@ -2,9 +2,9 @@ CodeSystem: CodeSystemFachabteilungsschluesselErweitert
 Id: Fachabteilungsschluessel-erweitert
 Title: "Fachabteilungsschluessel Erweitert"
 Description: "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"

@@ -5,16 +5,16 @@ Usage: #example
 * name.text = "Martina Mustermann"
 * name.family = "Mustermann"
 * name.given = "Martina"
-* address[+].use = #home
+* address[0].use = #home
 * address[=].type = #physical
 * address[=].text = "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland"
-* address[=].line[+] = "Musterweg 42"
-* address[=].line[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
+* address[=].line[0] = "Musterweg 42"
+* address[=].line[+] = "Hinterhof 2. Etage"
+* address[=].line[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
 * address[=].line[=].extension[=].valueString = "Musterweg"
 * address[=].line[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
 * address[=].line[=].extension[=].valueString = "42"
-* address[=].line[+] = "Hinterhof 2. Etage"
-* address[=].line[=].extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator"
+* address[=].line[+].extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator"
 * address[=].line[=].extension.valueString = "Hinterhof 2. Etage"
 * address[=].city = "Berlin"
 * address[=].state = "DE-BE"

@@ -16,7 +16,7 @@ Usage: #definition
 * description = "**healthcareFacilityTypeCode (XDSDocumentEntry)**\r\n This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."
 * immutable = false
 * compose.include.system = "http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"
-* compose.include.concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include.concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include.concept[=].extension.valueString = "Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen häuslichen Umgebung betreuen, aber keine ärztlichen Tätigkeiten durchführen. "
 * compose.include.concept[=].code = #APD
 * compose.include.concept[=].display = "Ambulanter Pflegedienst"

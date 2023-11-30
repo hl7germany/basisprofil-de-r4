@@ -2,12 +2,10 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-aufnahmenummer",
   "url": "http://fhir.de/StructureDefinition/identifier-aufnahmenummer",
-  "version": "1.5.0",
   "name": "IdentifierAufnahmenummer",
   "title": "Identifier-Profil für die Abbildung einer Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
-  "status": "active",
-  "experimental": false,
-  "date": "2023-11-30",
+  "status": "draft",
+  "date": "2021-12-27",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +18,7 @@
     }
   ],
   "description": "Identifier-Profil für die Abbildung einer organisationsspezifischen Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

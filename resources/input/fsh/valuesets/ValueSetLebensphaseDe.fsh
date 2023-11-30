@@ -1,7 +1,9 @@
 ValueSet: ValueSetLebensphaseDe
-Id: lebensphase-de
+Id: ValueSetLebensphaseDe
 Description: "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase"
-* insert Meta
+* ^url = "http://fhir.de/ValueSet/lebensphase-de"
+* ^status = #active
+* insert addMetadata
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"
 * SNOMED_CT#41847000 "Adulthood (qualifier value)"
 * SNOMED_CT#263659003 "Adolescence (qualifier value)"

@@ -2,22 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-gcs",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",
-  "version": "1.5.0",
   "name": "VitalSignDE_GCS",
-  "status": "active",
-  "experimental": false,
-  "date": "2023-11-30",
+  "status": "draft",
+  "date": "2021-11-04",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
+  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

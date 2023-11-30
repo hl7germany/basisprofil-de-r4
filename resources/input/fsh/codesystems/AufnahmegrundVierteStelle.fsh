@@ -2,9 +2,9 @@ CodeSystem: AufnahmegrundVierteStelle
 Id: AufnahmegrundVierteStelle
 Title: "AufnahmegrundVierteStelle"
 Description: "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle"
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle"

@@ -2,9 +2,9 @@ Extension: GenderOtherDE
 Id: gender-amtlich-de
 Title: "Differenzierung des administrativen Geschlechts 'other'"
 Description: "Extension zur genaueren Differenzierung des administrativen Geschlechts 'other', vgl. https://wiki.hl7.de/index.php?title=Geschlecht#administratives_Geschlecht."
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
-* ^context[+].type = #element
+* ^context[0].type = #element
 * ^context[=].expression = "Patient.gender"
 * ^context[+].type = #element
 * ^context[=].expression = "RelatedPerson.gender"

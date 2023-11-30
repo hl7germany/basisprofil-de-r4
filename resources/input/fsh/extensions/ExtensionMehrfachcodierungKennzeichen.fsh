@@ -1,7 +1,7 @@
 Extension: ExtensionMehrfachcodierungKennzeichen
 Id: icd-10-gm-mehrfachcodierungs-kennzeichen
 Title: "Mehrfachkodierungs-Kennzeichen bei  ICD-10-gm"
-* insert Meta
+* insert addMetadata
 * ^context.type = #element
 * ^context.expression = "Condition.code.coding"
 * value[x] 1..

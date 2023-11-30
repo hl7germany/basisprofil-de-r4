@@ -3,7 +3,7 @@ Parent: Identifier
 Id: identifier-bsnr
 Title: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
 Description: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
-* insert Meta
+* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#BSNR

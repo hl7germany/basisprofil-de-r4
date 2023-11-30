@@ -1,8 +1,8 @@
 CodeSystem: SupplementAdministrativeGender
 Id: administrative-gender-supplement
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
+* insert addMetadata
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/administrative-gender"
 * #male

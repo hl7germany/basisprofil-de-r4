@@ -1,8 +1,8 @@
 CodeSystem: Kontaktebene
 Id: Kontaktebene
 Description: "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung"
-* insert Meta
 * ^meta.profile = $shareablecodesystem
+* insert addMetadata
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/kontaktebene-de"
 * ^content = #complete

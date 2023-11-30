@@ -2,8 +2,9 @@ ValueSet: UCUM_Vitals_Common_DE
 Id: UcumVitalsCommonDE
 Title: "UCUM Vitals Common DE"
 Description: "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten"
-* insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* insert addMetadata
+* ^copyright = "HL7 Deutschland e.V."
 * $unitsofmeasure#% "percent"
 * $unitsofmeasure#cm "centimeter"
 * $unitsofmeasure#m "meter"
