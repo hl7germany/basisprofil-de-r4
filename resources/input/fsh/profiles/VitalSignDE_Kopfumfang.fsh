@@ -1,8 +1,9 @@
 Profile: VitalSignDE_Kopfumfang
 Parent: VitalSignDE
-Id: observation-de-vitalsign-kopfumfan
+Id: observation-de-vitalsign-kopfumfang
 Title: "Observation - VitalSignDE - Kopfumfang"
 * insert Meta
+* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * code = $loinc#9843-4
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
