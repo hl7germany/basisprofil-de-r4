@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-ekg",
   "url": "http://fhir.de/StructureDefinition/observation-de-ekg",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "EkgDE",
   "status": "active",
   "experimental": false,

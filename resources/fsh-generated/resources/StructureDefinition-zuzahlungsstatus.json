@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "zuzahlungsstatus",
   "url": "http://fhir.de/StructureDefinition/gkv/zuzahlungsstatus",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionGkvZuzahlungsstatus",
   "status": "active",
   "experimental": false,

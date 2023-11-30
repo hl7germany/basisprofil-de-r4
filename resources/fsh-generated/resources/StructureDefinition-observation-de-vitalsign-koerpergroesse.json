@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergroesse",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "VitalSignDE_Koerpergroesse",
   "status": "active",
   "experimental": false,

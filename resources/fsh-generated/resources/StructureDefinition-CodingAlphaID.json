@@ -2,19 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingAlphaID",
   "url": "http://fhir.de/StructureDefinition/CodingAlphaID",
-<<<<<<< HEAD
-  "name": "CodingAlphaID",
-  "title": "Coding-Profil für Alpha-ID",
-  "status": "draft",
-  "date": "2021-02-17",
-=======
   "version": "1.5.0",
   "name": "CodingAlphaID",
   "title": "Coding-Profil für Alpha-ID",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
->>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

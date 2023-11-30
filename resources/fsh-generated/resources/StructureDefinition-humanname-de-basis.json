@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "humanname-de-basis",
   "url": "http://fhir.de/StructureDefinition/humanname-de-basis",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "HumannameDeBasis",
   "title": "HumanName, deutsches Basisprofil",
   "status": "active",

@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-zanr",
   "url": "http://fhir.de/StructureDefinition/identifier-zanr",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "IdentifierZanr",
   "title": "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnummer",
   "status": "active",

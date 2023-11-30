@@ -2,19 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingICD10GM",
   "url": "http://fhir.de/StructureDefinition/CodingICD10GM",
-<<<<<<< HEAD
-  "name": "CodingICD10GM",
-  "title": "Coding-Profil für ICD-10-GM",
-  "status": "draft",
-  "date": "2021-02-17",
-=======
   "version": "1.5.0",
   "name": "CodingICD10GM",
   "title": "Coding-Profil für ICD-10-GM",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
->>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "einlesedatum-karte",
   "url": "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionGkvEinlesedatumKarte",
   "title": "Extension zur Erfassung des Einlesedatums der eGK bzw. KVK",
   "status": "active",

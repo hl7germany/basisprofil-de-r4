@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "informationrecipient",
   "url": "http://fhir.de/StructureDefinition/informationrecipient",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionInformationRecipient",
   "status": "active",
   "experimental": false,

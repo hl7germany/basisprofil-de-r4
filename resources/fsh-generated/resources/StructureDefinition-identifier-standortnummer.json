@@ -2,19 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-standortnummer",
   "url": "http://fhir.de/StructureDefinition/identifier-standortnummer",
-<<<<<<< HEAD
-  "name": "IdentifierStandortnummer",
-  "title": "Identifier-Profil für die Standortnummer",
-  "status": "draft",
-  "date": "2022-03-18",
-=======
   "version": "1.5.0",
   "name": "IdentifierStandortnummer",
   "title": "Identifier-Profil für die Standortnummer",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
->>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

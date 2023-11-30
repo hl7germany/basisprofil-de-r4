@@ -2,10 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "GradDerBehinderung",
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
-<<<<<<< HEAD
-  "name": "GradDerBehinderung",
-  "status": "draft",
-=======
   "version": "1.5.0",
   "name": "GradDerBehinderung",
   "status": "active",
@@ -22,7 +18,6 @@
       ]
     }
   ],
->>>>>>> master
   "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",
   "fhirVersion": "4.0.1",
   "mapping": [

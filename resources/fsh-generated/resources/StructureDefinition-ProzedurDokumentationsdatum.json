@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ProzedurDokumentationsdatum",
   "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionProzedurDokumentationsdatum",
   "status": "active",
   "experimental": false,

@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "versichertenart",
   "url": "http://fhir.de/StructureDefinition/gkv/versichertenart",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionGkvVersichertenart",
   "title": "Versichertenart GKV",
   "status": "active",

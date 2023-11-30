@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "coverage-de-basis",
   "url": "http://fhir.de/StructureDefinition/coverage-de-basis",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "CoverageDeBasis",
   "title": "Coverage, deutsches Basisprofil",
   "status": "active",

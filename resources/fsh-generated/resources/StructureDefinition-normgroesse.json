@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "normgroesse",
   "url": "http://fhir.de/StructureDefinition/normgroesse",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionNormgroesseDeBasis",
   "status": "active",
   "experimental": false,

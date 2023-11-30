@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionLebensphase",
   "url": "http://fhir.de/StructureDefinition/lebensphase",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionLebensphase",
   "status": "active",
   "experimental": false,

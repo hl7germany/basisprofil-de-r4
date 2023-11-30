@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "dmp-kennzeichen",
   "url": "http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionGkvDmpKennzeichen",
   "status": "active",
   "experimental": false,

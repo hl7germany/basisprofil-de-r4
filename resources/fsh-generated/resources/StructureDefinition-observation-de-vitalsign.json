@@ -1,13 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-<<<<<<< HEAD:resources/fsh-generated/resources/StructureDefinition-VitalSignDE.json
-  "id": "VitalSignDE",
-  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
-=======
   "id": "observation-de-vitalsign",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
   "version": "1.5.0",
->>>>>>> master:resources/fsh-generated/resources/StructureDefinition-observation-de-vitalsign.json
   "name": "VitalSignDE",
   "status": "active",
   "experimental": false,

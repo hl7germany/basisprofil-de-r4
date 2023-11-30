@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ruhender-leistungsanspruch",
   "url": "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionGkvRuhenderLeistungsanspruch",
   "status": "active",
   "experimental": false,

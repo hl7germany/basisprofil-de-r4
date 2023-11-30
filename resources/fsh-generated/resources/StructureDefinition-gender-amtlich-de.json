@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "gender-amtlich-de",
   "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "GenderOtherDE",
   "title": "Differenzierung des administrativen Geschlechts 'other'",
   "status": "active",

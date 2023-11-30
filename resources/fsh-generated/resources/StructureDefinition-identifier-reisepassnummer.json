@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-reisepassnummer",
   "url": "http://fhir.de/StructureDefinition/identifier-reisepassnummer",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "IdentifierReisepassnummer",
   "title": "Identifier-Profil für die Abbildung einer Reisepassnummer",
   "status": "active",

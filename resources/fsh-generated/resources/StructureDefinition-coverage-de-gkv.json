@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "coverage-de-gkv",
   "url": "http://fhir.de/StructureDefinition/coverage-de-gkv",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "CoverageDeGkv",
   "title": "Coverage, deutsches GKV-Profil",
   "status": "active",

@@ -2,19 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingOPS",
   "url": "http://fhir.de/StructureDefinition/CodingOPS",
-<<<<<<< HEAD
-  "name": "CodingOPS",
-  "title": "Coding-Profil für OPS",
-  "status": "draft",
-  "date": "2021-02-17",
-=======
   "version": "1.5.0",
   "name": "CodingOPS",
   "title": "Coding-Profil für OPS",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
->>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

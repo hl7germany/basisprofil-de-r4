@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Aufnahmegrund",
   "url": "http://fhir.de/StructureDefinition/Aufnahmegrund",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionAufnahmegrund",
   "title": "ExtensionAufnahmegrund",
   "status": "active",

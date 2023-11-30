@@ -2,19 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingATC",
   "url": "http://fhir.de/StructureDefinition/CodingATC",
-<<<<<<< HEAD
-  "name": "CodingATC",
-  "title": "Coding-Profil für ATC",
-  "status": "draft",
-  "date": "2021-02-17",
-=======
   "version": "1.5.0",
   "name": "CodingATC",
   "title": "Coding-Profil für ATC",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
->>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

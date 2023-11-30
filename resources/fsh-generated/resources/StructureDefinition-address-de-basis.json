@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "address-de-basis",
   "url": "http://fhir.de/StructureDefinition/address-de-basis",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "AddressDeBasis",
   "title": "Adresse, deutsches Basisprofil",
   "status": "active",

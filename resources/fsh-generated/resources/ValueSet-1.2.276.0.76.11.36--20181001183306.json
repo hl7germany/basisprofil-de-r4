@@ -40,23 +40,6 @@
       "value": "urn:oid:1.2.276.0.76.11.36"
     }
   ],
-<<<<<<< HEAD
-  "version": "2018-10-01T18:33:06",
-  "experimental": false,
-  "date": "2022-09-23",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "other",
-          "value": "http://hl7.de/technische-komitees/fhir/"
-        }
-      ]
-    }
-  ],
-=======
->>>>>>> master
   "immutable": false,
   "compose": {
     "include": [

@@ -944,14 +944,6 @@
       "display": "Zypern"
     }
   ],
-<<<<<<< HEAD
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
-=======
->>>>>>> master
   "version": "2.56",
   "experimental": false,
   "date": "2023-11-30",

@@ -1,13 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-<<<<<<< HEAD:resources/fsh-generated/resources/StructureDefinition-VitalSignDE-Kopfumfang.json
-  "id": "VitalSignDE-Kopfumfang",
-  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
-=======
   "id": "observation-de-vitalsign-kopfumfang",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
   "version": "1.5.0",
->>>>>>> master:resources/fsh-generated/resources/StructureDefinition-observation-de-vitalsign-kopfumfang.json
   "name": "VitalSignDE_Kopfumfang",
   "title": "Observation - VitalSignDE - Kopfumfang",
   "status": "active",

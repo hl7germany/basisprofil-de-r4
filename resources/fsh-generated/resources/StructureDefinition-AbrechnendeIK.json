@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "AbrechnendeIK",
   "url": "http://fhir.de/StructureDefinition/AbrechnendeIK",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "ExtensionAbrechnendeIK",
   "status": "active",
   "experimental": false,

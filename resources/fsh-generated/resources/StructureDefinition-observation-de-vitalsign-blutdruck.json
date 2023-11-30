@@ -2,10 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-blutdruck",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
-<<<<<<< HEAD
-=======
   "version": "1.5.0",
->>>>>>> master
   "name": "VitalSignDE_Blutdruck",
   "status": "active",
   "experimental": false,
