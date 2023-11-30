@@ -73,7 +73,10 @@
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
-        "sliceName": "loinc"
+        "sliceName": "loinc",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:loinc.system",

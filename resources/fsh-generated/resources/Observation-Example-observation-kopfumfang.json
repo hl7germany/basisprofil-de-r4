@@ -3,7 +3,6 @@
   "id": "Example-observation-kopfumfang",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfan",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
       "http://hl7.org/fhir/StructureDefinition/headcircum",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"

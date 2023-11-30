@@ -22,15 +22,6 @@
   "code": {
     "coding": [
       {
-        "code": "27113001",
-        "system": "http://snomed.info/sct",
-        "display": "Body weight"
-      },
-      {
-        "code": "29463-7",
-        "system": "http://loinc.org"
-      },
-      {
         "code": "29463-7",
         "system": "http://loinc.org",
         "display": "Body weight"
@@ -39,6 +30,11 @@
         "code": "8339-4",
         "system": "http://loinc.org",
         "display": "Birth weight Measured"
+      },
+      {
+        "code": "27113001",
+        "system": "http://snomed.info/sct",
+        "display": "Body weight"
       }
     ],
     "text": "Körpergewicht"

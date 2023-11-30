@@ -3,7 +3,7 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung
 * insert Meta
 * code = $loinc#2708-6
-  * coding[loinc]
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
   * coding[snomed] = $sct#442476006

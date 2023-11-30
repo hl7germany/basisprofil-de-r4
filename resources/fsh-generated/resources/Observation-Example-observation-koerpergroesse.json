@@ -22,15 +22,6 @@
   "code": {
     "coding": [
       {
-        "code": "50373000",
-        "system": "http://snomed.info/sct",
-        "display": "Body height measure"
-      },
-      {
-        "code": "8302-2",
-        "system": "http://loinc.org"
-      },
-      {
         "code": "8302-2",
         "system": "http://loinc.org",
         "display": "Body height"
@@ -39,6 +30,11 @@
         "code": "89269-5",
         "system": "http://loinc.org",
         "display": "Body height Measured --at birth"
+      },
+      {
+        "code": "50373000",
+        "system": "http://snomed.info/sct",
+        "display": "Body height measure"
       }
     ],
     "text": "Körpergröße"

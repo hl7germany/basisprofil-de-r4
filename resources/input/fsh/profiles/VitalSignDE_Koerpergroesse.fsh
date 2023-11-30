@@ -18,9 +18,9 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc][+] = $loinc#8302-2 "Body height"
-* code.coding[loinc][+] = $loinc#89269-5 "Body height Measured --at birth"
-* code.coding[snomed] = $sct#50373000 "Body height measure"
+* code.coding[+] = $loinc#8302-2 "Body height"
+* code.coding[+] = $loinc#89269-5 "Body height Measured --at birth"
+* code.coding[+] = $sct#50373000 "Body height measure"
 * code.text = "Körpergröße"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"
