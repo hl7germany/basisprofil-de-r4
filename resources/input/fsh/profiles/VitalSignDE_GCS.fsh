@@ -1,11 +1,7 @@
 Profile: VitalSignDE_GCS
 Parent: VitalSignDE
 Id: observation-de-vitalsign-gcs
-* ^date = "2021-11-04"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#9269-2
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
@@ -39,7 +35,7 @@ Id: observation-de-vitalsign-gcs
 Instance: Example-observation-gcs
 InstanceOf: VitalSignDE_GCS
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#9269-2 "Glasgow coma score total"

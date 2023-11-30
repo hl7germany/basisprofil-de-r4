@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Koerpergroesse
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpergroesse
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#8302-2
   * coding[loinc] from ValueSetVitalSignDE_Body_Height_Loinc (required)
     * system 1..

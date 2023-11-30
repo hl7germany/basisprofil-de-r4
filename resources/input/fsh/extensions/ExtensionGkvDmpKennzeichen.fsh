@@ -6,8 +6,8 @@ Verpflichtungen von einzelnen Kostenträgern und Leistungserbringern noch
 Verwendung. Das DMP-Kennzeichen wird in diesem Zusammenhang als
 Angabe zum Nachweis von Wahltarifen nach § 53 SGB V bzw. der Angaben
 zum Nachweis von zusätzlichen Vertragsverhältnissen verwendet."""
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen"
-* insert addMetadata
 * ^context.type = #element
 * ^context.expression = "Coverage"
 * url = "http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen" (exactly)

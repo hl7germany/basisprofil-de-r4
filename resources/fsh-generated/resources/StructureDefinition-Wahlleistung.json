@@ -2,16 +2,20 @@
   "resourceType": "StructureDefinition",
   "id": "Wahlleistung",
   "url": "http://fhir.de/StructureDefinition/Wahlleistung",
+<<<<<<< HEAD
+=======
+  "version": "1.5.0",
+>>>>>>> master
   "name": "ExtensionWahlleistung",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]

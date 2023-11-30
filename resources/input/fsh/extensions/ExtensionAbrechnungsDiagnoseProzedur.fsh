@@ -1,7 +1,7 @@
 Extension: ExtensionAbrechnungsDiagnoseProzedur
 Id: ExtensionAbrechnungsDiagnoseProzedur
 Title: "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
-* insert addMetadata
+* insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Account"

@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Atemfrequenz
 Parent: VitalSignDE
 Id: observation-de-vitalsign-atemfrequenz
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#9279-1
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
@@ -16,7 +15,7 @@ Id: observation-de-vitalsign-atemfrequenz
 Instance: Example-observation-atemfrequenz
 InstanceOf: VitalSignDE_Atemfrequenz
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/resprate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * status = #final

@@ -2,23 +2,31 @@
   "resourceType": "StructureDefinition",
   "id": "CodingASK",
   "url": "http://fhir.de/StructureDefinition/CodingASK",
+<<<<<<< HEAD
   "name": "CodingASK",
   "title": "Coding-Profil für ASK",
   "status": "draft",
   "date": "2021-02-17",
+=======
+  "version": "1.5.0",
+  "name": "CodingASK",
+  "title": "Coding-Profil für ASK",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+>>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
-      "name": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
       "telecom": [
         {
-          "system": "url"
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Abbildung der Mindestanforderungen einer ASK-Codierung",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

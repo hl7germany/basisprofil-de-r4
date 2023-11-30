@@ -15,13 +15,13 @@ Usage: #definition
 * publisher = "IHE Deutschland e.V."
 * description = "**eventCodeList (XDSDocumentEntry)**\r\nThis list of codes represents the main clinical acts being documented in an XDS Document."
 * immutable = false
-* compose.include[0].system = "http://hl7.org/fhir/ValueSet/signature-type"
+* compose.include[+].system = "http://hl7.org/fhir/ValueSet/signature-type"
 * compose.include[+].system = "urn:oid:1.2.840.10008.6.1.19"
 * compose.include[+].system = "urn:oid:1.2.840.10008.6.1.2"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
-* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Ambulanter Kontakt in beliebiger Einrichtung mit Teilnahme an der ambulanten Versorgung"
 * compose.include[=].concept[=].code = #E100
 * compose.include[=].concept[=].display = "ambulanter Kontakt"
@@ -114,7 +114,7 @@ Usage: #definition
 * compose.include[=].concept[=].code = #E400
 * compose.include[=].concept[=].display = "Virtual Encounter"
 * compose.include[+].system = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
-* compose.include[=].concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "Dokumente, die der Patient zu seinem Arzt oder in die Klinik mitgebracht hat und die dort eingescannt wurden. Die Dokumente können von Medizinern und anderen Leistungserbringern, von anderen Autoren wie z.B. Behörden/Krankenkassen/Schulen oder vom Patienten selbst erstellt worden sein."
 * compose.include[=].concept[=].code = #H1
 * compose.include[=].concept[=].display = "vom Patienten mitgebracht"
@@ -131,7 +131,7 @@ Usage: #definition
 * compose.include[=].concept[=].code = #H4
 * compose.include[=].concept[=].display = "vorläufiges Dokument"
 * compose.include[+].system = "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"
-* compose.include[=].concept[0].code = #urn:ihe:iti:xdw:2011:eventCode:open
+* compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
 * compose.include[=].concept[=].display = "Workflow offen"
 * compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 * compose.include[=].concept[=].display = "Workflow abgeschlossen"

@@ -1,24 +1,32 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "identifier-pkvid-10",
+  "id": "identifier-pkv-kvid-10",
   "url": "http://fhir.de/StructureDefinition/identifier-pkv-kvid-10",
+<<<<<<< HEAD:resources/fsh-generated/resources/StructureDefinition-identifier-pkvid-10.json
   "name": "IdentifierPkvVersichertenId10",
   "title": "Identifier-Profil für die 10-stellige Versicherten ID (PKV)",
   "status": "draft",
   "date": "2022-06-27",
+=======
+  "version": "1.5.0",
+  "name": "IdentifierPkvVersichertenId10",
+  "title": "Identifier-Profil für die 10-stellige Versicherten ID (PKV)",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+>>>>>>> master:resources/fsh-generated/resources/StructureDefinition-identifier-pkv-kvid-10.json
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Identifier-Profil für den unveränderlichen 10-stelligen Teil der Versicherten ID der privaten Krankenversicherungen",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

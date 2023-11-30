@@ -2,24 +2,27 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pid",
   "url": "http://fhir.de/StructureDefinition/identifier-pid",
+<<<<<<< HEAD
+=======
+  "version": "1.5.0",
+>>>>>>> master
   "name": "IdentifierPid",
   "title": "Identifier-Profil für die Abbildung einer Patienten-ID",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Identifier-Profil für die Abbildung einer organisationsspezifischen Patienten-ID",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

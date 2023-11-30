@@ -2,23 +2,31 @@
   "resourceType": "StructureDefinition",
   "id": "CodingAlphaIDSE",
   "url": "http://fhir.de/StructureDefinition/CodingAlphaIDSE",
+<<<<<<< HEAD
   "name": "CodingAlphaIDSE",
   "title": "Coding-Profil für Alpha-ID-SE",
   "status": "draft",
   "date": "2021-02-17",
+=======
+  "version": "1.5.0",
+  "name": "CodingAlphaIDSE",
+  "title": "Coding-Profil für Alpha-ID-SE",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+>>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
-      "name": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
       "telecom": [
         {
-          "system": "url"
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Abbildung der Mindestanforderungen eines Alpha-ID-SE-Codes",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

@@ -3,8 +3,7 @@ Parent: Identifier
 Id: identifier-lanr
 Title: "Identifier-Profil für die Abbildung einer lebenslangen Arztnummer"
 Description: "Identifier-Profil für die Abbildung einer lebenslangen Arztnummer"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * use = #official (exactly)
 * type = $v2-0203#LANR
 * type from IdentifierTypeDeBasis (extensible)

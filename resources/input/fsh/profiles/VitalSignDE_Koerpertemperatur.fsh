@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Koerpertemperatur
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpertemperatur
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#8310-5
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
@@ -16,7 +15,7 @@ Id: observation-de-vitalsign-koerpertemperatur
 Instance: Example-observation-koerpertemperatur
 InstanceOf: VitalSignDE_Koerpertemperatur
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final

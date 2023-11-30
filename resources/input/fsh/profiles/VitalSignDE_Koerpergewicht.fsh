@@ -1,8 +1,7 @@
 Profile: VitalSignDE_Koerpergewicht
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpergewicht
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code = $loinc#29463-7
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..

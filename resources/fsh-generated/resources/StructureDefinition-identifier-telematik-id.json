@@ -2,23 +2,31 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-telematik-id",
   "url": "http://fhir.de/StructureDefinition/identifier-telematik-id",
+<<<<<<< HEAD
   "name": "IdentifierTelematikId",
   "title": "Identifier-Profil für die Telematik-ID",
   "status": "draft",
   "date": "2021-10-28",
+=======
+  "version": "1.5.0",
+  "name": "IdentifierTelematikId",
+  "title": "Identifier-Profil für die Telematik-ID",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+>>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Die Telematik-ID repräsentiert als eineindeutiges Merkmal die Identität eines Teilnehmers, also eines Leistungserbringers im HBA respektive einer Organisation/Einrichtung des Gesundheitswesens in einer SMC-B.",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

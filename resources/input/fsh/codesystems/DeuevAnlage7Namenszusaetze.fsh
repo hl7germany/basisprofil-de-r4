@@ -1,10 +1,10 @@
 CodeSystem: DeuevAnlage7Namenszusaetze
 Id: anlage-7-namenszusaetze
 Description: "Tabelle der gültigen Namenszusätze"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"
 * ^version = "2.25"
-* insert addMetadata
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete

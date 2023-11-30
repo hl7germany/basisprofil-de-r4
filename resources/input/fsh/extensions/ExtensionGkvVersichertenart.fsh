@@ -2,8 +2,8 @@ Extension: ExtensionGkvVersichertenart
 Id: versichertenart
 Title: "Versichertenart GKV"
 Description: "Gibt die Versichertenart des Versicherten an."
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/versichertenart"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

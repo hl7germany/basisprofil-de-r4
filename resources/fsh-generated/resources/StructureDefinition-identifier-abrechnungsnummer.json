@@ -2,23 +2,31 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-abrechnungsnummer",
   "url": "http://fhir.de/StructureDefinition/identifier-abrechnungsnummer",
+<<<<<<< HEAD
   "name": "IdentifierAbrechnungsnummer",
   "title": "Identifier-Profil für die Abbildung einer Abrechnungsnummer (\"Fallnummer\") ",
   "status": "draft",
   "date": "2023-02-09",
+=======
+  "version": "1.5.0",
+  "name": "IdentifierAbrechnungsnummer",
+  "title": "Identifier-Profil für die Abbildung einer Abrechnungsnummer (\"Fallnummer\") ",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+>>>>>>> master
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
   "description": "Identifier-Profil für die Abbildung einer organisationsspezifischen Abrechnungsnummer (\"Fallnummer\")",
-  "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

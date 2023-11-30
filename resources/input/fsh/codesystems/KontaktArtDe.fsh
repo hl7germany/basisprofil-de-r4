@@ -2,9 +2,9 @@ CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
 Description: "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
-* insert addMetadata
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/kontaktart-de"
 * ^hierarchyMeaning = #is-a
