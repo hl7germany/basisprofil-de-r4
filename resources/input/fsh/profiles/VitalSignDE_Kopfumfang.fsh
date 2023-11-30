@@ -3,8 +3,8 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-kopfumfang
 Title: "Observation - VitalSignDE - Kopfumfang"
 * insert Meta
-* code
-  * coding[loinc] = $loinc#9843-4
+* code = $loinc#9843-4
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
   * coding[snomed] = $sct#363812007

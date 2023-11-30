@@ -3,6 +3,9 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-gcs
 * insert Meta
 * code = $loinc#9269-2
+  * coding[loinc] ^patternCoding.system = $loinc
+    * system 1..
+    * code 1..
 * value[x] 1..
 * value[x] only Quantity
 * valueQuantity 1..

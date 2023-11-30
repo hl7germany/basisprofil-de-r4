@@ -59,11 +59,22 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "patternCoding": {
-          "code": "9279-1",
           "system": "http://loinc.org"
         }
       },

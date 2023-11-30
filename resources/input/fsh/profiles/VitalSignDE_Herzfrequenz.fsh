@@ -2,8 +2,8 @@ Profile: VitalSignDE_Herzfrequenz
 Parent: VitalSignDE
 Id: observation-de-vitalsign-herzfrequenz
 * insert Meta
-* code
-  * coding[loinc] = $loinc#8867-4
+* code = $loinc#8867-4
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
   * coding[snomed] = $sct#364075005

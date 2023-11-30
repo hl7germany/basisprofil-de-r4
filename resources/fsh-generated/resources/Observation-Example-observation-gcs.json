@@ -21,8 +21,8 @@
   "code": {
     "coding": [
       {
-        "code": "9269-2",
         "system": "http://loinc.org",
+        "code": "9269-2",
         "display": "Glasgow coma score total"
       }
     ]

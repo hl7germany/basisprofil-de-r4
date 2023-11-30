@@ -22,8 +22,8 @@
   "code": {
     "coding": [
       {
-        "code": "9843-4",
         "system": "http://loinc.org",
+        "code": "9843-4",
         "display": "Head Occipital-frontal circumference"
       },
       {

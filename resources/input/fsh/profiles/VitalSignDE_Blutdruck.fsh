@@ -2,8 +2,8 @@ Profile: VitalSignDE_Blutdruck
 Parent: VitalSignDE
 Id: observation-de-vitalsign-blutdruck
 * insert Meta
-* code
-  * coding[loinc] = $loinc#85354-9
+* code = $loinc#85354-9
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
   * coding[snomed] = $sct#75367002

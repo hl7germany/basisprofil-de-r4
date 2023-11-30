@@ -2,8 +2,8 @@ Profile: VitalSignDE_Koerpertemperatur
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpertemperatur
 * insert Meta
-* code
-  * coding[loinc] = $loinc#8310-5
+* code = $loinc#8310-5
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
   * coding[snomed] = $sct#386725007
