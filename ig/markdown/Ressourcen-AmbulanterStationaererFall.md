@@ -15,13 +15,13 @@ Für folgenden Elemente des Encounters werden innerhalb der Deutschen Basisprofi
     - [Encounter.hospitalization.dischargeDisposition (Extension) - Entlassungsgrund](http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle)
     - [Encounter.hospitalization (Extension) - Wahlleistung](http://fhir.de/CodeSystem/wahlleistungen-de)
 
-Für die Ausgestaltung des Encounters im stationären Kontext wird auf das [Basismodul 'Fall' der Medizininformatik-Initative](https://simplifier.net/guide/medizininformatikinitiative-modulfall-implementationguide/igmiikdsmodulfall) verwiesen und das [ISiK Basismodul Stufe 2 der gematik](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Kontakt?version=current).
+Für die Ausgestaltung des Encounters im stationären Kontext wird auf das [Basismodul 'Fall' der Medizininformatik-Initative](https://simplifier.net/guide/mii-ig-modul-fall-2024-de/MII-IG-Modul-Fall/TechnischeImplementierung/FHIRProfile/EncounterKontaktGesundheitseinrichtung.page.md?version=current) verwiesen und das [ISiK Basismodul Stufe 3 der gematik](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Kontakt?version=current).
 
 #### **Abrechnungsfall** 
 
 Der Fall im Sinne einer Gruppierung von medizinischen Leistungen, die in einem gemeinsamen Kontext abgerechnet werden, sind in FHIR durch die Ressource `Account` repräsentiert. Ein Abrechnungsfall kann mehrere `Encounter` umfassen (z.B. vorstationärer Besuch, stationärer Aufenthalt und nachstationäre Besuche)
 
-Für Hinweise und Beispiele zum Umgang mit den in diesem Leitfaden vereinbarten Extensions und Terminologien im Kontext der in Deutschland üblichen stationären und ambulanten Abrechnung, verweisen wir auf die Festlegungen in [ISiK Basismodul Stufe 2 der gematik](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Abrechnungsfall?version=current)
+Für Hinweise und Beispiele zum Umgang mit den in diesem Leitfaden vereinbarten Extensions und Terminologien im Kontext der in Deutschland üblichen stationären und ambulanten Abrechnung, verweisen wir auf die Festlegungen in [ISiK Basismodul Stufe 3 der gematik](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Abrechnungsfall?version=current)
 
 #### **Medizinischer Fall** 
 

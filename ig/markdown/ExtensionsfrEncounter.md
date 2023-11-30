@@ -1,6 +1,6 @@
 ### Extensions für Encounter
 
-Folgende Extensions werden im Kontext der [FHIR Ressource 'Encounter'](https://www.hl7.org/fhir/encounter.html) definiert:
+Folgende Extensions werden im Kontext der [FHIR Ressource 'Encounter'](https://www.hl7.org/fhir/r4/encounter.html) definiert:
 
 ----
 

@@ -7,7 +7,7 @@ http://fhir.de/
 ~~~~
 - Wenn die darunterliegenden Kodesysteme, Kataloge oder Namensräume von anderen Organisationen gepflegt bzw. veröffentlicht werden, erhalten die URLs einen zusätzlichen Pfad- Die Namen werden (sofern sie sprechend genug sind) beibehalten, die Schreibweisen werden jedoch an das FHIR-Schema angepasst (lowercase, Binde- statt Unterstrich), z.B.: 
 ~~~~ 
-http://fhir.de/CodeSystem/dimdi/alpha-id
+http://fhir.de/CodeSystem/bfarm/alpha-id
 ~~~~
 - Wenn für ein Artefakt bereits eine OID vergeben wurde, so wird diese als zusätzlicher Identifier in der Ressource mitgeführt, so dass es möglich ist, nach diesen Ressourcen anhand der OID zu suchen.
 - ValueSets, die alle Konzepte eines CodeSystems vollständig enthalten, tragen den selben Namen wie das CodeSystem, z.B.:
