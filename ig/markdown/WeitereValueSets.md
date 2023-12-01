@@ -17,3 +17,8 @@
 
 {{render:http://fhir.de/ValueSet/merkzeichen-de}}
 
+<br><br>
+
+**Canonical**: ```http://fhir.de/ValueSet/wirkstofftyp```
+
+{{render:http://fhir.de/ValueSet/wirkstofftyp}}

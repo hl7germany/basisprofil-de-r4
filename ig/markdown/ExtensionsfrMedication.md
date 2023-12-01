@@ -29,3 +29,26 @@ Beispiel:
 ```
 
 ----
+
+Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionWirkstofftyp&scope=de.basisprofil.r4@1.5.0))
+
+Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionWirkstofftyp' select description```
+
+Canonical: `http://fhir.de/StructureDefinition/ExtensionWirkstofftyp`
+
+Kontext: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionWirkstofftyp' for context select expression```
+
+{{tree:http://fhir.de/StructureDefinition/ExtensionWirkstofftyp, snapshot}}
+
+Beispiel:
+
+```xml
+<extension url="http://fhir.de/StructureDefinition/normgroesse" >
+    <valueCoding>
+      <system value="http://fhir.de/CodeSystem/wirkstofftyp"/>
+      <code value="IN"/>
+    <valueCoding>
+</extension>
+```
+
+----
