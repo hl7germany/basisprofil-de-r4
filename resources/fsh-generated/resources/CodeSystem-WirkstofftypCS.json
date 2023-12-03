@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "CodeSystemWirkstofftyp",
-  "id": "CodeSystemWirkstofftyp",
+  "name": "WirkstofftypCS",
+  "id": "WirkstofftypCS",
   "title": "CodeSystem - Wirkstofftypen",
   "description": "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe.",
-  "url": "http://fhir.de/CodeSystem/wirkstofftyp",
+  "url": "http://fhir.de/CodeSystem/WirkstofftypCS",
   "concept": [
     {
       "code": "IN",
@@ -62,6 +62,6 @@
     ]
   },
   "caseSensitive": true,
-  "valueSet": "http://fhir.de/ValueSet/wirkstofftyp",
+  "valueSet": "http://fhir.de/ValueSet/WirkstofftypVS",
   "count": 3
 }

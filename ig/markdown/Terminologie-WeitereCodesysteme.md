@@ -37,6 +37,6 @@
 
 <br><br>
 
-**Canonical**: ```http://fhir.de/CodeSystem/wirkstofftyp```
+**Canonical**: ```http://fhir.de/CodeSystem/WirkstofftypCS```
 
-{{render:http://fhir.de/CodeSystem/wirkstofftyp}}
+{{render:http://fhir.de/CodeSystem/WirkstofftypCS}}

@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ExtensionWirkstofftyp",
-  "url": "http://fhir.de/StructureDefinition/ExtensionWirkstofftyp",
+  "id": "WirkstofftypEX",
+  "url": "http://fhir.de/StructureDefinition/WirkstofftypEX",
   "version": "1.5.0",
-  "name": "ExtensionWirkstofftyp",
+  "name": "WirkstofftypEX",
   "title": "ExtensionWirkstofftyp",
   "status": "active",
   "experimental": false,
@@ -49,7 +49,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/ExtensionWirkstofftyp"
+        "fixedUri": "http://fhir.de/StructureDefinition/WirkstofftypEX"
       },
       {
         "id": "Extension.value[x]",
@@ -62,14 +62,13 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/wirkstofftyp"
+          "valueSet": "http://fhir.de/ValueSet/WirkstofftypVS"
         }
       },
       {
         "id": "Extension.value[x].system",
         "path": "Extension.value[x].system",
-        "min": 1,
-        "fixedUri": "http://fhir.de/ValueSet/wirkstofftyp"
+        "min": 1
       },
       {
         "id": "Extension.value[x].code",

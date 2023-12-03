@@ -19,6 +19,6 @@
 
 <br><br>
 
-**Canonical**: ```http://fhir.de/ValueSet/wirkstofftyp```
+**Canonical**: ```http://fhir.de/ValueSet/WirkstofftypVS```
 
-{{render:http://fhir.de/ValueSet/wirkstofftyp}}
+{{render:http://fhir.de/ValueSet/WirkstofftypVS}}

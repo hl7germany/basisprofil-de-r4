@@ -30,24 +30,24 @@ Beispiel:
 
 ----
 
-Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionWirkstofftyp&scope=de.basisprofil.r4@1.5.0))
+Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/WirkstofftypEX&scope=de.basisprofil.r4@1.5.0))
 
-Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionWirkstofftyp' select description```
+Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/WirkstofftypEX' select description```
 
-Canonical: `http://fhir.de/StructureDefinition/ExtensionWirkstofftyp`
+Canonical: `http://fhir.de/StructureDefinition/WirkstofftypEX`
 
-Kontext: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionWirkstofftyp' for context select expression```
+Kontext: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/WirkstofftypEX' for context select expression```
 
-{{tree:http://fhir.de/StructureDefinition/ExtensionWirkstofftyp, snapshot}}
+{{tree:http://fhir.de/StructureDefinition/WirkstofftypEX, snapshot}}
 
 Beispiel:
 
 ```xml
-<extension url="http://fhir.de/StructureDefinition/normgroesse" >
+<extension url="http://fhir.de/StructureDefinition/WirkstofftypEX" >
     <valueCoding>
-      <system value="http://fhir.de/CodeSystem/wirkstofftyp"/>
+      <system value="http://fhir.de/CodeSystem/WirkstofftypCS"/>
       <code value="IN"/>
-    <valueCoding>
+    </valueCoding>
 </extension>
 ```
 

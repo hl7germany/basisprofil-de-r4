@@ -1,14 +1,12 @@
-CodeSystem: CodeSystemWirkstofftyp
-Id: CodeSystemWirkstofftyp
+CodeSystem: WirkstofftypCS
+Id: WirkstofftypCS
 Title: "CodeSystem - Wirkstofftypen"
 Description: "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #complete
-* ^url = "http://fhir.de/CodeSystem/wirkstofftyp"
-* ^experimental = false
 * ^caseSensitive = true
-* ^valueSet = "http://fhir.de/ValueSet/wirkstofftyp"
+* ^valueSet = Canonical(WirkstofftypVS)
 * ^count = 3
 * #IN "ingredient" "The name of the substance."
 * #IN ^designation.language = #de-DE

@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "ValueSetWirkstofftyp",
-  "id": "ValueSetWirkstofftyp",
+  "name": "WirkstofftypVS",
+  "id": "WirkstofftypVS",
   "title": "ValueSet  - Wirkstofftypen",
   "description": "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe.",
-  "url": "http://fhir.de/ValueSet/wirkstofftyp",
+  "url": "http://fhir.de/ValueSet/WirkstofftypVS",
   "version": "1.5.0",
   "experimental": false,
   "date": "2023-11-30",
@@ -28,7 +28,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://fhir.de/CodeSystem/wirkstofftyp"
+        "system": "http://fhir.de/CodeSystem/WirkstofftypCS"
       }
     ]
   }
