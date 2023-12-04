@@ -30,11 +30,6 @@
         "system": "http://loinc.org",
         "code": "59408-5",
         "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
-      },
-      {
-        "code": "442476006",
-        "system": "http://snomed.info/sct",
-        "display": "Arterial oxygen saturation"
       }
     ],
     "text": "Pulsoximetrische Sauerstoffsättigung"
@@ -59,11 +54,6 @@
             "code": "3151-8",
             "system": "http://loinc.org",
             "display": "Inhaled oxygen flow rate"
-          },
-          {
-            "code": "427081008",
-            "system": "http://snomed.info/sct",
-            "display": "Delivered oxygen flow rate"
           }
         ],
         "text": "Sauerstoffflussrate"
@@ -82,11 +72,6 @@
             "code": "3150-0",
             "system": "http://loinc.org",
             "display": "Inhaled oxygen concentration"
-          },
-          {
-            "code": "250774007",
-            "system": "http://snomed.info/sct",
-            "display": "Inspired oxygen concentration"
           }
         ],
         "text": "Inspiratorische Sauerstoffkonzentration"

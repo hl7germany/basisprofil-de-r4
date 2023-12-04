@@ -14,7 +14,8 @@ Id: observation-de-vitalsign
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains loinc 1..* and snomed 0..*
+//  * coding contains loinc 1..* and snomed 0..*
+  * coding contains loinc 1..*
 * subject 1..
 * subject only Reference(Patient or Group)
 * effective[x] 1..

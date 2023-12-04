@@ -122,13 +122,6 @@
         "max": "*"
       },
       {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "min": 0,
-        "max": "*"
-      },
-      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "min": 1,

@@ -90,15 +90,6 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "patternCoding": {
-          "code": "50373000",
-          "system": "http://snomed.info/sct"
-        }
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "type": [

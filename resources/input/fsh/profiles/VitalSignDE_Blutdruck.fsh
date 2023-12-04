@@ -6,9 +6,9 @@ Id: observation-de-vitalsign-blutdruck
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
-  * coding[snomed] = $sct#75367002
-    * system 1..
-    * code 1..
+//  * coding[snomed] = $sct#75367002
+//    * system 1..
+//    * code 1..
 * value[x] only Quantity
 * valueQuantity ..0
 * value[x] ..0
@@ -40,7 +40,7 @@ Usage: #example
 * code
   * text = "Systolischer und Diastolischer Blutdruck"
 * code.coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
-* code.coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+//* code.coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2012-09-17"
 * performer = Reference(Practitioner/example)
