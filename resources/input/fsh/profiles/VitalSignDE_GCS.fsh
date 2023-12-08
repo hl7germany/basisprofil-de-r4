@@ -16,9 +16,9 @@ Id: observation-de-vitalsign-gcs
   * ^slicing.discriminator.path = "code"
   * ^slicing.rules = #open
 * component contains
-    Eye 1..1 and
-    Motor 1..1 and
-    Verbal 1..1
+    Eye 0..1 and
+    Motor 0..1 and
+    Verbal 0..1
 * component[Eye].code = $loinc#9267-6
 * component[Eye].value[x] 1..
 * component[Eye].value[x] only Quantity
