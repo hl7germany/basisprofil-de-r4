@@ -1,7 +1,7 @@
 Extension: ExtensionAbrechnungsart
 Id: ExtensionAbrechnungsart
 Title: "Abrechnungsart"
-* insert addMetadata
+* insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Account.coverage"

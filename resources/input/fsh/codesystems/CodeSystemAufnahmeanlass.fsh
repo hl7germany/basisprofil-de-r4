@@ -2,9 +2,9 @@ CodeSystem: CodeSystemAufnahmeanlass
 Id: Aufnahmeanlass
 Title: "CodeSystemAufnahmeanlass"
 Description: "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/dgkev/Aufnahmeanlass"

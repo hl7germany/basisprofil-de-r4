@@ -3,8 +3,7 @@ Parent: Observation
 Id: observation-de-pflegegrad
 Title: "Pflegegrad, deutsches Basisprofil"
 Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung des erfolgten Antrags auf Einstufung in einen Pflegegrad"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * code.coding ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open

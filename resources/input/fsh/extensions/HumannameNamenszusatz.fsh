@@ -3,7 +3,7 @@ Id: humanname-namenszusatz
 Title: "Extension zur Erfassung der VSDM Namensbestandteile"
 Description: """Namenszusatz als Bestandteil das Nachnamens, wie in VSDM (Versichertenstammdatenmanagement, "eGK") definiert.
 Beispiele: Gräfin, Prinz oder Fürst"""
-* insert addMetadata
+* insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "HumanName.family"

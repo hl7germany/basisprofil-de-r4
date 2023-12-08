@@ -34,3 +34,9 @@
 **Canonical**: ```http://fhir.de/CodeSystem/merkzeichen-de```
 
 {{render:http://fhir.de/CodeSystem/merkzeichen-de}}
+
+<br><br>
+
+**Canonical**: ```http://fhir.de/CodeSystem/WirkstofftypCS```
+
+{{render:http://fhir.de/CodeSystem/WirkstofftypCS}}

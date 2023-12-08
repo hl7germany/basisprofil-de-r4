@@ -2,13 +2,13 @@ CodeSystem: CodeSystemSupplementISO3166
 Id: supplement-iso-3166
 Title: "CodeSystem Supplement ISO 3166"
 Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
-* insert addMetadata
 * ^caseSensitive = true
 * ^content = #supplement
 * ^supplements = "urn:iso:std:iso:3166"
 * #AF
-  * ^designation[0].language = #de-DE
+  * ^designation[+].language = #de-DE
   * ^designation[=].value = "Afghanistan"
 * #EG
   * ^designation[+].language = #de-DE
@@ -631,7 +631,7 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Tschechoslowakei (historisch)"
 * #SC
-  * ^designation[0].language = #de-DE
+  * ^designation[+].language = #de-DE
   * ^designation[=].value = "Seychellen"
 * #SL
   * ^designation[+].language = #de-DE

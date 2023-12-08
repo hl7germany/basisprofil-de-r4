@@ -2,8 +2,8 @@ CodeSystem: CodeSystemWahlleistungen
 Id: wahlleistungen-de
 Title: "Wahlleistungen"
 Description: "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen"
+* insert Meta
 * ^meta.profile = $shareablecodesystem
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/wahlleistungen-de"

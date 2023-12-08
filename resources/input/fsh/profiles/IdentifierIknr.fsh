@@ -3,8 +3,7 @@ Parent: Identifier
 Id: identifier-iknr
 Title: "Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)"
 Description: "Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * type = $v2-0203#XX
 * type from IdentifierTypeDeBasis (extensible)
 * system 1..

@@ -3,7 +3,7 @@ InstanceOf: Patient
 Usage: #example
 * name.use = #official
 * name.text = "Dr. Otto Graf Lambsdorff"
-* name.family.extension[0].url = "http://fhir.de/StructureDefinition/humanname-namenszusatz"
+* name.family.extension[+].url = "http://fhir.de/StructureDefinition/humanname-namenszusatz"
 * name.family.extension[=].valueString = "Graf"
 * name.family.extension[+].url = "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
 * name.family.extension[=].valueString = "Lambsdorff"

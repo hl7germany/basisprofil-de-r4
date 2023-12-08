@@ -6,7 +6,6 @@
   "id": "KontaktArtDe",
   "title": "KontaktArtDe",
   "description": "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
-  "version": "1.4.0",
   "url": "http://fhir.de/CodeSystem/kontaktart-de",
   "concept": [
     {
@@ -70,24 +69,25 @@
       "definition": "Aufenthalt in OP-Bereichen zur Durchführung von operativen Eingriffen inklusive Vor- und Nachbereitung"
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
+  "version": "1.5.0",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/kontaktart-de",
   "hierarchyMeaning": "is-a",

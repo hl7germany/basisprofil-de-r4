@@ -30,11 +30,6 @@
         "code": "89269-5",
         "system": "http://loinc.org",
         "display": "Body height Measured --at birth"
-      },
-      {
-        "code": "50373000",
-        "system": "http://snomed.info/sct",
-        "display": "Body height measure"
       }
     ],
     "text": "Körpergröße"

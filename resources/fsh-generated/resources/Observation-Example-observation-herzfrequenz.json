@@ -22,22 +22,17 @@
   "code": {
     "coding": [
       {
-        "code": "8867-4",
         "system": "http://loinc.org",
+        "code": "8867-4",
         "display": "Heart rate"
-      },
-      {
-        "code": "364075005",
-        "system": "http://snomed.info/sct",
-        "display": "Heart rate (observable entity)"
       }
     ],
     "text": "Herzfrequenz"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 63,
     "code": "/min",
+    "value": 63,
     "unit": "per minute"
   },
   "status": "final",
