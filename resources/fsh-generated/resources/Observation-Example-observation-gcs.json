@@ -38,16 +38,16 @@
       "code": {
         "coding": [
           {
-            "code": "9267-6",
+            "code": "9270-0",
             "system": "http://loinc.org",
-            "display": "Glasgow coma score eye opening"
+            "display": "Glasgow coma score verbal"
           }
         ]
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
         "code": "1",
-        "value": 3,
+        "value": 4,
         "unit": "Punktwert"
       }
     },
@@ -72,16 +72,16 @@
       "code": {
         "coding": [
           {
-            "code": "9270-0",
+            "code": "9267-6",
             "system": "http://loinc.org",
-            "display": "Glasgow coma score verbal"
+            "display": "Glasgow coma score eye opening"
           }
         ]
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
         "code": "1",
-        "value": 4,
+        "value": 3,
         "unit": "Punktwert"
       }
     }
