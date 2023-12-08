@@ -3,7 +3,7 @@ Parent: Identifier
 Id: identifier-lbnr
 Title: "Identifier-Profil für die Abbildung einer lebenslangen Beschäftigtennummer"
 Description: "Identifier-Profil für die Abbildung einer lebenslangen Beschäftigtennummer"
-* insert addMetadata
+* insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#PRN
