@@ -55,7 +55,7 @@
             <display value="Primär-DRG" />
         </valueCoding>
     </extension>
-    <extension url="Reference">
+    <extension url="Referenz">
         <valueReference>
             <reference value="Condition/example"/>
         </valueReference>
