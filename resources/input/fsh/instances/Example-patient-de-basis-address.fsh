@@ -8,12 +8,11 @@ Usage: #example
 * address[+].use = #home
 * address[=].type = #physical
 * address[=].text = "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland"
-* address[=].line[+] = "Musterweg 42"
+* address[=].line[+] = "Musterweg 42 // Hinterhof 2. Etage"
 * address[=].line[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
 * address[=].line[=].extension[=].valueString = "Musterweg"
 * address[=].line[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
 * address[=].line[=].extension[=].valueString = "42"
-* address[=].line[+] = "Hinterhof 2. Etage"
 * address[=].line[=].extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator"
 * address[=].line[=].extension.valueString = "Hinterhof 2. Etage"
 * address[=].city = "Berlin"
