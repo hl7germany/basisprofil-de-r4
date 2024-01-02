@@ -1,23 +1,24 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ExtensionFachabteilungsschluessel301",
-  "url": "http://fhir.de/StructureDefinition/ExtensionFachabteilungsschluessel301",
-  "version": "1.4.0",
+  "url": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301",
+  "version": "1.5.0",
   "name": "ExtensionFachabteilungsschluessel301",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
     }
   ],
+  "description": "Extension zur Dokumentation der Historie des Fachabteilungsschlüssels nach §301 SGB V. Der jeweils aktuelle Fachabteilungsschlüssel SOLLTE unter Organization.type zusätzlich angegeben werden. Die Extension ist NICHT zur Dokumentation des Fachabteilungsschlüssels im Kontext eines Encounters zu verwenden. Dort SOLLTE Encounter.serviceType zur Kodierung verwendet werden.",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -76,6 +77,7 @@
           "valueSet": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel",
           "extension": [
             {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/additional-binding",
               "extension": [
                 {
                   "url": "purpose",
@@ -85,8 +87,7 @@
                   "url": "valueSet",
                   "valueCanonical": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
                 }
-              ],
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+              ]
             }
           ]
         }
@@ -121,7 +122,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/ExtensionFachabteilungsschluessel301"
+        "fixedUri": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301"
       },
       {
         "id": "Extension.value[x]",
