@@ -10,6 +10,12 @@ Description: "Observation-Profil für Glasgow Coma Score"
 * category contains survey 1..1
 * category[survey] = $observation-category#survey
 * code = $loinc#9269-2
+  * coding
+    * ^slicing.discriminator.type = #pattern
+    * ^slicing.discriminator.path = "$this"
+    * ^slicing.rules = #open
+//  * coding contains loinc 1..* and snomed 0..*
+  * coding contains loinc 1..*
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..

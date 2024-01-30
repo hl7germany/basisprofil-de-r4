@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "observation-de-vitalsign-gcs",
-  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",
+  "id": "observation-de-score-gcs",
+  "url": "http://fhir.de/StructureDefinition/observation-de-score-gcs",
   "version": "1.5.0",
-  "name": "VitalSignDE_GCS",
+  "name": "ScoreDE_GCS",
+  "title": "Observation-Profil Glasgow Coma Score",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
@@ -18,6 +19,7 @@
       ]
     }
   ],
+  "description": "Observation-Profil für Glasgow Coma Score",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -54,10 +56,39 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.category:survey",
+        "path": "Observation.category",
+        "sliceName": "survey",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "survey",
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+            }
+          ]
+        }
+      },
       {
         "id": "Observation.code",
         "path": "Observation.code",
@@ -71,9 +102,25 @@
         }
       },
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "min": 1,
+        "max": "*",
         "patternCoding": {
           "system": "http://loinc.org"
         }
@@ -89,19 +136,31 @@
         "min": 1
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.subject",
+        "path": "Observation.subject",
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
           }
         ]
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
         "min": 1,
         "type": [
           {
@@ -138,6 +197,16 @@
       },
       {
         "id": "Observation.component:Eye",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
         "path": "Observation.component",
         "sliceName": "Eye",
         "min": 0,
@@ -161,26 +230,26 @@
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:Eye.value[x]:valueQuantity",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
+            "code": "CodeableConcept"
           }
         ],
-        "patternQuantity": {
-          "code": "1",
-          "system": "http://unitsofmeasure.org"
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/glasgow-coma-score-eye"
         }
       },
       {
         "id": "Observation.component:Motor",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
         "path": "Observation.component",
         "sliceName": "Motor",
         "min": 0,
@@ -204,26 +273,26 @@
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:Motor.value[x]:valueQuantity",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
+            "code": "CodeableConcept"
           }
         ],
-        "patternQuantity": {
-          "code": "1",
-          "system": "http://unitsofmeasure.org"
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/glasgow-coma-score-motor"
         }
       },
       {
         "id": "Observation.component:Verbal",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
         "path": "Observation.component",
         "sliceName": "Verbal",
         "min": 0,
@@ -247,22 +316,12 @@
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:Verbal.value[x]:valueQuantity",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
+            "code": "CodeableConcept"
           }
         ],
-        "patternQuantity": {
-          "code": "1",
-          "system": "http://unitsofmeasure.org"
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/glasgow-coma-score-verbal"
         }
       }
     ]
