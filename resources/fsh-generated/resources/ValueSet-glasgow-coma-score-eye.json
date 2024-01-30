@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "glasgow-coma-score-eye",
+  "url": "http://fhir.de/ValueSet/glasgow-coma-score-eye",
+  "version": "1.5.0",
+  "status": "draft",
+  "name": "VS_Score_GlasgowComaScore_Eye",
+  "title": "VS Score Glasgow Coma Score Eye",
+  "description": "Dieses ValueSet enthält Codes für die Augenöffnung Komponente des Glasgow Coma Scores.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA6553-7",
+            "display": "No eye opening",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                "valueDecimal": 1
+              }
+            ]
+          },
+          {
+            "code": "LA6554-5",
+            "display": "Eye opening to pain",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                "valueDecimal": 2
+              }
+            ]
+          },
+          {
+            "code": "LA6555-2",
+            "display": "Eye opening to verbal command",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                "valueDecimal": 3
+              }
+            ]
+          },
+          {
+            "code": "LA6556-0",
+            "display": "Eye opening spontaneously",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                "valueDecimal": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

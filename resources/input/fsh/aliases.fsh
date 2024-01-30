@@ -48,3 +48,4 @@ Alias: $KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT = https://fhir.kbv.de/ValueSet/KBV_V
 Alias: $KBV_VS_SFHIR_KBV_NORMGROESSE = https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_NORMGROESSE
 Alias: $KBV_VS_SFHIR_ICD_SEITENLOKALISATION = https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION
 Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: $structuredefinition-standards-status = http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
