@@ -22,22 +22,17 @@
   "code": {
     "coding": [
       {
-        "code": "8310-5",
         "system": "http://loinc.org",
+        "code": "8310-5",
         "display": "Body temperature"
-      },
-      {
-        "code": "386725007",
-        "system": "http://snomed.info/sct",
-        "display": "Body temperature (observable entity)"
       }
     ],
     "text": "Körpertemperatur"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 36.8,
     "code": "Cel",
+    "value": 36.8,
     "unit": "°C"
   },
   "status": "final",

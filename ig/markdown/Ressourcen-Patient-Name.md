@@ -2,7 +2,7 @@
 
 ### Name
 
-Im Datentyp `HumanName` sind Felder für die üblicherweise verwendeten Namensbestandteile wie Vorname, Nachname und Präfix vorgesehen. Die Auswahl der Elemente folgt der Regel, dass im FHIR-Kern-Standard nur die Dinge spezifiziert werden, die in 80% der Fälle tatsächlich gebraucht werden (Siehe [FHIR and Architectural Principles](https://www.hl7.org/fhir/overview-arch.html#principles)).
+Im Datentyp `HumanName` sind Felder für die üblicherweise verwendeten Namensbestandteile wie Vorname, Nachname und Präfix vorgesehen. Die Auswahl der Elemente folgt der Regel, dass im FHIR-Kern-Standard nur die Dinge spezifiziert werden, die in 80% der Fälle tatsächlich gebraucht werden (Siehe [FHIR and Architectural Principles](https://www.hl7.org/fhir/r4/overview-arch.html#principles)).
 
 Die Datenstruktur, die auf den Deutschen gesetzlichen Krankenversichertenkarten ausgelesen werden kann, sieht jedoch zusätzliche Felder vor (z.B. Namenszusatz, Vorsatzwort) bzw. schränkt die Nutzung von Feldern ein (z.B. *akademischer* Titel).
 

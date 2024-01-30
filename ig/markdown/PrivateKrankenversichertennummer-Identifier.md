@@ -38,6 +38,10 @@ Falls dies in einem konkreten Szenario zu Problemen führt, bitten wir um [Feedb
 
 #### PKV-VersichertenId
 
+| Hinweis | Warnung |
+|---------|---------------------|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Das TC diskutiert derzeit, dieses Identifier-Profil wieder zurückzuziehen. Zu den [Hintergründen].(https://chat.fhir.org/#narrow/stream/179183-german-.28d-a-ch.29/topic/Community-Feedback.20zum.20PKV-Identifier) |
+
 Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach  § 290 Absatz 2 Satz 2 ausgestellt. Entsprechen der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich.
 
 **Name**: IdentifierPkvVersichertenId10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv-kvid-10&scope=de.basisprofil.r4@1.4.0))

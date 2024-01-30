@@ -1,6 +1,6 @@
 ### {{page-title}}
 
-Folgende Extensions werden im Kontext der [FHIR Ressource 'Composition'](https://www.hl7.org/fhir/composition.html) definiert:
+Folgende Extensions werden im Kontext der [FHIR Ressource 'Composition'](https://www.hl7.org/fhir/r4/composition.html) definiert:
 
 ----
 

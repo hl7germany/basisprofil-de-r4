@@ -1,8 +1,8 @@
 Extension: ExtensionGkvRuhenderLeistungsanspruch
 Id: ruhender-leistungsanspruch
 Description: "Gibt Art und Dauer des ruhenden Leistungsanspruchs des Versicherten bei dem unter Klasse Kostenträger angegebenen Kostenträger an"
+* insert Meta
 * ^url = "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"
-* insert addMetadata
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Coverage"

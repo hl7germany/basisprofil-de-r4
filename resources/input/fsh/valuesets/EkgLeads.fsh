@@ -2,8 +2,7 @@ ValueSet: EkgLeads
 Id: EkgLeads
 Title: "EKG/ECG leads"
 Description: "EKG/ECG leads"
-* insert addMetadata
-* ^copyright = "HL7 Deutschland e.V."
+* insert Meta
 * $loinc#LP7383-5 "Lead AVF"
 * $loinc#LP7384-3 "Lead AVL"
 * $loinc#LP7385-0 "Lead AVR"

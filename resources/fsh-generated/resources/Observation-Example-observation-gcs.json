@@ -3,16 +3,17 @@
   "id": "Example-observation-gcs",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-score-gcs"
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
     ]
   },
   "category": [
     {
       "coding": [
         {
-          "code": "survey",
+          "code": "vital-signs",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "display": "Survey"
+          "display": "Vital Signs"
         }
       ]
     }
@@ -20,15 +21,15 @@
   "code": {
     "coding": [
       {
-        "code": "9269-2",
         "system": "http://loinc.org",
+        "code": "9269-2",
         "display": "Glasgow coma score total"
       }
     ]
   },
   "valueQuantity": {
-    "code": "1",
     "system": "http://unitsofmeasure.org",
+    "code": "1",
     "value": 11,
     "unit": "Punktwert"
   },
@@ -37,20 +38,17 @@
       "code": {
         "coding": [
           {
-            "code": "9267-6",
+            "code": "9270-0",
             "system": "http://loinc.org",
-            "display": "Glasgow coma score eye opening"
+            "display": "Glasgow coma score verbal"
           }
         ]
       },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "LA6555-2",
-            "system": "http://loinc.org",
-            "display": "Eye opening to verbal command"
-          }
-        ]
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "value": 4,
+        "unit": "Punktwert"
       }
     },
     {
@@ -63,34 +61,28 @@
           }
         ]
       },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "LA6566-9",
-            "system": "http://loinc.org",
-            "display": "Localizing pain"
-          }
-        ]
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "value": 4,
+        "unit": "Punktwert"
       }
     },
     {
       "code": {
         "coding": [
           {
-            "code": "9270-0",
+            "code": "9267-6",
             "system": "http://loinc.org",
-            "display": "Glasgow coma score verbal"
+            "display": "Glasgow coma score eye opening"
           }
         ]
       },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "LA6560-2",
-            "system": "http://loinc.org",
-            "display": "Confused"
-          }
-        ]
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "value": 3,
+        "unit": "Punktwert"
       }
     }
   ],

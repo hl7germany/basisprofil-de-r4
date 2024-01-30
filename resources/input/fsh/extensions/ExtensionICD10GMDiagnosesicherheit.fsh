@@ -1,7 +1,7 @@
 Extension: ExtensionICD10GMDiagnosesicherheit
 Id: icd-10-gm-diagnosesicherheit
 Title: "Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien"
-* insert addMetadata
+* insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
 * ^context.expression = "Condition.code.coding"

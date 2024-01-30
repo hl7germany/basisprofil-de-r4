@@ -3,19 +3,16 @@ Parent: Observation
 Id: observation-de-score-gcs
 Title: "Observation-Profil Glasgow Coma Score"
 Description: "Observation-Profil für Glasgow Coma Score"
-* ^date = "2023-04-13"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
-* ^copyright = "HL7 Deutschland e.V."
-* ^status = #active
-* ^version = "1.5.0"
+* insert Meta
 * category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category contains survey 1..1
 * category[survey] = $observation-category#survey
 * code = $loinc#9269-2
+  * coding[loinc] ^patternCoding.system = $loinc
+    * system 1..
+    * code 1..
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
@@ -30,9 +27,9 @@ Description: "Observation-Profil für Glasgow Coma Score"
   * ^slicing.discriminator.path = "code"
   * ^slicing.rules = #open
 * component contains
-    Eye 1..1 and
-    Motor 1..1 and
-    Verbal 1..1
+    Eye 0..1 and
+    Motor 0..1 and
+    Verbal 0..1
 * component[Eye] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Eye] ^extension[=].valueCode = #trial-use
 * component[Eye].code = $loinc#9267-6
@@ -55,7 +52,6 @@ Description: "Observation-Profil für Glasgow Coma Score"
 Instance: Example-observation-gcs
 InstanceOf: ScoreDE_GCS
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-score-gcs"
 * category[survey] = $observation-category#survey "Survey"
 * code = $loinc#9269-2 "Glasgow coma score total"
 * component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"

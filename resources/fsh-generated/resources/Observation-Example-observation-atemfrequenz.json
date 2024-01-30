@@ -22,22 +22,17 @@
   "code": {
     "coding": [
       {
-        "code": "9279-1",
         "system": "http://loinc.org",
+        "code": "9279-1",
         "display": "Respiratory rate"
-      },
-      {
-        "code": "86290005",
-        "system": "http://snomed.info/sct",
-        "display": "Respiratory rate (observable entity)"
       }
     ],
     "text": "Atemfrequenz"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 26,
     "code": "/min",
+    "value": 26,
     "unit": "Atemzüge pro Minute"
   },
   "status": "final",

@@ -16,7 +16,7 @@ Usage: #definition
 * description = "**healthcareFacilityTypeCode (XDSDocumentEntry)**\r\n This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."
 * immutable = false
 * compose.include.system = "http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung"
-* compose.include.concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+* compose.include.concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include.concept[=].extension.valueString = "Kindergarten, Schulen, Hochschulen und andere erzieherische Einrichtungen für Kinder oder Erwachsene"
 * compose.include.concept[=].code = #BIL
 * compose.include.concept[=].display = "Bildungseinrichtung"

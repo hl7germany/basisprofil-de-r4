@@ -2,18 +2,18 @@
   "resourceType": "StructureDefinition",
   "id": "versichertenart",
   "url": "http://fhir.de/StructureDefinition/gkv/versichertenart",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "ExtensionGkvVersichertenart",
   "title": "Versichertenart GKV",
   "status": "active",
   "experimental": false,
-  "date": "2022-09-23",
+  "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
       "telecom": [
         {
-          "system": "other",
+          "system": "url",
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
