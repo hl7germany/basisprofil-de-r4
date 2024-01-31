@@ -258,7 +258,6 @@
       {
         "id": "Observation.component:Eye.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -301,7 +300,6 @@
       {
         "id": "Observation.component:Motor.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -344,7 +342,6 @@
       {
         "id": "Observation.component:Verbal.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"

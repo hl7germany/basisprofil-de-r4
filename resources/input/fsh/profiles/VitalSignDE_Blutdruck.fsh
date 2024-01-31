@@ -9,8 +9,6 @@ Id: observation-de-vitalsign-blutdruck
   * coding[snomed] = $sct#75367002
     * system 1..
     * code 1..
-* value[x] only Quantity
-* valueQuantity ..0
 * value[x] ..0
 * component ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "code"

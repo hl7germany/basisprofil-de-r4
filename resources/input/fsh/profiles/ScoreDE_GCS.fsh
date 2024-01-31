@@ -43,19 +43,16 @@ Description: "Observation-Profil für Glasgow Coma Score"
 * component[Eye] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Eye] ^extension[=].valueCode = #trial-use
 * component[Eye].code = $loinc#9267-6
-* component[Eye].value[x] 1..
 * component[Eye].value[x] only CodeableConcept
 * component[Eye].valueCodeableConcept from glasgow-coma-score-eye (required)
 * component[Motor] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Motor] ^extension[=].valueCode = #trial-use
 * component[Motor].code = $loinc#9268-4
-* component[Motor].value[x] 1..
 * component[Motor].value[x] only CodeableConcept
 * component[Motor].valueCodeableConcept from glasgow-coma-score-motor (required)
 * component[Verbal] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Verbal] ^extension[=].valueCode = #trial-use
 * component[Verbal].code = $loinc#9270-0
-* component[Verbal].value[x] 1..
 * component[Verbal].value[x] only CodeableConcept
 * component[Verbal].valueCodeableConcept from glasgow-coma-score-verbal (required)
 

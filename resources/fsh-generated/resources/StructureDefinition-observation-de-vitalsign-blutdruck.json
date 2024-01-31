@@ -110,12 +110,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "max": "0",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ]
+        "max": "0"
       },
       {
         "id": "Observation.value[x]:valueQuantity",
