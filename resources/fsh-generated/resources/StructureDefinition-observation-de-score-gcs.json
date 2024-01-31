@@ -136,6 +136,27 @@
         "min": 1
       },
       {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCoding": {
+          "code": "248241002",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "min": 1,
@@ -156,7 +177,17 @@
           {
             "code": "dateTime"
           }
-        ]
+        ],
+        "constraint": [
+          {
+            "key": "vs-de-1",
+            "severity": "error",
+            "human": "If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day",
+            "expression": "$this.toString().length() >= 8",
+            "source": "http://fhir.de/StructureDefinition/observation-de-score-gcs"
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",
@@ -227,7 +258,6 @@
       {
         "id": "Observation.component:Eye.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -270,7 +300,6 @@
       {
         "id": "Observation.component:Motor.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -313,7 +342,6 @@
       {
         "id": "Observation.component:Verbal.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
