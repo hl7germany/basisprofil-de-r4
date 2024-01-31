@@ -9,9 +9,14 @@
   "code": {
     "coding": [
       {
-        "code": "LP6244-0",
+        "code": "11524-6",
         "system": "http://loinc.org",
-        "display": "Electrocardiogram (EKG)"
+        "display": "EKG study"
+      },
+      {
+        "code": "271921002",
+        "system": "http://snomed.info/sct",
+        "display": "Electrocardiogram finding (observable entity)"
       }
     ]
   },
