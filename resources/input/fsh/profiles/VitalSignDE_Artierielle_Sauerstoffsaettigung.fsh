@@ -1,4 +1,4 @@
-Profile: VitalSignDE_Artierielle_Sauerstoffsaettigung
+Profile: VitalSignDE_Arterielle_Sauerstoffsaettigung
 Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung
 * insert Meta
@@ -13,7 +13,7 @@ Id: observation-de-vitalsign-sauerstoffsaettigung
 * valueQuantity = $unitsofmeasure#%
 
 Instance: Example-observation-sauerstoffsaettigung
-InstanceOf: VitalSignDE_Artierielle_Sauerstoffsaettigung
+InstanceOf: VitalSignDE_Arterielle_Sauerstoffsaettigung
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"

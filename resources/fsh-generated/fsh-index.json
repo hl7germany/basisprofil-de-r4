@@ -603,7 +603,7 @@
     "outputFile": "Observation-Example-observation-sauerstoffsaettigung.json",
     "fshName": "Example-observation-sauerstoffsaettigung",
     "fshType": "Instance",
-    "fshFile": "profiles/VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung.fsh",
+    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
     "startLine": 15,
     "endLine": 36
   },
@@ -1193,9 +1193,9 @@
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung.json",
-    "fshName": "VitalSignDE_Artierielle_Sauerstoffsaettigung",
+    "fshName": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
     "fshType": "Profile",
-    "fshFile": "profiles/VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung.fsh",
+    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
     "startLine": 1,
     "endLine": 13
   },
