@@ -91,17 +91,27 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "min": 1
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "vs-de-1",
+            "severity": "error",
+            "human": "If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day",
+            "expression": "$this.toString().length() >= 8",
+            "source": "http://fhir.de/StructureDefinition/observation-de-ekg"
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "max": "0"
-      },
-      {
-        "id": "Observation.device",
-        "path": "Observation.device",
-        "min": 1
       },
       {
         "id": "Observation.component",

@@ -14,15 +14,19 @@ Description: "Observation-Profil für Glasgow Coma Score"
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-//  * coding contains loinc 1..* and snomed 0..*
-  * coding contains loinc 1..*
+  * coding contains loinc 1..* and snomed 0..*
   * coding[loinc] ^patternCoding.system = $loinc
+    * system 1..
+    * code 1..
+  * coding[snomed] = $sct#248241002
     * system 1..
     * code 1..
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
 * effective[x] only dateTime
+* effectiveDateTime
+  * obeys vs-de-1
 * value[x] 1..
 * value[x] only Quantity
 * valueQuantity 1..
@@ -39,19 +43,16 @@ Description: "Observation-Profil für Glasgow Coma Score"
 * component[Eye] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Eye] ^extension[=].valueCode = #trial-use
 * component[Eye].code = $loinc#9267-6
-* component[Eye].value[x] 1..
 * component[Eye].value[x] only CodeableConcept
 * component[Eye].valueCodeableConcept from glasgow-coma-score-eye (required)
 * component[Motor] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Motor] ^extension[=].valueCode = #trial-use
 * component[Motor].code = $loinc#9268-4
-* component[Motor].value[x] 1..
 * component[Motor].value[x] only CodeableConcept
 * component[Motor].valueCodeableConcept from glasgow-coma-score-motor (required)
 * component[Verbal] ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * component[Verbal] ^extension[=].valueCode = #trial-use
 * component[Verbal].code = $loinc#9270-0
-* component[Verbal].value[x] 1..
 * component[Verbal].value[x] only CodeableConcept
 * component[Verbal].valueCodeableConcept from glasgow-coma-score-verbal (required)
 
@@ -59,7 +60,8 @@ Instance: Example-observation-gcs
 InstanceOf: ScoreDE_GCS
 Usage: #example
 * category[survey] = $observation-category#survey "Survey"
-* code = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
 * component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[Verbal].valueCodeableConcept = $loinc#LA6560-2 "Confused"
 * component[Motor].code = $loinc#9268-4 "Glasgow coma score motor"

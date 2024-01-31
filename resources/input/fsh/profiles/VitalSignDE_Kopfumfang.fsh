@@ -8,9 +8,9 @@ Title: "Observation - VitalSignDE - Kopfumfang"
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
-//  * coding[snomed] = $sct#363812007
-//    * system 1..
-//    * code 1..
+  * coding[snomed] from VitalSignDE_Kopfumfang_SNOMED_CT
+    * system 1..
+    * code 1..
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
@@ -23,7 +23,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
-//* code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+* code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.text = "Kopfumfang"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2019-07-02"

@@ -25,6 +25,11 @@
         "system": "http://loinc.org",
         "code": "9843-4",
         "display": "Head Occipital-frontal circumference"
+      },
+      {
+        "code": "363812007",
+        "system": "http://snomed.info/sct",
+        "display": "Head circumference (observable entity)"
       }
     ],
     "text": "Kopfumfang"

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VitalSignDE_Koerpergewicht_SNOMED_CT",
+  "id": "VitalSignDE-Koerpergewicht-SNOMED-CT",
+  "title": "VitalSignDE_Koerpergewicht_SNOMED_CT",
+  "description": "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergewicht",
+  "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpergewicht-SNOMED-CT",
+  "version": "1.5.0",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "27113001",
+            "display": "Body weight (observable entity)"
+          },
+          {
+            "code": "400967004",
+            "display": "Baseline weight (observable entity)"
+          },
+          {
+            "code": "364589006",
+            "display": "Birth weight (observable entity)"
+          },
+          {
+            "code": "424927000",
+            "display": "Body weight with shoes (observable entity)"
+          },
+          {
+            "code": "425024002",
+            "display": "Body weight without shoes (observable entity)"
+          },
+          {
+            "code": "735395000",
+            "display": "Current body weight (observable entity)"
+          },
+          {
+            "code": "445541000",
+            "display": "Dry body weight (observable entity)"
+          },
+          {
+            "code": "443245006",
+            "display": "Estimated weight using Broselow Luten pediatric weight estimation (observable entity)"
+          },
+          {
+            "code": "363808001",
+            "display": "Measured body weight (observable entity)"
+          },
+          {
+            "code": "248351003",
+            "display": "Previous well-weight (observable entity)"
+          },
+          {
+            "code": "784399000",
+            "display": "Self reported body weight (observable entity)"
+          }
+        ]
+      }
+    ]
+  }
+}

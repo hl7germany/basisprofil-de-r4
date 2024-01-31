@@ -6,9 +6,9 @@ Id: observation-de-vitalsign-koerpergewicht
   * coding[loinc] from VitalSignDE_Body_Weight_Loinc (required)
     * system 1..
     * code 1..
-//  * coding[snomed] = $sct#27113001
-//    * system 1..
-//    * code 1..
+  * coding[snomed] from VitalSignDE_Koerpergewicht_SNOMED_CT
+    * system 1..
+    * code 1..
 * value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
 
@@ -22,7 +22,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[+] = $loinc#29463-7 "Body weight"
 * code.coding[+] = $loinc#8339-4 "Birth weight Measured"
-//* code.coding[+] = $sct#27113001 "Body weight"
+* code.coding[+] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"
