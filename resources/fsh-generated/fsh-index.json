@@ -540,8 +540,8 @@
     "fshName": "Example-observation-ekg",
     "fshType": "Instance",
     "fshFile": "profiles/EkgDE.fsh",
-    "startLine": 22,
-    "endLine": 45
+    "startLine": 29,
+    "endLine": 53
   },
   {
     "outputFile": "Observation-Example-observation-gcs.json",
@@ -1117,7 +1117,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/EkgDE.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 27
   },
   {
     "outputFile": "StructureDefinition-observation-de-pflegegrad.json",

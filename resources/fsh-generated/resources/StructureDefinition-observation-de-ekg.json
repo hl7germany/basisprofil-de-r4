@@ -72,15 +72,39 @@
         }
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
             {
-              "code": "LP6244-0",
-              "system": "http://loinc.org"
+              "type": "pattern",
+              "path": "$this"
             }
-          ]
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "*",
+        "patternCoding": {
+          "code": "11524-6",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCoding": {
+          "code": "271921002",
+          "system": "http://snomed.info/sct"
         }
       },
       {
