@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VitalSignDE_Herzfrequenz_SNOMED_CT",
+  "id": "VitalSignDE-Herzfrequenz-SNOMED-CT",
+  "title": "VitalSignDE_Herzfrequenz_SNOMED_CT",
+  "description": "VitalSignDE_Herzfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Herzfrequenz",
+  "url": "http://fhir.de/ValueSet/VitalSignDE-Herzfrequenz-SNOMED-CT",
+  "version": "1.5.0",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "364075005",
+            "display": "Heart rate (observable entity)"
+          },
+          {
+            "code": "249043002",
+            "display": "Fetal heart rate (observable entity)"
+          },
+          {
+            "code": "78564009",
+            "display": "Heart rate measured at systemic artery (observable entity)"
+          }
+        ]
+      }
+    ]
+  }
+}
