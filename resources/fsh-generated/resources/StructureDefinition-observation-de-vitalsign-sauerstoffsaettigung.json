@@ -3,7 +3,7 @@
   "id": "observation-de-vitalsign-sauerstoffsaettigung",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
   "version": "1.5.0",
-  "name": "VitalSignDE_Artierielle_Sauerstoffsaettigung",
+  "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
