@@ -6,9 +6,9 @@ Id: observation-de-vitalsign-herzfrequenz
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
-//  * coding[snomed] = $sct#364075005
-//    * system 1..
-//    * code 1..
+  * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
+    * system 1..
+    * code 1..
 * value[x] only Quantity
 * valueQuantity = $unitsofmeasure#/min
 
@@ -21,7 +21,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#8867-4 "Heart rate"
-//* code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
+* code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2020-10-11"

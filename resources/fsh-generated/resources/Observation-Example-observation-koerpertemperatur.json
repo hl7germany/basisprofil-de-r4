@@ -25,6 +25,11 @@
         "system": "http://loinc.org",
         "code": "8310-5",
         "display": "Body temperature"
+      },
+      {
+        "code": "386725007",
+        "system": "http://snomed.info/sct",
+        "display": "Body temperature (observable entity)"
       }
     ],
     "text": "Körpertemperatur"

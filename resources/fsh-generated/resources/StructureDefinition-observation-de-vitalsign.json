@@ -122,6 +122,13 @@
         "max": "*"
       },
       {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*"
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "min": 1,
@@ -129,8 +136,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.org/fhir/StructureDefinition/Group"
+              "http://hl7.org/fhir/StructureDefinition/Patient"
             ]
           }
         ]
@@ -138,23 +144,7 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.effective[x]:effectiveDateTime",
-        "path": "Observation.effective[x]",
-        "sliceName": "effectiveDateTime",
-        "min": 0,
-        "max": "1",
+        "min": 1,
         "type": [
           {
             "code": "dateTime"
@@ -168,7 +158,8 @@
             "expression": "$this.toString().length() >= 8",
             "source": "http://fhir.de/StructureDefinition/observation-de-vitalsign"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",

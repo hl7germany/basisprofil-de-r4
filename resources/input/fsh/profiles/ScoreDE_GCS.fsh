@@ -14,15 +14,19 @@ Description: "Observation-Profil für Glasgow Coma Score"
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-//  * coding contains loinc 1..* and snomed 0..*
-  * coding contains loinc 1..*
+  * coding contains loinc 1..* and snomed 0..*
   * coding[loinc] ^patternCoding.system = $loinc
+    * system 1..
+    * code 1..
+  * coding[snomed] = $sct#248241002
     * system 1..
     * code 1..
 * subject 1..
 * subject only Reference(Patient)
-* effective[x] 1..
+* effective[x] 1.. MS
 * effective[x] only dateTime
+* effectiveDateTime
+  * obeys vs-de-1
 * value[x] 1..
 * value[x] only Quantity
 * valueQuantity 1..
@@ -59,7 +63,8 @@ Instance: Example-observation-gcs
 InstanceOf: ScoreDE_GCS
 Usage: #example
 * category[survey] = $observation-category#survey "Survey"
-* code = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
 * component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[Verbal].valueCodeableConcept = $loinc#LA6560-2 "Confused"
 * component[Motor].code = $loinc#9268-4 "Glasgow coma score motor"

@@ -3,7 +3,7 @@
   "id": "observation-de-vitalsign-sauerstoffsaettigung",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
   "version": "1.5.0",
-  "name": "VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung",
+  "name": "VitalSignDE_Artierielle_Sauerstoffsaettigung",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
@@ -85,6 +85,25 @@
       },
       {
         "id": "Observation.code.coding:loinc.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "442476006",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
         "path": "Observation.code.coding.code",
         "min": 1
       },

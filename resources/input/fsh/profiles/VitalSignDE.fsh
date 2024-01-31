@@ -14,17 +14,13 @@ Id: observation-de-vitalsign
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-//  * coding contains loinc 1..* and snomed 0..*
-  * coding contains loinc 1..*
+  * coding contains loinc 1..* and snomed 0..*
 * subject 1..
-* subject only Reference(Patient or Group)
-* effective[x] 1..
-  * ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* effectiveDateTime only dateTime
+* subject only Reference(Patient)
+* effective[x] 1.. MS
+* effective[x] only dateTime
+* effectiveDateTime
   * obeys vs-de-1
-  * ^sliceName = "effectiveDateTime"
 * value[x] ^slicing.discriminator.type = #type
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open

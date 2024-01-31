@@ -25,6 +25,11 @@
         "system": "http://loinc.org",
         "code": "9279-1",
         "display": "Respiratory rate"
+      },
+      {
+        "code": "86290005",
+        "system": "http://snomed.info/sct",
+        "display": "Respiratory rate (observable entity)"
       }
     ],
     "text": "Atemfrequenz"

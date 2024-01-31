@@ -6,9 +6,11 @@ Id: observation-de-ekg
   * coding = $observation-category#procedure
 * code = $loinc#LP6244-0
 * subject 1..
-* effective[x] 1..
+* effective[x] 1.. MS
+* effective[x] only dateTime
+* effectiveDateTime
+  * obeys vs-de-1
 * value[x] ..0
-* device 1..
 * component 1..
   * code from EkgLeads (extensible)
     * ^binding.description = "Codes identifying the EKG lead"

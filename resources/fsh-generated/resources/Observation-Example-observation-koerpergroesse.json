@@ -30,9 +30,19 @@
         "code": "89269-5",
         "system": "http://loinc.org",
         "display": "Body height Measured --at birth"
+      },
+      {
+        "code": "1153637007",
+        "system": "http://snomed.info/sct",
+        "display": "Body height (observable entity)"
+      },
+      {
+        "code": "169886007",
+        "system": "http://snomed.info/sct",
+        "display": "Birth length (observable entity)"
       }
     ],
-    "text": "Körpergröße"
+    "text": "Körpergröße bei Geburt"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
