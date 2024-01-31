@@ -4,7 +4,14 @@ Id: observation-de-ekg
 * insert Meta
 * category 1..
   * coding = $observation-category#procedure
-* code = $loinc#LP6244-0
+* code
+  * coding
+    * ^slicing.discriminator.type = #pattern
+    * ^slicing.discriminator.path = "$this"
+    * ^slicing.rules = #open
+  * coding contains loinc 1..* and snomed 0..*
+* code.coding[loinc] = $loinc#11524-6
+* code.coding[snomed] = $sct#271921002
 * subject 1..
 * effective[x] 1.. MS
 * effective[x] only dateTime
@@ -22,7 +29,8 @@ Id: observation-de-ekg
 Instance: Example-observation-ekg
 InstanceOf: EkgDE
 Usage: #example
-* code = $loinc#LP6244-0 "Electrocardiogram (EKG)"
+* code.coding[loinc] = $loinc#11524-6 "EKG study"
+* code.coding[snomed] = $sct#271921002 "Electrocardiogram finding (observable entity)"
 * subject.reference = "Patient/example"
 * status = #final
 * category = $observation-category#procedure
