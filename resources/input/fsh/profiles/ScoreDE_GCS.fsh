@@ -23,7 +23,7 @@ Description: "Observation-Profil für Glasgow Coma Score"
     * code 1..
 * subject 1..
 * subject only Reference(Patient)
-* effective[x] 1.. MS
+* effective[x] 1..
 * effective[x] only dateTime
 * effectiveDateTime
   * obeys vs-de-1

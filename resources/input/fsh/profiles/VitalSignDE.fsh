@@ -17,7 +17,7 @@ Id: observation-de-vitalsign
   * coding contains loinc 1..* and snomed 0..*
 * subject 1..
 * subject only Reference(Patient)
-* effective[x] 1.. MS
+* effective[x] 1..
 * effective[x] only dateTime
 * effectiveDateTime
   * obeys vs-de-1

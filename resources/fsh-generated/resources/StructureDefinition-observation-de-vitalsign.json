@@ -158,8 +158,7 @@
             "expression": "$this.toString().length() >= 8",
             "source": "http://fhir.de/StructureDefinition/observation-de-vitalsign"
           }
-        ],
-        "mustSupport": true
+        ]
       },
       {
         "id": "Observation.value[x]",
