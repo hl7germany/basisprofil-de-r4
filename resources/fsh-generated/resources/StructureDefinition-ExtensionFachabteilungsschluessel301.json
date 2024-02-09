@@ -1,0 +1,134 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ExtensionFachabteilungsschluessel301",
+  "url": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301",
+  "version": "1.5.0",
+  "name": "ExtensionFachabteilungsschluessel301",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Extension zur Dokumentation der Historie des Fachabteilungsschlüssels nach §301 SGB V. Der jeweils aktuelle Fachabteilungsschlüssel SOLLTE unter Organization.type zusätzlich angegeben werden. Die Extension ist NICHT zur Dokumentation des Fachabteilungsschlüssels im Kontext eines Encounters zu verwenden. Dort SOLLTE Encounter.serviceType zur Kodierung verwendet werden.",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Organization"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 2
+      },
+      {
+        "id": "Extension.extension:schluessel",
+        "path": "Extension.extension",
+        "sliceName": "schluessel",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:schluessel.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:schluessel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "schluessel"
+      },
+      {
+        "id": "Extension.extension:schluessel.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/additional-binding",
+              "extension": [
+                {
+                  "url": "purpose",
+                  "valueCode": "maximum"
+                },
+                {
+                  "url": "valueSet",
+                  "valueCanonical": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extension.extension:gueltigkeitszeitaum",
+        "path": "Extension.extension",
+        "sliceName": "gueltigkeitszeitaum",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:gueltigkeitszeitaum.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:gueltigkeitszeitaum.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "gueltigkeitszeitaum"
+      },
+      {
+        "id": "Extension.extension:gueltigkeitszeitaum.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}
