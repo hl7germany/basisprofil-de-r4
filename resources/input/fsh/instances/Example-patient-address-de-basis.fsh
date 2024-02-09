@@ -1,7 +1,7 @@
 Instance: Example-patient-address-de-basis
 InstanceOf: Patient
 Usage: #example
-* identifier.type = $identifier-type-de-basis#GKV
+* identifier.type = $identifier-type-de-basis#KVZ10
 * identifier.system = "http://fhir.de/sid/gkv/kvid-10"
 * identifier.value = "X234567890"
 * name.use = #official
