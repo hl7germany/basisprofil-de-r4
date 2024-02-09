@@ -6,6 +6,7 @@ Description: "Identifier-Profil für die 10-stellige Krankenversichertennummer"
 * insert Meta
 * type = $identifier-type-de-basis#GKV
 * type from IdentifierTypeDeBasis (extensible)
+* type obeys kvid-2
 * system 1..
 * system = "http://fhir.de/sid/gkv/kvid-10" (exactly)
 * value 1..
