@@ -243,8 +243,7 @@
           "rules": "open"
         },
         "short": "Primärer Identifier der Versicherung",
-        "definition": "Ein gesetzliches Versicherungsverhältnis sollte stets durch die eindeutige 30-stellige Versichertennummer identifiziert werden. Ist diese nicht bekannt, so wird die 10-stellige VersichertenID statt dessen verwendet.",
-        "comment": "TODO: Constraint, der prüft, dass mindestens entweder eine VersichertenID oder eine Krankenversichertennummer angegeben wurde.",
+        "definition": "Ein gesetzliches Versicherungsverhältnis sollte stets durch die 10-stellige VersichertenID identifiziert werden.",
         "min": 1
       },
       {
