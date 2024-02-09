@@ -2,7 +2,7 @@
 
 Die ZANR wird für Zahnarztnummern (Zahnarzt-Abrechnungsnummern) verwendet, die von der KZBV bzw. 
 den Landesvereinigungen für ihren Abrechnungsbereich herausgegeben werden. 
-Die Zahnarztnummer ist 1- bis 6-stellig numerisch.
+Die Zahnarztnummer ist 9-stellig numerisch.
 
 In FHIR kann die ZANR als Identifier für Practitioner verwendet werden.
 Das folgende Profil beschreibt die Abbildung einer ZANR als Identifier:
@@ -31,7 +31,7 @@ Beispiel:
             </coding>
         </type>
         <system value="http://fhir.de/sid/kzbv/zahnarztnummer" />
-        <value value="123456" />
+        <value value="123456591" />
     </identifier>
 ```
 
