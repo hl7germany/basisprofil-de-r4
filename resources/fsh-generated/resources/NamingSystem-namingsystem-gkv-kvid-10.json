@@ -6,7 +6,7 @@
       "http://fhir.de/StructureDefinition/namingsystem-de-basis"
     ]
   },
-  "name": "GkvKvid10",
+  "name": "NamingSystemKVID",
   "status": "active",
   "kind": "identifier",
   "date": "2021-02-17",
@@ -25,7 +25,7 @@
   "type": {
     "coding": [
       {
-        "code": "GKV",
+        "code": "KVZ10",
         "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
       }
     ]
@@ -43,7 +43,13 @@
     },
     {
       "type": "oid",
-      "value": "1.2.276.0.76.4.8"
+      "value": "1.2.276.0.76.4.8",
+      "preferred": false
+    },
+    {
+      "type": "uri",
+      "value": "http://fhir.de/sid/pkv/kvid-10",
+      "preferred": false
     }
   ]
 }
