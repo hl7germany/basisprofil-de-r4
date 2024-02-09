@@ -27,8 +27,7 @@ Description: "Profil für die Nutzung der Coverage-Resource zur Darstellung eine
   * ^slicing.discriminator.path = "$this"
   * ^slicing.rules = #open
   * ^short = "Primärer Identifier der Versicherung"
-  * ^definition = "Ein gesetzliches Versicherungsverhältnis sollte stets durch die eindeutige 30-stellige Versichertennummer identifiziert werden. Ist diese nicht bekannt, so wird die 10-stellige VersichertenID statt dessen verwendet."
-  * ^comment = "TODO: Constraint, der prüft, dass mindestens entweder eine VersichertenID oder eine Krankenversichertennummer angegeben wurde."
+  * ^definition = "Ein gesetzliches Versicherungsverhältnis sollte stets durch die 10-stellige VersichertenID identifiziert werden."
 * identifier contains
     KrankenversichertenID 0..1 and
     pseudo-Krankenversichertennummer 0..1
