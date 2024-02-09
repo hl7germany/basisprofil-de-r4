@@ -16,11 +16,11 @@ Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche di
 * #PKV ^property[+].code = #status
 * #PKV ^property[=].valueCode = #retired
 * #ZANR "Zahnarztnummer"
-* #PKV ^property[+].code = #status
-* #PKV ^property[=].valueCode = #active
+* #ZANR ^property[+].code = #status
+* #ZANR ^property[=].valueCode = #active
 * #KZVA "KZVAbrechnungsnummer"
-* #PKV ^property[+].code = #status
-* #PKV ^property[=].valueCode = #active
+* #KZVA ^property[+].code = #status
+* #KZVA ^property[=].valueCode = #active
 * #KVZ10 "Krankenversichertenverzeichnis"
-* #PKV ^property[+].code = #status
-* #PKV ^property[=].valueCode = #active
+* #KVZ10 ^property[+].code = #status
+* #KVZ10 ^property[=].valueCode = #active

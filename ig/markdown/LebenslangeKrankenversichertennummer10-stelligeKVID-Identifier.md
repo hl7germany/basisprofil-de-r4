@@ -34,11 +34,12 @@ Folgende Constraints sind zu beachten:
 ```
 
 Die Angabe von `Identifier.type` ist optional, da die Versichertennummer als solche anhand der einheitlichen Namespace-URL "http://fhir.de/sid/gkv/kvid-10" in `Identifier.system` zu erkennen ist.
-Die Angabe des Types kann jedoch hilfreich sein, wenn sowohl gesetzliche als auch private Versichertennummern verwaltet werden müssen, da letztere über *keinen* einheitlichen Namensraum verfügen und daher ausschließlich am Typ als PKV-Nummern erkennbar sind.  
+Die Angabe des Types kann jedoch hilfreich sein.
 
 | Hinweis | Warnung |
 |---------|---------------------|
 |![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Die Canonical-URL des NamingSystems weicht von der in vorherigen Versionen der Basisprofile (<1.0) publizierten URL ab! |
+|![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Die Krankenversichertennummer für alle ist übergreifend über alle Bereiche GKV, PKV und Sonderkostenträger gültig |
 
 ------------
 
