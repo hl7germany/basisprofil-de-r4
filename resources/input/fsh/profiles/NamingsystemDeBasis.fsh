@@ -103,10 +103,14 @@ Usage: #definition
 * type = $v2-0203#RI
 * description = "Eindeutige Identifikationsnummer im Format [Gruppennummer].[Ortsnummer].[Untergruppennummer].[Artnummer][Produktnummer]  Beispiel: 10.50.01.0001 gemδί Heil- und Hilfsmittelverzeichnis des GKV-Spitzenverbandes, siehe https://hilfsmittel.gkv-spitzenverband.de/"
 * usage = "Eindeutige Identifikationsnummer zu einem Hilfsmittel aus dem Verzeichnis der GKV."
-* uniqueId.type = #uri
-* uniqueId.value = "http://fhir.de/sid/gkv/hmnr"
-* uniqueId.preferred = true
-* uniqueId.period.start = "2017-12-31T00:00:00.000+02:00"
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.de/sid/gkv/hmnr"
+* uniqueId[=].preferred = true
+* uniqueId[=].period.start = "2017-12-31T00:00:00.000+02:00"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "1.2.276.0.76.5.540"
+* uniqueId[=].preferred = false
+* uniqueId[=].period.start = "2022-12-09T00:00:00.000+02:00"
 
 Instance: namingsystem-gkv-kvid-10
 InstanceOf: NamingsystemDeBasis
