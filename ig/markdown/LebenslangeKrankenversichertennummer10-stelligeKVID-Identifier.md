@@ -2,6 +2,8 @@
 
 **Name**: IdentifierKvid10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kvid-10&scope=de.basisprofil.r4@1.4.0))
 
+**Gültigkeit**: Das Profil gilt für alle Krankenversichertennummern, unabhängig, ob es sich um GKV, PKV oder Sonterkostenträger handelt!
+
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-kvid-10`
 
 {{tree:http://fhir.de/StructureDefinition/identifier-kvid-10, hybrid}}
@@ -39,7 +41,6 @@ Die Angabe des Types kann jedoch hilfreich sein.
 | Hinweis | Warnung |
 |---------|---------------------|
 |![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Die Canonical-URL des NamingSystems weicht von der in vorherigen Versionen der Basisprofile (<1.0) publizierten URL ab! |
-|![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Die Krankenversichertennummer für alle ist übergreifend über alle Bereiche GKV, PKV und Sonderkostenträger gültig |
 
 ------------
 

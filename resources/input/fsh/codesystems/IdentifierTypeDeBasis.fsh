@@ -21,6 +21,6 @@ Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche di
 * #KZVA "KZVAbrechnungsnummer"
 * #KZVA ^property[+].code = #status
 * #KZVA ^property[=].valueCode = #active
-* #KVZ10 "Krankenversichertenverzeichnis"
+* #KVZ10 "Krankenversichertennummer"
 * #KVZ10 ^property[+].code = #status
 * #KVZ10 ^property[=].valueCode = #active
