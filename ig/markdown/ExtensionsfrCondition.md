@@ -109,7 +109,6 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
             <code value="255398004" />
             <display value="Childhood (qualifier value)">
         </coding>
-    </valueCoding>
     </valueCodeableConcept>
 </extension>
 ```
