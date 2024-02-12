@@ -1,7 +1,8 @@
 ## Extensions für Condition
 
-Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10 GM](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-10-GM/_node.html) definiert:
+### ICD-10-GM
 
+Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10 GM](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-10-GM/_node.html) definiert:
 
 ----
 
@@ -83,5 +84,31 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
         <system value="http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen" />
         <code value="*" />
     </valueCoding>
+</extension>
+```
+
+### Lebensphase
+
+**Name**: ExtensionLebensphase ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/lebensphase&scope=de.basisprofil.r4@1.4.0))
+
+**Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen' select description```
+
+**Canonical**: `http://fhir.de/StructureDefinition/lebensphase`
+
+**Kontext**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/lebensphase' for context select expression```
+
+{{tree:http://fhir.de/StructureDefinition/lebensphase, hybrid}}
+
+**Beispiel**:
+
+```xml
+<extension url="http://fhir.de/StructureDefinition/lebensphase">
+    <valueCodeableConcept>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="255398004" />
+            <display value="Childhood (qualifier value)">
+        </coding>
+    </valueCodeableConcept>
 </extension>
 ```
