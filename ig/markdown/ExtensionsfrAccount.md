@@ -43,7 +43,7 @@
 
 **Constraints**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' for differential.element.constraint select key,severity,human, expression```
 
-**Hinweise**: Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: "Primär-DRG" zuzuordnen. Dies ermöglicht unter anderem das Erfassen von Primär- und Sekundären-Diagnosen zu einem Account zum Zweck der DRG Erstellung.
+**Hinweise**: Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: "Primär-DRG" zuzuordnen. Dies ermöglicht unter anderem das Zuordnen von Primär- und Sekundären-Diagnosen zu einem Account zum Zweck der DRG Erstellung.
 
 **Beispiel**:
 
