@@ -30,7 +30,8 @@
 ----
 
 
-**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.4.0))
+**Name**: Extension Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren
+([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.4.0))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' select description```
 
@@ -42,7 +43,7 @@
 
 **Constraints**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' for differential.element.constraint select key,severity,human, expression```
 
-**Hinweise**: Die Abrechnungsart ist stets an die Versicherungsart geknüpft, über die abgerechnet werden soll. Daher wird die Versicherungsart im Kontext von Account.coverage verwendet.
+**Hinweise**: Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: "Primär-DRG" zuzuordnen. Dies ermöglicht unter anderem das Zuordnen von Primär- und Sekundären-Diagnosen zu einem Account zum Zweck der DRG Erstellung.
 
 **Beispiel**:
 
