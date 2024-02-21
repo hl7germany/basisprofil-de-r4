@@ -19,6 +19,7 @@
       ]
     }
   ],
+  "description": "Extension zur Erfassung der Abrechnungsart des Accounts",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "mapping": [

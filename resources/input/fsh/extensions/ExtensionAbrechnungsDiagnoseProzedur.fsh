@@ -1,6 +1,7 @@
 Extension: ExtensionAbrechnungsDiagnoseProzedur
 Id: ExtensionAbrechnungsDiagnoseProzedur
 Title: "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
+Description: """Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: "Primär-DRG" zuzuordnen. Dies ermöglicht unter anderem das Zuordnen von Haupt- und Nebendiagnosen zu einem Account zum Zweck der DRG Erstellung."""
 * insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element
