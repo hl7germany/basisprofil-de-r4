@@ -342,7 +342,7 @@ Usage: #definition
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * responsible = "Bundesregierung mit Zustimmung des Bundesrates"
-* type = 2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
 * usage = "Die Gebührenordnung für Ärzte regelt die Abrechnung privatärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
 * uniqueId.type = #uri
 * uniqueId.value = "http://fhir.de/CodeSystem/bäk/goä"
@@ -360,7 +360,7 @@ Usage: #definition
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * responsible = "Bundesregierung mit Zustimmung des Bundesrates"
-* type = 2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
 * usage = "Die Gebührenordnung für Zahnärzte regelt die Abrechnung privatzahnärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
 * uniqueId.type = #uri
 * uniqueId.value = "http://fhir.de/CodeSystem/bäk/gzä"
