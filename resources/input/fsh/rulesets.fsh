@@ -1,6 +1,6 @@
 RuleSet: Meta
 * ^status = #active
-* ^version = "1.5.0"
+* ^version = "1.5.0-ballot"
 * ^experimental = false
 * ^date = "2023-11-30"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
