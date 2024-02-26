@@ -36,7 +36,6 @@ Folgende Constraints sind zu beachten:
 ```
 
 Die Angabe von `Identifier.type` ist optional, da die Versichertennummer als solche anhand der einheitlichen Namespace-URL "http://fhir.de/sid/gkv/kvid-10" in `Identifier.system` zu erkennen ist.
-Die Angabe des Types kann jedoch hilfreich sein.
 
 | Hinweis | Warnung |
 |---------|---------------------|
