@@ -1,5 +1,30 @@
 ### Release Notes
 
+v1.5.0 - xx.xx.24
+
+* `Breaking Change` IdentifierProfil `IdentifierPkvVersichertenId10` zurückgezogen. Das Profil für die Abbildung einer 10-stelligen KVID ist für alle versicherten Personen zu verwenden. 
+* `changed` Erweiterung des ValueSets "ValueSetLebensphaseDe"
+* `changed` ValueSet "IdentifierTypeDeBasis" erweitert
+* `changed` Glascow Coma Scale Komponenten auf eine 0..1 Kardinalität abgeändert
+* `changed` Klarstellung, dass Adress- und Zustellangaben nur ein line-Element sein sollten
+* `added` Extension "ExtensionFachabteilungsschluessel301" hinzugefügt
+* `added` Extension "ExtensionWirkstofftyp" hinzugefügt
+* `added` Dokumentation für die Extension "Kalendername" hinzugefügt
+* `added` Best-Practice-Empfehlungen für Skalen und Scores hinzugefügt
+* `added` Identifier "IdentifierAbrechnungsnummer" hinzugefügt
+* `added` Identifier "IdentifierLbnr" hinzugefügt
+* `added` Optionale SNOMED CT ValueSets für die VitalSign-Profile hinzugefügt
+* `added` Optionale SNOMED CT Slcies in .code für die VitalSign-Profile hinzugefügt
+* `added` OID zu GkvHmnr NamingSystem hinzugefügt
+* `added` Vorgaben zum Mapping von postkordinierten ICD-10-GM Codes auf Alpha-IDs hinzugefügt
+* `added` Definition von GOÄ/GZÄ NamingSystem hinzugefügt
+* `fixed` Start- und Endmarker in Regulären Ausdrücken hinzugefügt
+* `fixed` Korrektur des Elements targetCanonical für die ConceptMap "ConceptMap-OPS-SNOMED-Category-Mapping"
+* `fixed` Korrektur der Versionen für die "Deuev" CodeSystems
+* `fixed` Anpassung der Binding Strength von "required" zu "extensible" in den Extensions "ExtensionAbrechnungsart" & "ExtensionAbrechnungsDiagnoseProzedur"
+* `fixed` Klarstellung, dass der Identifier "IdentifierAufnahmenummer" nicht unter Account.identifier verwendet werden sollte
+* `fixed` Include von KBV-CodeSystems in ValueSet "VersicherungsartDeBasis" korrigiert
+
 v1.4.0 - 29.06.22
 
 * `fixed` Die ValueSets für OPS und ICD-10-GM inkludieren explizit alle Versionen
