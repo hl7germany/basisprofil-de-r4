@@ -330,3 +330,39 @@ Usage: #definition
 * uniqueId.value = "http://fhir.de/NamingSystem/kzv/XX/zahnarztnummer"
 * uniqueId.preferred = true
 * uniqueId.period.start = "2017-12-06"
+
+Instance: namingSystem-goae
+InstanceOf: NamingsystemDeBasis
+Usage: #definition
+* name = "Gebührenordnung für Ärzte"
+* status = #active
+* kind = #codesystem
+* date = "2024-02-09"
+* publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* contact.telecom.system = #other
+* contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* responsible = "Bundesregierung mit Zustimmung des Bundesrates"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* usage = "Die Gebührenordnung für Ärzte regelt die Abrechnung privatärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
+* uniqueId.type = #uri
+* uniqueId.value = "http://fhir.de/CodeSystem/bäk/goä"
+* uniqueId.preferred = true
+* uniqueId.period.start = "2024-02-09"
+
+Instance: namingSystem-gzae
+InstanceOf: NamingsystemDeBasis
+Usage: #definition
+* name = "Gebührenordnung für Zahnärzte"
+* status = #active
+* kind = #codesystem
+* date = "2024-02-09"
+* publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* contact.telecom.system = #other
+* contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* responsible = "Bundesregierung mit Zustimmung des Bundesrates"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* usage = "Die Gebührenordnung für Zahnärzte regelt die Abrechnung privatzahnärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
+* uniqueId.type = #uri
+* uniqueId.value = "http://fhir.de/CodeSystem/bäk/gzä"
+* uniqueId.preferred = true
+* uniqueId.period.start = "2024-02-09"
