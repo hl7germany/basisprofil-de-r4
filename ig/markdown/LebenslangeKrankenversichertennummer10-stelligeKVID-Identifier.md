@@ -1,6 +1,8 @@
-#### Gesetzliche Krankenversichertennummer (10-stellige KVID)
+#### Lebenslange Krankenversichertennummer (10-stellige KVID)
 
 **Name**: IdentifierKvid10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kvid-10&scope=de.basisprofil.r4@1.4.0))
+
+**Gültigkeit**: Das Profil gilt für alle Krankenversichertennummern, unabhängig, ob es sich um GKV, PKV oder Sonterkostenträger handelt!
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-kvid-10`
 
@@ -25,7 +27,7 @@ Folgende Constraints sind zu beachten:
         <type>
             <coding>
                 <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
-                <code value="GKV"/>
+                <code value="KVZ10"/>
             </coding>
         </type>
         <system value="http://fhir.de/sid/gkv/kvid-10" />
@@ -34,7 +36,6 @@ Folgende Constraints sind zu beachten:
 ```
 
 Die Angabe von `Identifier.type` ist optional, da die Versichertennummer als solche anhand der einheitlichen Namespace-URL "http://fhir.de/sid/gkv/kvid-10" in `Identifier.system` zu erkennen ist.
-Die Angabe des Types kann jedoch hilfreich sein, wenn sowohl gesetzliche als auch private Versichertennummern verwaltet werden müssen, da letztere über *keinen* einheitlichen Namensraum verfügen und daher ausschließlich am Typ als PKV-Nummern erkennbar sind.
 
 | Hinweis | Warnung |
 |---------|---------------------|

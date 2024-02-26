@@ -9,19 +9,53 @@
   "concept": [
     {
       "code": "GKV",
-      "display": "Gesetzliche Krankenversicherung"
+      "display": "Gesetzliche Krankenversicherung",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "retired"
+        }
+      ]
     },
     {
       "code": "PKV",
-      "display": "Private Krankenversicherung"
+      "display": "Private Krankenversicherung",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "retired"
+        }
+      ]
     },
     {
       "code": "ZANR",
-      "display": "Zahnarztnummer"
+      "display": "Zahnarztnummer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        }
+      ]
     },
     {
       "code": "KZVA",
-      "display": "KZVAbrechnungsnummer"
+      "display": "KZVAbrechnungsnummer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        }
+      ]
+    },
+    {
+      "code": "KVZ10",
+      "display": "Krankenversichertennummer",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "active"
+        }
+      ]
     }
   ],
   "version": "1.5.0",
@@ -45,5 +79,12 @@
   },
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
-  "count": 4
+  "property": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."
+    }
+  ],
+  "count": 5
 }
