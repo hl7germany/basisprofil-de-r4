@@ -1,7 +1,7 @@
 Instance: glasgow-coma-score-eye
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
+* version = "1.5.0-ballot"
 * status = #draft
 * name = "VS_Score_GlasgowComaScore_Eye"
 * title = "VS Score Glasgow Coma Score Eye"
@@ -27,7 +27,7 @@ Usage: #definition
 Instance: glasgow-coma-score-verbal
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
+* version = "1.5.0-ballot"
 * status = #draft
 * name = "VS_Score_GlasgowComaScore_Verbal"
 * title = "VS Score Glasgow Coma Score Verbal"
@@ -57,7 +57,7 @@ Usage: #definition
 Instance: glasgow-coma-score-motor
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
+* version = "1.5.0-ballot"
 * status = #draft
 * name = "VS_Score_GlasgowComaScore_Motor"
 * title = "VS Score Glasgow Coma Score Motor"
