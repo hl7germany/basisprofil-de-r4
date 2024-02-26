@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext des [FHIR Medication Modules](https://www.
 
 ----
 
-Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.4.0))
+Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.5.0-ballot))
 
 Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/normgroesse' select description```
 
