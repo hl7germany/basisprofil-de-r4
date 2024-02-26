@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "humanname-de-basis",
   "url": "http://fhir.de/StructureDefinition/humanname-de-basis",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "HumannameDeBasis",
   "title": "HumanName, deutsches Basisprofil",
   "status": "active",

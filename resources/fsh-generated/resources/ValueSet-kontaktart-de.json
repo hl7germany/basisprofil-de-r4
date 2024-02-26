@@ -5,7 +5,7 @@
   "id": "kontaktart-de",
   "description": "Kontaktarten für die Codierung von Encounter.type",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

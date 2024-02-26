@@ -6,7 +6,7 @@
   "title": "VitalSignDE_Body_Weight_Loinc",
   "description": "VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Körpergewichtes (inkl. Gewicht bei der Geburt)",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

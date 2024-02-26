@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "url": "http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "ExtensionMehrfachcodierungKennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen bei  ICD-10-gm",
   "status": "active",
