@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-efn",
   "url": "http://fhir.de/StructureDefinition/identifier-efn",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "IdentifierEfn",
   "title": "Identifier-Profil für die Abbildung der Einheitlichen Fortbildungsnummer (EFN)",
   "status": "active",

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "kostenerstattung",
   "url": "http://fhir.de/StructureDefinition/gkv/kostenerstattung",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "ExtensionGkvKostenerstattung",
   "status": "active",
   "experimental": false,

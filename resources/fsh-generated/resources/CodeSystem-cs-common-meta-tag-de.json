@@ -14,7 +14,7 @@
       "definition": "Informationen welche in der Ressource abgebildet werden stammen aus einem externen, potentiell unverifizierten System"
     }
   ],
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

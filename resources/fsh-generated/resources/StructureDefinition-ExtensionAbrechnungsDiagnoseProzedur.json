@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsDiagnoseProzedur",
   "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "ExtensionAbrechnungsDiagnoseProzedur",
   "title": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren",
   "status": "active",

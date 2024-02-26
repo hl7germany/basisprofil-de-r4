@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "glasgow-coma-score-motor",
   "url": "http://fhir.de/ValueSet/glasgow-coma-score-motor",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "status": "draft",
   "name": "VS_Score_GlasgowComaScore_Motor",
   "title": "VS Score Glasgow Coma Score Motor",

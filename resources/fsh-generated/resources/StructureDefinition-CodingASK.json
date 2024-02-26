@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "CodingASK",
   "url": "http://fhir.de/StructureDefinition/CodingASK",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "CodingASK",
   "title": "Coding-Profil für ASK",
   "status": "active",
