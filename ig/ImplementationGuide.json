@@ -674,11 +674,6 @@
                                     "generation": "markdown"
                                 },
                                 {
-                                    "nameUrl": "ig/markdown/IHEValueSets.md",
-                                    "title": "IHE ValueSets",
-                                    "generation": "markdown"
-                                },
-                                {
                                     "nameUrl": "ig/markdown/WeitereValueSets.md",
                                     "title": "Weitere ValueSets",
                                     "generation": "markdown"
