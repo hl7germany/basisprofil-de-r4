@@ -1,801 +1,806 @@
 {
-  "resourceType": "ImplementationGuide",
-  "url": "/guide/basisprofil-de-r4?version=current",
-  "version": "1.4.0",
-  "name": "Leitfaden Basis DE (R4)",
-  "status": "draft",
-  "description": "Die Leitfaden wird von der [Projektgruppe Basisprofilierung](http://wiki.hl7.de/index.php?title=FHIR-Basisprofilierung_(Projekt)) des [Technischen Komitees FHIR von HL7 Deutschland e.V.](http://hl7.de/technische-komitees/fhir/ ) erstellt.\n\nDie Diskussion der Inhalte findet auf [Zulip](https://chat.fhir.org/#narrow/stream/german.20(d-a-ch)) statt. \nImplementierer und Interessenten sind herzlich eingeladen, sich an der Diskussion zu beteiligen, Fragen zu stellen,\noder Feedback zu geben.\n\nDie Weiterentwicklung der deutschen Basisprofile kann im [GitHub-Repository](https://github.com/hl7germany/basisprofil-de-r4) verfolgt werden.\n\nVerbesserungs- und Korrekturvorschläge sollten ebenfalls über den [GitHub-Issue-Tracker](https://github.com/hl7germany/basisprofil-de-r4/issues) eingereicht werden.\n\n**Die neueste stabile Fassung findet sich unter http://ig.fhir.de/basisprofile-de/stable/**\n\nEine formelle Abstimmung folgt. Um über Kommentierungsphasen, anstehende Abstimmungen und aktuelle Themen informiert zu werden, registrieren Sie sich bitte für den FHIR-Newsletter durch formlose Mail an fhir@hl7.de.",
-  "fhirVersion":  [
-      "4.0.0"
-  ],
-  "definition": {
-      "page": {
-          "nameUrl": "ig/markdown/Home.md",
-          "title": "Home",
-          "generation": "markdown",
-          "page":  [
-              {
-                  "nameUrl": "ig/markdown/UeberDiesenLeitfaden.md",
-                  "title": "Über diesen Leitfaden",
-                  "generation": "markdown"
-              },
-              {
-                  "nameUrl": "ig/markdown/Grundlagen.md",
-                  "title": "Grundlagen",
-                  "generation": "markdown"
-              },
-              {
-                  "nameUrl": "ig/markdown/Anwendungshinweise.md",
-                  "title": "Anwendungshinweise",
-                  "generation": "markdown",
-                  "page":  [
-                      {
-                          "nameUrl": "ig/markdown/Anwendungshinweise-RessourcenPaket.md",
-                          "title": "Ressourcen-Paket",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Anwendungshinweise-NichtProfilierteRessourcen.md",
-                          "title": "Nicht profilierte Ressourcen, zukünftige Erweiterung",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Anwendungshinweise-AbleitungEigenerProfileBasisprofilen.md",
-                          "title": "Ableitung eigener Profile von den Basisprofilen",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Anwendungshinweise-Beispiele.md",
-                          "title": "Beispiele",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Hinweise.md",
-                          "title": "Hinweise",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Anwendungshinweise-FAQ.md",
-                          "title": "FAQ",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ReleaseNotes.md",
-                          "title": "Release Notes",
-                          "generation": "markdown"
-                      }
-                  ]
-              },
-              {
-                  "nameUrl": "ig/markdown/Ressourcen-Uebersicht.md",
-                  "title": "Ressourcen",
-                  "generation": "markdown",
-                  "page":  [
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-Patient.md",
-                          "title": "PatientIn (Patient)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Identifikatoren.md",
-                                  "title": "Identifikatoren",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Name.md",
-                                  "title": "Name",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Anrede.md",
-                                  "title": "Anrede",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Geschlecht.md",
-                                  "title": "Geschlecht",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Addresse.md",
-                                  "title": "Adresse",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Personenstand.md",
-                                  "title": "Personenstand",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Patient-Geburtsdatum.md",
-                                  "title": "Geburtsdatum",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-DiagnosenCondition.md",
-                          "title": "Diagnosen (Condition)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Condition-ICD-10-GM.md",
-                                  "title": "ICD-10-GM",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Condition-WeitereDiagnosekodiersysteme.md",
-                                  "title": "Weitere Diagnosekodiersysteme",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Diagnose-Typen.md",
-                                  "title": "Diagnose-Typen",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-ProzedurenProcedure.md",
-                          "title": "Prozeduren (Procedure)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Procedure-OPS.md",
-                                  "title": "OPS",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-AmbulanterStationaererFall.md",
-                          "title": "Ambulanter/stationärer Fall (Encounter,Account,EpisodeOfCare)",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Dokumente--DocumentReference-Composition.md",
-                          "title": "Dokumente (DocumentReference/Composition)",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-VersicherungsinformationenCoverage.md",
-                          "title": "Versicherungs-Informationen (Coverage)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Coverage-Basisprofil.md",
-                                  "title": "Basisprofil",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Coverage-GKV-Profil.md",
-                                  "title": "GKV-Profil",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Coverage-Selbstzahler-Profil.md",
-                                  "title": "Selbstzahler-Profil",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-AbrechnungsdatenLeistungsziffernChargeItem.md",
-                          "title": "Abrechnungsdaten, Leistungsziffern (ChargeItem)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-ChargeItem-EBM-Ziffern.md",
-                                  "title": "EBM-Ziffern",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-BeobachtungenMessungenObservation.md",
-                          "title": "Beobachtungen, Messungen (Observation)",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Observation-VitalParameter.md",
-                                  "title": "VitalParameter",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Kopfumfang.md",
-                                          "title": "Kopfumfang",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Koerpergewicht.md",
-                                          "title": "Körpergewicht",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-KoerperlaengeKoerpergroese.md",
-                                          "title": "Körperlänge/Körpergröße",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Koerpertemperatur.md",
-                                          "title": "Körpertemperatur",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Blutdruck.md",
-                                          "title": "Blutdruck",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-VS-PeriphereArtierielleSauerstoffsttigung.md",
-                                          "title": "Periphere Artierielle Sauerstoffsättigung",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Atemfrequenz.md",
-                                          "title": "Atemfrequenz",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Herzfrequenz.md",
-                                          "title": "Herzfrequenz",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/GlasgowComaScale.md",
-                                          "title": "Glasgow Coma Scale",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Observation-Pflegegrad.md",
-                                  "title": "Pflegegrad",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/GradderBehinderung.md",
-                                  "title": "Grad der Behinderung",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/EKG.md",
-                                  "title": "EKG",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Observation-Skalen-und-Scores.md",
-                                  "title": "Skalen und Scores",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Ressourcen-VerweiseaufExterneLeitfaeden.md",
-                          "title": "Verweise auf Externe Leitfäden",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Medikation.md",
-                                  "title": "Medikation (Medication)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Labor.md",
-                                  "title": "Labor (Observation, ServiceRequest, DiagnosticReport)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-FrageboegenUndFormulare.md",
-                                  "title": "Fragebögen und Formulare (Questionaire, QuestionaireResponse)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Einwilligungsmanagement.md",
-                                  "title": "Einwilligungsmanagement (Consent)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-AllergienundIntoleranzen.md",
-                                  "title": "Allergien und Intoleranzen (AllergyIntolerance)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-BeobachtungenMessungen.md",
-                                  "title": "Beobachtungen, Messungen (Observation)",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Schwangerschaft.md",
-                                          "title": "Schwangerschaft",
-                                          "generation": "markdown",
-                                          "page":  [
-                                              {
-                                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-SchwangerschaftsStatus.md",
-                                                  "title": "Schwangerschaftsstatus",
-                                                  "generation": "markdown"
-                                              },
-                                              {
-                                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-ErwarteterGeburtstermin.md",
-                                                  "title": "Erwarteter Geburtstermin",
-                                                  "generation": "markdown"
-                                              },
-                                              {
-                                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Schwangerschafts-Historie.md",
-                                                  "title": "Schwangerschafts-Historie",
-                                                  "generation": "markdown"
-                                              }
-                                          ]
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Anamnese.md",
-                                          "title": "Anamnese",
-                                          "generation": "markdown",
-                                          "page":  [
-                                              {
-                                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Raucherstatus.md",
-                                                  "title": "Raucherstatus",
-                                                  "generation": "markdown"
-                                              },
-                                              {
-                                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Alkoholkonsum.md",
-                                                  "title": "Alkoholkonsum",
-                                                  "generation": "markdown"
-                                              }
-                                          ]
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-BMI.md",
-                                          "title": "BMI",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Pflegebericht.md",
-                                  "title": "Pflegebericht",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Terminplanung.md",
-                                  "title": "Terminplanung (Appointment, Schedule, Slot)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Ressourcen-Extern-Dokumentenaustausch.md",
-                                  "title": "Dokumentenaustausch (DocumentReference)",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "nameUrl": "ig/markdown/Extensions-Uebersicht.md",
-                  "title": "Extensions",
-                  "generation": "markdown",
-                  "page":  [
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrPatient.md",
-                          "title": "Extensions für Patient",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrCondition.md",
-                          "title": "Extensions für Condition",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrMedication.md",
-                          "title": "Extensions für Medication",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrCoverage.md",
-                          "title": "Extensions für Coverage",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrEncounter.md",
-                          "title": "Extensions für Encounter",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrProcedure.md",
-                          "title": "Extensions für Procedure",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrComposition.md",
-                          "title": "Extensions für Composition",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrAccount.md",
-                          "title": "Extensions für Account",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/ExtensionsfrSchedule.md",
-                          "title": "Extensions für Schedule",
-                          "generation": "markdown"
-                      }
-                  ]
-              },
-              {
-                  "nameUrl": "ig/markdown/Datentypen-Uebersicht.md",
-                  "title": "Datentypen",
-                  "generation": "markdown",
-                  "page":  [
-                      {
-                          "nameUrl": "ig/markdown/Datentypen-Address.md",
-                          "title": "Address",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Datentypen-HumanName.md",
-                          "title": "HumanName",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Datentypen-Coding.md",
-                          "title": "Coding",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-ICD-10GM-Coding.md",
-                                  "title": "ICD-10 GM",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-Alpha-ID.md",
-                                  "title": "Alpha-ID",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-Alpha-ID-SE.md",
-                                  "title": "Alpha-ID-SE",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-OPS.md",
-                                  "title": "OPS",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-ASK.md",
-                                  "title": "ASK",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-ATC.md",
-                                  "title": "ATC",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Datentypen-Coding-PZN.md",
-                                  "title": "PZN",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Datentypen-Identifier.md",
-                          "title": "Identifier",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/IdentifierfrPatient.md",
-                                  "title": "Identifier für Patient",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/LebenslangeKrankenversichertennummer10-stelligeKVID-Identifier.md",
-                                          "title": "Lebenslange Krankenversichertennummer (10-stellige KVID)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/OrganisationsinternerPatienten-Identifier.md",
-                                          "title": "Organisationsinterner Patienten-Identifier (PID)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/PrivateKrankenversichertennummer-Identifier.md",
-                                          "title": "Private Krankenversichertennummer",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Reisepassnummer-Identifier.md",
-                                          "title": "Reisepassnummer",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/IdentifierfrOrganization.md",
-                                  "title": "Identifier für Organization",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/KZVAbrechnungsnummer-Identifier.md",
-                                          "title": "KZVAbrechnungsnummer",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/BetriebsstttennummerBSNR-Identifier.md",
-                                          "title": "Betriebsstättennummer (BSNR)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/InstitutionskennzeichenIKNR.md",
-                                          "title": "Institutionskennzeichen (IKNR)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/VertragskassennummerVKNR-Identifier.md",
-                                          "title": "Vertragskassennummer (VKNR)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Telematik-ID.md",
-                                          "title": "Telematik-ID",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/IdentifierfrPractitionerPractitionerRole.md",
-                                  "title": "Identifier für Practitioner, PractitionerRole",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/EinheitlichenFortbildungsnummerEFN-Identifier.md",
-                                          "title": "Einheitlichen Fortbildungsnummer (EFN)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/LebenslangeArztnummerLANR-Identifier.md",
-                                          "title": "Lebenslange Arztnummer (LANR)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/LebenslangeZahnarztnummerZANR-Identifier.md",
-                                          "title": "Lebenslange Zahnarztnummer (ZANR)",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/IdentifierfrEncounterAccount.md",
-                                  "title": "Identifier für Encounter, Account",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/Aufnahmenummer.md",
-                                          "title": "Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                        "nameUrl": "ig/markdown/Abrechnungsnummer.md",
-                                        "title": "Abrechnungsnummer (\"Fallnummer\")",
-                                        "generation": "markdown"
-                                      }
-                                  ]
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Identifier-f-r-Location.md",
-                                  "title": "Identifier für Location",
-                                  "generation": "markdown",
-                                  "page":  [
-                                      {
-                                          "nameUrl": "ig/markdown/Standortnummer--DKG.md",
-                                          "title": "Standortnummer (DKG)",
-                                          "generation": "markdown"
-                                      },
-                                      {
-                                          "nameUrl": "ig/markdown/Betriebsst-ttennummer--BSNR----Location.md",
-                                          "title": "Betriebsstättennummer (BSNR) - Location",
-                                          "generation": "markdown"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              },
-              {
-                  "nameUrl": "ig/markdown/Terminologie-Uebersicht.md",
-                  "title": "Terminologie",
-                  "generation": "markdown",
-                  "page":  [
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-NomenklaturDerRessourcen.md",
-                          "title": "Nomenklatur der Ressourcen",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-CodesystemVersionen.md",
-                          "title": "Codesystem-Versionen",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-Platzhalter-Codesysteme.md",
-                          "title": "Platzhalter-Codesysteme",
-                          "generation": "markdown"
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-ValueSets.md",
-                          "title": "ValueSets",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Coverage-ValueSets.md",
-                                  "title": "Versicherungs-Informationen (Coverage)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Medication-ValueSets.md",
-                                  "title": "Medikation (Medication)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/PatientInPatient-ValueSets.md",
-                                  "title": "PatientIn (Patient)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/BeobachtungenMessungenObservation-ValueSets.md",
-                                  "title": "Beobachtungen, Messungen (Observation)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Encounter-ValueSets.md",
-                                  "title": "Ambulanter/stationärer Fall / Kontakt (Encounter)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/AbrechnungsfallAccount.md",
-                                  "title": "Abrechnungsfall (Account)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Condition-ValueSets.md",
-                                  "title": "Diagnosen (Condition)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Meta.md",
-                                  "title": "Meta",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/IHEValueSets.md",
-                                  "title": "IHE ValueSets",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/WeitereValueSets.md",
-                                  "title": "Weitere ValueSets",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-Codesysteme.md",
-                          "title": "Codesysteme",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Coverage-CodeSystem.md",
-                                  "title": "Versicherungs-Informationen (Coverage)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Medication-CodeSystem.md",
-                                  "title": "Medikation (Medication)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Patient-CodeSystem.md",
-                                  "title": "PatientIn (Patient)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Encounter-CodeSystem.md",
-                                  "title": "Ambulanter/stationärer Fall / Kontakt (Encounter)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/AbrechnungsfallAccount.md",
-                                  "title": "Abrechnungsfall (Account)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Condition-CodeSystem.md",
-                                  "title": "Diagnosen (Condition)",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Meta.md",
-                                  "title": "Meta",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-WeitereCodesysteme.md",
-                                  "title": "Weitere Codesysteme",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-ConceptMaps.md",
-                          "title": "ConceptMaps",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-ConceptMaps-SNOMED-CTOPSMapping.md",
-                                  "title": "SNOMED-CT / OPS Mapping",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-Namensraeume.md",
-                          "title": "Namensräume",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-Namensraueme-LokaleNamensraeume.md",
-                                  "title": "Lokale Namensräume",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-Namensraueme-NationaleNamensraeume.md",
-                                  "title": "Nationale Namensräume",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      },
-                      {
-                          "nameUrl": "ig/markdown/Terminologie-Uebersetzungen.md",
-                          "title": "Codesystem-Übersetzungen",
-                          "generation": "markdown",
-                          "page":  [
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystenSupplement-administrative-gender.md",
-                                  "title": "administrative-gender",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-marital-status.md",
-                                  "title": "marital-status",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-diagnosis-role.md",
-                                  "title": "diagnosis-role",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-identifier-type-v2.md",
-                                  "title": "identifier-type-v2",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-observation-category.md",
-                                  "title": "observation-category",
-                                  "generation": "markdown"
-                              },
-                              {
-                                  "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-ISO3166.md",
-                                  "title": "ISO-3166",
-                                  "generation": "markdown"
-                              }
-                          ]
-                      }
-                  ]
-              }
-          ]
-      }
-  }
+    "resourceType": "ImplementationGuide",
+    "url": "/guide/basisprofil-de-r4?version=current",
+    "version": "1.4.0",
+    "name": "Leitfaden Basis DE (R4)",
+    "status": "draft",
+    "description": "Die Leitfaden wird von der [Projektgruppe Basisprofilierung](http://wiki.hl7.de/index.php?title=FHIR-Basisprofilierung_(Projekt)) des [Technischen Komitees FHIR von HL7 Deutschland e.V.](http://hl7.de/technische-komitees/fhir/ ) erstellt.\n\nDie Diskussion der Inhalte findet auf [Zulip](https://chat.fhir.org/#narrow/stream/german.20(d-a-ch)) statt. \nImplementierer und Interessenten sind herzlich eingeladen, sich an der Diskussion zu beteiligen, Fragen zu stellen,\noder Feedback zu geben.\n\nDie Weiterentwicklung der deutschen Basisprofile kann im [GitHub-Repository](https://github.com/hl7germany/basisprofil-de-r4) verfolgt werden.\n\nVerbesserungs- und Korrekturvorschläge sollten ebenfalls über den [GitHub-Issue-Tracker](https://github.com/hl7germany/basisprofil-de-r4/issues) eingereicht werden.\n\n**Die neueste stabile Fassung findet sich unter http://ig.fhir.de/basisprofile-de/stable/**\n\nEine formelle Abstimmung folgt. Um über Kommentierungsphasen, anstehende Abstimmungen und aktuelle Themen informiert zu werden, registrieren Sie sich bitte für den FHIR-Newsletter durch formlose Mail an fhir@hl7.de.",
+    "fhirVersion": [
+        "4.0.0"
+    ],
+    "definition": {
+        "page": {
+            "nameUrl": "ig/markdown/Home.md",
+            "title": "Home",
+            "generation": "markdown",
+            "page": [
+                {
+                    "nameUrl": "ig/markdown/UeberDiesenLeitfaden.md",
+                    "title": "Über diesen Leitfaden",
+                    "generation": "markdown"
+                },
+                {
+                    "nameUrl": "ig/markdown/Grundlagen.md",
+                    "title": "Grundlagen",
+                    "generation": "markdown"
+                },
+                {
+                    "nameUrl": "ig/markdown/Anwendungshinweise.md",
+                    "title": "Anwendungshinweise",
+                    "generation": "markdown",
+                    "page": [
+                        {
+                            "nameUrl": "ig/markdown/Anwendungshinweise-RessourcenPaket.md",
+                            "title": "Ressourcen-Paket",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Anwendungshinweise-NichtProfilierteRessourcen.md",
+                            "title": "Nicht profilierte Ressourcen, zukünftige Erweiterung",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Anwendungshinweise-AbleitungEigenerProfileBasisprofilen.md",
+                            "title": "Ableitung eigener Profile von den Basisprofilen",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Anwendungshinweise-Beispiele.md",
+                            "title": "Beispiele",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Hinweise.md",
+                            "title": "Hinweise",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Anwendungshinweise-FAQ.md",
+                            "title": "FAQ",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ReleaseNotes.md",
+                            "title": "Release Notes",
+                            "generation": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "nameUrl": "ig/markdown/Ressourcen-Uebersicht.md",
+                    "title": "Ressourcen",
+                    "generation": "markdown",
+                    "page": [
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-Patient.md",
+                            "title": "PatientIn (Patient)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Identifikatoren.md",
+                                    "title": "Identifikatoren",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Name.md",
+                                    "title": "Name",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Anrede.md",
+                                    "title": "Anrede",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Geschlecht.md",
+                                    "title": "Geschlecht",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Addresse.md",
+                                    "title": "Adresse",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Personenstand.md",
+                                    "title": "Personenstand",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Patient-Geburtsdatum.md",
+                                    "title": "Geburtsdatum",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-DiagnosenCondition.md",
+                            "title": "Diagnosen (Condition)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Condition-ICD-10-GM.md",
+                                    "title": "ICD-10-GM",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Condition-WeitereDiagnosekodiersysteme.md",
+                                    "title": "Weitere Diagnosekodiersysteme",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Diagnose-Typen.md",
+                                    "title": "Diagnose-Typen",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-ProzedurenProcedure.md",
+                            "title": "Prozeduren (Procedure)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Procedure-OPS.md",
+                                    "title": "OPS",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-AmbulanterStationaererFall.md",
+                            "title": "Ambulanter/stationärer Fall (Encounter,Account,EpisodeOfCare)",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Dokumente--DocumentReference-Composition.md",
+                            "title": "Dokumente (DocumentReference/Composition)",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-VersicherungsinformationenCoverage.md",
+                            "title": "Versicherungs-Informationen (Coverage)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Coverage-Basisprofil.md",
+                                    "title": "Basisprofil",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Coverage-GKV-Profil.md",
+                                    "title": "GKV-Profil",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Coverage-Selbstzahler-Profil.md",
+                                    "title": "Selbstzahler-Profil",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-AbrechnungsdatenLeistungsziffernChargeItem.md",
+                            "title": "Abrechnungsdaten, Leistungsziffern (ChargeItem)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-ChargeItem-EBM-Ziffern.md",
+                                    "title": "EBM-Ziffern",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-BeobachtungenMessungenObservation.md",
+                            "title": "Beobachtungen, Messungen (Observation)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Observation-VitalParameter.md",
+                                    "title": "VitalParameter",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Kopfumfang.md",
+                                            "title": "Kopfumfang",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Koerpergewicht.md",
+                                            "title": "Körpergewicht",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-KoerperlaengeKoerpergroese.md",
+                                            "title": "Körperlänge/Körpergröße",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Koerpertemperatur.md",
+                                            "title": "Körpertemperatur",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Blutdruck.md",
+                                            "title": "Blutdruck",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-VS-PeriphereArtierielleSauerstoffsttigung.md",
+                                            "title": "Periphere Artierielle Sauerstoffsättigung",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Atemfrequenz.md",
+                                            "title": "Atemfrequenz",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Observation-Vitalparameter-Herzfrequenz.md",
+                                            "title": "Herzfrequenz",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/GlasgowComaScale.md",
+                                            "title": "Glasgow Coma Scale",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Observation-Pflegegrad.md",
+                                    "title": "Pflegegrad",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/GradderBehinderung.md",
+                                    "title": "Grad der Behinderung",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/EKG.md",
+                                    "title": "EKG",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Observation-Skalen-und-Scores.md",
+                                    "title": "Skalen und Scores",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Ressourcen-VerweiseaufExterneLeitfaeden.md",
+                            "title": "Verweise auf Externe Leitfäden",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Medikation.md",
+                                    "title": "Medikation (Medication)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Labor.md",
+                                    "title": "Labor (Observation, ServiceRequest, DiagnosticReport)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-FrageboegenUndFormulare.md",
+                                    "title": "Fragebögen und Formulare (Questionaire, QuestionaireResponse)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Einwilligungsmanagement.md",
+                                    "title": "Einwilligungsmanagement (Consent)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-AllergienundIntoleranzen.md",
+                                    "title": "Allergien und Intoleranzen (AllergyIntolerance)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-BeobachtungenMessungen.md",
+                                    "title": "Beobachtungen, Messungen (Observation)",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Schwangerschaft.md",
+                                            "title": "Schwangerschaft",
+                                            "generation": "markdown",
+                                            "page": [
+                                                {
+                                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-SchwangerschaftsStatus.md",
+                                                    "title": "Schwangerschaftsstatus",
+                                                    "generation": "markdown"
+                                                },
+                                                {
+                                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-ErwarteterGeburtstermin.md",
+                                                    "title": "Erwarteter Geburtstermin",
+                                                    "generation": "markdown"
+                                                },
+                                                {
+                                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Schwangerschafts-Historie.md",
+                                                    "title": "Schwangerschafts-Historie",
+                                                    "generation": "markdown"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Anamnese.md",
+                                            "title": "Anamnese",
+                                            "generation": "markdown",
+                                            "page": [
+                                                {
+                                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Raucherstatus.md",
+                                                    "title": "Raucherstatus",
+                                                    "generation": "markdown"
+                                                },
+                                                {
+                                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Alkoholkonsum.md",
+                                                    "title": "Alkoholkonsum",
+                                                    "generation": "markdown"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-BMI.md",
+                                            "title": "BMI",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Observation-Pflegebericht.md",
+                                    "title": "Pflegebericht",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Terminplanung.md",
+                                    "title": "Terminplanung (Appointment, Schedule, Slot)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Extern-Dokumentenaustausch.md",
+                                    "title": "Dokumentenaustausch (DocumentReference)",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nameUrl": "ig/markdown/Extensions-Uebersicht.md",
+                    "title": "Extensions",
+                    "generation": "markdown",
+                    "page": [
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrPatient.md",
+                            "title": "Extensions für Patient",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrCondition.md",
+                            "title": "Extensions für Condition",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrMedication.md",
+                            "title": "Extensions für Medication",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrCoverage.md",
+                            "title": "Extensions für Coverage",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrEncounter.md",
+                            "title": "Extensions für Encounter",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrProcedure.md",
+                            "title": "Extensions für Procedure",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrComposition.md",
+                            "title": "Extensions für Composition",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrAccount.md",
+                            "title": "Extensions für Account",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/ExtensionsfrSchedule.md",
+                            "title": "Extensions für Schedule",
+                            "generation": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "nameUrl": "ig/markdown/Datentypen-Uebersicht.md",
+                    "title": "Datentypen",
+                    "generation": "markdown",
+                    "page": [
+                        {
+                            "nameUrl": "ig/markdown/Datentypen-Address.md",
+                            "title": "Address",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Datentypen-HumanName.md",
+                            "title": "HumanName",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Datentypen-Coding.md",
+                            "title": "Coding",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-ICD-10GM-Coding.md",
+                                    "title": "ICD-10 GM",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-Alpha-ID.md",
+                                    "title": "Alpha-ID",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-Alpha-ID-SE.md",
+                                    "title": "Alpha-ID-SE",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-OPS.md",
+                                    "title": "OPS",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-ASK.md",
+                                    "title": "ASK",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-ATC.md",
+                                    "title": "ATC",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Datentypen-Coding-PZN.md",
+                                    "title": "PZN",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Datentypen-Identifier.md",
+                            "title": "Identifier",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/IdentifierfrPatient.md",
+                                    "title": "Identifier für Patient",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/LebenslangeKrankenversichertennummer10-stelligeKVID-Identifier.md",
+                                            "title": "Lebenslange Krankenversichertennummer (10-stellige KVID)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/OrganisationsinternerPatienten-Identifier.md",
+                                            "title": "Organisationsinterner Patienten-Identifier (PID)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/PrivateKrankenversichertennummer-Identifier.md",
+                                            "title": "Private Krankenversichertennummer",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Reisepassnummer-Identifier.md",
+                                            "title": "Reisepassnummer",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/IdentifierfrOrganization.md",
+                                    "title": "Identifier für Organization",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/KZVAbrechnungsnummer-Identifier.md",
+                                            "title": "KZVAbrechnungsnummer",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/BetriebsstttennummerBSNR-Identifier.md",
+                                            "title": "Betriebsstättennummer (BSNR)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/InstitutionskennzeichenIKNR.md",
+                                            "title": "Institutionskennzeichen (IKNR)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/VertragskassennummerVKNR-Identifier.md",
+                                            "title": "Vertragskassennummer (VKNR)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Telematik-ID.md",
+                                            "title": "Telematik-ID",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/IdentifierfrPractitionerPractitionerRole.md",
+                                    "title": "Identifier für Practitioner, PractitionerRole",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/EinheitlichenFortbildungsnummerEFN-Identifier.md",
+                                            "title": "Einheitlichen Fortbildungsnummer (EFN)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/LebenslangeArztnummerLANR-Identifier.md",
+                                            "title": "Lebenslange Arztnummer (LANR)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/LebenslangeZahnarztnummerZANR-Identifier.md",
+                                            "title": "Lebenslange Zahnarztnummer (ZANR)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/LebenslangeBeschaeftigtennummerLBNR-Identifier.md",
+                                            "title": "Lebenslange Beschäftigtennummer (LBNR)",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/IdentifierfrEncounterAccount.md",
+                                    "title": "Identifier für Encounter, Account",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/Aufnahmenummer.md",
+                                            "title": "Aufnahmenummer (\"Bewegungsnummer\", \"Kontaktnummer\")",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Abrechnungsnummer.md",
+                                            "title": "Abrechnungsnummer (\"Fallnummer\")",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Identifier-f-r-Location.md",
+                                    "title": "Identifier für Location",
+                                    "generation": "markdown",
+                                    "page": [
+                                        {
+                                            "nameUrl": "ig/markdown/Standortnummer--DKG.md",
+                                            "title": "Standortnummer (DKG)",
+                                            "generation": "markdown"
+                                        },
+                                        {
+                                            "nameUrl": "ig/markdown/Betriebsst-ttennummer--BSNR----Location.md",
+                                            "title": "Betriebsstättennummer (BSNR) - Location",
+                                            "generation": "markdown"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nameUrl": "ig/markdown/Terminologie-Uebersicht.md",
+                    "title": "Terminologie",
+                    "generation": "markdown",
+                    "page": [
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-NomenklaturDerRessourcen.md",
+                            "title": "Nomenklatur der Ressourcen",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-CodesystemVersionen.md",
+                            "title": "Codesystem-Versionen",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-Platzhalter-Codesysteme.md",
+                            "title": "Platzhalter-Codesysteme",
+                            "generation": "markdown"
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-ValueSets.md",
+                            "title": "ValueSets",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Coverage-ValueSets.md",
+                                    "title": "Versicherungs-Informationen (Coverage)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Medication-ValueSets.md",
+                                    "title": "Medikation (Medication)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/PatientInPatient-ValueSets.md",
+                                    "title": "PatientIn (Patient)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/BeobachtungenMessungenObservation-ValueSets.md",
+                                    "title": "Beobachtungen, Messungen (Observation)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Encounter-ValueSets.md",
+                                    "title": "Ambulanter/stationärer Fall / Kontakt (Encounter)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/AbrechnungsfallAccount.md",
+                                    "title": "Abrechnungsfall (Account)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Condition-ValueSets.md",
+                                    "title": "Diagnosen (Condition)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Meta.md",
+                                    "title": "Meta",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/IHEValueSets.md",
+                                    "title": "IHE ValueSets",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/WeitereValueSets.md",
+                                    "title": "Weitere ValueSets",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-Codesysteme.md",
+                            "title": "Codesysteme",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Coverage-CodeSystem.md",
+                                    "title": "Versicherungs-Informationen (Coverage)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Medication-CodeSystem.md",
+                                    "title": "Medikation (Medication)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Patient-CodeSystem.md",
+                                    "title": "PatientIn (Patient)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Encounter-CodeSystem.md",
+                                    "title": "Ambulanter/stationärer Fall / Kontakt (Encounter)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/AbrechnungsfallAccount.md",
+                                    "title": "Abrechnungsfall (Account)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Condition-CodeSystem.md",
+                                    "title": "Diagnosen (Condition)",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Meta.md",
+                                    "title": "Meta",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-WeitereCodesysteme.md",
+                                    "title": "Weitere Codesysteme",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-ConceptMaps.md",
+                            "title": "ConceptMaps",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-ConceptMaps-SNOMED-CTOPSMapping.md",
+                                    "title": "SNOMED-CT / OPS Mapping",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-Namensraeume.md",
+                            "title": "Namensräume",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-Namensraueme-LokaleNamensraeume.md",
+                                    "title": "Lokale Namensräume",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-Namensraueme-NationaleNamensraeume.md",
+                                    "title": "Nationale Namensräume",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Terminologie-Uebersetzungen.md",
+                            "title": "Codesystem-Übersetzungen",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystenSupplement-administrative-gender.md",
+                                    "title": "administrative-gender",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-marital-status.md",
+                                    "title": "marital-status",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-diagnosis-role.md",
+                                    "title": "diagnosis-role",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-identifier-type-v2.md",
+                                    "title": "identifier-type-v2",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-observation-category.md",
+                                    "title": "observation-category",
+                                    "generation": "markdown"
+                                },
+                                {
+                                    "nameUrl": "ig/markdown/Terminologie-CodeSystemSupplement-ISO3166.md",
+                                    "title": "ISO-3166",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }

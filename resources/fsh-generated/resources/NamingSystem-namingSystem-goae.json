@@ -1,0 +1,45 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "namingSystem-goae",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/namingsystem-de-basis"
+    ]
+  },
+  "name": "Gebührenordnung für Ärzte",
+  "status": "active",
+  "kind": "codesystem",
+  "date": "2024-02-09",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "responsible": "Bundesregierung mit Zustimmung des Bundesrates",
+  "type": {
+    "coding": [
+      {
+        "code": "0024",
+        "system": "urn:oid:2.16.840.1.113883.12.24",
+        "display": "Fee Schedule"
+      }
+    ]
+  },
+  "usage": "Die Gebührenordnung für Ärzte regelt die Abrechnung privatärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://fhir.de/CodeSystem/bäk/goä",
+      "preferred": true,
+      "period": {
+        "start": "2024-02-09"
+      }
+    }
+  ]
+}

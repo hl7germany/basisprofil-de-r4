@@ -8,16 +8,16 @@
   "url": "http://fhir.de/CodeSystem/deuev/anlage-8-laenderkennzeichen",
   "concept": [
     {
-      "code": "D",
-      "display": "Deutschland"
-    },
-    {
       "code": "AFG",
       "display": "Afghanistan"
     },
     {
       "code": "ET",
       "display": "Ägypten"
+    },
+    {
+      "code": "AX",
+      "display": "Åland"
     },
     {
       "code": "AL",
@@ -33,7 +33,7 @@
     },
     {
       "code": "AS",
-      "display": "Amerik.-Samoa"
+      "display": "Amerikanisch-Samoa"
     },
     {
       "code": "AND",
@@ -60,12 +60,90 @@
       "display": "Argentinien"
     },
     {
+      "code": "AQ",
+      "display": "Argentinische Antarktis",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Norwegisches Antarktis-Territorium"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Chilenische Antarktis"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Britisches Antarktis-Territorium"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Australisches Antarktis-Territorium"
+        }
+      ]
+    },
+    {
       "code": "ARM",
       "display": "Armenien"
     },
     {
+      "code": "AW",
+      "display": "Aruba"
+    },
+    {
+      "code": "HEL",
+      "display": "Ascension",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Tristan da Cunha"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "St. Helena"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "St. Helena, Ascension und Tristan da Cunha"
+        }
+      ]
+    },
+    {
       "code": "ASE",
       "display": "Aserbaidschan"
+    },
+    {
+      "code": "AU",
+      "display": "Ashmore- und Cartierinseln",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Korallenmeerinseln"
+        }
+      ]
     },
     {
       "code": "ETH",
@@ -92,6 +170,10 @@
       "display": "Barbados"
     },
     {
+      "code": "BY",
+      "display": "Belarus"
+    },
+    {
       "code": "B",
       "display": "Belgien"
     },
@@ -116,6 +198,10 @@
       "display": "Bolivien"
     },
     {
+      "code": "BQ",
+      "display": "Bonaire, Saba, St. Eustatius"
+    },
+    {
       "code": "BIH",
       "display": "Bosnien und Herzegowina"
     },
@@ -124,12 +210,20 @@
       "display": "Botsuana"
     },
     {
+      "code": "BV",
+      "display": "Bouvetinsel"
+    },
+    {
       "code": "BR",
       "display": "Brasilien"
     },
     {
       "code": "BJ",
-      "display": "Brit.-Jungferninseln"
+      "display": "Britische Jungferninseln"
+    },
+    {
+      "code": "IO",
+      "display": "Britisches Territorium im Indischen Ozean"
     },
     {
       "code": "BRU",
@@ -152,8 +246,8 @@
       "display": "Chile"
     },
     {
-      "code": "TJ",
-      "display": "China"
+      "code": "CP",
+      "display": "Clipperton"
     },
     {
       "code": "COI",
@@ -165,11 +259,19 @@
     },
     {
       "code": "CI",
-      "display": "Cote d ́Ivoire"
+      "display": "Cote d`Ivoire"
+    },
+    {
+      "code": "CW",
+      "display": "Curaçao"
     },
     {
       "code": "DK",
       "display": "Dänemark"
+    },
+    {
+      "code": "D",
+      "display": "Deutschland"
     },
     {
       "code": "WD",
@@ -200,6 +302,10 @@
       "display": "Estland"
     },
     {
+      "code": "SWZ",
+      "display": "Eswatini"
+    },
+    {
       "code": "FAL",
       "display": "Falklandinseln"
     },
@@ -218,6 +324,10 @@
     {
       "code": "F",
       "display": "Frankreich"
+    },
+    {
+      "code": "TF",
+      "display": "Französische Süd- und Antarktisgebiete"
     },
     {
       "code": "FG",
@@ -260,10 +370,6 @@
       "display": "Grönland"
     },
     {
-      "code": "GB",
-      "display": "Großbritannien und Nordirland"
-    },
-    {
       "code": "GUA",
       "display": "Guadeloupe"
     },
@@ -274,6 +380,10 @@
     {
       "code": "GCA",
       "display": "Guatemala"
+    },
+    {
+      "code": "GG",
+      "display": "Guernsey"
     },
     {
       "code": "RG",
@@ -290,6 +400,10 @@
     {
       "code": "RH",
       "display": "Haiti"
+    },
+    {
+      "code": "HM",
+      "display": "Heard und McDonaldinseln"
     },
     {
       "code": "HCA",
@@ -317,7 +431,7 @@
     },
     {
       "code": "IR",
-      "display": "\"Iran, Islamische Republik\""
+      "display": "Iran"
     },
     {
       "code": "IRL",
@@ -348,12 +462,22 @@
       "display": "Jemen"
     },
     {
+      "code": "JE",
+      "display": "Jersey"
+    },
+    {
       "code": "JOR",
       "display": "Jordanien"
     },
     {
       "code": "YU",
-      "display": "Jugoslawien"
+      "display": "Jugoslawien",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "KAI",
@@ -373,11 +497,17 @@
     },
     {
       "code": "KAN",
-      "display": "Kanalinseln"
+      "display": "Kanalinseln",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "CV",
-      "display": "Kap Verde"
+      "display": "Cabo Verde"
     },
     {
       "code": "KAS",
@@ -385,7 +515,7 @@
     },
     {
       "code": "QAT",
-      "display": "Katar/Qatar"
+      "display": "Katar"
     },
     {
       "code": "EAK",
@@ -400,6 +530,10 @@
       "display": "Kiribati"
     },
     {
+      "code": "CC",
+      "display": "Kokosinseln"
+    },
+    {
       "code": "CO",
       "display": "Kolumbien"
     },
@@ -409,19 +543,19 @@
     },
     {
       "code": "RCB",
-      "display": "Kongo"
+      "display": "Kongo(-Brazzaville), Republik"
     },
     {
       "code": "ZRE",
-      "display": "\"Kongo, Dem. Republik\""
+      "display": "Kongo, Demokratische Republik (ehem. Zaire)"
     },
     {
       "code": "KOR",
-      "display": "\"Korea, Dem. Volksrepublik\""
+      "display": "Korea, Demokratische Volksrepublik (Nordkorea)"
     },
     {
       "code": "ROK",
-      "display": "\"Korea, Republik\""
+      "display": "Korea, Republik (Südkorea)"
     },
     {
       "code": "KOS",
@@ -441,7 +575,7 @@
     },
     {
       "code": "LAO",
-      "display": "\"Laos, Dem. Volksrepublik\""
+      "display": "Laos"
     },
     {
       "code": "LS",
@@ -482,10 +616,6 @@
     {
       "code": "RM",
       "display": "Madagaskar"
-    },
-    {
-      "code": "MK",
-      "display": "Makedonien / Mazedonien"
     },
     {
       "code": "MW",
@@ -537,7 +667,7 @@
     },
     {
       "code": "MIK",
-      "display": "\"Mikronesien, Föderierte Staaten von\""
+      "display": "Mikronesien"
     },
     {
       "code": "MD",
@@ -576,6 +706,19 @@
       "display": "Nauru"
     },
     {
+      "code": "UM",
+      "display": "Navassa",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Kleinere Amerikanische Überseeinseln"
+        }
+      ]
+    },
+    {
       "code": "NEP",
       "display": "Nepal"
     },
@@ -597,7 +740,13 @@
     },
     {
       "code": "NLA",
-      "display": "Niederländische Antillen"
+      "display": "Niederländische Antillen",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "RN",
@@ -612,8 +761,16 @@
       "display": "Niue"
     },
     {
+      "code": "MK",
+      "display": "Nordmazedonien"
+    },
+    {
       "code": "NMA",
       "display": "Nördliche Marianen"
+    },
+    {
+      "code": "NF",
+      "display": "Norfolkinsel"
     },
     {
       "code": "N",
@@ -653,7 +810,13 @@
     },
     {
       "code": "PIN",
-      "display": "Pazifische Inseln (Marianen- und Karolineninseln)"
+      "display": "Pazifische Inseln (Marianen- und Karolineninseln)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "PE",
@@ -665,7 +828,7 @@
     },
     {
       "code": "PIT",
-      "display": "Pitcairn-Insel"
+      "display": "Pitcairninseln"
     },
     {
       "code": "PL",
@@ -737,11 +900,17 @@
     },
     {
       "code": "SRB",
-      "display": "Serbien (einschl. Kosovo)"
+      "display": "Serbien"
     },
     {
       "code": "SCG",
-      "display": "Serbien und Montenegro"
+      "display": "Serbien und Montenegro",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "SY",
@@ -773,15 +942,38 @@
     },
     {
       "code": "E",
-      "display": "Spanien"
+      "display": "Spanien",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Spanische Hoheitsplätze in Nordafrika"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Melilla"
+        },
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Ceuta"
+        }
+      ]
     },
     {
       "code": "CL",
       "display": "Sri Lanka"
     },
     {
-      "code": "HEL",
-      "display": "St. Helena einschl. Ascension"
+      "code": "BL",
+      "display": "St. Barthélemy"
     },
     {
       "code": "SCN",
@@ -790,6 +982,14 @@
     {
       "code": "WL",
       "display": "St. Lucia"
+    },
+    {
+      "code": "MF",
+      "display": "St. Martin (französischer Teil)"
+    },
+    {
+      "code": "SX",
+      "display": "St. Martin (niederländischer Teil)"
     },
     {
       "code": "WV",
@@ -801,15 +1001,25 @@
     },
     {
       "code": "SUD",
-      "display": "Sudan"
+      "display": "Sudan",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
     },
     {
       "code": "SDN",
-      "display": "Republik Sudan (ohne Südsudan)"
+      "display": "Sudan"
+    },
+    {
+      "code": "GS",
+      "display": "Südgeorgien und die südlichen Sandwichinseln"
     },
     {
       "code": "SSD",
-      "display": "Südsudan (Republik Südsudan)"
+      "display": "Südsudan"
     },
     {
       "code": "SME",
@@ -817,11 +1027,21 @@
     },
     {
       "code": "SD",
-      "display": "Swasiland"
+      "display": "Swasiland",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        }
+      ]
+    },
+    {
+      "code": "SJ",
+      "display": "Svalbard und Jan Mayen"
     },
     {
       "code": "SYR",
-      "display": "\"Syrien, Arabische Republik\""
+      "display": "Syrien"
     },
     {
       "code": "TAD",
@@ -833,11 +1053,24 @@
     },
     {
       "code": "EAT",
-      "display": "\"Tansania, Vereinigte Republik\""
+      "display": "Tansania"
     },
     {
       "code": "T",
       "display": "Thailand"
+    },
+    {
+      "code": "TJ",
+      "display": "China",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Tibet"
+        }
+      ]
     },
     {
       "code": "OTI",
@@ -849,7 +1082,7 @@
     },
     {
       "code": "TOK",
-      "display": "Tokelau-Inseln"
+      "display": "Tokelau"
     },
     {
       "code": "TON",
@@ -865,7 +1098,7 @@
     },
     {
       "code": "CZ",
-      "display": "Tschechische Republik"
+      "display": "Tschechien"
     },
     {
       "code": "TN",
@@ -928,12 +1161,33 @@
       "display": "Vereinigte Staaten"
     },
     {
+      "code": "GB",
+      "display": "Vereinigtes Königreich",
+      "designation": [
+        {
+          "use": {
+            "code": "900000000000013009",
+            "system": "http://snomed.info/sct"
+          },
+          "value": "Akrotiri und Dhekelia"
+        }
+      ]
+    },
+    {
       "code": "VN",
       "display": "Vietnam"
     },
     {
-      "code": "BY",
-      "display": "Weißrußland (Belarus)"
+      "code": "WF",
+      "display": "Wallis und Futuna"
+    },
+    {
+      "code": "CX",
+      "display": "Weihnachtsinsel"
+    },
+    {
+      "code": "EH",
+      "display": "Westsahara"
     },
     {
       "code": "RCA",
@@ -944,9 +1198,14 @@
       "display": "Zypern"
     }
   ],
-  "version": "2.56",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "version": "8.00",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2024-02-19",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -958,12 +1217,14 @@
       ]
     }
   ],
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
-  "count": 234
+  "property": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties",
+      "type": "code"
+    }
+  ],
+  "count": 259
 }
