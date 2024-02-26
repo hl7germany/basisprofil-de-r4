@@ -157,7 +157,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/DeuevAnlage8Laenderkennzeichen.fsh",
     "startLine": 1,
-    "endLine": 244
+    "endLine": 319
   },
   {
     "outputFile": "CodeSystem-ask.json",
@@ -229,7 +229,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/IdentifierTypeDeBasis.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 26
   },
   {
     "outputFile": "CodeSystem-identifier-type-v2-supplement.json",
@@ -372,32 +372,32 @@
     "fshName": "Example-coverage-example",
     "fshType": "Instance",
     "fshFile": "profiles/CoverageDeGkv.fsh",
-    "startLine": 67,
-    "endLine": 110
+    "startLine": 66,
+    "endLine": 109
   },
   {
     "outputFile": "NamingSystem-namingSystem-KzbvZahnarztnummer.json",
     "fshName": "namingSystem-KzbvZahnarztnummer",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 274,
-    "endLine": 291
+    "startLine": 282,
+    "endLine": 299
   },
   {
     "outputFile": "NamingSystem-namingSystem-KzvAbrechnungsnummer.json",
     "fshName": "namingSystem-KzvAbrechnungsnummer",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 293,
-    "endLine": 309
+    "startLine": 301,
+    "endLine": 317
   },
   {
     "outputFile": "NamingSystem-namingSystem-KzvZahnarztnummer.json",
     "fshName": "namingSystem-KzvZahnarztnummer",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 311,
-    "endLine": 328
+    "startLine": 319,
+    "endLine": 336
   },
   {
     "outputFile": "NamingSystem-namingSystem-arge-ik-iknr.json",
@@ -420,56 +420,72 @@
     "fshName": "namingSystem-gkv-kvk-versichertennummer",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 132,
-    "endLine": 148
+    "startLine": 140,
+    "endLine": 156
   },
   {
     "outputFile": "NamingSystem-namingSystem-gkv-kvnr-30.json",
     "fshName": "namingSystem-gkv-kvnr-30",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 150,
-    "endLine": 169
+    "startLine": 158,
+    "endLine": 177
   },
   {
     "outputFile": "NamingSystem-namingSystem-gkv-pseudo-kvid.json",
     "fshName": "namingSystem-gkv-pseudo-kvid",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 171,
-    "endLine": 188
+    "startLine": 179,
+    "endLine": 196
+  },
+  {
+    "outputFile": "NamingSystem-namingSystem-goae.json",
+    "fshName": "namingSystem-goae",
+    "fshType": "Instance",
+    "fshFile": "profiles/NamingsystemDeBasis.fsh",
+    "startLine": 338,
+    "endLine": 354
+  },
+  {
+    "outputFile": "NamingSystem-namingSystem-gzae.json",
+    "fshName": "namingSystem-gzae",
+    "fshType": "Instance",
+    "fshFile": "profiles/NamingsystemDeBasis.fsh",
+    "startLine": 356,
+    "endLine": 372
   },
   {
     "outputFile": "NamingSystem-namingSystem-kbv-bsnr.json",
     "fshName": "namingSystem-kbv-bsnr",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 190,
-    "endLine": 210
+    "startLine": 198,
+    "endLine": 218
   },
   {
     "outputFile": "NamingSystem-namingSystem-kbv-lanr.json",
     "fshName": "namingSystem-kbv-lanr",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 212,
-    "endLine": 232
+    "startLine": 220,
+    "endLine": 240
   },
   {
     "outputFile": "NamingSystem-namingSystem-kbv-pnr.json",
     "fshName": "namingSystem-kbv-pnr",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 234,
-    "endLine": 252
+    "startLine": 242,
+    "endLine": 260
   },
   {
     "outputFile": "NamingSystem-namingSystem-kbv-vknr.json",
     "fshName": "namingSystem-kbv-vknr",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 254,
-    "endLine": 272
+    "startLine": 262,
+    "endLine": 280
   },
   {
     "outputFile": "NamingSystem-namingsystem-BundesaerztekammerEfn.json",
@@ -493,15 +509,15 @@
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
     "startLine": 92,
-    "endLine": 109
+    "endLine": 113
   },
   {
     "outputFile": "NamingSystem-namingsystem-gkv-kvid-10.json",
     "fshName": "namingsystem-gkv-kvid-10",
     "fshType": "Instance",
     "fshFile": "profiles/NamingsystemDeBasis.fsh",
-    "startLine": 111,
-    "endLine": 130
+    "startLine": 115,
+    "endLine": 138
   },
   {
     "outputFile": "Observation-Example-grad-der-behinderung.json",
@@ -773,7 +789,7 @@
     "fshType": "Extension",
     "fshFile": "extensions/ExtensionAbrechnungsDiagnoseProzedur.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-ExtensionAbrechnungsart.json",
@@ -781,7 +797,15 @@
     "fshType": "Extension",
     "fshFile": "extensions/ExtensionAbrechnungsart.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-ExtensionFachabteilungsschluessel301.json",
+    "fshName": "ExtensionFachabteilungsschluessel301",
+    "fshType": "Extension",
+    "fshFile": "extensions/ExtensionFachabteilungsschluessel301.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-ExtensionLebensphase.json",
@@ -789,7 +813,7 @@
     "fshType": "Extension",
     "fshFile": "extensions/ExtensionLebensphase.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-GradDerBehinderung.json",
@@ -869,7 +893,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/CoverageDeGkv.fsh",
     "startLine": 1,
-    "endLine": 65
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-coverage-de-sel.json",
@@ -989,7 +1013,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/IdentifierKvid10.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-identifier-kzva.json",
@@ -1008,6 +1032,14 @@
     "endLine": 17
   },
   {
+    "outputFile": "StructureDefinition-identifier-lbnr.json",
+    "fshName": "IdentifierLbnr",
+    "fshType": "Profile",
+    "fshFile": "profiles/IdentifierLbnr.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
     "outputFile": "StructureDefinition-identifier-pid.json",
     "fshName": "IdentifierPid",
     "fshType": "Profile",
@@ -1021,7 +1053,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/IdentifierPkvVersichertenId10.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-identifier-pkv.json",
@@ -1262,110 +1294,6 @@
     "fshFile": "extensions/ExtensionGkvZuzahlungsstatus.fsh",
     "startLine": 1,
     "endLine": 23
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.30--20180713131246.json",
-    "fshName": "1.2.276.0.76.11.30--20180713131246",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.30--20180713131246.fsh",
-    "startLine": 1,
-    "endLine": 107
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.31--20180713132208.json",
-    "fshName": "IHEXDSauthorSpeciality",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets/IHEXDSauthorSpeciality.fsh",
-    "startLine": 1,
-    "endLine": 236
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.32--20180713132315.json",
-    "fshName": "1.2.276.0.76.11.32--20180713132315",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.32--20180713132315.fsh",
-    "startLine": 1,
-    "endLine": 83
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.33--20180713132759.json",
-    "fshName": "1.2.276.0.76.11.33--20180713132759",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.33--20180713132759.fsh",
-    "startLine": 1,
-    "endLine": 37
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.34--20180713132843.json",
-    "fshName": "1.2.276.0.76.11.34--20180713132843",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.34--20180713132843.fsh",
-    "startLine": 1,
-    "endLine": 137
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.35--20181214170712.json",
-    "fshName": "1.2.276.0.76.11.35--20181214170712",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.35--20181214170712.fsh",
-    "startLine": 1,
-    "endLine": 89
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.36--20181001183306.json",
-    "fshName": "IHEXDShealthcareFacilityTypeCode",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets/IHEXDShealthcareFacilityTypeCode.fsh",
-    "startLine": 1,
-    "endLine": 17
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.37--20190517134631.json",
-    "fshName": "IHEXDSpracticeSettingCode",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets/IHEXDSpracticeSettingCode.fsh",
-    "startLine": 1,
-    "endLine": 17
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.38--20180713162205.json",
-    "fshName": "1.2.276.0.76.11.38--20180713162205",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.38--20180713162205.fsh",
-    "startLine": 1,
-    "endLine": 175
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.39--20180713132816.json",
-    "fshName": "1.2.276.0.76.11.39--20180713132816",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.39--20180713132816.fsh",
-    "startLine": 1,
-    "endLine": 42
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.40--20180713132721.json",
-    "fshName": "IHEXDScodeList",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets/IHEXDScodeList.fsh",
-    "startLine": 1,
-    "endLine": 21
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.58--20180713162142.json",
-    "fshName": "1.2.276.0.76.11.58--20180713162142",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.58--20180713162142.fsh",
-    "startLine": 1,
-    "endLine": 86
-  },
-  {
-    "outputFile": "ValueSet-1.2.276.0.76.11.59--20180713162125.json",
-    "fshName": "1.2.276.0.76.11.59--20180713162125",
-    "fshType": "Instance",
-    "fshFile": "valuesets/1.2.276.0.76.11.59--20180713162125.fsh",
-    "startLine": 1,
-    "endLine": 46
   },
   {
     "outputFile": "ValueSet-AbrechnungsDiagnoseProzedur.json",
@@ -1621,23 +1549,23 @@
     "fshType": "Instance",
     "fshFile": "valuesets/ScoreDE_GCS.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 24
   },
   {
     "outputFile": "ValueSet-glasgow-coma-score-motor.json",
     "fshName": "glasgow-coma-score-motor",
     "fshType": "Instance",
     "fshFile": "valuesets/ScoreDE_GCS.fsh",
-    "startLine": 57,
-    "endLine": 89
+    "startLine": 55,
+    "endLine": 86
   },
   {
     "outputFile": "ValueSet-glasgow-coma-score-verbal.json",
     "fshName": "glasgow-coma-score-verbal",
     "fshType": "Instance",
     "fshFile": "valuesets/ScoreDE_GCS.fsh",
-    "startLine": 27,
-    "endLine": 55
+    "startLine": 26,
+    "endLine": 53
   },
   {
     "outputFile": "ValueSet-icd-10-gm-mehrfachcodierungs-kennzeichen.json",
@@ -1653,7 +1581,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/IdentifierTypeDeBasis.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-kontaktart-de.json",

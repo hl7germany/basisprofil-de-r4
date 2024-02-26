@@ -1,8 +1,7 @@
 Instance: glasgow-coma-score-eye
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
-* status = #draft
+* insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Eye"
 * title = "VS Score Glasgow Coma Score Eye"
 * description = "Dieses ValueSet enthält Codes für die Augenöffnung Komponente des Glasgow Coma Scores."
@@ -27,8 +26,7 @@ Usage: #definition
 Instance: glasgow-coma-score-verbal
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
-* status = #draft
+* insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Verbal"
 * title = "VS Score Glasgow Coma Score Verbal"
 * description = "Dieses ValueSet enthält Codes für die Verbale Kommunikation Komponente des Glasgow Coma Scores."
@@ -57,8 +55,7 @@ Usage: #definition
 Instance: glasgow-coma-score-motor
 InstanceOf: ValueSet
 Usage: #definition
-* version = "1.5.0"
-* status = #draft
+* insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Motor"
 * title = "VS Score Glasgow Coma Score Motor"
 * description = "Dieses ValueSet enthält Codes für die Motorische Reaktion Komponente des Glasgow Coma Scores."

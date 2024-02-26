@@ -2,7 +2,7 @@ Instance: Condition-related
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "http://fhir.de/SearchParameter/Condition-related"
-* version = "1.4.0"
+* version = "1.5.0-ballot"
 * name = "related"
 * status = #draft
 * experimental = false
