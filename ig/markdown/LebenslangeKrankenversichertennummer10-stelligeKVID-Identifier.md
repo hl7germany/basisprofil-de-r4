@@ -1,6 +1,6 @@
 #### Lebenslange Krankenversichertennummer (10-stellige KVID)
 
-**Name**: IdentifierKvid10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kvid-10&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierKvid10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kvid-10&scope=de.basisprofil.r4@1.5.0-ballot))
 
 **Gültigkeit**: Das Profil gilt für alle Krankenversichertennummern, unabhängig, ob es sich um GKV, PKV oder Sonterkostenträger handelt!
 
@@ -48,7 +48,7 @@ Die Angabe von `Identifier.type` ist optional, da die Versichertennummer als sol
 Folgendes Identifier-Profil kann für die Übertragung von pseudonymisierte GKV Krankenversichertennummer verwendet werden:
 
 
-**Name**: IdentifierPseudoKvid ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pseudo-kvid&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierPseudoKvid ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pseudo-kvid&scope=de.basisprofil.r4@1.5.0-ballot))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-pseudo-kvid`
 

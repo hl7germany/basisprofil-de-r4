@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "onlinepruefung-egk",
   "url": "http://fhir.de/StructureDefinition/gkv/onlinepruefung-egk",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "ExtensionGkvOnlinepruefungEgk",
   "title": "Informationen zur Onlineprüfung und -aktualisierung",
   "status": "active",

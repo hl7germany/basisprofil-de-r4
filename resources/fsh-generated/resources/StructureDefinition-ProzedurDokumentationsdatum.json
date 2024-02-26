@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ProzedurDokumentationsdatum",
   "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
-  "version": "1.5.0",
+  "version": "1.5.0-ballot",
   "name": "ExtensionProzedurDokumentationsdatum",
   "status": "active",
   "experimental": false,

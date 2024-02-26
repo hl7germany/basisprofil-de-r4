@@ -1,6 +1,6 @@
 #### {{page-title}}
 
-**Name**: IdentifierAbrechnungsnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-abrechnungsnummer&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierAbrechnungsnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-abrechnungsnummer&scope=de.basisprofil.r4@1.5.0-ballot))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-abrechnungsnummer`
 
@@ -28,4 +28,4 @@ Beispiel:
     </identifier>
 ```
 
-Für den Aufnahmenummer Identifier (Encounter) ist folgendes Profil zu verwenden: ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-aufnahmenummer&scope=de.basisprofil.r4@1.4.0))
+Für den Aufnahmenummer Identifier (Encounter) ist folgendes Profil zu verwenden: ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-aufnahmenummer&scope=de.basisprofil.r4@1.5.0-ballot))
