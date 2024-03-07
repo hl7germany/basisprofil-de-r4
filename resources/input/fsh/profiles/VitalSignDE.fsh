@@ -18,27 +18,16 @@ Id: observation-de-vitalsign
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
-* effective[x] only dateTime
-* effectiveDateTime
+* effective[x] 
   * obeys vs-de-1
-* value[x] ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* valueQuantity only Quantity
-* valueQuantity from UCUM_Vitals_Common_DE (required)
-  * ^sliceName = "valueQuantity"
+* valueQuantity
   * value 1..
   * unit 1..
   * system 1..
   * system = "http://unitsofmeasure.org"
   * code 1..
 * component obeys vs-de-3
-  * value[x] ^slicing.discriminator.type = #type
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * valueQuantity only Quantity
-  * valueQuantity from UCUM_Vitals_Common_DE (required)
-    * ^sliceName = "valueQuantity"
+  * valueQuantity
     * value 1..
     * unit 1..
     * system 1..

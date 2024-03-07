@@ -145,17 +145,12 @@
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "min": 1,
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
         "constraint": [
           {
             "key": "vs-de-1",
             "severity": "error",
-            "human": "If Observation.effective[x] is dateTime and has a value then that value shall be precise to the day",
-            "expression": "$this.toString().length() >= 8",
+            "human": "If Observation.effective[x] has a value then that value shall be precise to the day",
+            "expression": "(($this is dateTime) implies (effective as dateTime).toString().length() >= 10) and ($this.start.exists() implies (effective.start as dateTime).toString().length() >= 10) and ($this.end.exists() implies (effective.end as dateTime).toString().length() >= 10)",
             "source": "http://fhir.de/StructureDefinition/observation-de-vitalsign"
           }
         ]
@@ -170,6 +165,7 @@
               "path": "$this"
             }
           ],
+          "ordered": false,
           "rules": "open"
         }
       },
@@ -183,11 +179,7 @@
           {
             "code": "Quantity"
           }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/UcumVitalsCommonDE"
-        }
+        ]
       },
       {
         "id": "Observation.value[x]:valueQuantity.value",
@@ -233,6 +225,7 @@
               "path": "$this"
             }
           ],
+          "ordered": false,
           "rules": "open"
         }
       },
@@ -246,11 +239,7 @@
           {
             "code": "Quantity"
           }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/UcumVitalsCommonDE"
-        }
+        ]
       },
       {
         "id": "Observation.component.value[x]:valueQuantity.value",
