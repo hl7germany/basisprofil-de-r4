@@ -548,8 +548,8 @@
     "fshName": "Example-observation-bmi",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE.fsh",
-    "startLine": 48,
-    "endLine": 58
+    "startLine": 37,
+    "endLine": 47
   },
   {
     "outputFile": "Observation-Example-observation-ekg.json",
@@ -1237,7 +1237,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE.fsh",
     "startLine": 1,
-    "endLine": 46
+    "endLine": 35
   },
   {
     "outputFile": "StructureDefinition-onlinepruefung-egk.json",
@@ -1422,14 +1422,6 @@
     "fshFile": "valuesets/FachabteilungsschluesselVS.fsh",
     "startLine": 1,
     "endLine": 7
-  },
-  {
-    "outputFile": "ValueSet-UcumVitalsCommonDE.json",
-    "fshName": "UCUM_Vitals_Common_DE",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets/UCUM_Vitals_Common_DE.fsh",
-    "startLine": 1,
-    "endLine": 20
   },
   {
     "outputFile": "ValueSet-ValueSet-GenderOtherDE.json",
