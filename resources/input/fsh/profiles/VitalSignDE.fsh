@@ -18,7 +18,7 @@ Id: observation-de-vitalsign
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
-* effective[x] 
+* effective[x] only dateTime or Period
   * obeys vs-de-1
 * valueQuantity
   * value 1..
