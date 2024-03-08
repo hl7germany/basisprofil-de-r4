@@ -145,6 +145,14 @@
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "Period"
+          }
+        ],
         "constraint": [
           {
             "key": "vs-de-1",
