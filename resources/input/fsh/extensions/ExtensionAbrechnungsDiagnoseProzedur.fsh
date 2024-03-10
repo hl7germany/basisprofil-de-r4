@@ -8,7 +8,7 @@ Description: """Diese Extension erlaubt es einem Account Diagnosen oder Prozedur
 * ^context.expression = "Account"
 * . ^short = "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
 * extension contains
-    Use 0..* MS and
+    Use 0..1 MS and
     Referenz 0..* MS
 * extension[Use].value[x] only Coding
 * extension[Use].valueCoding 0..1

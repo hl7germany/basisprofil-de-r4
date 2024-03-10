@@ -52,7 +52,7 @@
         "path": "Extension.extension",
         "sliceName": "Use",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "mustSupport": true
       },
       {
