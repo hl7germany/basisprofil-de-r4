@@ -1,6 +1,6 @@
-#### PKV-Versicherungsnummer
+#### PKV-Versichertennummer
 
-Im Kontext eines PKV Versicherungsverhältnis identifiziert die PKV-Versichertennummer meist nicht eindeutig die versicherte Person, sondern den Versicherungsvertrag, der auch mehr als eine Person umfassen kann. Somit ist dieses Merkmal mit entsprechender Vorsicht zu verwenden.
+Im Kontext eines PKV-Versicherungsverhältnis identifiziert die PKV-Versichertennummer meist nicht eindeutig die versicherte Person, sondern den Versicherungsvertrag, der auch mehr als eine Person umfassen kann. Somit ist dieses Merkmal mit entsprechender Vorsicht zu verwenden.
 
 Bei privaten Versicherungen ist die NamingSystem-URL in den meisten Fällen nicht bekannt oder nicht definiert. Da jede Versicherung ihren eigenen Nummernkreis verwendet, sind Versichertennummern ohne Angabe der Versicherung jedoch nicht eindeutig.
 
