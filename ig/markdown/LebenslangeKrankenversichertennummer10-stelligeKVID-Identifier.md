@@ -1,8 +1,8 @@
-#### Lebenslange Krankenversichertennummer (10-stellige KVID)
+#### Lebenslange Krankenversicherten-ID (10-stellige KVID)
 
 **Name**: IdentifierKvid10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kvid-10&scope=de.basisprofil.r4@1.5.0-ballot))
 
-**Gültigkeit**: Das Profil gilt für alle Krankenversichertennummern, unabhängig, ob es sich um GKV, PKV oder Sonterkostenträger handelt!
+**Gültigkeit**: Das Profil gilt für alle Krankenversichertennummern, unabhängig, ob es sich um GKV, PKV oder Sonderkostenträger handelt!
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-kvid-10`
 
