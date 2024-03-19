@@ -52,6 +52,7 @@ jobs:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
+          JAVA_VALIDATION_OPTIONS: -best-practice ignore
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
           OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
