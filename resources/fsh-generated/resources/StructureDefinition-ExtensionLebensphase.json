@@ -22,13 +22,6 @@
   "description": "Eine Lebensphase kann beispielsweise erfasst werden um den Zeitraum des Vorhandenseins / Auftreten einer Allergie, die ungefähre zeitliche Eingrenzung der Durchführung einer Prozedur oder das Abklingen einer Erkrankung zu dokumentieren. Eine Lebensphase sollte wo möglich an Elementen vom Datentyp 'Range' erfasst werden, da semantisch die Angabe relativ zum Geburtsdatum der Person zu interpretieren ist.",
   "copyright": "Kassenärztliche Bundesvereinigung (KBV)",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

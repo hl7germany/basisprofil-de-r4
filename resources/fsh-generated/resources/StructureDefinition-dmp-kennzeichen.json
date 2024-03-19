@@ -20,13 +20,6 @@
   ],
   "description": "Gibt die Teilnahme des Versicherten an einem Disease Management Program\nan. Das DMP-Kennzeichen findet derzeit aufgrund bilateraler vertraglicher\nVerpflichtungen von einzelnen Kostenträgern und Leistungserbringern noch\nVerwendung. Das DMP-Kennzeichen wird in diesem Zusammenhang als\nAngabe zum Nachweis von Wahltarifen nach § 53 SGB V bzw. der Angaben\nzum Nachweis von zusätzlichen Vertragsverhältnissen verwendet.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

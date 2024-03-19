@@ -22,13 +22,6 @@
   "description": "Das Kennzeichen WOP ist gemäß § 2 Abs. 2 der Vereinbarung zur\nFestsetzung des Durchschnittsbetrages gemäß Artikel 2 § 2 Abs. 2 des\nGesetzes zur Einführung des Wohnortprinzips bei Honorarvereinbarungen für\nÄrzte und Zahnärzte und zur Krankenversichertenkarte gemäß § 291 Abs. 2\nFünftes Sozialgesetzbuch (SGB V) erforderlich.",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

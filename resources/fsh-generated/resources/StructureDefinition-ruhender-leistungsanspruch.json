@@ -21,13 +21,6 @@
   "description": "Gibt Art und Dauer des ruhenden Leistungsanspruchs des Versicherten bei dem unter Klasse Kostenträger angegebenen Kostenträger an",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [
