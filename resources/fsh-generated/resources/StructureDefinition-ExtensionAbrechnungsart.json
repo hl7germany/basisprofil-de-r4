@@ -22,13 +22,6 @@
   "description": "Extension zur Erfassung der Abrechnungsart des Accounts",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [
