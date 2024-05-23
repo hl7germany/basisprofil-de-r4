@@ -621,6 +621,5 @@
     ]
   },
   "copyright": "HL7 Deutschland e.V.",
-  "caseSensitive": false,
-  "valueSet": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+  "caseSensitive": false
 }
