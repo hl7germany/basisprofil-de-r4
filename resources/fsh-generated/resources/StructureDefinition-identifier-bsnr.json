@@ -62,14 +62,6 @@
         "min": 1,
         "constraint": [
           {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
-            "source": "http://fhir.de/StructureDefinition/identifier-iknr"
-          },
-          {
             "key": "bsnr-1",
             "severity": "warning",
             "human": "Eine BSNR muss 9-stellig numerisch sein",
@@ -92,9 +84,8 @@
           {
             "key": "bsnr-1",
             "severity": "warning",
-            "human": "Eine BSNR muss neunstellig numerisch sein",
+            "human": "Eine BSNR muss 9-stellig numerisch sein",
             "expression": "matches('^[0-9]{9}$')",
-            "xpath": "@value|f:*|h:div",
             "source": "http://fhir.de/StructureDefinition/identifier-bsnr"
           }
         ]
