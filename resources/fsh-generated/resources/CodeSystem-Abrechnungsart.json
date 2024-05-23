@@ -161,6 +161,7 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/dkgev/Abrechnungsart",
   "hierarchyMeaning": "is-a",

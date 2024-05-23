@@ -4,6 +4,8 @@ Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Abrechnungsart"
+* ^experimental = false
+* ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/Abrechnungsart"
 * ^hierarchyMeaning = #is-a
