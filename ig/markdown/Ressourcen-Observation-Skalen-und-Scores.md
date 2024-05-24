@@ -100,14 +100,18 @@ vielen verschiedenen diagnostischen Parametern (z.B. Alter, Vorerkrankungen, Nie
 'Observation.code': Wahl eines (LOINC-/SNOMED-)Codes für die Art des verwendeten Assessment-Tools
 
 'Observation.value[x]': Datentyp Quantity mit der UCUM-Default Maßeinheit “1”
-'Observation.valueQuantity.system: =http://unitsofmeasure.org
-'Observation.valueQuantity.code: =1
+
+'Observation.valueQuantity.system': =http://unitsofmeasure.org
+
+'Observation.valueQuantity.code': =1
+
 'Observation.valueQuantity.unit': Hier wird der gewünschte Display-Wert (“Punktwert” oder “Punkte”) gesetzt.
-'Observation.referenceRange: da die Interpretation eines Scores nicht selbsterklärend ist, sollten die Referenzbereiche und deren Interpretation in den Instanzen stets mit angegeben werden. 
+
+'Observation.referenceRange': da die Interpretation eines Scores nicht selbsterklärend ist, sollten die Referenzbereiche und deren Interpretation in den Instanzen stets mit angegeben werden. 
 
 #### Beispiele in FHIR:
 * [Glasgow Coma Scale](https://simplifier.net/basisprofil-de-r4/example-observation-gcs)
-* [APGAR-Score](http://hl7.org/fhir/observation-example-5minute-apgar-score.xml.html) (Anm: bei den Einzelkomponenten handelt es sich offenbar um Ordinalskalen, lediglich der Gesamtwert ist ein Score!)
+* [APGAR-Score](http://hl7.org/fhir/R4/observation-example-5minute-apgar-score.xml.html) (Anm: bei den Einzelkomponenten handelt es sich offenbar um Ordinalskalen, lediglich der Gesamtwert ist ein Score! Entgegen der in diesem Abschnitt beschriebenen Empfehlung,  die Einheit des Scores in `valueQuantity` auf `http://unitsofmeasure.org#1` zu setzen, wird im Beispiel bei HL7 International die Einheit auf  `http://unitsofmeasure.org#{score}` gesetzt.)
 * Beispiel für die Angabe der Referenzbereiche des IBS-SSS (Irritable Bowel Syndrome Severity Scoring System):
 ```xml
     <referenceRange>
