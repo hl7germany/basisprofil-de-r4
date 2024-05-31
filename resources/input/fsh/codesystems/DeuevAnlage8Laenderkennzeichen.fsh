@@ -16,6 +16,7 @@ Description: "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschrift
 * ^property.code = #status
 * ^property.uri = "http://hl7.org/fhir/concept-properties"
 * ^property.type = #code
+* ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-8-laenderkennzeichen"
 * #AFG "Afghanistan"
 * #ET "Ägypten"
 * #AX "Åland"
