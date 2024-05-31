@@ -61,5 +61,6 @@
   },
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/versicherungsart-de-basis",
   "count": 8
 }
