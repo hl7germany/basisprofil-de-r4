@@ -7,7 +7,7 @@ Description: "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 ge
 * ^url = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
 * ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = false
-* ^valueSet = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+// ^valueSet sollte nicht gesetzt werden, das es sich hier um ein CodeSytem mit ^content = #fragment handelt
 * ^content = #fragment
 * #0100 "Innere Medizin"
 * #0200 "Geriatrie"

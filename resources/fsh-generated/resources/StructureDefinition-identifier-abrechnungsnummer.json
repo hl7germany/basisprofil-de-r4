@@ -4,7 +4,7 @@
   "url": "http://fhir.de/StructureDefinition/identifier-abrechnungsnummer",
   "version": "1.5.0-ballot",
   "name": "IdentifierAbrechnungsnummer",
-  "title": "Identifier-Profil für die Abbildung einer Abrechnungsnummer (\"Fallnummer\") ",
+  "title": "Identifier-Profil für die Abbildung einer Abrechnungsnummer (\"Fallnummer\")",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
