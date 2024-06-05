@@ -1,7 +1,7 @@
 CodeSystem: OPS
 Id: ops
 Description: "OPS Platzhalter-CodeSystem"
-* insert Meta
+* insert MetaNoVersion
 * ^url = "http://fhir.de/CodeSystem/bfarm/ops"
 * ^copyright = "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte"
 * ^caseSensitive = true

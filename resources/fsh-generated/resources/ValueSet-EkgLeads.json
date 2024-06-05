@@ -6,7 +6,6 @@
   "title": "EKG/ECG leads",
   "description": "EKG/ECG leads",
   "url": "http://fhir.de/ValueSet/EkgLeads",
-  "version": "1.5.0-ballot",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -20,6 +19,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "compose": {
     "include": [
       {

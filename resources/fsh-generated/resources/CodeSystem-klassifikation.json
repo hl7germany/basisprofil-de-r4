@@ -217,7 +217,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "version": "1.5.0-ballot",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -231,6 +230,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/arge-ik/klassifikation",
