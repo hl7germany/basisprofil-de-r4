@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemSupplementISO3166
 Id: supplement-iso-3166
 Title: "CodeSystem Supplement ISO 3166"
-Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166, basierend auf der Überstzung der ISO 3166 Codes durch die Bundesanstalt für Landwirtschaft und Ernährung (https://www.ble.de/SharedDocs/Downloads/EN/Climate-Energy/Information-Nabisy/CountryCodes.pdf?__blob=publicationFile&v=2)"
+Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166, basierend auf der Übersetzung der ISO 3166 Codes durch die Bundesanstalt für Landwirtschaft und Ernährung (https://www.ble.de/SharedDocs/Downloads/EN/Climate-Energy/Information-Nabisy/CountryCodes.pdf?__blob=publicationFile&v=2)"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^caseSensitive = true
