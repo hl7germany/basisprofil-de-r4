@@ -2417,6 +2417,5 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "caseSensitive": true,
   "supplements": "urn:iso:std:iso:3166"
 }

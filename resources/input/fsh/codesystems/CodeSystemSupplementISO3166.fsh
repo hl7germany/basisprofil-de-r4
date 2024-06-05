@@ -4,7 +4,6 @@ Title: "CodeSystem Supplement ISO 3166"
 Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
-* ^caseSensitive = true
 * ^content = #supplement
 * ^supplements = "urn:iso:std:iso:3166"
 * #AF
