@@ -293,5 +293,6 @@
   },
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-7-namenszusaetze",
   "count": 66
 }

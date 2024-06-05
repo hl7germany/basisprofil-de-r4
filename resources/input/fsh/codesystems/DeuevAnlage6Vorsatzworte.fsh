@@ -8,6 +8,7 @@ Description: "Tabelle der gültigen Vorsatzworte"
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete
+* ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-6-vorsatzworte"
 * #a "a"
 * #"aan de" "aan de"
 * #"aan den" "aan den"

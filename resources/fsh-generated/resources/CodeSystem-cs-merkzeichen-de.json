@@ -105,5 +105,6 @@
     }
   ],
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/merkzeichen-de",
   "count": 14
 }

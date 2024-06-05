@@ -9,6 +9,7 @@ Description: "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet
 * ^identifier.value = "urn:oid:1.2.276.0.76.5.528"
 * ^content = #complete
 * ^caseSensitive = true
+* ^valueSet = "http://fhir.de/ValueSet/merkzeichen-de"
 * #G "erhebliche Gehbehinderung" "erhebliche Gehbehinderung"
 * #aG "außergewöhnliche Gehbehinderung" "außergewöhnliche Gehbehinderung"
 * #H "Hilflosigkeit" "Hilflosigkeit"

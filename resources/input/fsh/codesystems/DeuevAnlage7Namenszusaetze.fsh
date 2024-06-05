@@ -8,6 +8,7 @@ Description: "Tabelle der gültigen Namenszusätze"
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete
+* ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-7-namenszusaetze"
 * #Bar "Bar"
 * #Baron "Baron"
 * #Baroness "Baroness"

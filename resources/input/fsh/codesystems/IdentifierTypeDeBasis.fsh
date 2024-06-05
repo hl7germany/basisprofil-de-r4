@@ -10,6 +10,7 @@ Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche di
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."
 * ^property[=].type = #code
+* ^valueSet = "http://fhir.de/ValueSet/identifier-type-de-basis"
 * #GKV "Gesetzliche Krankenversicherung"
 * #GKV ^property[+].code = #status
 * #GKV ^property[=].valueCode = #retired

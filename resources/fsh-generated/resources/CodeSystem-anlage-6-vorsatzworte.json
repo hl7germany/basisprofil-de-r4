@@ -777,5 +777,6 @@
   },
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-6-vorsatzworte",
   "count": 187
 }
