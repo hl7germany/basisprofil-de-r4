@@ -45,8 +45,7 @@
         "path": "Extension.extension",
         "sliceName": "Use",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:Use.extension",
@@ -76,8 +75,7 @@
         "path": "Extension.extension",
         "sliceName": "Referenz",
         "min": 0,
-        "max": "*",
-        "mustSupport": true
+        "max": "*"
       },
       {
         "id": "Extension.extension:Referenz.extension",
