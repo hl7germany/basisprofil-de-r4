@@ -24,6 +24,7 @@ v1.5.0 - xx.xx.24
 * `fixed` Anpassung der Binding Strength von "required" zu "extensible" in den Extensions "ExtensionAbrechnungsart" & "ExtensionAbrechnungsDiagnoseProzedur"
 * `fixed` Klarstellung, dass der Identifier "IdentifierAufnahmenummer" nicht unter Account.identifier verwendet werden sollte
 * `fixed` Include von KBV-CodeSystems in ValueSet "VersicherungsartDeBasis" korrigiert
+* `fixed` Inaktiver Code "Diagnostic procedure" in ConceptMap OPS-Snomed durch WDiagnostic assessment" ersetzt
 
 v1.4.0 - 29.06.22
 

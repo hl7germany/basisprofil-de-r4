@@ -5,6 +5,7 @@
   "name": "Atc",
   "id": "atc",
   "description": "ATC Platzhalter-CodeSystem",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/bfarm/atc",
   "experimental": false,
   "date": "2023-11-30",

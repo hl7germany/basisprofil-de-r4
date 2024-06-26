@@ -5,6 +5,7 @@
   "name": "WG14",
   "id": "wg14",
   "description": "ABDATA WG14 Platzhalter-CodeSystem",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/abdata/wg14",
   "experimental": false,
   "date": "2023-11-30",
