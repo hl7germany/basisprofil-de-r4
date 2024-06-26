@@ -21,8 +21,8 @@
           "display": "Diagnostische Maßnahmen",
           "target": [
             {
-              "code": "103693007",
-              "display": "Diagnostic procedure",
+              "code": "165197003",
+              "display": "Diagnostic assessment",
               "equivalence": "equivalent"
             }
           ]

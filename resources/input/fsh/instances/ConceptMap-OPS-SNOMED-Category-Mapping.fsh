@@ -15,8 +15,8 @@ Usage: #definition
 * group.target = "http://snomed.info/sct"
 * group.element[+].code = #1
 * group.element[=].display = "Diagnostische Maßnahmen"
-* group.element[=].target.code = #103693007
-* group.element[=].target.display = "Diagnostic procedure"
+* group.element[=].target.code = #165197003 "Diagnostic assessment"
+* group.element[=].target.display = "Diagnostic assessment"
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #3
 * group.element[=].display = "Bildgebende Diagnostik"
