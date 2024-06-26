@@ -14,9 +14,9 @@
         "display": "EKG study"
       },
       {
-        "code": "271921002",
+        "code": "106073009",
         "system": "http://snomed.info/sct",
-        "display": "Electrocardiogram finding (observable entity)"
+        "display": "EKG wave, interval AND/OR segment"
       }
     ]
   },

@@ -13,7 +13,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/Abrechnungsart.fsh",
     "startLine": 1,
-    "endLine": 37
+    "endLine": 39
   },
   {
     "outputFile": "CodeSystem-Aufnahmeanlass.json",
@@ -141,7 +141,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/DeuevAnlage6Vorsatzworte.fsh",
     "startLine": 1,
-    "endLine": 197
+    "endLine": 198
   },
   {
     "outputFile": "CodeSystem-anlage-7-namenszusaetze.json",
@@ -149,7 +149,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/DeuevAnlage7Namenszusaetze.fsh",
     "startLine": 1,
-    "endLine": 76
+    "endLine": 77
   },
   {
     "outputFile": "CodeSystem-anlage-8-laenderkennzeichen.json",
@@ -157,7 +157,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/DeuevAnlage8Laenderkennzeichen.fsh",
     "startLine": 1,
-    "endLine": 319
+    "endLine": 320
   },
   {
     "outputFile": "CodeSystem-ask.json",
@@ -189,7 +189,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/Merkzeichen.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 26
   },
   {
     "outputFile": "CodeSystem-diagnosis-role-supplement.json",
@@ -229,7 +229,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/IdentifierTypeDeBasis.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 28
   },
   {
     "outputFile": "CodeSystem-identifier-type-v2-supplement.json",
@@ -285,7 +285,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystemSupplementISO3166.fsh",
     "startLine": 1,
-    "endLine": 806
+    "endLine": 805
   },
   {
     "outputFile": "CodeSystem-versicherungsart-de-basis.json",
@@ -293,7 +293,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/VersicherungsartDeBasis.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 17
   },
   {
     "outputFile": "CodeSystem-wahlleistungen-de.json",
@@ -989,7 +989,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/IdentifierBsnr.fsh",
     "startLine": 1,
-    "endLine": 36
+    "endLine": 19
   },
   {
     "outputFile": "StructureDefinition-identifier-efn.json",
@@ -1117,7 +1117,7 @@
     "fshType": "Extension",
     "fshFile": "extensions/ExtensionInformationRecipient.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 9
   },
   {
     "outputFile": "StructureDefinition-kostenerstattung.json",
