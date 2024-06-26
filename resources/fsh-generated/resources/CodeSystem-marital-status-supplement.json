@@ -5,7 +5,6 @@
   "name": "SupplementMaritalStatus",
   "id": "marital-status-supplement",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/marital-status-supplement",
   "concept": [
     {
@@ -103,6 +102,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
