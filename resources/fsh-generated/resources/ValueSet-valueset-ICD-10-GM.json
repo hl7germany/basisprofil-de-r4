@@ -4,7 +4,6 @@
   "name": "ICD10GM",
   "id": "valueset-ICD-10-GM",
   "description": "ICD-10-GM",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,6 +18,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

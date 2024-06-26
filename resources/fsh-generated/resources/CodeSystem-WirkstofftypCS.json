@@ -6,7 +6,6 @@
   "id": "WirkstofftypCS",
   "title": "CodeSystem - Wirkstofftypen",
   "description": "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe.",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/WirkstofftypCS",
   "concept": [
     {
@@ -56,6 +55,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

@@ -6,7 +6,6 @@
   "id": "Fachabteilungsschluessel-erweitert",
   "title": "Fachabteilungsschluessel Erweitert",
   "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert",
   "concept": [
     {
@@ -615,6 +614,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
