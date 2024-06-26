@@ -4,6 +4,7 @@
   "name": "WG14",
   "id": "valueset-wg14",
   "description": "ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/abdata/wg14",
   "meta": {
     "profile": [
@@ -23,7 +24,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "copyright": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH",
   "compose": {
     "include": [

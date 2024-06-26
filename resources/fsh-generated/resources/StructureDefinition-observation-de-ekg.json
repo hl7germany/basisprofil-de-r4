@@ -71,7 +71,7 @@
         "min": 0,
         "max": "*",
         "patternCoding": {
-          "code": "271921002",
+          "code": "106073009",
           "system": "http://snomed.info/sct"
         }
       },

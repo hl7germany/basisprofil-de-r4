@@ -11,7 +11,7 @@ Id: observation-de-ekg
     * ^slicing.rules = #open
   * coding contains loinc 1..* and snomed 0..*
 * code.coding[loinc] = $loinc#11524-6
-* code.coding[snomed] = $sct#271921002
+* code.coding[snomed] = $sct#106073009
 * subject 1..
 * effective[x] 1.. MS
 * effective[x] only dateTime
@@ -30,7 +30,7 @@ Instance: Example-observation-ekg
 InstanceOf: EkgDE
 Usage: #example
 * code.coding[loinc] = $loinc#11524-6 "EKG study"
-* code.coding[snomed] = $sct#271921002 "Electrocardiogram finding (observable entity)"
+* code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
 * subject.reference = "Patient/example"
 * status = #final
 * category = $observation-category#procedure

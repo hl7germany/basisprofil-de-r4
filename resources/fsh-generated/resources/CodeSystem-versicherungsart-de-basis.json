@@ -5,6 +5,7 @@
   "name": "VersicherungsartDeBasis",
   "id": "versicherungsart-de-basis",
   "description": "Art der Versicherung bzw. des Kostenträgers.",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
   "concept": [
     {
@@ -53,7 +54,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
