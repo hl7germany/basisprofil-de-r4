@@ -5,6 +5,7 @@
   "id": "EkgLeads",
   "title": "EKG/ECG leads",
   "description": "EKG/ECG leads",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/EkgLeads",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "compose": {
     "include": [
       {

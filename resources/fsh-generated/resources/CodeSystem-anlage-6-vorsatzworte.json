@@ -4,7 +4,9 @@
   "content": "complete",
   "name": "DeuevAnlage6Vorsatzworte",
   "id": "anlage-6-vorsatzworte",
-  "description": "Tabelle der gültigen Vorsatzworte",
+  "title": "Tabelle der gültigen Vorsatzworte",
+  "description": "Vorsatzworte im Nachnamen nach DEÜV Anlage 6",
+  "version": "2.30",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte",
   "concept": [
     {
@@ -769,7 +771,6 @@
       ]
     }
   ],
-  "version": "2.30",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

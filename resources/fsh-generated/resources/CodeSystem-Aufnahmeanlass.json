@@ -6,6 +6,7 @@
   "id": "Aufnahmeanlass",
   "title": "CodeSystemAufnahmeanlass",
   "description": "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass",
   "concept": [
     {
@@ -54,7 +55,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

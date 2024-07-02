@@ -4,7 +4,9 @@
   "content": "complete",
   "name": "Kontaktebene",
   "id": "Kontaktebene",
+  "title": "Kontaktebene",
   "description": "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/Kontaktebene",
   "concept": [
     {
@@ -36,7 +38,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

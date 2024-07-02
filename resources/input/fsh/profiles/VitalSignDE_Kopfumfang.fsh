@@ -1,6 +1,7 @@
 Profile: VitalSignDE_Kopfumfang
 Parent: VitalSignDE
 Id: observation-de-vitalsign-kopfumfang
+Description: "Observation-Profil Kopfumfang"
 Title: "Observation - VitalSignDE - Kopfumfang"
 * insert Meta
 * ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"

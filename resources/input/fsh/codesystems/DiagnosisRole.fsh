@@ -1,5 +1,6 @@
 CodeSystem: DiagnosisRole
 Id: diagnosis-role-supplement
+Title: "Rolle der Diagnose"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

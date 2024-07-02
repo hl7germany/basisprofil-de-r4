@@ -1,5 +1,6 @@
 ValueSet: WG14
 Id: valueset-wg14
+Title: "WG14 ValueSet"
 Description: "ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * insert Meta

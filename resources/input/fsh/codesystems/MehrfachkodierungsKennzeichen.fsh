@@ -1,5 +1,6 @@
 CodeSystem: MehrfachkodierungsKennzeichen
 Id: icd-10-gm-mehrfachcodierungs-kennzeichen
+Title: "Mehrfachkodierungs-Kennzeichen"
 Description: "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

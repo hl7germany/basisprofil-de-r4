@@ -19,6 +19,7 @@
       ]
     }
   ],
+  "description": "Observation-Profil Kopfumfang",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

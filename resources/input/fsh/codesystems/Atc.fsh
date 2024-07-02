@@ -1,5 +1,6 @@
 CodeSystem: Atc
 Id: atc
+Title: "ATC"
 Description: "ATC Platzhalter-CodeSystem"
 * insert MetaNoVersion
 * ^url = "http://fhir.de/CodeSystem/bfarm/atc"

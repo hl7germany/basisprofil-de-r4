@@ -1,5 +1,6 @@
 ValueSet: PflegegradDE
 Id: pflegegrad-de
+Title: "PflegegradDE ValueSet"
 Description: "Codes zur genaueren Differenzierung des Pflegegrads."
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

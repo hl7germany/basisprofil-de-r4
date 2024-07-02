@@ -3,9 +3,11 @@
   "status": "active",
   "content": "complete",
   "name": "IdentifierTypeDeBasis",
-  "id": "identifier-type-de-basis",
+  "id": "identifier-type-de-basi",
+  "title": "Identifier Type De Basis",
   "description": "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen.",
-  "url": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+  "version": "1.5.0-ballot",
+  "url": "http://fhir.de/CodeSystem/identifier-type-de-basi",
   "concept": [
     {
       "code": "GKV",
@@ -71,7 +73,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -82,7 +83,7 @@
   "property": [
     {
       "code": "status",
-      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "uri": "http://hl7.org/fhir/concept-properties",
       "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.",
       "type": "code"
     }
