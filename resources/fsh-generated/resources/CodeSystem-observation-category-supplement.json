@@ -5,6 +5,7 @@
   "name": "SupplementObservationCategory",
   "id": "observation-category-supplement",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationCategoryCodes",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/observation-category-supplement",
   "concept": [
     {
@@ -102,7 +103,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

@@ -5,6 +5,7 @@
   "name": "OPS",
   "id": "ops",
   "description": "OPS Platzhalter-CodeSystem",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/bfarm/ops",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,7 @@
       ]
     }
   ],
-  "copyright": "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte",
+  "copyright": "BfArM 1994 - 2024",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/bfarm/ops"
 }

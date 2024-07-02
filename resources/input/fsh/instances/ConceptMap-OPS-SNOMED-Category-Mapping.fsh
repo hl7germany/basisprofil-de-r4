@@ -1,18 +1,14 @@
 Instance: ConceptMap-OPS-SNOMED-Category-Mapping
 InstanceOf: ConceptMap
 Usage: #definition
+* insert Meta-Instance
 * url = "http://fhir.de/ConceptMap/OPS-SNOMED-Category"
-* name = "ConceptMapOPS-SNOMED-Category-Mapping"
+* name = "ConceptMapOPS_SNOMED_Category_Mapping"
 * title = "ConceptMap - OPS_SNOMED-Category-Mapping"
-* status = #active
-* experimental = false
-* date = "2020-04-22"
-* publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* copyright = "HL7 Deutschland e.V."
 * description = "Mapping OPS \"Klassentitel\" zu SNOMED-CT"
-* sourceCanonical = "http://fhir.de/ValueSet/bfarm/ops"
+* sourceCanonical = Canonical(ValueSet_OPS_SNOMED_Source_Codes)
 * targetCanonical = "http://snomed.info/sct?fhir_vs"
-* group.source = "http://fhir.de/CodeSystem/bfarm/ops"
-* group.target = "http://snomed.info/sct"
 * group.element[+].code = #1
 * group.element[=].display = "Diagnostische Maßnahmen"
 * group.element[=].target.code = #165197003 "Diagnostic assessment"
