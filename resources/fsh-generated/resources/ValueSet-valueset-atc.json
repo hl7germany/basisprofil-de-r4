@@ -4,7 +4,6 @@
   "name": "ATC",
   "id": "valueset-atc",
   "description": "Anatomisch-therapeutisch-chemische Klassifkation (ATC) mit Tagesdosen deutsche Fassung",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/bfarm/atc",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,6 +18,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

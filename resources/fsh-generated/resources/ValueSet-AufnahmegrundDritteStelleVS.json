@@ -4,7 +4,6 @@
   "name": "AufnahmegrundDritteStelleVS",
   "id": "AufnahmegrundDritteStelleVS",
   "description": "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,6 +18,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
