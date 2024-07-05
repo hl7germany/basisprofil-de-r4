@@ -15,7 +15,7 @@ Description: "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschrift
 * ^caseSensitive = true
 * ^content = #complete
 * ^property.code = #status
-* ^property.uri = "http://hl7.org/fhir/concept-properties"
+* ^property.uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property.type = #code
 * ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-8-laenderkennzeichen"
 * #AFG "Afghanistan"
