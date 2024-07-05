@@ -4,6 +4,7 @@
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
   "version": "1.5.0-ballot",
   "name": "GradDerBehinderung",
+  "title": "Grad der Behinderung",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",

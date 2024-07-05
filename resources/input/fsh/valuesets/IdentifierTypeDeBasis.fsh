@@ -1,5 +1,6 @@
 ValueSet: IdentifierTypeDeBasis
 Id: identifier-type-de-basis
+Title: "Identifier Type DeBasis ValueSet"
 Description: "ValueSet zur Codierung des Identifier-Typs"
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

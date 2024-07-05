@@ -3,6 +3,8 @@
   "status": "active",
   "name": "AbrechnungsDiagnoseProzedur",
   "id": "AbrechnungsDiagnoseProzedur",
+  "title": "AbrechnungsDiagnoseProzedur ValueSet",
+  "description": "Rolle von Diagnosen und Prozeduren im Abrechnungs-Kontext",
   "url": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "experimental": false,
   "date": "2023-11-30",

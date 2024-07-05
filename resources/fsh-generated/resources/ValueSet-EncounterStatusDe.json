@@ -3,6 +3,7 @@
   "status": "active",
   "name": "EncounterStatusDe",
   "id": "EncounterStatusDe",
+  "title": "Encounter Status ValueSet",
   "description": "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5",
   "url": "http://fhir.de/ValueSet/EncounterStatusDe",
   "experimental": false,

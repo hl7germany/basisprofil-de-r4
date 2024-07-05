@@ -1,5 +1,6 @@
 ValueSet: OpsVS
 Id: ops-vs
+Title: "OPS ValueSet"
 Description: "OPS ValueSet"
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

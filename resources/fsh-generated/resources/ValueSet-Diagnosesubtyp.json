@@ -3,6 +3,8 @@
   "status": "active",
   "name": "Diagnosesubtyp",
   "id": "Diagnosesubtyp",
+  "title": "Diagnosesubtyp ValueSet",
+  "description": "Diagnosesubtyp ValueSet",
   "url": "http://fhir.de/ValueSet/Diagnosesubtyp",
   "experimental": false,
   "date": "2023-11-30",

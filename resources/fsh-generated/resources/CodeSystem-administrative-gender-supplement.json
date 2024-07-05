@@ -4,6 +4,7 @@
   "content": "supplement",
   "name": "SupplementAdministrativeGender",
   "id": "administrative-gender-supplement",
+  "title": "Deutsche Übersetzungen für AdministrativeGender",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
   "url": "http://fhir.de/CodeSystem/administrative-gender-supplement",
   "concept": [

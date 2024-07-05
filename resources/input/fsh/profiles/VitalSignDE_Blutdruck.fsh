@@ -1,6 +1,8 @@
 Profile: VitalSignDE_Blutdruck
 Parent: VitalSignDE
 Id: observation-de-vitalsign-blutdruck
+Title: "Observation-Profil Blutdruck"
+Description: "Observation-Profil Blutdruck"
 * insert Meta
 * code = $loinc#85354-9
   * coding[loinc] ^patternCoding.system = $loinc

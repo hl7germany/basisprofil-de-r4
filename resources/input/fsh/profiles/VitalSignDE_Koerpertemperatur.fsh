@@ -1,6 +1,8 @@
 Profile: VitalSignDE_Koerpertemperatur
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpertemperatur
+Title: "Observation-Profil Körpertemperatur"
+Description: "Observation-Profil Körpertemperatur"
 * insert Meta
 * code = $loinc#8310-5
   * coding[loinc] ^patternCoding.system = $loinc

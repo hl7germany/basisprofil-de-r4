@@ -1,6 +1,8 @@
 Profile: VitalSignDE_Herzfrequenz
 Parent: VitalSignDE
 Id: observation-de-vitalsign-herzfrequenz
+Title: "Observation-Profil Herzfrequenz"
+Description: "Observation-Profil Herzfrequenz"
 * insert Meta
 * code = $loinc#8867-4
   * coding[loinc] ^patternCoding.system = $loinc

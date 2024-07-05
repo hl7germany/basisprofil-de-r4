@@ -1,6 +1,8 @@
 Profile: VitalSignDE_Arterielle_Sauerstoffsaettigung
 Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung
+Title: "Observation-Profil Arterielle Sauerstoffsaettigung"
+Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
 * insert Meta
 * code = $loinc#2708-6
   * coding[loinc] ^patternCoding.system = $loinc

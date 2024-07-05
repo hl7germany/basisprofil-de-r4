@@ -3,6 +3,7 @@
   "status": "active",
   "name": "ArgeIkKlassifikationVS",
   "id": "ArgeIkKlassifikationVS",
+  "title": "ArgeIkKlassifikation ValueSet",
   "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
   "url": "http://fhir.de/ValueSet/arge-ik/klassifikation",
   "experimental": false,

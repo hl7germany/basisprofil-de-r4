@@ -1,5 +1,6 @@
 CodeSystem: IdentifierTypeDeBasis
-Id: identifier-type-de-basis
+Id: identifier-type-de-basi
+Title: "Identifier Type De Basis"
 Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
@@ -7,7 +8,7 @@ Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche di
 * ^caseSensitive = true
 * ^content = #complete
 * ^property[+].code = #status
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties"
 * ^property[=].description = "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."
 * ^property[=].type = #code
 * ^valueSet = "http://fhir.de/ValueSet/identifier-type-de-basis"

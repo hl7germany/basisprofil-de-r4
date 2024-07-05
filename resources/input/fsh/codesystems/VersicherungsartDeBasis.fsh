@@ -1,5 +1,6 @@
 CodeSystem: VersicherungsartDeBasis
 Id: versicherungsart-de-basis
+Title: "VersicherungsartDeBasis"
 Description: "Art der Versicherung bzw. des Kostenträgers."
 * insert Meta
 * ^meta.profile = $shareablecodesystem

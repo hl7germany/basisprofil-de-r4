@@ -3,6 +3,7 @@
   "status": "active",
   "name": "ICD10GM",
   "id": "valueset-ICD-10-GM",
+  "title": "ICD10GM ValueSet",
   "description": "ICD-10-GM",
   "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
   "experimental": false,

@@ -4,6 +4,7 @@
   "content": "not-present",
   "name": "ICD10GM",
   "id": "icd-10-gm",
+  "title": "ICD-10-GM",
   "description": "ICD-10-GM Platzhalter-CodeSystem",
   "url": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
   "experimental": false,

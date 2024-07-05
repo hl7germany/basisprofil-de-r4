@@ -3,6 +3,8 @@
   "status": "active",
   "name": "DiagnoseTyp",
   "id": "DiagnoseTyp",
+  "title": "DiagnoseTyp ValueSet",
+  "description": "DiagnoseTyp ValueSet",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
   "date": "2023-11-30",

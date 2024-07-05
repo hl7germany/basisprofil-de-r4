@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "VersicherungsartDeBasis",
   "id": "versicherungsart-de-basis",
+  "title": "VersicherungsartDeBasis",
   "description": "Art der Versicherung bzw. des Kostenträgers.",
   "url": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
   "concept": [

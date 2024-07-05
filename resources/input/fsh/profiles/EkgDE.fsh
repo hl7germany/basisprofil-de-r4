@@ -1,6 +1,8 @@
 Profile: EkgDE
 Parent: Observation
 Id: observation-de-ekg
+Title: "EKG Observation Profil"
+Description: "EKG Observation Profil"
 * insert Meta
 * category 1..
   * coding = $observation-category#procedure

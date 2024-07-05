@@ -1,5 +1,6 @@
 CodeSystem: SupplementObservationCategory
 Id: observation-category-supplement
+Title: "Deutsche Übersetzungen für ObservationCategoryCodes"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationCategoryCodes"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

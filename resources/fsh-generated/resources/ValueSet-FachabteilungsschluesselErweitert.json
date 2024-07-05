@@ -3,6 +3,7 @@
   "status": "active",
   "name": "ValueSetFachabteilungsschluesselErweitert",
   "id": "FachabteilungsschluesselErweitert",
+  "title": "FachabteilungsschluesselErweitert ValueSet",
   "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen",
   "url": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert",
   "experimental": false,

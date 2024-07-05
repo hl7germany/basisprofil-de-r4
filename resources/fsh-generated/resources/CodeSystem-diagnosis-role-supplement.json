@@ -4,6 +4,7 @@
   "content": "supplement",
   "name": "DiagnosisRole",
   "id": "diagnosis-role-supplement",
+  "title": "Rolle der Diagnose",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen",
   "url": "http://fhir.de/CodeSystem/diagnosis-role-supplement",
   "concept": [

@@ -1,5 +1,7 @@
 ValueSet: Diagnosesubtyp
 Id: Diagnosesubtyp
+Title: "Diagnosesubtyp ValueSet"
+Description: "Diagnosesubtyp ValueSet"
 * insert Meta
 * KontaktDiagnoseProzedur#surgery-diagnosis "Operationsdiagnose"
 * KontaktDiagnoseProzedur#department-main-diagnosis "Abteilung Hauptdiagnose"

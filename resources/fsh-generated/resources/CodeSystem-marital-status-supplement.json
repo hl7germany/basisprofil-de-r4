@@ -4,6 +4,7 @@
   "content": "supplement",
   "name": "SupplementMaritalStatus",
   "id": "marital-status-supplement",
+  "title": "Deutsche Übersetzungen für MaritalStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus",
   "url": "http://fhir.de/CodeSystem/marital-status-supplement",
   "concept": [

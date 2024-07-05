@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "Kontaktebene",
   "id": "Kontaktebene",
+  "title": "Kontaktebene",
   "description": "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
   "url": "http://fhir.de/CodeSystem/Kontaktebene",
   "concept": [

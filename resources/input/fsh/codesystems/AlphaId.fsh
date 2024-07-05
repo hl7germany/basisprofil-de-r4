@@ -1,5 +1,6 @@
 CodeSystem: AlphaId
 Id: alpha-id
+Title: "Alpha-ID"
 Description: "Alpha-ID Platzhalter-CodeSystem"
 * insert MetaNoVersion
 * ^url = "http://fhir.de/CodeSystem/bfarm/alpha-id"
