@@ -5,7 +5,6 @@
   "id": "Diagnosesubtyp",
   "title": "Diagnosesubtyp ValueSet",
   "description": "Diagnosesubtyp ValueSet",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/Diagnosesubtyp",
   "experimental": false,
   "date": "2023-11-30",
@@ -20,6 +19,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "compose": {
     "include": [
       {
