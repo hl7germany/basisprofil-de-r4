@@ -1,10 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "observation-de-vitalsign-sauerstoffsaettigung",
-  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
+  "id": "observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
+  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
   "version": "1.5.0-ballot",
-  "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
-  "title": "Observation-Profil Arterielle Sauerstoffsaettigung",
+  "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
   "status": "active",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +18,6 @@
       ]
     }
   ],
-  "description": "Observation-Profil Arterielle Sauerstoffsaettigung",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -29,21 +27,15 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "2708-6",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 2
       },
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "min": 2,
         "patternCoding": {
           "system": "http://loinc.org"
         }
@@ -59,11 +51,32 @@
         "min": 1
       },
       {
+        "id": "Observation.code.coding:loinc/loinc-sauerstoffsaettigung",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc/loinc-sauerstoffsaettigung",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "2708-6",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:loinc/loinc-pulsoximetrie",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc/loinc-pulsoximetrie",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "59408-5",
+          "system": "http://loinc.org"
+        }
+      },
+      {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "patternCoding": {
-          "code": "442476006",
           "system": "http://snomed.info/sct"
         }
       },
@@ -76,6 +89,28 @@
         "id": "Observation.code.coding:snomed.code",
         "path": "Observation.code.coding.code",
         "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed/snomed-sauerstoffsaettigung",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed/snomed-sauerstoffsaettigung",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "442476006",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed/snomed-pulsoximetrie",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed/snomed-pulsoximetrie",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "431314004",
+          "system": "http://snomed.info/sct"
+        }
       },
       {
         "id": "Observation.value[x]",

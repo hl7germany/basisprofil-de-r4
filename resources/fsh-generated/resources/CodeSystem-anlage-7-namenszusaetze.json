@@ -6,6 +6,7 @@
   "id": "anlage-7-namenszusaetze",
   "title": "Tabelle der gültigen Namenszusätze",
   "description": "Namenszusätze im Nachnamen nach DEÜV Anlage 7",
+  "version": "2.25",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [
     {
@@ -286,7 +287,6 @@
       ]
     }
   ],
-  "version": "2.25",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

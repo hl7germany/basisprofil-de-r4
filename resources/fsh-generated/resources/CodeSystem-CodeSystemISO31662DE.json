@@ -6,6 +6,7 @@
   "id": "CodeSystemISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
   "description": "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder.",
+  "version": "1.5.0-ballot",
   "url": "urn:iso:std:iso:3166-2:de",
   "concept": [
     {
@@ -86,7 +87,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

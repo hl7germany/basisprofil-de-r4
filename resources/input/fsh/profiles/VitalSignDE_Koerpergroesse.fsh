@@ -11,7 +11,6 @@ Description: "Observation-Profil Körpergröße"
   * coding[snomed] from VitalSignDE_Koerpergroesse_SNOMED_CT
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
 Instance: Example-observation-koerpergroesse

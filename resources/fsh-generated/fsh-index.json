@@ -544,14 +544,6 @@
     "endLine": 56
   },
   {
-    "outputFile": "Observation-Example-observation-bmi.json",
-    "fshName": "Example-observation-bmi",
-    "fshType": "Instance",
-    "fshFile": "profiles/VitalSignDE.fsh",
-    "startLine": 39,
-    "endLine": 49
-  },
-  {
     "outputFile": "Observation-Example-observation-ekg.json",
     "fshName": "Example-observation-ekg",
     "fshType": "Instance",
@@ -620,8 +612,16 @@
     "fshName": "Example-observation-sauerstoffsaettigung",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 17,
-    "endLine": 38
+    "startLine": 42,
+    "endLine": 64
+  },
+  {
+    "outputFile": "Observation-ExampleObservationSauerstoffsaettigungPulsoximetrie.json",
+    "fshName": "ExampleObservationSauerstoffsaettigungPulsoximetrie",
+    "fshType": "Instance",
+    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
+    "startLine": 66,
+    "endLine": 92
   },
   {
     "outputFile": "Patient-Example-patient-address-de-basis.json",
@@ -1232,6 +1232,14 @@
     "endLine": 16
   },
   {
+    "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie.json",
+    "fshName": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
+    "fshType": "Profile",
+    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
+    "startLine": 17,
+    "endLine": 39
+  },
+  {
     "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung.json",
     "fshName": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
     "fshType": "Profile",
@@ -1245,7 +1253,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE.fsh",
     "startLine": 1,
-    "endLine": 37
+    "endLine": 39
   },
   {
     "outputFile": "StructureDefinition-onlinepruefung-egk.json",
