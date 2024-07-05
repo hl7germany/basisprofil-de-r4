@@ -6,6 +6,7 @@
   "id": "klassifikation",
   "title": "ARGE IK Klassifikation",
   "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/arge-ik/klassifikation",
   "concept": [
     {
@@ -231,7 +232,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/arge-ik/klassifikation",

@@ -6,6 +6,7 @@
   "id": "icd-10-gm",
   "title": "ICD-10-GM",
   "description": "ICD-10-GM Platzhalter-CodeSystem",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
   "experimental": false,
   "date": "2023-11-30",
@@ -20,6 +21,6 @@
       ]
     }
   ],
-  "copyright": "WHO, BfArM 1994 - 2024",
+  "copyright": "WHO, BfArM 1994 - 2024 - Die Erstellung erfolgt unter Verwendung der maschinenlesbaren Fassung des  Bundesinstituts für Arzneimittel und Medizinprodukte (BfArM)",
   "caseSensitive": true
 }

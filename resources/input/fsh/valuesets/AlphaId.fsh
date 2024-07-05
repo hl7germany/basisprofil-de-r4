@@ -5,5 +5,5 @@ Description: "Die Alpha-ID ermöglicht es, medizinische und alltagssprachliche D
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/bfarm/alpha-id"
-* ^copyright = "BfArM 1994 - 2024"
+* ^copyright = "BfArM 1994 - 2024 - Die Erstellung erfolgt unter Verwendung der maschinenlesbaren Fassung des  Bundesinstituts für Arzneimittel und Medizinprodukte (BfArM)"
 * include codes from system AlphaId

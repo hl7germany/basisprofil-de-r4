@@ -32,7 +32,7 @@
           "target": [
             {
               "code": "165197003",
-              "display": "Diagnostic assessment",
+              "display": "Diagnostic assessment (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -43,7 +43,7 @@
           "target": [
             {
               "code": "363679005",
-              "display": "Imaging",
+              "display": "Imaging (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -54,7 +54,7 @@
           "target": [
             {
               "code": "387713003",
-              "display": "Surgical procedure",
+              "display": "Surgical procedure (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -65,7 +65,7 @@
           "target": [
             {
               "code": "18629005",
-              "display": "Administration of medicine",
+              "display": "Administration of drug or medicament (procedure)",
               "equivalence": "relatedto"
             }
           ]
@@ -76,7 +76,7 @@
           "target": [
             {
               "code": "277132007",
-              "display": "Therapeutic procedure",
+              "display": "Therapeutic procedure (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -87,7 +87,7 @@
           "target": [
             {
               "code": "394841004",
-              "display": "Other category",
+              "display": "Other category (qualifier value)",
               "equivalence": "relatedto"
             }
           ]
