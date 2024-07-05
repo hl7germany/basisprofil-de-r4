@@ -12,7 +12,6 @@ Title: "Observation - VitalSignDE - Kopfumfang"
   * coding[snomed] from VitalSignDE_Kopfumfang_SNOMED_CT
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
 Instance: Example-observation-kopfumfang

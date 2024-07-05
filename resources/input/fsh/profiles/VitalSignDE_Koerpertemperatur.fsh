@@ -11,7 +11,6 @@ Description: "Observation-Profil Körpertemperatur"
   * coding[snomed] from VitalSignDE_Koerpertemperatur_SNOMED_CT
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity = $unitsofmeasure#Cel
 
 Instance: Example-observation-koerpertemperatur

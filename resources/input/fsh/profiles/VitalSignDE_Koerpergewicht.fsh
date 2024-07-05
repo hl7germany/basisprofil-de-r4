@@ -11,7 +11,6 @@ Description: "Observation-Profil Körpergewicht"
   * coding[snomed] from VitalSignDE_Koerpergewicht_SNOMED_CT
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
 
 Instance: Example-observation-koerpergewicht

@@ -11,7 +11,6 @@ Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
   * coding[snomed] = $sct#442476006
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity = $unitsofmeasure#%
 
 Profile: VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie
@@ -35,7 +34,6 @@ Id: observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie
       snomed-pulsoximetrie 0..1
   * coding[snomed][snomed-sauerstoffsaettigung] = $sct#442476006
   * coding[snomed][snomed-pulsoximetrie] = $sct#431314004
-* value[x] only Quantity
 * valueQuantity = $unitsofmeasure#%
 
 
