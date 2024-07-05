@@ -5,6 +5,7 @@
   "id": "AbrechnungsDiagnoseProzedur",
   "title": "AbrechnungsDiagnoseProzedur ValueSet",
   "description": "Rolle von Diagnosen und Prozeduren im Abrechnungs-Kontext",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

@@ -6,6 +6,7 @@
   "id": "administrative-gender-supplement",
   "title": "Deutsche Übersetzungen für AdministrativeGender",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/administrative-gender-supplement",
   "concept": [
     {
@@ -58,7 +59,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

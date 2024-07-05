@@ -6,6 +6,7 @@
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen",
   "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "concept": [
     {
@@ -37,7 +38,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
