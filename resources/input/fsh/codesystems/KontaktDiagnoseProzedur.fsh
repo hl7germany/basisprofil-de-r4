@@ -6,7 +6,7 @@ Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
 * ^content = #complete
 * ^caseSensitive = false
 * ^copyright = "HL7 Deutschland e.V."
-* ^valueSet = "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur"
+* ^valueSet = "http://fhir.de/ValueSet/KontaktDiagnoseProzedur"
 * ^compositional = false
 * #referral-diagnosis "Überweisungsdiagnose"
 * #treatment-diagnosis "Behandlungsrelevante Diagnosen"
