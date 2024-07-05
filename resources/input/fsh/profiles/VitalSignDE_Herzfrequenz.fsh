@@ -11,7 +11,6 @@ Description: "Observation-Profil Herzfrequenz"
   * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
     * system 1..
     * code 1..
-* value[x] only Quantity
 * valueQuantity = $unitsofmeasure#/min
 
 Instance: Example-observation-herzfrequenz
