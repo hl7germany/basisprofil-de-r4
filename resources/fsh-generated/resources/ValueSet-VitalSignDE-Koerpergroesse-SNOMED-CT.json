@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Koerpergroesse-SNOMED-CT",
   "title": "VitalSignDE_Koerpergroesse_SNOMED_CT",
   "description": "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergroesse",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpergroesse-SNOMED-CT",
   "experimental": false,
   "date": "2023-11-30",

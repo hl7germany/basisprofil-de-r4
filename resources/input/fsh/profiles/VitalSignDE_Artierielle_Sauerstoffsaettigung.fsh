@@ -18,7 +18,7 @@ Parent: VitalSignDE
 Id: observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie
 * insert Meta
 * code
-  * coding[loinc] ^patternCoding.system = $loinc
+  * coding[loinc]
     * system 1..
     * code 1..
   * coding[loinc] contains 
@@ -26,7 +26,7 @@ Id: observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie
       loinc-pulsoximetrie 1..1 
   * coding[loinc][loinc-sauerstoffsaettigung] = $loinc#2708-6
   * coding[loinc][loinc-pulsoximetrie] = $loinc#59408-5
-  * coding[snomed] ^patternCoding.system = $sct
+  * coding[snomed]
     * system 1..
     * code 1..
   * coding[snomed] contains 

@@ -3,7 +3,7 @@
   "id": "ConceptMap-OPS-SNOMED-Category-Mapping",
   "url": "http://fhir.de/ConceptMap/OPS-SNOMED-Category",
   "status": "active",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -17,7 +17,7 @@
       ]
     }
   ],
-  "name": "ConceptMapOPS-SNOMED-Category-Mapping",
+  "name": "ConceptMapOPS_SNOMED_Category_Mapping",
   "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
   "description": "Mapping OPS \"Klassentitel\" zu SNOMED-CT",
   "sourceCanonical": "http://fhir.de/ValueSet/bfarm/ops",

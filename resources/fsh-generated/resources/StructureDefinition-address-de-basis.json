@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "address-de-basis",
   "url": "http://fhir.de/StructureDefinition/address-de-basis",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "AddressDeBasis",
   "title": "Adresse, deutsches Basisprofil",
   "status": "active",

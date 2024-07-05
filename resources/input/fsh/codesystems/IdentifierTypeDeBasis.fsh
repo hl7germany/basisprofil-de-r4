@@ -1,5 +1,5 @@
 CodeSystem: IdentifierTypeDeBasis
-Id: identifier-type-de-basi
+Id: identifier-type-de-basis
 Title: "Identifier Type De Basis"
 Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."
 * insert Meta

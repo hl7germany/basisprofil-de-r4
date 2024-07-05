@@ -3,7 +3,7 @@ InstanceOf: ConceptMap
 Usage: #definition
 * insert Meta-Instance
 * url = "http://fhir.de/ConceptMap/OPS-SNOMED-Category"
-* name = "ConceptMapOPS-SNOMED-Category-Mapping"
+* name = "ConceptMapOPS_SNOMED_Category_Mapping"
 * title = "ConceptMap - OPS_SNOMED-Category-Mapping"
 * description = "Mapping OPS \"Klassentitel\" zu SNOMED-CT"
 * sourceCanonical = "http://fhir.de/ValueSet/bfarm/ops"

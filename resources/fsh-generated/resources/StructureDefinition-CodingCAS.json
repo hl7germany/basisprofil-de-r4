@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "CodingCAS",
   "url": "http://fhir.de/StructureDefinition/CodingCAS",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "CodingCAS",
   "title": "Coding-Profil für CAS",
   "status": "active",

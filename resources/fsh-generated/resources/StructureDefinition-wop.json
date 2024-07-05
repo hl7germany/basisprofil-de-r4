@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "wop",
   "url": "http://fhir.de/StructureDefinition/gkv/wop",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "ExtensionGkvWop",
   "title": "Kennzeichen Wohnortprinzip (WOP)",
   "status": "active",

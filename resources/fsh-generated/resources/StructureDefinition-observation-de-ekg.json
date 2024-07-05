@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-ekg",
   "url": "http://fhir.de/StructureDefinition/observation-de-ekg",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "EkgDE",
   "title": "EKG Observation Profil",
   "status": "active",
