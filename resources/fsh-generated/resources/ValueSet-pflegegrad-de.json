@@ -5,6 +5,7 @@
   "id": "pflegegrad-de",
   "title": "PflegegradDE ValueSet",
   "description": "Codes zur genaueren Differenzierung des Pflegegrads.",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

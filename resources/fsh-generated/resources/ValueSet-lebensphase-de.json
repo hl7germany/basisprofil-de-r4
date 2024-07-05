@@ -5,6 +5,7 @@
   "id": "lebensphase-de",
   "title": "LebensphaseDe ValueSet",
   "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "copyright": "Kassenärztliche Bundesvereinigung (KBV)",
   "compose": {
     "include": [

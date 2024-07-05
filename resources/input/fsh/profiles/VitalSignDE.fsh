@@ -22,12 +22,14 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
 * effective[x] 1..
 * effective[x] only dateTime or Period
   * obeys vs-de-1
+* value[x] only Quantity
 * valueQuantity
   * value 1..
   * unit 1..
   * system 1..
   * system = "http://unitsofmeasure.org"
-  * code 1..
+  * code 1.. 
+  * code from UCUM_Vitals_Common_DE
 * component obeys vs-de-3
   * valueQuantity
     * value 1..
@@ -35,15 +37,3 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
     * system 1..
     * system = "http://unitsofmeasure.org"
     * code 1..
-
-Instance: Example-observation-bmi
-InstanceOf: VitalSignDE
-Usage: #example
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bmi"
-* status = #final
-* category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"
-* subject.reference = "Patient/example"
-* effectiveDateTime = "1999-07-02"
-* valueQuantity = 16.2 'kg/m2' "kg/m2"

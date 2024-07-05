@@ -5,6 +5,7 @@
   "id": "ValueSetISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
   "description": "Enthaelt die ISO-3166-2:DE Codes für die deutschen Bundeslaender.",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/iso/bundeslaender",
   "experimental": false,
   "date": "2023-11-30",
@@ -19,7 +20,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

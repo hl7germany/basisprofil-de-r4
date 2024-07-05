@@ -6,6 +6,7 @@
   "id": "pzn",
   "title": "PZN",
   "description": "PZN Platzhalter-CodeSystem",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/ifa/pzn",
   "experimental": false,
   "date": "2023-11-30",
