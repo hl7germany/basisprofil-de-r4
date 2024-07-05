@@ -1,0 +1,113 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CodingICD10GM",
+  "url": "http://fhir.de/StructureDefinition/CodingICD10GM",
+  "version": "1.5.0-ballot",
+  "name": "CodingICD10GM",
+  "title": "Coding-Profil für ICD-10-GM",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Abbildung der Mindestanforderungen eines ICD 10 GM (German Modification) Diagnosecodes",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Coding",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coding",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coding.extension:Mehrfachcodierungs-Kennzeichen",
+        "path": "Coding.extension",
+        "sliceName": "Mehrfachcodierungs-Kennzeichen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coding.extension:Seitenlokalisation",
+        "path": "Coding.extension",
+        "sliceName": "Seitenlokalisation",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.de/StructureDefinition/seitenlokalisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coding.extension:Diagnosesicherheit",
+        "path": "Coding.extension",
+        "sliceName": "Diagnosesicherheit",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coding.system",
+        "path": "Coding.system",
+        "short": "Canonische CodeSystem URL für ICD-10-GM",
+        "min": 1,
+        "fixedUri": "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+      },
+      {
+        "id": "Coding.version",
+        "path": "Coding.version",
+        "short": "Die Jahresversion von ICD-10-GM. Angegeben wird immer die vierstellige Jahreszahl (z.B. \"2017\")",
+        "definition": "Bie Verwendung von ICD-10-GM ist die Angabe der Version zwingend erforderlich.\r\nHierdurch wird der Tatsache Rechnung getragen, dass jede der jährlich neu erscheinenden Fassung von ICD-10-GM ein neues Codesystem darstellt.",
+        "min": 1
+      },
+      {
+        "id": "Coding.code",
+        "path": "Coding.code",
+        "short": "Der ICD-10-Code",
+        "min": 1,
+        "example": [
+          {
+            "label": "Einfacher ICD-Code",
+            "valueCode": "F17.4"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "icd-regex",
+            "severity": "warning",
+            "human": "In code sind nur gültige ICD-10-Codes ohne Zusätze erlaubt",
+            "expression": "matches('^[A-Z][0-9][A-Z0-9](\\\\.?[A-Z0-9]{0,4})?$')",
+            "source": "http://fhir.de/StructureDefinition/CodingICD10GM"
+          }
+        ]
+      }
+    ]
+  }
+}

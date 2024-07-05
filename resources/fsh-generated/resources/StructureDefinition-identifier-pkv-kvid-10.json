@@ -1,0 +1,69 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "identifier-pkv-kvid-10",
+  "url": "http://fhir.de/StructureDefinition/identifier-pkv-kvid-10",
+  "version": "1.5.0-ballot",
+  "name": "IdentifierPkvVersichertenId10",
+  "title": "Identifier-Profil für die 10-stellige Versicherten ID (PKV)",
+  "status": "retired",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier-Profil für den unveränderlichen 10-stelligen Teil der Versicherten ID der privaten Krankenversicherungen",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Identifier",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Identifier",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Identifier.type",
+        "path": "Identifier.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "PKV",
+              "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+            }
+          ]
+        },
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/identifier-type-de-basis"
+        }
+      },
+      {
+        "id": "Identifier.system",
+        "path": "Identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.de/sid/pkv/kvid-10"
+      },
+      {
+        "id": "Identifier.value",
+        "path": "Identifier.value",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "pkvid-1",
+            "severity": "warning",
+            "human": "Der unveränderliche Teil der PKVID muss 10-stellig sein und mit einem Großbuchstaben anfangen",
+            "expression": "matches('^[A-Z][0-9]{9}$')",
+            "source": "http://fhir.de/StructureDefinition/identifier-pkv-kvid-10"
+          }
+        ]
+      }
+    ]
+  }
+}

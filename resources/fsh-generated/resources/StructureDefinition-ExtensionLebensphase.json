@@ -1,0 +1,93 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ExtensionLebensphase",
+  "url": "http://fhir.de/StructureDefinition/lebensphase",
+  "version": "1.5.0-ballot",
+  "name": "ExtensionLebensphase",
+  "title": "Extension zur Dokumentation einer Lebensphase einer Person in der ein bestimmtes Ereignis aufgetreten ist",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Eine Lebensphase kann beispielsweise erfasst werden um den Zeitraum des Vorhandenseins / Auftreten einer Allergie, die ungefähre zeitliche Eingrenzung der Durchführung einer Prozedur oder das Abklingen einer Erkrankung zu dokumentieren. Eine Lebensphase sollte wo möglich an Elementen vom Datentyp 'Range' erfasst werden, da semantisch die Angabe relativ zum Geburtsdatum der Person zu interpretieren ist.",
+  "copyright": "Kassenärztliche Bundesvereinigung (KBV)",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "DateTime"
+    },
+    {
+      "type": "element",
+      "expression": "Period.start"
+    },
+    {
+      "type": "element",
+      "expression": "Period.end"
+    },
+    {
+      "type": "element",
+      "expression": "Range"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/lebensphase"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.value[x].coding",
+        "path": "Extension.value[x].coding",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/lebensphase-de",
+          "description": "Lebensphase"
+        }
+      },
+      {
+        "id": "Extension.value[x].coding.system",
+        "path": "Extension.value[x].coding.system",
+        "min": 1
+      },
+      {
+        "id": "Extension.value[x].coding.code",
+        "path": "Extension.value[x].coding.code",
+        "min": 1
+      }
+    ]
+  }
+}

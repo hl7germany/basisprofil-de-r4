@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AufnahmegrundErsteUndZweiteStelleVS",
+  "id": "AufnahmegrundErsteUndZweiteStelleVS",
+  "title": "Aufnahmegrund Erste und Zweite Stelle ValueSet",
+  "description": "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.5.0-ballot",
+  "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "namingSystem-gkv-pseudo-kvid",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/namingsystem-de-basis"
+    ]
+  },
+  "name": "GkvPseudoKvid",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2021-02-17",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "responsible": "Vertrauensstelle Krankenversichertennummer der GKV",
+  "type": {
+    "coding": [
+      {
+        "code": "KVZ10",
+        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+      }
+    ]
+  },
+  "description": "pseudonymisierte Versichertennummer für die Meldung an Register",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://fhir.de/sid/gkv/pseudo-kvid",
+      "preferred": true,
+      "period": {
+        "start": "2017-10-30"
+      },
+      "comment": "<uniqueId>\n\t\t<type value=\"oid\"/>\n\t\t<value value=\"1.2.276.0.76.4.8\"/>\n\t</uniqueId>"
+    }
+  ]
+}

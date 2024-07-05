@@ -1,0 +1,116 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GradDerBehinderung",
+  "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
+  "version": "1.5.0-ballot",
+  "name": "GradDerBehinderung",
+  "title": "Grad der Behinderung",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomedct",
+        "path": "Observation.code.coding",
+        "sliceName": "snomedct",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "116149007",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "value-only-tenth",
+            "severity": "error",
+            "human": "Ergebnis muss eine durch 10 teilbare Zahl sein",
+            "expression": "$this <= 100 and $this != 0 and $this mod 10 = 0",
+            "source": "http://fhir.de/StructureDefinition/GradDerBehinderung"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.component:merkzeichen",
+        "path": "Observation.component",
+        "sliceName": "merkzeichen",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:merkzeichen.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/merkzeichen-de"
+        }
+      },
+      {
+        "id": "Observation.component:merkzeichen.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "patternBoolean": true
+      }
+    ]
+  }
+}

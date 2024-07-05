@@ -1,0 +1,106 @@
+{
+  "resourceType": "Observation",
+  "id": "ExampleObservationSauerstoffsaettigungPulsoximetrie",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns",
+      "http://hl7.org/fhir/StructureDefinition/oxygensat"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "2708-6",
+        "system": "http://loinc.org",
+        "display": "Oxygen saturation in Arterial blood"
+      },
+      {
+        "code": "59408-5",
+        "system": "http://loinc.org",
+        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+      },
+      {
+        "code": "442476006",
+        "system": "http://snomed.info/sct",
+        "display": "Arterial oxygen saturation"
+      },
+      {
+        "code": "431314004",
+        "system": "http://snomed.info/sct",
+        "display": "Periphere Sauerstoffsättigung"
+      }
+    ],
+    "text": "Pulsoximetrische Sauerstoffsättigung"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "%",
+    "value": 98,
+    "unit": "%"
+  },
+  "component": [
+    {
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 2,
+        "code": "L/min",
+        "unit": "Liter pro Minute"
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "3151-8",
+            "system": "http://loinc.org",
+            "display": "Inhaled oxygen flow rate"
+          },
+          {
+            "code": "427081008",
+            "system": "http://snomed.info/sct",
+            "display": "Delivered oxygen flow rate"
+          }
+        ],
+        "text": "Sauerstoffflussrate"
+      }
+    },
+    {
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 50,
+        "code": "%",
+        "unit": "%"
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "3150-0",
+            "system": "http://loinc.org",
+            "display": "Inhaled oxygen concentration"
+          },
+          {
+            "code": "250774007",
+            "system": "http://snomed.info/sct",
+            "display": "Inspired oxygen concentration"
+          }
+        ],
+        "text": "Inspiratorische Sauerstoffkonzentration"
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

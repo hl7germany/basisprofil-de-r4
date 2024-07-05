@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ProzedurDokumentationsdatum",
+  "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
+  "version": "1.5.0-ballot",
+  "name": "ExtensionProzedurDokumentationsdatum",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Dokumentationsdatum der Prozedur",
+        "definition": "Dokumentationsdatum der Prozedur, falls abweichend vom Durchführungsdatum"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

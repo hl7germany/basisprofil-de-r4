@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Diagnosesubtyp",
+  "id": "Diagnosesubtyp",
+  "title": "Diagnosesubtyp ValueSet",
+  "description": "Diagnosesubtyp ValueSet",
+  "version": "1.5.0-ballot",
+  "url": "http://fhir.de/ValueSet/Diagnosesubtyp",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
+        "concept": [
+          {
+            "code": "surgery-diagnosis",
+            "display": "Operationsdiagnose"
+          },
+          {
+            "code": "department-main-diagnosis",
+            "display": "Abteilung Hauptdiagnose"
+          },
+          {
+            "code": "cause-of-death",
+            "display": "Todesursache"
+          },
+          {
+            "code": "infection-control-diagnosis",
+            "display": "Infektionsschutzdiagnose"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "concept": [
+          {
+            "code": "AD",
+            "display": "Admission diagnosis"
+          },
+          {
+            "code": "DD",
+            "display": "Discharge diagnosis"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-observation-gcs",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-score-gcs"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "9269-2",
+        "display": "Glasgow coma score total"
+      },
+      {
+        "code": "248241002",
+        "system": "http://snomed.info/sct",
+        "display": "Glasgow coma score (observable entity)"
+      }
+    ]
+  },
+  "valueQuantity": {
+    "code": "1",
+    "system": "http://unitsofmeasure.org",
+    "value": 11,
+    "unit": "Punktwert"
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "9270-0",
+            "system": "http://loinc.org",
+            "display": "Glasgow coma score verbal"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA6560-2",
+            "system": "http://loinc.org",
+            "display": "Confused"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "9268-4",
+            "system": "http://loinc.org",
+            "display": "Glasgow coma score motor"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA6566-9",
+            "system": "http://loinc.org",
+            "display": "Localizing pain"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "9267-6",
+            "system": "http://loinc.org",
+            "display": "Glasgow coma score eye opening"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA6555-2",
+            "system": "http://loinc.org",
+            "display": "Eye opening to verbal command"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

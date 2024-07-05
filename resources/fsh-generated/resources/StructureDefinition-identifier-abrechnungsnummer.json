@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "identifier-abrechnungsnummer",
+  "url": "http://fhir.de/StructureDefinition/identifier-abrechnungsnummer",
+  "version": "1.5.0-ballot",
+  "name": "IdentifierAbrechnungsnummer",
+  "title": "Identifier-Profil für die Abbildung einer Abrechnungsnummer (\"Fallnummer\")",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier-Profil für die Abbildung einer organisationsspezifischen Abrechnungsnummer (\"Fallnummer\")",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Identifier",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Identifier",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Identifier.type",
+        "path": "Identifier.type",
+        "min": 1,
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "AN",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+            }
+          ]
+        },
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/identifier-type-de-basis"
+        }
+      },
+      {
+        "id": "Identifier.system",
+        "path": "Identifier.system",
+        "min": 1
+      },
+      {
+        "id": "Identifier.value",
+        "path": "Identifier.value",
+        "min": 1
+      }
+    ]
+  }
+}

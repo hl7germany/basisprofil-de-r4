@@ -1,0 +1,115 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ExtensionAbrechnungsDiagnoseProzedur",
+  "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur",
+  "version": "1.5.0-ballot",
+  "name": "ExtensionAbrechnungsDiagnoseProzedur",
+  "title": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: \"Primär-DRG\" zuzuordnen. Dies ermöglicht unter anderem das Zuordnen von Haupt- und Nebendiagnosen zu einem Account zum Zweck der DRG Erstellung.",
+  "copyright": "HL7 Deutschland e.V.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Account"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
+      },
+      {
+        "id": "Extension.extension:Use",
+        "path": "Extension.extension",
+        "sliceName": "Use",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:Use.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:Use.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Use"
+      },
+      {
+        "id": "Extension.extension:Use.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur"
+        }
+      },
+      {
+        "id": "Extension.extension:Referenz",
+        "path": "Extension.extension",
+        "sliceName": "Referenz",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Extension.extension:Referenz.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:Referenz.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "Referenz"
+      },
+      {
+        "id": "Extension.extension:Referenz.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Condition",
+              "http://hl7.org/fhir/StructureDefinition/Procedure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

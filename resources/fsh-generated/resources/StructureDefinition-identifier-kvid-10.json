@@ -1,0 +1,78 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "identifier-kvid-10",
+  "url": "http://fhir.de/StructureDefinition/identifier-kvid-10",
+  "version": "1.5.0-ballot",
+  "name": "IdentifierKvid10",
+  "title": "Identifier-Profil für die 10-stellige Krankenversichertennummer",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier-Profil für die 10-stellige Krankenversichertennummer",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Identifier",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Identifier",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Identifier.type",
+        "path": "Identifier.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "KVZ10",
+              "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+            }
+          ]
+        },
+        "constraint": [
+          {
+            "key": "kvid-2",
+            "severity": "warning",
+            "human": "Als Type sollte der Code 'KVZ10' verwendet werden, die Codes 'GKV' und 'PKV' haben den Status 'retired'",
+            "expression": "($this.identifier.type.coding.exists(system='http://fhir.de/CodeSystem/identifier-type-de-basis' and code='GKV') or $this.identifier.type.coding.exists(system='http://fhir.de/CodeSystem/identifier-type-de-basis' and code='PKV')).not()",
+            "source": "http://fhir.de/StructureDefinition/identifier-kvid-10"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/identifier-type-de-basis"
+        }
+      },
+      {
+        "id": "Identifier.system",
+        "path": "Identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.de/sid/gkv/kvid-10"
+      },
+      {
+        "id": "Identifier.value",
+        "path": "Identifier.value",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "kvid-1",
+            "severity": "warning",
+            "human": "Der unveränderliche Teil der KVID muss 10-stellig sein und mit einem Großbuchstaben anfangen",
+            "expression": "matches('^[A-Z][0-9]{9}$')",
+            "source": "http://fhir.de/StructureDefinition/identifier-kvid-10"
+          }
+        ]
+      }
+    ]
+  }
+}

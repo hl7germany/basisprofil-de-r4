@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "EntlassungsgrundDritteStelle",
+  "id": "EntlassungsgrundDritteStelle",
+  "title": "EntlassungsgrundDritteStelle",
+  "description": "Entlassungs-/Verlegungsgrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "version": "1.5.0-ballot",
+  "url": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
+  "concept": [
+    {
+      "code": "1",
+      "display": "arbeitsfähig entlassen"
+    },
+    {
+      "code": "2",
+      "display": "arbeitsunfähig entlassen"
+    },
+    {
+      "code": "9",
+      "display": "keine Angabe"
+    }
+  ],
+  "experimental": false,
+  "date": "2023-11-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "copyright": "HL7 Deutschland e.V.",
+  "caseSensitive": false,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle",
+  "compositional": false,
+  "count": 3
+}
