@@ -1,7 +1,7 @@
 Instance: ConceptMap-OPS-SNOMED-Category-Mapping
 InstanceOf: ConceptMap
 Usage: #definition
-* insert MetaNoVersion
+* insert Meta-Instance
 * url = "http://fhir.de/ConceptMap/OPS-SNOMED-Category"
 * name = "ConceptMapOPS-SNOMED-Category-Mapping"
 * title = "ConceptMap - OPS_SNOMED-Category-Mapping"
