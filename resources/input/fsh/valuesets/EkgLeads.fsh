@@ -3,6 +3,7 @@ Id: EkgLeads
 Title: "EKG/ECG leads"
 Description: "EKG/ECG leads"
 * insert Meta
+* insert LOINCDisclaimer
 * $loinc#LP7383-5 "Lead AVF"
 * $loinc#LP7384-3 "Lead AVL"
 * $loinc#LP7385-0 "Lead AVR"
