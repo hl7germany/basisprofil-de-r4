@@ -6,6 +6,7 @@
   "id": "gender-amtlich-de",
   "title": "amtliches Geschlecht",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV",
+  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/gender-amtlich-de",
   "concept": [
     {
@@ -38,7 +39,6 @@
       ]
     }
   ],
-  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

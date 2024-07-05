@@ -29,7 +29,7 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 4
+        "min": 2
       },
       {
         "id": "Observation.code.coding:loinc",
@@ -51,34 +51,31 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:loinc/generic-loinc",
+        "id": "Observation.code.coding:loinc/loinc-sauerstoffsaettigung",
         "path": "Observation.code.coding",
-        "sliceName": "loinc/generic-loinc",
+        "sliceName": "loinc/loinc-sauerstoffsaettigung",
         "min": 1,
         "max": "1",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"
-        },
-        "mustSupport": true
+        }
       },
       {
-        "id": "Observation.code.coding:loinc/specific-loinc",
+        "id": "Observation.code.coding:loinc/loinc-pulsoximetrie",
         "path": "Observation.code.coding",
-        "sliceName": "loinc/specific-loinc",
+        "sliceName": "loinc/loinc-pulsoximetrie",
         "min": 1,
         "max": "1",
         "patternCoding": {
           "code": "59408-5",
           "system": "http://loinc.org"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
-        "min": 2,
         "patternCoding": {
           "system": "http://snomed.info/sct"
         }
@@ -94,28 +91,26 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:snomed/generic-snomed",
+        "id": "Observation.code.coding:snomed/snomed-sauerstoffsaettigung",
         "path": "Observation.code.coding",
-        "sliceName": "snomed/generic-snomed",
-        "min": 1,
+        "sliceName": "snomed/snomed-sauerstoffsaettigung",
+        "min": 0,
         "max": "1",
         "patternCoding": {
           "code": "442476006",
           "system": "http://snomed.info/sct"
-        },
-        "mustSupport": true
+        }
       },
       {
-        "id": "Observation.code.coding:snomed/specific-snomed",
+        "id": "Observation.code.coding:snomed/snomed-pulsoximetrie",
         "path": "Observation.code.coding",
-        "sliceName": "snomed/specific-snomed",
-        "min": 1,
+        "sliceName": "snomed/snomed-pulsoximetrie",
+        "min": 0,
         "max": "1",
         "patternCoding": {
           "code": "431314004",
           "system": "http://snomed.info/sct"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.value[x]",

@@ -23,18 +23,18 @@ Id: observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie
     * system 1..
     * code 1..
   * coding[loinc] contains 
-      generic-loinc 1..1 MS and
-      specific-loinc 1..1 MS
-  * coding[loinc][generic-loinc] = $loinc#2708-6
-  * coding[loinc][specific-loinc] = $loinc#59408-5
+      loinc-sauerstoffsaettigung 1..1 and
+      loinc-pulsoximetrie 1..1 
+  * coding[loinc][loinc-sauerstoffsaettigung] = $loinc#2708-6
+  * coding[loinc][loinc-pulsoximetrie] = $loinc#59408-5
   * coding[snomed] ^patternCoding.system = $sct
     * system 1..
     * code 1..
   * coding[snomed] contains 
-      generic-snomed 1..1 MS and
-      specific-snomed 1..1 MS
-  * coding[snomed][generic-snomed] = $sct#442476006
-  * coding[snomed][specific-snomed] = $sct#431314004
+      snomed-sauerstoffsaettigung 0..1 and
+      snomed-pulsoximetrie 0..1
+  * coding[snomed][snomed-sauerstoffsaettigung] = $sct#442476006
+  * coding[snomed][snomed-pulsoximetrie] = $sct#431314004
 * value[x] only Quantity
 * valueQuantity = $unitsofmeasure#%
 
@@ -70,13 +70,13 @@ Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc][generic-loinc]
+* code.coding[loinc][loinc-sauerstoffsaettigung]
   * display = "Oxygen saturation in Arterial blood"
-* code.coding[loinc][specific-loinc]
+* code.coding[loinc][loinc-pulsoximetrie]
   * display = "Oxygen saturation in Arterial blood by Pulse oximetry"
-* code.coding[snomed][generic-snomed]
+* code.coding[snomed][snomed-sauerstoffsaettigung]
   * display = "Arterial oxygen saturation"
-* code.coding[snomed][specific-snomed] = $sct#431314004 
+* code.coding[snomed][snomed-pulsoximetrie] = $sct#431314004 
   * display = "Periphere Sauerstoffsättigung"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject.reference = "Patient/example"
