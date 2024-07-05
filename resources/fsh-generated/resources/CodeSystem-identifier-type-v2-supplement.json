@@ -6,7 +6,6 @@
   "id": "identifier-type-v2-supplement",
   "title": "Deutsche Übersetzungen für Identifier Types (V2)",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/identifier-type-v2-supplement",
   "concept": [
     {
@@ -68,6 +67,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

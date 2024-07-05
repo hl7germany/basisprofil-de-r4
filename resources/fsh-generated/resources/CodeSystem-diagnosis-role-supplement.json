@@ -6,7 +6,6 @@
   "id": "diagnosis-role-supplement",
   "title": "Rolle der Diagnose",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/diagnosis-role-supplement",
   "concept": [
     {
@@ -86,6 +85,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

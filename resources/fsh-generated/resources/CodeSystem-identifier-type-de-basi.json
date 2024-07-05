@@ -6,7 +6,6 @@
   "id": "identifier-type-de-basi",
   "title": "Identifier Type De Basis",
   "description": "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen.",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/identifier-type-de-basi",
   "concept": [
     {
@@ -73,6 +72,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
