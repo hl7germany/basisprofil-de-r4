@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionLebensphase",
   "url": "http://fhir.de/StructureDefinition/lebensphase",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "ExtensionLebensphase",
   "title": "Extension zur Dokumentation einer Lebensphase einer Person in der ein bestimmtes Ereignis aufgetreten ist",
   "status": "active",

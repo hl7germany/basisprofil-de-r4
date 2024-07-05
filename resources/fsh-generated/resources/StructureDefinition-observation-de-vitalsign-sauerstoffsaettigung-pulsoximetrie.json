@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
   "status": "active",
   "experimental": false,

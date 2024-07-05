@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-herzfrequenz",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "VitalSignDE_Herzfrequenz",
   "title": "Observation-Profil Herzfrequenz",
   "status": "active",

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "coverage-de-sel",
   "url": "http://fhir.de/StructureDefinition/coverage-de-sel",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "CoverageDeSel",
   "title": "Coverage, deutsches Selbstzahlerprofil",
   "status": "active",

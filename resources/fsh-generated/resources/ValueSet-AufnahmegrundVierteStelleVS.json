@@ -5,7 +5,7 @@
   "id": "AufnahmegrundVierteStelleVS",
   "title": "Aufnahmegrund Vierte Stelle ValueSet",
   "description": "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundVierteStelle",
   "experimental": false,
   "date": "2023-11-30",

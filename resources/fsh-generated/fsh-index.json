@@ -224,7 +224,7 @@
     "endLine": 9
   },
   {
-    "outputFile": "CodeSystem-identifier-type-de-basi.json",
+    "outputFile": "CodeSystem-identifier-type-de-basis.json",
     "fshName": "IdentifierTypeDeBasis",
     "fshType": "CodeSystem",
     "fshFile": "codesystems/IdentifierTypeDeBasis.fsh",
@@ -532,8 +532,8 @@
     "fshName": "Example-observation-atemfrequenz",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Atemfrequenz.fsh",
-    "startLine": 17,
-    "endLine": 30
+    "startLine": 16,
+    "endLine": 29
   },
   {
     "outputFile": "Observation-Example-observation-blutdruck.json",
@@ -564,40 +564,40 @@
     "fshName": "Example-observation-herzfrequenz",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Herzfrequenz.fsh",
-    "startLine": 17,
-    "endLine": 30
+    "startLine": 16,
+    "endLine": 29
   },
   {
     "outputFile": "Observation-Example-observation-koerpergewicht.json",
     "fshName": "Example-observation-koerpergewicht",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Koerpergewicht.fsh",
-    "startLine": 17,
-    "endLine": 31
+    "startLine": 16,
+    "endLine": 30
   },
   {
     "outputFile": "Observation-Example-observation-koerpergroesse.json",
     "fshName": "Example-observation-koerpergroesse",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Koerpergroesse.fsh",
-    "startLine": 17,
-    "endLine": 32
+    "startLine": 16,
+    "endLine": 31
   },
   {
     "outputFile": "Observation-Example-observation-koerpertemperatur.json",
     "fshName": "Example-observation-koerpertemperatur",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Koerpertemperatur.fsh",
-    "startLine": 17,
-    "endLine": 30
+    "startLine": 16,
+    "endLine": 29
   },
   {
     "outputFile": "Observation-Example-observation-kopfumfang.json",
     "fshName": "Example-observation-kopfumfang",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Kopfumfang.fsh",
-    "startLine": 18,
-    "endLine": 31
+    "startLine": 17,
+    "endLine": 30
   },
   {
     "outputFile": "Observation-Example-observation-pflegegrad.json",
@@ -612,16 +612,16 @@
     "fshName": "Example-observation-sauerstoffsaettigung",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 42,
-    "endLine": 64
+    "startLine": 40,
+    "endLine": 62
   },
   {
     "outputFile": "Observation-ExampleObservationSauerstoffsaettigungPulsoximetrie.json",
     "fshName": "ExampleObservationSauerstoffsaettigungPulsoximetrie",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 66,
-    "endLine": 92
+    "startLine": 64,
+    "endLine": 90
   },
   {
     "outputFile": "Patient-Example-patient-address-de-basis.json",
@@ -701,7 +701,7 @@
     "fshType": "Instance",
     "fshFile": "instances/Condition-related.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-AbrechnendeIK.json",
@@ -1181,7 +1181,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Atemfrequenz.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-blutdruck.json",
@@ -1197,7 +1197,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Herzfrequenz.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-koerpergewicht.json",
@@ -1205,7 +1205,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Koerpergewicht.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-koerpergroesse.json",
@@ -1213,7 +1213,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Koerpergroesse.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-koerpertemperatur.json",
@@ -1221,7 +1221,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Koerpertemperatur.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-kopfumfang.json",
@@ -1229,15 +1229,15 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Kopfumfang.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie.json",
     "fshName": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 17,
-    "endLine": 39
+    "startLine": 16,
+    "endLine": 37
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung.json",
@@ -1245,7 +1245,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign.json",

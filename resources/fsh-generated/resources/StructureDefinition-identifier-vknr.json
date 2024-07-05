@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-vknr",
   "url": "http://fhir.de/StructureDefinition/identifier-vknr",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "IdentifierVknr",
   "title": "Identifier-Profil für die Abbildung einer Vertragskassennummer (VKNR)",
   "status": "active",

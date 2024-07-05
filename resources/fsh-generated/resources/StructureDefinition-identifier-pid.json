@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pid",
   "url": "http://fhir.de/StructureDefinition/identifier-pid",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "IdentifierPid",
   "title": "Identifier-Profil für die Abbildung einer Patienten-ID",
   "status": "active",

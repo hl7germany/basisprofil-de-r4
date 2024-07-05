@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-blutdruck",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "name": "VitalSignDE_Blutdruck",
   "title": "Observation-Profil Blutdruck",
   "status": "active",

@@ -5,7 +5,7 @@
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen ICD10GM ValueSet",
   "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes ",
-  "version": "1.5.0-ballot",
+  "version": "1.5.0",
   "url": "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "experimental": false,
   "date": "2023-11-30",
