@@ -5,7 +5,6 @@
   "id": "VitalSignDE-Body-Weigth-UCUM",
   "title": "VitalSignDE_Body_Weigth_UCUM",
   "description": "VitalSignDE_Body_Weigth_UCUM enthält alle validen Einheiten zur Kodierung eines Körpergewichtes",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM",
   "experimental": false,
   "date": "2023-11-30",
@@ -20,6 +19,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "copyright": "The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright © 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved.",
   "meta": {
     "profile": [

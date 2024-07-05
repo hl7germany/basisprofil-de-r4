@@ -6,7 +6,6 @@
   "id": "KontaktArtDe",
   "title": "KontaktArtDe",
   "description": "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
-  "version": "1.5.0-ballot",
   "url": "http://fhir.de/CodeSystem/kontaktart-de",
   "concept": [
     {
@@ -83,6 +82,7 @@
       ]
     }
   ],
+  "version": "1.5.0-ballot",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
