@@ -17,15 +17,14 @@
       ]
     }
   ],
-  "name": "ConceptMapOPS-SNOMED-Category-Mapping",
+  "name": "ConceptMapOPS_SNOMED_Category_Mapping",
   "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
+  "copyright": "HL7 Deutschland e.V.",
   "description": "Mapping OPS \"Klassentitel\" zu SNOMED-CT",
-  "sourceCanonical": "http://fhir.de/ValueSet/bfarm/ops",
+  "sourceCanonical": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
   "targetCanonical": "http://snomed.info/sct?fhir_vs",
   "group": [
     {
-      "source": "http://fhir.de/CodeSystem/bfarm/ops",
-      "target": "http://snomed.info/sct",
       "element": [
         {
           "code": "1",

@@ -317,7 +317,7 @@
     "fshType": "Instance",
     "fshFile": "instances/ConceptMap-OPS-SNOMED-Category-Mapping.fsh",
     "startLine": 1,
-    "endLine": 45
+    "endLine": 41
   },
   {
     "outputFile": "Condition-Example-condition-ausrufezeichen-primaer.json",
@@ -1389,7 +1389,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/EkgLeads.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-EncounterClassDE.json",
@@ -1456,6 +1456,14 @@
     "endLine": 9
   },
   {
+    "outputFile": "ValueSet-ValueSet-OPS-SNOMED-Source-Codes.json",
+    "fshName": "ValueSet_OPS_SNOMED_Source_Codes",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/OPS-SNOMED-Source-CodesVS.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
     "outputFile": "ValueSet-ValueSetISO31662DE.json",
     "fshName": "ValueSetISO31662DE",
     "fshType": "ValueSet",
@@ -1477,7 +1485,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 9
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Body-Length-UCUM.json",
@@ -1485,7 +1493,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_Body_Length_UCUM.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 10
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Body-Weight-Loinc.json",
@@ -1501,47 +1509,47 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_Body_Weigth_UCUM.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 10
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Herzfrequenz-SNOMED-CT.json",
     "fshName": "VitalSignDE_Herzfrequenz_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 10,
-    "endLine": 18
+    "startLine": 11,
+    "endLine": 20
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpergewicht-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpergewicht_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 20,
-    "endLine": 36
+    "startLine": 22,
+    "endLine": 39
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpergroesse-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpergroesse_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 38,
-    "endLine": 47
+    "startLine": 41,
+    "endLine": 51
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpertemperatur-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 49,
-    "endLine": 67
+    "startLine": 53,
+    "endLine": 72
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Kopfumfang-SNOMED-CT.json",
     "fshName": "VitalSignDE_Kopfumfang_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 69,
-    "endLine": 76
+    "startLine": 74,
+    "endLine": 82
   },
   {
     "outputFile": "ValueSet-WirkstofftypVS.json",
@@ -1621,7 +1629,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/ValueSetLebensphaseDe.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-merkzeichen-de.json",
@@ -1637,7 +1645,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/OpsVS.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 9
   },
   {
     "outputFile": "ValueSet-pflegegrad-de.json",
