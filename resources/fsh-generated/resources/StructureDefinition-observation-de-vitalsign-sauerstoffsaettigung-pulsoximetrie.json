@@ -35,7 +35,10 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "min": 2
+        "min": 2,
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:loinc.system",
@@ -72,7 +75,10 @@
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
-        "sliceName": "snomed"
+        "sliceName": "snomed",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        }
       },
       {
         "id": "Observation.code.coding:snomed.system",

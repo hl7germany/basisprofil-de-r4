@@ -83,7 +83,7 @@
   "property": [
     {
       "code": "status",
-      "uri": "http://hl7.org/fhir/concept-properties",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
       "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.",
       "type": "code"
     }
