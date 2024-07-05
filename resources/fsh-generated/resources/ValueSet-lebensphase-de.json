@@ -3,6 +3,7 @@
   "status": "active",
   "name": "ValueSetLebensphaseDe",
   "id": "lebensphase-de",
+  "title": "LebensphaseDe ValueSet",
   "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,

@@ -1,5 +1,6 @@
 ValueSet: ICD10GM
 Id: valueset-ICD-10-GM
+Title: "ICD10GM ValueSet"
 Description: "ICD-10-GM"
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

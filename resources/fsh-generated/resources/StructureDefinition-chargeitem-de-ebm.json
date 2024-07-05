@@ -19,6 +19,7 @@
       ]
     }
   ],
+  "description": "ChargeItem für EBM-Ziffer als Abrechnungsposition",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

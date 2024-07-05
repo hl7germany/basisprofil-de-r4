@@ -1,6 +1,8 @@
 Profile: VitalSignDE_Koerpergroesse
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpergroesse
+Title: "Observation-Profil Körpergröße"
+Description: "Observation-Profil Körpergröße"
 * insert Meta
 * code = $loinc#8302-2
   * coding[loinc] from ValueSetVitalSignDE_Body_Height_Loinc (required)

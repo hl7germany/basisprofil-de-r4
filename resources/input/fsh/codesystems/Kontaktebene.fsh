@@ -1,5 +1,6 @@
 CodeSystem: Kontaktebene
 Id: Kontaktebene
+Title: "Kontaktebene"
 Description: "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

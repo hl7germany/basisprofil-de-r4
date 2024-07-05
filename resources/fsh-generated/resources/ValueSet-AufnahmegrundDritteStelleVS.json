@@ -3,6 +3,7 @@
   "status": "active",
   "name": "AufnahmegrundDritteStelleVS",
   "id": "AufnahmegrundDritteStelleVS",
+  "title": "AufnahmegrundDritteStelle ValueSet",
   "description": "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
   "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle",
   "experimental": false,

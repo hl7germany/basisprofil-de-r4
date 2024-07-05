@@ -1,6 +1,8 @@
 Profile: VitalSignDE
 Parent: Observation
 Id: observation-de-vitalsign
+Title: "Observation-Profil VitalSignDE"
+Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen Vitalsignprofile"
 * insert Meta
 * obeys vs-de-2
 * category

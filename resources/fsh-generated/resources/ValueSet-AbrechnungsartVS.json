@@ -3,6 +3,7 @@
   "status": "active",
   "name": "AbrechnungsartVS",
   "id": "AbrechnungsartVS",
+  "title": "Abrechnungsart ValueSet",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
   "url": "http://fhir.de/ValueSet/dkgev/Abrechnungsart",
   "experimental": false,

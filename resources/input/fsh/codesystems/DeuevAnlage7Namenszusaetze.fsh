@@ -1,6 +1,7 @@
 CodeSystem: DeuevAnlage7Namenszusaetze
 Id: anlage-7-namenszusaetze
-Description: "Tabelle der gültigen Namenszusätze"
+Title: "Tabelle der gültigen Namenszusätze"
+Description: "Namenszusätze im Nachnamen nach DEÜV Anlage 7"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"

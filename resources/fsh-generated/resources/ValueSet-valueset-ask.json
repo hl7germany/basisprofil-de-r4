@@ -3,6 +3,7 @@
   "status": "active",
   "name": "ASK",
   "id": "valueset-ask",
+  "title": "ASK ValueSet",
   "description": "Arzneimittel-Stoffkatalog (ASK) Nummern",
   "url": "http://fhir.de/ValueSet/ask",
   "experimental": false,

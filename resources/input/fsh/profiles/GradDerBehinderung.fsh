@@ -1,6 +1,7 @@
 Profile: GradDerBehinderung
 Parent: Observation
 Id: GradDerBehinderung
+Title: "Grad der Behinderung" 
 Description: "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeichen"
 * insert Meta
 * code.coding ^slicing.discriminator.type = #pattern

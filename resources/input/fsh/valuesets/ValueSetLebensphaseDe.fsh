@@ -1,5 +1,6 @@
 ValueSet: ValueSetLebensphaseDe
 Id: lebensphase-de
+Title: "LebensphaseDe ValueSet"
 Description: "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase"
 * insert Meta
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"

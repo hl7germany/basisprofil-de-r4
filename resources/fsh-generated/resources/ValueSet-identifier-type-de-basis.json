@@ -3,6 +3,7 @@
   "status": "active",
   "name": "IdentifierTypeDeBasis",
   "id": "identifier-type-de-basis",
+  "title": "Identifier Type DeBasis ValueSet",
   "description": "ValueSet zur Codierung des Identifier-Typs",
   "url": "http://fhir.de/ValueSet/identifier-type-de-basis",
   "experimental": false,
@@ -65,7 +66,7 @@
         ]
       },
       {
-        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+        "system": "http://fhir.de/CodeSystem/identifier-type-de-basi"
       }
     ]
   }

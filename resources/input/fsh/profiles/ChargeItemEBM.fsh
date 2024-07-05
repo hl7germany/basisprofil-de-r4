@@ -2,6 +2,7 @@ Profile: ChargeItemEBM
 Parent: ChargeItem
 Id: chargeitem-de-ebm
 Title: "ChargeItem für EBM-Ziffer als Abrechnungsposition"
+Description: "ChargeItem für EBM-Ziffer als Abrechnungsposition"
 * insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * code obeys chrg-1

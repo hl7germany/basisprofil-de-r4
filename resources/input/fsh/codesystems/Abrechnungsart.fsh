@@ -1,5 +1,6 @@
 CodeSystem: Abrechnungsart
 Id: Abrechnungsart
+Title: "Abrechnungsart"
 Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

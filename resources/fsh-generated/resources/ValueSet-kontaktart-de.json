@@ -3,6 +3,7 @@
   "status": "active",
   "name": "KontaktartDe",
   "id": "kontaktart-de",
+  "title": "KontaktartDe ValueSet",
   "description": "Kontaktarten für die Codierung von Encounter.type",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
   "experimental": false,

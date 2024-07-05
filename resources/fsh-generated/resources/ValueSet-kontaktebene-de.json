@@ -3,6 +3,7 @@
   "status": "active",
   "name": "KontaktebeneDe",
   "id": "kontaktebene-de",
+  "title": "KontaktebeneDe ValueSet",
   "description": "Kontaktebene für die Codierung von Encounter.type",
   "url": "http://fhir.de/ValueSet/kontaktebene-de",
   "experimental": false,

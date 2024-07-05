@@ -4,7 +4,8 @@
   "content": "complete",
   "name": "DeuevAnlage7Namenszusaetze",
   "id": "anlage-7-namenszusaetze",
-  "description": "Tabelle der gültigen Namenszusätze",
+  "title": "Tabelle der gültigen Namenszusätze",
+  "description": "Namenszusätze im Nachnamen nach DEÜV Anlage 7",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [
     {

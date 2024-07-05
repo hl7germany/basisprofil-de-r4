@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "KontaktDiagnoseProzedur",
   "id": "KontaktDiagnoseProzedur",
+  "title": "KontaktDiagnoseProzedur",
   "description": "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext",
   "url": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
   "concept": [

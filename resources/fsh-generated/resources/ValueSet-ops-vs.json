@@ -3,6 +3,7 @@
   "status": "active",
   "name": "OpsVS",
   "id": "ops-vs",
+  "title": "OPS ValueSet",
   "description": "OPS ValueSet",
   "url": "http://fhir.de/ValueSet/bfarm/ops",
   "experimental": false,

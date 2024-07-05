@@ -1,5 +1,6 @@
 CodeSystem: KontaktDiagnoseProzedur
 Id: KontaktDiagnoseProzedur
+Title: "KontaktDiagnoseProzedur"
 Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
@@ -17,3 +18,4 @@ Description: "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext"
 * #cause-of-death "Todesursache"
 * #principle-DRG "Primär-DRG"
 * #secondary-DRG "Sekundär-DRG"
+
