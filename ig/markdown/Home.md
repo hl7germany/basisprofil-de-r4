@@ -6,7 +6,7 @@
 ---
 Version: 1.5.0 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 29.06.2022
+Datum: 07.07.2024
 
 Status: Ballot
 

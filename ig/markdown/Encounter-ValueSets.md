@@ -59,7 +59,7 @@
 
 | Hinweis | Standard Level: Draft!|
 |---------|---------------------|
-| {{render:Warning}} | Der nachfolgende Abschnitt des Implementierungsleitfadens wird als nicht vollständig genug oder nicht ausreichend geprüft angesehen, um ausschließen zu können, dass zukünftige Versionen rückwärtskompatibel bleiben. Im Anschluss an eine Ballotierung wird der Status in der Regel auf "Trial-Use" angehoben. Wir bitten hierzu um Meinungen und Vorschläge aus der Community.|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png) | Der nachfolgende Abschnitt des Implementierungsleitfadens wird als nicht vollständig genug oder nicht ausreichend geprüft angesehen, um ausschließen zu können, dass zukünftige Versionen rückwärtskompatibel bleiben. Im Anschluss an eine Ballotierung wird der Status in der Regel auf "Trial-Use" angehoben. Wir bitten hierzu um Meinungen und Vorschläge aus der Community.|
 
 **Canonical**: ```http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert```
 
