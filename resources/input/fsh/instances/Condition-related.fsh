@@ -2,7 +2,7 @@ Instance: Condition-related
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "http://fhir.de/SearchParameter/Condition-related"
-* name = "related"
+* name = "Related"
 * status = #draft
 * experimental = false
 * date = "2021-05-20"
