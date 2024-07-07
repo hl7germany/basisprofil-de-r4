@@ -5,7 +5,7 @@ Im Beschäftigtenverzeichnis der ambulanten Pflege (BeVaP) wird durch das BfArM 
 In FHIR kann die LBNR als Identifier für Practitioner verwendet werden.
 Das folgende Profil beschreibt die Abbildung einer LBNR als Identifier:
 
-**Name**: IdentifierLbnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-lbnr&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: IdentifierLbnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-lbnr&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-lbnr`
 

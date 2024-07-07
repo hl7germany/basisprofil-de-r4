@@ -2,7 +2,7 @@
 
 #### Profil
 
-**Name**: GradDerBehinderung ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/GradDerBehinderung&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: GradDerBehinderung ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/GradDerBehinderung&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/GradDerBehinderung`
 

@@ -9,7 +9,7 @@ In diesem Fall ist das Element `Identifier.assigner` zu verwenden, um mindestens
 Ohne Angabe einer NamingSystem-URL in `Identifier.system` ist es jedoch nicht möglich, einen [Token-Suchparameter](http://hl7.org/implement/standards/fhir/search.html#token) zu definieren, der zuverlässig eindeutige Ergebnisse liefert.
 Falls dies in einem konkreten Szenario zu Problemen führt, bitten wir um [Feedback im FHIR-Chat](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)/topic/NamingSystem.20f.C3.BCr.20PKV.20Nummern)
 
-**Name**: IdentifierPkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: IdentifierPkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-pkv`
 
@@ -44,7 +44,7 @@ Falls dies in einem konkreten Szenario zu Problemen führt, bitten wir um [Feedb
 
 Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach  § 290 Absatz 2 Satz 2 ausgestellt. Entsprechen der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich.
 
-**Name**: IdentifierPkvVersichertenId10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv-kvid-10&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: IdentifierPkvVersichertenId10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv-kvid-10&scope=de.basisprofil.r4@1.5.0))
 
 {{tree:http://fhir.de/StructureDefinition/identifier-pkv-kvid-10, hybrid}}
 

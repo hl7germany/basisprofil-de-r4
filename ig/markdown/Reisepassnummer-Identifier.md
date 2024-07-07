@@ -2,7 +2,7 @@
 
 Für die Abbildung einer deutschen Reisepassnummer kann folgendes Identifier-Profil verwendet werden:
 
-**Name**: IdentifierReisepassnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-reisepassnummer&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: IdentifierReisepassnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-reisepassnummer&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-reisepassnummer`
 

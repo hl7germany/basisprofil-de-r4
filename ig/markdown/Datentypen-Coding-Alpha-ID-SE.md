@@ -5,7 +5,7 @@ Bei der Kodierung per [Alpha-ID-SE](https://www.bfarm.de/DE/Kodiersysteme/Termin
 
 Die Angabe der Alpha-ID-SE-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, da die Alpha-ID-SE nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahrensangaben in der Bedeutung wechseln.
 
-**Name**: CodingAlphaIDSE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingAlphaIDSE&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: CodingAlphaIDSE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingAlphaIDSE&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/CodingAlphaIDSE`
 

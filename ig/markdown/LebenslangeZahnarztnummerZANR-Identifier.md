@@ -7,7 +7,7 @@ Die Zahnarztnummer ist 9-stellig numerisch.
 In FHIR kann die ZANR als Identifier für Practitioner verwendet werden.
 Das folgende Profil beschreibt die Abbildung einer ZANR als Identifier:
 
-**Name**: IdentifierZanr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-zanr&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: IdentifierZanr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-zanr&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-zanr`
 
