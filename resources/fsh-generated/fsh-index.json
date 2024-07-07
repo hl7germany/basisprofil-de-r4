@@ -269,7 +269,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/OPS.fsh",
     "startLine": 1,
-    "endLine": 10
+    "endLine": 9
   },
   {
     "outputFile": "CodeSystem-pzn.json",
@@ -285,7 +285,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/CodeSystemSupplementISO3166.fsh",
     "startLine": 1,
-    "endLine": 805
+    "endLine": 755
   },
   {
     "outputFile": "CodeSystem-versicherungsart-de-basis.json",
@@ -612,16 +612,8 @@
     "fshName": "Example-observation-sauerstoffsaettigung",
     "fshType": "Instance",
     "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 40,
-    "endLine": 62
-  },
-  {
-    "outputFile": "Observation-ExampleObservationSauerstoffsaettigungPulsoximetrie.json",
-    "fshName": "ExampleObservationSauerstoffsaettigungPulsoximetrie",
-    "fshType": "Instance",
-    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 64,
-    "endLine": 90
+    "startLine": 16,
+    "endLine": 38
   },
   {
     "outputFile": "Patient-Example-patient-address-de-basis.json",
@@ -1230,14 +1222,6 @@
     "fshFile": "profiles/VitalSignDE_Kopfumfang.fsh",
     "startLine": 1,
     "endLine": 15
-  },
-  {
-    "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie.json",
-    "fshName": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
-    "fshType": "Profile",
-    "fshFile": "profiles/VitalSignDE_Artierielle_Sauerstoffsaettigung.fsh",
-    "startLine": 16,
-    "endLine": 37
   },
   {
     "outputFile": "StructureDefinition-observation-de-vitalsign-sauerstoffsaettigung.json",

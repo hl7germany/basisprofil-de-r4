@@ -51,6 +51,24 @@
         "min": 1
       },
       {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
         "id": "Observation.code.coding:loinc/loinc-sauerstoffsaettigung",
         "path": "Observation.code.coding",
         "sliceName": "loinc/loinc-sauerstoffsaettigung",
@@ -71,24 +89,6 @@
           "code": "59408-5",
           "system": "http://loinc.org"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.code.coding:snomed/snomed-sauerstoffsaettigung",

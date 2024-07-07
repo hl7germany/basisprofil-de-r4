@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext der [FHIR Ressource 'Procedure'](https://w
 
 ----
 
-**Name**: ExtensionProzedurDokumentationsdatum ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: ExtensionProzedurDokumentationsdatum ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum`
 
@@ -22,7 +22,7 @@ Folgende Extensions werden im Kontext der [FHIR Ressource 'Procedure'](https://w
 
 ----
 
-**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.5.0))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/seitenlokalisation' select description```
 

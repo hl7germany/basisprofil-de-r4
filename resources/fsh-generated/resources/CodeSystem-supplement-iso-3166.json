@@ -154,15 +154,6 @@
       ]
     },
     {
-      "code": "AC",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Ascension"
-        }
-      ]
-    },
-    {
       "code": "AZ",
       "designation": [
         {
@@ -388,15 +379,6 @@
       ]
     },
     {
-      "code": "EA",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Ceuta, Melilla"
-        }
-      ]
-    },
-    {
       "code": "CL",
       "designation": [
         {
@@ -411,15 +393,6 @@
         {
           "language": "de-DE",
           "value": "Volksrepublik China"
-        }
-      ]
-    },
-    {
-      "code": "CP",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Clipperton (reserviert für ITU)"
         }
       ]
     },
@@ -460,29 +433,11 @@
       ]
     },
     {
-      "code": "DD",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Deutsche Demokratische Republik (historisch)"
-        }
-      ]
-    },
-    {
       "code": "DE",
       "designation": [
         {
           "language": "de-DE",
           "value": "Deutschland"
-        }
-      ]
-    },
-    {
-      "code": "DG",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Diego Garcia (reserviert für ITU)"
         }
       ]
     },
@@ -568,24 +523,6 @@
       ]
     },
     {
-      "code": "CE",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Europäische Gemeinschaft"
-        }
-      ]
-    },
-    {
-      "code": "EU",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Europäische Union"
-        }
-      ]
-    },
-    {
       "code": "FK",
       "designation": [
         {
@@ -627,15 +564,6 @@
         {
           "language": "de-DE",
           "value": "Frankreich"
-        }
-      ]
-    },
-    {
-      "code": "FX",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Frankreich France métropolitaine"
         }
       ]
     },
@@ -1000,15 +928,6 @@
       ]
     },
     {
-      "code": "IC",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Kanarische Inseln"
-        }
-      ]
-    },
-    {
       "code": "CV",
       "designation": [
         {
@@ -1122,15 +1041,6 @@
         {
           "language": "de-DE",
           "value": "Südkorea"
-        }
-      ]
-    },
-    {
-      "code": "XK",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Kosovo"
         }
       ]
     },
@@ -1486,15 +1396,6 @@
       ]
     },
     {
-      "code": "NT",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Neutrale Zone (Saudi-Arabien und Irak bis 1993)"
-        }
-      ]
-    },
-    {
       "code": "NI",
       "designation": [
         {
@@ -1509,15 +1410,6 @@
         {
           "language": "de-DE",
           "value": "Niederlande"
-        }
-      ]
-    },
-    {
-      "code": "AN",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Niederländische Antillen (historisch)"
         }
       ]
     },
@@ -1864,19 +1756,6 @@
       ]
     },
     {
-      "code": "CS",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Serbien und Montenegro (historisch)"
-        },
-        {
-          "language": "de-DE",
-          "value": "Tschechoslowakei (historisch)"
-        }
-      ]
-    },
-    {
       "code": "SC",
       "designation": [
         {
@@ -2147,15 +2026,6 @@
       ]
     },
     {
-      "code": "TA",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Tristan da Cunha"
-        }
-      ]
-    },
-    {
       "code": "TD",
       "designation": [
         {
@@ -2215,15 +2085,6 @@
         {
           "language": "de-DE",
           "value": "Tuvalu"
-        }
-      ]
-    },
-    {
-      "code": "SU",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Sowjetunion (UdSSR, historisch)"
         }
       ]
     },
@@ -2368,15 +2229,6 @@
         {
           "language": "de-DE",
           "value": "Westsahara"
-        }
-      ]
-    },
-    {
-      "code": "ZR",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Zaire (jetzt Demokratische Republik Kongo)"
         }
       ]
     },

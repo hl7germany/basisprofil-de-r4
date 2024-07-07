@@ -15,7 +15,7 @@ Häufig ist dies jedoch nicht erforderlich, da die Standard-Felder `family`, `gi
 
 #### Basis-Profil für Datentyp HumanName
 
-**Name**: HumannameDeBasis ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/humanname-de-basis&scope=de.basisprofil.r4@1.5.0-ballot))
+**Name**: HumannameDeBasis ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/humanname-de-basis&scope=de.basisprofil.r4@1.5.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/humanname-de-basis`
 
