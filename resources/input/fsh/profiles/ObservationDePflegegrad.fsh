@@ -12,7 +12,7 @@ Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten inc
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
-* effective[x] only Period or DateTime
+* effective[x] only Period or dateTime
 * effectivePeriod
   * start 1..
 * value[x] only CodeableConcept
