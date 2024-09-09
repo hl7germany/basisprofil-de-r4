@@ -4,7 +4,10 @@ Id: observation-de-vitalsign-atemfrequenz
 Title: "Observation-Profil Atemfrequenz"
 Description: "Observation-Profil Atemfrequenz"
 * insert Meta
-* code = $loinc#9279-1
+* code
+  * coding contains RespRateCode 1..1
+  * coding[RespRateCode] ^patternCoding.system = $loinc
+  * coding[RespRateCode] ^patternCoding.code = #9279-1
   * coding[loinc] ^patternCoding.system = $loinc
     * system 1..
     * code 1..
