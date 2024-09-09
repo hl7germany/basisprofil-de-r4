@@ -69,7 +69,32 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Observation.effective[x]:effectivePeriod",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectivePeriod",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Period"
@@ -77,7 +102,7 @@
         ]
       },
       {
-        "id": "Observation.effective[x].start",
+        "id": "Observation.effective[x]:effectivePeriod.start",
         "path": "Observation.effective[x].start",
         "min": 1
       },

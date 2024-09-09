@@ -22,7 +22,6 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
 * effective[x] 1..
 * effective[x] only dateTime or Period
   * obeys vs-de-1
-* value[x] only Quantity
 * valueQuantity
   * value 1..
   * unit 1..

@@ -78,8 +78,14 @@
         "min": 1
       },
       {
-        "id": "Observation.value[x]",
+        "id": "Observation.value[x]:valueQuantity",
         "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "patternQuantity": {
           "code": "/min",
           "system": "http://unitsofmeasure.org"

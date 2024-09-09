@@ -83,6 +83,17 @@
         "max": "0"
       },
       {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "max": "0",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
         "id": "Observation.component",
         "path": "Observation.component",
         "slicing": {

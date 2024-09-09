@@ -1237,7 +1237,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/VitalSignDE.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-onlinepruefung-egk.json",
