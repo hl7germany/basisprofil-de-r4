@@ -11,13 +11,13 @@ Description: "Deutsches Profil zur Abbildung des Pflegegrads eines Patienten inc
 * code.coding[loinc] = $loinc#80391-6
 * subject 1..
 * subject only Reference(Patient)
-* effective[x] only Period
-* effectivePeriod 1..
-* effectivePeriod only Period
+* effective[x] 1..
+* effective[x] only Period or DateTime
+* effectivePeriod
   * start 1..
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..
-* valueCodeableConcept only CodeableConcept
+* valueCodeableConcept
   * coding 1..
   * coding from PflegegradDE (required)
 * bodySite ..0
