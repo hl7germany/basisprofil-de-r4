@@ -4,13 +4,10 @@ Id: observation-de-vitalsign-blutdruck
 Title: "Observation-Profil Blutdruck"
 Description: "Observation-Profil Blutdruck"
 * insert Meta
-* code = $loinc#85354-9
-  * coding[loinc] ^patternCoding.system = $loinc
-    * system 1..
-    * code 1..
+* code
+  * coding[loinc-hauptcode] = $loinc#85354-9
+  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
   * coding[snomed] = $sct#75367002
-    * system 1..
-    * code 1..
 * valueQuantity ..0
 * value[x] ..0
 * component ^slicing.discriminator.type = #pattern
@@ -35,12 +32,11 @@ InstanceOf: VitalSignDE_Blutdruck
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bp"
-* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code
   * text = "Systolischer und Diastolischer Blutdruck"
-* code.coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+* code.coding[loinc-hauptcode] = $loinc#85354-9 "Blood pressure panel with all children optional"
 * code.coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2012-09-17"

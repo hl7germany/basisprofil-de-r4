@@ -22,8 +22,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "2708-6",
+        "system": "http://loinc.org",
         "display": "Oxygen saturation in Arterial blood"
       },
       {

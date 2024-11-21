@@ -58,18 +58,6 @@
         }
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "9269-2",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
-      },
-      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "slicing": {
@@ -84,24 +72,35 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 1,
-        "max": "*",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
+        "id": "Observation.code.coding.system",
         "path": "Observation.code.coding.system",
         "min": 1
       },
       {
-        "id": "Observation.code.coding:loinc.code",
+        "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc-hauptcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-hauptcode",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "9269-2",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "min": 0,
+        "max": "*",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:snomed",
@@ -113,16 +112,6 @@
           "code": "248241002",
           "system": "http://snomed.info/sct"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.subject",

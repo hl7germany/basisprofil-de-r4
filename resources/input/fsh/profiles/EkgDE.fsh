@@ -8,11 +8,16 @@ Description: "EKG Observation Profil"
   * coding = $observation-category#procedure
 * code
   * coding
+    * system 1..
+    * code 1..
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains loinc 1..* and snomed 0..*
-* code.coding[loinc] = $loinc#11524-6
+  * coding contains 
+      loinc-hauptcode 1..1 and 
+      loinc-zusatzcode 0..* and
+      snomed 0..*
+* code.coding[loinc-hauptcode] = $loinc#11524-6
 * code.coding[snomed] = $sct#106073009
 * subject 1..
 * effective[x] 1.. MS
@@ -21,8 +26,26 @@ Description: "EKG Observation Profil"
   * obeys vs-de-1
 * value[x] ..0
 * component 1..
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "code"
+  * ^slicing.rules = #open
+* component contains
+    ekgLeads 0..* and
+    deprecatedLeadCodes 0..*
+* component[ekgLeads]
+  * ^comment = "Diese deprecated Slice verwendet Loinc Part Codes die nicht für die Nutzung in Instanzdaten vorgesehen sind"
+  * code from EkgAbleitungenVS (extensible)
+    * ^binding.description = "Loinc Part Codes identifying the EKG lead"
+    * coding 1..
+  * value[x] 1..
+  * value[x] only SampledData
+    * data 1..
+* component[deprecatedLeadCodes]
+  * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+  * ^extension[=].valueCode = #deprecated
+  * ^comment = "Diese deprecated Slice verwendet Loinc Part Codes die nicht für die Nutzung in Instanzdaten vorgesehen sind"
   * code from EkgLeads (extensible)
-    * ^binding.description = "Codes identifying the EKG lead"
+    * ^binding.description = "Loinc Part Codes identifying the EKG lead"
     * coding 1..
   * value[x] 1..
   * value[x] only SampledData
@@ -31,7 +54,7 @@ Description: "EKG Observation Profil"
 Instance: Example-observation-ekg
 InstanceOf: EkgDE
 Usage: #example
-* code.coding[loinc] = $loinc#11524-6 "EKG study"
+* code.coding[loinc-hauptcode] = $loinc#11524-6 "EKG study"
 * code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
 * subject.reference = "Patient/example"
 * status = #final

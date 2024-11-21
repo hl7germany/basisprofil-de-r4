@@ -22,7 +22,7 @@
   "description": "Observation-Profil VitalSignDE ist das Parentprofil der restlichen Vitalsignprofile",
   "fhirVersion": "4.0.1",
   "kind": "resource",
-  "abstract": false,
+  "abstract": true,
   "type": "Observation",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
@@ -85,10 +85,27 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc-hauptcode",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
+        "sliceName": "loinc-hauptcode",
         "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "min": 0,
         "max": "*"
       },
       {

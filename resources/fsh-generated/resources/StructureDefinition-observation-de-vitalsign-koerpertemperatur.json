@@ -29,34 +29,21 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "8310-5",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:loinc-hauptcode",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
+        "sliceName": "loinc-hauptcode",
         "patternCoding": {
+          "code": "8310-5",
           "system": "http://loinc.org"
         }
       },
       {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:snomed",
@@ -66,16 +53,6 @@
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.value[x]:valueQuantity",

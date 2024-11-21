@@ -56,15 +56,32 @@
         "min": 1
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc-hauptcode",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
+        "sliceName": "loinc-hauptcode",
         "min": 1,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "11524-6",
           "system": "http://loinc.org"
         }
+      },
+      {
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "min": 0,
+        "max": "*"
       },
       {
         "id": "Observation.code.coding:snomed",
@@ -110,24 +127,41 @@
       {
         "id": "Observation.component",
         "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        },
         "min": 1
       },
       {
-        "id": "Observation.component.code",
+        "id": "Observation.component:ekgLeads",
+        "path": "Observation.component",
+        "sliceName": "ekgLeads",
+        "comment": "Diese deprecated Slice verwendet Loinc Part Codes die nicht für die Nutzung in Instanzdaten vorgesehen sind",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:ekgLeads.code",
         "path": "Observation.component.code",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://fhir.de/ValueSet/EkgLeads",
-          "description": "Codes identifying the EKG lead"
+          "valueSet": "http://fhir.de/ValueSet/EkgAbleitungenVS",
+          "description": "Loinc Part Codes identifying the EKG lead"
         }
       },
       {
-        "id": "Observation.component.code.coding",
+        "id": "Observation.component:ekgLeads.code.coding",
         "path": "Observation.component.code.coding",
         "min": 1
       },
       {
-        "id": "Observation.component.value[x]",
+        "id": "Observation.component:ekgLeads.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -137,7 +171,54 @@
         ]
       },
       {
-        "id": "Observation.component.value[x].data",
+        "id": "Observation.component:ekgLeads.value[x].data",
+        "path": "Observation.component.value[x].data",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:deprecatedLeadCodes",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "deprecated"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "Observation.component",
+        "sliceName": "deprecatedLeadCodes",
+        "comment": "Diese deprecated Slice verwendet Loinc Part Codes die nicht für die Nutzung in Instanzdaten vorgesehen sind",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:deprecatedLeadCodes.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://fhir.de/ValueSet/EkgLeads",
+          "description": "Loinc Part Codes identifying the EKG lead"
+        }
+      },
+      {
+        "id": "Observation.component:deprecatedLeadCodes.code.coding",
+        "path": "Observation.component.code.coding",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:deprecatedLeadCodes.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "SampledData"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:deprecatedLeadCodes.value[x].data",
         "path": "Observation.component.value[x].data",
         "min": 1
       }
