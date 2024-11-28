@@ -38,17 +38,11 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc-zusatzcode",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-zusatzcode",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
-      },
-      {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Kopfumfang-SNOMED-CT"

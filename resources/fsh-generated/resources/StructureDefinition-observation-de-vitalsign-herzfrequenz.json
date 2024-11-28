@@ -29,6 +29,11 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 2
+      },
+      {
         "id": "Observation.code.coding:loinc-hauptcode",
         "path": "Observation.code.coding",
         "sliceName": "loinc-hauptcode",
@@ -38,17 +43,11 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc-zusatzcode",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-zusatzcode",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
-      },
-      {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "min": 1,
+        "max": "1",
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Herzfrequenz-SNOMED-CT"

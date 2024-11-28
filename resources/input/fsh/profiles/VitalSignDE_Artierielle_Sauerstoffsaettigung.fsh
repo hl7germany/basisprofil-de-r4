@@ -4,10 +4,13 @@ Id: observation-de-vitalsign-sauerstoffsaettigung
 Title: "Observation-Profil Arterielle Sauerstoffsaettigung"
 Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
 * insert Meta
-* code
-  * coding[loinc-hauptcode] = $loinc#2708-6
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
-  * coding[snomed] = $sct#442476006
+* code 
+  * coding contains
+      snomed 1..1 and
+      loinc-zusatzcode 0..1
+  * coding[loinc-hauptcode] = $loinc#2708-6 // "Oxygen saturation in Arterial blood"
+  * coding[loinc-zusatzcode] = $loinc#59408-5 // "Oxygen saturation in Arterial blood by Pulse oximetry"
+  * coding[snomed] = $sct#442476006 // "Arterial oxygen saturation"
 * valueQuantity = $unitsofmeasure#%
 
 Instance: Example-observation-sauerstoffsaettigung
@@ -19,6 +22,8 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc-hauptcode]
   * display = "Oxygen saturation in Arterial blood"
+* code.coding[loinc-zusatzcode]
+  * display = "Oxygen saturation in Arterial blood by Pulse oximetry"
 * code.coding[snomed]
   * display = "Arterial oxygen saturation"
 * code.text = "Arterielle Sauerstoffsättigung"

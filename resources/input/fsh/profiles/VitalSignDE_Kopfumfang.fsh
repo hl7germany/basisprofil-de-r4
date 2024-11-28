@@ -5,8 +5,9 @@ Description: "Observation-Profil Kopfumfang"
 Title: "Observation - VitalSignDE - Kopfumfang"
 * insert Meta
 * code
-  * coding[loinc-hauptcode] = $loinc#9843-4
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
+  * coding contains
+      snomed 0..*
+  * coding[loinc-hauptcode] = $loinc#9843-4 // "Head Occipital-frontal circumference"
   * coding[snomed] from VitalSignDE_Kopfumfang_SNOMED_CT
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 

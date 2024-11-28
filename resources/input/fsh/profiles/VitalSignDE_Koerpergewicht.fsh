@@ -5,8 +5,11 @@ Title: "Observation-Profil Körpergewicht"
 Description: "Observation-Profil Körpergewicht"
 * insert Meta
 * code
-  * coding[loinc-hauptcode] = $loinc#29463-7
-  * coding[loinc-zusatzcode] from VitalSignDE_Body_Weight_Loinc (required)
+  * coding contains
+    loinc-zusatzcode 0..1 and
+    snomed 1..1 
+  * coding[loinc-hauptcode] = $loinc#29463-7  // "Body weight"
+  * coding[loinc-zusatzcode] = $loinc#8339-4 //"Birth weight Measured"
   * coding[snomed] from VitalSignDE_Koerpergewicht_SNOMED_CT
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
 

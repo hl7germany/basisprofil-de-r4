@@ -4,9 +4,10 @@ Id: observation-de-vitalsign-atemfrequenz
 Title: "Observation-Profil Atemfrequenz"
 Description: "Observation-Profil Atemfrequenz"
 * insert Meta
-* code 
-  * coding[loinc-hauptcode] = $loinc#9279-1
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
+* code
+  * coding contains 
+      snomed 0..1
+  * coding[loinc-hauptcode] = $loinc#9279-1 // "Respiratory rate"
   * coding[snomed] from VitalSignDE_Atemfrequenz_SNOMED_CT
 * valueQuantity = $unitsofmeasure#/min
 

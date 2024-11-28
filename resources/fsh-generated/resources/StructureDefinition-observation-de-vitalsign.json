@@ -102,20 +102,6 @@
         "max": "1"
       },
       {
-        "id": "Observation.code.coding:loinc-zusatzcode",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-zusatzcode",
-        "min": 0,
-        "max": "*"
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "min": 0,
-        "max": "*"
-      },
-      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "min": 1,

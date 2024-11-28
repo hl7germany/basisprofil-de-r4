@@ -6,5 +6,4 @@ Description: "VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Mes
 * insert LOINCDisclaimer
 * ^url = "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* $loinc#8302-2 "Body height"
 * $loinc#89269-5 "Body height Measured --at birth"

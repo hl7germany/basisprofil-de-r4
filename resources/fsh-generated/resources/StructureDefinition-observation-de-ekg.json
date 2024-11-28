@@ -77,18 +77,11 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc-zusatzcode",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-zusatzcode",
-        "min": 0,
-        "max": "*"
-      },
-      {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "106073009",
           "system": "http://snomed.info/sct"
@@ -142,7 +135,7 @@
         "id": "Observation.component:ekgLeads",
         "path": "Observation.component",
         "sliceName": "ekgLeads",
-        "comment": "Diese deprecated Slice verwendet Loinc Part Codes die nicht für die Nutzung in Instanzdaten vorgesehen sind",
+        "short": "12 Kanal EKG Ableitungen",
         "min": 0,
         "max": "*"
       },
@@ -150,7 +143,7 @@
         "id": "Observation.component:ekgLeads.code",
         "path": "Observation.component.code",
         "binding": {
-          "strength": "extensible",
+          "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/EkgAbleitungenVS",
           "description": "Loinc Part Codes identifying the EKG lead"
         }
@@ -197,7 +190,7 @@
         "id": "Observation.component:deprecatedLeadCodes.code",
         "path": "Observation.component.code",
         "binding": {
-          "strength": "extensible",
+          "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/EkgLeads",
           "description": "Loinc Part Codes identifying the EKG lead"
         }

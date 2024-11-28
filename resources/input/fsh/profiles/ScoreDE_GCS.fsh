@@ -18,11 +18,9 @@ Description: "Observation-Profil für Glasgow Coma Score"
     * ^slicing.rules = #open
   * coding contains 
       loinc-hauptcode 1..1 and 
-      loinc-zusatzcode 0..* and
       snomed 0..*
-  * coding[loinc-hauptcode] = $loinc#9269-2
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
-  * coding[snomed] = $sct#248241002
+  * coding[loinc-hauptcode] = $loinc#9269-2 // "Glasgow coma score total"
+  * coding[snomed] = $sct#248241002 // "Glasgow coma score (observable entity)"
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..

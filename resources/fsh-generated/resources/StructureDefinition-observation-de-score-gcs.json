@@ -93,16 +93,6 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc-zusatzcode",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-zusatzcode",
-        "min": 0,
-        "max": "*",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
-      },
-      {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",

@@ -5,8 +5,9 @@ Title: "Observation-Profil Körpertemperatur"
 Description: "Observation-Profil Körpertemperatur"
 * insert Meta
 * code
+  * coding contains
+      snomed 0..*
   * coding[loinc-hauptcode] = $loinc#8310-5
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
   * coding[snomed] from VitalSignDE_Koerpertemperatur_SNOMED_CT
 * valueQuantity = $unitsofmeasure#Cel
 

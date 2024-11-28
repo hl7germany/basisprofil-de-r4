@@ -5,9 +5,10 @@ Title: "Observation-Profil Blutdruck"
 Description: "Observation-Profil Blutdruck"
 * insert Meta
 * code
-  * coding[loinc-hauptcode] = $loinc#85354-9
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
-  * coding[snomed] = $sct#75367002
+  * coding contains
+      snomed 1..1
+  * coding[loinc-hauptcode] = $loinc#85354-9 // "Blood pressure panel with all children optional"
+  * coding[snomed] = $sct#75367002 // "Blood pressure (observable entity)"
 * valueQuantity ..0
 * value[x] ..0
 * component ^slicing.discriminator.type = #pattern

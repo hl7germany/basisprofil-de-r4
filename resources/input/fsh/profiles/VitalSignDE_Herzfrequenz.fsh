@@ -5,8 +5,9 @@ Title: "Observation-Profil Herzfrequenz"
 Description: "Observation-Profil Herzfrequenz"
 * insert Meta
 * code
-  * coding[loinc-hauptcode] = $loinc#8867-4
-  * coding[loinc-zusatzcode] ^patternCoding.system = $loinc
+  * coding contains
+      snomed 1..1
+  * coding[loinc-hauptcode] = $loinc#8867-4 // "Heart rate"
   * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
 * valueQuantity = $unitsofmeasure#/min
 
