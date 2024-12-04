@@ -29,9 +29,9 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding:loinc-hauptcode",
+        "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
-        "sliceName": "loinc-hauptcode",
+        "sliceName": "loinc",
         "patternCoding": {
           "code": "8302-2",
           "system": "http://loinc.org"

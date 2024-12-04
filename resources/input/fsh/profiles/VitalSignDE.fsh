@@ -20,7 +20,7 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
   * coding contains 
-      loinc-hauptcode 1..1
+      loinc 1..1
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..

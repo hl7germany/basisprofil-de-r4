@@ -7,7 +7,7 @@ Description: "Observation-Profil Blutdruck"
 * code
   * coding contains
       snomed 1..1
-  * coding[loinc-hauptcode] = $loinc#85354-9 // "Blood pressure panel with all children optional"
+  * coding[loinc] = $loinc#85354-9 // "Blood pressure panel with all children optional"
   * coding[snomed] = $sct#75367002 // "Blood pressure (observable entity)"
 * valueQuantity ..0
 * value[x] ..0
@@ -37,7 +37,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code
   * text = "Systolischer und Diastolischer Blutdruck"
-* code.coding[loinc-hauptcode] = $loinc#85354-9 "Blood pressure panel with all children optional"
+* code.coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
 * code.coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
 * subject = Reference(Patient/example)
 * effectiveDateTime = "2012-09-17"

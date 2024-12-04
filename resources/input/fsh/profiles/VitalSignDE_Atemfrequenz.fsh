@@ -7,7 +7,7 @@ Description: "Observation-Profil Atemfrequenz"
 * code
   * coding contains 
       snomed 0..1
-  * coding[loinc-hauptcode] = $loinc#9279-1 // "Respiratory rate"
+  * coding[loinc] = $loinc#9279-1 // "Respiratory rate"
   * coding[snomed] from VitalSignDE_Atemfrequenz_SNOMED_CT
 * valueQuantity = $unitsofmeasure#/min
 
@@ -18,7 +18,7 @@ Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/resprate"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc-hauptcode] = $loinc#9279-1 "Respiratory rate"
+* code.coding[loinc] = $loinc#9279-1 "Respiratory rate"
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
 * code.text = "Atemfrequenz"
 * subject = Reference(Patient/example)

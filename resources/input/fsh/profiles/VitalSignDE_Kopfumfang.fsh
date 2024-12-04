@@ -7,7 +7,7 @@ Title: "Observation - VitalSignDE - Kopfumfang"
 * code
   * coding contains
       snomed 0..*
-  * coding[loinc-hauptcode] = $loinc#9843-4 // "Head Occipital-frontal circumference"
+  * coding[loinc] = $loinc#9843-4 // "Head Occipital-frontal circumference"
   * coding[snomed] from VitalSignDE_Kopfumfang_SNOMED_CT
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
@@ -18,7 +18,7 @@ Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/headcircum"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc-hauptcode] = $loinc#9843-4 "Head Occipital-frontal circumference"
+* code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.text = "Kopfumfang"
 * subject = Reference(Patient/example)

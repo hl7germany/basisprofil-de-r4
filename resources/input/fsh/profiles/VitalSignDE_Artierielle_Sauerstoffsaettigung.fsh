@@ -8,7 +8,7 @@ Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
   * coding contains
       snomed 1..1 and
       loinc-zusatzcode 0..1
-  * coding[loinc-hauptcode] = $loinc#2708-6 // "Oxygen saturation in Arterial blood"
+  * coding[loinc] = $loinc#2708-6 // "Oxygen saturation in Arterial blood"
   * coding[loinc-zusatzcode] = $loinc#59408-5 // "Oxygen saturation in Arterial blood by Pulse oximetry"
   * coding[snomed] = $sct#442476006 // "Arterial oxygen saturation"
 * valueQuantity = $unitsofmeasure#%
@@ -20,7 +20,7 @@ Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc-hauptcode]
+* code.coding[loinc]
   * display = "Oxygen saturation in Arterial blood"
 * code.coding[loinc-zusatzcode]
   * display = "Oxygen saturation in Arterial blood by Pulse oximetry"

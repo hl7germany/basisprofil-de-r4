@@ -34,9 +34,9 @@
         "min": 2
       },
       {
-        "id": "Observation.code.coding:loinc-hauptcode",
+        "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
-        "sliceName": "loinc-hauptcode",
+        "sliceName": "loinc",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"

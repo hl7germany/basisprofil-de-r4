@@ -8,7 +8,7 @@ Description: "Observation-Profil Körpergröße"
   * coding contains
       loinc-zusatzcode 0..1 and
       snomed 0..*
-  * coding[loinc-hauptcode] = $loinc#8302-2
+  * coding[loinc] = $loinc#8302-2
   * coding[loinc-zusatzcode] = $loinc#89269-5 // "Body height Measured --at birth"
   * coding[snomed] from VitalSignDE_Koerpergroesse_SNOMED_CT
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
@@ -20,7 +20,7 @@ Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc-hauptcode] = $loinc#8302-2 "Body height"
+* code.coding[loinc] = $loinc#8302-2 "Body height"
 * code.coding[loinc-zusatzcode] = $loinc#89269-5 "Body height Measured --at birth"
 * code.coding[snomed][+] = $sct#1153637007 "Body height (observable entity)"
 * code.coding[snomed][+] = $sct#169886007 "Birth length (observable entity)"

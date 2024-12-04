@@ -14,9 +14,9 @@ Description: "EKG Observation Profil"
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
   * coding contains 
-      loinc-hauptcode 1..1 and 
+      loinc 1..1 and 
       snomed 0..1
-* code.coding[loinc-hauptcode] = $loinc#11524-6 // "EKG study"
+* code.coding[loinc] = $loinc#11524-6 // "EKG study"
 * code.coding[snomed] = $sct#106073009 // "EKG wave, interval AND/OR segment"
 * subject 1..
 * effective[x] 1.. MS
@@ -53,7 +53,7 @@ Description: "EKG Observation Profil"
 Instance: Example-observation-ekg
 InstanceOf: EkgDE
 Usage: #example
-* code.coding[loinc-hauptcode] = $loinc#11524-6 "EKG study"
+* code.coding[loinc] = $loinc#11524-6 "EKG study"
 * code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
 * subject.reference = "Patient/example"
 * status = #final
@@ -79,7 +79,7 @@ Usage: #example
 Instance: Example-observation-ekg-deprecated
 InstanceOf: EkgDE
 Usage: #example
-* code.coding[loinc-hauptcode] = $loinc#11524-6 "EKG study"
+* code.coding[loinc] = $loinc#11524-6 "EKG study"
 * code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
 * subject.reference = "Patient/example"
 * status = #final
