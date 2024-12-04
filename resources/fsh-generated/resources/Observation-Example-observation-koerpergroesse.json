@@ -3,9 +3,9 @@
   "id": "Example-observation-koerpergroesse",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/bodyheight",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
+      "http://hl7.org/fhir/StructureDefinition/bodyheight"
     ]
   },
   "category": [

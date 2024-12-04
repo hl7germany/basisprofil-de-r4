@@ -3,9 +3,9 @@
   "id": "Example-observation-herzfrequenz",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/heartrate",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
+      "http://hl7.org/fhir/StructureDefinition/heartrate"
     ]
   },
   "category": [
@@ -22,8 +22,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "8867-4",
+        "system": "http://loinc.org",
         "display": "Heart rate"
       },
       {

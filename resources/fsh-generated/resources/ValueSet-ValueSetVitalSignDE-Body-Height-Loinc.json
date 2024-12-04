@@ -32,10 +32,6 @@
         "system": "http://loinc.org",
         "concept": [
           {
-            "code": "8302-2",
-            "display": "Body height"
-          },
-          {
             "code": "89269-5",
             "display": "Body height Measured --at birth"
           }

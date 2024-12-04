@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "Example-observation-ekg",
+  "id": "Example-observation-ekg-deprecated",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-ekg"
@@ -43,8 +43,8 @@
       "code": {
         "coding": [
           {
-            "code": "272729005",
-            "system": "http://snomed.info/sct",
+            "code": "LP7386-8",
+            "system": "http://loinc.org",
             "display": "Lead I"
           }
         ]
@@ -62,8 +62,8 @@
       "code": {
         "coding": [
           {
-            "code": "272730000",
-            "system": "http://snomed.info/sct",
+            "code": "LP7386-6",
+            "system": "http://loinc.org",
             "display": "Lead II"
           }
         ]
@@ -81,8 +81,8 @@
       "code": {
         "coding": [
           {
-            "code": "272731001",
-            "system": "http://snomed.info/sct",
+            "code": "LP7386-4",
+            "system": "http://loinc.org",
             "display": "Lead III"
           }
         ]
