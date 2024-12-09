@@ -5,7 +5,7 @@
   "id": "valueset-ICD-10-GM",
   "title": "ICD10GM ValueSet",
   "description": "ICD-10-GM",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
   "experimental": false,
   "date": "2023-11-30",

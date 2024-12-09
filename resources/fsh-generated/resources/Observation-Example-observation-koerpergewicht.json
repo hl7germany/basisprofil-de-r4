@@ -32,8 +32,8 @@
         "display": "Birth weight Measured"
       },
       {
-        "code": "27113001",
         "system": "http://snomed.info/sct",
+        "code": "27113001",
         "display": "Body weight"
       }
     ],

@@ -4,7 +4,7 @@
   "name": "VersicherungsartDeBasis",
   "id": "valueset-VersicherungsartDeBasis",
   "description": "ValueSet für die in Deutschland üblichen Versicherungsarten",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/versicherungsart-de-basis",
   "experimental": false,
   "date": "2023-11-30",

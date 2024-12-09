@@ -5,7 +5,7 @@
   "id": "valueset-atc",
   "title": "ATC ValueSet",
   "description": "Anatomisch-therapeutisch-chemische Klassifkation (ATC) mit Tagesdosen deutsche Fassung",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/bfarm/atc",
   "experimental": false,
   "date": "2023-11-30",

@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "title": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
   "description": "VitalSignDE_Koerpertemperatur_SNOMED_CT enthält die erwarteten $sct Codes für Koerpertemperatur",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "experimental": false,
   "date": "2023-11-30",

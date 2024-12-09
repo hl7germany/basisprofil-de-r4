@@ -27,8 +27,8 @@
         "display": "Head Occipital-frontal circumference"
       },
       {
-        "code": "363812007",
         "system": "http://snomed.info/sct",
+        "code": "363812007",
         "display": "Head circumference (observable entity)"
       }
     ],

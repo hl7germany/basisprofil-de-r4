@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpertemperatur",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Koerpertemperatur",
   "title": "Observation-Profil Körpertemperatur",
   "status": "active",
@@ -43,6 +43,9 @@
         "sliceName": "snomed",
         "min": 0,
         "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT"

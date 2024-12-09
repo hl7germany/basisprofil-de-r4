@@ -9,6 +9,7 @@ Description: "Observation-Profil Herzfrequenz"
       snomed 1..1
   * coding[loinc] = $loinc#8867-4 // "Heart rate"
   * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#/min
 
 Instance: Example-observation-herzfrequenz

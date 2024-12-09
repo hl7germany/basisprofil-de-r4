@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-pflegegrad",
   "url": "http://fhir.de/StructureDefinition/observation-de-pflegegrad",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "ObservationDePflegegrad",
   "title": "Pflegegrad, deutsches Basisprofil",
   "status": "active",

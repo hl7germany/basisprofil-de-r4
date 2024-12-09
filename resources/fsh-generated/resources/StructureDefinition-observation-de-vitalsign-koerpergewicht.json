@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergewicht",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Koerpergewicht",
   "title": "Observation-Profil Körpergewicht",
   "status": "active",
@@ -59,6 +59,9 @@
         "sliceName": "snomed",
         "min": 1,
         "max": "1",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Koerpergewicht-SNOMED-CT"

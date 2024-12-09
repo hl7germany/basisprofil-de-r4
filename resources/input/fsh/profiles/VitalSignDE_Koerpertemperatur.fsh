@@ -9,6 +9,7 @@ Description: "Observation-Profil Körpertemperatur"
       snomed 0..*
   * coding[loinc] = $loinc#8310-5
   * coding[snomed] from VitalSignDE_Koerpertemperatur_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#Cel
 
 Instance: Example-observation-koerpertemperatur

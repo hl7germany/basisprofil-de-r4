@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergroesse",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Koerpergroesse",
   "title": "Observation-Profil Körpergröße",
   "status": "active",
@@ -54,6 +54,9 @@
         "sliceName": "snomed",
         "min": 0,
         "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Koerpergroesse-SNOMED-CT"

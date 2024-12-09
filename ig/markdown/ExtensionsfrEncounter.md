@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext der [FHIR Ressource 'Encounter'](https://w
 
 ----
 
-**Name**: ExtensionAufnahmegrund ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Aufnahmegrund&scope=de.basisprofil.r4@1.5.0))
+**Name**: ExtensionAufnahmegrund ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Aufnahmegrund&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/Aufnahmegrund`
 
@@ -45,7 +45,7 @@ Weitere Infos siehe [Datenübermittlung nach § 301 Abs. 3 SGB V](https://www.dk
 
 ----
 
-**Name**: ExtensionEntlassungsgrund ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Entlassungsgrund&scope=de.basisprofil.r4@1.5.0))
+**Name**: ExtensionEntlassungsgrund ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Entlassungsgrund&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/Entlassungsgrund`
 
@@ -79,7 +79,7 @@ Weitere Infos siehe [Datenübermittlung nach § 301 Abs. 3 SGB V](https://www.dk
 
 ----
 
-**Name**: ExtensionWahlleistungen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Wahlleistung&scope=de.basisprofil.r4@1.5.0))
+**Name**: ExtensionWahlleistungen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/Wahlleistung&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/Wahlleistung`
 

@@ -1,5 +1,8 @@
 ### Release Notes
 
+v1.5.1 - 09.12.24
+* 
+
 v1.5.0 - 07.07.24
 
 * `Breaking Change` IdentifierProfil `IdentifierPkvVersichertenId10` zurückgezogen. Das Profil für die Abbildung einer 10-stelligen KVID ist für alle versicherten Personen zu verwenden. 

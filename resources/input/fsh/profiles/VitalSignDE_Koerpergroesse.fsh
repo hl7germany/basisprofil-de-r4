@@ -11,6 +11,7 @@ Description: "Observation-Profil Körpergröße"
   * coding[loinc] = $loinc#8302-2
   * coding[loinc-zusatzcode] = $loinc#89269-5 // "Body height Measured --at birth"
   * coding[snomed] from VitalSignDE_Koerpergroesse_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
 Instance: Example-observation-koerpergroesse

@@ -2,7 +2,7 @@
 
 In Anlehnung einer BSNR kann eine KZVAbrechnungsnummer für die eindeutige Identifizierung von Betriebsstätten, vergeben durch die Kassenzahnärztliche Bundesvereinigung, durch folgendes Identifier-Profil abgebildet werden: 
 
-**Name**: IdentifierKzva ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kzva&scope=de.basisprofil.r4@1.5.0))
+**Name**: IdentifierKzva ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-kzva&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-kzva`
 

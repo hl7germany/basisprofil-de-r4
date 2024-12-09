@@ -27,19 +27,19 @@
         "display": "Oxygen saturation in Arterial blood"
       },
       {
+        "system": "http://snomed.info/sct",
+        "code": "442476006",
+        "display": "Arterial oxygen saturation (observable entity)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "431314004",
+        "display": "Peripheral oxygen saturation (observable entity)"
+      },
+      {
         "code": "59408-5",
         "system": "http://loinc.org",
         "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
-      },
-      {
-        "code": "442476006",
-        "system": "http://snomed.info/sct",
-        "display": "Arterial oxygen saturation"
-      },
-      {
-        "code": "431314004",
-        "system": "http://snomed.info/sct",
-        "display": "Periphere Sauerstoffsättigung"
       }
     ],
     "text": "Pulsoximetrische Sauerstoffsättigung"

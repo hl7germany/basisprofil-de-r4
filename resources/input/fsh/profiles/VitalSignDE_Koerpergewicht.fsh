@@ -11,6 +11,7 @@ Description: "Observation-Profil Körpergewicht"
   * coding[loinc] = $loinc#29463-7  // "Body weight"
   * coding[loinc-zusatzcode] = $loinc#8339-4 //"Birth weight Measured"
   * coding[snomed] from VitalSignDE_Koerpergewicht_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity from VitalSignDE_Body_Weigth_UCUM (required)
 
 Instance: Example-observation-koerpergewicht

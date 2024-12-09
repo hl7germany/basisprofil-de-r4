@@ -9,6 +9,7 @@ Title: "Observation - VitalSignDE - Kopfumfang"
       snomed 0..*
   * coding[loinc] = $loinc#9843-4 // "Head Occipital-frontal circumference"
   * coding[snomed] from VitalSignDE_Kopfumfang_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity from VitalSignDE_Body_Length_UCUM (required)
 
 Instance: Example-observation-kopfumfang

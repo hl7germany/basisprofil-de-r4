@@ -9,6 +9,7 @@ Description: "Observation-Profil Atemfrequenz"
       snomed 0..1
   * coding[loinc] = $loinc#9279-1 // "Respiratory rate"
   * coding[snomed] from VitalSignDE_Atemfrequenz_SNOMED_CT
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#/min
 
 Instance: Example-observation-atemfrequenz

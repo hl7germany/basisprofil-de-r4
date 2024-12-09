@@ -27,9 +27,9 @@
         "display": "Oxygen saturation in Arterial blood"
       },
       {
-        "code": "442476006",
         "system": "http://snomed.info/sct",
-        "display": "Arterial oxygen saturation"
+        "code": "442476006",
+        "display": "Arterial oxygen saturation (observable entity)"
       },
       {
         "code": "59408-5",

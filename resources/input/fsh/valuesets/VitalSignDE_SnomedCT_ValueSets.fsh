@@ -80,3 +80,13 @@ Description: "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Code
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * $sct#169876006 "Birth head circumference (observable entity)"
 * $sct#363812007 "Head circumference (observable entity)"
+
+ValueSet: VitalSignDE_Sauerstoffsaettigung_SNOMED_CT
+Id: VitalSignDE-Sauerstoffsaettigung-SNOMED-CT
+Title: "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT"
+Description: "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT enthält die erwarteten $sct Codes für Sauerstoffsaettigung"
+* insert Meta
+* insert SnomedDisclaimer
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* $sct#442476006 "Arterial oxygen saturation (observable entity)"
+* $sct#431314004 "Peripheral oxygen saturation (observable entity)"

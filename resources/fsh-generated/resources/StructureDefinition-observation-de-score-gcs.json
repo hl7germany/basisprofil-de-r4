@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-score-gcs",
   "url": "http://fhir.de/StructureDefinition/observation-de-score-gcs",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "ScoreDE_GCS",
   "title": "Observation-Profil Glasgow Coma Score",
   "status": "active",
@@ -97,7 +97,7 @@
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "248241002",
           "system": "http://snomed.info/sct"

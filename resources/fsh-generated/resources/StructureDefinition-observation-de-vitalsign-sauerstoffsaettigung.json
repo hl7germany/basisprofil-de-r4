@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-sauerstoffsaettigung",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
   "title": "Observation-Profil Arterielle Sauerstoffsaettigung",
   "status": "active",
@@ -29,11 +29,6 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "min": 2
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
@@ -46,11 +41,14 @@
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
-        "min": 1,
-        "max": "1",
+        "min": 0,
+        "max": "2",
         "patternCoding": {
-          "code": "442476006",
           "system": "http://snomed.info/sct"
+        },
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Sauerstoffsaettigung-SNOMED-CT"
         }
       },
       {

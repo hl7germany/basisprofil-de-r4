@@ -1,12 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "VitalSignDE_Atemfrequenz_SNOMED_CT",
-  "id": "VitalSignDE-Atemfrequenz-SNOMED-CT",
-  "title": "VitalSignDE_Atemfrequenz_SNOMED_CT",
-  "description": "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Atemfrequenz",
+  "name": "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT",
+  "id": "VitalSignDE-Sauerstoffsaettigung-SNOMED-CT",
+  "title": "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT",
+  "description": "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT enthält die erwarteten $sct Codes für Sauerstoffsaettigung",
   "version": "1.5.1",
-  "url": "http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT",
+  "url": "http://fhir.de/ValueSet/VitalSignDE-Sauerstoffsaettigung-SNOMED-CT",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -32,12 +32,12 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "86290005",
-            "display": "Respiratory rate (observable entity)"
+            "code": "442476006",
+            "display": "Arterial oxygen saturation (observable entity)"
           },
           {
-            "code": "271625008",
-            "display": "Rate of spontaneous respiration (observable entity)"
+            "code": "431314004",
+            "display": "Peripheral oxygen saturation (observable entity)"
           }
         ]
       }

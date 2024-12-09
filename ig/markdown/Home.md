@@ -4,7 +4,7 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.5.0 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.5.1 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
 Datum: 07.07.2024
 

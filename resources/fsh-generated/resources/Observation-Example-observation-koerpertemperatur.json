@@ -27,8 +27,8 @@
         "display": "Body temperature"
       },
       {
-        "code": "386725007",
         "system": "http://snomed.info/sct",
+        "code": "386725007",
         "display": "Body temperature (observable entity)"
       }
     ],

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-herzfrequenz",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Herzfrequenz",
   "title": "Observation-Profil Herzfrequenz",
   "status": "active",
@@ -48,6 +48,9 @@
         "sliceName": "snomed",
         "min": 1,
         "max": "1",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Herzfrequenz-SNOMED-CT"
