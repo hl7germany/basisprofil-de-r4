@@ -46,7 +46,7 @@ Title: "Observation-Profil Arterielle Sauerstoffsaettigung Pulsoximetrie"
 Description: "Observation-Profil Arterielle Sauerstoffsaettigung Pulsoximetrie"
 * insert Meta
 * code
-  * coding[loinc-zusatzcode] 1..1 MS
+  * coding[loinc-zusatzcode] 1..1
 
 Instance: ExampleObservationSauerstoffsaettigungPulsoximetrie
 InstanceOf: VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie

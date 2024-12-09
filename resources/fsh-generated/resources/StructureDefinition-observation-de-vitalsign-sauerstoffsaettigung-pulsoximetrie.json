@@ -37,8 +37,7 @@
         "id": "Observation.code.coding:loinc-zusatzcode",
         "path": "Observation.code.coding",
         "sliceName": "loinc-zusatzcode",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       }
     ]
   }
