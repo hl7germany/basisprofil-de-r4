@@ -4,13 +4,12 @@ Id: observation-de-vitalsign-koerpertemperatur
 Title: "Observation-Profil Körpertemperatur"
 Description: "Observation-Profil Körpertemperatur"
 * insert Meta
-* code = $loinc#8310-5
-  * coding[loinc] ^patternCoding.system = $loinc
-    * system 1..
-    * code 1..
+* code
+  * coding contains
+      snomed 0..*
+  * coding[loinc] = $loinc#8310-5
   * coding[snomed] from VitalSignDE_Koerpertemperatur_SNOMED_CT
-    * system 1..
-    * code 1..
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#Cel
 
 Instance: Example-observation-koerpertemperatur
@@ -18,7 +17,6 @@ InstanceOf: VitalSignDE_Koerpertemperatur
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
-* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#8310-5 "Body temperature"

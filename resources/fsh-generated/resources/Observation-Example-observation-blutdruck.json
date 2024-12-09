@@ -3,9 +3,9 @@
   "id": "Example-observation-blutdruck",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/bp",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
+      "http://hl7.org/fhir/StructureDefinition/bp"
     ]
   },
   "category": [
@@ -22,8 +22,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "85354-9",
+        "system": "http://loinc.org",
         "display": "Blood pressure panel with all children optional"
       },
       {

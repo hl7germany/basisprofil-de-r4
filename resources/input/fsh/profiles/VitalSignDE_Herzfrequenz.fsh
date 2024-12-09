@@ -4,13 +4,12 @@ Id: observation-de-vitalsign-herzfrequenz
 Title: "Observation-Profil Herzfrequenz"
 Description: "Observation-Profil Herzfrequenz"
 * insert Meta
-* code = $loinc#8867-4
-  * coding[loinc] ^patternCoding.system = $loinc
-    * system 1..
-    * code 1..
+* code
+  * coding contains
+      snomed 1..1
+  * coding[loinc] = $loinc#8867-4 // "Heart rate"
   * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
-    * system 1..
-    * code 1..
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#/min
 
 Instance: Example-observation-herzfrequenz
@@ -18,7 +17,6 @@ InstanceOf: VitalSignDE_Herzfrequenz
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/heartrate"
-* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#8867-4 "Heart rate"

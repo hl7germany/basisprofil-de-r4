@@ -4,13 +4,12 @@ Id: observation-de-vitalsign-atemfrequenz
 Title: "Observation-Profil Atemfrequenz"
 Description: "Observation-Profil Atemfrequenz"
 * insert Meta
-* code = $loinc#9279-1
-  * coding[loinc] ^patternCoding.system = $loinc
-    * system 1..
-    * code 1..
+* code
+  * coding contains 
+      snomed 0..1
+  * coding[loinc] = $loinc#9279-1 // "Respiratory rate"
   * coding[snomed] from VitalSignDE_Atemfrequenz_SNOMED_CT
-    * system 1..
-    * code 1..
+    * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#/min
 
 Instance: Example-observation-atemfrequenz
@@ -18,7 +17,6 @@ InstanceOf: VitalSignDE_Atemfrequenz
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/resprate"
-* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9279-1 "Respiratory rate"

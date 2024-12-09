@@ -24,7 +24,7 @@ Dies Address-bezogenen Bestandteilen der Anschrift lassen sich in FHIR wie folgt
 
 #### Basisprofil für Adresse 
 
-**Name**: AddressDeBasis ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/address-de-basis&scope=de.basisprofil.r4@1.5.0))
+**Name**: AddressDeBasis ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/address-de-basis&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/address-de-basis`
 

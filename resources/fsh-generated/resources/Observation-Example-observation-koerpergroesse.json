@@ -3,9 +3,9 @@
   "id": "Example-observation-koerpergroesse",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/bodyheight",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
+      "http://hl7.org/fhir/StructureDefinition/bodyheight"
     ]
   },
   "category": [
@@ -32,13 +32,13 @@
         "display": "Body height Measured --at birth"
       },
       {
-        "code": "1153637007",
         "system": "http://snomed.info/sct",
+        "code": "1153637007",
         "display": "Body height (observable entity)"
       },
       {
-        "code": "169886007",
         "system": "http://snomed.info/sct",
+        "code": "169886007",
         "display": "Birth length (observable entity)"
       }
     ],

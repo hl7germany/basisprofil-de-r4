@@ -6,7 +6,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.5.0))
+**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.5.1))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/seitenlokalisation' select description```
 
@@ -36,7 +36,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-ICD10GMDiagnosesicherheit ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit&scope=de.basisprofil.r4@1.5.0))
+**Name**: Extension-ICD10GMDiagnosesicherheit ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit&scope=de.basisprofil.r4@1.5.1))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit' select description```
 
@@ -64,7 +64,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-ICD10GMMehrfachcodierungs-Kennzeichen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen&scope=de.basisprofil.r4@1.5.0))
+**Name**: Extension-ICD10GMMehrfachcodierungs-Kennzeichen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen&scope=de.basisprofil.r4@1.5.1))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen' select description```
 
@@ -89,7 +89,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ### Lebensphase
 
-**Name**: ExtensionLebensphase ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/lebensphase&scope=de.basisprofil.r4@1.5.0))
+**Name**: ExtensionLebensphase ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/lebensphase&scope=de.basisprofil.r4@1.5.1))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen' select description```
 

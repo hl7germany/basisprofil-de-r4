@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergroesse",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Koerpergroesse",
   "title": "Observation-Profil Körpergröße",
   "status": "active",
@@ -29,54 +29,38 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "8302-2",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc"
+        "patternCoding": {
+          "code": "8302-2",
+          "system": "http://loinc.org"
         }
       },
       {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "89269-5",
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Koerpergroesse-SNOMED-CT"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.value[x]:valueQuantity",

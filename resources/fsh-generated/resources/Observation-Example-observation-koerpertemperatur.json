@@ -3,9 +3,9 @@
   "id": "Example-observation-koerpertemperatur",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/bodytemp",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
+      "http://hl7.org/fhir/StructureDefinition/bodytemp"
     ]
   },
   "category": [
@@ -22,13 +22,13 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "8310-5",
+        "system": "http://loinc.org",
         "display": "Body temperature"
       },
       {
-        "code": "386725007",
         "system": "http://snomed.info/sct",
+        "code": "386725007",
         "display": "Body temperature (observable entity)"
       }
     ],

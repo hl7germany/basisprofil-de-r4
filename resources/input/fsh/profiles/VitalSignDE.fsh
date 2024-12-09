@@ -3,6 +3,7 @@ Parent: Observation
 Id: observation-de-vitalsign
 Title: "Observation-Profil VitalSignDE"
 Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen Vitalsignprofile"
+* ^abstract = true
 * insert Meta
 * obeys vs-de-2
 * category
@@ -13,10 +14,13 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
 * category[VSCat] = $observation-category#vital-signs
 * code
   * coding
+    * system 1..
+    * code 1..
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains loinc 1..* and snomed 0..*
+  * coding contains 
+      loinc 1..1
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..

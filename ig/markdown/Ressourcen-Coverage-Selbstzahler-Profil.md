@@ -5,7 +5,7 @@ Unter den Begriff "Selbstzahler" fallen hier auch Fälle mit abweichendem Rechnu
 
 Für die Abbildung eines Selbstzahler-Verhältnisses sind über das Basisprofil hinaus folgende Mindestangaben erforderlich:
 
-**Name**: CoverageDeSel ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/coverage-de-sel&scope=de.basisprofil.r4@1.5.0))
+**Name**: CoverageDeSel ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/coverage-de-sel&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/coverage-de-sel`
 

@@ -1,5 +1,15 @@
 ### Release Notes
 
+v1.5.1 - 09.12.24
+
+* `changed` Vitalparameter Slices jetzt: loinc, loinc-zusatzcode, snomed
+* `changed` jedes Profile hat einen loinc-slice 1..1 mit dem “magic” Code aus Vitalsigns, statt des Patterns auf .code
+* `changed` loinc-zusatzcode & snomed slices gibt es nur in Profilen die auf diesen slices entweder einen einzelcode definieren (pattern) oder ein VS binding haben
+* `changed` snomed slice mit pattern.system auf Snomed entfällt 
+* `changed` EKGDE enthält jetzt 2 slices für die komponenten: deprecatedLeadCodes und ekgLeads.  
+deprecatedLeadCodes: die bisherigen falschen Loinc Part Codes der Ableitungen  
+ekgLeads: binding auf ein SCT VS mit EKG lead codes für ein 12 kanal ekg
+
 v1.5.0 - 07.07.24
 
 * `Breaking Change` IdentifierProfil `IdentifierPkvVersichertenId10` zurückgezogen. Das Profil für die Abbildung einer 10-stelligen KVID ist für alle versicherten Personen zu verwenden. 

@@ -3,9 +3,9 @@
   "id": "Example-observation-atemfrequenz",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/resprate",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
+      "http://hl7.org/fhir/StructureDefinition/resprate"
     ]
   },
   "category": [
@@ -22,13 +22,13 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "9279-1",
+        "system": "http://loinc.org",
         "display": "Respiratory rate"
       },
       {
-        "code": "86290005",
         "system": "http://snomed.info/sct",
+        "code": "86290005",
         "display": "Respiratory rate (observable entity)"
       }
     ],

@@ -5,7 +5,7 @@
   "id": "FachabteilungsschluesselVS",
   "title": "Fachabteilungsschlüssel ValueSet",
   "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel",
   "experimental": false,
   "date": "2023-11-30",

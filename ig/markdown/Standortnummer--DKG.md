@@ -1,6 +1,6 @@
 #### {{page-title}}
 
-**Name**: IdentifierStandortnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-standortnummer&scope=de.basisprofil.r4@1.5.0))
+**Name**: IdentifierStandortnummer ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-standortnummer&scope=de.basisprofil.r4@1.5.1))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-standortnummer`
 

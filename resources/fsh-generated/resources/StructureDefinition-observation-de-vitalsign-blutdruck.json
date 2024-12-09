@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-blutdruck",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Blutdruck",
   "title": "Observation-Profil Blutdruck",
   "status": "active",
@@ -29,53 +29,29 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "85354-9",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 2
       },
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "patternCoding": {
+          "code": "85354-9",
           "system": "http://loinc.org"
         }
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "75367002",
           "system": "http://snomed.info/sct"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.value[x]",

@@ -8,11 +8,11 @@ RuleSet: MetaNoVersion
 
 RuleSet: Meta
 * insert MetaNoVersion
-* ^version = "1.5.0"
+* ^version = "1.5.1"
 
 RuleSet: Meta-Instance
 * status = #active
-* version = "1.5.0"
+* version = "1.5.1"
 * experimental = false
 * date = "2023-11-30"
 * publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

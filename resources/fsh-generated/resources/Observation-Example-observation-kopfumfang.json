@@ -3,9 +3,9 @@
   "id": "Example-observation-kopfumfang",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/headcircum",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
+      "http://hl7.org/fhir/StructureDefinition/headcircum"
     ]
   },
   "category": [
@@ -22,13 +22,13 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "9843-4",
+        "system": "http://loinc.org",
         "display": "Head Occipital-frontal circumference"
       },
       {
-        "code": "363812007",
         "system": "http://snomed.info/sct",
+        "code": "363812007",
         "display": "Head circumference (observable entity)"
       }
     ],

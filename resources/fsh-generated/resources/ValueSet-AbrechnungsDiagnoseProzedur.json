@@ -5,7 +5,7 @@
   "id": "AbrechnungsDiagnoseProzedur",
   "title": "AbrechnungsDiagnoseProzedur ValueSet",
   "description": "Rolle von Diagnosen und Prozeduren im Abrechnungs-Kontext",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "url": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "experimental": false,
   "date": "2023-11-30",

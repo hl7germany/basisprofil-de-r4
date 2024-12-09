@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-kopfumfang",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "name": "VitalSignDE_Kopfumfang",
   "title": "Observation - VitalSignDE - Kopfumfang",
   "status": "active",
@@ -29,53 +29,27 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "9843-4",
-              "system": "http://loinc.org"
-            }
-          ]
-        }
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "patternCoding": {
+          "code": "9843-4",
           "system": "http://loinc.org"
         }
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://fhir.de/ValueSet/VitalSignDE-Kopfumfang-SNOMED-CT"
         }
-      },
-      {
-        "id": "Observation.code.coding:snomed.system",
-        "path": "Observation.code.coding.system",
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:snomed.code",
-        "path": "Observation.code.coding.code",
-        "min": 1
       },
       {
         "id": "Observation.value[x]:valueQuantity",
