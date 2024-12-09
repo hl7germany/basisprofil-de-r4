@@ -19,7 +19,7 @@ Description: "EKG Observation Profil"
 * code.coding[loinc] = $loinc#11524-6 // "EKG study"
 * code.coding[snomed] = $sct#106073009 // "EKG wave, interval AND/OR segment"
 * subject 1..
-* effective[x] 1.. MS
+* effective[x] 1..
 * effective[x] only dateTime
 * effectiveDateTime
   * obeys vs-de-1
