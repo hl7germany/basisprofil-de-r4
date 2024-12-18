@@ -42,7 +42,7 @@
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "min": 0,
-        "max": "2",
+        "max": "*",
         "patternCoding": {
           "system": "http://snomed.info/sct"
         },

@@ -15,7 +15,7 @@ Description: "EKG Observation Profil"
     * ^slicing.rules = #open
   * coding contains 
       loinc 1..1 and 
-      snomed 0..1
+      snomed 0..*
 * code.coding[loinc] = $loinc#11524-6 // "EKG study"
 * code.coding[snomed] = $sct#106073009 // "EKG wave, interval AND/OR segment"
 * subject 1..

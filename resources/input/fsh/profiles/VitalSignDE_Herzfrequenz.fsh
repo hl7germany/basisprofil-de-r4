@@ -6,7 +6,7 @@ Description: "Observation-Profil Herzfrequenz"
 * insert Meta
 * code
   * coding contains
-      snomed 1..1
+      snomed 0..*
   * coding[loinc] = $loinc#8867-4 // "Heart rate"
   * coding[snomed] from VitalSignDE_Herzfrequenz_SNOMED_CT
     * ^patternCoding.system = $sct

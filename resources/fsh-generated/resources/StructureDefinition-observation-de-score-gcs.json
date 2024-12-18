@@ -97,7 +97,7 @@
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "patternCoding": {
           "code": "248241002",
           "system": "http://snomed.info/sct"

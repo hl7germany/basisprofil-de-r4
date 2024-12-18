@@ -18,7 +18,7 @@ Description: "Observation-Profil für Glasgow Coma Score"
     * ^slicing.rules = #open
   * coding contains 
       loinc 1..1 and 
-      snomed 0..1
+      snomed 0..*
   * coding[loinc] = $loinc#9269-2 // "Glasgow coma score total"
   * coding[snomed] = $sct#248241002 // "Glasgow coma score (observable entity)"
 * subject 1..

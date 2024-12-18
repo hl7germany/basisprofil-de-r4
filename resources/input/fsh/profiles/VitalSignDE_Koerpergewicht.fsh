@@ -7,7 +7,7 @@ Description: "Observation-Profil Körpergewicht"
 * code
   * coding contains
     loinc-zusatzcode 0..1 and
-    snomed 1..1 
+    snomed 0..*
   * coding[loinc] = $loinc#29463-7  // "Body weight"
   * coding[loinc-zusatzcode] = $loinc#8339-4 //"Birth weight Measured"
   * coding[snomed] from VitalSignDE_Koerpergewicht_SNOMED_CT

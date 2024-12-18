@@ -6,7 +6,7 @@ Description: "Observation-Profil Atemfrequenz"
 * insert Meta
 * code
   * coding contains 
-      snomed 0..1
+      snomed 0..*
   * coding[loinc] = $loinc#9279-1 // "Respiratory rate"
   * coding[snomed] from VitalSignDE_Atemfrequenz_SNOMED_CT
     * ^patternCoding.system = $sct

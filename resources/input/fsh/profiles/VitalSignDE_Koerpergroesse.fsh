@@ -6,8 +6,8 @@ Description: "Observation-Profil Körpergröße"
 * insert Meta
 * code
   * coding contains
-      loinc-zusatzcode 0..1 and
-      snomed 0..*
+    loinc-zusatzcode 0..1 and
+    snomed 0..*
   * coding[loinc] = $loinc#8302-2
   * coding[loinc-zusatzcode] = $loinc#89269-5 // "Body height Measured --at birth"
   * coding[snomed] from VitalSignDE_Koerpergroesse_SNOMED_CT

@@ -6,7 +6,7 @@ Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
 * insert Meta
 * code 
   * coding contains
-      snomed 0..2 and
+      snomed 0..* and
       loinc-zusatzcode 0..1
   * coding[loinc] = $loinc#2708-6 // "Oxygen saturation in Arterial blood"
   * coding[loinc-zusatzcode] = $loinc#59408-5 // "Oxygen saturation in Arterial blood by Pulse oximetry"

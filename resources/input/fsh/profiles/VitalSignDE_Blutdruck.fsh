@@ -6,7 +6,7 @@ Description: "Observation-Profil Blutdruck"
 * insert Meta
 * code
   * coding contains
-      snomed 1..1
+      snomed 0..*
   * coding[loinc] = $loinc#85354-9 // "Blood pressure panel with all children optional"
   * coding[snomed] = $sct#75367002 // "Blood pressure (observable entity)"
 * valueQuantity ..0
