@@ -35,9 +35,9 @@ jobs:
         
       # Install .NET runtime
       - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 8.0.x
       
       # Install Java runtime (only needed if you want to run the offical HL7 Java validator)
       - name: Setup Java JDK
@@ -47,14 +47,13 @@ jobs:
           java-version: '21'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.4.5
+        uses: FirelyTeam/firely-terminal-pipeline@v0.5.0
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
-          JAVA_VALIDATION_OPTIONS: -best-practice ignore
+          JAVA_VALIDATION_OPTIONS: -best-practice ignore -output-style compact
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
-          OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
