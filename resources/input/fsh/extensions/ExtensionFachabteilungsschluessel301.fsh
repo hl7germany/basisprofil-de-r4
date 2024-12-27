@@ -7,8 +7,8 @@ Description: "Extension zur Dokumentation der Historie des Fachabteilungsschlüs
 * ^context.type = #element
 * ^context.expression = "Organization"
 * extension contains
-    schluessel 1..1 MS and
-    gueltigkeitszeitaum 1..1 MS
+    schluessel 1..1 and
+    gueltigkeitszeitaum 1..1
 * extension[schluessel].value[x] only Coding
 * extension[schluessel].valueCoding from FachabteilungsschluesselVS (extensible)
 * extension[schluessel].value[x] ^binding.extension[http://hl7.org/fhir/tools/StructureDefinition/additional-binding].extension[purpose].valueCode = #maximum
