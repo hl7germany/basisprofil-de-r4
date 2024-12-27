@@ -44,8 +44,7 @@
         "path": "Extension.extension",
         "sliceName": "schluessel",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:schluessel.extension",
@@ -90,8 +89,7 @@
         "path": "Extension.extension",
         "sliceName": "gueltigkeitszeitaum",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:gueltigkeitszeitaum.extension",
