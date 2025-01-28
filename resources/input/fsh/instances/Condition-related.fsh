@@ -1,11 +1,9 @@
 Instance: Condition-related
 InstanceOf: SearchParameter
 Usage: #definition
+* insert Meta-Instance
 * url = "http://fhir.de/SearchParameter/Condition-related"
 * name = "Related"
-* status = #draft
-* experimental = false
-* date = "2021-05-20"
 * description = "Bezug zur Primärdiagnose (z.B. bei Mehrfachkodierung)"
 * code = #related
 * base = #Condition
