@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "icd-10-gm-diagnosesicherheit",
   "url": "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "name": "ExtensionICD10GMDiagnosesicherheit",
   "title": "Extension zur Erfassung der Diagnosesicherheit gemäß KBV-Kodierrichtlinien",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -6,7 +6,7 @@
   "id": "KontaktDiagnoseProzedur",
   "title": "KontaktDiagnoseProzedur",
   "description": "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
   "concept": [
     {
@@ -47,7 +47,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

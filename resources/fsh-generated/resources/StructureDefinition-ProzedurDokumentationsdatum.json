@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ProzedurDokumentationsdatum",
   "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "name": "ExtensionProzedurDokumentationsdatum",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

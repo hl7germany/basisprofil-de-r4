@@ -5,10 +5,10 @@
   "id": "kontaktebene-de",
   "title": "KontaktebeneDe ValueSet",
   "description": "Kontaktebene für die Codierung von Encounter.type",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/ValueSet/kontaktebene-de",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

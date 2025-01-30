@@ -5,10 +5,10 @@
   "id": "wahlleistungen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
   "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/ValueSet/wahlleistungen-de",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
