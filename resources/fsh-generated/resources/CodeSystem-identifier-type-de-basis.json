@@ -6,7 +6,7 @@
   "id": "identifier-type-de-basis",
   "title": "Identifier Type De Basis",
   "description": "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen.",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/CodeSystem/identifier-type-de-basis",
   "concept": [
     {
@@ -61,7 +61,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

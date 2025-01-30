@@ -5,10 +5,10 @@
   "id": "valueset-ICD-10-GM",
   "title": "ICD10GM ValueSet",
   "description": "ICD-10-GM",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/ValueSet/bfarm/icd-10-gm",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

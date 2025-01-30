@@ -5,10 +5,10 @@
   "id": "DiagnoseTyp",
   "title": "DiagnoseTyp ValueSet",
   "description": "DiagnoseTyp ValueSet",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
