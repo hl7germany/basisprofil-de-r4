@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "seitenlokalisation",
   "url": "http://fhir.de/StructureDefinition/seitenlokalisation",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "ExtensionSeitenlokalisation",
   "status": "active",
   "experimental": false,

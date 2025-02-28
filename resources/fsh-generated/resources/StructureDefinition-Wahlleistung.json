@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Wahlleistung",
   "url": "http://fhir.de/StructureDefinition/Wahlleistung",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "ExtensionWahlleistung",
   "status": "active",
   "experimental": false,

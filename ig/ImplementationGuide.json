@@ -1,7 +1,7 @@
 {
     "resourceType": "ImplementationGuide",
     "url": "/guide/basisprofil-de-r4?version=current",
-    "version": "1.5.1",
+    "version": "1.5.3",
     "name": "Leitfaden Basis DE (R4)",
     "status": "draft",
     "description": "Die Leitfaden wird von der [Projektgruppe Basisprofilierung](http://wiki.hl7.de/index.php?title=FHIR-Basisprofilierung_(Projekt)) des [Technischen Komitees FHIR von HL7 Deutschland e.V.](http://hl7.de/technische-komitees/fhir/ ) erstellt.\n\nDie Diskussion der Inhalte findet auf [Zulip](https://chat.fhir.org/#narrow/stream/german.20(d-a-ch)) statt. \nImplementierer und Interessenten sind herzlich eingeladen, sich an der Diskussion zu beteiligen, Fragen zu stellen,\noder Feedback zu geben.\n\nDie Weiterentwicklung der deutschen Basisprofile kann im [GitHub-Repository](https://github.com/hl7germany/basisprofil-de-r4) verfolgt werden.\n\nVerbesserungs- und Korrekturvorschläge sollten ebenfalls über den [GitHub-Issue-Tracker](https://github.com/hl7germany/basisprofil-de-r4/issues) eingereicht werden.\n\n**Die neueste stabile Fassung findet sich unter http://ig.fhir.de/basisprofile-de/stable/**\n\nEine formelle Abstimmung folgt. Um über Kommentierungsphasen, anstehende Abstimmungen und aktuelle Themen informiert zu werden, registrieren Sie sich bitte für den FHIR-Newsletter durch formlose Mail an fhir@hl7.de.",

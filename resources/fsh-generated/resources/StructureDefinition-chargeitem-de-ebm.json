@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "chargeitem-de-ebm",
   "url": "http://fhir.de/StructureDefinition/chargeitem-de-ebm",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "ChargeItemEBM",
   "title": "ChargeItem für EBM-Ziffer als Abrechnungsposition",
   "status": "active",

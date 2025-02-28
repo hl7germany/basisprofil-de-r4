@@ -1,3 +1,5 @@
+Alias: $version = 1.5.3
+
 RuleSet: MetaNoVersion
 * ^status = #active
 * ^experimental = false
@@ -8,11 +10,11 @@ RuleSet: MetaNoVersion
 
 RuleSet: Meta
 * insert MetaNoVersion
-* ^version = "1.5.2"
+* ^version = $version
 
 RuleSet: Meta-Instance
 * status = #active
-* version = "1.5.2"
+* version = $version
 * experimental = false
 * date = "2025-01-30"
 * publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"

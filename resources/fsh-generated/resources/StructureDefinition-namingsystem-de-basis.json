@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "namingsystem-de-basis",
   "url": "http://fhir.de/StructureDefinition/namingsystem-de-basis",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "NamingsystemDeBasis",
   "title": "Namingsystem, deutsches Basisprofil",
   "status": "active",

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "GradDerBehinderung",
   "url": "http://fhir.de/StructureDefinition/GradDerBehinderung",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "GradDerBehinderung",
   "title": "Grad der Behinderung",
   "status": "active",

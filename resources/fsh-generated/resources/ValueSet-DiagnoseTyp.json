@@ -5,7 +5,7 @@
   "id": "DiagnoseTyp",
   "title": "DiagnoseTyp ValueSet",
   "description": "DiagnoseTyp ValueSet",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
   "date": "2025-01-30",

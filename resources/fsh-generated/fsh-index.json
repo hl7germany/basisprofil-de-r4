@@ -709,7 +709,7 @@
     "fshType": "Instance",
     "fshFile": "instances/Condition-related.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-AbrechnendeIK.json",
@@ -1501,7 +1501,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 10
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Body-Length-UCUM.json",
@@ -1524,48 +1524,48 @@
     "fshName": "VitalSignDE_Herzfrequenz_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 11,
-    "endLine": 20
+    "startLine": 12,
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpergewicht-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpergewicht_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 22,
-    "endLine": 39
+    "startLine": 21,
+    "endLine": 28
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpergroesse-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpergroesse_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 41,
-    "endLine": 51
+    "startLine": 30,
+    "endLine": 37
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Koerpertemperatur-SNOMED-CT.json",
     "fshName": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 53,
-    "endLine": 72
+    "startLine": 39,
+    "endLine": 51
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Kopfumfang-SNOMED-CT.json",
     "fshName": "VitalSignDE_Kopfumfang_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 74,
-    "endLine": 82
+    "startLine": 53,
+    "endLine": 62
   },
   {
     "outputFile": "ValueSet-VitalSignDE-Sauerstoffsaettigung-SNOMED-CT.json",
     "fshName": "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
-    "startLine": 84,
-    "endLine": 92
+    "startLine": 64,
+    "endLine": 72
   },
   {
     "outputFile": "ValueSet-WirkstofftypVS.json",
