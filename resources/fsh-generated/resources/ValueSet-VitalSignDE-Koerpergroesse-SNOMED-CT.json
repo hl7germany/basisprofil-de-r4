@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Koerpergroesse-SNOMED-CT",
   "title": "VitalSignDE_Koerpergroesse_SNOMED_CT",
   "description": "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergroesse",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpergroesse-SNOMED-CT",
   "experimental": false,
   "date": "2025-01-30",
@@ -30,22 +30,11 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
-        "concept": [
+        "filter": [
           {
-            "code": "248333004",
-            "display": "Standing height (observable entity)"
-          },
-          {
-            "code": "1149101003",
-            "display": "Recumbent body height (observable entity)"
-          },
-          {
-            "code": "1153637007",
-            "display": "Body height (observable entity)"
-          },
-          {
-            "code": "169886007",
-            "display": "Birth length (observable entity)"
+            "property": "concept",
+            "op": "is-a",
+            "value": "1153637007"
           }
         ]
       }

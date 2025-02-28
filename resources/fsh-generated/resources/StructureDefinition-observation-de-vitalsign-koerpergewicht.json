@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergewicht",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "VitalSignDE_Koerpergewicht",
   "title": "Observation-Profil Körpergewicht",
   "status": "active",

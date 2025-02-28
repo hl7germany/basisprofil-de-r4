@@ -6,7 +6,7 @@
   "id": "wahlleistungen-de",
   "title": "Wahlleistungen",
   "description": "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/CodeSystem/wahlleistungen-de",
   "concept": [
     {

@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Kopfumfang-SNOMED-CT",
   "title": "VitalSignDE_Kopfumfang_SNOMED_CT",
   "description": "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Codes für Kopfumfang",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Kopfumfang-SNOMED-CT",
   "experimental": false,
   "date": "2025-01-30",
@@ -33,11 +33,15 @@
         "concept": [
           {
             "code": "169876006",
-            "display": "Birth head circumference (observable entity)"
+            "display": "Kopfumfang bei Geburt"
           },
           {
             "code": "363812007",
-            "display": "Head circumference (observable entity)"
+            "display": "Kopfumfang"
+          },
+          {
+            "code": "1269262007",
+            "display": "Head circumference of fetus"
           }
         ]
       }

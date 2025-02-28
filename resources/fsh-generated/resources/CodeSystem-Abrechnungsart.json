@@ -6,7 +6,7 @@
   "id": "Abrechnungsart",
   "title": "Abrechnungsart",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/CodeSystem/dkgev/Abrechnungsart",
   "concept": [
     {

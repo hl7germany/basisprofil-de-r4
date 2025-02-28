@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionFachabteilungsschluessel301",
   "url": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "ExtensionFachabteilungsschluessel301",
   "status": "active",
   "experimental": false,

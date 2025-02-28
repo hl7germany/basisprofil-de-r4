@@ -6,7 +6,7 @@
   "id": "gender-amtlich-de",
   "title": "amtliches Geschlecht",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/CodeSystem/gender-amtlich-de",
   "concept": [
     {

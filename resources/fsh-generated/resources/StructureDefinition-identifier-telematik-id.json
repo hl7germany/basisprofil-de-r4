@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-telematik-id",
   "url": "http://fhir.de/StructureDefinition/identifier-telematik-id",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "IdentifierTelematikId",
   "title": "Identifier-Profil für die Telematik-ID",
   "status": "active",

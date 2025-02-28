@@ -4,7 +4,7 @@ Deutsches Profil zur Abbildung eines Elektrokardiogramms. Dieses Profil erfasst 
 
 #### Profil
 
-**Name**: EkgDE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-ekg&scope=de.basisprofil.r4@1.5.1))
+**Name**: EkgDE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-ekg&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/observation-de-ekg`
 

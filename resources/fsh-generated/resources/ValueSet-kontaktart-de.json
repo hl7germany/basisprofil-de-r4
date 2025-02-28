@@ -5,7 +5,7 @@
   "id": "kontaktart-de",
   "title": "KontaktartDe ValueSet",
   "description": "Kontaktarten für die Codierung von Encounter.type",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
   "experimental": false,
   "date": "2025-01-30",

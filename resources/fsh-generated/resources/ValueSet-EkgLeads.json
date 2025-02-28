@@ -5,7 +5,7 @@
   "id": "EkgLeads",
   "title": "EKG/ECG leads",
   "description": "EKG/ECG leads",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/EkgLeads",
   "experimental": false,
   "date": "2025-01-30",

@@ -5,7 +5,7 @@
   "id": "EntlassungsgrundDritteStelleVS",
   "title": "Entlassungsgrund Dritte Stelle ValueSet",
   "description": "Entlassungs-/Verlegungsgrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundDritteStelle",
   "experimental": false,
   "date": "2025-01-30",
