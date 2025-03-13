@@ -5,6 +5,7 @@
   "name": "Abrechnungsart",
   "id": "Abrechnungsart",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
+  "version": "1.5.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Abrechnungsart",
   "concept": [
     {
@@ -142,7 +143,6 @@
       "definition": "Entgelt nach BPflV für psychiatrische Einrichtungen und psychosomatische Einrichtungen gem. § 17d Abs. 1 KHG (BPflV-Entgeltbereich)"
     }
   ],
-  "version": "1.5.0",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

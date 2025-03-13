@@ -5,6 +5,7 @@
   "name": "DeuevAnlage7Namenszusaetze",
   "id": "anlage-7-namenszusaetze",
   "description": "Tabelle der gültigen Namenszusätze",
+  "version": "2.25",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [
     {
@@ -272,7 +273,6 @@
       "display": "Truchseß"
     }
   ],
-  "version": "2.25",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

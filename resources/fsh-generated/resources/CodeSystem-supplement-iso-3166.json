@@ -6,6 +6,7 @@
   "id": "supplement-iso-3166",
   "title": "CodeSystem Supplement ISO 3166",
   "description": "Offizieller Name eines Staates in deutscher Sprache ISO-3166",
+  "version": "1.5.0",
   "url": "http://fhir.de/CodeSystem/supplement-iso-3166",
   "concept": [
     {
@@ -2398,7 +2399,6 @@
       ]
     }
   ],
-  "version": "1.5.0",
   "experimental": false,
   "date": "2023-11-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

@@ -21,13 +21,6 @@
   "description": "Extension zur Dokumentation der Historie des Fachabteilungsschlüssels nach §301 SGB V. Der jeweils aktuelle Fachabteilungsschlüssel SOLLTE unter Organization.type zusätzlich angegeben werden. Die Extension ist NICHT zur Dokumentation des Fachabteilungsschlüssels im Kontext eines Encounters zu verwenden. Dort SOLLTE Encounter.serviceType zur Kodierung verwendet werden.",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

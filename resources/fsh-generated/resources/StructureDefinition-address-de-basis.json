@@ -23,28 +23,6 @@
   "purpose": "Einige Systeme und Standards in Deutschland erfordern die separate Erfassung von Straße und Hausnummer.\r\nDie Erweiterung des Datentyps Address fügt hierfür die entsprechenden ISO-Extensions hinzu.\r\nOb deren Verwendung in einem konkreten Kontext verpflichtend ist, muss in den abgeleiteten Profilen festgelegt werden.",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "servd",
-      "uri": "http://www.omg.org/spec/ServD/1.0/",
-      "name": "ServD"
-    },
-    {
-      "identity": "vcard",
-      "uri": "http://w3.org/vcard",
-      "name": "vCard Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "type": "Address",
