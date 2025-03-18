@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpertemperatur",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "VitalSignDE_Koerpertemperatur",
   "title": "Observation-Profil Körpertemperatur",
   "status": "active",

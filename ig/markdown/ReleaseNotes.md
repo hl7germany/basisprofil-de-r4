@@ -1,6 +1,10 @@
 ### Release Notes
 
+v1.5.3 - 28.02.25
+* `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
+
 v1.5.2 - 30.01.25
+
 * `fixed` SearchParameter-Definition für "Condition-related" war seit Version 1.5.0 nicht mehr im Release-Paket enthalten
 * `fixed` Extension "ExtensionAbrechnungsDiagnoseProzedur" erlaubte invalide Kombinationen in den Sub-Extensions
 * `fixed` Extension "ExtensionFachabteilungsschluessel301" enthielt fälschlicherweise MS-Flags 

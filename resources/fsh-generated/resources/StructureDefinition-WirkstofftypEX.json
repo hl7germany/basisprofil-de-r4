@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "WirkstofftypEX",
   "url": "http://fhir.de/StructureDefinition/WirkstofftypEX",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "name": "WirkstofftypEX",
   "title": "ExtensionWirkstofftyp",
   "status": "active",

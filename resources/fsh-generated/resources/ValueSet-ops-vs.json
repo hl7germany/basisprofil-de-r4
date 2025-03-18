@@ -5,7 +5,7 @@
   "id": "ops-vs",
   "title": "OPS ValueSet",
   "description": "OPS ValueSet",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/bfarm/ops",
   "experimental": false,
   "date": "2025-01-30",

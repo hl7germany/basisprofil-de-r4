@@ -5,7 +5,7 @@
   "id": "valueset-ask",
   "title": "ASK ValueSet",
   "description": "Arzneimittel-Stoffkatalog (ASK) Nummern",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/ask",
   "experimental": false,
   "date": "2025-01-30",

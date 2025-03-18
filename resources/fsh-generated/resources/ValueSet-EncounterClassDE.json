@@ -5,7 +5,7 @@
   "id": "EncounterClassDE",
   "title": "EncounterClassDE",
   "description": "Fallarten und Patientenstatus zur Codierung von Encounter.class",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/EncounterClassDE",
   "experimental": false,
   "date": "2025-01-30",
