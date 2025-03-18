@@ -1,6 +1,6 @@
 ### Release Notes
 
-v1.5.3 - 28.02.25
+v1.5.3 - 18.03.25
 * `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
 
 v1.5.2 - 30.01.25
