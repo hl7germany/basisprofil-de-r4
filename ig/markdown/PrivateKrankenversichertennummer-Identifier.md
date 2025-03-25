@@ -1,6 +1,14 @@
+#### PKV-VersichertenId
+
+Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach §290 Absatz 2 Satz 2 ausgestellt. Entsprechen der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich. Dieser Teil der VersichertenId ist identisch zu den Vorgaben einer Lebenslange Krankenversicherten-ID ("KVID10") und wird entsprechend über dieses Profil abgebildet. Siehe  {{pagelink:ig/markdown/LebenslangeKrankenversichertennummer10-stelligeKVID-Identifier.md}}
+
+| Hinweis | Warnung |
+|---------|---------------------|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Das Profil mit der Canonical 'http://fhir.de/StructureDefinition/identifier-pkv-kvid-10' wurde zurückgezogen und sollte nicht mehr verwendet werden. |
+
 #### PKV-Versichertennummer
 
-Im Kontext eines PKV-Versicherungsverhältnis identifiziert die PKV-Versichertennummer meist nicht eindeutig die versicherte Person, sondern den Versicherungsvertrag, der auch mehr als eine Person umfassen kann. Somit ist dieses Merkmal mit entsprechender Vorsicht zu verwenden.
+Im Kontext eines PKV-Versicherungsverhältnis, in dem noch keine PKV-VersichertenId vergeben worden ist, identifiziert die PKV-Versichertennummer meist nicht eindeutig die versicherte Person, sondern den Versicherungsvertrag, der auch mehr als eine Person umfassen kann. Somit ist dieses Merkmal mit entsprechender Vorsicht zu verwenden.
 
 Bei privaten Versicherungen ist die NamingSystem-URL in den meisten Fällen nicht bekannt oder nicht definiert. Da jede Versicherung ihren eigenen Nummernkreis verwendet, sind Versichertennummern ohne Angabe der Versicherung jedoch nicht eindeutig.
 
@@ -33,34 +41,5 @@ Falls dies in einem konkreten Szenario zu Problemen führt, bitten wir um [Feedb
             <value value="168140346"/>
             <display value="Allianz"/>
         </assigner>
-    </identifier>
-```
-
-#### PKV-VersichertenId
-
-| Hinweis | Warnung |
-|---------|---------------------|
-| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png)| Das TC diskutiert derzeit, dieses Identifier-Profil wieder zurückzuziehen. Zu den [Hintergründen].(https://chat.fhir.org/#narrow/stream/179183-german-.28d-a-ch.29/topic/Community-Feedback.20zum.20PKV-Identifier) |
-
-Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach  § 290 Absatz 2 Satz 2 ausgestellt. Entsprechen der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich.
-
-**Name**: IdentifierPkvVersichertenId10 ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv-kvid-10&scope=de.basisprofil.r4@1.5.1))
-
-{{tree:http://fhir.de/StructureDefinition/identifier-pkv-kvid-10, hybrid}}
-
-**Kontext**: Der Identifier kann u.a. in Patient.identifier verwendet werden
-
-##### Beispiel PKV-VersichertenId
-
-```xml
-    <identifier>
-        <type>
-            <coding>
-                <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
-                <code value="PKV"/>
-            </coding>
-        </type>
-        <system value="http://fhir.de/sid/pkv/kvid-10" />
-        <value value="1234567890" />
     </identifier>
 ```
