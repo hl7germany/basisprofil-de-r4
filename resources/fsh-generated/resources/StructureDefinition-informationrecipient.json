@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "informationrecipient",
   "url": "http://fhir.de/StructureDefinition/informationrecipient",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "name": "ExtensionInformationRecipient",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

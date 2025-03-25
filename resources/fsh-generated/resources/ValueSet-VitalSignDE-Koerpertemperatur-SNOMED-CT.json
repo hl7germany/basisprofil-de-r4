@@ -5,10 +5,10 @@
   "id": "VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "title": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
   "description": "VitalSignDE_Koerpertemperatur_SNOMED_CT enthält die erwarteten $sct Codes für Koerpertemperatur",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -30,58 +30,36 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "276885007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "386725007",
-            "display": "Body temperature (observable entity)"
+            "code": "415882003",
+            "display": "Axillary temperature"
           },
           {
-            "code": "708499008",
-            "display": "Core body temperature of neonate at birth (observable entity)"
-          },
-          {
-            "code": "698832009",
-            "display": "Core body temperature measured at urinary bladder (observable entity)"
-          },
-          {
-            "code": "698831002",
-            "display": "Core body temperature measured in nasopharynx (observable entity)"
-          },
-          {
-            "code": "431598003",
-            "display": "Core body temperature measured in esophagus (observable entity)"
-          },
-          {
-            "code": "415974002",
-            "display": "Core body temperature measured at tympanic membrane (observable entity)"
+            "code": "415929009",
+            "display": "Groin temperature"
           },
           {
             "code": "415945006",
-            "display": "Estimated core body temperature measured in sublingual space (observable entity)"
-          },
-          {
-            "code": "364246006",
-            "display": "Core body temperature measured vaginally (observable entity)"
-          },
-          {
-            "code": "307047009",
-            "display": "Core body temperature measured in rectum (observable entity)"
-          },
-          {
-            "code": "300076005",
-            "display": "Basal body temperature (observable entity)"
-          },
-          {
-            "code": "276885007",
-            "display": "Core body temperature (observable entity)"
-          },
-          {
-            "code": "1222808002",
-            "display": "Core body temperature measured in blood (observable entity)"
+            "display": "Orale Temperatur"
           },
           {
             "code": "415922000",
             "display": "Temperature of forehead (observable entity)"
+          },
+          {
+            "code": "386725007",
+            "display": "Body temperature (observable entity)"
           }
         ]
       }

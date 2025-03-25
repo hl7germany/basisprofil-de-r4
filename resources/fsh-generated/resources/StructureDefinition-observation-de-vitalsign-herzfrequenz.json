@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-herzfrequenz",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "name": "VitalSignDE_Herzfrequenz",
   "title": "Observation-Profil Herzfrequenz",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

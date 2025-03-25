@@ -4,11 +4,11 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.5.1 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.5.3 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 07.07.2024
+Datum: 30.01.2025
 
-Status: Ballot
+Status: Veröffentlicht
 
 Realm: Deutschland
 

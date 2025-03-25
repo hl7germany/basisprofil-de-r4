@@ -5,10 +5,10 @@
   "id": "identifier-type-de-basis",
   "title": "Identifier Type DeBasis ValueSet",
   "description": "ValueSet zur Codierung des Identifier-Typs",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/identifier-type-de-basis",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

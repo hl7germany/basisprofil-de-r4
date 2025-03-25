@@ -6,7 +6,7 @@
   "id": "Abrechnungsart",
   "title": "Abrechnungsart",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "url": "http://fhir.de/CodeSystem/dkgev/Abrechnungsart",
   "concept": [
     {
@@ -145,7 +145,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

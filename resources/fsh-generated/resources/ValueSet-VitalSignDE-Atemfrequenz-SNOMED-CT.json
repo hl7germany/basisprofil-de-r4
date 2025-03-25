@@ -5,10 +5,10 @@
   "id": "VitalSignDE-Atemfrequenz-SNOMED-CT",
   "title": "VitalSignDE_Atemfrequenz_SNOMED_CT",
   "description": "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Atemfrequenz",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -33,11 +33,15 @@
         "concept": [
           {
             "code": "86290005",
-            "display": "Respiratory rate (observable entity)"
+            "display": "Atemfrequenz"
           },
           {
             "code": "271625008",
-            "display": "Rate of spontaneous respiration (observable entity)"
+            "display": "Atemfrequenz der Spontanatmung"
+          },
+          {
+            "code": "250810003",
+            "display": "Total breath rate"
           }
         ]
       }

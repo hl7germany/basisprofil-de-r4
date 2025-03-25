@@ -2,7 +2,7 @@
 
 Als eindeutiges Merkmal zur Identifizierung von Vertragspartnern, die für die Sozialversicherungsträger Leistungen erbringen wird die IKNR durch die [Arbeitsgemeinschaft Institutionskennzeichen](https://www.dguv.de/arge-ik/index.jsp) vergeben. 
 
-**Name**: IdentifierIknr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-iknr&scope=de.basisprofil.r4@1.5.1))
+**Name**: IdentifierIknr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-iknr&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-iknr`
 

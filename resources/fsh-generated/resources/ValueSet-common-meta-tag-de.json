@@ -4,10 +4,10 @@
   "name": "VS_CommonMetaTag_De",
   "id": "common-meta-tag-de",
   "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "url": "http://fhir.de/ValueSet/common-meta-tag-de",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

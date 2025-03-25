@@ -1,5 +1,14 @@
 ### Release Notes
 
+v1.5.3 - 18.03.25
+* `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
+
+v1.5.2 - 30.01.25
+
+* `fixed` SearchParameter-Definition für "Condition-related" war seit Version 1.5.0 nicht mehr im Release-Paket enthalten
+* `fixed` Extension "ExtensionAbrechnungsDiagnoseProzedur" erlaubte invalide Kombinationen in den Sub-Extensions
+* `fixed` Extension "ExtensionFachabteilungsschluessel301" enthielt fälschlicherweise MS-Flags 
+
 v1.5.1 - 07.01.25
 
 * `changed` Vitalparameter Slices jetzt: loinc, loinc-zusatzcode, snomed

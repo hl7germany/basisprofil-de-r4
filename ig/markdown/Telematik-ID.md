@@ -2,7 +2,7 @@
 
 Zur Abbildung einer [Telematik-ID](https://fachportal.gematik.de/fachportal-import/files/gemSpec_PKI_V2.10.2.pdf) zur eindeutigen Identifizierung der elektronischen Identität von Teilnehmer in der Telematikinfrastruktur kann folgendes Profil verwendet werden:
 
-**Name**: IdentifierTelematikId ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-telematik-id&scope=de.basisprofil.r4@1.5.1))
+**Name**: IdentifierTelematikId ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-telematik-id&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-telematik-id`
 

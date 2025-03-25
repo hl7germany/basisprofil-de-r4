@@ -1,6 +1,6 @@
 #### Körpertemperatur
 
-**Name**: VitalSignDE_Koerpertemperatur ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur&scope=de.basisprofil.r4@1.5.1))
+**Name**: VitalSignDE_Koerpertemperatur ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur`
 
