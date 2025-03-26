@@ -1,6 +1,6 @@
 #### PKV-VersichertenId
 
-Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach §290 Absatz 2 Satz 2 ausgestellt. Entsprechen der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich. Dieser Teil der VersichertenId ist identisch zu den Vorgaben einer Lebenslange Krankenversicherten-ID ("KVID10") und wird entsprechend über dieses Profil abgebildet. Siehe  {{pagelink:ig/markdown/LebenslangeKrankenversichertennummer10-stelligeKVID-Identifier.md}}
+Nach § 362 SGB V werden auch für PKV-Versicherte Krankenversichertennummer nach §290 Absatz 2 Satz 2 ausgestellt. Entsprechend der Vorgaben für den 10-stelligen Teil der GKV Versicherten-Id ist der Teil der PKV Versicherten-Id unveränderlich. Dieser Teil der VersichertenId ist identisch zu den Vorgaben einer Lebenslange Krankenversicherten-ID ("KVID10") und wird entsprechend über dieses Profil abgebildet. Siehe  {{pagelink:ig/markdown/LebenslangeKrankenversichertennummer10-stelligeKVID-Identifier.md}}
 
 | Hinweis | Warnung |
 |---------|---------------------|
