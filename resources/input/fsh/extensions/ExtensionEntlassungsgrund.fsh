@@ -1,6 +1,6 @@
-Extension: ExtenstionEntlassungsgrund
+Extension: ExtensionEntlassungsgrund
 Id: Entlassungsgrund
-Title: "ExtenstionEntlassungsgrund"
+Title: "ExtensionEntlassungsgrund"
 * insert Meta
 * ^context.type = #element
 * ^context.expression = "Encounter.hospitalization.dischargeDisposition"
