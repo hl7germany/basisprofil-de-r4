@@ -44,6 +44,14 @@
     {
       "code": "10",
       "display": "Stationsäquivalente Behandlung"
+    },
+    {
+      "code": "11",
+      "display": "Übergangspflege"
+    },
+    {
+      "code": "12",
+      "display": "Krankenhausbehandlung nach § 115f SGB V (Hybrid-DRG)"
     }
   ],
   "experimental": false,
@@ -68,5 +76,5 @@
   "caseSensitive": false,
   "valueSet": "http://fhir.de/ValueSet/dkgev/AufnahmegrundErsteUndZweiteStelle",
   "compositional": false,
-  "count": 9
+  "count": 11
 }
