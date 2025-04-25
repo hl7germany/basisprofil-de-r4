@@ -407,3 +407,5 @@ fabric.properties
 .idea/httpRequests
 /.project
 /fhirpkg.lock.json
+fsh-index.txt
+fsh-index.json

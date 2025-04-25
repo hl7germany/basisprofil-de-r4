@@ -21,6 +21,7 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
     * ^slicing.rules = #open
   * coding contains 
       loinc 1..1
+  * coding[loinc] ^patternCoding.system = $loinc
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
