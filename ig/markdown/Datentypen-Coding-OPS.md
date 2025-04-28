@@ -5,7 +5,7 @@ Bei der Kodierung per [OPS](https://www.bfarm.de/DE/Kodiersysteme/Klassifikation
 
 Die Angabe der OPS-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, da OPS nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahrensangaben in der Bedeutung wechseln.
 
-**Name**: CodingOPS ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingOPS&scope=de.basisprofil.r4@1.5.3))
+**Name**: CodingOPS ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingOPS&scope=de.basisprofil.r4@1.5.4))
 
 **Canonical**: `http://fhir.de/StructureDefinition/CodingOPS`
 

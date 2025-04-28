@@ -6,7 +6,7 @@
   "id": "cs-common-meta-tag-de",
   "title": "CS Basisprofil Common Meta Tag DE",
   "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/CodeSystem/common-meta-tag-de",
   "concept": [
     {

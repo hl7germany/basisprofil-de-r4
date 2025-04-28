@@ -6,7 +6,7 @@ Description: "Identifier-Profil für die Abbildung einer lebenslangen Zahnarztnu
 * insert Meta
 * use = #official (exactly)
 * type = $identifier-type-de-basis#ZANR
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "http://fhir.de/sid/kzbv/zahnarztnummer" (exactly)
 * value 1..

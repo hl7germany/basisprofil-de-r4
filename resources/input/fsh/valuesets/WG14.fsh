@@ -1,4 +1,4 @@
-ValueSet: WG14
+ValueSet: WG14VS
 Id: valueset-wg14
 Title: "WG14 ValueSet"
 Description: "ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente"

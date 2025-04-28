@@ -4,7 +4,7 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.5.3 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.5.4 ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
 Datum: 30.01.2025
 
@@ -36,7 +36,7 @@ Dieser Leitfaden ist im Rahmen des Interoperabilitätsforums und den Technischen
 
 * Simone Heckmann (SH), Gefyra GmbH, DMI GmbH & Co. KG
 * Stefan Lang (SL), Lang Health IT Consulting
-* Patrick Werner (PW), MOLIT Institut gGmbH
+* Patrick Werner (PW), Gefyra GmbH, DMI GmbH & Co. KG
 * Alexander Zautke (AZ), Firely B.V
 * Peter Scholz (PS), OSM AG
 * Mareike Przysucha (MP), Hochschule Osnabrück

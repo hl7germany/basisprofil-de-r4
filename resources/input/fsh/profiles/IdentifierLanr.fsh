@@ -6,7 +6,7 @@ Description: "Identifier-Profil für die Abbildung einer lebenslangen Arztnummer
 * insert Meta
 * use = #official (exactly)
 * type = $v2-0203#LANR
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR" (exactly)
 * value 1..

@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Sauerstoffsaettigung-SNOMED-CT",
   "title": "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT",
   "description": "VitalSignDE_SauerstoffCsaettigung_SNOMED_CT enthält die erwarteten $sct Codes für Sauerstoffsaettigung",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Sauerstoffsaettigung-SNOMED-CT",
   "experimental": false,
   "date": "2025-01-30",

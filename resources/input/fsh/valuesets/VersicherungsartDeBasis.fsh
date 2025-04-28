@@ -1,4 +1,4 @@
-ValueSet: VersicherungsartDeBasis
+ValueSet: VersicherungsartDeBasisVS
 Id: valueset-VersicherungsartDeBasis
 Description: "ValueSet für die in Deutschland üblichen Versicherungsarten"
 * insert Meta

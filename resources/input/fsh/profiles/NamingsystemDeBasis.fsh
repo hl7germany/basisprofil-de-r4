@@ -6,7 +6,7 @@ Description: "Definition für NamingSystem-Ressourcen in deutschen Profilen"
 * insert Meta
 * ^purpose = "Definition für NamingSystem-Ressourcen in deutschen Profilen"
 * type 1..
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 
 Instance: namingSystem-arge-ik-iknr
 InstanceOf: NamingsystemDeBasis

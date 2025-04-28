@@ -1,4 +1,4 @@
-ValueSet: IdentifierTypeDeBasis
+ValueSet: IdentifierTypeDeBasisVS
 Id: identifier-type-de-basis
 Title: "Identifier Type DeBasis ValueSet"
 Description: "ValueSet zur Codierung des Identifier-Typs"

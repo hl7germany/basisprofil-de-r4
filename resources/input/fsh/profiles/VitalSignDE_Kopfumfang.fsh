@@ -5,6 +5,7 @@ Description: "Observation-Profil Kopfumfang"
 Title: "Observation - VitalSignDE - Kopfumfang"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..*
   * coding[loinc] = $loinc#9843-4 // "Head Occipital-frontal circumference"

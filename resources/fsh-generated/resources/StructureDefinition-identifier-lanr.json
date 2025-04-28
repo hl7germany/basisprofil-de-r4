@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-lanr",
   "url": "http://fhir.de/StructureDefinition/identifier-lanr",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "name": "IdentifierLanr",
   "title": "Identifier-Profil für die Abbildung einer lebenslangen Arztnummer",
   "status": "active",

@@ -6,7 +6,7 @@
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen",
   "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "concept": [
     {

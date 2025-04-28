@@ -33,18 +33,13 @@ jobs:
         uses: actions/checkout@v4
         if: github.event_name != 'pull_request'
         
-      - name: Validate Resource Status
-        uses: patrick-werner/fhir-resource-status-check@1.1.0
-        with:
-          folder: '.resources/fsh-generated/resources/'
-        
       - name: Firely.Terminal (GitHub Actions)
         uses: FirelyTeam/firely-terminal-pipeline@v0.6.8
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
-          JAVA_VALIDATION_OPTIONS: -allow-example-urls true -output-style compact -html-output validation.html -show-message-ids -language de -jurisdiction de -display-issues-are-warnings -advisor-file validator/advisor.json -resolution-context file:resources/fsh-generated/resources/
+          JAVA_VALIDATION_OPTIONS: -allow-example-urls true -html-output validation.html -show-message-ids -language de -jurisdiction de -display-issues-are-warnings -advisor-file validator/advisor.json -resolution-context file:resources/fsh-generated/resources/ -output validation.json
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
@@ -52,10 +47,25 @@ jobs:
           SUSHI_OPTIONS: resources/
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
 
-      - name: Convert Validation Report
-        uses: patrick-werner/fhir-html-validation-to-markdown@1.0.0
+      - name: Upload validation artifacts
+        uses: actions/upload-artifact@v4
         with:
-          input_file: 'validation.html'
+          name: fhir-validation-results
+          path: |
+            validation.json
+            validation.html
+          retention-days: 1
+
+      - name: Convert Validation Report
+        uses: patrick-werner/validation-outcome-markdown-renderer@0.2.0
+        with:
+          bundle-file: validation.json
+          include: warnings
+
+      - name: Validate Resource Status
+        uses: patrick-werner/fhir-resource-status-check@1.2.0
+        with:
+          folder: '.resources/fsh-generated/resources/'
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9

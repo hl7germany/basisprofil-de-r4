@@ -6,7 +6,7 @@ Description: "Identifier-Profil für die Abbildung einer Vertragskassennummer (V
 * insert Meta
 * use = #official (exactly)
 * type = $v2-0203#NIIP
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "http://fhir.de/sid/kbv/vknr" (exactly)
 * value 1..

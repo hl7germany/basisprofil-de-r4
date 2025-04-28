@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpergroesse",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "name": "VitalSignDE_Koerpergroesse",
   "title": "Observation-Profil Körpergröße",
   "status": "active",
@@ -29,9 +29,24 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "8302-2",
           "system": "http://loinc.org"

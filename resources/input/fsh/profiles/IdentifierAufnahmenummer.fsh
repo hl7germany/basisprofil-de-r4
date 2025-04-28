@@ -6,6 +6,6 @@ Description: "Identifier-Profil für die Abbildung einer organisationsspezifisch
 * insert Meta
 * type 1..
 * type = $v2-0203#VN
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * value 1..

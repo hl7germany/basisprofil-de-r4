@@ -7,7 +7,7 @@ Description: "Identifier-Profil für die Abbildung der Einheitlichen Fortbildung
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#DN
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "http://fhir.de/sid/bundesaerztekammer/efn" (exactly)
 * value 1..

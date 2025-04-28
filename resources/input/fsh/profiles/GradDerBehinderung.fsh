@@ -17,7 +17,7 @@ Description: "Beschreibt den Grad der Behinderung und ggf. vorhandene Merkzeiche
   * ^slicing.ordered = false
   * ^slicing.rules = #open
 * component contains merkzeichen 0..*
-* component[merkzeichen].code from Merkzeichen (required)
+* component[merkzeichen].code from MerkzeichenVS (required)
 * component[merkzeichen].value[x] only boolean
 * component[merkzeichen].valueBoolean 0..1
 * component[merkzeichen].valueBoolean = true

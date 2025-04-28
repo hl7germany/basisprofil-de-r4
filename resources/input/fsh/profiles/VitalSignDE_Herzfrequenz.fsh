@@ -5,6 +5,7 @@ Title: "Observation-Profil Herzfrequenz"
 Description: "Observation-Profil Herzfrequenz"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..*
   * coding[loinc] = $loinc#8867-4 // "Heart rate"

@@ -5,6 +5,7 @@ Title: "Observation-Profil Körpergewicht"
 Description: "Observation-Profil Körpergewicht"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
     loinc-zusatzcode 0..1 and
     snomed 0..*
