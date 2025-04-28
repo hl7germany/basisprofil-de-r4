@@ -6,7 +6,7 @@ Description: "Identifier-Profil für die Abbildung einer Privatversichertennumme
 * insert Meta
 * use = #secondary (exactly)
 * type = $identifier-type-de-basis#PKV
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * value 1..
 * assigner 1..
   * identifier only IdentifierIknr

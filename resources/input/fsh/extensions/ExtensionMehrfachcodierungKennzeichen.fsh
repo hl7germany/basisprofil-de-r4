@@ -6,6 +6,6 @@ Title: "Mehrfachkodierungs-Kennzeichen bei  ICD-10-gm"
 * ^context.expression = "Condition.code.coding"
 * value[x] 1..
 * value[x] only Coding
-* value[x] from MehrfachkodierungsKennzeichen (required)
+* value[x] from MehrfachkodierungsKennzeichenVS (required)
   * system 1..
   * code 1..

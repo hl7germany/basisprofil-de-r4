@@ -6,7 +6,7 @@ Description: "Identifier-Profil für den unveränderlichen 10-stelligen Teil der
 * insert Meta
 * ^status = #retired
 * type = $identifier-type-de-basis#PKV
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "http://fhir.de/sid/pkv/kvid-10" (exactly)
 * value 1..

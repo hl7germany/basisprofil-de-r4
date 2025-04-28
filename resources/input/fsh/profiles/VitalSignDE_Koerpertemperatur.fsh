@@ -5,6 +5,7 @@ Title: "Observation-Profil Körpertemperatur"
 Description: "Observation-Profil Körpertemperatur"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..*
   * coding[loinc] = $loinc#8310-5

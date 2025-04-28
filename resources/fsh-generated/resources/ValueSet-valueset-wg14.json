@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "WG14",
+  "name": "WG14VS",
   "id": "valueset-wg14",
   "title": "WG14 ValueSet",
   "description": "ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/ValueSet/abdata/wg14",
   "meta": {
     "profile": [

@@ -7,7 +7,7 @@ Description: "Identifier-Profil für die Abbildung einer Betriebsstättennummer"
 * ^copyright = "HL7 Deutschland e.V."
 * use = #official (exactly)
 * type = $v2-0203#BSNR
-* type from IdentifierTypeDeBasis (extensible)
+* type from IdentifierTypeDeBasisVS (extensible)
 * system 1..
 * system = "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR" (exactly)
 * value 1..

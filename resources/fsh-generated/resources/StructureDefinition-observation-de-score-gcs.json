@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-score-gcs",
   "url": "http://fhir.de/StructureDefinition/observation-de-score-gcs",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "name": "ScoreDE_GCS",
   "title": "Observation-Profil Glasgow Coma Score",
   "status": "active",

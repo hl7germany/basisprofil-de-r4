@@ -7,7 +7,7 @@ Description: "Basis-Profil für die Nutzung der Coverage-Resource in Deutschland
 * . ^short = "Versicherungsdaten"
   * ^definition = "Angaben zur Versicherung oder zur Kostenübernahme durch den Patienten selbst oder durch Dritte."
 * type 1..
-* type from VersicherungsartDeBasis (required)
+* type from VersicherungsartDeBasisVS (required)
   * ^short = "Versicherungsart"
   * ^definition = "Art der Versicherung: Selbstzahler, gesetzliche/private Versicherung, Berufsgenossenschaft oder Sozialamt"
   * ^comment = "28.07.2017 (zulip): TC Konsens bzgl. Verwendung eines eigenen ValueSets anstelle des im Standrad definierten preferred bindings, da die dort igen Codes nicht passen."

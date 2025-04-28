@@ -1,4 +1,4 @@
-ValueSet: Merkzeichen
+ValueSet: MerkzeichenVS
 Id: merkzeichen-de
 Title: "Deutsche Merkzeichen auf dem Behindertenausweis"
 Description: "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden"

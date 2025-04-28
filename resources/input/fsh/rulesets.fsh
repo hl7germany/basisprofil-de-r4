@@ -1,4 +1,4 @@
-Alias: $version = 1.5.3
+Alias: $version = 1.5.4
 
 RuleSet: MetaNoVersion
 * ^status = #active
@@ -29,3 +29,11 @@ RuleSet: UCUMDisclaimer
 
 RuleSet: LOINCDisclaimer
 * ^copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use."
+
+RuleSet: VitalSignDESlicingWithLoinc
+* coding
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #open
+* coding contains 
+    loinc 1..1

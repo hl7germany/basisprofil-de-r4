@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "Merkzeichen",
+  "name": "MerkzeichenVS",
   "id": "merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
   "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/ValueSet/merkzeichen-de",
   "experimental": false,
   "date": "2025-01-30",

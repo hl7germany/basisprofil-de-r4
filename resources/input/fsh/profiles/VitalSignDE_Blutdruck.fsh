@@ -5,6 +5,7 @@ Title: "Observation-Profil Blutdruck"
 Description: "Observation-Profil Blutdruck"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..*
   * coding[loinc] = $loinc#85354-9 // "Blood pressure panel with all children optional"

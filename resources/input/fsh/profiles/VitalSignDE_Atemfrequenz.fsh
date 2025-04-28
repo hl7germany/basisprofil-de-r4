@@ -5,6 +5,7 @@ Title: "Observation-Profil Atemfrequenz"
 Description: "Observation-Profil Atemfrequenz"
 * insert Meta
 * code
+  * insert VitalSignDESlicingWithLoinc
   * coding contains 
       snomed 0..*
   * coding[loinc] = $loinc#9279-1 // "Respiratory rate"
