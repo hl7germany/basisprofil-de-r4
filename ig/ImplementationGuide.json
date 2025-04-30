@@ -113,6 +113,18 @@
                                 }
                             ]
                         },
+                       {
+                            "nameUrl": "ig/markdown/Ressourcen-Organisation.md",
+                            "title": "Organisation (Organization)",
+                            "generation": "markdown",
+                            "page": [
+                                {
+                                    "nameUrl": "ig/markdown/Ressourcen-Organisation-Kontakt.md",
+                                    "title": "Kontaktinformation",
+                                    "generation": "markdown"
+                                }
+                            ]
+                        },						
                         {
                             "nameUrl": "ig/markdown/Ressourcen-DiagnosenCondition.md",
                             "title": "Diagnosen (Condition)",
