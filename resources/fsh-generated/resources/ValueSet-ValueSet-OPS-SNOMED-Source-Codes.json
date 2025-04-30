@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSet_OPS_SNOMED_Source_Codes",
+  "id": "ValueSet-OPS-SNOMED-Source-Codes",
+  "title": "ValueSet of OPS Source Codes for the OPS-SNOMED ConceptMap",
+  "description": "ValueSet containing all source concepts from the ConceptMap OPS-SNOMED Category Mapping",
+  "version": "1.5.3",
+  "url": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
+  "experimental": false,
+  "date": "2025-01-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/ops",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Diagnostische Maßnahmen"
+          },
+          {
+            "code": "3",
+            "display": "Bildgebende Diagnostik"
+          },
+          {
+            "code": "5",
+            "display": "Operationen"
+          },
+          {
+            "code": "6",
+            "display": "Medikamente"
+          },
+          {
+            "code": "8",
+            "display": "Nichtoperative therapeutische Maßnahmen"
+          },
+          {
+            "code": "9",
+            "display": "Ergänzende Maßnahmen"
+          }
+        ]
+      }
+    ]
+  }
+}

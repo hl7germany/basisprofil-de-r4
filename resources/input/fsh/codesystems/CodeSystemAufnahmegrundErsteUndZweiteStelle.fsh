@@ -19,3 +19,5 @@ Description: "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 A
 * #07 "Wiederaufnahme wegen Komplikationen (Fallpauschale) nach KFPV 2003"
 * #08 "Stationäre Aufnahme zur Organentnahme"
 * #10 "Stationsäquivalente Behandlung"
+* #11 "Übergangspflege"
+* #12 "Krankenhausbehandlung nach § 115f SGB V (Hybrid-DRG)"

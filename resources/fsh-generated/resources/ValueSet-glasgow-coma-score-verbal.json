@@ -2,8 +2,21 @@
   "resourceType": "ValueSet",
   "id": "glasgow-coma-score-verbal",
   "url": "http://fhir.de/ValueSet/glasgow-coma-score-verbal",
-  "version": "1.5.0",
-  "status": "draft",
+  "status": "active",
+  "version": "1.5.3",
+  "experimental": false,
+  "date": "2025-01-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
   "name": "VS_Score_GlasgowComaScore_Verbal",
   "title": "VS Score Glasgow Coma Score Verbal",
   "description": "Dieses ValueSet enthält Codes für die Verbale Kommunikation Komponente des Glasgow Coma Scores.",

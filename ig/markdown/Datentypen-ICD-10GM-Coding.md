@@ -5,7 +5,7 @@ Bei der Kodierung per [ICD-10-GM](https://www.bfarm.de/DE/Kodiersysteme/Klassifi
 
 Die Angabe der ICD-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, das ICD-GM nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahresangaben in der Bedeutung wechseln.
 
-**Name**: CodingICD10GM ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingICD10GM&scope=de.basisprofil.r4@1.4.0))
+**Name**: CodingICD10GM ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingICD10GM&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/CodingICD10GM`
 

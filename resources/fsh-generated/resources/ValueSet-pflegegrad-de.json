@@ -3,11 +3,16 @@
   "status": "active",
   "name": "PflegegradDE",
   "id": "pflegegrad-de",
+  "title": "PflegegradDE ValueSet",
   "description": "Codes zur genaueren Differenzierung des Pflegegrads.",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -32,32 +37,32 @@
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.6",
-        "display": "Pflegebedürftig nach Pflegegrad 1"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 1"
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.7",
-        "display": "Pflegebedürftig nach Pflegegrad 2"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 2"
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.8",
-        "display": "Pflegebedürftig nach Pflegegrad 3"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 3"
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.9",
-        "display": "Pflegebedürftig nach Pflegegrad 4"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 4"
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.a",
-        "display": "Pflegebedürftig nach Pflegegrad 5"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 5"
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
         "code": "9-984.b",
-        "display": "Erfolgter Antrag auf Einstufung in einen Pflegegrad"
+        "display": "Pflegebedürftigkeit: Erfolgter Antrag auf Einstufung in einen Pflegegrad"
       }
     ]
   },

@@ -1,6 +1,7 @@
 CodeSystem: DeuevAnlage6Vorsatzworte
 Id: anlage-6-vorsatzworte
-Description: "Tabelle der gültigen Vorsatzworte"
+Title: "Tabelle der gültigen Vorsatzworte"
+Description: "Vorsatzworte im Nachnamen nach DEÜV Anlage 6"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
@@ -8,6 +9,7 @@ Description: "Tabelle der gültigen Vorsatzworte"
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete
+* ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-6-vorsatzworte"
 * #a "a"
 * #"aan de" "aan de"
 * #"aan den" "aan den"

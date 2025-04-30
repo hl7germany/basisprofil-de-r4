@@ -1,5 +1,6 @@
 CodeSystem: SupplementMaritalStatus
 Id: marital-status-supplement
+Title: "Deutsche Übersetzungen für MaritalStatus"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

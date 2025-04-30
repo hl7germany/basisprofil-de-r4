@@ -1,6 +1,6 @@
 #### Organisationsinterner Patienten-Identifier (PID)
 
-**Name**: IdentifierPid ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pid&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierPid ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pid&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-pid`
 

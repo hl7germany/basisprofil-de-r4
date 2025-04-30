@@ -1,5 +1,6 @@
 CodeSystem: SupplementIdentifierTypeV2
 Id: identifier-type-v2-supplement
+Title: "Deutsche Übersetzungen für Identifier Types (V2)"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)"
 * insert Meta
 * ^meta.profile = $shareablecodesystem

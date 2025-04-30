@@ -5,10 +5,14 @@
   "id": "VitalSignDE-Body-Length-UCUM",
   "title": "VitalSignDE_Body_Length_UCUM",
   "description": "VitalSignDE_Body_Length_UCUM enthält alle validen Einheiten zur Kodierung einer Körpergröße",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Length_UCUM",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,6 +24,7 @@
       ]
     }
   ],
+  "copyright": "The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright © 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved.",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

@@ -4,11 +4,15 @@
   "content": "not-present",
   "name": "OPS",
   "id": "ops",
+  "title": "OPS",
   "description": "OPS Platzhalter-CodeSystem",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/CodeSystem/bfarm/ops",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,7 +24,6 @@
       ]
     }
   ],
-  "copyright": "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte",
-  "caseSensitive": true,
-  "valueSet": "http://fhir.de/ValueSet/bfarm/ops"
+  "copyright": "BfArM 1994 - 2024 - Die Erstellung erfolgt unter Verwendung der maschinenlesbaren Fassung des  Bundesinstituts für Arzneimittel und Medizinprodukte (BfArM)",
+  "caseSensitive": true
 }

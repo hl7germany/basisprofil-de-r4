@@ -5,7 +5,7 @@ Die lebenslange Arztnummer (LANR) ist eine neunstellige Nummer, die die zuständ
 In FHIR kann die LANR als Identifier für Practitioner verwendet werden.
 Das folgende Profil beschreibt die Abbildung einer LANR als Identifier:
 
-**Name**: IdentifierLanr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-lanr&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierLanr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-lanr&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-lanr`
 
@@ -19,7 +19,7 @@ Folgende Constraints sind zu beachten:
 
 | Hinweis | Nutzung externer Ressourcen |
 |---------|---------------------|
-| {{render:Warning}} | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png) | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
 
 Beispiel:
 

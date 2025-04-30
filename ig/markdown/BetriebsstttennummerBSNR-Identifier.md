@@ -2,7 +2,7 @@
 
 Zur Abbildung einer [Betriebsstättennummer](https://www.kbv.de/media/sp/Arztnummern_Richtlinie.pdf) zur eindeutigen Identifizierung von Betriebstätten und Nebenbetriebsstätten kann folgendes Identifier-Profil verwendet werden:
 
-**Name**: IdentifierBsnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-bsnr&scope=de.basisprofil.r4@1.4.0))
+**Name**: IdentifierBsnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-bsnr&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-bsnr`
 
@@ -12,7 +12,7 @@ Zur Abbildung einer [Betriebsstättennummer](https://www.kbv.de/media/sp/Arztnum
 
 | Hinweis | Nutzung externer Ressourcen |
 |---------|---------------------|
-| {{render:Warning}} | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png) | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
 
 ```xml
     <identifier>

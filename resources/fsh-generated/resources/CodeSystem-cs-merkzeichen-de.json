@@ -6,7 +6,11 @@
   "id": "cs-merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
   "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/CodeSystem/merkzeichen-de",
   "concept": [
     {
@@ -81,7 +85,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -105,5 +109,6 @@
     }
   ],
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/merkzeichen-de",
   "count": 14
 }

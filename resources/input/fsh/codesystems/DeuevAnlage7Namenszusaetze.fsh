@@ -1,6 +1,7 @@
 CodeSystem: DeuevAnlage7Namenszusaetze
 Id: anlage-7-namenszusaetze
-Description: "Tabelle der gültigen Namenszusätze"
+Title: "Tabelle der gültigen Namenszusätze"
+Description: "Namenszusätze im Nachnamen nach DEÜV Anlage 7"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"
@@ -8,6 +9,7 @@ Description: "Tabelle der gültigen Namenszusätze"
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete
+* ^valueSet = "http://fhir.de/ValueSet/dkgev/anlage-7-namenszusaetze"
 * #Bar "Bar"
 * #Baron "Baron"
 * #Baroness "Baroness"

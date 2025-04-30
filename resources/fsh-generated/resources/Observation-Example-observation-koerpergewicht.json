@@ -3,9 +3,9 @@
   "id": "Example-observation-koerpergewicht",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/bodyweight",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
+      "http://hl7.org/fhir/StructureDefinition/bodyweight"
     ]
   },
   "category": [
@@ -32,8 +32,8 @@
         "display": "Birth weight Measured"
       },
       {
-        "code": "27113001",
         "system": "http://snomed.info/sct",
+        "code": "27113001",
         "display": "Body weight"
       }
     ],

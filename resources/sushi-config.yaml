@@ -5,6 +5,5 @@ applyExtensionMetadataToRoot: false
 # id: fhir <- Only relevant for IG creation
 # name: Fhir <- Only relevant for IG creation
 # status: active <- Only relevant for IG creation
-version: 1.4.0
-dependencies:
-  hl7.fhir.uv.tools: current
+#dependencies:
+#  hl7.fhir.uv.tools: current

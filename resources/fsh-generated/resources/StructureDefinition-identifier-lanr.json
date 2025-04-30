@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-lanr",
   "url": "http://fhir.de/StructureDefinition/identifier-lanr",
-  "version": "1.5.0",
+  "version": "1.5.3",
   "name": "IdentifierLanr",
   "title": "Identifier-Profil für die Abbildung einer lebenslangen Arztnummer",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

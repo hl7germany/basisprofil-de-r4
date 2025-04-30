@@ -2,27 +2,37 @@
   "resourceType": "ConceptMap",
   "id": "ConceptMap-OPS-SNOMED-Category-Mapping",
   "url": "http://fhir.de/ConceptMap/OPS-SNOMED-Category",
-  "name": "ConceptMapOPS-SNOMED-Category-Mapping",
-  "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
   "status": "active",
+  "version": "1.5.3",
   "experimental": false,
-  "date": "2020-04-22",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "name": "ConceptMapOPS_SNOMED_Category_Mapping",
+  "title": "ConceptMap - OPS_SNOMED-Category-Mapping",
+  "copyright": "HL7 Deutschland e.V.",
   "description": "Mapping OPS \"Klassentitel\" zu SNOMED-CT",
-  "sourceCanonical": "http://fhir.de/ValueSet/bfarm/ops",
+  "sourceCanonical": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
   "targetCanonical": "http://snomed.info/sct?fhir_vs",
   "group": [
     {
-      "source": "http://fhir.de/CodeSystem/bfarm/ops",
-      "target": "http://snomed.info/sct",
       "element": [
         {
           "code": "1",
           "display": "Diagnostische Maßnahmen",
           "target": [
             {
-              "code": "103693007",
-              "display": "Diagnostic procedure",
+              "code": "165197003",
+              "display": "Diagnostic assessment (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -33,7 +43,7 @@
           "target": [
             {
               "code": "363679005",
-              "display": "Imaging",
+              "display": "Imaging (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -44,7 +54,7 @@
           "target": [
             {
               "code": "387713003",
-              "display": "Surgical procedure",
+              "display": "Surgical procedure (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -55,7 +65,7 @@
           "target": [
             {
               "code": "18629005",
-              "display": "Administration of medicine",
+              "display": "Administration of drug or medicament (procedure)",
               "equivalence": "relatedto"
             }
           ]
@@ -66,7 +76,7 @@
           "target": [
             {
               "code": "277132007",
-              "display": "Therapeutic procedure",
+              "display": "Therapeutic procedure (procedure)",
               "equivalence": "equivalent"
             }
           ]
@@ -77,7 +87,7 @@
           "target": [
             {
               "code": "394841004",
-              "display": "Other category",
+              "display": "Other category (qualifier value)",
               "equivalence": "relatedto"
             }
           ]

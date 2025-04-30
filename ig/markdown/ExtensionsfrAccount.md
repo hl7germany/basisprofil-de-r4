@@ -1,7 +1,7 @@
 ### {{page-title}}
 
 
-**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsart@1.4.0))
+**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsart@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsart' select description```
 
@@ -30,7 +30,8 @@
 ----
 
 
-**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.4.0))
+**Name**: Extension Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren
+([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' select description```
 
@@ -41,8 +42,6 @@
 {{tree:http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur, hybrid}}
 
 **Constraints**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' for differential.element.constraint select key,severity,human, expression```
-
-**Hinweise**: Die Abrechnungsart ist stets an die Versicherungsart geknüpft, über die abgerechnet werden soll. Daher wird die Versicherungsart im Kontext von Account.coverage verwendet.
 
 **Beispiel**:
 

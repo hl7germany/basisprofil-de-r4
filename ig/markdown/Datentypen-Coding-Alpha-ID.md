@@ -5,7 +5,7 @@ Bei der Kodierung per [Alpha-ID](https://www.bfarm.de/DE/Kodiersysteme/Terminolo
 
 Die Angabe der Alpha-ID-Version (z.B."2019"), aus der ein Code stammt, ist verpflichtend, da die Alpha-ID nicht versions-stabil ist, d.h. Codes können zwischen den unterschiedlichen Jahrensangaben in der Bedeutung wechseln.
 
-**Name**: CodingAlphaID ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingAlphaID&scope=de.basisprofil.r4@1.4.0))
+**Name**: CodingAlphaID ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/CodingAlphaID&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/CodingAlphaID`
 

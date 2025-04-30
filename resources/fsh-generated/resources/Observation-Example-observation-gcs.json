@@ -17,11 +17,17 @@
       ]
     }
   ],
+  "valueQuantity": {
+    "code": "1",
+    "system": "http://unitsofmeasure.org",
+    "value": 11,
+    "unit": "Punktwert"
+  },
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "9269-2",
+        "system": "http://loinc.org",
         "display": "Glasgow coma score total"
       },
       {
@@ -30,12 +36,6 @@
         "display": "Glasgow coma score (observable entity)"
       }
     ]
-  },
-  "valueQuantity": {
-    "code": "1",
-    "system": "http://unitsofmeasure.org",
-    "value": 11,
-    "unit": "Punktwert"
   },
   "component": [
     {

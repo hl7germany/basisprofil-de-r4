@@ -1,5 +1,66 @@
 ### Release Notes
 
+v1.5.3 - 18.03.25
+* `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
+
+v1.5.2 - 30.01.25
+
+* `fixed` SearchParameter-Definition für "Condition-related" war seit Version 1.5.0 nicht mehr im Release-Paket enthalten
+* `fixed` Extension "ExtensionAbrechnungsDiagnoseProzedur" erlaubte invalide Kombinationen in den Sub-Extensions
+* `fixed` Extension "ExtensionFachabteilungsschluessel301" enthielt fälschlicherweise MS-Flags 
+
+v1.5.1 - 07.01.25
+
+* `changed` Vitalparameter Slices jetzt: loinc, loinc-zusatzcode, snomed
+* `changed` jedes Profile hat einen loinc-slice 1..1 mit dem “magic” Code aus Vitalsigns, statt des Patterns auf .code
+* `changed` loinc-zusatzcode & snomed slices gibt es nur in Profilen die auf diesen slices entweder einen einzelcode definieren (pattern) oder ein VS binding haben
+* `changed` snomed slice mit pattern.system auf Snomed entfällt 
+* `changed` EKGDE enthält jetzt 2 slices für die komponenten: deprecatedLeadCodes und ekgLeads.  
+  * deprecatedLeadCodes: die bisherigen falschen Loinc Part Codes der Ableitungen  
+  * ekgLeads: binding auf ein SCT VS mit EKG lead codes für ein 12 kanal ekg
+* `fixed` kvid-2 Invariante enthielt eine falsche Syntax
+* `added` ObservationDePflegegrad: effective erlaubt jetzt auch dateTime, nicht mehr nur Period
+
+v1.5.0 - 07.07.24
+
+* `Breaking Change` IdentifierProfil `IdentifierPkvVersichertenId10` zurückgezogen. Das Profil für die Abbildung einer 10-stelligen KVID ist für alle versicherten Personen zu verwenden. 
+* `changed` SNOMED-CT-Code für EKG von 271921002 auf 106073009 getauscht
+* `changed` Erweiterung des ValueSets "ValueSetLebensphaseDe"
+* `changed` ValueSet "IdentifierTypeDeBasis" erweitert
+* `changed` Glascow Coma Scale Komponenten auf eine 0..1 Kardinalität abgeändert
+* `changed` Klarstellung, dass Adress- und Zustellangaben nur ein line-Element sein sollten
+* `changed` Einschränkung der Unit-Codes auf Observation.component.valueQuantity für VitalSigns wurde aufgehoben
+* `changed` Jedes CodesSystem enthält nun ein all-codes ValueSet (CodeSysten.valueSet)
+* `changed` Mapping der Mapping OPS Klassentitel zu SNOMED-CT angepasst (Deprecated Codes ausgetauscht und Display-Values korrigiert)
+* `added` Extension "ExtensionFachabteilungsschluessel301" hinzugefügt
+* `added` Extension "ExtensionWirkstofftyp" hinzugefügt
+* `added` Dokumentation für die Extension "Kalendername" hinzugefügt
+* `added` Best-Practice-Empfehlungen für Skalen und Scores hinzugefügt
+* `added` Identifier "IdentifierAbrechnungsnummer" hinzugefügt
+* `added` Identifier "IdentifierLbnr" hinzugefügt
+* `added` Optionale SNOMED CT ValueSets für die VitalSign-Profile hinzugefügt
+* `added` Optionale SNOMED CT Slcies in .code für die VitalSign-Profile hinzugefügt
+* `added` OID zu GkvHmnr NamingSystem hinzugefügt
+* `added` Vorgaben zum Mapping von postkordinierten ICD-10-GM Codes auf Alpha-IDs hinzugefügt
+* `added` Definition von GOÄ/GZÄ NamingSystem hinzugefügt
+* `added` Profil für CAS-Kodierung hinzugefügt
+* `added` Profil für SPO2-Pulsoxymetrie hinzugefügt. ACHTUNG: Dieses Profil wird zum Zeitpunkt der Veröffentlichung in Simplifier nicht korrekt dargestellt. Das Profil enthält unter Observation.code.coding weitere Slices die nicht dargestellt werden! 
+* `fixed` Start- und Endmarker in Regulären Ausdrücken hinzugefügt
+* `fixed` Korrektur des Elements targetCanonical für die ConceptMap "ConceptMap-OPS-SNOMED-Category-Mapping"
+* `fixed` Korrektur der Versionen für die "Deuev" CodeSystems
+* `fixed` Anpassung der Binding Strength von "required" zu "extensible" in den Extensions "ExtensionAbrechnungsart" & "ExtensionAbrechnungsDiagnoseProzedur"
+* `fixed` Klarstellung, dass der Identifier "IdentifierAufnahmenummer" nicht unter Account.identifier verwendet werden sollte
+* `fixed` Include von KBV-CodeSystems in ValueSet "VersicherungsartDeBasis" korrigiert
+* `fixed` Copyright-Angabe in allen ValueSets korrigiert
+* `fixed` Einschränkung der Reference-Targets der InformationRecipient-Extension wurde korrigiert
+* `fixed` Doppelter ele-1-Constraint in IdentifierBsnr korrigiert
+* `fixed` MS-Flags aus der ExtensionAbrechnungsDiagnoseProzedur-Extension entfernt
+* `fixed` Property-Angaben im IdentifierTypeDeBasis korrigiert
+* `fixed` caseSensitive-Angaben aus CodeSystem-Supplements entfernt
+* `fixed` Unvollständige CodeSysteme sollten im Allgemeinen keinen all-codes ValueSet enthalten
+* `fixed` NAN-Code in ISO3166 korrigiert
+* `fixed` Fehler in COnstraint vs-de-1 korrigiert
+
 v1.4.0 - 29.06.22
 
 * `fixed` Die ValueSets für OPS und ICD-10-GM inkludieren explizit alle Versionen

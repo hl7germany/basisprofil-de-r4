@@ -3,9 +3,9 @@
   "id": "Example-observation-sauerstoffsaettigung",
   "meta": {
     "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
       "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-      "http://hl7.org/fhir/StructureDefinition/oxygensat",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
+      "http://hl7.org/fhir/StructureDefinition/oxygensat"
     ]
   },
   "category": [
@@ -22,17 +22,22 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "2708-6",
+        "system": "http://loinc.org",
         "display": "Oxygen saturation in Arterial blood"
       },
       {
-        "code": "442476006",
         "system": "http://snomed.info/sct",
-        "display": "Arterial oxygen saturation"
+        "code": "442476006",
+        "display": "Arterial oxygen saturation (observable entity)"
+      },
+      {
+        "code": "59408-5",
+        "system": "http://loinc.org",
+        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
       }
     ],
-    "text": "Pulsoximetrische Sauerstoffsättigung"
+    "text": "Arterielle Sauerstoffsättigung"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",

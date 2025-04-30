@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionFachabteilungsschluessel301",
   "url": "http://fhir.de/StructureDefinition/dkgev/fachabteilungsschluessel301",
-  "version": "1.5.0",
+  "version": "1.5.3",
   "name": "ExtensionFachabteilungsschluessel301",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -44,8 +44,7 @@
         "path": "Extension.extension",
         "sliceName": "schluessel",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:schluessel.extension",
@@ -90,8 +89,7 @@
         "path": "Extension.extension",
         "sliceName": "gueltigkeitszeitaum",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:gueltigkeitszeitaum.extension",

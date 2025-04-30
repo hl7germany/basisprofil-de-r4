@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext des [FHIR Medication Modules](https://www.
 
 ----
 
-Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.4.0))
+Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.5.3))
 
 Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/normgroesse' select description```
 
@@ -16,7 +16,7 @@ Kontext: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefi
 
 | Hinweis | Nutzung externer Ressourcen |
 |---------|---------------------|
-| {{render:Warning}} | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png) | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](fhir.kbv.de).|
 
 Weitere Informationen siehe "[Verordnung über die Bestimmung und Kennzeichnung von Packungsgrößen für Arzneimittel in der vertragsärztlichen Versorgung (Packungsgrößenverordnung - PackungsV)](https://www.gesetze-im-internet.de/packungsv/BJNR131800004.html)"
 
@@ -30,7 +30,7 @@ Beispiel:
 
 ----
 
-Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/WirkstofftypEX&scope=de.basisprofil.r4@1.5.0))
+Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/WirkstofftypEX&scope=de.basisprofil.r4@1.5.3))
 
 Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/WirkstofftypEX' select description```
 

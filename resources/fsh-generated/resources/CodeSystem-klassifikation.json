@@ -4,8 +4,13 @@
   "content": "complete",
   "name": "ArgeIkKlassifikation",
   "id": "klassifikation",
+  "title": "ARGE IK Klassifikation",
   "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/CodeSystem/arge-ik/klassifikation",
   "concept": [
     {
@@ -219,7 +224,7 @@
     ]
   },
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

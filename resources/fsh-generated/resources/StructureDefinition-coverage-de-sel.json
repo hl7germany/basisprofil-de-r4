@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "coverage-de-sel",
   "url": "http://fhir.de/StructureDefinition/coverage-de-sel",
-  "version": "1.5.0",
+  "version": "1.5.3",
   "name": "CoverageDeSel",
   "title": "Coverage, deutsches Selbstzahlerprofil",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

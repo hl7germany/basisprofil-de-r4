@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "informationrecipient",
   "url": "http://fhir.de/StructureDefinition/informationrecipient",
-  "version": "1.5.0",
+  "version": "1.5.3",
   "name": "ExtensionInformationRecipient",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -25,8 +25,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Composition"
+      "expression": "Composition",
+      "type": "element"
     }
   ],
   "type": "Extension",
@@ -47,7 +47,16 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "sliceName": "valueReference",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1,
         "type": [
           {
@@ -60,6 +69,18 @@
               "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
               "http://hl7.org/fhir/StructureDefinition/Organization"
             ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.value[x]:valueReference",
+        "path": "Extension.value[x]",
+        "sliceName": "valueReference",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
           }
         ]
       }

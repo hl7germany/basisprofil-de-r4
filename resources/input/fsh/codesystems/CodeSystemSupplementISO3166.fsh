@@ -1,10 +1,9 @@
 CodeSystem: CodeSystemSupplementISO3166
 Id: supplement-iso-3166
 Title: "CodeSystem Supplement ISO 3166"
-Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
+Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166, basierend auf der Übersetzung der ISO 3166 Codes durch die Bundesanstalt für Landwirtschaft und Ernährung (https://www.ble.de/SharedDocs/Downloads/EN/Climate-Energy/Information-Nabisy/CountryCodes.pdf?__blob=publicationFile&v=2)"
 * insert Meta
 * ^meta.profile = $shareablecodesystem
-* ^caseSensitive = true
 * ^content = #supplement
 * ^supplements = "urn:iso:std:iso:3166"
 * #AF
@@ -55,9 +54,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #AW
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Aruba"
-* #AC
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Ascension"
 * #AZ
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Aserbaidschan"
@@ -133,18 +129,12 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #BI
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Burundi"
-* #EA
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Ceuta, Melilla"
 * #CL
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Chile"
 * #CN
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Volksrepublik China"
-* #CP
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Clipperton (reserviert für ITU)"
 * #CK
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Cookinseln"
@@ -157,15 +147,9 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #DK
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Dänemark"
-* #DD
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Deutsche Demokratische Republik (historisch)"
 * #DE
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Deutschland"
-* #DG
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Diego Garcia (reserviert für ITU)"
 * #DM
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Dominica"
@@ -193,12 +177,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #SZ
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Eswatini (Swasiland)"
-* #CE
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Europäische Gemeinschaft"
-* #EU
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Europäische Union"
 * #FK
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Falklandinseln"
@@ -214,9 +192,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #FR
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Frankreich"
-* #FX
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Frankreich France métropolitaine"
 * #GF
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Französisch-Guayana"
@@ -337,9 +312,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #CA
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Kanada"
-* #IC
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Kanarische Inseln"
 * #CV
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Kap Verde"
@@ -379,9 +351,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #KR
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Südkorea"
-* #XK
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Kosovo"
 * #HR
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Kroatien"
@@ -484,7 +453,7 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #MM
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Myanmar (Burma)"
-* #nan
+* #NA
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Namibia"
 * #NR
@@ -499,18 +468,12 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #NZ
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Neuseeland"
-* #NT
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Neutrale Zone (Saudi-Arabien und Irak bis 1993)"
 * #NI
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Nicaragua"
 * #NL
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Niederlande"
-* #AN
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Niederländische Antillen (historisch)"
 * #NE
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Niger"
@@ -625,11 +588,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #RS
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Serbien"
-* #CS
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Serbien und Montenegro (historisch)"
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Tschechoslowakei (historisch)"
 * #SC
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Seychellen"
@@ -720,9 +678,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #TT
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Trinidad und Tobago"
-* #TA
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Tristan da Cunha"
 * #TD
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Tschad"
@@ -744,9 +699,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #TV
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Tuvalu"
-* #SU
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Sowjetunion (UdSSR, historisch)"
 * #UG
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Uganda"
@@ -795,9 +747,6 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166"
 * #EH
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Westsahara"
-* #ZR
-  * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Zaire (jetzt Demokratische Republik Kongo)"
 * #CF
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Zentralafrikanische Republik"

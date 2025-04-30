@@ -1,5 +1,6 @@
 CodeSystem: ArgeIkKlassifikation
 Id: klassifikation
+Title: "ARGE IK Klassifikation"
 Description: "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen"
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/arge-ik/klassifikation"

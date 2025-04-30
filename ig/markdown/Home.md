@@ -4,11 +4,11 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.4.0 (STU2) ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.5.3 (STU3) ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 29.06.2022
+Datum: 30.01.2025
 
-Status: Ballot
+Status: Veröffentlicht
 
 Realm: Deutschland
 
@@ -43,6 +43,7 @@ Dieser Leitfaden ist im Rahmen des Interoperabilitätsforums und den Technischen
 * Noemi Deppenwiese (ND), Universitätsklinikum Erlangen
 * Julian Saß (JS), Berlin Institute of Health at Charité
 * Yannick Börner (YB), Gefyra GmbH
+* Jonas Schön (JS2), Tiplu GmbH
 
 Desweiteren bedanken wir uns für Hinweise, Anregungen und Feedback bei den folgenden Personen und Organisationen:
 

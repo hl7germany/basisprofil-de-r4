@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
+  "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung-pulsoximetrie",
+  "version": "1.5.3",
+  "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie",
+  "title": "Observation-Profil Arterielle Sauerstoffsaettigung Pulsoximetrie",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-01-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Observation-Profil Arterielle Sauerstoffsaettigung Pulsoximetrie",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 2
+      },
+      {
+        "id": "Observation.code.coding:loinc-zusatzcode",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-zusatzcode",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -115,7 +115,7 @@ Usage: #definition
 Instance: namingsystem-gkv-kvid-10
 InstanceOf: NamingsystemDeBasis
 Usage: #definition
-* name = "GkvKvid10"
+* name = "NamingSystemKVID"
 * status = #active
 * kind = #identifier
 * date = "2021-02-17"
@@ -123,7 +123,7 @@ Usage: #definition
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * responsible = "Vertrauensstelle Krankenversichertennummer der GKV"
-* type = $identifier-type-de-basis#GKV
+* type = $identifier-type-de-basis#KVZ10
 * description = "Die Versicherten-ID ist der 10-stellige unveränderliche Teil der 30-stelligen Krankenversichertennummer. Sie wird häufig ebenfalls als Krankenversichertennummer bezeichnet. Der Term 'Versicherten-ID' wird hier in Übereinstimmung mit der Gematik-Spezifikation für das VSDM verwendet."
 * usage = "Die Krankenkasse verwendet für jeden Versicherten eine Krankenversichertennummer. Die Krankenversichertennummer besteht aus einem unveränderbaren Teil zur Identifikation des Versicherten (der 10-stelligen Krankenversicherten-ID), sowie einem veränderlichen Teil, der die Kassenzugehörigkeit in Form des Institutionskennzeichens der Krankenkasse (9 Stellen) und ggf. Daten zum Hauptversicherten (10 Stellen), sowie eine Prüfziffer (1 Stelle) enthält. Dieses NamingSystem wird für den unveränderlichen Teil, also die ersten 10 Stellen, der 30-stellige Krankenversichertennummer verwendet."
 * uniqueId[+].type = #uri
@@ -132,6 +132,10 @@ Usage: #definition
 * uniqueId[=].period.start = "2017-09-15"
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.4.8"
+* uniqueId[=].preferred = false
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.de/sid/pkv/kvid-10"
+* uniqueId[=].preferred = false
 
 Instance: namingSystem-gkv-kvk-versichertennummer
 InstanceOf: NamingsystemDeBasis
@@ -143,7 +147,7 @@ Usage: #definition
 * publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
-* type = $identifier-type-de-basis#GKV
+* type = $identifier-type-de-basis#KVZ10
 * description = "Die Nummer der bis 2014 verwendeten Krankenversicherungskarte (KVK)"
 * usage = "Dieses NamingSystem existiert aus Gründen der Rückwärtskompatibilität. Es soll verwendet werden, wenn ein Use Case die Übermittlung der Versichertennummer von der KVK benötigt."
 * uniqueId.type = #uri
@@ -162,7 +166,7 @@ Usage: #definition
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * responsible = "Vertrauensstelle Krankenversichertennummer der GKV"
-* type = $identifier-type-de-basis#GKV
+* type = $identifier-type-de-basis#KVZ10
 * description = "Die vollständige, bis zu 30-stellige, Krankenversichertennummer."
 * usage = "Die Krankenkasse verwendet für jeden Versicherten eine Krankenversichertennummer. Die Krankenversichertennummer besteht aus einem unveränderbaren Teil zur Identifikation des Versicherten (der 10-stelligen Krankenversicherten-ID), sowie einem veränderlichen Teil, der die Kassenzugehörigkeit in Form des Institutionskennzeichens der Krankenkasse (9 Stellen) und ggf. Daten zum Hauptversicherten (10 Stellen), sowie eine Prüfziffer (1 Stelle) enthält. Dieses NamingSystem wird für die vollständige, 30-stellige Krankenversichertennummer verwendet."
 * uniqueId[+].type = #oid
@@ -183,7 +187,7 @@ Usage: #definition
 * contact.telecom.system = #other
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * responsible = "Vertrauensstelle Krankenversichertennummer der GKV"
-* type = $identifier-type-de-basis#GKV
+* type = $identifier-type-de-basis#KVZ10
 * description = "pseudonymisierte Versichertennummer für die Meldung an Register"
 * uniqueId.type = #uri
 * uniqueId.value = "http://fhir.de/sid/gkv/pseudo-kvid"
@@ -330,3 +334,39 @@ Usage: #definition
 * uniqueId.value = "http://fhir.de/NamingSystem/kzv/XX/zahnarztnummer"
 * uniqueId.preferred = true
 * uniqueId.period.start = "2017-12-06"
+
+Instance: namingSystem-goae
+InstanceOf: NamingsystemDeBasis
+Usage: #definition
+* name = "Gebührenordnung für Ärzte"
+* status = #active
+* kind = #codesystem
+* date = "2024-02-09"
+* publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* contact.telecom.system = #other
+* contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* responsible = "Bundesregierung mit Zustimmung des Bundesrates"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* usage = "Die Gebührenordnung für Ärzte regelt die Abrechnung privatärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
+* uniqueId.type = #uri
+* uniqueId.value = "http://fhir.de/CodeSystem/bäk/goä"
+* uniqueId.preferred = true
+* uniqueId.period.start = "2024-02-09"
+
+Instance: namingSystem-gzae
+InstanceOf: NamingsystemDeBasis
+Usage: #definition
+* name = "Gebührenordnung für Zahnärzte"
+* status = #active
+* kind = #codesystem
+* date = "2024-02-09"
+* publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* contact.telecom.system = #other
+* contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* responsible = "Bundesregierung mit Zustimmung des Bundesrates"
+* type = urn:oid:2.16.840.1.113883.12.24#0024 "Fee Schedule"
+* usage = "Die Gebührenordnung für Zahnärzte regelt die Abrechnung privatzahnärztlicher Leistungen, also medizinische und zahnmedizinische Leistungen außerhalb der gesetzlichen Krankenversicherung."
+* uniqueId.type = #uri
+* uniqueId.value = "http://fhir.de/CodeSystem/bäk/gzä"
+* uniqueId.preferred = true
+* uniqueId.period.start = "2024-02-09"

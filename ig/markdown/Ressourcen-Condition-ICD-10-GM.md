@@ -28,11 +28,9 @@ Hinweise zum ValueSet welches für ein entsprechendes Binding des ICD-10 Codings
 
 ICD-10(-GM) Codes können in mehrfachkodierter Form auftreten (siehe [Kodierfragen BfArM](https://www.bfarm.de/DE/Kodiersysteme/Services/Kodierfragen/ICD-10-GM/Allgemeine-Kodierfragen/icd-10-gm-0010.html)).
 
-Aufgrund der gängigen Praxis, die es Erlaubt, dass zusammengesetzte Codes unabhängig voneinander Zusatzkennzeichen wie Diagnosesicherheit und -lokalisation zugeordnet werden können, müssen beide Codebestandteile als separate Conditions aufgefasst werden, die miteinander in Beziehung stehen (Verlinkung).
+Aufgrund der gängigen Praxis, die erlaubt, dass zusammengesetzte Codes unabhängig voneinander Zusatzkennzeichen wie Diagnosesicherheit und -lokalisation zugeordnet werden können, müssen beide Codebestandteile als separate Conditions aufgefasst werden, die miteinander in Beziehung stehen (Verlinkung).
 
 Die Verlinkung von Sekundär- auf die assoziierte Primärdiagnose erfolgt mit Hilfe der international abgestimmten Extension [condition-related](https://hl7.org/fhir/r4/extension-condition-related.html). Eine Verlinkung der Sekundärdiagnose in Richtung Primärdiagnose sollte vermieden werden, sodass keine zirkuläre Referenzierung entsteht.
-
-Um auf der condition-related Extension auch Suchen zu können wurde wurde der Suchparameter **related** ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/SearchParameter/Condition-related&scope=de.basisprofil.r4@1.4.0)) erstellt.
 
 Gegebenenfalls vorhandene Mehrfachkodierungskennzeichen (z.B. "*", "†" oder "!") werden von den jeweiligen Codes abgetrennt und in die Extension 'ICD-Mehrfachkodierungs-Kennzeichen' gesetzt, siehe {{pagelink:ig/markdown/ExtensionsfrCondition.md}}. Das Element in dem der ICD-10-GM Code anschließend abgebildet wird sollte somit **kein** Mehrfachkodierungskennzeichen oder Zusatzkennzeichen (z.B. Seitenlokalisation oder Diagnosesicherheit) enthalten.
 
@@ -40,6 +38,7 @@ Folgende Constraints sind für Condition.code zu beachten:
 
 @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/CodingICD10GM' for differential.element.constraint select key, severity, human, expression```
 
+Um auf der condition-related Extension auch Suchen zu können wurde wurde der Suchparameter **related** ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/SearchParameter/Condition-related&scope=de.basisprofil.r4@1.5.3)) erstellt.
 
 Um stets alle Codes einer Mehrfachkodierung zu erhalten, empfiehlt es sich ICD-10-GM Diagnosen stets mittels revinclude  
  `GET [base]/Condition?_id=123&_revinclude=Condition:related` abzurufen.
@@ -67,6 +66,12 @@ Primärcode: example-condition-ausrufezeichen-primaer
 {{xml:Condition/Example-condition-ausrufezeichen-primaer}}
 Sekundärcode:
 {{xml:Condition/Example-condition-ausrufezeichen-sekundaer}}
+
+----
+
+#### Alpha-ID
+
+Im Falle, dass eine Condition-Ressource eine postkoordinierte ICD-10-GM repräsentiert muss eine Alpha-ID, welche auf Basis der ICD-10-GM-Kodierung ermittelt wurde, in der Condition-Ressource angegeben werden welche die Primärdiagnose repräsentiert. Bei abweichenden Diagnosesicherheiten zwischen Primär- und Sekundärcondition muss sichergestellt werden, dass die Diagnosesicherheit der Primärcondition auf die assoziierte AlphaID zutrifft.
 
 ----
 

@@ -5,10 +5,14 @@
   "id": "ValueSetVitalSignDE-Body-Height-Loinc",
   "title": "ValueSetVitalSignDE_Body_Height_Loinc",
   "description": "VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Messung einer Körpergröße (inkl. Größe bei der Geburt)",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -20,21 +24,17 @@
       ]
     }
   ],
+  "copyright": "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "immutable": false,
   "compose": {
     "include": [
       {
         "system": "http://loinc.org",
         "concept": [
-          {
-            "code": "8302-2",
-            "display": "Body height"
-          },
           {
             "code": "89269-5",
             "display": "Body height Measured --at birth"

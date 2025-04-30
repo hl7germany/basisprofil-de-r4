@@ -6,7 +6,7 @@ Folgende Extensions werden im Kontext des [FHIR Datentyps 'HumanName'](https://w
 
 ----
 
-**Name**: Extension-humanname-namenszusatz ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/humanname-namenszusatz&scope=de.basisprofil.r4@1.4.0))
+**Name**: Extension-humanname-namenszusatz ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/humanname-namenszusatz&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/humanname-namenszusatz' select description```
 
@@ -36,7 +36,7 @@ Folgende Extensions werden im Kontext des [FHIR Datentyps 'Addresse'](https://ww
 
 ----
 
-**Name**: Extension-address-ags ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/destatis/ags&scope=de.basisprofil.r4@1.4.0))
+**Name**: Extension-address-ags ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/destatis/ags&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/destatis/ags' select description```
 
@@ -67,7 +67,7 @@ Folgende Extensions werden im Kontext der Abbildung eines [Administrativen Gesch
 
 ----
 
-**Name**: GenderOtherDE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/gender-amtlich-de&scope=de.basisprofil.r4@1.4.0))
+**Name**: GenderOtherDE ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/gender-amtlich-de&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/gender-amtlich-de' select description```
 

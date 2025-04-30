@@ -4,6 +4,7 @@
   "content": "complete",
   "name": "DeuevAnlage8Laenderkennzeichen",
   "id": "anlage-8-laenderkennzeichen",
+  "title": "Gültige Länderkennzeichen DEÜV8",
   "description": "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschriften. Diese Übersicht basiert auf dem in der Staats- und Gebietssystematik des statistischen Bundesamtes verwendeten Schlüsselverzeichnis. Insofern wird bei den folgenden verwendeten Bezeichnungen, ihrer Auswahl und der Art der Wiedergabe des Inhalts nicht zum völker- oder staatsrechtlichen Status von Ländern, Hoheitsgebieten, Städten oder Gebieten oder ihrer Behörden oder zum Verlauf ihrer Grenzen oder Grenzlinien Stellung genommen.",
   "version": "8.00",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-8-laenderkennzeichen",
@@ -1222,9 +1223,17 @@
   "property": [
     {
       "code": "status",
+<<<<<<< HEAD
       "uri": "http://hl7.org/fhir/concept-properties",
       "type": "code"
     }
   ],
+=======
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "type": "code"
+    }
+  ],
+  "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-8-laenderkennzeichen",
+>>>>>>> remotes/origin/master
   "count": 259
 }

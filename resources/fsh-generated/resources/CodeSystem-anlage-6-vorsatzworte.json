@@ -4,7 +4,12 @@
   "content": "complete",
   "name": "DeuevAnlage6Vorsatzworte",
   "id": "anlage-6-vorsatzworte",
+<<<<<<< HEAD
   "description": "Tabelle der gültigen Vorsatzworte",
+=======
+  "title": "Tabelle der gültigen Vorsatzworte",
+  "description": "Vorsatzworte im Nachnamen nach DEÜV Anlage 6",
+>>>>>>> remotes/origin/master
   "version": "2.30",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte",
   "concept": [
@@ -758,7 +763,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -777,5 +782,6 @@
   },
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-6-vorsatzworte",
   "count": 187
 }

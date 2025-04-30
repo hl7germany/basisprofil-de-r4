@@ -3,11 +3,16 @@
   "status": "active",
   "name": "ValueSetLebensphaseDe",
   "id": "lebensphase-de",
+  "title": "LebensphaseDe ValueSet",
   "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.5.3",
+>>>>>>> remotes/origin/master
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,7 +24,7 @@
       ]
     }
   ],
-  "copyright": "Kassenärztliche Bundesvereinigung (KBV)",
+  "copyright": "Kassenärztliche Bundesvereinigung (KBV)  \nThis value set includes content from SNOMED CT, which is copyright © 2002 International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
   "compose": {
     "include": [
       {

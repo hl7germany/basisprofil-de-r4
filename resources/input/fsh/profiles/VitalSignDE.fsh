@@ -1,6 +1,9 @@
 Profile: VitalSignDE
 Parent: Observation
 Id: observation-de-vitalsign
+Title: "Observation-Profil VitalSignDE"
+Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen Vitalsignprofile"
+* ^abstract = true
 * insert Meta
 * obeys vs-de-2
 * category
@@ -11,48 +14,29 @@ Id: observation-de-vitalsign
 * category[VSCat] = $observation-category#vital-signs
 * code
   * coding
+    * system 1..
+    * code 1..
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains loinc 1..* and snomed 0..*
+  * coding contains 
+      loinc 1..1
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..
-* effective[x] only dateTime
-* effectiveDateTime
+* effective[x] only dateTime or Period
   * obeys vs-de-1
-* value[x] ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* valueQuantity only Quantity
-* valueQuantity from UCUM_Vitals_Common_DE (required)
-  * ^sliceName = "valueQuantity"
+* valueQuantity
   * value 1..
   * unit 1..
   * system 1..
   * system = "http://unitsofmeasure.org"
-  * code 1..
+  * code 1.. 
+  * code from UCUM_Vitals_Common_DE
 * component obeys vs-de-3
-  * value[x] ^slicing.discriminator.type = #type
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * valueQuantity only Quantity
-  * valueQuantity from UCUM_Vitals_Common_DE (required)
-    * ^sliceName = "valueQuantity"
+  * valueQuantity
     * value 1..
     * unit 1..
     * system 1..
     * system = "http://unitsofmeasure.org"
     * code 1..
-
-Instance: Example-observation-bmi
-InstanceOf: VitalSignDE
-Usage: #example
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
-* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bmi"
-* status = #final
-* category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"
-* subject.reference = "Patient/example"
-* effectiveDateTime = "1999-07-02"
-* valueQuantity = 16.2 'kg/m2' "kg/m2"

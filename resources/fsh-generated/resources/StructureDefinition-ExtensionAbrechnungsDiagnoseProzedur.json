@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionAbrechnungsDiagnoseProzedur",
   "url": "http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur",
-  "version": "1.5.0",
+  "version": "1.5.3",
   "name": "ExtensionAbrechnungsDiagnoseProzedur",
   "title": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren",
   "status": "active",
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -19,6 +19,7 @@
       ]
     }
   ],
+  "description": "Diese Extension erlaubt es einem Account Diagnosen oder Prozeduren, incl. Qualifier wie bspw: \"Primär-DRG\" zuzuordnen. Dies ermöglicht unter anderem das Zuordnen von Haupt- und Nebendiagnosen zu einem Account zum Zweck der DRG Erstellung.",
   "copyright": "HL7 Deutschland e.V.",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
@@ -40,12 +41,16 @@
         "short": "Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren"
       },
       {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 2
+      },
+      {
         "id": "Extension.extension:Use",
         "path": "Extension.extension",
         "sliceName": "Use",
-        "min": 0,
-        "max": "*",
-        "mustSupport": true
+        "min": 1,
+        "max": "1"
       },
       {
         "id": "Extension.extension:Use.extension",
@@ -74,9 +79,8 @@
         "id": "Extension.extension:Referenz",
         "path": "Extension.extension",
         "sliceName": "Referenz",
-        "min": 0,
-        "max": "*",
-        "mustSupport": true
+        "min": 1,
+        "max": "*"
       },
       {
         "id": "Extension.extension:Referenz.extension",

@@ -9,18 +9,18 @@ Description: "Observation-Profil für Glasgow Coma Score"
 * category ^slicing.rules = #open
 * category contains survey 1..1
 * category[survey] = $observation-category#survey
-* code = $loinc#9269-2
+* code
   * coding
+    * system 1..
+    * code 1..
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains loinc 1..* and snomed 0..*
-  * coding[loinc] ^patternCoding.system = $loinc
-    * system 1..
-    * code 1..
-  * coding[snomed] = $sct#248241002
-    * system 1..
-    * code 1..
+  * coding contains 
+      loinc 1..1 and 
+      snomed 0..*
+  * coding[loinc] = $loinc#9269-2 // "Glasgow coma score total"
+  * coding[snomed] = $sct#248241002 // "Glasgow coma score (observable entity)"
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..

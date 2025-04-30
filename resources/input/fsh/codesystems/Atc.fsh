@@ -1,7 +1,8 @@
 CodeSystem: Atc
 Id: atc
+Title: "ATC"
 Description: "ATC Platzhalter-CodeSystem"
-* insert Meta
+* insert MetaNoVersion
 * ^url = "http://fhir.de/CodeSystem/bfarm/atc"
 * ^copyright = "BfArM - Bundesinstitut für Arzneimittel und Medizinprodukte"
 * ^caseSensitive = true

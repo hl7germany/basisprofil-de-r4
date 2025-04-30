@@ -1,0 +1,46 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CodingCAS",
+  "url": "http://fhir.de/StructureDefinition/CodingCAS",
+  "version": "1.5.3",
+  "name": "CodingCAS",
+  "title": "Coding-Profil für CAS",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-01-30",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "description": "Abbildung der Mindestanforderungen einer CAS-Codierung. Siehe https://www.cas.org/cas-data/cas-registry.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Coding",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coding",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coding.system",
+        "path": "Coding.system",
+        "short": "Canonische CodeSystem URL für CAS",
+        "min": 1,
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/CAS"
+      },
+      {
+        "id": "Coding.code",
+        "path": "Coding.code",
+        "short": "Der CAS-Code",
+        "min": 1
+      }
+    ]
+  }
+}

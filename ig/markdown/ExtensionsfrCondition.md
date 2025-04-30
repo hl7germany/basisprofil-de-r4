@@ -6,7 +6,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.4.0))
+**Name**: Extension-seitenlokalisation ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/seitenlokalisation&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/seitenlokalisation' select description```
 
@@ -20,7 +20,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 | Hinweis | Nutzung externer Ressourcen |
 |---------|---------------------|
-| {{render:Warning}} | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION).|
+| ![Warnung](https://wiki.hl7.de/images/thumb/Attention_icon.svg/100px-Attention_icon.svg.png) | Das vorliegende Profil enthält Verweise auf CodeSysteme / NamingSystems der Kassenärztliche Bundesvereinigung (KBV). Diese Ressourcen werden nicht als Teil der Deutschen Basisprofile veröffentlicht und sind separat zu Validierungszwecke o.Ä. in die entsprechenden Projekte einzubinden. Siehe [fhir.kbv.de](https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION).|
 
 **Beispiel**:
 
@@ -36,7 +36,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-ICD10GMDiagnosesicherheit ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit&scope=de.basisprofil.r4@1.4.0))
+**Name**: Extension-ICD10GMDiagnosesicherheit ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit' select description```
 
@@ -64,7 +64,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ----
 
-**Name**: Extension-ICD10GMMehrfachcodierungs-Kennzeichen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen&scope=de.basisprofil.r4@1.4.0))
+**Name**: Extension-ICD10GMMehrfachcodierungs-Kennzeichen ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen' select description```
 
@@ -89,7 +89,7 @@ Folgende Extensions werden im Kontext der Abbildung einer Kodierung nach [ICD-10
 
 ### Lebensphase
 
-**Name**: ExtensionLebensphase ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/lebensphase&scope=de.basisprofil.r4@1.4.0))
+**Name**: ExtensionLebensphase ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/lebensphase&scope=de.basisprofil.r4@1.5.3))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen' select description```
 

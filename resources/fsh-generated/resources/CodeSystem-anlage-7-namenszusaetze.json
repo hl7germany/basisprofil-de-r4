@@ -4,7 +4,12 @@
   "content": "complete",
   "name": "DeuevAnlage7Namenszusaetze",
   "id": "anlage-7-namenszusaetze",
+<<<<<<< HEAD
   "description": "Tabelle der gültigen Namenszusätze",
+=======
+  "title": "Tabelle der gültigen Namenszusätze",
+  "description": "Namenszusätze im Nachnamen nach DEÜV Anlage 7",
+>>>>>>> remotes/origin/master
   "version": "2.25",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [
@@ -274,7 +279,7 @@
     }
   ],
   "experimental": false,
-  "date": "2023-11-30",
+  "date": "2025-01-30",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
@@ -293,5 +298,6 @@
   },
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-7-namenszusaetze",
   "count": 66
 }

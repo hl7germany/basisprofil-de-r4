@@ -33,36 +33,34 @@ jobs:
         uses: actions/checkout@v4
         if: github.event_name != 'pull_request'
         
-      # Install .NET runtime
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+      - name: Validate Resource Status
+        uses: patrick-werner/fhir-resource-status-check@1.1.0
         with:
-          dotnet-version: 6.0.x
-      
-      # Install Java runtime (only needed if you want to run the offical HL7 Java validator)
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'microsoft'
-          java-version: '17'
+          folder: '.resources/fsh-generated/resources/'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.4.0
+        uses: FirelyTeam/firely-terminal-pipeline@v0.6.8
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
+          JAVA_VALIDATION_OPTIONS: -allow-example-urls true -output-style compact -html-output validation.html -show-message-ids -language de -jurisdiction de -display-issues-are-warnings -advisor-file validator/advisor.json -resolution-context file:resources/fsh-generated/resources/
           PATH_TO_QUALITY_CONTROL_RULES: qc/custom
-          OUTPUT_FORMAT: RAW
-          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
           SUSHI_OPTIONS: resources/
-          JAVA_VALIDATOR_VERSION: 6.2.3
-          SUSHI_VERSION: 3.5.0
-    
+          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
+
+      - name: Convert Validation Report
+        uses: patrick-werner/fhir-html-validation-to-markdown@1.0.0
+        with:
+          input_file: 'validation.html'
+
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'resources/fsh-generated/resources/'
+          committer_name: GitHub Actions Bot
+          committer_email: ActionBot@github.com
+          add: resources/fsh-generated/resources/
+          message: auto-generated FHIR files by GitHub Actions (CI FSH to FHIR Validation)

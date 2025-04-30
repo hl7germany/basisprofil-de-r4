@@ -1,6 +1,6 @@
 #### Atemfrequenz
 
-**Name**: VitalSignDE_Atemfrequenz ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz&scope=de.basisprofil.r4@1.4.0))
+**Name**: VitalSignDE_Atemfrequenz ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz&scope=de.basisprofil.r4@1.5.3))
 
 **Canonical**: `http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz`
 
