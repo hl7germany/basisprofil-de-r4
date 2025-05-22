@@ -5,7 +5,7 @@
   "name": "KontaktDiagnoseProzedur",
   "id": "KontaktDiagnoseProzedur",
   "title": "KontaktDiagnoseProzedur",
-  "description": "Rolle/Relevanz von Diagnosen und Prozeduren im Encounter-Kontext",
+  "description": "Rolle/Relevanz von Diagnosen",
   "version": "1.5.3",
   "url": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
   "concept": [
@@ -32,7 +32,7 @@
     {
       "code": "hospital-main-diagnosis",
       "display": "Krankenhaus Hauptdiagnose",
-      "definition": "Identisch zu 'principle-DRG' für Diagnosen mit DRG-Relevanz. Hauptdiagnose für alle weiteren Abrechnungsarten."
+      "definition": "Hauptdiagnose für alle weiteren Abrechnungsarten außer einer DRG-Abrechnung (hier ist 'principle-DRG' zu verwenden)."
     },
     {
       "code": "infection-control-diagnosis",
