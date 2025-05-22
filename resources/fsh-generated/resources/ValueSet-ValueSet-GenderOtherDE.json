@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "GenderOtherDE",
+  "name": "GenderOtherDEVS",
   "id": "ValueSet-GenderOtherDE",
   "title": "GenderOtherDE ValueSet",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KB",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "url": "http://fhir.de/ValueSet/gender-other-de",
   "experimental": false,
   "date": "2025-01-30",

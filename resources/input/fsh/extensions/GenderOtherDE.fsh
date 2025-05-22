@@ -16,5 +16,5 @@ Description: "Extension zur genaueren Differenzierung des administrativen Geschl
 * ^context[=].expression = "Patient.contact.gender"
 * value[x] 1..
 * value[x] only Coding
-* value[x] from GenderOtherDE (required)
+* value[x] from GenderOtherDEVS (required)
   * obeys gender-amtlich-1

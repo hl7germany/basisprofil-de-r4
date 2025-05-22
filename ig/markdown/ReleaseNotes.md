@@ -1,5 +1,9 @@
 ### Release Notes
 
+v1.5.4 - 28.04.25
+* `changed` Loinc slice auf abstraktem Profil VitalSignDE entfernt und durch ein RuleSet auf den Einzelprofilen ersetzt. Diese Änderung hat keinen Einfluss auf die Validierung und ist voll abwärtskompatibel.
+* `fixed` Duplizierte Namen der FHIR Artefakte wurden korrigiert. Diese Änderung hat keinen Einfluss auf die Validierung und ist voll abwärtskompatibel.
+
 v1.5.3 - 18.03.25
 * `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
 

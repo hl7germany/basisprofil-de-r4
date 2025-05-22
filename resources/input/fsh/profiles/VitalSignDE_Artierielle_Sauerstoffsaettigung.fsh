@@ -5,6 +5,7 @@ Title: "Observation-Profil Arterielle Sauerstoffsaettigung"
 Description: "Observation-Profil Arterielle Sauerstoffsaettigung"
 * insert Meta
 * code 
+  * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..* and
       loinc-zusatzcode 0..1

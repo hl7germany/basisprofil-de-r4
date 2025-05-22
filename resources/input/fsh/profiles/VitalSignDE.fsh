@@ -13,14 +13,9 @@ Description: "Observation-Profil VitalSignDE ist das Parentprofil der restlichen
 * category contains VSCat 1..1
 * category[VSCat] = $observation-category#vital-signs
 * code
-  * coding
+  * coding 1..
     * system 1..
     * code 1..
-    * ^slicing.discriminator.type = #pattern
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * coding contains 
-      loinc 1..1
 * subject 1..
 * subject only Reference(Patient)
 * effective[x] 1..

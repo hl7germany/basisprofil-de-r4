@@ -5,7 +5,7 @@ Deutsches Profil zur Abbildung des Pflegegrads eines Patienten incl. Abbildung d
 
 #### Profil
 
-**Name**: ObservationDePflegegrad ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-pflegegrad&scope=de.basisprofil.r4@1.5.3))
+**Name**: ObservationDePflegegrad ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/observation-de-pflegegrad&scope=de.basisprofil.r4@1.5.4))
 
 **Canonical**: `http://fhir.de/StructureDefinition/observation-de-pflegegrad`
 

@@ -38,7 +38,7 @@ Folgende Constraints sind für Condition.code zu beachten:
 
 @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/CodingICD10GM' for differential.element.constraint select key, severity, human, expression```
 
-Um auf der condition-related Extension auch Suchen zu können wurde wurde der Suchparameter **related** ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/SearchParameter/Condition-related&scope=de.basisprofil.r4@1.5.3)) erstellt.
+Um auf der condition-related Extension auch Suchen zu können wurde wurde der Suchparameter **related** ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/SearchParameter/Condition-related&scope=de.basisprofil.r4@1.5.4)) erstellt.
 
 Um stets alle Codes einer Mehrfachkodierung zu erhalten, empfiehlt es sich ICD-10-GM Diagnosen stets mittels revinclude  
  `GET [base]/Condition?_id=123&_revinclude=Condition:related` abzurufen.
