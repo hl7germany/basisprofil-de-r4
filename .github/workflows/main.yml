@@ -57,7 +57,7 @@ jobs:
           retention-days: 1
 
       - name: Convert Validation Report
-        uses: patrick-werner/validation-outcome-markdown-renderer@0.2.0
+        uses: patrick-werner/validation-outcome-markdown-renderer@1.0.1
         with:
           bundle-file: validation.json
           include: warnings
