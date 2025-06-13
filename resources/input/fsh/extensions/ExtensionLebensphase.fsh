@@ -6,7 +6,7 @@ Description: "Eine Lebensphase kann beispielsweise erfasst werden um den Zeitrau
 * insert Meta
 * ^copyright = "Kassenärztliche Bundesvereinigung (KBV)"
 * ^context[+].type = #element
-* ^context[=].expression = "DateTime"
+* ^context[=].expression = "dateTime"
 * ^context[+].type = #element
 * ^context[=].expression = "Period.start"
 * ^context[+].type = #element
