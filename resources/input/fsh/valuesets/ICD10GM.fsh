@@ -1,4 +1,4 @@
-ValueSet: ICD10GM
+ValueSet: ICD10GMVS
 Id: valueset-ICD-10-GM
 Title: "ICD10GM ValueSet"
 Description: "ICD-10-GM"
