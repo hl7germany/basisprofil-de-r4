@@ -10,3 +10,4 @@ Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärz
 * value[x] from Wahlleistungen (preferred)
   * system 1..
   * code 1..
+  * ^definition = "Diese Extension sollte nur verwendet werden für gewünschte Wahlleistungen. Erbrachte Wahlleistungen sollten als ChargeItem-Ressource abgebildet werden. Zudem sind hier nur Wahlleistungen bezogen auf die Unterkunft und ärztliche Wahlleistungen abzubilden. Medizinische Wahlleistungen sind per ServiceRequest-Ressource abzubilden."
