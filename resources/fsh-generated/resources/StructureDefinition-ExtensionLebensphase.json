@@ -27,7 +27,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "DateTime"
+      "expression": "dateTime"
     },
     {
       "type": "element",
