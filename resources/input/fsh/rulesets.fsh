@@ -3,7 +3,7 @@ Alias: $version = 1.5.4
 RuleSet: MetaNoVersion
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-01-30"
+* ^date = "2025-06-16"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
@@ -16,7 +16,7 @@ RuleSet: Meta-Instance
 * status = #active
 * version = $version
 * experimental = false
-* date = "2025-01-30"
+* date = "2025-06-16"
 * publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * contact.telecom.system = #url
 * contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"

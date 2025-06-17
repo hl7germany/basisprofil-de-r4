@@ -6,7 +6,7 @@
 ---
 Version: 1.5.4 ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 30.01.2025
+Datum: 16.06.2025
 
 Status: Veröffentlicht
 

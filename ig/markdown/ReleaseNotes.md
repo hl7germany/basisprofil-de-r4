@@ -1,8 +1,14 @@
 ### Release Notes
 
-v1.5.4 - 28.04.25
+v1.5.4 - 16.06.25
+
+* `added` Hinweise zur Handhabung von Organisationskontakt hinzugefügt.
 * `changed` Loinc slice auf abstraktem Profil VitalSignDE entfernt und durch ein RuleSet auf den Einzelprofilen ersetzt. Diese Änderung hat keinen Einfluss auf die Validierung und ist voll abwärtskompatibel.
+* `changed` CodeSystemAufnahmegrundErsteUndZweiteStelle um die neusten Codes nach § 301 Abs. 1 Satz 1 SGB V erweitert.
+* `changed` CodeSystem "KontaktDiagnoseProzedur" enthält nun verbesserte Beschreibungen.
 * `fixed` Duplizierte Namen der FHIR Artefakte wurden korrigiert. Diese Änderung hat keinen Einfluss auf die Validierung und ist voll abwärtskompatibel.
+* `fixed` Typo im Namen "ExtenstionEntlassungsgrund" korrigiert.
+* `fixed` Context-Element der Extension "Lebensphase" war fehlerhaft.
 
 v1.5.3 - 18.03.25
 * `fixed` die in den Vitalparametern genutzten, optionalen, SnomedCT-VS enthielten nicht alle benötigten Konzepte, fehlende Konzepte wurden ergänzt
