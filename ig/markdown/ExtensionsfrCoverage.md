@@ -275,7 +275,7 @@ Folgende Extensions sind notwendig um Informationen der elektronische Gesundheit
 ```xml
 <extension url="http://fhir.de/StructureDefinition/gkv/wop">
     <valueCoding>
-        <system value="https://fhir.kbv.de/CodeSystem/CS_AW_Krankenversicherung_WOP" />
+        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ITA_WOP" />
         <code value="38" />
         <display value="Nordrhein" />
     </valueCoding>

@@ -80,7 +80,7 @@ Usage: #example
 * extension[=].extension[=].valueBoolean = false
 * extension[=].url = "http://fhir.de/StructureDefinition/gkv/kostenerstattung"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/wop"
-* extension[=].valueCoding = $CS_AW_Krankenversicherung_WOP#38 "Nordrhein"
+* extension[=].valueCoding = $KBV_CS_SFHIR_ITA_WOP#38 "Nordrhein"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
 * extension[=].valueCoding = $74_CS_SFHIR_KBV_PERSONENGRUPPE#06 "BVG (Gesetz über die Versorgung der Opfer des Krieges)"
 * extension[+].extension[+].url = "art"
