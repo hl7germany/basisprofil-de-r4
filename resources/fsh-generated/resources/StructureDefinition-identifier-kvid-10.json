@@ -31,14 +31,6 @@
       {
         "id": "Identifier.type",
         "path": "Identifier.type",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "KVZ10",
-              "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
-            }
-          ]
-        },
         "constraint": [
           {
             "key": "kvid-2",
