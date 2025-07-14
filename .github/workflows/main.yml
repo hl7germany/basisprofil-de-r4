@@ -34,7 +34,7 @@ jobs:
         if: github.event_name != 'pull_request'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.7.3
+        uses: FirelyTeam/firely-terminal-pipeline@v0.7.4
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
@@ -45,6 +45,7 @@ jobs:
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
           SUSHI_OPTIONS: resources/
+          TERMINOLOGY_SERVICE_BFARM_ENABLED: true
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
 
       - name: Upload validation artifacts
@@ -61,6 +62,11 @@ jobs:
         with:
           bundle-file: validation.json
           include: warnings
+          filters: |
+            # Struktur: fileName|messageId|detailsWildcard|location
+            # Filter errors for deprecated ekg codes
+            |Unknown_Code_in_Version|*Unknown code 'LP7386-6'*|
+            |Unknown_Code_in_Version|*Unknown code 'LP7386-4'*|
 
       - name: Validate Resource Status
         uses: patrick-werner/fhir-resource-status-check@1.2.0
