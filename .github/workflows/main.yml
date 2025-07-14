@@ -62,7 +62,11 @@ jobs:
         with:
           bundle-file: validation.json
           include: warnings
-
+          filters: |
+            # Struktur: fileName|messageId|detailsWildcard|location
+            # Filter errors for deprecated ekg codes
+            |Unknown_Code_in_Version|*Unknown code 'LP7386-6'*|
+            |Unknown_Code_in_Version|*Unknown code 'LP7386-4'*|
       - name: Validate Resource Status
         uses: patrick-werner/fhir-resource-status-check@1.2.0
         with:
