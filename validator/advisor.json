@@ -1,6 +1,8 @@
 { 
   "suppress" : [
     "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
-    "SD_PATH_SLICING_DEPRECATED"
+    "SD_PATH_SLICING_DEPRECATED",
+    "Unknown_Code_in_Version@Observation.​component[1].​code.​coding[0].​code",
+    "Unknown_Code_in_Version@Observation.​component[2].​code.​coding[0].​code",
   ]
 }
