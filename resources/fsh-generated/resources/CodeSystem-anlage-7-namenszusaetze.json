@@ -154,8 +154,16 @@
       "display": "Fürst"
     },
     {
-      "code": "Fürstin Graf",
-      "display": "Fürstin Graf"
+      "code": "Fürstin",
+      "display": "Fürstin"
+    },
+    {
+      "code": "Gr",
+      "display": "Gr"
+    },
+    {
+      "code": "Graf",
+      "display": "Graf"
     },
     {
       "code": "Gräfin",
@@ -186,16 +194,40 @@
       "display": "Großherzogin"
     },
     {
-      "code": "Gr Markgraf",
-      "display": "Gr Markgraf"
-    },
-    {
       "code": "Herzog",
       "display": "Herzog"
     },
     {
       "code": "Herzogin",
       "display": "Herzogin"
+    },
+    {
+      "code": "Jhr",
+      "display": "Jhr"
+    },
+    {
+      "code": "Jhr.",
+      "display": "Jhr."
+    },
+    {
+      "code": "Jonkheer",
+      "display": "Jonkheer"
+    },
+    {
+      "code": "Junker",
+      "display": "Junker"
+    },
+    {
+      "code": "Landgraf",
+      "display": "Landgraf"
+    },
+    {
+      "code": "Landgräfin",
+      "display": "Landgräfin"
+    },
+    {
+      "code": "Markgraf",
+      "display": "Markgraf"
     },
     {
       "code": "Markgräfin",
@@ -230,20 +262,8 @@
       "display": "Przin"
     },
     {
-      "code": "Jhr",
-      "display": "Jhr"
-    },
-    {
-      "code": "Jhr.",
-      "display": "Jhr."
-    },
-    {
-      "code": "Jonkheer",
-      "display": "Jonkheer"
-    },
-    {
-      "code": "Junker Rabe",
-      "display": "Junker Rabe"
+      "code": "Rabe",
+      "display": "Rabe"
     },
     {
       "code": "Reichsgraf",
@@ -262,12 +282,8 @@
       "display": "Rr"
     },
     {
-      "code": "Landgraf",
-      "display": "Landgraf"
-    },
-    {
-      "code": "Landgräfin Truchsess",
-      "display": "Landgräfin Truchsess"
+      "code": "Truchsess",
+      "display": "Truchsess"
     },
     {
       "code": "Truchseß",
@@ -295,5 +311,5 @@
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/dkgev/anlage-7-namenszusaetze",
-  "count": 66
+  "count": 70
 }
