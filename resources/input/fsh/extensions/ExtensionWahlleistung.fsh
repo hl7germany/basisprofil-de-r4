@@ -1,6 +1,7 @@
 Extension: ExtensionWahlleistung
 Id: Wahlleistung
-Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärztliche Wahlleistungen) während eines Kontaktes mit einer Gesundheitseinrichtung"
+Description: "Dokumentation von gewünschten Wahlleistungen (Unterkunft und Ärztliche Wahlleistungen) während eines Kontaktes mit einer Gesundheitseinrichtung.
+*Hinweis:* Diese Extension sollte nur verwendet werden für gewünschte Wahlleistungen. Erbrachte Wahlleistungen sollten als ChargeItem-Ressource abgebildet werden. Zudem sind hier nur Wahlleistungen bezogen auf die Unterkunft und ärztliche Wahlleistungen abzubilden. Medizinische Wahlleistungen sind per ServiceRequest-Ressource abzubilden."
 * insert Meta
 * ^copyright = "HL7 Deutschland e.V."
 * ^context.type = #element

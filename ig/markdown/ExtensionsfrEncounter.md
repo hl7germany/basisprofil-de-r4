@@ -89,6 +89,7 @@ Weitere Infos siehe [Datenübermittlung nach § 301 Abs. 3 SGB V](https://www.dk
 
 **Hinweise**:
 Diese Extension sollte **nur** verwendet werden für gewünschte Wahlleistungen. Erbrachte Wahlleistungen sollten als ChargeItem-Ressource abgebildet werden. Zudem sind hier nur Wahlleistungen bezogen auf die Unterkunft und ärztliche Wahlleistungen abzubilden. Medizinische Wahlleistungen sind per ServiceRequest-Ressource abzubilden.
+Für die Abrechnung benötigte Informationen über Wahlleistungen sind in einner ChargeItem-Ressource abzubilden. 
 
 **Beispiel**:
 
