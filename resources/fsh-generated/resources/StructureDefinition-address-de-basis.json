@@ -143,6 +143,19 @@
         ]
       },
       {
+        "id": "Address.line.extension",
+        "path": "Address.line.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "Address.line.extension:Strasse",
         "path": "Address.line.extension",
         "sliceName": "Strasse",
@@ -235,9 +248,66 @@
         "id": "Address.country",
         "path": "Address.country",
         "short": "Staat",
-        "definition": "Staat (vorzugsweise als 2-Stelliger ISO-Ländercode).\r\nEs obliegt abgeleiteten Profilen, hier die Verwendung der ISO-Ländercodes verbindlich vorzuschreiben",
+        "definition": "Staatsangabe im Volltext (z.B. zur postalischen Adressierung)",
+        "example": [
+          {
+            "valueString": "Deutschland"
+          }
+        ],
         "binding": {
           "strength": "preferred",
+          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+        }
+      },
+      {
+        "id": "Address.country.extension",
+        "path": "Address.country.extension",
+        "slicing": {
+          "rules": "open",
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            },
+            {
+              "type": "value",
+              "path": "value.ofType(Coding).system"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Address.country.extension:countryCode",
+        "path": "Address.country.extension",
+        "sliceName": "countryCode",
+        "short": "Länderkennzeichen nach ISO 3166-2",
+        "definition": "Kodierte Angabe des Länderkennzeichens nach ISO 3166-2.",
+        "comment": "Diese Abbildung entspricht der auf EU-Ebene in Abstimmung befindlichen Profilierung zur [Kodierung der Landesangabe](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html).\nDurch die Verwendung der internationalen Kodierung wird die interoperable Verwendung der Adressangabe erleichtert.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-codedString"
+            ]
+          }
+        ],
+        "example": [
+          {
+            "valueCoding": {
+              "code": "DE",
+              "system": "urn:iso:std:iso:3166",
+              "display": "Deutschland"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Address.country.extension:countryCode.value[x]",
+        "path": "Address.country.extension.value[x]",
+        "binding": {
+          "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
         }
       }

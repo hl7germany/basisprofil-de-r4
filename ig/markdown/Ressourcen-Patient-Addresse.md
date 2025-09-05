@@ -89,7 +89,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     <line value="Milchstrasse 42" />
     <city value="Spöck" />
     <postalCode value="76297" />
-    <country value="DE" />
+    <country value="Deutschland" />
  </address>
 ```
 
@@ -107,7 +107,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     </line>
     <city value="Musterstadt" />
     <postalCode value="77777" />
-    <country value="DE" />
+    <country value="Deutschland" />
 </address>
 ```
 
@@ -123,7 +123,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     </line>
     <city value="Musterstadt" />
     <postalCode value="77777" />
-    <country value="DE" />
+    <country value="Deutschland" />
 </address>
 ```
 
@@ -152,3 +152,24 @@ Beispiel:
 
 #### Amtlicher Gemeindeschlüssel
 Für Forschungsdatensätzen mit Bezug auf regionale Auswertungen kann zusätzlich zur PLZ der [Amtliche Gemeindeschlüssel](https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel) angegeben werden. Hierzu kann die Extension Extension-destatis-ags verwendet werden. Siehe {{pagelink:ig/markdown/ExtensionsfrPatient.md}}.
+
+------------
+
+#### Staat (Land)
+Im Einklang mit der [Profilierung auf europäischer Ebene](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html) wird für die nach ISO 3166-2 kodierte Angabe des Lands eine [Coded string-Extension](http://hl7.org/fhir/StructureDefinition/iso21090-codedString) verwendet. Es wird empfohlen, das `country`-Element zur Angabe der textuellen Landesangabe (z.B. zur Verwendung in der postalischen Adressierung) zu nutzen. Beispiel:
+
+```xml
+<address>
+    <line value="Musterstraße 1" />
+    <city value="Musterstadt" />
+    <postalCode value="77777" />
+    <country value="Deutschland">
+        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-codedString">
+            <valueCoding>
+                <system value="urn:iso:std:iso:3166" />
+                <code value="DE" />
+            </valueCoding>
+        </extension>
+    </country>
+</address>
+```

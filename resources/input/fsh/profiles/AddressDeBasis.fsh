@@ -53,4 +53,21 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
   * ^definition = "Postleitzahl gemäß der im jeweiligen Land gültigen Konventionen"
 * country from $iso3166-1-2 (preferred)
   * ^short = "Staat"
-  * ^definition = "Staat (vorzugsweise als 2-Stelliger ISO-Ländercode).\r\nEs obliegt abgeleiteten Profilen, hier die Verwendung der ISO-Ländercodes verbindlich vorzuschreiben"
+  * ^definition = "Staatsangabe im Volltext (z.B. zur postalischen Adressierung)"
+  * ^example.valueString = "Deutschland"
+  * extension
+    * ^slicing.rules = #open
+    * ^slicing.discriminator[+].type = #value
+    * ^slicing.discriminator[=].path = "url"
+    * ^slicing.discriminator[+].type = #value
+    * ^slicing.discriminator[=].path = "value.ofType(Coding).system"
+  * extension contains $codedString named countryCode 0..1
+  * extension[countryCode]
+    * ^short = "Länderkennzeichen nach ISO 3166-2"
+    * ^definition = "Kodierte Angabe des Länderkennzeichens nach ISO 3166-2."
+    * ^comment = """
+        Diese Abbildung entspricht der auf EU-Ebene in Abstimmung befindlichen Profilierung zur [Kodierung der Landesangabe](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html).
+        Durch die Verwendung der internationalen Kodierung wird die interoperable Verwendung der Adressangabe erleichtert.
+      """
+    * ^example.valueCoding = urn:iso:std:iso:3166#DE "Deutschland"
+    * valueCoding from $iso3166-1-2 (required)
