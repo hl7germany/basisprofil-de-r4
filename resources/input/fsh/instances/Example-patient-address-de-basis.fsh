@@ -18,3 +18,6 @@ Usage: #example
   * extension[=].valueString = "Musterstr."
 * address.city = "Köln"
 * address.postalCode = "50823"
+* address.country = "Deutschland"
+  * extension[+].url = $codedString
+  * extension[=].valueCoding = urn:iso:std:iso:3166#DE "Deutschland"
