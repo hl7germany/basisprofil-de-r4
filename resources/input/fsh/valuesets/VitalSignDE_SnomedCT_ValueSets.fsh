@@ -36,19 +36,22 @@ Description: "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * include codes from system SNOMED_CT where concept is-a #1153637007 // Körpergröße
 
-ValueSet: VitalSignDE_Koerpertemperatur_SNOMED_CT
+ValueSet: VitalSignDE_Koerperkerntemperatur_SNOMED_CT
 Id: VitalSignDE-Koerpertemperatur-SNOMED-CT
-Title: "VitalSignDE_Koerpertemperatur_SNOMED_CT"
-Description: "VitalSignDE_Koerpertemperatur_SNOMED_CT enthält die erwarteten $sct Codes für Koerpertemperatur"
+Title: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT"
+Description: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwarteten $sct Codes für die Körperkerntemperatur"
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* include codes from system SNOMED_CT where concept is-a #276885007
-* $sct#415882003 "Axillary temperature"
-* $sct#415929009 "Groin temperature"
-* $sct#415945006 "Orale Temperatur"
+* $sct#415882003 "Estimated core body temperature measured in axillary region (observable entity)"
+* $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
+* $sct#415945006 "Körperkerntemperatur gemessen im sublingualen Raum"
+* $sct#1366425007 "Estimated core body temperature measured on forehead (observable entity)"
 * $sct#415922000 "Temperature of forehead (observable entity)" // delete in future release (no core temperature)
+  * ^extension[$valueset-deprecated].valueBoolean = true
 * $sct#386725007 "Body temperature (observable entity)" // delete in future release (no core temperature)
+  * ^extension[$valueset-deprecated].valueBoolean = true
+* include codes from system SNOMED_CT where concept is-a #276885007
 
 ValueSet: VitalSignDE_Kopfumfang_SNOMED_CT
 Id: VitalSignDE-Kopfumfang-SNOMED-CT

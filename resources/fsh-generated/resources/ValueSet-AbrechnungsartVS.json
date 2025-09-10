@@ -5,7 +5,7 @@
   "id": "AbrechnungsartVS",
   "title": "Abrechnungsart ValueSet",
   "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/dkgev/Abrechnungsart",
   "experimental": false,
   "date": "2025-06-16",

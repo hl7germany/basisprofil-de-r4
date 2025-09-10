@@ -5,7 +5,7 @@
   "id": "pflegegrad-de",
   "title": "PflegegradDE ValueSet",
   "description": "Codes zur genaueren Differenzierung des Pflegegrads.",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "experimental": false,
   "date": "2025-06-16",

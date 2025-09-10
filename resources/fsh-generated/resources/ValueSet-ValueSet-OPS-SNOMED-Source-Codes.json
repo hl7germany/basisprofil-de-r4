@@ -5,7 +5,7 @@
   "id": "ValueSet-OPS-SNOMED-Source-Codes",
   "title": "ValueSet of OPS Source Codes for the OPS-SNOMED ConceptMap",
   "description": "ValueSet containing all source concepts from the ConceptMap OPS-SNOMED Category Mapping",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
   "experimental": false,
   "date": "2025-06-16",

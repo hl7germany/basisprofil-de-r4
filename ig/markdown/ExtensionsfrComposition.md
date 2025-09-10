@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext der [FHIR Ressource 'Composition'](https:/
 
 ----
 
-**Name**: ExtensionInformationRecipient ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/informationrecipient&scope=de.basisprofil.r4@1.5.4))
+**Name**: ExtensionInformationRecipient ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/informationrecipient&scope=de.basisprofil.r4@1.6.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/informationrecipient`
 

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-sauerstoffsaettigung",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "VitalSignDE_Arterielle_Sauerstoffsaettigung",
   "title": "Observation-Profil Arterielle Sauerstoffsaettigung",
   "status": "active",
