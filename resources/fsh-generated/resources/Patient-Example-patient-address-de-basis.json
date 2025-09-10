@@ -54,7 +54,20 @@
         }
       ],
       "city": "Köln",
-      "postalCode": "50823"
+      "postalCode": "50823",
+      "country": "Deutschland",
+      "_country": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-codedString",
+            "valueCoding": {
+              "code": "DE",
+              "system": "urn:iso:std:iso:3166",
+              "display": "Deutschland"
+            }
+          }
+        ]
+      }
     }
   ]
 }
