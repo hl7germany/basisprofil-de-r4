@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "besondere-personengruppe",
   "url": "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "ExtensionGkvBesonderePersonengruppe",
   "status": "active",
   "experimental": false,

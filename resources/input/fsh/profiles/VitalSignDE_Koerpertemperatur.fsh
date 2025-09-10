@@ -1,20 +1,20 @@
-Profile: VitalSignDE_Koerpertemperatur
+Profile: VitalSignDE_Koerperkerntemperatur
 Parent: VitalSignDE
 Id: observation-de-vitalsign-koerpertemperatur
-Title: "Observation-Profil Körpertemperatur"
-Description: "Observation-Profil Körpertemperatur"
+Title: "Observation-Profil Körperkerntemperatur"
+Description: "Observation-Profil Körperkerntemperatur"
 * insert Meta
 * code
   * insert VitalSignDESlicingWithLoinc
   * coding contains
       snomed 0..*
   * coding[loinc] = $loinc#8310-5
-  * coding[snomed] from VitalSignDE_Koerpertemperatur_SNOMED_CT
+  * coding[snomed] from VitalSignDE_Koerperkerntemperatur_SNOMED_CT
     * ^patternCoding.system = $sct
 * valueQuantity = $unitsofmeasure#Cel
 
 Instance: Example-observation-koerpertemperatur
-InstanceOf: VitalSignDE_Koerpertemperatur
+InstanceOf: VitalSignDE_Koerperkerntemperatur
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/vitalsigns"
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodytemp"

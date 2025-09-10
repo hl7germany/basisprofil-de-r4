@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Herzfrequenz-SNOMED-CT",
   "title": "VitalSignDE_Herzfrequenz_SNOMED_CT",
   "description": "VitalSignDE_Herzfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Herzfrequenz",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Herzfrequenz-SNOMED-CT",
   "experimental": false,
   "date": "2025-06-16",

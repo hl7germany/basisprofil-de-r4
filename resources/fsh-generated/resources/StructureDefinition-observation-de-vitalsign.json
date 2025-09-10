@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "VitalSignDE",
   "title": "Observation-Profil VitalSignDE",
   "status": "active",

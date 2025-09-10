@@ -5,7 +5,7 @@
   "id": "UcumVitalsCommonDE",
   "title": "UCUM Vitals Common DE",
   "description": "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten für value[x]",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
   "experimental": false,
   "date": "2025-06-16",

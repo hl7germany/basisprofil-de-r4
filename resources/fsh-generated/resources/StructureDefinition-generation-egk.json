@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "generation-egk",
   "url": "http://fhir.de/StructureDefinition/gkv/generation-egk",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "ExtensionGkvGenerationEgk",
   "title": "Extension zur Erfassung der Generation der eGK",
   "status": "active",

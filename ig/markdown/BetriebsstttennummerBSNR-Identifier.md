@@ -2,7 +2,7 @@
 
 Zur Abbildung einer [Betriebsstättennummer](https://www.kbv.de/media/sp/Arztnummern_Richtlinie.pdf) zur eindeutigen Identifizierung von Betriebstätten und Nebenbetriebsstätten kann folgendes Identifier-Profil verwendet werden:
 
-**Name**: IdentifierBsnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-bsnr&scope=de.basisprofil.r4@1.5.4))
+**Name**: IdentifierBsnr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-bsnr&scope=de.basisprofil.r4@1.6.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-bsnr`
 

@@ -1,7 +1,7 @@
 ### {{page-title}}
 
 
-**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsart@1.5.4))
+**Name**: Extension Abrechnungsart ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsart@1.6.0))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsart' select description```
 
@@ -31,7 +31,7 @@
 
 
 **Name**: Extension Fallbezogene Abrechnungsrelevanz von Diagnosen und Prozeduren
-([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.5.4))
+([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur@1.6.0))
 
 **Beschreibung**: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/ExtensionAbrechnungsDiagnoseProzedur' select description```
 

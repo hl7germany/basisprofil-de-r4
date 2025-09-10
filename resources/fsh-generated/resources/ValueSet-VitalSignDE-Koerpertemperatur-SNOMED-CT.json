@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
+  "name": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT",
   "id": "VitalSignDE-Koerpertemperatur-SNOMED-CT",
-  "title": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
-  "description": "VitalSignDE_Koerpertemperatur_SNOMED_CT enthält die erwarteten $sct Codes für Koerpertemperatur",
-  "version": "1.5.4",
+  "title": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT",
+  "description": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwarteten $sct Codes für die Körperkerntemperatur",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "experimental": false,
   "date": "2025-06-16",
@@ -30,36 +30,52 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
-        "filter": [
+        "concept": [
           {
-            "property": "concept",
-            "op": "is-a",
-            "value": "276885007"
+            "code": "415882003",
+            "display": "Estimated core body temperature measured in axillary region (observable entity)"
+          },
+          {
+            "code": "415929009",
+            "display": "Estimated core body temperature measured in inguinal region (observable entity)"
+          },
+          {
+            "code": "415945006",
+            "display": "Körperkerntemperatur gemessen im sublingualen Raum"
+          },
+          {
+            "code": "1366425007",
+            "display": "Estimated core body temperature measured on forehead (observable entity)"
+          },
+          {
+            "code": "415922000",
+            "display": "Temperature of forehead (observable entity)",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-deprecated",
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "code": "386725007",
+            "display": "Body temperature (observable entity)",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-deprecated",
+                "valueBoolean": true
+              }
+            ]
           }
         ]
       },
       {
         "system": "http://snomed.info/sct",
-        "concept": [
+        "filter": [
           {
-            "code": "415882003",
-            "display": "Axillary temperature"
-          },
-          {
-            "code": "415929009",
-            "display": "Groin temperature"
-          },
-          {
-            "code": "415945006",
-            "display": "Orale Temperatur"
-          },
-          {
-            "code": "415922000",
-            "display": "Temperature of forehead (observable entity)"
-          },
-          {
-            "code": "386725007",
-            "display": "Body temperature (observable entity)"
+            "property": "concept",
+            "op": "is-a",
+            "value": "276885007"
           }
         ]
       }

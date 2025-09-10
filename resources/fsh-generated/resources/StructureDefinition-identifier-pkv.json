@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-pkv",
   "url": "http://fhir.de/StructureDefinition/identifier-pkv",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "IdentifierPkv",
   "title": "Identifier-Profil für die Abbildung einer Privatversichertennummer",
   "status": "active",

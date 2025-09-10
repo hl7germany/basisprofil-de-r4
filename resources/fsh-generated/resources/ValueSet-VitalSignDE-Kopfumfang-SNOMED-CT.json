@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Kopfumfang-SNOMED-CT",
   "title": "VitalSignDE_Kopfumfang_SNOMED_CT",
   "description": "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Codes für Kopfumfang",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Kopfumfang-SNOMED-CT",
   "experimental": false,
   "date": "2025-06-16",

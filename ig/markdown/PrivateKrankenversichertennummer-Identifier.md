@@ -17,7 +17,7 @@ In diesem Fall ist das Element `Identifier.assigner` zu verwenden, um mindestens
 Ohne Angabe einer NamingSystem-URL in `Identifier.system` ist es jedoch nicht möglich, einen [Token-Suchparameter](http://hl7.org/implement/standards/fhir/search.html#token) zu definieren, der zuverlässig eindeutige Ergebnisse liefert.
 Falls dies in einem konkreten Szenario zu Problemen führt, bitten wir um [Feedback im FHIR-Chat](https://chat.fhir.org/#narrow/stream/179183-german-(d-a-ch)/topic/NamingSystem.20f.C3.BCr.20PKV.20Nummern)
 
-**Name**: IdentifierPkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv&scope=de.basisprofil.r4@1.5.4))
+**Name**: IdentifierPkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-pkv&scope=de.basisprofil.r4@1.6.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-pkv`
 

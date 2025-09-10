@@ -4,7 +4,7 @@
   "name": "VS_CommonMetaTag_De",
   "id": "common-meta-tag-de",
   "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/common-meta-tag-de",
   "experimental": false,
   "date": "2025-06-16",

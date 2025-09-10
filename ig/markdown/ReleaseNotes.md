@@ -1,5 +1,11 @@
 ### Release Notes
 
+v1.6.0 - tbd
+
+* `changed` VitalSignDE_Koerpertemperatur_SNOMED_CT Die Konzepte: 386725007 "Body temperature (observable entity)" $sct#415922000 "Temperature of forehead (observable entity)" wurden deprecated. Das Konzept: 1366425007 | Estimated core body temperature measured on forehead (observable entity) wurde hinzugefügt.
+* `changed` Umbennung VitalSignDE_Koerpertemperatur_SNOMED_CT nach VitalSignDE_Koerperkerntemperatur_SNOMED_CT
+* `changed` Umbennung VitalSignDE_Koerpertemperatur nach VitalSignDE_Koerperkerntemperatur
+
 v1.5.4 - 16.06.25
 
 * `added` Hinweise zur Handhabung von Organisationskontakt hinzugefügt.
