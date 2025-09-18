@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "CodingICD10GM",
   "url": "http://fhir.de/StructureDefinition/CodingICD10GM",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "CodingICD10GM",
   "title": "Coding-Profil für ICD-10-GM",
   "status": "active",

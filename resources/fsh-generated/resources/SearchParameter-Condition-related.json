@@ -3,7 +3,7 @@
   "id": "Condition-related",
   "url": "http://fhir.de/SearchParameter/Condition-related",
   "status": "active",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "experimental": false,
   "date": "2025-06-16",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",

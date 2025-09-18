@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-standortnummer",
   "url": "http://fhir.de/StructureDefinition/identifier-standortnummer",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "IdentifierStandortnummer",
   "title": "Identifier-Profil für die Standortnummer",
   "status": "active",

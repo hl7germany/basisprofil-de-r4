@@ -2,9 +2,9 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpertemperatur",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-  "version": "1.5.4",
-  "name": "VitalSignDE_Koerpertemperatur",
-  "title": "Observation-Profil Körpertemperatur",
+  "version": "1.6.0",
+  "name": "VitalSignDE_Koerperkerntemperatur",
+  "title": "Observation-Profil Körperkerntemperatur",
   "status": "active",
   "experimental": false,
   "date": "2025-06-16",
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Observation-Profil Körpertemperatur",
+  "description": "Observation-Profil Körperkerntemperatur",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

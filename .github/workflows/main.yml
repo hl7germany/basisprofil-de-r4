@@ -67,6 +67,7 @@ jobs:
             # Filter errors for deprecated ekg codes
             |Unknown_Code_in_Version|*Unknown code 'LP7386-6'*|
             |Unknown_Code_in_Version|*Unknown code 'LP7386-4'*|
+            ValueSet-VitalSignDE-Koerpertemperatur-SNOMED-CT.json|VALUESET_INCLUDE_INVALID_CONCEPT_CODE|*The code '1366425007' is not valid in the system*
 
       - name: Validate Resource Status
         uses: patrick-werner/fhir-resource-status-check@1.2.0

@@ -4,7 +4,7 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.5.4 ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.6.0 ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
 Datum: 16.06.2025
 

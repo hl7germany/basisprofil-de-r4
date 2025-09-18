@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "CodingPZN",
   "url": "http://fhir.de/StructureDefinition/CodingPZN",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "name": "CodingPZN",
   "title": "Coding-Profil für PZN",
   "status": "active",

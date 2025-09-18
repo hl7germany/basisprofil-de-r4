@@ -5,7 +5,7 @@
   "id": "kontaktebene-de",
   "title": "KontaktebeneDe ValueSet",
   "description": "Kontaktebene für die Codierung von Encounter.type",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/kontaktebene-de",
   "experimental": false,
   "date": "2025-06-16",
