@@ -125,7 +125,7 @@
         "max": "3",
         "example": [
           {
-            "label": "Beipiel für Adresszeile mit Extensions für Straße und Hausnummer",
+            "label": "Beispiel für Adresszeile mit Extensions für Straße und Hausnummer",
             "valueString": "Musterweg 42",
             "_valueString": {
               "extension": [
@@ -248,16 +248,13 @@
         "id": "Address.country",
         "path": "Address.country",
         "short": "Staat",
-        "definition": "Staatsangabe im Volltext (z.B. zur postalischen Adressierung)",
+        "definition": "Staatsangabe (ohne festgeschriebenen Wertevorrat)",
         "example": [
           {
+            "label": "Beispiel für textuelle Landesangabe",
             "valueString": "Deutschland"
           }
-        ],
-        "binding": {
-          "strength": "preferred",
-          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
-        }
+        ]
       },
       {
         "id": "Address.country.extension",
@@ -295,6 +292,7 @@
         ],
         "example": [
           {
+            "label": "Beispiel für kodierte Landesangabe",
             "valueCoding": {
               "code": "DE",
               "system": "urn:iso:std:iso:3166",

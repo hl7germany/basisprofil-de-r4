@@ -23,7 +23,7 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
 * line ..3
   * ^short = "Straßenname mit Hausnummer oder Postfach sowie weitere Angaben zur Zustellung"
   * ^definition = "Diese Komponente kann Straßennamen, Hausnummer, Appartmentnummer, Postfach, c/o sowie weitere Zustellungshinweise enthalten. Die Informationen können in mehrere line-Komponenten aufgeteilt werden.\r\nBei Verwendung der Extensions, um Straße, Hausnnummer und Postleitzahl strukturiert zu übermitteln, müssen diese Informationen stets vollständig auch in der line-Komponente, die sie erweitern, enthalten sein, um es Systemen, die diese Extensions nicht verwenden zu ermöglichen, auf diese Informationen zugreifen zu können."
-  * ^example.label = "Beipiel für Adresszeile mit Extensions für Straße und Hausnummer"
+  * ^example.label = "Beispiel für Adresszeile mit Extensions für Straße und Hausnummer"
   * ^example.valueString.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
   * ^example.valueString.extension[=].valueString = "Musterweg"
   * ^example.valueString.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
@@ -51,9 +51,10 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
   * ^definition = "Name (oder Kürzel) des Bundeslandes."
 * postalCode ^short = "Postleitzahl"
   * ^definition = "Postleitzahl gemäß der im jeweiligen Land gültigen Konventionen"
-* country from $iso3166-1-2 (preferred)
+* country
   * ^short = "Staat"
-  * ^definition = "Staatsangabe im Volltext (z.B. zur postalischen Adressierung)"
+  * ^definition = "Staatsangabe (ohne festgeschriebenen Wertevorrat)"
+  * ^example.label = "Beispiel für textuelle Landesangabe"
   * ^example.valueString = "Deutschland"
   * extension
     * ^slicing.rules = #open
@@ -69,5 +70,6 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
         Diese Abbildung entspricht der auf EU-Ebene in Abstimmung befindlichen Profilierung zur [Kodierung der Landesangabe](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html).
         Durch die Verwendung der internationalen Kodierung wird die interoperable Verwendung der Adressangabe erleichtert.
       """
+    * ^example.label = "Beispiel für kodierte Landesangabe"
     * ^example.valueCoding = urn:iso:std:iso:3166#DE "Deutschland"
     * valueCoding from $iso3166-1-2 (required)
