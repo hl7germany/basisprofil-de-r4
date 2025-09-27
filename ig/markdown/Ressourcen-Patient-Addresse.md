@@ -161,7 +161,7 @@ Im Kommentar wird darauf hingewiesen, dass eine Kodierung nach [ISO 3166](https:
 Konsumenten von FHIR-Strukturen müssen generell damit rechnen, in `Address.country` einen Freitext vorzufinden, der sich nicht an eines der gängigen Schemata hält.
 Von einer maschinellen Interpretation dieses Werts wird daher abgeraten.
 
-Um eine maschinenlesbar kodierte Form der Landesangabe zu erhalten, kann das Element `Address.countey` mit Erweiterungen versehen werden.
+Um eine maschinenlesbar kodierte Form der Landesangabe zu erhalten, kann das Element `Address.country` mit Erweiterungen versehen werden.
 Im Einklang mit der [Profilierung auf europäischer Ebene](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html) wird für die nach ISO 3166-2 kodierte Angabe des Lands die Verwendung einer [Coded string-Extension](http://hl7.org/fhir/StructureDefinition/iso21090-codedString) empfohlen.
 In diesem Fall kann das `country`-Element zur Angabe der textuellen Landesangabe (z.B. zur Verwendung in der postalischen Adressierung) verwendet werden. 
 Beispiel:
