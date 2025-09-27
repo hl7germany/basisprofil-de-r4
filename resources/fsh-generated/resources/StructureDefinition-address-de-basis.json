@@ -125,7 +125,7 @@
         "max": "3",
         "example": [
           {
-            "label": "Beipiel für Adresszeile mit Extensions für Straße und Hausnummer",
+            "label": "Beispiel für Adresszeile mit Extensions für Straße und Hausnummer",
             "valueString": "Musterweg 42",
             "_valueString": {
               "extension": [
@@ -235,9 +235,65 @@
         "id": "Address.country",
         "path": "Address.country",
         "short": "Staat",
-        "definition": "Staat (vorzugsweise als 2-Stelliger ISO-Ländercode).\r\nEs obliegt abgeleiteten Profilen, hier die Verwendung der ISO-Ländercodes verbindlich vorzuschreiben",
+        "definition": "Staatsangabe (ohne festgeschriebenen Wertevorrat)",
+        "example": [
+          {
+            "label": "Beispiel für textuelle Landesangabe",
+            "valueString": "Deutschland"
+          }
+        ]
+      },
+      {
+        "id": "Address.country.extension",
+        "path": "Address.country.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            },
+            {
+              "type": "value",
+              "path": "value.ofType(Coding).system"
+            }
+          ],
+          "description": "Extensions are always sliced by (at least) url",
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Address.country.extension:countryCode",
+        "path": "Address.country.extension",
+        "sliceName": "countryCode",
+        "short": "Länderkennzeichen nach ISO 3166-2",
+        "definition": "Kodierte Angabe des Länderkennzeichens nach ISO 3166-2.",
+        "comment": "Diese Abbildung entspricht der auf EU-Ebene in Abstimmung befindlichen Profilierung zur [Kodierung der Landesangabe](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html).\nDurch die Verwendung der internationalen Kodierung wird die interoperable Verwendung der Adressangabe erleichtert.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-codedString"
+            ]
+          }
+        ],
+        "example": [
+          {
+            "label": "Beispiel für kodierte Landesangabe",
+            "valueCoding": {
+              "code": "DE",
+              "system": "urn:iso:std:iso:3166",
+              "display": "Deutschland"
+            }
+          }
+        ]
+      },
+      {
+        "id": "Address.country.extension:countryCode.value[x]",
+        "path": "Address.country.extension.value[x]",
         "binding": {
-          "strength": "preferred",
+          "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
         }
       }

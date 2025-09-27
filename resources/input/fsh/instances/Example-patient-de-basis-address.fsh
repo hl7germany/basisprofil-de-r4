@@ -29,3 +29,5 @@ Usage: #example
 * address[=].state = "DE-BW"
 * address[=].postalCode = "76297"
 * address[=].country = "DE"
+  * extension[+].url = $codedString
+  * extension[=].valueCoding = urn:iso:std:iso:3166#DE "Deutschland"

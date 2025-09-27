@@ -50,3 +50,4 @@ Alias: $KBV_VS_SFHIR_ICD_SEITENLOKALISATION = https://fhir.kbv.de/ValueSet/KBV_V
 Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
 Alias: $structuredefinition-standards-status = http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
 Alias: $valueset-deprecated = http://hl7.org/fhir/StructureDefinition/valueset-deprecated
+Alias: $codedString = http://hl7.org/fhir/StructureDefinition/iso21090-codedString

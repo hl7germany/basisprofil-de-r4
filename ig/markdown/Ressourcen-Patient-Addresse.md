@@ -75,7 +75,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
 
 #### Beispiele für Adressen ohne Extensions
 
-```
+```xml
 <address>
     <line value="221B Baker Street"/>
     <city value="London"/>
@@ -89,7 +89,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     <line value="Milchstrasse 42" />
     <city value="Spöck" />
     <postalCode value="76297" />
-    <country value="DE" />
+    <country value="Deutschland" />
  </address>
 ```
 
@@ -107,7 +107,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     </line>
     <city value="Musterstadt" />
     <postalCode value="77777" />
-    <country value="DE" />
+    <country value="Deutschland" />
 </address>
 ```
 
@@ -123,7 +123,7 @@ Im Allgemeinen wird der Code "both" zur Codierung von Address.type empfohlen. Ei
     </line>
     <city value="Musterstadt" />
     <postalCode value="77777" />
-    <country value="DE" />
+    <country value="Deutschland" />
 </address>
 ```
 
@@ -152,3 +152,52 @@ Beispiel:
 
 #### Amtlicher Gemeindeschlüssel
 Für Forschungsdatensätzen mit Bezug auf regionale Auswertungen kann zusätzlich zur PLZ der [Amtliche Gemeindeschlüssel](https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel) angegeben werden. Hierzu kann die Extension Extension-destatis-ags verwendet werden. Siehe {{pagelink:ig/markdown/ExtensionsfrPatient.md}}.
+
+------------
+
+#### Staat (Land)
+Die Landesangabe im Feld `country` des HL7 FHIR Core-Datentyps [Address](https://hl7.org/fhir/R4/datatypes.html#Address) ist als reiner Text (Typ `string`) ausgeführt.
+Im Kommentar wird darauf hingewiesen, dass eine Kodierung nach [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) erfolgen kann, allerdings ist das nicht verpflichtend.
+Konsumenten von FHIR-Strukturen müssen generell damit rechnen, in `Address.country` einen Freitext vorzufinden, der sich nicht an eines der gängigen Schemata hält.
+Von einer maschinellen Interpretation dieses Werts wird daher abgeraten.
+
+Um eine maschinenlesbar kodierte Form der Landesangabe zu erhalten, kann das Element `Address.country` mit Erweiterungen versehen werden.
+Im Einklang mit der [Profilierung auf europäischer Ebene](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-Address-eu.html) wird für die nach ISO 3166-2 kodierte Angabe des Lands die Verwendung einer [Coded string-Extension](http://hl7.org/fhir/StructureDefinition/iso21090-codedString) empfohlen.
+In diesem Fall kann das `country`-Element zur Angabe der textuellen Landesangabe (z.B. zur Verwendung in der postalischen Adressierung) verwendet werden. 
+Beispiel:
+
+```xml
+<address>
+    <line value="Musterstraße 1" />
+    <city value="Musterstadt" />
+    <postalCode value="77777" />
+    <country value="Deutschland">
+        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-codedString">
+            <valueCoding>
+                <system value="urn:iso:std:iso:3166" />
+                <code value="DE" />
+            </valueCoding>
+        </extension>
+    </country>
+</address>
+```
+
+Es ist ebenfalls zulässig, im `country`-Element einen kodierten Wert zu wiederholen.
+In diesem Fall ist es allerdings nicht möglich, das Schlüsselsystem zu spezifizieren.
+Beispiel:
+
+```xml
+<address>
+    <line value="Musterstraße 1" />
+    <city value="Musterstadt" />
+    <postalCode value="77777" />
+    <country value="DE">
+        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-codedString">
+            <valueCoding>
+                <system value="urn:iso:std:iso:3166" />
+                <code value="DE" />
+            </valueCoding>
+        </extension>
+    </country>
+</address>
+```

@@ -62,7 +62,19 @@
       "city": "Spöck",
       "state": "DE-BW",
       "postalCode": "76297",
-      "country": "DE"
+      "country": "DE",
+      "_country": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-codedString",
+            "valueCoding": {
+              "code": "DE",
+              "system": "urn:iso:std:iso:3166",
+              "display": "Deutschland"
+            }
+          }
+        ]
+      }
     }
   ]
 }
