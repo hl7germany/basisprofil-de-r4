@@ -5,7 +5,7 @@
   "id": "identifier-type-kvid-de-basis",
   "title": "Identifier Type Kvid DeBasis ValueSet",
   "description": "ValueSet zur Codierung des Identifier-Typs für KVID-Identifier",
-  "version": "1.5.4",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/identifier-type-kvid-de-basis",
   "experimental": false,
   "date": "2025-06-16",
