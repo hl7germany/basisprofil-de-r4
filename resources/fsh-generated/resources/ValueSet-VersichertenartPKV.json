@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSetVersichertenartPKV",
+  "id": "VersichertenartPKV",
+  "title": "Versichertenart (PKV)",
+  "description": "Versichertenart von PKV-Versicherten",
+  "version": "1.6.0",
+  "url": "http://fhir.de/ValueSet/pkv/Versichertenart",
+  "experimental": false,
+  "date": "2025-06-16",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/pkv/Versichertenart"
+      }
+    ]
+  }
+}
