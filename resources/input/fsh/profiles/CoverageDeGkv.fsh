@@ -84,7 +84,7 @@ Usage: #example
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
 * extension[=].valueCoding = $74_CS_SFHIR_KBV_PERSONENGRUPPE#06 "BVG (Gesetz über die Versorgung der Opfer des Krieges)"
 * extension[+].extension[+].url = "art"
-* extension[=].extension[=].valueCoding.code = #1
+* extension[=].extension[=].valueCoding = CodeSystemRuhenderLeistungsanspruchGKV#1
 * extension[=].extension[+].url = "dauer"
 * extension[=].extension[=].valuePeriod.start = "2018-01-01"
 * extension[=].url = "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"

@@ -45,6 +45,7 @@
         "sliceName": "art",
         "short": "Gibt die Art des ruhenden Leistungsanspruchs an.",
         "definition": "Gibt die Art des ruhenden Leistungsanspruchs an.",
+        "comment": "Das CodeSystem zur Definition der Werte wurde nachträglich eingefügt. \nDie Werte sind identisch zu den bereits durch die Invariante ruhend-1 erwzungenen Werten.\nEs ist daher ausreichend, das CodeSystem zu ergänzen, um die Werte vollständig zu qualifizieren; eine weiter Anpassung ist nicht erforderlich.\nUm für eine Übergangszeit bestehende Ressourcen nicht zu invalidieren, wird das ValueSet zunächst als preferred binding hinterlegt.",
         "min": 1,
         "max": "1"
       },
@@ -65,7 +66,11 @@
           {
             "code": "Coding"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.de/ValueSet/gkv/RuhenderLeistungsanspruchGKV"
+        }
       },
       {
         "id": "Extension.extension:art.value[x].code",

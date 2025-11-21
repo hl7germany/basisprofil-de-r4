@@ -86,7 +86,8 @@
         {
           "url": "art",
           "valueCoding": {
-            "code": "1"
+            "code": "1",
+            "system": "http://fhir.de/CodeSystem/gkv/RuhenderLeistungsanspruchGKV"
           }
         },
         {
