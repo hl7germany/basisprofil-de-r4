@@ -14,9 +14,16 @@ Description: "Gibt Art und Dauer des ruhenden Leistungsanspruchs des Versicherte
     dauer 1..1
 * extension[art] ^short = "Gibt die Art des ruhenden Leistungsanspruchs an."
   * ^definition = "Gibt die Art des ruhenden Leistungsanspruchs an."
+  * ^comment = """
+      Das CodeSystem zur Definition der Werte wurde nachträglich eingefügt. 
+      Die Werte sind identisch zu den bereits durch die Invariante ruhend-1 erwzungenen Werten.
+      Es ist daher ausreichend, das CodeSystem zu ergänzen, um die Werte vollständig zu qualifizieren; eine weiter Anpassung ist nicht erforderlich.
+      Um für eine Übergangszeit bestehende Ressourcen nicht zu invalidieren, wird das ValueSet zunächst als preferred binding hinterlegt.
+    """
   * value[x] only Coding
     * code 1..
       * obeys ruhend-1
+  * value[x] from ValueSetRuhenderLeistungsanspruchGKV (preferred)
 * extension[dauer].value[x] only Period
   * start 1..
     * ^short = "Beginn des ruhenden Leistungsanspruchs"

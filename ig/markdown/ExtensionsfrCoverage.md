@@ -187,6 +187,7 @@ Folgende Extensions sind notwendig um Informationen der elektronische Gesundheit
     <extension url="art">
         <valueCoding>
             <code value="1" />
+            <system value="http://fhir.de/CodeSystem/gkv/RuhenderLeistungsanspruchGKV" />
         </valueCoding>
     </extension>
     <extension url="dauer">
