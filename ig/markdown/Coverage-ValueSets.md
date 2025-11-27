@@ -10,3 +10,16 @@ Für die Angabe der Versicherungsart wurde folgendes ValueSet abgestimmt:
 **Canonical**: ```http://fhir.de/ValueSet/versicherungsart-de-basis```
 
 {{render:http://fhir.de/ValueSet/versicherungsart-de-basis}}
+
+#### Ruhender Leistungsanspruch (GKV)
+
+**Canonical**: ```http://fhir.de/ValueSet/gkv/RuhenderLeistungsanspruchGKV```
+
+{{render:http://fhir.de/ValueSet/gkv/RuhenderLeistungsanspruchGKV}}
+
+#### Versichertenart (PKV)
+
+**Canonical**: ```http://fhir.de/ValueSet/pkv/Versichertenart```
+
+{{render:http://fhir.de/ValueSet/pkv/Versichertenart}}
+
