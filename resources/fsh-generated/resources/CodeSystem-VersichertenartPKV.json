@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CodeSystemVersichertenartPKV",
+  "id": "VersichertenartPKV",
+  "title": "Versichertenart (PKV)",
+  "description": "Versichertenart von PKV-Versicherten",
+  "version": "1.6.0",
+  "url": "http://fhir.de/CodeSystem/pkv/Versichertenart",
+  "concept": [
+    {
+      "code": "VN",
+      "display": "Versicherungsnehmer",
+      "definition": "Die behandelte Person ist selbst der Versicherungsnehmer."
+    },
+    {
+      "code": "VP",
+      "display": "versicherte Person",
+      "definition": "Die behandelte Person ist nicht selbst der Versicherungsnehmer."
+    }
+  ],
+  "experimental": false,
+  "date": "2025-06-16",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "caseSensitive": true,
+  "valueSet": "http://fhir.de/ValueSet/pkv/Versichertenart",
+  "compositional": false,
+  "count": 2
+}
