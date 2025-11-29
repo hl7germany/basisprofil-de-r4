@@ -7,7 +7,7 @@
         "version": "2019",
         "code": "F16.1",
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "display": "Psychische Verhaltensstörung durch Halluzinogene (Akute Intoxikation)"
+        "display": "Psychische und Verhaltensstörungen durch Halluzinogene: Schädlicher Gebrauch"
       }
     ]
   },
