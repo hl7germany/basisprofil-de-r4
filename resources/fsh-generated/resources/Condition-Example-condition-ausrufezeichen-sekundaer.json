@@ -24,7 +24,7 @@
         "version": "2019",
         "code": "U69.32",
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "display": "Intravenöser Konsum sonstiger psychotroper Substanzen"
+        "display": "Sekundäre Schlüsselnummern für die Art des Konsums psychotroper Substanzen bei durch diese verursachten psychischen und Verhaltensstörungen:Intravenöser Konsum sonstiger psychotroper Substanzen"
       }
     ]
   },
