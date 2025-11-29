@@ -5,5 +5,5 @@ Usage: #example
 * code.coding.extension.valueCoding.version = "2021"
 * code.coding.extension.valueCoding = $icd-10-gm-mehrfachcodierungs-kennzeichen#†
 * code.coding.version = "2019"
-* code.coding = $icd-10-gm#E10.30 "Diabetes mellitus"
+* code.coding = $icd-10-gm#E10.30 "Diabetes mellitus, Typ 1: Mit Augenkomplikationen: Nicht als entgleist bezeichnet"
 * subject = Reference(Patient/example)
