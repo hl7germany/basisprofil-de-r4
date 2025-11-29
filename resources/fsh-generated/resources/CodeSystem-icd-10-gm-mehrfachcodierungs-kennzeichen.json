@@ -6,7 +6,7 @@
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen",
   "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "concept": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

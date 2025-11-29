@@ -5,10 +5,10 @@
   "id": "ArgeIkKlassifikationVS",
   "title": "ArgeIkKlassifikation ValueSet",
   "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/arge-ik/klassifikation",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

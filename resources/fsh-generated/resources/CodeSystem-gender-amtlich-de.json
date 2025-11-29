@@ -6,7 +6,7 @@
   "id": "gender-amtlich-de",
   "title": "amtliches Geschlecht",
   "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/gender-amtlich-de",
   "concept": [
     {
@@ -27,7 +27,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

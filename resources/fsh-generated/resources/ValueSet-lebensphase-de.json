@@ -5,10 +5,10 @@
   "id": "lebensphase-de",
   "title": "LebensphaseDe ValueSet",
   "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -3,9 +3,9 @@
   "id": "glasgow-coma-score-eye",
   "url": "http://fhir.de/ValueSet/glasgow-coma-score-eye",
   "status": "active",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

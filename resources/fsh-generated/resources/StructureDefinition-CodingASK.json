@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingASK",
   "url": "http://fhir.de/StructureDefinition/CodingASK",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "CodingASK",
   "title": "Coding-Profil für ASK",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

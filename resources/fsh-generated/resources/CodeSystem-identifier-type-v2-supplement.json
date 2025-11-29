@@ -6,7 +6,7 @@
   "id": "identifier-type-v2-supplement",
   "title": "Deutsche Übersetzungen für Identifier Types (V2)",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/identifier-type-v2-supplement",
   "concept": [
     {
@@ -56,7 +56,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

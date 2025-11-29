@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "AbrechnendeIK",
   "url": "http://fhir.de/StructureDefinition/AbrechnendeIK",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "ExtensionAbrechnendeIK",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
