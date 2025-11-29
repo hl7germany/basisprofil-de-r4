@@ -6,13 +6,12 @@
   "fhirVersions": [
     "4.0.1"
   ],
-  "devDependencies": null,
   "canonicals": null,
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1"
   },
   "devDependencies": {
-    "bfarm.terminologien.icd10gm": "2024.0.0",
-    "bfarm.terminologien.ops": "2024.0.0"
+    "bfarm.terminologien.icd10gm": "2025.0.0",
+    "bfarm.terminologien.ops": "2025.0.0",
   }
 }
