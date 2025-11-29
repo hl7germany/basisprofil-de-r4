@@ -30,5 +30,5 @@ Usage: #example
 * code = $loinc#80391-6 "Pflegegrad"
 * subject.reference = "Patient/example"
 * effectivePeriod.start = "2019-01-09"
-* valueCodeableConcept.coding.version = "2019"
-* valueCodeableConcept.coding = $ops#9-984.6 "Pflegebedürftig nach Pflegegrad 1"
+* valueCodeableConcept.coding.version = "2025"
+* valueCodeableConcept.coding = $ops#9-984.6 "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 1"

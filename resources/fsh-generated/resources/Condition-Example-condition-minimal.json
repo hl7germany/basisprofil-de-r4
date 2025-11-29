@@ -7,7 +7,7 @@
         "version": "2019",
         "code": "F71.0",
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "display": "Mittelgradige Intelligenzminderung Keine oder geringfügige Verhaltensstörung"
+        "display": "Mittelgradige Intelligenzminderung: Keine oder geringfügige Verhaltensstörung"
       }
     ]
   },

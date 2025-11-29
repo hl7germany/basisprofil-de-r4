@@ -15,7 +15,7 @@ issues. The validator supports this goal through
 its ["advisor" framework](https://confluence.hl7.org/display/FHIR/Validator+Advisor+Framework),
 which allows specific messages to be suppressed. All suppressions are defined in the advisor.json
 file, located alongside this README. The following messages have been suppressed for the current
-ISiK module:
+German base profiles:
 
 * All filters containing: `#dom-6` - ISiK resources do not contain a narrative. Ignore this best
   practice warning for now.
