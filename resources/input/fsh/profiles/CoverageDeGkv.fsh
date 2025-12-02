@@ -73,7 +73,7 @@ Usage: #example
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/generation-egk"
 * extension[=].valueString = "1+"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/versichertenart"
-* extension[=].valueCoding = $74_CS_SFHIR_KBV_VERSICHERTENSTATUS#1
+* extension[=].valueCoding = $CS_SFHIR_KBV_VERSICHERTENSTATUS#1
 * extension[+].extension[+].url = "aerztlicheVersorgung"
 * extension[=].extension[=].valueBoolean = true
 * extension[=].extension[+].url = "zahnaerztlicheVersorgung"
@@ -82,7 +82,7 @@ Usage: #example
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/wop"
 * extension[=].valueCoding = $KBV_CS_SFHIR_ITA_WOP#38 "Nordrhein"
 * extension[+].url = "http://fhir.de/StructureDefinition/gkv/besondere-personengruppe"
-* extension[=].valueCoding = $74_CS_SFHIR_KBV_PERSONENGRUPPE#06 "SER"
+* extension[=].valueCoding = $CS_SFHIR_KBV_PERSONENGRUPPE#06 "SER"
 * extension[+].extension[+].url = "art"
 * extension[=].extension[=].valueCoding = CodeSystemRuhenderLeistungsanspruchGKV#1
 * extension[=].extension[+].url = "dauer"
