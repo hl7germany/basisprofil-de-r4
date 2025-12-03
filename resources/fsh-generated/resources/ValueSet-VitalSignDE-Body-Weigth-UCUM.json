@@ -5,10 +5,10 @@
   "id": "VitalSignDE-Body-Weigth-UCUM",
   "title": "VitalSignDE_Body_Weigth_UCUM",
   "description": "VitalSignDE_Body_Weigth_UCUM enthält alle validen Einheiten zur Kodierung eines Körpergewichtes",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

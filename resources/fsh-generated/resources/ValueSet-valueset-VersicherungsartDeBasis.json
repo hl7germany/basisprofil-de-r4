@@ -4,10 +4,10 @@
   "name": "VersicherungsartDeBasisVS",
   "id": "valueset-VersicherungsartDeBasis",
   "description": "ValueSet für die in Deutschland üblichen Versicherungsarten",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/versicherungsart-de-basis",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

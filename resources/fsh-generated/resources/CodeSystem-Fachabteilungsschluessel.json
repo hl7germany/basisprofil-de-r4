@@ -6,7 +6,7 @@
   "id": "Fachabteilungsschluessel",
   "title": "Fachabteilungsschluessel",
   "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
   "concept": [
     {
@@ -167,7 +167,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

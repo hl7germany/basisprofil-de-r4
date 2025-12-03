@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "identifier-telematik-id",
   "url": "http://fhir.de/StructureDefinition/identifier-telematik-id",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "IdentifierTelematikId",
   "title": "Identifier-Profil für die Telematik-ID",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

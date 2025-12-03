@@ -6,7 +6,7 @@
   "id": "CodeSystemISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
   "description": "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder.",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "urn:iso:std:iso:3166-2:de",
   "concept": [
     {
@@ -75,7 +75,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-01",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
