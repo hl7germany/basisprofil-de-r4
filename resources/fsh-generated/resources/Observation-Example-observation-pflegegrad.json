@@ -25,10 +25,10 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "version": "2019",
+        "version": "2025",
         "code": "9-984.6",
         "system": "http://fhir.de/CodeSystem/bfarm/ops",
-        "display": "Pflegebedürftig nach Pflegegrad 1"
+        "display": "Pflegebedürftigkeit: Pflegebedürftig nach Pflegegrad 1"
       }
     ]
   }
