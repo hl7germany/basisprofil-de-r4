@@ -34,7 +34,7 @@ jobs:
         if: github.event_name != 'pull_request'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.7.22
+        uses: FirelyTeam/firely-terminal-pipeline@v0.7.24
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
@@ -49,7 +49,7 @@ jobs:
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
 
       - name: Upload validation artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: fhir-validation-results
           path: |
@@ -58,7 +58,7 @@ jobs:
           retention-days: 1
 
       - name: Convert Validation Report
-        uses: patrick-werner/validation-outcome-markdown-renderer@1.2.1
+        uses: patrick-werner/validation-outcome-markdown-renderer@1.2.2
         with:
           bundle-file: validation.json
           include: warnings
