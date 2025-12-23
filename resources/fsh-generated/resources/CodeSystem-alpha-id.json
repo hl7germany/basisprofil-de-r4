@@ -8,7 +8,7 @@
   "description": "Alpha-ID Platzhalter-CodeSystem",
   "url": "http://fhir.de/CodeSystem/bfarm/alpha-id",
   "experimental": false,
-  "date": "2025-12-01",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
