@@ -164,7 +164,7 @@ Description: "Offizieller Name eines Staates in deutscher Sprache ISO-3166, basi
   * ^designation[=].value = "Ecuador"
 * #CI
   * ^designation[+].language = #de-DE
-  * ^designation[=].value = "Elfenbeinküste (Côte dIvoire)"
+  * ^designation[=].value = "Elfenbeinküste (Côte d'Ivoire)"
 * #SV
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "El Salvador"
