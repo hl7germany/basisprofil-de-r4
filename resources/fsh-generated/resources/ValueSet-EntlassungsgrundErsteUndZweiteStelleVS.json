@@ -5,10 +5,10 @@
   "id": "EntlassungsgrundErsteUndZweiteStelleVS",
   "title": "Entlassungsgrund Erste und Zweite Stelle ValueSet",
   "description": "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -5,10 +5,10 @@
   "id": "VitalSignDE-Koerpergewicht-SNOMED-CT",
   "title": "VitalSignDE_Koerpergewicht_SNOMED_CT",
   "description": "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergewicht",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpergewicht-SNOMED-CT",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

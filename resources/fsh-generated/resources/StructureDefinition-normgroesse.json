@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "normgroesse",
   "url": "http://fhir.de/StructureDefinition/normgroesse",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "ExtensionNormgroesseDeBasis",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

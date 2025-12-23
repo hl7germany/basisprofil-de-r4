@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "ExtensionLebensphase",
   "url": "http://fhir.de/StructureDefinition/lebensphase",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "ExtensionLebensphase",
   "title": "Extension zur Dokumentation einer Lebensphase einer Person in der ein bestimmtes Ereignis aufgetreten ist",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

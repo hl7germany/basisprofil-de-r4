@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "observation-de-vitalsign-koerpertemperatur",
   "url": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "VitalSignDE_Koerperkerntemperatur",
   "title": "Observation-Profil Körperkerntemperatur",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

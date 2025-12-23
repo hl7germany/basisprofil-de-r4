@@ -6,7 +6,7 @@
   "id": "cs-common-meta-tag-de",
   "title": "CS Basisprofil Common Meta Tag DE",
   "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/common-meta-tag-de",
   "concept": [
     {
@@ -16,7 +16,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

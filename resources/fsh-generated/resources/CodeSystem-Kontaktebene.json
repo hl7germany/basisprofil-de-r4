@@ -6,7 +6,7 @@
   "id": "Kontaktebene",
   "title": "Kontaktebene",
   "description": "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/Kontaktebene",
   "concept": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

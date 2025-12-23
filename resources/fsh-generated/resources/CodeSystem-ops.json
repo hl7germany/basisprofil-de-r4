@@ -8,7 +8,7 @@
   "description": "OPS Platzhalter-CodeSystem",
   "url": "http://fhir.de/CodeSystem/bfarm/ops",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

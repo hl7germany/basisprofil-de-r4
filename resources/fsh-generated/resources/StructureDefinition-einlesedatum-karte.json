@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "einlesedatum-karte",
   "url": "http://fhir.de/StructureDefinition/gkv/einlesedatum-karte",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "ExtensionGkvEinlesedatumKarte",
   "title": "Extension zur Erfassung des Einlesedatums der eGK bzw. KVK",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

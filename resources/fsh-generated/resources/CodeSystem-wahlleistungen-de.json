@@ -6,7 +6,7 @@
   "id": "wahlleistungen-de",
   "title": "Wahlleistungen",
   "description": "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/wahlleistungen-de",
   "concept": [
     {
@@ -51,7 +51,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "CodingAlphaIDSE",
   "url": "http://fhir.de/StructureDefinition/CodingAlphaIDSE",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "CodingAlphaIDSE",
   "title": "Coding-Profil für Alpha-ID-SE",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

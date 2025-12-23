@@ -1,6 +1,6 @@
 {
   "name": "de.basisprofil.r4",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "description": "Projekt Basisprofilierung R4 (HL7 Deutschland e.V.)",
   "author": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "fhirVersions": [

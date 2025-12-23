@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "gender-amtlich-de",
   "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "GenderOtherDE",
   "title": "Differenzierung des administrativen Geschlechts 'other'",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {

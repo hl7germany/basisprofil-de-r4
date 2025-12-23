@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "generation-egk",
   "url": "http://fhir.de/StructureDefinition/gkv/generation-egk",
-  "version": "1.6.0",
+  "version": "1.6.0-ballot",
   "name": "ExtensionGkvGenerationEgk",
   "title": "Extension zur Erfassung der Generation der eGK",
   "status": "active",
   "experimental": false,
-  "date": "2025-06-16",
+  "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "contact": [
     {
