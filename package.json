@@ -9,7 +9,7 @@
   "canonicals": null,
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
-    "hl7.fhir.uv.extensions": "5.2.0"
+    "hl7.fhir.uv.extensions.r4": "5.2.0"
   },
   "devDependencies": {
     "bfarm.terminologien.icd10gm": "2025.0.0",
