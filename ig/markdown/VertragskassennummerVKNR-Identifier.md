@@ -2,7 +2,7 @@
 
 Die Vertragskassennummer der Kassenärztlichen Vereinigungen (VKNR) identifiziert Krankenkassen für Abrechnungszwecke. Für eine Abbildung der VKNR kann folgendes Profil verwendet werden:
 
-**Name**: IdentifierVknr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-vknr&scope=de.basisprofil.r4@1.6.0))
+**Name**: IdentifierVknr ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/identifier-vknr&scope=de.basisprofil.r4@1.6.0-ballot2))
 
 **Canonical**: `http://fhir.de/StructureDefinition/identifier-vknr`
 

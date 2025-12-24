@@ -4,7 +4,7 @@ Folgende Extensions werden im Kontext des [FHIR Medication Modules](https://www.
 
 ----
 
-Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.6.0))
+Name: Extension-normgroesse ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/normgroesse&scope=de.basisprofil.r4@1.6.0-ballot2))
 
 Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/normgroesse' select description```
 
@@ -30,7 +30,7 @@ Beispiel:
 
 ----
 
-Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/WirkstofftypEX&scope=de.basisprofil.r4@1.6.0))
+Name: ExtensionWirkstofftyp ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/WirkstofftypEX&scope=de.basisprofil.r4@1.6.0-ballot2))
 
 Beschreibung: @``` from StructureDefinition where url = 'http://fhir.de/StructureDefinition/WirkstofftypEX' select description```
 
