@@ -4,11 +4,11 @@
 {{render:Basisprofil-DE-R4/hl7-logo}}
 
 ---
-Version: 1.6.0 ({{pagelink:ig/markdown/ReleaseNotes.md}})
+Version: 1.6.0-ballot ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 16.06.2025
+Datum: 23.12.2025
 
-Status: Veröffentlicht
+Status: In Ballotierung
 
 Realm: Deutschland
 
