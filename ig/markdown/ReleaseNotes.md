@@ -1,6 +1,6 @@
 ### Release Notes
 
-v1.6.0 - tbd
+v1.6.0-ballot - 23.12.25
 
 * `added` Hinweise zur Verwendung der Extension ``ExtensionWahlleistungen`` hinzugefügt
 * `added` CodeSystem und ValueSet zur Differenzierung von PKV-Versichertenarten hinzugefügt
