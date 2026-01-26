@@ -34,7 +34,7 @@ jobs:
         if: github.event_name != 'pull_request'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.7.27
+        uses: FirelyTeam/firely-terminal-pipeline@v0.7.28
         with:
           PATH_TO_CONFORMANCE_RESOURCES: resources/fsh-generated/resources/
           DOTNET_VALIDATION_ENABLED: true
