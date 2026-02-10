@@ -617,6 +617,11 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "nameUrl": "ig/markdown/Datentypen-Quantity.md",
+                            "title": "Quantity",
+                            "generation": "markdown"
                         }
                     ]
                 },
