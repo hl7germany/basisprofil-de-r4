@@ -55,7 +55,7 @@ Desweiteren bedanken wir uns für Hinweise, Anregungen und Feedback bei den folg
 
 ## Copyright-Hinweis, Nutzungshinweise
 
-Copyright © 2016-2021: HL7 Deutschland e. V., Anna-Louisa-Karsch-Str. 2, 10178 Berlin
+Copyright © 2016-2026: HL7 Deutschland e. V., Luisenstraße 65, 10117 Berlin
 
 Der Inhalt dieser Spezifikation ist öffentlich. Die Nachnutzungs- bzw. Veröffentlichungsansprüche sind nicht beschränkt.
 
