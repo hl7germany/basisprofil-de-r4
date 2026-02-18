@@ -369,6 +369,11 @@
                                     "generation": "markdown"
                                 },
                                 {
+                                    "nameUrl": "ig/markdown/SignaldatenObservation.md",
+                                    "title": "Signaldaten (Observation)",
+                                    "generation": "markdown"
+                                },
+                                {
                                     "nameUrl": "ig/markdown/Ressourcen-Extern-Terminplanung.md",
                                     "title": "Terminplanung (Appointment, Schedule, Slot)",
                                     "generation": "markdown"
