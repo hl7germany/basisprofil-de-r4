@@ -7,3 +7,6 @@ Usage: #example
 * identifier[+].type = $identifier-type-de-basis#ZANR
 * identifier[=].system = "http://fhir.de/sid/kzbv/zahnarztnummer"
 * identifier[=].value = "01234567"
+* identifier[+].type = $v2-0203#PRN
+* identifier[=].system = "https://gematik.de/fhir/sid/telematik-id"
+* identifier[=].value = "1-1a25sd-d529"

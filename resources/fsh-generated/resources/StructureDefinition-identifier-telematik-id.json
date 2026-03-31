@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Die Telematik-ID repräsentiert als eineindeutiges Merkmal die Identität eines Teilnehmers, also eines Leistungserbringers im HBA respektive einer Organisation/Einrichtung des Gesundheitswesens in einer SMC-B.",
+  "description": "Die Telematik-ID repräsentiert als eineindeutiges Merkmal die Identität eines Teilnehmers, \nalso eines Leistungserbringers im HBA respektive einer Organisation/Einrichtung des Gesundheitswesens in einer SMC-B.\nDer Aufbau der Telematik-ID entspricht folgender Systematik: [gemSpec_PKI](https://gemspec.gematik.de/docs/gemSpec/gemSpec_PKI/latest/#4.7.2).\nDie Länge ist auf 128 Zeichen begrenzt.   \n\n**Kontext:** Der Identifier kann u.a. in Organization.identifier oder Practitioner.identifier verwendet werden.  \nEs ist zu beachten, dass die Identifizierung eines Leistungserbringers durch den HBA / einer Organisation/Einrichtung des Gesundheitswesens \nin einer SMC-B durch Identifier erfolgt die technisch gesehen eine Telematik-ID repräsentieren. \nFür diese Zwecke sollte gleichermaßen das vorliegende Profil verwendet werden.\n",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -53,7 +53,17 @@
       {
         "id": "Identifier.value",
         "path": "Identifier.value",
-        "min": 1
+        "min": 1,
+        "maxLength": 128,
+        "constraint": [
+          {
+            "key": "telematik-id-1",
+            "severity": "error",
+            "human": "Die Telematik-ID ist nicht zulässig.",
+            "expression": "matches('^[1-9][0-9]?-[\\\\x21-\\\\x7E]+$')",
+            "source": "http://fhir.de/StructureDefinition/identifier-telematik-id"
+          }
+        ]
       }
     ]
   }

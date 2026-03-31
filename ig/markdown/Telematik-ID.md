@@ -8,9 +8,7 @@ Zur Abbildung einer [Telematik-ID](https://fachportal.gematik.de/fachportal-impo
 
 {{tree:http://fhir.de/StructureDefinition/identifier-telematik-id, hybrid}}
 
-**Kontext**: Der Identifier kann u.a. in Organization.identifier oder Practitioner.identifier verwendet werden
-
-Es ist zu beachten, dass die Identifizierung eines Leistungserbringers durch den HBA / einer Organisation/Einrichtung des Gesundheitswesens in einer SMC-B durch Identifier erfolgt die technisch gesehen eine Telematik-ID repräsentieren. Für diese Zwecke sollte gleichermaßen das vorliegende Profil verwendet werden.
+**Beispiel:**
 
 ```xml
     <identifier>
@@ -21,6 +19,6 @@ Es ist zu beachten, dass die Identifizierung eines Leistungserbringers durch den
             </coding>
         </type>
         <system value="https://gematik.de/fhir/sid/telematik-id">
-        <value value="1234567890" />
+        <value value="1-1a25sd-d529" />
     </identifier>
 ```
