@@ -22,7 +22,7 @@ Description: "Gibt Art und Dauer des ruhenden Leistungsanspruchs des Versicherte
     """
   * value[x] only Coding
     * code 1..
-      * obeys ruhend-1
+      //* obeys ruhend-1
   * value[x] from ValueSetRuhenderLeistungsanspruchGKV (preferred)
 * extension[dauer].value[x] only Period
   * start 1..
