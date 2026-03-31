@@ -60,7 +60,7 @@
             "key": "telematik-id-1",
             "severity": "error",
             "human": "Die Telematik-ID ist nicht zulässig.",
-            "expression": "matches('^[1-9][0-9]?-[\\x21-\\x7E]+$')",
+            "expression": "matches('^[1-9][0-9]?-[\\\\x21-\\\\x7E]+$')",
             "source": "http://fhir.de/StructureDefinition/identifier-telematik-id"
           }
         ]
