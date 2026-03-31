@@ -2,7 +2,8 @@
 
 
 v1.6.0
-* `removed` redundante Invariante ``ruhend-1``  aus ``ExtensionGKVRuhenderLeistungsanspruch`` entfernt (HDB-824)
+* ``added`` Invariante und Längenbegrenzung zu ``identifier-telematik-id`` hinzugefügt (HDB-818)  
+* `removed` redundante Invariante ``ruhend-1``  aus ``ExtensionGKVRuhenderLeistungsanspruch`` entfernt (HDB-824)  
 * `fixed` falsche Artefaktnamen in Release Notes korrigiert (HDB-822)
 
 v1.6.0-ballot - 23.12.25
