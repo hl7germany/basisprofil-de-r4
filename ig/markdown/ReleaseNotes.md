@@ -1,14 +1,20 @@
 ### Release Notes
 
+
+v1.6.0
+* ``added`` Invariante und Längenbegrenzung zu ``identifier-telematik-id`` hinzugefügt (HDB-818)  
+* `removed` redundante Invariante ``ruhend-1``  aus ``ExtensionGKVRuhenderLeistungsanspruch`` entfernt (HDB-824)  
+* `fixed` falsche Artefaktnamen in Release Notes korrigiert (HDB-822)
+
 v1.6.0-ballot - 23.12.25
 
-* `added` Hinweise zur Verwendung der Extension ``ExtensionWahlleistungen`` hinzugefügt
+* `added` Hinweise zur Verwendung der Extension ``ExtensionWahlleistung`` hinzugefügt
 * `added` CodeSystem und ValueSet zur Differenzierung von PKV-Versichertenarten hinzugefügt
 * `changed` VitalSignDE_Koerpertemperatur_SNOMED_CT Die Konzepte: 386725007 "Body temperature (observable entity)" $sct#415922000 "Temperature of forehead (observable entity)" wurden deprecated. Das Konzept: 1366425007 | Estimated core body temperature measured on forehead (observable entity) wurde hinzugefügt.
-* `changed` Umbennung VitalSignDE_Koerpertemperatur_SNOMED_CT nach VitalSignDE_Koerperkerntemperatur_SNOMED_CT
-* `changed` Umbennung VitalSignDE_Koerpertemperatur nach VitalSignDE_Koerperkerntemperatur
-* `changed` Harmonisierung des Profils ``AddressDeBasis`` mit den Vorgaben von HL7 EU
-* `changed` Anpassung der Extension `RuhenderLeistungsanspruchGKV` nach den Vorgaben der gematik zu VDSM2
+* `changed` Umbennung VitalSignDE_Koerpertemperatur_SNOMED_CT nach VitalSignDE_Koerperkerntemperatur_SNOMED_CT  
+* `changed` Umbennung VitalSignDE_Koerpertemperatur nach VitalSignDE_Koerperkerntemperatur  
+* `changed` Harmonisierung des Profils ``AddressDeBasis`` mit den Vorgaben von HL7 EU  
+* `changed` Anpassung der Extension `ExtensionGKVRuhenderLeistungsanspruch` nach den Vorgaben der gematik zu VDSM2
 * `fixed` Binding auf Identifier.type für ``IdentifierKvid10`` korrigiert, sodass die ehemaligen Codes für ``PKV`` und ``GKV`` nicht abgelehnt werden.
 * `fixed` Korrektur von Übertragungsfehlern im CodeSystem "anlage-7-namenszusaetze"
 
