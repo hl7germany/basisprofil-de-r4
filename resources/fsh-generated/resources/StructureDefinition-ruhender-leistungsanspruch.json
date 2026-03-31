@@ -75,16 +75,7 @@
       {
         "id": "Extension.extension:art.value[x].code",
         "path": "Extension.extension.value[x].code",
-        "min": 1,
-        "constraint": [
-          {
-            "key": "ruhend-1",
-            "severity": "warning",
-            "human": "Es sind nur die Werte \"1\" (vollständig) und \"2\" (eingeschränkt) erlaubt.",
-            "expression": "matches('^[12]$')",
-            "source": "http://fhir.de/StructureDefinition/gkv/ruhender-leistungsanspruch"
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Extension.extension:dauer",
