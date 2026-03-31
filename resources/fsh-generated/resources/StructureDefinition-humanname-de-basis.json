@@ -72,6 +72,19 @@
         "definition": "Der vollständige Familienname, einschließlich aller Vorsatz- und Zusatzwörter, mit Leerzeichen getrennt."
       },
       {
+        "id": "HumanName.family.extension",
+        "path": "HumanName.family.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "HumanName.family.extension:namenszusatz",
         "path": "HumanName.family.extension",
         "sliceName": "namenszusatz",
@@ -131,6 +144,19 @@
         "path": "HumanName.prefix",
         "short": "Namensteile vor dem Vornamen",
         "definition": "Namensteile vor dem Vornamen, z.B. akademischer Titel."
+      },
+      {
+        "id": "HumanName.prefix.extension",
+        "path": "HumanName.prefix.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
         "id": "HumanName.prefix.extension:prefix-qualifier",

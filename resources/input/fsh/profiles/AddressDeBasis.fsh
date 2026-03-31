@@ -22,7 +22,7 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
 * extension[Stadtteil] ^short = "Stadt- oder Ortsteil"
 * line ..3
   * ^short = "Straßenname mit Hausnummer oder Postfach sowie weitere Angaben zur Zustellung"
-  * ^definition = "Diese Komponente kann Straßennamen, Hausnummer, Appartmentnummer, Postfach, c/o sowie weitere Zustellungshinweise enthalten. Die Informationen können in mehrere line-Komponenten aufgeteilt werden.\r\nBei Verwendung der Extensions, um Straße, Hausnnummer und Postleitzahl strukturiert zu übermitteln, müssen diese Informationen stets vollständig auch in der line-Komponente, die sie erweitern, enthalten sein, um es Systemen, die diese Extensions nicht verwenden zu ermöglichen, auf diese Informationen zugreifen zu können."
+  * ^definition = "Diese Komponente kann Straßennamen, Hausnummer, Appartmentnummer, Postfach, c/o sowie weitere Zustellungshinweise enthalten. Die Informationen können in mehrere line-Komponenten aufgeteilt werden.\r\nBei Verwendung der Extensions, um Straße, Hausnnummer und Postfach strukturiert zu übermitteln, müssen diese Informationen stets vollständig auch in der line-Komponente, die sie erweitern, enthalten sein, um es Systemen, die diese Extensions nicht verwenden zu ermöglichen, auf diese Informationen zugreifen zu können."
   * ^example.label = "Beispiel für Adresszeile mit Extensions für Straße und Hausnummer"
   * ^example.valueString.extension[+].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
   * ^example.valueString.extension[=].valueString = "Musterweg"

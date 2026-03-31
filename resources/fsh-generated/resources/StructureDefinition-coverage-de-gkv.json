@@ -34,6 +34,19 @@
         "definition": "Kostenübernahme im Rahmen eines gesetzlichen Versicherungsverhältnisses in Deutschland."
       },
       {
+        "id": "Coverage.extension",
+        "path": "Coverage.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "Coverage.extension:einlesedatumKarte",
         "path": "Coverage.extension",
         "sliceName": "einlesedatumKarte",
