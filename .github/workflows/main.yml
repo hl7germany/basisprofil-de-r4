@@ -75,7 +75,7 @@ jobs:
           folder: '.resources/fsh-generated/resources/'
 
       - name: Add & Commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           committer_name: GitHub Actions Bot
           committer_email: ActionBot@github.com
