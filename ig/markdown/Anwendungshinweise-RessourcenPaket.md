@@ -7,3 +7,8 @@ Der letzte stabile veröffentlichte Stand kann hier heruntergeladen werden:
 * [NPM-Paket (Installation via FHIR-Paketmanager)](https://simplifier.net/packages/de.basisprofil.r4/)
 
 Weitere Informationen für die Verwendung von FHIR-Packages findet sich in der auf dieser [Hilfeseite der FHIR Registry](https://registry.fhir.org/learn).
+
+### DevDependencies
+
+siehe [Best Practice | Verwendung von DevDependencies](https://simplifier.net/guide/Best-Practice-bei-der-Implementierung-und-Spezifizierung-mit-HL7/%C3%9Cbersicht/Spezifikation/Verwendung-von-Dev-Dependencies.page.md?version=current)
+
