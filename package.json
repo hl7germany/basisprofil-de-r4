@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "bfarm.terminologien.icd10gm": "2025.0.0",
-    "bfarm.terminologien.ops": "2025.0.0",
-    "kbv.all.st": "1.28.0"
+    "bfarm.terminologien.ops": "2026.0.0",
+    "kbv.all.st": "1.41.0"
   }
 }

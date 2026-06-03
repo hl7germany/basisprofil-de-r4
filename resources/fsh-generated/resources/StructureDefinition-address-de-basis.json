@@ -143,6 +143,19 @@
         ]
       },
       {
+        "id": "Address.line.extension",
+        "path": "Address.line.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "Address.line.extension:Strasse",
         "path": "Address.line.extension",
         "sliceName": "Strasse",
@@ -247,6 +260,7 @@
         "id": "Address.country.extension",
         "path": "Address.country.extension",
         "slicing": {
+          "rules": "open",
           "discriminator": [
             {
               "type": "value",
@@ -256,9 +270,7 @@
               "type": "value",
               "path": "value.ofType(Coding).system"
             }
-          ],
-          "description": "Extensions are always sliced by (at least) url",
-          "rules": "open"
+          ]
         }
       },
       {
