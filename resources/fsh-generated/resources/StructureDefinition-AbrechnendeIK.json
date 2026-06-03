@@ -4,7 +4,7 @@
   "url": "http://fhir.de/StructureDefinition/AbrechnendeIK",
   "version": "1.6.0-ballot",
   "name": "ExtensionAbrechnendeIK",
-  "status": "active",
+  "status": "retired",
   "experimental": false,
   "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -33,6 +33,11 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "comment": "Im Zuge der Angleichung an VSDM 2.0 wird das Verfahren zur Dokumentation eines abrechnenden Kostenträgers angepasst:\nStatt dieser Erweiterung soll zukünftig eine zweite payor-Referenz in der Coverage-Ressource angelegt werden.\nDie erste payor-Referenz ist immer der Hauptkostenträger und immer vorhanden. \nDie zweite payor-Referenz ist optional und gibt den abrechnenden Kostenträger an."
+      },
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
