@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "deprecated",
+  "status": "retired",
   "name": "WG14VS",
   "id": "valueset-wg14",
   "title": "WG14 ValueSet",
