@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "deprecated",
+  "status": "retired",
   "content": "not-present",
   "name": "WG14",
   "id": "wg14",
