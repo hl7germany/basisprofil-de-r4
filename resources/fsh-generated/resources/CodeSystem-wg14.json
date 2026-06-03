@@ -1,11 +1,11 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "retired",
   "content": "not-present",
   "name": "WG14",
   "id": "wg14",
   "title": "WG14",
-  "description": "ABDATA WG14 Platzhalter-CodeSystem",
+  "description": "Deprecated - ABDATA WG14 Platzhalter-CodeSystem",
   "url": "http://fhir.de/CodeSystem/abdata/wg14",
   "experimental": false,
   "date": "2025-12-23",
