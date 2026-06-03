@@ -1,7 +1,7 @@
 ValueSet: PflegegradDE
 Id: pflegegrad-de
 Title: "PflegegradDE ValueSet"
-Description: "Codes zur genaueren Differenzierung des Pflegegrads."
+Description: "Dieses ValueSet enthält OPS-Codes zur Differenzierung des dokumentierten Pflegegrads. Es ist für die strukturierte Angabe pflegebezogener Einstufungen im deutschen Versorgungskontext vorgesehen."
 * insert Meta
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://fhir.de/ValueSet/pflegegrad-de"

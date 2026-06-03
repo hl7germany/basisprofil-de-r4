@@ -1,7 +1,7 @@
 CodeSystem: KontaktDiagnoseProzedur
 Id: KontaktDiagnoseProzedur
 Title: "KontaktDiagnoseProzedur"
-Description: "Rolle/Relevanz von Diagnosen"
+Description: "Dieses CodeSystem beschreibt fachliche Rollen von Diagnosen und Prozedurbezügen im Versorgungskontext. Es dient der semantischen Einordnung, welche Relevanz eine Diagnose innerhalb eines Kontakts oder Abrechnungsfalls hat."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #complete
@@ -18,4 +18,3 @@ Description: "Rolle/Relevanz von Diagnosen"
 * #cause-of-death "Todesursache" "Als Todesursache bezeichnet man Krankheiten oder Verletzungen, die zum Tod eines Menschen führten (bzw. wesentlich dazu beitrugen) oder äußere Ursachen (Unfall, Gewalteinwirkung, etc.), die zu einer tödlichen Verletzung geführt hatten. Die Todesursache ist für den Eintritt des Sterbens und des Todes verantwortlich."
 * #principle-DRG "DRG-Hauptdiagnose" "Die Diagnose, die nach Analyse als diejenige festgestellt wurde, die hauptsächlich für die Veranlassung des stationären Krankenhausaufenthaltes des Patienten verantwortlich ist, vgl. Deutschen Kodierrichtlinien D002f."
 * #secondary-DRG "DRG-Nebendiagnose" "Krankheiten oder Beschwerden, die entweder gleichzeitig mit der Hauptdiagnose bestehen oder sich während des Krankenhausaufenthalts entwickeln, , vgl. Deutschen Kodierrichtlinien D003l"
-

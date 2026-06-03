@@ -4,7 +4,7 @@
   "name": "ValueSetLebensphaseDe",
   "id": "lebensphase-de",
   "title": "LebensphaseDe ValueSet",
-  "description": "Dieses Valueset enthält Snomedcodes zur Angabe der Lebensphase",
+  "description": "Dieses ValueSet enthält SNOMED-CT-Konzepte zur Angabe von Lebensphasen. Es dient der semantisch präzisen Beschreibung alters- und entwicklungsbezogener Kontexte.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/lebensphase-de",
   "experimental": false,

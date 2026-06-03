@@ -4,7 +4,7 @@
   "name": "EncounterStatusDe",
   "id": "EncounterStatusDe",
   "title": "Encounter Status ValueSet",
-  "description": "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5",
+  "description": "Dieses ValueSet beschränkt die verwendbaren Encounter-Status auf die im Profilkontext vorgesehenen Codes. Es dient einer stabilen Nutzung des Statusmodells im Übergang zwischen FHIR-Versionen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/EncounterStatusDe",
   "experimental": false,

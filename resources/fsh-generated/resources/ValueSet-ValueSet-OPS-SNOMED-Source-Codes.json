@@ -4,7 +4,7 @@
   "name": "ValueSet_OPS_SNOMED_Source_Codes",
   "id": "ValueSet-OPS-SNOMED-Source-Codes",
   "title": "ValueSet of OPS Source Codes for the OPS-SNOMED ConceptMap",
-  "description": "ValueSet containing all source concepts from the ConceptMap OPS-SNOMED Category Mapping",
+  "description": "Dieses ValueSet enthält die Quellkonzepte aus dem ConceptMap-Mapping zwischen OPS-Kategorien und SNOMED CT. Es dient der klaren Abgrenzung der abgebildeten OPS-Ausgangswerte für Terminologie-Transformationen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
   "experimental": false,

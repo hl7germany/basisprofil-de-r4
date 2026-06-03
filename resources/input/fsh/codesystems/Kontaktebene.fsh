@@ -1,7 +1,7 @@
 CodeSystem: Kontaktebene
 Id: Kontaktebene
 Title: "Kontaktebene"
-Description: "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung"
+Description: "Dieses CodeSystem beschreibt die Ebene, auf der ein Kontakt mit einer Gesundheitseinrichtung modelliert wird. Es dient der Abgrenzung zwischen Einrichtungs-, Abteilungs- und Versorgungsstellenkontakten."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^caseSensitive = true

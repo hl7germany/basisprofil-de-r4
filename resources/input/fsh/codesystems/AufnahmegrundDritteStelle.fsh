@@ -1,7 +1,7 @@
 CodeSystem: AufnahmegrundDritteStelle
 Id: AufnahmegrundDritteStelle
 Title: "AufnahmegrundDritteStelle"
-Description: "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses CodeSystem stellt die dritte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der differenzierten Codierung besonderer fachlicher Konstellationen einer Krankenhausaufnahme."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle"
