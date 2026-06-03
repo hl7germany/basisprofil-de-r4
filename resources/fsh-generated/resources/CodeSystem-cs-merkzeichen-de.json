@@ -5,7 +5,7 @@
   "name": "Merkzeichen",
   "id": "cs-merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
-  "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
+  "description": "Dieses CodeSystem enthält die in Deutschland auf Schwerbehindertenausweisen verwendeten Merkzeichen. Es dient der standardisierten Abbildung behinderungsbezogener Nachteilsausgleiche und Berechtigungen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/merkzeichen-de",
   "concept": [

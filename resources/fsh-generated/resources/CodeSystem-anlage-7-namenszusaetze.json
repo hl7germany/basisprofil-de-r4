@@ -5,7 +5,7 @@
   "name": "DeuevAnlage7Namenszusaetze",
   "id": "anlage-7-namenszusaetze",
   "title": "Tabelle der gültigen Namenszusätze",
-  "description": "Namenszusätze im Nachnamen nach DEÜV Anlage 7",
+  "description": "Dieses CodeSystem enthält die nach DEÜV Anlage 7 zulässigen Namenszusätze. Es dient der standardisierten Erfassung und Übermittlung besonderer namensrechtlicher Bestandteile.",
   "version": "2.25",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze",
   "concept": [

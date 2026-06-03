@@ -4,7 +4,7 @@
   "name": "EkgLeads",
   "id": "EkgLeads",
   "title": "EKG/ECG leads",
-  "description": "EKG/ECG leads",
+  "description": "Dieses ValueSet enthält LOINC-Konzepte für EKG-Ableitungen. Es ist für die standardisierte Benennung von Ableitungen in Mess- und Beobachtungskontexten vorgesehen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/EkgLeads",
   "experimental": false,

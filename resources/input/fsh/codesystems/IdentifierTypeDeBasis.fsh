@@ -1,7 +1,7 @@
 CodeSystem: IdentifierTypeDeBasis
 Id: identifier-type-de-basis
 Title: "Identifier Type De Basis"
-Description: "Liste der Identfikatorentypen des deutschen Basisprofils welche die Standardtypen ergänzen."
+Description: "Dieses CodeSystem ergänzt die allgemeinen Identifier-Typen um im deutschen Basisprofil benötigte fachliche Identifierkategorien. Es dient der präzisen Typisierung national gebräuchlicher Kennungen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^copyright = "HL7 Deutschland e.V."

@@ -4,7 +4,7 @@
   "name": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT",
   "id": "VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "title": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT",
-  "description": "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwarteten $sct Codes für die Körperkerntemperatur",
+  "description": "Dieses ValueSet enthält die für Körperkerntemperatur-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpertemperatur-SNOMED-CT",
   "experimental": false,

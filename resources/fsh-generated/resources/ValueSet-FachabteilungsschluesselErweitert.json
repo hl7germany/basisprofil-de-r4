@@ -4,7 +4,7 @@
   "name": "ValueSetFachabteilungsschluesselErweitert",
   "id": "FachabteilungsschluesselErweitert",
   "title": "FachabteilungsschluesselErweitert ValueSet",
-  "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen",
+  "description": "Dieses ValueSet enthält die erweiterten Fachabteilungsschlüssel gemäß Anhang 1 BPflV einschließlich Spezialisierungen. Es dient der feineren Bindung fachlicher Zuordnungen von Krankenhausabteilungen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert",
   "experimental": false,

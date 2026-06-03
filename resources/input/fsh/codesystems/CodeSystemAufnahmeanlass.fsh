@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemAufnahmeanlass
 Id: Aufnahmeanlass
 Title: "CodeSystemAufnahmeanlass"
-Description: "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses CodeSystem beschreibt den Anlass einer Krankenhausaufnahme gemäß § 301 Abs. 3 SGB V. Es wird verwendet, um den administrativ-fachlichen Zugangspfad zur stationären Versorgung einheitlich zu kennzeichnen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dgkev/Aufnahmeanlass"

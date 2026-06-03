@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemISO31662DE
 Id: CodeSystemISO31662DE
 Title: "ISO-3166-2:de-Laendercodes"
-Description: "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder."
+Description: "Dieses CodeSystem enthält die ISO-3166-2:DE-Codes der deutschen Bundesländer. Es dient der standardisierten Kennzeichnung der Bundesländer im deutschen Kontext."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "urn:iso:std:iso:3166-2:de"

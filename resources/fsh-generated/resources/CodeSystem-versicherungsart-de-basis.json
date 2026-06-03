@@ -5,7 +5,7 @@
   "name": "VersicherungsartDeBasis",
   "id": "versicherungsart-de-basis",
   "title": "VersicherungsartDeBasis",
-  "description": "Art der Versicherung bzw. des Kostenträgers.",
+  "description": "Dieses CodeSystem beschreibt in Deutschland gebräuchliche Versicherungsarten beziehungsweise Kostenträgerkontexte. Es dient der administrativen Einordnung des Finanzierungshintergrunds einer Versorgung.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
   "concept": [

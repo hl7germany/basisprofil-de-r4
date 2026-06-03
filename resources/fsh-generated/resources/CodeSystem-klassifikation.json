@@ -5,7 +5,7 @@
   "name": "ArgeIkKlassifikation",
   "id": "klassifikation",
   "title": "ARGE IK Klassifikation",
-  "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
+  "description": "Dieses CodeSystem enthält die Klassifikationen der ARGE IK zur fachlichen Einordnung von Institutionskennzeichen. Es dient der Zuordnung von Geltungsbereichen, Regionalschlüsseln und Vergabekontexten im deutschen Abrechnungs- und Verwaltungsumfeld.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/arge-ik/klassifikation",
   "concept": [

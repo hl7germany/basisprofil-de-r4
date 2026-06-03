@@ -4,7 +4,7 @@
   "name": "VitalSignDE_Atemfrequenz_SNOMED_CT",
   "id": "VitalSignDE-Atemfrequenz-SNOMED-CT",
   "title": "VitalSignDE_Atemfrequenz_SNOMED_CT",
-  "description": "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Atemfrequenz",
+  "description": "Dieses ValueSet enthält die für Atemfrequenz-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Atemfrequenz-SNOMED-CT",
   "experimental": false,

@@ -19,7 +19,7 @@
   ],
   "name": "VS_Score_GlasgowComaScore_Motor",
   "title": "VS Score Glasgow Coma Score Motor",
-  "description": "Dieses ValueSet enthält Codes für die Motorische Reaktion Komponente des Glasgow Coma Scores.",
+  "description": "Dieses ValueSet enthält die Codes für die motorische Reaktions-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der motorischen Antwort.",
   "compose": {
     "include": [
       {

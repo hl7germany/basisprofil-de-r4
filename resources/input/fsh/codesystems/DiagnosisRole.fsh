@@ -1,7 +1,7 @@
 CodeSystem: DiagnosisRole
 Id: diagnosis-role-supplement
 Title: "Rolle der Diagnose"
-Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Diagnose-Rollen"
+Description: "Dieses CodeSystem-Supplement ergänzt das HL7-CodeSystem `diagnosis-role` um deutsche Bezeichnungen. Es dient der sprachlich verständlichen Verwendung internationaler Diagnose-Rollen in deutschen FHIR-Anwendungen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement

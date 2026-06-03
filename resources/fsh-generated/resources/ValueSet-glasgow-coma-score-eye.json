@@ -19,7 +19,7 @@
   ],
   "name": "VS_Score_GlasgowComaScore_Eye",
   "title": "VS Score Glasgow Coma Score Eye",
-  "description": "Dieses ValueSet enthält Codes für die Augenöffnung Komponente des Glasgow Coma Scores.",
+  "description": "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung.",
   "compose": {
     "include": [
       {

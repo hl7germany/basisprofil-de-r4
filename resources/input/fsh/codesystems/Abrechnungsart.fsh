@@ -1,7 +1,7 @@
 CodeSystem: Abrechnungsart
 Id: Abrechnungsart
 Title: "Abrechnungsart"
-Description: "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen"
+Description: "Dieses CodeSystem definiert in Deutschland gebräuchliche Abrechnungsarten im Versorgungskontext. Es dient der einheitlichen Kodierung des fachlichen Abrechnungsregimes in administrativen und klinischen FHIR-Ressourcen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Abrechnungsart"
