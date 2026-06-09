@@ -5,6 +5,6 @@ Description: "VitalSignDE_Body_Weigth_UCUM enthält alle validen Einheiten zur K
 * insert Meta
 * insert UCUMDisclaimer
 * ^url = "http://fhir.de/ValueSet/VitalSignDE_Body_Weigth_UCUM"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $unitsofmeasure#kg "kilogram"
 * $unitsofmeasure#g "gram"

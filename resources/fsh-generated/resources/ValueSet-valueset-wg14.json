@@ -9,7 +9,7 @@
   "url": "http://fhir.de/ValueSet/abdata/wg14",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "experimental": false,

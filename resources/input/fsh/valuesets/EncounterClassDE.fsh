@@ -3,7 +3,7 @@ Id: EncounterClassDE
 Title: "EncounterClassDE"
 Description: "Fallarten und Patientenstatus zur Codierung von Encounter.class"
 * insert Meta
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $v3-ActCode#AMB "ambulatory"
 * $v3-ActCode#IMP "inpatient encounter"
 * $v3-ActCode#PRENC "pre-admission"

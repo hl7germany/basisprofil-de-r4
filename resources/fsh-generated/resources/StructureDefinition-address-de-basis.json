@@ -294,7 +294,7 @@
         "path": "Address.country.extension.value[x]",
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2|4.0.1"
         }
       }
     ]

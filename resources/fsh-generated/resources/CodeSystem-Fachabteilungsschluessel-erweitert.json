@@ -617,7 +617,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",
