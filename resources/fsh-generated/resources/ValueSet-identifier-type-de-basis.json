@@ -29,7 +29,7 @@
     "include": [
       {
         "valueSet": [
-          "http://hl7.org/fhir/ValueSet/identifier-type"
+          "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
         ]
       },
       {
