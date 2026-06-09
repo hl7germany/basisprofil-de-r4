@@ -3,7 +3,7 @@ Id: EncounterStatusDe
 Title: "Encounter Status ValueSet"
 Description: "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"
 * insert Meta
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $encounterStatusR4#planned "Planned"
 * $encounterStatusR4#in-progress "In Progress"
 * $encounterStatusR4#onleave "On Leave"
