@@ -29,6 +29,7 @@
     "include": [
       {
         "system": "http://hl7.org/fhir/encounter-status",
+        "version": "4.0.1",
         "concept": [
           {
             "code": "planned",
