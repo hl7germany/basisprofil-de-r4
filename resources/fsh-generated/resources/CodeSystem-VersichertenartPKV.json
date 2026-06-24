@@ -41,5 +41,6 @@
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/pkv/Versichertenart",
   "compositional": false,
+  "copyright": "HL7 Deutschland e.V.",
   "count": 2
 }

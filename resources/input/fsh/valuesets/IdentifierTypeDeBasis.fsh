@@ -13,3 +13,4 @@ Description: "Dieses ValueSet bündelt die im deutschen Basisprofil zulässigen 
 * $v2-0203#AN "Account number"
 * $v2-0203#PRN "Provider number"
 * include codes from system IdentifierTypeDeBasis
+* insert IncludeCopyright([[HL7 Deutschland e.V.]])

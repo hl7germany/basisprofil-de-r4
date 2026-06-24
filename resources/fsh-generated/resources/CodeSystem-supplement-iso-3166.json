@@ -2269,5 +2269,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "urn:iso:std:iso:3166"
+  "supplements": "urn:iso:std:iso:3166",
+  "copyright": "HL7 Deutschland e.V."
 }

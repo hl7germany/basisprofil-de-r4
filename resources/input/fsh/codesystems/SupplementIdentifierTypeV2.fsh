@@ -6,6 +6,7 @@ Description: "Dieses CodeSystem-Supplement ergänzt das HL7-v2-CodeSystem für I
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* ^copyright = "HL7 Deutschland e.V."
 * #DL
   * ^designation.language = #de-DE
   * ^designation.value = "Führerscheinnummer"

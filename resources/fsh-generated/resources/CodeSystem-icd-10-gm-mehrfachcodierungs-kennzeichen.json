@@ -45,5 +45,6 @@
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen",
+  "copyright": "HL7 Deutschland e.V.",
   "count": 3
 }

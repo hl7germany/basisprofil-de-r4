@@ -10,6 +10,7 @@ Description: "Dieses CodeSystem enthält die in Deutschland auf Schwerbehinderte
 * ^content = #complete
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/merkzeichen-de"
+* ^copyright = "Die Merkzeichen beruhen auf gesetzlichen bzw. untergesetzlichen Vorgaben des deutschen Sozialrechts."
 * #G "erhebliche Gehbehinderung" "erhebliche Gehbehinderung"
 * #aG "außergewöhnliche Gehbehinderung" "außergewöhnliche Gehbehinderung"
 * #H "Hilflosigkeit" "Hilflosigkeit"

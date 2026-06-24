@@ -7,6 +7,7 @@ Description: "Dieses CodeSystem beschreibt die Ebene, auf der ein Kontakt mit ei
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/kontaktebene-de"
 * ^content = #complete
+* ^copyright = "HL7 Deutschland e.V."
 * #einrichtungskontakt "Einrichtungskontakt" "Beschreibt den Kontakt zur Einrichtung."
 * #abteilungskontakt "Abteilungskontakt" "Beschreibt den Kontakt zur Abteilung."
 * #versorgungsstellenkontakt "Versorgungsstellenkontakt" "Beschreibt den Kontakt zur Versorgungsstelle."

@@ -9,6 +9,7 @@ Description: "Dieses CodeSystem beschreibt fachliche Rollen von Diagnosen und Pr
 * ^copyright = "HL7 Deutschland e.V."
 * ^valueSet = "http://fhir.de/ValueSet/KontaktDiagnoseProzedur"
 * ^compositional = false
+* ^copyright = "Copyright der FHIR-technischen Aufbereitung und Zusammenstellung: HL7 Deutschland e.V. DRG-bezogene Begriffsbestimmungen basieren auf den Deutschen Kodierrichtlinien; Copyright und Nutzungsbedingungen der Deutschen Kodierrichtlinien liegen bei der InEK GmbH."
 * #referral-diagnosis "Überweisungsdiagnose" "Die Einweisungsdiagnose/Überweisungsdiagnose ist die Verdachtsdiagnose oder Arbeitsdiagnose, die ein Arzt oder eine Ärztin beim Einweisen/Überweisen eines Patienten in ein Krankenhaus stellt."
 * #treatment-diagnosis "Behandlungsrelevante Diagnosen" "Alle medizinischen Diagnosen, die Einfluss auf die Diagnostik, Therapie, Pflege oder den Verlauf der Behandlung haben."
 * #surgery-diagnosis "Operationsdiagnose" "Eine Operationsdiagnose bezeichnet die spezifische medizinische Diagnose, die den unmittelbaren Anlass für eine durchgeführte Operation darstellt. Sie beschreibt die Erkrankung oder Verletzung, die chirurgisch behandelt wurde, und wird oft im Rahmen der Operationsdokumentation, der Abrechnung sowie für statistische und medizinische Auswertungen angegeben, vgl. §630f BGB Dokumentation der Behandlung"

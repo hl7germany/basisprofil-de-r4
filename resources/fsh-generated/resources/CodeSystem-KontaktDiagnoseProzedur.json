@@ -74,7 +74,7 @@
     ]
   },
   "caseSensitive": false,
-  "copyright": "HL7 Deutschland e.V.",
+  "copyright": "Copyright der FHIR-technischen Aufbereitung und Zusammenstellung: HL7 Deutschland e.V. DRG-bezogene Begriffsbestimmungen basieren auf den Deutschen Kodierrichtlinien; Copyright und Nutzungsbedingungen der Deutschen Kodierrichtlinien liegen bei der InEK GmbH.",
   "valueSet": "http://fhir.de/ValueSet/KontaktDiagnoseProzedur",
   "compositional": false,
   "count": 9

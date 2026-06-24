@@ -6,6 +6,7 @@ Description: "Dieses CodeSystem-Supplement ergänzt `v3-MaritalStatus` um deutsc
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+* ^copyright = "HL7 Deutschland e.V."
 * #A
   * ^designation.language = #de-DE
   * ^designation.value = "annulliert"

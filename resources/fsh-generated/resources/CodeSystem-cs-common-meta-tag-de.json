@@ -34,6 +34,7 @@
     ]
   },
   "valueSet": "http://fhir.de/ValueSet/common-meta-tag-de",
+  "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "count": 1
 }

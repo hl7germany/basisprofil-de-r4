@@ -27,3 +27,4 @@ Description: "Dieses ValueSet enthält OPS-Codes zur Differenzierung des dokumen
 * ^expansion.contains[=].code = #9-984.b
 * ^expansion.contains[=].display = "Pflegebedürftigkeit: Erfolgter Antrag auf Einstufung in einen Pflegegrad"
 * include codes from system $ops where parent = "9-984"
+* insert IncludeCopyright([[Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)]])

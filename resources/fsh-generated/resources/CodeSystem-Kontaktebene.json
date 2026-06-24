@@ -45,5 +45,6 @@
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/kontaktebene-de",
+  "copyright": "HL7 Deutschland e.V.",
   "count": 3
 }

@@ -3,6 +3,7 @@ InstanceOf: ValueSet
 Usage: #definition
 * insert Meta-Instance
 * insert ArtifactAuthorInstance([[Regenstrief Institute, Inc. and the LOINC Committee]])
+* insert IncludeCopyrightInstance([[This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.]])
 * name = "VS_Score_GlasgowComaScore_Eye"
 * title = "VS Score Glasgow Coma Score Eye"
 * description = "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung."
@@ -29,6 +30,7 @@ InstanceOf: ValueSet
 Usage: #definition
 * insert Meta-Instance
 * insert ArtifactAuthorInstance([[Regenstrief Institute, Inc. and the LOINC Committee]])
+* insert IncludeCopyrightInstance([[This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.]])
 * name = "VS_Score_GlasgowComaScore_Verbal"
 * title = "VS Score Glasgow Coma Score Verbal"
 * description = "Dieses ValueSet enthält die Codes für die verbale Kommunikations-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der verbalen Reaktion."
@@ -59,6 +61,7 @@ InstanceOf: ValueSet
 Usage: #definition
 * insert Meta-Instance
 * insert ArtifactAuthorInstance([[Regenstrief Institute, Inc. and the LOINC Committee]])
+* insert IncludeCopyrightInstance([[This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.]])
 * name = "VS_Score_GlasgowComaScore_Motor"
 * title = "VS Score Glasgow Coma Score Motor"
 * description = "Dieses ValueSet enthält die Codes für die motorische Reaktions-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der motorischen Antwort."

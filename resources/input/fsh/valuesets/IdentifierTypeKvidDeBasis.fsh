@@ -4,6 +4,7 @@ Title: "Identifier Type Kvid DeBasis ValueSet"
 Description: "Dieses ValueSet enthält die für KVID-bezogene Identifier zulässigen Typcodes. Es dient der eindeutigen Kennzeichnung von Versicherungs- und Krankenversichertennummern im deutschen Kontext."
 * insert Meta
 * ^meta.profile = $shareablevalueset
+* insert IncludeCopyright([[HL7 Deutschland e.V.]])
 * $identifier-type-de-basis#GKV "Gesetzliche Krankenversicherung"
 * $identifier-type-de-basis#PKV "Private Krankenversicherung"
 * $identifier-type-de-basis#KVZ10 "Krankenversichertennummer"

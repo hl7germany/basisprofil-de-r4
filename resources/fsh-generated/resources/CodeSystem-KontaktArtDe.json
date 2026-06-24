@@ -92,5 +92,6 @@
   "valueSet": "http://fhir.de/ValueSet/kontaktart-de",
   "hierarchyMeaning": "is-a",
   "compositional": false,
+  "copyright": "HL7 Deutschland e.V.",
   "count": 12
 }

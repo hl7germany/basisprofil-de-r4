@@ -109,5 +109,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+  "supplements": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+  "copyright": "HL7 Deutschland e.V."
 }

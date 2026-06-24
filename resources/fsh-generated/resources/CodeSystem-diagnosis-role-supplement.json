@@ -91,5 +91,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+  "supplements": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+  "copyright": "HL7 Deutschland e.V."
 }
