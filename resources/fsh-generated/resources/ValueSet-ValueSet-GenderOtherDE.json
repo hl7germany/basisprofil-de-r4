@@ -4,7 +4,7 @@
   "name": "GenderOtherDEVS",
   "id": "ValueSet-GenderOtherDE",
   "title": "GenderOtherDE ValueSet",
-  "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KB",
+  "description": "Dieses ValueSet enthält die nicht-binären beziehungsweise nicht eindeutig männlich oder weiblich codierten Ausprägungen des amtlichen Geschlechts. Es ist für Anwendungsfälle vorgesehen, in denen diese Differenzierung explizit benötigt wird.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/gender-other-de",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

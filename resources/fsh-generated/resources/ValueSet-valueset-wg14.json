@@ -4,12 +4,12 @@
   "name": "WG14VS",
   "id": "valueset-wg14",
   "title": "WG14 ValueSet",
-  "description": "Deprecated - ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente",
+  "description": "Deprecated - Dieses  ValueSet referenziert die ehemalige ABDATA-WG14-Systematik für aut-idem-Auswahlgruppen. Es dient ausschließlich der Abwärtskompatibilität und ist nicht für neue fachliche Modellierungen vorgesehen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/abdata/wg14",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "experimental": false,

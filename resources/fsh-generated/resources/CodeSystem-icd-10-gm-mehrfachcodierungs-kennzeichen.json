@@ -5,7 +5,7 @@
   "name": "MehrfachkodierungsKennzeichen",
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen",
-  "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes",
+  "description": "Dieses CodeSystem enthält Zusatzkennzeichen für postkoordinierte ICD-10-GM-Codes. Es dient der semantisch korrekten Kennzeichnung von Ätiologie-, Manifestations- und Zusatzinformationsbezügen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "concept": [

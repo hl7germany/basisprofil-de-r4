@@ -4,7 +4,7 @@
   "name": "ValueSetVersichertenartPKV",
   "id": "VersichertenartPKV",
   "title": "Versichertenart (PKV)",
-  "description": "Versichertenart von PKV-Versicherten",
+  "description": "Dieses ValueSet enthält die zulässigen Codes zur Differenzierung der Versichertenart im PKV-Kontext. Es dient der Unterscheidung zwischen Versicherungsnehmer und versicherter Person.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/pkv/Versichertenart",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

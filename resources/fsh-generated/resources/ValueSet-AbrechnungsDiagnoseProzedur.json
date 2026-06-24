@@ -4,7 +4,7 @@
   "name": "AbrechnungsDiagnoseProzedur",
   "id": "AbrechnungsDiagnoseProzedur",
   "title": "AbrechnungsDiagnoseProzedur ValueSet",
-  "description": "Rolle von Diagnosen und Prozeduren im Abrechnungs-Kontext",
+  "description": "Dieses ValueSet bündelt Diagnose-Rollen, die speziell für Abrechnungszwecke relevant sind. Es dient der klaren Kennzeichnung, welche Diagnosen oder Prozedurbezüge für die Fallabrechnung maßgeblich sind.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/AbrechnungsDiagnoseProzedur",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

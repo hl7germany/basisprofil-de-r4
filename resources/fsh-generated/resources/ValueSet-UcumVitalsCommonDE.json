@@ -4,7 +4,7 @@
   "name": "UCUM_Vitals_Common_DE",
   "id": "UcumVitalsCommonDE",
   "title": "UCUM Vitals Common DE",
-  "description": "Alle innerhalb der VitalSign Profile (DE) erlaubten UCUM Einheiten für value[x]",
+  "description": "Dieses ValueSet enthält die innerhalb der deutschen Vitalparameter-Profile zulässigen UCUM-Einheiten. Es dient der konsistenten Einheitenbindung für numerische Messwerte in `value[x]`.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

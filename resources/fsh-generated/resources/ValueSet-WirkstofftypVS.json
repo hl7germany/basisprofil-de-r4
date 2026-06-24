@@ -4,7 +4,7 @@
   "name": "WirkstofftypVS",
   "id": "WirkstofftypVS",
   "title": "ValueSet  - Wirkstofftypen",
-  "description": "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe.",
+  "description": "Dieses ValueSet enthält die zulässigen Wirkstofftypen zur Unterscheidung zwischen präziser Substanz, normalisierter Substanz und Wirkstoffkombination. Es dient der konsistenten Einordnung arzneimittelbezogener Angaben.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/WirkstofftypVS",
   "experimental": false,

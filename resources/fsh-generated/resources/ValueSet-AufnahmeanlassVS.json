@@ -4,7 +4,7 @@
   "name": "AufnahmeanlassVS",
   "id": "AufnahmeanlassVS",
   "title": "Aufnahmeanlass ValueSet",
-  "description": "Aufnahmeanlass, Datenübermittlung nach § 301 Abs. 3 SGB V",
+  "description": "Dieses ValueSet enthält die zulässigen Codes für den Aufnahmeanlass nach § 301 Abs. 3 SGB V. Es dient der einheitlichen Codierung des administrativen Anlasses einer Krankenhausaufnahme.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/dgkev/Aufnahmeanlass",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

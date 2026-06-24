@@ -1,3 +1,4 @@
+//TODO: PW: wieso type so eingeschränkt? Das hier wäre eher NamingsystemIdentifierDeBasis?
 Profile: NamingsystemDeBasis
 Parent: NamingSystem
 Id: namingsystem-de-basis

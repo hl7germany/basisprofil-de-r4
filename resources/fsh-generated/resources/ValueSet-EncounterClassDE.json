@@ -4,7 +4,7 @@
   "name": "EncounterClassDE",
   "id": "EncounterClassDE",
   "title": "EncounterClassDE",
-  "description": "Fallarten und Patientenstatus zur Codierung von Encounter.class",
+  "description": "Dieses ValueSet beschränkt `Encounter.class` auf im deutschen Versorgungskontext gebräuchliche Fallarten. Es dient der interoperablen Kennzeichnung des organisatorischen Rahmens eines Kontakts.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/EncounterClassDE",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

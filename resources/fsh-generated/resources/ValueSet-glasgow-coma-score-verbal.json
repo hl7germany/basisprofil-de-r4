@@ -19,7 +19,7 @@
   ],
   "name": "VS_Score_GlasgowComaScore_Verbal",
   "title": "VS Score Glasgow Coma Score Verbal",
-  "description": "Dieses ValueSet enthält Codes für die Verbale Kommunikation Komponente des Glasgow Coma Scores.",
+  "description": "Dieses ValueSet enthält die Codes für die verbale Kommunikations-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der verbalen Reaktion.",
   "compose": {
     "include": [
       {

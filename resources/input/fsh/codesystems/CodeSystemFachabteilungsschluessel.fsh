@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemFachabteilungsschluessel
 Id: Fachabteilungsschluessel
 Title: "Fachabteilungsschluessel"
-Description: "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung"
+Description: "Dieses CodeSystem bildet die Fachabteilungsschlüssel gemäß Anhang 1 BPflV in der am 31.12.2003 geltenden Fassung ab. Es dient der fachlichen Zuordnung von Krankenhausbereichen in Verwaltungs-, Abrechnungs- und Versorgungsprozessen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"

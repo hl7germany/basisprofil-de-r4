@@ -1,5 +1,5 @@
 ## Platzhalter-Codesysteme
 
-Einige CodesSystem-Ressourcen in diesem Leitfaden stellen lediglich Platzhalter für das eigentliche Codesystem dar, beispielsweise ICD-10-GM oder OPS. Dies ist mittels der Angabe content="not-present" in den CodeSystem-Ressourcen gekennzeichnet.
+Der Leitfaden veröffentlicht grundsätzlich keine Platzhalter-CodeSysteme mehr für externe CodeSysteme wie ICD-10-GM, OPS, Alpha-ID, Alpha-ID-SE, ATC, ASK oder PZN. Die verwendeten CodeSystem-URLs werden stattdessen als `uniqueId` in NamingSystem-Ressourcen dokumentiert. Siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-NationaleNamensraeume.md}}.
 
-Diese Ressourcen dienen lediglich der Repräsentation der Metadaten des Codesystems. Die enthaltenen Konzepte sind über den jeweiligen Herausgeber in unterschiedlichen Formaten verfügbar. Sie sollten in konkreten Implementierungen bei Bedarf über entsprechend implementierte Terminologiedienste, beispielsweise einen FHIR Terminologieserver, zur Verfügung gestellt werden.
+Eine Ausnahme besteht für `WG14`: Dieses CodeSystem bleibt aus Gründen der Abwärtskompatibilität vorübergehend als deprecated bzw. retired Platzhalter-CodeSystem erhalten. `WG14` ist nicht für neue fachliche Modellierungen vorgesehen und soll mit der nächsten Version des Leitfadens entfernt werden.

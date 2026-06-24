@@ -4,7 +4,7 @@
   "name": "MehrfachkodierungsKennzeichenVS",
   "id": "icd-10-gm-mehrfachcodierungs-kennzeichen",
   "title": "Mehrfachkodierungs-Kennzeichen ICD10GM ValueSet",
-  "description": "Zusatzkennzeichen für postkoordinierte ICD-10-gm-Codes ",
+  "description": "Dieses ValueSet enthält die zulässigen Zusatzkennzeichen für postkoordinierte ICD-10-GM-Codes. Es dient der korrekten Kennzeichnung von Ätiologie-, Manifestations- und Zusatzinformationsbezügen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

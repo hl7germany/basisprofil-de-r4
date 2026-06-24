@@ -4,7 +4,7 @@
   "name": "MerkzeichenVS",
   "id": "merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
-  "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
+  "description": "Dieses ValueSet enthält die in Deutschland auf Schwerbehindertenausweisen verwendeten Merkzeichen. Es dient der standardisierten Abbildung behinderungsbezogener Berechtigungen und Nachteilsausgleiche.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/merkzeichen-de",
   "experimental": false,
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {
