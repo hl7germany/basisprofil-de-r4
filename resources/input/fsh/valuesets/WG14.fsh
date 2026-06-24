@@ -6,5 +6,6 @@ Description: "Deprecated - Dieses  ValueSet referenziert die ehemalige ABDATA-WG
 * insert Meta
 * ^status = #retired
 * ^url = "http://fhir.de/ValueSet/abdata/wg14"
+* insert ArtifactAuthor([[ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH]])
 * ^copyright = "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH"
 * include codes from system WG14

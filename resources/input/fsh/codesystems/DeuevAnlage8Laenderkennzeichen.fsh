@@ -11,6 +11,7 @@ Description: "Staatsangehörigkeit und Länderkennzeichen für Auslandsanschrift
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* insert ArtifactAuthor([[GKV-Spitzenverband]])
 * ^copyright = "GKV-Spitzenverband"
 * ^caseSensitive = true
 * ^content = #complete

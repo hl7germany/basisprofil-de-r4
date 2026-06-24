@@ -3,6 +3,7 @@ Id: anlage-6-vorsatzworte
 Title: "Tabelle der gültigen Vorsatzworte"
 Description: "Dieses CodeSystem enthält die nach DEÜV Anlage 6 zulässigen Vorsatzworte in Nachnamen. Es dient der normgerechten Erfassung und Übermittlung strukturierter Namensbestandteile."
 * insert Meta
+* insert ArtifactAuthor([[GKV-Spitzenverband]])
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte"
 * ^version = "2.30"

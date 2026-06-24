@@ -3,6 +3,7 @@ Id: lebensphase-de
 Title: "LebensphaseDe ValueSet"
 Description: "Dieses ValueSet enthält SNOMED-CT-Konzepte zur Angabe von Lebensphasen. Es dient der semantisch präzisen Beschreibung alters- und entwicklungsbezogener Kontexte."
 * insert Meta
+* insert ArtifactAuthor([[Kassenärztliche Bundesvereinigung (KBV)]])
 * ^copyright = """Kassenärztliche Bundesvereinigung (KBV)  
 This value set includes content from SNOMED CT, which is copyright © 2002 International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."""
 * SNOMED_CT#41847000 "Adulthood (qualifier value)"
