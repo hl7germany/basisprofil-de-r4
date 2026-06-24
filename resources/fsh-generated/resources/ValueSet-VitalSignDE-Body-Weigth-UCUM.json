@@ -20,6 +20,14 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization"
+      }
+    }
+  ],
   "copyright": "The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright © 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved.",
   "meta": {
     "profile": [
