@@ -17,6 +17,14 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "Regenstrief Institute, Inc. and the LOINC Committee"
+      }
+    }
+  ],
   "name": "VS_Score_GlasgowComaScore_Verbal",
   "title": "VS Score Glasgow Coma Score Verbal",
   "description": "Dieses ValueSet enthält die Codes für die verbale Kommunikations-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der verbalen Reaktion.",

@@ -1218,6 +1218,14 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "GKV-Spitzenverband"
+      }
+    }
+  ],
   "copyright": "GKV-Spitzenverband",
   "caseSensitive": true,
   "property": [
