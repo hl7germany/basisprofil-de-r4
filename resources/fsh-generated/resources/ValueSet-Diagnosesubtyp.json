@@ -5,7 +5,7 @@
   "id": "Diagnosesubtyp",
   "title": "Diagnosesubtyp ValueSet",
   "description": "Dieses ValueSet bündelt spezielle Untertypen von Diagnosen mit definierter fachlicher Rolle, etwa Operationsdiagnosen, Todesursachen oder Aufnahmediagnosen. Es dient der semantischen Verfeinerung diagnostischer Angaben innerhalb eines Versorgungskontexts.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/Diagnosesubtyp",
   "experimental": false,
   "date": "2025-12-23",

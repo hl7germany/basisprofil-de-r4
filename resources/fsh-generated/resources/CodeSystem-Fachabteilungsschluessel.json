@@ -6,7 +6,7 @@
   "id": "Fachabteilungsschluessel",
   "title": "Fachabteilungsschluessel",
   "description": "Dieses CodeSystem bildet die Fachabteilungsschlüssel gemäß Anhang 1 BPflV in der am 31.12.2003 geltenden Fassung ab. Es dient der fachlichen Zuordnung von Krankenhausbereichen in Verwaltungs-, Abrechnungs- und Versorgungsprozessen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
   "concept": [
     {

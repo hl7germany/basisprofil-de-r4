@@ -6,7 +6,7 @@
   "id": "identifier-type-de-basis",
   "title": "Identifier Type De Basis",
   "description": "Dieses CodeSystem ergänzt die allgemeinen Identifier-Typen um im deutschen Basisprofil benötigte fachliche Identifierkategorien. Es dient der präzisen Typisierung national gebräuchlicher Kennungen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/identifier-type-de-basis",
   "concept": [
     {

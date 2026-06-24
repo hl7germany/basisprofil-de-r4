@@ -5,7 +5,7 @@
   "id": "wahlleistungen-de",
   "title": "Wahlleistungen",
   "description": "Dieses ValueSet enthält die im stationären Kontext vorgesehenen Wahlleistungen, insbesondere zu Unterkunft und ärztlicher Behandlung. Es dient der standardisierten Bindung vereinbarter Zusatzleistungen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/wahlleistungen-de",
   "experimental": false,
   "date": "2025-12-23",

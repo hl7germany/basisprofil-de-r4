@@ -5,7 +5,7 @@
   "id": "ValueSet-GenderOtherDE",
   "title": "GenderOtherDE ValueSet",
   "description": "Dieses ValueSet enthält die nicht-binären beziehungsweise nicht eindeutig männlich oder weiblich codierten Ausprägungen des amtlichen Geschlechts. Es ist für Anwendungsfälle vorgesehen, in denen diese Differenzierung explizit benötigt wird.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/gender-other-de",
   "experimental": false,
   "date": "2025-12-23",

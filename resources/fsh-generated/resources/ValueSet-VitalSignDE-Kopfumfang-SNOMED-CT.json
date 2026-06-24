@@ -5,7 +5,7 @@
   "id": "VitalSignDE-Kopfumfang-SNOMED-CT",
   "title": "VitalSignDE_Kopfumfang_SNOMED_CT",
   "description": "Dieses ValueSet enthält die für Kopfumfang-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Kopfumfang-SNOMED-CT",
   "experimental": false,
   "date": "2025-12-23",

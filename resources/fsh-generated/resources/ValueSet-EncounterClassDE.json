@@ -5,7 +5,7 @@
   "id": "EncounterClassDE",
   "title": "EncounterClassDE",
   "description": "Dieses ValueSet beschränkt `Encounter.class` auf im deutschen Versorgungskontext gebräuchliche Fallarten. Es dient der interoperablen Kennzeichnung des organisatorischen Rahmens eines Kontakts.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/EncounterClassDE",
   "experimental": false,
   "date": "2025-12-23",

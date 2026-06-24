@@ -6,7 +6,7 @@
   "id": "AufnahmegrundDritteStelle",
   "title": "AufnahmegrundDritteStelle",
   "description": "Dieses CodeSystem stellt die dritte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung besonderer Aufnahme- und Abrechnungskonstellationen, z. B. Zuständigkeitswechsel des Kostenträgers oder integrierte Versorgung.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
   "concept": [
     {

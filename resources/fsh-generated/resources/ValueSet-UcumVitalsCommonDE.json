@@ -5,7 +5,7 @@
   "id": "UcumVitalsCommonDE",
   "title": "UCUM Vitals Common DE",
   "description": "Dieses ValueSet enthält die innerhalb der deutschen Vitalparameter-Profile zulässigen UCUM-Einheiten. Es dient der konsistenten Einheitenbindung für numerische Messwerte in `value[x]`.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/UcumVitalsCommonDE",
   "experimental": false,
   "date": "2025-12-23",

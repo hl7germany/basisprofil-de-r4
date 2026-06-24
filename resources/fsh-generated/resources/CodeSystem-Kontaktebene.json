@@ -6,7 +6,7 @@
   "id": "Kontaktebene",
   "title": "Kontaktebene",
   "description": "Dieses CodeSystem beschreibt die Ebene, auf der ein Kontakt mit einer Gesundheitseinrichtung modelliert wird. Es dient der Abgrenzung zwischen Einrichtungs-, Abteilungs- und Versorgungsstellenkontakten.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/Kontaktebene",
   "concept": [
     {

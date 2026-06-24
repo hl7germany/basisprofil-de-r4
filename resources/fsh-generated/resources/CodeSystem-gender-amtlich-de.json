@@ -6,7 +6,7 @@
   "id": "gender-amtlich-de",
   "title": "amtliches Geschlecht",
   "description": "Dieses CodeSystem enthält Codes zur Erfassung des amtlichen Geschlechts auf Basis deutscher Verwaltungsvorgaben. Es ist für Anwendungsfälle vorgesehen, in denen rechtlich oder administrativ definierte Geschlechtsangaben interoperabel übertragen werden müssen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/gender-amtlich-de",
   "concept": [
     {

@@ -6,7 +6,7 @@
   "id": "Abrechnungsart",
   "title": "Abrechnungsart",
   "description": "Dieses CodeSystem definiert in Deutschland gebräuchliche Abrechnungsarten im Versorgungskontext. Es dient der einheitlichen Kodierung des fachlichen Abrechnungskontexts in administrativen und klinischen FHIR-Ressourcen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Abrechnungsart",
   "concept": [
     {

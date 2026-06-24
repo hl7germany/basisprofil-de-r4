@@ -6,7 +6,7 @@
   "id": "WirkstofftypCS",
   "title": "CodeSystem - Wirkstofftypen",
   "description": "Dieses CodeSystem unterscheidet Wirkstoffe nach fachlicher Granularität, etwa als präzise Substanz, normalisierte Substanz oder Wirkstoffkombination. Es dient der konsistenten Einordnung arzneimittelbezogener Angaben in Terminologie- und Medikationskontexten.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/WirkstofftypCS",
   "concept": [
     {

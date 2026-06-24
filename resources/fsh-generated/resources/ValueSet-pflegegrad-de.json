@@ -5,7 +5,7 @@
   "id": "pflegegrad-de",
   "title": "PflegegradDE ValueSet",
   "description": "Dieses ValueSet enthält OPS-Codes zur Differenzierung des dokumentierten Pflegegrads. Es ist für die strukturierte Angabe pflegebezogener Einstufungen im deutschen Versorgungskontext vorgesehen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "experimental": false,
   "date": "2025-12-23",

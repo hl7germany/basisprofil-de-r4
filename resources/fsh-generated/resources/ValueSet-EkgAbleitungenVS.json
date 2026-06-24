@@ -5,7 +5,7 @@
   "id": "EkgAbleitungenVS",
   "title": "SNOMED CT codes der EKG Ableitungen",
   "description": "Dieses ValueSet enthält SNOMED-CT-Konzepte für EKG-Ableitungen. Es dient der semantisch präzisen Codierung von Ableitungen in klinischen Beobachtungen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/EkgAbleitungenVS",
   "experimental": false,
   "date": "2025-12-23",

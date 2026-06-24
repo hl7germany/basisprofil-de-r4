@@ -5,7 +5,7 @@
   "id": "RuhenderLeistungsanspruchGKV",
   "title": "Ruhender Leistungsanspruch (GKV)",
   "description": "Dieses ValueSet enthält die zulässigen Ausprägungen eines ruhenden Leistungsanspruchs für GKV-Versicherte. Es dient der standardisierten Bindung leistungsrechtlicher Einschränkungen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/gkv/RuhenderLeistungsanspruchGKV",
   "experimental": false,
   "date": "2025-12-23",

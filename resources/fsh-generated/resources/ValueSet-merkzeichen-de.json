@@ -5,7 +5,7 @@
   "id": "merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
   "description": "Dieses ValueSet enthält die in Deutschland auf Schwerbehindertenausweisen verwendeten Merkzeichen. Es dient der standardisierten Abbildung behinderungsbezogener Berechtigungen und Nachteilsausgleiche.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/merkzeichen-de",
   "experimental": false,
   "date": "2025-12-23",

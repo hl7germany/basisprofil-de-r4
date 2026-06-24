@@ -6,7 +6,7 @@
   "id": "observation-category-supplement",
   "title": "Deutsche Übersetzungen für ObservationCategoryCodes",
   "description": "Dieses CodeSystem-Supplement ergänzt `ObservationCategoryCodes` um deutsche Bezeichnungen. Es dient der konsistenten deutschsprachigen Darstellung internationaler Observation-Kategorien.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/observation-category-supplement",
   "concept": [
     {

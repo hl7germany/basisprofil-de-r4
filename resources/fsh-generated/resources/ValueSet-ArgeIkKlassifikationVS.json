@@ -5,7 +5,7 @@
   "id": "ArgeIkKlassifikationVS",
   "title": "ArgeIkKlassifikation ValueSet",
   "description": "Dieses ValueSet umfasst die ARGE-IK-Klassifikationen zur fachlichen Einordnung von Institutionskennzeichen. Es ist für Anwendungsfälle vorgesehen, in denen Geltungsbereich und Vergabekontext eines IK ausgedrückt werden sollen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/arge-ik/klassifikation",
   "experimental": false,
   "date": "2025-12-23",

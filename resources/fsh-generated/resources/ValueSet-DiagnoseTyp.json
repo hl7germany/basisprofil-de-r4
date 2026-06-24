@@ -5,7 +5,7 @@
   "id": "DiagnoseTyp",
   "title": "DiagnoseTyp ValueSet",
   "description": "Dieses ValueSet enthält übergeordnete Typen diagnostischer Angaben, etwa Einweisungs- oder behandlungsrelevante Diagnosen. Es dient der fachlichen Einordnung, in welchem Versorgungskontext eine Diagnose erhoben oder verwendet wird.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/DiagnoseTyp",
   "experimental": false,
   "date": "2025-12-23",

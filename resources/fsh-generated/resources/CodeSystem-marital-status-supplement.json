@@ -6,7 +6,7 @@
   "id": "marital-status-supplement",
   "title": "Deutsche Übersetzungen für MaritalStatus",
   "description": "Dieses CodeSystem-Supplement ergänzt `v3-MaritalStatus` um deutsche Bezeichnungen. Es dient der sprachlich verständlichen Verwendung internationaler Familienstandscodes.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/marital-status-supplement",
   "concept": [
     {

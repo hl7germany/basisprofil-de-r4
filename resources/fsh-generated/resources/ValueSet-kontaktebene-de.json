@@ -5,7 +5,7 @@
   "id": "kontaktebene-de",
   "title": "KontaktebeneDe ValueSet",
   "description": "Dieses ValueSet enthält die zulässigen Kontaktebenen zur Modellierung von Versorgungskontakten. Es dient der Abgrenzung, ob ein Kontakt auf Einrichtungs-, Abteilungs- oder Versorgungsstellenebene beschrieben wird.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/kontaktebene-de",
   "experimental": false,
   "date": "2025-12-23",

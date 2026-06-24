@@ -5,7 +5,7 @@
   "id": "ValueSet-OPS-SNOMED-Source-Codes",
   "title": "ValueSet of OPS Source Codes for the OPS-SNOMED ConceptMap",
   "description": "Dieses ValueSet enthält die Quellkonzepte aus dem ConceptMap-Mapping zwischen OPS-Kategorien und SNOMED CT. Es dient der klaren Abgrenzung der abgebildeten OPS-Ausgangswerte für Terminologie-Transformationen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/ValueSet-OPS-SNOMED-Source-Codes",
   "experimental": false,
   "date": "2025-12-23",

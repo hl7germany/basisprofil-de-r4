@@ -6,7 +6,7 @@
   "id": "diagnosis-role-supplement",
   "title": "Rolle der Diagnose",
   "description": "Dieses CodeSystem-Supplement ergänzt das HL7-CodeSystem `diagnosis-role` um deutsche Bezeichnungen. Es dient der sprachlich verständlichen Verwendung internationaler Diagnose-Rollen in deutschen FHIR-Anwendungen.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/diagnosis-role-supplement",
   "concept": [
     {

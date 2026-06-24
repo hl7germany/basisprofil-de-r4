@@ -6,7 +6,7 @@
   "id": "CodeSystemISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
   "description": "Dieses CodeSystem enthält die ISO-3166-2:DE-Codes der deutschen Bundesländer. Es dient der standardisierten Kennzeichnung der Bundesländer im deutschen Kontext.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "urn:iso:std:iso:3166-2:de",
   "concept": [
     {

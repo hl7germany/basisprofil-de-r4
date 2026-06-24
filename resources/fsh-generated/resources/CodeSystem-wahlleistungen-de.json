@@ -6,7 +6,7 @@
   "id": "wahlleistungen-de",
   "title": "Wahlleistungen",
   "description": "Dieses CodeSystem beschreibt wählbare Zusatzleistungen im Krankenhaus, insbesondere zu Unterkunft und ärztlicher Behandlung. Es dient der strukturierten Kennzeichnung vereinbarter Wahlleistungen im stationären Kontext.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/wahlleistungen-de",
   "concept": [
     {

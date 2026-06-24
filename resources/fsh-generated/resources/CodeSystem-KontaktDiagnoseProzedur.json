@@ -6,7 +6,7 @@
   "id": "KontaktDiagnoseProzedur",
   "title": "KontaktDiagnoseProzedur",
   "description": "Dieses CodeSystem beschreibt fachliche Rollen von Diagnosen und Prozedurbezügen im Versorgungskontext. Es dient der semantischen Einordnung, welche Relevanz eine Diagnose innerhalb eines Kontakts oder Abrechnungsfalls hat.",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
   "concept": [
     {
