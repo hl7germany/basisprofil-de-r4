@@ -1,11 +1,12 @@
 CodeSystem: SupplementObservationCategory
 Id: observation-category-supplement
 Title: "Deutsche Übersetzungen für ObservationCategoryCodes"
-Description: "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationCategoryCodes"
+Description: "Dieses CodeSystem-Supplement ergänzt `ObservationCategoryCodes` um deutsche Bezeichnungen. Es dient der konsistenten deutschsprachigen Darstellung internationaler Observation-Kategorien."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/observation-category"
+* ^copyright = "HL7 Deutschland e.V."
 * #social-history
   * ^designation.language = #de-DE
   * ^designation.value = "Sozialanamnese"

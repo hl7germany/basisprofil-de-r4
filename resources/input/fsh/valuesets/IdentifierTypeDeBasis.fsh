@@ -1,9 +1,9 @@
 ValueSet: IdentifierTypeDeBasisVS
 Id: identifier-type-de-basis
 Title: "Identifier Type DeBasis ValueSet"
-Description: "ValueSet zur Codierung des Identifier-Typs"
+Description: "Dieses ValueSet bündelt die im deutschen Basisprofil zulässigen Identifier-Typen aus internationalen und nationalen Codesystemen. Es dient der präzisen Typisierung von Kennungen in FHIR-Ressourcen."
 * insert Meta
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * include codes from valueset $identifier-type
 * $v2-0203#XX "Organisations-ID"
 * $v2-0203#BSNR "Betriebsstätten-Nummer"
@@ -13,3 +13,4 @@ Description: "ValueSet zur Codierung des Identifier-Typs"
 * $v2-0203#AN "Account number"
 * $v2-0203#PRN "Provider number"
 * include codes from system IdentifierTypeDeBasis
+* insert IncludeCopyright([[HL7 Deutschland e.V.]])

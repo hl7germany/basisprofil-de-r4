@@ -5,8 +5,8 @@
   "name": "CodeSystemVersichertenartPKV",
   "id": "VersichertenartPKV",
   "title": "Versichertenart (PKV)",
-  "description": "Versichertenart von PKV-Versicherten",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem differenziert die Versichertenart im Kontext privat Krankenversicherter. Es dient der Unterscheidung zwischen Versicherungsnehmer und versicherter Person in administrativen Prozessen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/pkv/Versichertenart",
   "concept": [
     {
@@ -35,11 +35,12 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/pkv/Versichertenart",
   "compositional": false,
+  "copyright": "HL7 Deutschland e.V.",
   "count": 2
 }

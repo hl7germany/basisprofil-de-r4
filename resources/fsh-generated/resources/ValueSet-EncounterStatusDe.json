@@ -4,8 +4,8 @@
   "name": "EncounterStatusDe",
   "id": "EncounterStatusDe",
   "title": "Encounter Status ValueSet",
-  "description": "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet beschränkt die verwendbaren Encounter-Status auf die im Profilkontext vorgesehenen Codes. Es dient einer stabilen Nutzung des Statusmodells im Übergang zwischen FHIR-Versionen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/EncounterStatusDe",
   "experimental": false,
   "date": "2025-12-23",
@@ -22,13 +22,14 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {
     "include": [
       {
         "system": "http://hl7.org/fhir/encounter-status",
+        "version": "4.0.1",
         "concept": [
           {
             "code": "planned",

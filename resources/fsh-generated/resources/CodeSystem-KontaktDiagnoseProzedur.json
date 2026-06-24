@@ -5,8 +5,8 @@
   "name": "KontaktDiagnoseProzedur",
   "id": "KontaktDiagnoseProzedur",
   "title": "KontaktDiagnoseProzedur",
-  "description": "Rolle/Relevanz von Diagnosen",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem beschreibt fachliche Rollen von Diagnosen und Prozedurbezügen im Versorgungskontext. Es dient der semantischen Einordnung, welche Relevanz eine Diagnose innerhalb eines Kontakts oder Abrechnungsfalls hat.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/KontaktDiagnoseProzedur",
   "concept": [
     {
@@ -70,11 +70,11 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "caseSensitive": false,
-  "copyright": "HL7 Deutschland e.V.",
+  "copyright": "Copyright der FHIR-technischen Aufbereitung und Zusammenstellung: HL7 Deutschland e.V. DRG-bezogene Begriffsbestimmungen basieren auf den Deutschen Kodierrichtlinien; Copyright und Nutzungsbedingungen der Deutschen Kodierrichtlinien liegen bei der InEK GmbH.",
   "valueSet": "http://fhir.de/ValueSet/KontaktDiagnoseProzedur",
   "compositional": false,
   "count": 9

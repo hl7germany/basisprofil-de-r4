@@ -5,7 +5,7 @@ Für die Abbildung eines gesetzlichen Versicherungsverhältnisses sind die Infor
 
 Das Profil enthält spezielle Extensions, die Informationen über den Einlesevorgang der eKG sowie dem Inhalt des darauf gespeicherten Datensatzes abbilden:
 
-**Name**: CoverageDeGkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/coverage-de-gkv&scope=de.basisprofil.r4@1.6.0-ballot2))
+**Name**: CoverageDeGkv ([Simplifier Projekt Link](https://simplifier.net/resolve?canonical=http://fhir.de/StructureDefinition/coverage-de-gkv&scope=de.basisprofil.r4@1.6.0))
 
 **Canonical**: `http://fhir.de/StructureDefinition/coverage-de-gkv`
 

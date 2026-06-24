@@ -5,8 +5,8 @@
   "name": "EntlassungsgrundDritteStelle",
   "id": "EntlassungsgrundDritteStelle",
   "title": "EntlassungsgrundDritteStelle",
-  "description": "Entlassungs-/Verlegungsgrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem enthält die dritte Stelle des Entlassungs- oder Verlegungsgrundes nach § 301 Abs. 3 SGB V. Es dient der ergänzenden fachlichen Differenzierung des Entlassungsergebnisses.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundDritteStelle",
   "concept": [
     {
@@ -37,7 +37,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

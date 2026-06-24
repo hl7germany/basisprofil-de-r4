@@ -5,8 +5,8 @@
   "name": "AufnahmegrundDritteStelle",
   "id": "AufnahmegrundDritteStelle",
   "title": "AufnahmegrundDritteStelle",
-  "description": "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem stellt die dritte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung besonderer Aufnahme- und Abrechnungskonstellationen, z. B. Zuständigkeitswechsel des Kostenträgers oder integrierte Versorgung.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundDritteStelle",
   "concept": [
     {
@@ -37,7 +37,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

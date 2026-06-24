@@ -5,8 +5,8 @@
   "name": "WirkstofftypCS",
   "id": "WirkstofftypCS",
   "title": "CodeSystem - Wirkstofftypen",
-  "description": "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe.",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem unterscheidet Wirkstoffe nach fachlicher Granularität, etwa als präzise Substanz, normalisierte Substanz oder Wirkstoffkombination. Es dient der konsistenten Einordnung arzneimittelbezogener Angaben in Terminologie- und Medikationskontexten.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/WirkstofftypCS",
   "concept": [
     {
@@ -58,10 +58,11 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/WirkstofftypVS",
-  "count": 3
+  "count": 3,
+  "copyright": "HL7 Deutschland e.V."
 }

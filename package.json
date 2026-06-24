@@ -1,6 +1,6 @@
 {
   "name": "de.basisprofil.r4",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "description": "Projekt Basisprofilierung R4 (HL7 Deutschland e.V.)",
   "author": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "fhirVersions": [
@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "bfarm.terminologien.icd10gm": "2025.0.0",
-    "bfarm.terminologien.ops": "2025.0.0",
-    "kbv.all.st": "1.28.0"
+    "bfarm.terminologien.ops": "2026.0.0",
+    "kbv.all.st": "1.41.0"
   }
 }

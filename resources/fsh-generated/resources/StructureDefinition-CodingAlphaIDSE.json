@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "CodingAlphaIDSE",
   "url": "http://fhir.de/StructureDefinition/CodingAlphaIDSE",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "name": "CodingAlphaIDSE",
   "title": "Coding-Profil für Alpha-ID-SE",
   "status": "active",

@@ -4,8 +4,8 @@
   "name": "AufnahmegrundDritteStelleVS",
   "id": "AufnahmegrundDritteStelleVS",
   "title": "AufnahmegrundDritteStelle ValueSet",
-  "description": "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet enthält die zulässigen Codes für die dritte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V. Es dient der differenzierten Spezifikation besonderer Aufnahmekonstellationen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle",
   "experimental": false,
   "date": "2025-12-23",
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

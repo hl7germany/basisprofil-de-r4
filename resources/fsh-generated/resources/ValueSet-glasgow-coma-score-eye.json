@@ -3,7 +3,7 @@
   "id": "glasgow-coma-score-eye",
   "url": "http://fhir.de/ValueSet/glasgow-coma-score-eye",
   "status": "active",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "experimental": false,
   "date": "2025-12-23",
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
@@ -17,12 +17,23 @@
       ]
     }
   ],
-  "name": "VS_Score_GlasgowComaScore_Eye",
-  "title": "VS Score Glasgow Coma Score Eye",
-  "description": "Dieses ValueSet enthält Codes für die Augenöffnung Komponente des Glasgow Coma Scores.",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "Regenstrief Institute, Inc. and the LOINC Committee"
+      }
+    }
+  ],
   "compose": {
     "include": [
       {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright",
+            "valueString": "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use."
+          }
+        ],
         "system": "http://loinc.org",
         "concept": [
           {
@@ -68,5 +79,8 @@
         ]
       }
     ]
-  }
+  },
+  "name": "VS_Score_GlasgowComaScore_Eye",
+  "title": "VS Score Glasgow Coma Score Eye",
+  "description": "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung."
 }

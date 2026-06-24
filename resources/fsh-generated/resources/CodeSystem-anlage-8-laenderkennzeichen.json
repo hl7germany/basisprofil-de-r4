@@ -1202,7 +1202,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "experimental": false,
@@ -1216,6 +1216,14 @@
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "GKV-Spitzenverband"
+      }
     }
   ],
   "copyright": "GKV-Spitzenverband",

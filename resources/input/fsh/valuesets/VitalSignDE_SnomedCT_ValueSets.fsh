@@ -1,10 +1,10 @@
 ValueSet: VitalSignDE_Atemfrequenz_SNOMED_CT
 Id: VitalSignDE-Atemfrequenz-SNOMED-CT
 Title: "VitalSignDE_Atemfrequenz_SNOMED_CT"
-Description: "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Atemfrequenz"
+Description: "Dieses ValueSet enthält die für Atemfrequenz-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $sct#86290005 "Atemfrequenz"
 * $sct#271625008 "Atemfrequenz der Spontanatmung"
 * $sct#250810003 "Total breath rate"
@@ -12,37 +12,37 @@ Description: "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Co
 ValueSet: VitalSignDE_Herzfrequenz_SNOMED_CT
 Id: VitalSignDE-Herzfrequenz-SNOMED-CT
 Title: "VitalSignDE_Herzfrequenz_SNOMED_CT"
-Description: "VitalSignDE_Herzfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Herzfrequenz"
+Description: "Dieses ValueSet enthält die für Herzfrequenz-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * include codes from system SNOMED_CT where concept is-a #364075005 // Herzfrequenz
 
 ValueSet: VitalSignDE_Koerpergewicht_SNOMED_CT
 Id: VitalSignDE-Koerpergewicht-SNOMED-CT
 Title: "VitalSignDE_Koerpergewicht_SNOMED_CT"
-Description: "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergewicht"
+Description: "Dieses ValueSet enthält die für Körpergewichts-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * include codes from system SNOMED_CT where concept is-a #27113001 // Körpergewicht
 
 ValueSet: VitalSignDE_Koerpergroesse_SNOMED_CT
 Id: VitalSignDE-Koerpergroesse-SNOMED-CT
 Title: "VitalSignDE_Koerpergroesse_SNOMED_CT"
-Description: "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergroesse"
+Description: "Dieses ValueSet enthält die für Körpergrößen-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * include codes from system SNOMED_CT where concept is-a #1153637007 // Körpergröße
 
 ValueSet: VitalSignDE_Koerperkerntemperatur_SNOMED_CT
 Id: VitalSignDE-Koerpertemperatur-SNOMED-CT
 Title: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT"
-Description: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwarteten $sct Codes für die Körperkerntemperatur"
+Description: "Dieses ValueSet enthält die für Körperkerntemperatur-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $sct#415882003 "Estimated core body temperature measured in axillary region (observable entity)"
 * $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
 * $sct#415945006 "Körperkerntemperatur gemessen im sublingualen Raum"
@@ -56,10 +56,10 @@ Description: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwartete
 ValueSet: VitalSignDE_Kopfumfang_SNOMED_CT
 Id: VitalSignDE-Kopfumfang-SNOMED-CT
 Title: "VitalSignDE_Kopfumfang_SNOMED_CT"
-Description: "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Codes für Kopfumfang"
+Description: "Dieses ValueSet enthält die für Kopfumfang-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $sct#169876006 "Kopfumfang bei Geburt"
 * $sct#363812007 "Kopfumfang"
 * $sct#1269262007 "Head circumference of fetus"
@@ -67,9 +67,9 @@ Description: "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Code
 ValueSet: VitalSignDE_Sauerstoffsaettigung_SNOMED_CT
 Id: VitalSignDE-Sauerstoffsaettigung-SNOMED-CT
 Title: "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT"
-Description: "VitalSignDE_SauerstoffCsaettigung_SNOMED_CT enthält die erwarteten $sct Codes für Sauerstoffsaettigung"
+Description: "Dieses ValueSet enthält die für Sauerstoffsättigungs-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $sct#442476006 "Arterial oxygen saturation (observable entity)"
 * $sct#431314004 "Peripheral oxygen saturation (observable entity)"

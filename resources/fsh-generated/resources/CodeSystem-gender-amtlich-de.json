@@ -5,8 +5,8 @@
   "name": "GenderAmtlichDE",
   "id": "gender-amtlich-de",
   "title": "amtliches Geschlecht",
-  "description": "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem enthält Codes zur Erfassung des amtlichen Geschlechts auf Basis deutscher Verwaltungsvorgaben. Es ist für Anwendungsfälle vorgesehen, in denen rechtlich oder administrativ definierte Geschlechtsangaben interoperabel übertragen werden müssen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/gender-amtlich-de",
   "concept": [
     {
@@ -41,7 +41,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

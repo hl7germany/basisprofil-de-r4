@@ -5,8 +5,8 @@
   "name": "CodeSystemISO31662DE",
   "id": "CodeSystemISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
-  "description": "Die Liste der ISO-3166-2:DE Codes für Deutschland enthält die Codes für die deutschen Länder.",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem enthält die ISO-3166-2:DE-Codes der deutschen Bundesländer. Es dient der standardisierten Kennzeichnung der Bundesländer im deutschen Kontext.",
+  "version": "1.6.0",
   "url": "urn:iso:std:iso:3166-2:de",
   "concept": [
     {
@@ -87,9 +87,17 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "International Organization for Standardization (ISO)"
+      }
+    }
+  ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "International Organization for Standardization",

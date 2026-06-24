@@ -5,8 +5,8 @@
   "name": "SupplementObservationCategory",
   "id": "observation-category-supplement",
   "title": "Deutsche Übersetzungen für ObservationCategoryCodes",
-  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationCategoryCodes",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem-Supplement ergänzt `ObservationCategoryCodes` um deutsche Bezeichnungen. Es dient der konsistenten deutschsprachigen Darstellung internationaler Observation-Kategorien.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/observation-category-supplement",
   "concept": [
     {
@@ -106,8 +106,9 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://terminology.hl7.org/CodeSystem/observation-category"
+  "supplements": "http://terminology.hl7.org/CodeSystem/observation-category",
+  "copyright": "HL7 Deutschland e.V."
 }

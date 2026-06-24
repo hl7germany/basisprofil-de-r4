@@ -5,8 +5,8 @@
   "name": "AufnahmegrundVierteStelle",
   "id": "AufnahmegrundVierteStelle",
   "title": "AufnahmegrundVierteStelle",
-  "description": "Aufnahmegrund (4. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem stellt die vierte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung des aufnahmebezogenen Grundtyps, z. B. Normalfall, Unfall-/Gewaltbezug, BVG-Leiden oder Notfall.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle",
   "concept": [
     {
@@ -49,7 +49,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

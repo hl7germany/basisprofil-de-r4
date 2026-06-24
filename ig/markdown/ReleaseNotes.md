@@ -4,7 +4,17 @@
 v1.6.0
 * ``added`` Invariante und Längenbegrenzung zu ``identifier-telematik-id`` hinzugefügt (HDB-818)  
 * `removed` redundante Invariante ``ruhend-1``  aus ``ExtensionGKVRuhenderLeistungsanspruch`` entfernt (HDB-824)  
-* `fixed` falsche Artefaktnamen in Release Notes korrigiert (HDB-822)
+* `fixed` falsche Artefaktnamen in Release Notes korrigiert (HDB-822)  
+* `changed` Platzhalter-CodeSystems ohne enthaltene Codes (ASK, ATC, Alpha-ID, Alpha-ID-SE, ICD-10-GM, OPS, PZN) durch NamingSystems ersetzt (#727)  
+* `added` Neue NamingSystems für Alpha-ID-SE, ATC, ICD-10-GM und OPS hinzugefügt (#727)  
+* `removed` Obsolete Platzhalter-ValueSets für ICD-10-GM und OPS entfernt (HDB-816)  
+* `changed` Referenzen auf CodeSystems und ValueSets in Profilen und ValueSets mit expliziten Versionsangaben versehen, um eine konsistente und reproduzierbare Auflösung zu gewährleisten (#730)  
+* `changed` WG14 CodeSystem und ValueSet auf den Status ``retired`` gesetzt (HDB-825)  
+* `changed` Dokumentationsseite "Codesystem-Versionen" überarbeitet: Klarstellung zur Angabe von ``Coding.version`` und ``CodeSystem.versionNeeded`` bei versionsabhängigen Klassifikationssystemen (HDB-808)  
+* `added` ArtifactAuthor-Metadaten zu diversen CodeSystems und ValueSets ergänzt (HDB-809)  
+* `added` Copyright-Angaben zu diversen CodeSystems und ValueSets ergänzt (HDB-813)  
+* `changed` Profil ``CoverageDeGkv`` an VSDM 2.0 angeglichen: Kardinalität von ``payor`` auf ``0..2`` erweitert. Der abrechnende Kostenträger wird nun als zweite ``payor``-Referenz angegeben (erste Referenz = Hauptkostenträger, immer vorhanden; zweite Referenz = optionaler abrechnender Kostenträger). Die Änderung ist abwärtskompatibel (#724)  
+* `changed` Extension ``ExtensionAbrechnendeIK`` auf den Status ``retired`` gesetzt; der abrechnende Kostenträger soll künftig über eine zweite ``payor``-Referenz in ``CoverageDeGkv`` abgebildet werden (#724)
 
 v1.6.0-ballot - 23.12.25
 

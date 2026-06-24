@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "ValueSetVitalSignDE_Body_Height_Loinc",
+  "name": "ValueSetVitalSignDE_Body_Height_Additional_Loinc",
   "id": "ValueSetVitalSignDE-Body-Height-Loinc",
   "title": "ValueSetVitalSignDE_Body_Height_Loinc",
-  "description": "VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Messung einer Körpergröße (inkl. Größe bei der Geburt)",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet enthält LOINC-Codes zur zusätzlichen Spezifizierung von Körpergrößenmessungen, insbesondere zur Kennzeichnung der Körpergröße bei Geburt. Die Codes dienen als ergänzende Kodierung neben dem verpflichtenden LOINC-Hauptcode des jeweiligen Vital Signs Profils.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
   "experimental": false,
   "date": "2025-12-23",
@@ -20,12 +20,14 @@
       ]
     }
   ],
-  "copyright": "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "Regenstrief Institute, Inc. and the LOINC Committee"
+      }
+    }
+  ],
   "compose": {
     "include": [
       {
@@ -37,6 +39,11 @@
           }
         ]
       }
+    ]
+  },
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   }
 }

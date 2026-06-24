@@ -5,8 +5,8 @@
   "name": "Merkzeichen",
   "id": "cs-merkzeichen-de",
   "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
-  "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem enthält die in Deutschland auf Schwerbehindertenausweisen verwendeten Merkzeichen. Es dient der standardisierten Abbildung behinderungsbezogener Nachteilsausgleiche und Berechtigungen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/merkzeichen-de",
   "concept": [
     {
@@ -95,7 +95,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "identifier": [
@@ -106,5 +106,6 @@
   ],
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/merkzeichen-de",
+  "copyright": "Die Merkzeichen beruhen auf gesetzlichen bzw. untergesetzlichen Vorgaben des deutschen Sozialrechts.",
   "count": 14
 }

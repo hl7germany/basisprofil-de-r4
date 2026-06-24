@@ -3,9 +3,9 @@
   "status": "active",
   "name": "Wahlleistungen",
   "id": "wahlleistungen-de",
-  "title": "Deutsche Merkzeichen auf dem Behindertenausweis",
-  "description": "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden",
-  "version": "1.6.0-ballot",
+  "title": "Wahlleistungen",
+  "description": "Dieses ValueSet enthält die im stationären Kontext vorgesehenen Wahlleistungen, insbesondere zu Unterkunft und ärztlicher Behandlung. Es dient der standardisierten Bindung vereinbarter Zusatzleistungen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/wahlleistungen-de",
   "experimental": false,
   "date": "2025-12-23",
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

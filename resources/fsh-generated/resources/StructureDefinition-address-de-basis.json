@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "address-de-basis",
   "url": "http://fhir.de/StructureDefinition/address-de-basis",
-  "version": "1.6.0-ballot",
+  "version": "1.6.0",
   "name": "AddressDeBasis",
   "title": "Adresse, deutsches Basisprofil",
   "status": "active",
@@ -306,7 +306,7 @@
         "path": "Address.country.extension.value[x]",
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2|4.0.1"
         }
       }
     ]

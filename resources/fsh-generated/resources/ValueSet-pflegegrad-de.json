@@ -4,8 +4,8 @@
   "name": "PflegegradDE",
   "id": "pflegegrad-de",
   "title": "PflegegradDE ValueSet",
-  "description": "Codes zur genaueren Differenzierung des Pflegegrads.",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet enthält OPS-Codes zur Differenzierung des dokumentierten Pflegegrads. Es ist für die strukturierte Angabe pflegebezogener Einstufungen im deutschen Versorgungskontext vorgesehen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/pflegegrad-de",
   "experimental": false,
   "date": "2025-12-23",
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "expansion": {

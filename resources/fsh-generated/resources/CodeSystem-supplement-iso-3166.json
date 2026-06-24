@@ -5,8 +5,8 @@
   "name": "CodeSystemSupplementISO3166",
   "id": "supplement-iso-3166",
   "title": "CodeSystem Supplement ISO 3166",
-  "description": "Offizieller Name eines Staates in deutscher Sprache ISO-3166, basierend auf der Übersetzung der ISO 3166 Codes durch die Bundesanstalt für Landwirtschaft und Ernährung (https://www.ble.de/SharedDocs/Downloads/EN/Climate-Energy/Information-Nabisy/CountryCodes.pdf?__blob=publicationFile&v=2)",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem-Supplement ergänzt ISO 3166 um deutschsprachige Bezeichnungen von Staaten. Es ist für Anwendungsfälle vorgesehen, in denen internationale Ländercodes mit fachlich verständlichen deutschen Anzeigenamen bereitgestellt werden sollen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/supplement-iso-3166",
   "concept": [
     {
@@ -2266,8 +2266,9 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "urn:iso:std:iso:3166"
+  "supplements": "urn:iso:std:iso:3166",
+  "copyright": "HL7 Deutschland e.V."
 }

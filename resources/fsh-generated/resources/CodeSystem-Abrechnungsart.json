@@ -5,8 +5,8 @@
   "name": "Abrechnungsart",
   "id": "Abrechnungsart",
   "title": "Abrechnungsart",
-  "description": "Codierung verschiedener in DE üblicher Abrechnungsarten basierend gesetzlichen Grundlagen",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem definiert in Deutschland gebräuchliche Abrechnungsarten im Versorgungskontext. Es dient der einheitlichen Kodierung des fachlichen Abrechnungskontexts in administrativen und klinischen FHIR-Ressourcen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Abrechnungsart",
   "concept": [
     {
@@ -159,7 +159,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

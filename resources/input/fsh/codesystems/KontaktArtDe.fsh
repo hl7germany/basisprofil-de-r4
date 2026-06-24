@@ -1,7 +1,7 @@
 CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
-Description: "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung"
+Description: "Dieses CodeSystem klassifiziert die Art eines Kontakts mit einer Gesundheitseinrichtung. Es dient der fachlichen Differenzierung von Begegnungen, etwa stationär, teilstationär oder konsiliarisch."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"
@@ -10,6 +10,7 @@ Description: "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^content = #complete
+* ^copyright = "HL7 Deutschland e.V."
 * #begleitperson "Begleitperson" "Begleitperson definiert nach § 11 Abs. 3 SGB V"
 * #vorstationaer "Vorstationär" "Vorstationärer Kontakt nach § 115 a SGB V"
 * #nachstationaer "Nachstationär" "Nachstationärer Kontakt nach § 115 a SGB V"

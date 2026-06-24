@@ -1,7 +1,7 @@
 CodeSystem: GenderAmtlichDE
 Id: gender-amtlich-de
 Title: "amtliches Geschlecht"
-Description: "Codes zur Erfassung des amtlichen Geschlechts auf Basis der Spezifikationen \"XPersonenstand - Elektronische Datenübermittlung im Personenstandswesen\" und \"Kassenärztliche Vereinigung-Datentransfer\" der KBV"
+Description: "Dieses CodeSystem enthält Codes zur Erfassung des amtlichen Geschlechts auf Basis deutscher Verwaltungsvorgaben. Es ist für Anwendungsfälle vorgesehen, in denen rechtlich oder administrativ definierte Geschlechtsangaben interoperabel übertragen werden müssen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^copyright = "HL7 Deutschland e.V."

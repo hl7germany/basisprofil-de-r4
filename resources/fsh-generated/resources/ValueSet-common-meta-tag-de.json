@@ -3,8 +3,8 @@
   "status": "active",
   "name": "VS_CommonMetaTag_De",
   "id": "common-meta-tag-de",
-  "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet enthält die im Basisprofil vorgesehenen Meta-Tags für `Resource.meta.tag`. Es dient der standardisierten Bindung fachlicher Markierungen an FHIR-Ressourcen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/common-meta-tag-de",
   "experimental": false,
   "date": "2025-12-23",
@@ -21,7 +21,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

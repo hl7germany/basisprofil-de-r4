@@ -4,8 +4,8 @@
   "name": "ArgeIkKlassifikationVS",
   "id": "ArgeIkKlassifikationVS",
   "title": "ArgeIkKlassifikation ValueSet",
-  "description": "Klassifikationen und deren Geltungsbereiche, Regionalschlüssel, Seriennummern-Kontingente und Vergabestellen",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet umfasst die ARGE-IK-Klassifikationen zur fachlichen Einordnung von Institutionskennzeichen. Es ist für Anwendungsfälle vorgesehen, in denen Geltungsbereich und Vergabekontext eines IK ausgedrückt werden sollen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/arge-ik/klassifikation",
   "experimental": false,
   "date": "2025-12-23",
@@ -22,7 +22,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "compose": {

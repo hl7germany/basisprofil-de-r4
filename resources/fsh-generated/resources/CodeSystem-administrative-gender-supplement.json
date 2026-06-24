@@ -5,8 +5,8 @@
   "name": "SupplementAdministrativeGender",
   "id": "administrative-gender-supplement",
   "title": "Deutsche Übersetzungen für AdministrativeGender",
-  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem-Supplement ergänzt `AdministrativeGender` um deutsche Bezeichnungen. Es dient der sprachlich konsistenten Darstellung der internationalen FHIR-Codes im deutschen Versorgungskontext.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/administrative-gender-supplement",
   "concept": [
     {
@@ -61,8 +61,9 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://hl7.org/fhir/administrative-gender"
+  "supplements": "http://hl7.org/fhir/administrative-gender",
+  "copyright": "HL7 Deutschland e.V."
 }

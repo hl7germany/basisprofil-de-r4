@@ -5,8 +5,8 @@
   "name": "CodeSystemFachabteilungsschluessel",
   "id": "Fachabteilungsschluessel",
   "title": "Fachabteilungsschluessel",
-  "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem bildet die Fachabteilungsschlüssel gemäß Anhang 1 BPflV in der am 31.12.2003 geltenden Fassung ab. Es dient der fachlichen Zuordnung von Krankenhausbereichen in Verwaltungs-, Abrechnungs- und Versorgungsprozessen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
   "concept": [
     {
@@ -181,7 +181,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

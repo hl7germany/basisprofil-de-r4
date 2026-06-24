@@ -1,7 +1,9 @@
 CodeSystem: CodeSystemAufnahmegrundErsteUndZweiteStelle
 Id: AufnahmegrundErsteUndZweiteStelle
 Title: "CodeSystemAufnahmegrundErsteUndZweiteStelle"
-Description: "Aufnahmegrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses CodeSystem stellt die erste und zweite Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung der grundlegenden Aufnahmeart, z. B. vollstationäre Krankenhausbehandlung, teilstationäre Behandlung, Geburt, stationsäquivalente Behandlung oder Übergangspflege."
+
+* insert Meta
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle"

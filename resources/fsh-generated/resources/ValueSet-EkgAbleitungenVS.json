@@ -4,8 +4,8 @@
   "name": "EkgAbleitungenVS",
   "id": "EkgAbleitungenVS",
   "title": "SNOMED CT codes der EKG Ableitungen",
-  "description": "ValueSet mit den SNOMED CT codes der EKG Ableitungen",
-  "version": "1.6.0-ballot",
+  "description": "Dieses ValueSet enthält SNOMED-CT-Konzepte für EKG-Ableitungen. Es dient der semantisch präzisen Codierung von Ableitungen in klinischen Beobachtungen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/EkgAbleitungenVS",
   "experimental": false,
   "date": "2025-12-23",
@@ -20,7 +20,14 @@
       ]
     }
   ],
-  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002 International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "International Health Terminology Standards Development Organisation (IHTSDO)"
+      }
+    }
+  ],
   "compose": {
     "include": [
       {

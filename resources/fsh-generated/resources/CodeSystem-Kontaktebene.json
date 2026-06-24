@@ -5,8 +5,8 @@
   "name": "Kontaktebene",
   "id": "Kontaktebene",
   "title": "Kontaktebene",
-  "description": "CodeSystem für die Ebene eines Kontaktes mit einer Gesundheitseinrichtung",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem beschreibt die Ebene, auf der ein Kontakt mit einer Gesundheitseinrichtung modelliert wird. Es dient der Abgrenzung zwischen Einrichtungs-, Abteilungs- und Versorgungsstellenkontakten.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/Kontaktebene",
   "concept": [
     {
@@ -40,10 +40,11 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/kontaktebene-de",
+  "copyright": "HL7 Deutschland e.V.",
   "count": 3
 }

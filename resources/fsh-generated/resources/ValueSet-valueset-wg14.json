@@ -1,15 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "retired",
   "name": "WG14VS",
   "id": "valueset-wg14",
   "title": "WG14 ValueSet",
-  "description": "ABDATA WG14 (aut-idem-Auswahlgruppen, 'ABDA-KBV-Gruppen') für Medikamente",
-  "version": "1.6.0-ballot",
+  "description": "Deprecated - Dieses  ValueSet referenziert die ehemalige ABDATA-WG14-Systematik für aut-idem-Auswahlgruppen. Es dient ausschließlich der Abwärtskompatibilität und ist nicht für neue fachliche Modellierungen vorgesehen.",
+  "version": "1.6.0",
   "url": "http://fhir.de/ValueSet/abdata/wg14",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
   },
   "experimental": false,
@@ -25,7 +25,14 @@
       ]
     }
   ],
-  "copyright": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH"
+      }
+    }
+  ],
   "compose": {
     "include": [
       {

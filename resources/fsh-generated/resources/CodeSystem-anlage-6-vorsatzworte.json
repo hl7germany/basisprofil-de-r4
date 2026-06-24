@@ -5,7 +5,7 @@
   "name": "DeuevAnlage6Vorsatzworte",
   "id": "anlage-6-vorsatzworte",
   "title": "Tabelle der gültigen Vorsatzworte",
-  "description": "Vorsatzworte im Nachnamen nach DEÜV Anlage 6",
+  "description": "Dieses CodeSystem enthält die nach DEÜV Anlage 6 zulässigen Vorsatzworte in Nachnamen. Es dient der normgerechten Erfassung und Übermittlung strukturierter Namensbestandteile.",
   "version": "2.30",
   "url": "http://fhir.de/CodeSystem/deuev/anlage-6-vorsatzworte",
   "concept": [
@@ -771,9 +771,17 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "GKV-Spitzenverband"
+      }
+    }
+  ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "GKV-Spitzenverband",

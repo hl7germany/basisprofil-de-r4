@@ -5,8 +5,8 @@
   "name": "KontaktArtDe",
   "id": "KontaktArtDe",
   "title": "KontaktArtDe",
-  "description": "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem klassifiziert die Art eines Kontakts mit einer Gesundheitseinrichtung. Es dient der fachlichen Differenzierung von Begegnungen, etwa stationär, teilstationär oder konsiliarisch.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/kontaktart-de",
   "concept": [
     {
@@ -85,12 +85,13 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/kontaktart-de",
   "hierarchyMeaning": "is-a",
   "compositional": false,
+  "copyright": "HL7 Deutschland e.V.",
   "count": 12
 }

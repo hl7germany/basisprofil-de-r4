@@ -1,11 +1,11 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "retired",
   "content": "not-present",
   "name": "WG14",
   "id": "wg14",
   "title": "WG14",
-  "description": "ABDATA WG14 Platzhalter-CodeSystem",
+  "description": "Deprecated - Dieses  CodeSystem steht als technischer Platzhalter für die ABDATA-WG14-Systematik bereit. Es ist nicht zur inhaltlichen Neumodellierung vorgesehen und dient ausschließlich der Abwärtskompatibilität.",
   "url": "http://fhir.de/CodeSystem/abdata/wg14",
   "experimental": false,
   "date": "2025-12-23",
@@ -18,6 +18,14 @@
           "value": "http://hl7.de/technische-komitees/fhir/"
         }
       ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
+      "valueContactDetail": {
+        "name": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH"
+      }
     }
   ],
   "copyright": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH",

@@ -5,8 +5,8 @@
   "name": "CodeSystemFachabteilungsschluesselErweitert",
   "id": "Fachabteilungsschluessel-erweitert",
   "title": "Fachabteilungsschluessel Erweitert",
-  "description": "Fachabteilungen gemäß Anhang 1 der BPflV in der am 31.12.2003 geltenden Fassung inkl. Spezialisierungen",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem bildet die Fachabteilungsschlüssel gemäß Anhang 1 BPflV in der am 31.12.2003 geltenden Fassung einschließlich Spezialisierungen ab. Es dient einer feineren fachlichen Differenzierung von Krankenhausabteilungen als der Basisschlüssel.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert",
   "concept": [
     {
@@ -617,7 +617,7 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "copyright": "HL7 Deutschland e.V.",

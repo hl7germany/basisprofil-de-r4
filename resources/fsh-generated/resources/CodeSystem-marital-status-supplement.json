@@ -5,8 +5,8 @@
   "name": "SupplementMaritalStatus",
   "id": "marital-status-supplement",
   "title": "Deutsche Übersetzungen für MaritalStatus",
-  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für MaritalStatus",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem-Supplement ergänzt `v3-MaritalStatus` um deutsche Bezeichnungen. Es dient der sprachlich verständlichen Verwendung internationaler Familienstandscodes.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/marital-status-supplement",
   "concept": [
     {
@@ -106,8 +106,9 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+  "supplements": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+  "copyright": "HL7 Deutschland e.V."
 }

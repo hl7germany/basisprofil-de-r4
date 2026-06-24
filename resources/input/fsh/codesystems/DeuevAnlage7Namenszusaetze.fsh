@@ -1,8 +1,9 @@
 CodeSystem: DeuevAnlage7Namenszusaetze
 Id: anlage-7-namenszusaetze
 Title: "Tabelle der gültigen Namenszusätze"
-Description: "Namenszusätze im Nachnamen nach DEÜV Anlage 7"
+Description: "Dieses CodeSystem enthält die nach DEÜV Anlage 7 zulässigen Namenszusätze. Es dient der standardisierten Erfassung und Übermittlung besonderer namensrechtlicher Bestandteile."
 * insert Meta
+* insert ArtifactAuthor([[GKV-Spitzenverband]])
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/deuev/anlage-7-namenszusaetze"
 * ^version = "2.25"

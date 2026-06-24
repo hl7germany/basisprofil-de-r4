@@ -5,8 +5,8 @@
   "name": "CS_CommonMetaTag_De",
   "id": "cs-common-meta-tag-de",
   "title": "CS Basisprofil Common Meta Tag DE",
-  "description": "Gebräuchliche Codes zur Kodierung von Resource.meta.tag",
-  "version": "1.6.0-ballot",
+  "description": "Dieses CodeSystem enthält gebräuchliche Metadaten-Tags zur Kennzeichnung von FHIR-Ressourcen. Es ist für fachliche Markierungen in `Resource.meta.tag` vorgesehen, die Nachnutzung und Verarbeitung steuern.",
+  "version": "1.6.0",
   "url": "http://fhir.de/CodeSystem/common-meta-tag-de",
   "concept": [
     {
@@ -30,10 +30,11 @@
   ],
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "valueSet": "http://fhir.de/ValueSet/common-meta-tag-de",
+  "copyright": "HL7 Deutschland e.V.",
   "caseSensitive": true,
   "count": 1
 }
