@@ -1,4 +1,4 @@
-Alias: $version = 1.6.0-ballot
+Alias: $version = 1.6.0
 
 RuleSet: MetaNoVersion
 * ^status = #active
