@@ -33,7 +33,6 @@
       }
     }
   ],
-  "copyright": "ABDATA Pharma-Daten-Service der Avoxa - Mediengruppe Deutscher Apotheker GmbH",
   "compose": {
     "include": [
       {

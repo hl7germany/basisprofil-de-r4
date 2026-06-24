@@ -7,5 +7,6 @@ Description: "Dieses CodeSystem enthält gebräuchliche Metadaten-Tags zur Kennz
 * ^content = #complete
 * ^url = "http://fhir.de/CodeSystem/common-meta-tag-de"
 * ^valueSet = "http://fhir.de/ValueSet/common-meta-tag-de"
+* ^copyright = "HL7 Deutschland e.V."
 * ^caseSensitive = true
 * #external "External" "Informationen welche in der Ressource abgebildet werden stammen aus einem externen, potentiell unverifizierten System"

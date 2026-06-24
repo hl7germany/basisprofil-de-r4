@@ -6,6 +6,7 @@ Description: "Dieses CodeSystem-Supplement ergänzt das HL7-CodeSystem `diagnosi
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+* ^copyright = "HL7 Deutschland e.V."
 * #AD
   * ^designation.language = #de-DE
   * ^designation.value = "Aufnahmediagnose"

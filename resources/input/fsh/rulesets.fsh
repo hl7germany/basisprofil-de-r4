@@ -29,17 +29,25 @@ RuleSet: ArtifactAuthorInstance(name)
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * extension[=].valueContactDetail.name = "{name}"
 
+RuleSet: IncludeCopyright(copyright)
+* ^compose.include.extension.url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright"
+* ^compose.include.extension.valueString = "{copyright}"
+
+RuleSet: IncludeCopyrightInstance(copyright)
+* compose.include.extension.url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright"
+* compose.include.extension.valueString = "{copyright}"
+
 RuleSet: SnomedDisclaimer
 * insert ArtifactAuthor([[International Health Terminology Standards Development Organisation (IHTSDO)]])
-* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002 International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
+* insert IncludeCopyright([[This value set includes content from SNOMED CT, which is copyright © 2002 International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.]])
 
 RuleSet: UCUMDisclaimer
 * insert ArtifactAuthor([[Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization]])
-* ^copyright = "The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright © 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved."
+* insert IncludeCopyright([[The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright © 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved.]])
 
 RuleSet: LOINCDisclaimer
 * insert ArtifactAuthor([[Regenstrief Institute, Inc. and the LOINC Committee]])
-* ^copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use."
+* insert IncludeCopyright([[This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.]])
 
 RuleSet: VitalSignDESlicingWithLoinc
 * coding

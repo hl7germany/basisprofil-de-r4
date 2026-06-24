@@ -9,6 +9,7 @@ Description: "Dieses CodeSystem differenziert die Versichertenart im Kontext pri
 * ^valueSet = "http://fhir.de/ValueSet/pkv/Versichertenart"
 * ^compositional = false
 * ^content = #complete
+* ^copyright = "HL7 Deutschland e.V."
 
 * #VN "Versicherungsnehmer"
   * ^definition = """

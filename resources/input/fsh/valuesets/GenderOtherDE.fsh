@@ -5,5 +5,6 @@ Description: "Dieses ValueSet enthält die nicht-binären beziehungsweise nicht 
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * ^url = "http://fhir.de/ValueSet/gender-other-de"
+* insert IncludeCopyright([[HL7 Deutschland e.V.]])
 * GenderAmtlichDE#D "divers"
 * GenderAmtlichDE#X "unbestimmt"

@@ -10,6 +10,7 @@ Description: "Dieses CodeSystem klassifiziert die Art eines Kontakts mit einer G
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^content = #complete
+* ^copyright = "HL7 Deutschland e.V."
 * #begleitperson "Begleitperson" "Begleitperson definiert nach § 11 Abs. 3 SGB V"
 * #vorstationaer "Vorstationär" "Vorstationärer Kontakt nach § 115 a SGB V"
 * #nachstationaer "Nachstationär" "Nachstationärer Kontakt nach § 115 a SGB V"

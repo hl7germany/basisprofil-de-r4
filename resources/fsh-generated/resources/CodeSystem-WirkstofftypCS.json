@@ -63,5 +63,6 @@
   },
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/WirkstofftypVS",
-  "count": 3
+  "count": 3,
+  "copyright": "HL7 Deutschland e.V."
 }

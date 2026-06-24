@@ -7,6 +7,7 @@ Description: "Dieses CodeSystem enthält Zusatzkennzeichen für postkoordinierte
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen"
 * ^content = #complete
+* ^copyright = "HL7 Deutschland e.V."
 * #* "*" "Manifestation"
 * #† "†" "Ätiologie"
 * #! "!" "Zusatzinformation"

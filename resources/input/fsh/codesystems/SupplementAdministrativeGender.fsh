@@ -6,6 +6,7 @@ Description: "Dieses CodeSystem-Supplement ergänzt `AdministrativeGender` um de
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/administrative-gender"
+* ^copyright = "HL7 Deutschland e.V."
 * #male
   * ^designation.language = #de-DE
   * ^designation.value = "männlich"

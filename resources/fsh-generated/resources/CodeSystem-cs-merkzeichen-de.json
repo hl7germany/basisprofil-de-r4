@@ -106,5 +106,6 @@
   ],
   "caseSensitive": true,
   "valueSet": "http://fhir.de/ValueSet/merkzeichen-de",
+  "copyright": "Die Merkzeichen beruhen auf gesetzlichen bzw. untergesetzlichen Vorgaben des deutschen Sozialrechts.",
   "count": 14
 }

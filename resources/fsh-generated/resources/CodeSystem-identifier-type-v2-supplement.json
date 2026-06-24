@@ -73,5 +73,6 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "supplements": "http://terminology.hl7.org/CodeSystem/v2-0203"
+  "supplements": "http://terminology.hl7.org/CodeSystem/v2-0203",
+  "copyright": "HL7 Deutschland e.V."
 }

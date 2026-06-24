@@ -8,6 +8,7 @@ Description: "Dieses CodeSystem unterscheidet Wirkstoffe nach fachlicher Granula
 * ^caseSensitive = true
 * ^valueSet = Canonical(WirkstofftypVS)
 * ^count = 3
+* ^copyright = "HL7 Deutschland e.V."
 * #IN "ingredient" "The name of the substance."
 * #IN ^designation.language = #de-DE
 * #IN ^designation.value = "Wirkstoff allgemein"

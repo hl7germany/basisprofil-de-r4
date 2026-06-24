@@ -25,12 +25,15 @@
       }
     }
   ],
-  "name": "VS_Score_GlasgowComaScore_Eye",
-  "title": "VS Score Glasgow Coma Score Eye",
-  "description": "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung.",
   "compose": {
     "include": [
       {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright",
+            "valueString": "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use."
+          }
+        ],
         "system": "http://loinc.org",
         "concept": [
           {
@@ -76,5 +79,8 @@
         ]
       }
     ]
-  }
+  },
+  "name": "VS_Score_GlasgowComaScore_Eye",
+  "title": "VS Score Glasgow Coma Score Eye",
+  "description": "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung."
 }

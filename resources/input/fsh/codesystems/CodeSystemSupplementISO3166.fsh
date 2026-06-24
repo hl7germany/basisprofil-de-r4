@@ -6,6 +6,7 @@ Description: "Dieses CodeSystem-Supplement ergänzt ISO 3166 um deutschsprachige
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
 * ^supplements = "urn:iso:std:iso:3166"
+* ^copyright = "HL7 Deutschland e.V."
 * #AF
   * ^designation[+].language = #de-DE
   * ^designation[=].value = "Afghanistan"
