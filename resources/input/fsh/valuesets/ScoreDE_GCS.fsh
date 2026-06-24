@@ -4,7 +4,7 @@ Usage: #definition
 * insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Eye"
 * title = "VS Score Glasgow Coma Score Eye"
-* description = "Dieses ValueSet enthält Codes für die Augenöffnung Komponente des Glasgow Coma Scores."
+* description = "Dieses ValueSet enthält die Codes für die Augenöffnungs-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung dieses Teilaspekts der neurologischen Beurteilung."
 * compose.include.system = "http://loinc.org"
 * compose.include.concept[0].code = #LA6553-7
 * compose.include.concept[=].display = "No eye opening"
@@ -29,7 +29,7 @@ Usage: #definition
 * insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Verbal"
 * title = "VS Score Glasgow Coma Score Verbal"
-* description = "Dieses ValueSet enthält Codes für die Verbale Kommunikation Komponente des Glasgow Coma Scores."
+* description = "Dieses ValueSet enthält die Codes für die verbale Kommunikations-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der verbalen Reaktion."
 * compose.include.system = "http://loinc.org"
 * compose.include.concept[0].code = #LA6557-8
 * compose.include.concept[=].display = "No verbal response (>2 yrs); no vocal response (<=2 yrs)"
@@ -58,7 +58,7 @@ Usage: #definition
 * insert Meta-Instance
 * name = "VS_Score_GlasgowComaScore_Motor"
 * title = "VS Score Glasgow Coma Score Motor"
-* description = "Dieses ValueSet enthält Codes für die Motorische Reaktion Komponente des Glasgow Coma Scores."
+* description = "Dieses ValueSet enthält die Codes für die motorische Reaktions-Komponente des Glasgow Coma Score. Es dient der standardisierten, ordinal auswertbaren Erfassung der motorischen Antwort."
 * compose.include.system = "http://loinc.org"
 * compose.include.concept[0].code = #LA6562-8
 * compose.include.concept[=].display = "No motor response"

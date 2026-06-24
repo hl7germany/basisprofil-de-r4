@@ -1,7 +1,7 @@
 ValueSet: AufnahmegrundDritteStelleVS
 Id: AufnahmegrundDritteStelleVS
 Title: "AufnahmegrundDritteStelle ValueSet"
-Description: "Aufnahmegrund (3. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses ValueSet enthält die zulässigen Codes für die dritte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V. Es dient der differenzierten Spezifikation besonderer Aufnahmekonstellationen."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * ^url = "http://fhir.de/ValueSet/dkgev/AufnahmegrundDritteStelle"

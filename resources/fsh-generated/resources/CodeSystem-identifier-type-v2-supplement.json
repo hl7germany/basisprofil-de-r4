@@ -5,7 +5,7 @@
   "name": "SupplementIdentifierTypeV2",
   "id": "identifier-type-v2-supplement",
   "title": "Deutsche Übersetzungen für Identifier Types (V2)",
-  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Identifier Types (V2)",
+  "description": "Dieses CodeSystem-Supplement ergänzt das HL7-v2-CodeSystem für Identifier-Typen um deutsche Bezeichnungen. Es unterstützt die verständliche Nutzung internationaler Identifiercodes in deutschen FHIR-Anwendungen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/identifier-type-v2-supplement",
   "concept": [

@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemWahlleistungen
 Id: wahlleistungen-de
 Title: "Wahlleistungen"
-Description: "Wahlleistungen bzgl. Unterkunft und Ärztliche Wahlleistungen"
+Description: "Dieses CodeSystem beschreibt wählbare Zusatzleistungen im Krankenhaus, insbesondere zu Unterkunft und ärztlicher Behandlung. Es dient der strukturierten Kennzeichnung vereinbarter Wahlleistungen im stationären Kontext."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^copyright = "HL7 Deutschland e.V."

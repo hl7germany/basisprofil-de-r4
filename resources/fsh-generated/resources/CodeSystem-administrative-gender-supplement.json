@@ -5,7 +5,7 @@
   "name": "SupplementAdministrativeGender",
   "id": "administrative-gender-supplement",
   "title": "Deutsche Übersetzungen für AdministrativeGender",
-  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
+  "description": "Dieses CodeSystem-Supplement ergänzt `AdministrativeGender` um deutsche Bezeichnungen. Es dient der sprachlich konsistenten Darstellung der internationalen FHIR-Codes im deutschen Versorgungskontext.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/administrative-gender-supplement",
   "concept": [

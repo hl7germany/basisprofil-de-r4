@@ -1,0 +1,29 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "NamingSystemAtc",
+  "name": "Atc",
+  "status": "active",
+  "kind": "codesystem",
+  "date": "2026-06-03",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.de/technische-komitees/fhir/"
+        }
+      ]
+    }
+  ],
+  "responsible": "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)",
+  "description": "Die Anatomisch-Therapeutisch-Chemische Klassifikation (ATC) dient der Klassifikation von Arzneistoffen.",
+  "usage": "Dieses NamingSystem beschreibt den Namensraum des ATC-CodeSystems.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://fhir.de/CodeSystem/bfarm/atc",
+      "preferred": true
+    }
+  ]
+}

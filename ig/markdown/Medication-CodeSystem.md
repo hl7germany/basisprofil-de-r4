@@ -1,25 +1,28 @@
 ----
 ### Medikation (Medication)
 
-**Canonical**: ```http://fhir.de/CodeSystem/bfarm/atc```
+Die CodeSysteme für ATC, ASK und PZN werden nicht als CodeSystem-Ressourcen in den Deutschen Basisprofilen veröffentlicht.
 
-{{render:http://fhir.de/CodeSystem/bfarm/atc}}
+Die CodeSystem-URLs für ATC, ASK und PZN werden als `uniqueId` in NamingSystem-Ressourcen dokumentiert. Siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-NationaleNamensraeume.md}}.
 
-<br><br>
+Für ATC, ASK und PZN werden weiterhin folgende Canonical-URLs in den Coding-Profilen verwendet:
 
-**Canonical**: ```http://fhir.de/CodeSystem/ask```
+- `http://fhir.de/CodeSystem/bfarm/atc`
+- `http://fhir.de/CodeSystem/ask`
+- `http://fhir.de/CodeSystem/ifa/pzn`
 
-{{render:http://fhir.de/CodeSystem/ask}}
+Die Inhalte dieser CodeSysteme werden durch die jeweiligen Herausgeber bereitgestellt und sind in konkreten Implementierungen über geeignete Terminologiedienste bereitzustellen.
 
-<br><br>
+Folgende für Medikation relevante CodeSystems sind über [terminologien.bfarm.de](https://terminologien.bfarm.de/) verfügbar:
 
-**Canonical**: ```http://fhir.de/CodeSystem/ifa/pzn```
-
-{{render:http://fhir.de/CodeSystem/ifa/pzn}}
+- ATC DDD GM
+- Darreichungsformen IFA
 
 <br><br>
 
 **Canonical**: ```http://fhir.de/CodeSystem/abdata/wg14```
+
+`WG14` bleibt aus Gründen der Abwärtskompatibilität vorübergehend als deprecated bzw. retired Platzhalter-CodeSystem erhalten. Es ist nicht für neue fachliche Modellierungen vorgesehen und soll mit der nächsten Version des Leitfadens entfernt werden.
 
 {{render:http://fhir.de/CodeSystem/abdata/wg14}}
 

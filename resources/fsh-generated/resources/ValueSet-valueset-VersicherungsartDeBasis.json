@@ -3,7 +3,7 @@
   "status": "active",
   "name": "VersicherungsartDeBasisVS",
   "id": "valueset-VersicherungsartDeBasis",
-  "description": "ValueSet für die in Deutschland üblichen Versicherungsarten",
+  "description": "Dieses ValueSet enthält die im deutschen Kontext zulässigen Versicherungsarten und Kostenträgerklassifikationen. Es dient der standardisierten Bindung administrativer Angaben zur Finanzierungsgrundlage einer Versorgung.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/versicherungsart-de-basis",
   "experimental": false,

@@ -1,7 +1,7 @@
 CodeSystem: EntlassungsgrundErsteUndZweiteStelle
 Id: EntlassungsgrundErsteUndZweiteStelle
 Title: "EntlassungsgrundErsteUndZweiteStelle"
-Description: "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses CodeSystem enthält die erste und zweite Stelle des Entlassungs- oder Verlegungsgrundes nach § 301 Abs. 3 SGB V. Es dient der grundlegenden Klassifikation des Abschlusses eines Krankenhausaufenthalts."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle"

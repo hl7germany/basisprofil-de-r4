@@ -1,7 +1,7 @@
 CodeSystem: CodeSystemRuhenderLeistungsanspruchGKV
 Id: RuhenderLeistungsanspruchGKV
 Title: "Ruhender Leistungsanspruch (GKV)"
-Description: "Art des ruhenden Leistungsanspruchs für GKV-Versicherte"
+Description: "Dieses CodeSystem beschreibt die Ausprägungen eines ruhenden Leistungsanspruchs für GKV-Versicherte. Es dient der interoperablen Abbildung leistungsrechtlicher Einschränkungen im deutschen Krankenversicherungsumfeld."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/gkv/RuhenderLeistungsanspruchGKV" 

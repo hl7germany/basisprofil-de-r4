@@ -1,7 +1,7 @@
 ValueSet: PflegegradDE
 Id: pflegegrad-de
 Title: "PflegegradDE ValueSet"
-Description: "Codes zur genaueren Differenzierung des Pflegegrads."
+Description: "Dieses ValueSet enthält OPS-Codes zur Differenzierung des dokumentierten Pflegegrads. Es ist für die strukturierte Angabe pflegebezogener Einstufungen im deutschen Versorgungskontext vorgesehen."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * ^url = "http://fhir.de/ValueSet/pflegegrad-de"
@@ -26,4 +26,4 @@ Description: "Codes zur genaueren Differenzierung des Pflegegrads."
 * ^expansion.contains[+].system = "http://fhir.de/CodeSystem/bfarm/ops"
 * ^expansion.contains[=].code = #9-984.b
 * ^expansion.contains[=].display = "Pflegebedürftigkeit: Erfolgter Antrag auf Einstufung in einen Pflegegrad"
-* include codes from system OPS where parent = "9-984"
+* include codes from system $ops where parent = "9-984"

@@ -1,7 +1,7 @@
 ValueSet: EncounterStatusDe
 Id: EncounterStatusDe
 Title: "Encounter Status ValueSet"
-Description: "Einschränkung von Encounter Status in Vorbereitung auf Änderungen in FHIR R5"
+Description: "Dieses ValueSet beschränkt die verwendbaren Encounter-Status auf die im Profilkontext vorgesehenen Codes. Es dient einer stabilen Nutzung des Statusmodells im Übergang zwischen FHIR-Versionen."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * $encounterStatusR4#planned "Planned"

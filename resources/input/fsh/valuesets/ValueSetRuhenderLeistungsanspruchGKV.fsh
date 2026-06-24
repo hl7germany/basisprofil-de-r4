@@ -1,7 +1,7 @@
 ValueSet: ValueSetRuhenderLeistungsanspruchGKV
 Id: RuhenderLeistungsanspruchGKV
 Title: "Ruhender Leistungsanspruch (GKV)"
-Description: "Art des ruhenden Leistungsanspruchs für GKV-Versicherte"
+Description: "Dieses ValueSet enthält die zulässigen Ausprägungen eines ruhenden Leistungsanspruchs für GKV-Versicherte. Es dient der standardisierten Bindung leistungsrechtlicher Einschränkungen."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * ^url = "http://fhir.de/ValueSet/gkv/RuhenderLeistungsanspruchGKV"

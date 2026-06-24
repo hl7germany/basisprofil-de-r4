@@ -1,6 +1,6 @@
 ValueSet: VS_CommonMetaTag_De
 Id: common-meta-tag-de
-Description: "Gebräuchliche Codes zur Kodierung von Resource.meta.tag"
+Description: "Dieses ValueSet enthält die im Basisprofil vorgesehenen Meta-Tags für `Resource.meta.tag`. Es dient der standardisierten Bindung fachlicher Markierungen an FHIR-Ressourcen."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * include codes from system CS_CommonMetaTag_De

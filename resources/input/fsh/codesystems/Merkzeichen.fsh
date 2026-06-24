@@ -1,7 +1,7 @@
 CodeSystem: Merkzeichen
 Id: cs-merkzeichen-de
 Title: "Deutsche Merkzeichen auf dem Behindertenausweis"
-Description: "Deutsche Merkzeichen, wie sie auf dem Behindertenausweis verwendet werden"
+Description: "Dieses CodeSystem enthält die in Deutschland auf Schwerbehindertenausweisen verwendeten Merkzeichen. Es dient der standardisierten Abbildung behinderungsbezogener Nachteilsausgleiche und Berechtigungen."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/merkzeichen-de"

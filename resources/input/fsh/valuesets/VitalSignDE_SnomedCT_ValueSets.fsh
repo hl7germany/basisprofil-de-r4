@@ -1,7 +1,7 @@
 ValueSet: VitalSignDE_Atemfrequenz_SNOMED_CT
 Id: VitalSignDE-Atemfrequenz-SNOMED-CT
 Title: "VitalSignDE_Atemfrequenz_SNOMED_CT"
-Description: "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Atemfrequenz"
+Description: "Dieses ValueSet enthält die für Atemfrequenz-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -12,7 +12,7 @@ Description: "VitalSignDE_Atemfrequenz_SNOMED_CT enthält die erwarteten $sct Co
 ValueSet: VitalSignDE_Herzfrequenz_SNOMED_CT
 Id: VitalSignDE-Herzfrequenz-SNOMED-CT
 Title: "VitalSignDE_Herzfrequenz_SNOMED_CT"
-Description: "VitalSignDE_Herzfrequenz_SNOMED_CT enthält die erwarteten $sct Codes für Herzfrequenz"
+Description: "Dieses ValueSet enthält die für Herzfrequenz-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -21,7 +21,7 @@ Description: "VitalSignDE_Herzfrequenz_SNOMED_CT enthält die erwarteten $sct Co
 ValueSet: VitalSignDE_Koerpergewicht_SNOMED_CT
 Id: VitalSignDE-Koerpergewicht-SNOMED-CT
 Title: "VitalSignDE_Koerpergewicht_SNOMED_CT"
-Description: "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergewicht"
+Description: "Dieses ValueSet enthält die für Körpergewichts-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -30,7 +30,7 @@ Description: "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct 
 ValueSet: VitalSignDE_Koerpergroesse_SNOMED_CT
 Id: VitalSignDE-Koerpergroesse-SNOMED-CT
 Title: "VitalSignDE_Koerpergroesse_SNOMED_CT"
-Description: "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergroesse"
+Description: "Dieses ValueSet enthält die für Körpergrößen-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -39,7 +39,7 @@ Description: "VitalSignDE_Koerpergroesse_SNOMED_CT enthält die erwarteten $sct 
 ValueSet: VitalSignDE_Koerperkerntemperatur_SNOMED_CT
 Id: VitalSignDE-Koerpertemperatur-SNOMED-CT
 Title: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT"
-Description: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwarteten $sct Codes für die Körperkerntemperatur"
+Description: "Dieses ValueSet enthält die für Körperkerntemperatur-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -56,7 +56,7 @@ Description: "VitalSignDE_Koerperkerntemperatur_SNOMED_CT enthält die erwartete
 ValueSet: VitalSignDE_Kopfumfang_SNOMED_CT
 Id: VitalSignDE-Kopfumfang-SNOMED-CT
 Title: "VitalSignDE_Kopfumfang_SNOMED_CT"
-Description: "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Codes für Kopfumfang"
+Description: "Dieses ValueSet enthält die für Kopfumfang-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset
@@ -67,7 +67,7 @@ Description: "VitalSignDE_Kopfumfang_SNOMED_CT enthält die erwarteten $sct Code
 ValueSet: VitalSignDE_Sauerstoffsaettigung_SNOMED_CT
 Id: VitalSignDE-Sauerstoffsaettigung-SNOMED-CT
 Title: "VitalSignDE_Sauerstoffsaettigung_SNOMED_CT"
-Description: "VitalSignDE_SauerstoffCsaettigung_SNOMED_CT enthält die erwarteten $sct Codes für Sauerstoffsaettigung"
+Description: "Dieses ValueSet enthält die für Sauerstoffsättigungs-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter."
 * insert Meta
 * insert SnomedDisclaimer
 * ^meta.profile = $shareablevalueset

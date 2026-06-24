@@ -1,7 +1,7 @@
 ValueSet: EntlassungsgrundErsteUndZweiteStelleVS
 Id: EntlassungsgrundErsteUndZweiteStelleVS
 Title: "Entlassungsgrund Erste und Zweite Stelle ValueSet"
-Description: "Entlassungs-/Verlegungsgrund (1. und 2. Stelle), Datenübermittlung nach § 301 Abs. 3 SGB V"
+Description: "Dieses ValueSet enthält die zulässigen Codes für die erste und zweite Stelle des Entlassungs- oder Verlegungsgrundes nach § 301 Abs. 3 SGB V. Es dient der grundlegenden Klassifikation des Abschlusses eines Krankenhausaufenthalts."
 * insert Meta
 * ^meta.profile = $shareablevalueset
 * ^url = "http://fhir.de/ValueSet/dkgev/EntlassungsgrundErsteUndZweiteStelle"

@@ -4,7 +4,7 @@
   "name": "VitalSignDE_Body_Length_UCUM",
   "id": "VitalSignDE-Body-Length-UCUM",
   "title": "VitalSignDE_Body_Length_UCUM",
-  "description": "VitalSignDE_Body_Length_UCUM enthält alle validen Einheiten zur Kodierung einer Körpergröße",
+  "description": "Dieses ValueSet enthält die zulässigen UCUM-Einheiten zur Kodierung von Körperlängen- und Körpergrößenmessungen. Es dient der konsistenten Einheitendarstellung in entsprechenden Vitalparameterprofilen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Length_UCUM",
   "experimental": false,
