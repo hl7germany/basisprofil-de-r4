@@ -5,6 +5,8 @@ Bei der Kodierung einer Prozedur im stationären Bereich gemäß § 301 SGB V, s
 
 Ein OPS Code kann innerhalb eines Coding-Elementes in FHIR erfasst werden. Hierzu auf folgendes Datentyp-Profil verwiesen: {{pagelink:ig/markdown/Datentypen-Coding-OPS.md}}.
 
+Das OPS CodeSystem und entsprechende OPS ValueSets sind über [terminologien.bfarm.de](https://terminologien.bfarm.de/) verfügbar.
+
 Um die Kategorisierung von OPS Prozeduren zu harmonisieren wird auf folgende ConceptMap mit einem Mapping der OPS Klassentitel auf SNOMED-CT verwiesen. Dieses Mapping sollte für Procedure.category verwendet werden. Siehe {{pagelink:ig/markdown/Terminologie-ConceptMaps.md}}.
 
 Außerhalb des oben genannten Einsatzgebietes sollte die Verwendung von internationalen Terminologien bei der Kodierung von Prozeduren angestrebt werden. Hierzu können hausinterne Kataloge beispielsweise auf SNOMED-CT gemappt werden.

@@ -1,17 +1,19 @@
 ----
 ### Diagnosen (Condition)
 
-**Canonical**: ```http://fhir.de/CodeSystem/bfarm/alpha-id```
+Die CodeSysteme für Alpha-ID, Alpha-ID-SE und ICD-10-GM werden nicht als CodeSystem-Ressourcen in den Deutschen Basisprofilen veröffentlicht.
 
-{{render:http://fhir.de/CodeSystem/bfarm/alpha-id}}
+Die CodeSystem-URLs für Alpha-ID, Alpha-ID-SE und ICD-10-GM werden in NamingSystem-Ressourcen dokumentiert. Siehe {{pagelink:ig/markdown/Terminologie-Namensraueme-NationaleNamensraeume.md}}.
 
-<br><br>
+Folgende für Diagnosen und klinische Klassifikationen relevante CodeSystems sind über [terminologien.bfarm.de](https://terminologien.bfarm.de/) verfügbar:
 
-**Canonical**: ```http://fhir.de/CodeSystem/bfarm/icd-10-gm```
+- ICD-10-GM
+- ICD-10-WHO
+- ICD-O-3
+- ICF
+- ORPHAcodes
 
-{{render:http://fhir.de/CodeSystem/bfarm/icd-10-gm}}
-
-<br><br>
+Folgendes ergänzendes CodeSystem wird in den Deutschen Basisprofilen definiert:
 
 **Canonical**: ```http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen```
 
