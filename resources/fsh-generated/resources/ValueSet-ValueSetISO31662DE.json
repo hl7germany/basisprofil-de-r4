@@ -4,7 +4,7 @@
   "name": "ValueSetISO31662DE",
   "id": "ValueSetISO31662DE",
   "title": "ISO-3166-2:de-Laendercodes",
-  "description": "Dieses ValueSet enthält die ISO-3166-2:DE-Codes der deutschen Bundesländer. Es dient der standardisierten Bindung regionaler Verwaltungsbezüge innerhalb Deutschlands.",
+  "description": "Dieses ValueSet enthält die ISO-3166-2:DE-Codes der deutschen Bundesländer.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/iso/bundeslaender",
   "experimental": false,

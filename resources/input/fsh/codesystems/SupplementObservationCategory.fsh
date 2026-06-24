@@ -1,7 +1,7 @@
 CodeSystem: SupplementObservationCategory
 Id: observation-category-supplement
 Title: "Deutsche Übersetzungen für ObservationCategoryCodes"
-Description: "Dieses CodeSystem-Supplement ergänzt `ObservationCategoryCodes` um deutsche Bezeichnungen. Es dient der konsistenten deutschsprachigen Darstellung internationaler Beobachtungskategorien."
+Description: "Dieses CodeSystem-Supplement ergänzt `ObservationCategoryCodes` um deutsche Bezeichnungen. Es dient der konsistenten deutschsprachigen Darstellung internationaler Observation-Kategorien."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #supplement
