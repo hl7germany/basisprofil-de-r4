@@ -1,7 +1,7 @@
 CodeSystem: WirkstofftypCS
 Id: WirkstofftypCS
 Title: "CodeSystem - Wirkstofftypen"
-Description: "Codes zur Differenzierung von Wirkstoffen zwischen genauer Substanz (z.B. Salz, Ester etc.), allgemeiner (normalisierter) Substanz und Kombinationscode für mehrere Wirkstoffe."
+Description: "Dieses CodeSystem unterscheidet Wirkstoffe nach fachlicher Granularität, etwa als präzise Substanz, normalisierte Substanz oder Wirkstoffkombination. Es dient der konsistenten Einordnung arzneimittelbezogener Angaben in Terminologie- und Medikationskontexten."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^content = #complete

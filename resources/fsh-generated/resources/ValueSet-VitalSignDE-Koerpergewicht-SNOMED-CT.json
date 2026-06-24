@@ -4,7 +4,7 @@
   "name": "VitalSignDE_Koerpergewicht_SNOMED_CT",
   "id": "VitalSignDE-Koerpergewicht-SNOMED-CT",
   "title": "VitalSignDE_Koerpergewicht_SNOMED_CT",
-  "description": "VitalSignDE_Koerpergewicht_SNOMED_CT enthält die erwarteten $sct Codes für Koerpergewicht",
+  "description": "Dieses ValueSet enthält die für Körpergewichts-Beobachtungen zugelassenen SNOMED-CT-Konzepte. Es dient der semantisch präzisen Codierung entsprechender Vitalparameter.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE-Koerpergewicht-SNOMED-CT",
   "experimental": false,

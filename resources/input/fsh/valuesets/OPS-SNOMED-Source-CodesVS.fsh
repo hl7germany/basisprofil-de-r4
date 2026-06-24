@@ -1,7 +1,7 @@
 ValueSet: ValueSet_OPS_SNOMED_Source_Codes
 Id: ValueSet-OPS-SNOMED-Source-Codes
 Title: "ValueSet of OPS Source Codes for the OPS-SNOMED ConceptMap"
-Description: "ValueSet containing all source concepts from the ConceptMap OPS-SNOMED Category Mapping"
+Description: "Dieses ValueSet enthält die Quellkonzepte aus dem ConceptMap-Mapping zwischen OPS-Kategorien und SNOMED CT. Es dient der klaren Abgrenzung der abgebildeten OPS-Ausgangswerte für Terminologie-Transformationen."
 * insert Meta
 * $ops#1 "Diagnostische Maßnahmen"
 * $ops#3 "Bildgebende Diagnostik"

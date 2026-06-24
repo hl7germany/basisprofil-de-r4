@@ -4,7 +4,7 @@
   "name": "KontaktartDe",
   "id": "kontaktart-de",
   "title": "KontaktartDe ValueSet",
-  "description": "Kontaktarten für die Codierung von Encounter.type",
+  "description": "Dieses ValueSet enthält die zulässigen Kontaktarten für `Encounter.type`. Es dient der fachlichen Differenzierung von Versorgungsformen und Kontaktanlässen innerhalb eines Encounters.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/kontaktart-de",
   "experimental": false,

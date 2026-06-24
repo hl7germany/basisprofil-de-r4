@@ -1,7 +1,7 @@
 ValueSet: EkgLeads
 Id: EkgLeads
 Title: "EKG/ECG leads"
-Description: "EKG/ECG leads"
+Description: "Dieses ValueSet enthält LOINC-Konzepte für EKG-Ableitungen. Es ist für die standardisierte Benennung von Ableitungen in Mess- und Beobachtungskontexten vorgesehen."
 * insert Meta
 * insert LOINCDisclaimer
 * $loinc#LP7383-5 "Lead AVF"
@@ -20,7 +20,7 @@ Description: "EKG/ECG leads"
 ValueSet: EkgAbleitungenVS
 Id: EkgAbleitungenVS
 Title: "SNOMED CT codes der EKG Ableitungen"
-Description: "ValueSet mit den SNOMED CT codes der EKG Ableitungen"
+Description: "Dieses ValueSet enthält SNOMED-CT-Konzepte für EKG-Ableitungen. Es dient der semantisch präzisen Codierung von Ableitungen in klinischen Beobachtungen."
 * insert Meta
 * insert SnomedDisclaimer
 * $sct#257472005 "aVF"

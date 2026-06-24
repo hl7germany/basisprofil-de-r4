@@ -1,7 +1,7 @@
 CodeSystem: KontaktArtDe
 Id: KontaktArtDe
 Title: "KontaktArtDe"
-Description: "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung"
+Description: "Dieses CodeSystem klassifiziert die Art eines Kontakts mit einer Gesundheitseinrichtung. Es dient der fachlichen Differenzierung von Begegnungen, etwa stationär, teilstationär oder konsiliarisch."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/kontaktart-de"

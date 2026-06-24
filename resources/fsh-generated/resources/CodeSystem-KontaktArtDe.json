@@ -5,7 +5,7 @@
   "name": "KontaktArtDe",
   "id": "KontaktArtDe",
   "title": "KontaktArtDe",
-  "description": "Klassifizierung eines Kontaktes mit einer Gesundheitseinrichtung",
+  "description": "Dieses CodeSystem klassifiziert die Art eines Kontakts mit einer Gesundheitseinrichtung. Es dient der fachlichen Differenzierung von Begegnungen, etwa stationär, teilstationär oder konsiliarisch.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/kontaktart-de",
   "concept": [

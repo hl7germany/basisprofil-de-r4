@@ -4,7 +4,7 @@
   "name": "ValueSetVitalSignDE_Body_Height_Loinc",
   "id": "ValueSetVitalSignDE-Body-Height-Loinc",
   "title": "ValueSetVitalSignDE_Body_Height_Loinc",
-  "description": "VitalSignDE_Body_Height_Loinc enthält Codes zur Kodierung der Messung einer Körpergröße (inkl. Größe bei der Geburt)",
+  "description": "Dieses ValueSet enthält LOINC-Codes zur Kodierung von Körpergrößenmessungen einschließlich der Körpergröße bei Geburt. Es dient der standardisierten Kennzeichnung entsprechender Vitalparameter-Beobachtungen.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc",
   "experimental": false,
