@@ -5,5 +5,5 @@ Description: "Dieses ValueSet enthält LOINC-Codes zur Kodierung von Körpergrö
 * insert Meta
 * insert LOINCDisclaimer
 * ^url = "http://fhir.de/ValueSet/VitalSignDE_Body_Height_Loinc"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * $loinc#89269-5 "Body height Measured --at birth"

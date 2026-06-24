@@ -3,7 +3,7 @@ Id: UcumVitalsCommonDE
 Title: "UCUM Vitals Common DE"
 Description: "Dieses ValueSet enthält die innerhalb der deutschen Vitalparameter-Profile zulässigen UCUM-Einheiten. Es dient der konsistenten Einheitenbindung für numerische Messwerte in `value[x]`."
 * insert Meta
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.profile = $shareablevalueset
 * ^copyright = "HL7 Deutschland e.V."
 * $unitsofmeasure#% "percent"
 * $unitsofmeasure#cm "centimeter"
