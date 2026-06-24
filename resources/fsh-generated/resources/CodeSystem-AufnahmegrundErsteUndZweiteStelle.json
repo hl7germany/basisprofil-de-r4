@@ -5,7 +5,7 @@
   "name": "CodeSystemAufnahmegrundErsteUndZweiteStelle",
   "id": "AufnahmegrundErsteUndZweiteStelle",
   "title": "CodeSystemAufnahmegrundErsteUndZweiteStelle",
-  "description": "Dieses CodeSystem enthält die erste und zweite Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V. Es dient der grundlegenden Klassifikation der Art einer stationären oder stationsäquivalenten Aufnahme.",
+  "description": "Dieses CodeSystem stellt die erste und zweite Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung der grundlegenden Aufnahmeart, z. B. vollstationäre Krankenhausbehandlung, teilstationäre Behandlung, Geburt, stationsäquivalente Behandlung oder Übergangspflege.",
   "version": "1.6.0-ballot",
   "url": "http://fhir.de/CodeSystem/dkgev/AufnahmegrundErsteUndZweiteStelle",
   "concept": [

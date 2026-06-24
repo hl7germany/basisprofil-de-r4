@@ -1,7 +1,7 @@
 CodeSystem: ArgeIkKlassifikation
 Id: klassifikation
 Title: "ARGE IK Klassifikation"
-Description: "Dieses CodeSystem enthält die Klassifikationen der ARGE IK zur fachlichen Einordnung von Institutionskennzeichen. Es dient der Zuordnung von Geltungsbereichen, Regionalschlüsseln und Vergabekontexten im deutschen Abrechnungs- und Verwaltungsumfeld."
+Description: "Dieses CodeSystem enthält die Klassifikationen der ARGE IK zur fachlichen Einordnung von Institutionskennzeichen. Es dient der einheitlichen Kodierung von Institutionstypen und deren Geltungsbereichen im deutschen Abrechnungs- und Verwaltungsumfeld."
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/arge-ik/klassifikation"
 * insert Meta

@@ -1,7 +1,7 @@
 CodeSystem: AufnahmegrundVierteStelle
 Id: AufnahmegrundVierteStelle
 Title: "AufnahmegrundVierteStelle"
-Description: "Dieses CodeSystem stellt die vierte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der zusätzlichen Spezifikation des Aufnahmekontexts, etwa im Hinblick auf Notfall- oder Unfallbezug."
+Description: "Dieses CodeSystem stellt die vierte Stelle des Aufnahmegrundes nach § 301 Abs. 3 SGB V bereit. Es dient der Codierung des aufnahmebezogenen Grundtyps, z. B. Normalfall, Unfall-/Gewaltbezug, BVG-Leiden oder Notfall."
 * insert Meta
 * ^meta.profile = $shareablecodesystem
 * ^url = "http://fhir.de/CodeSystem/dkgev/AufnahmegrundVierteStelle"
