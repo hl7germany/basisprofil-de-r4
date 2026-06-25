@@ -8,7 +8,7 @@ Sofern für einen Anwendungsfall kein deutsches Basisprofil existiert, wird empf
   * [FHIR Core Extensions](https://www.hl7.org/fhir/r4/extensibility-registry.html)
   * [FHIR Terminologies](https://www.hl7.org/fhir/r4/terminologies-systems.html)
 * in existierenden Implementierungsleitfäden, z.B:
-  * [International Patient Summary (IPS)](http://www.hl7.org/fhir/uv/ips/history.cfml)
+  * [International Patient Summary (IPS)](https://hl7.org/fhir/uv/ips)
   * [Leitfäden von IHE](https://wiki.ihe.net/index.php/Category:FHIR)
   * [Liste weiterer Implementierungsleitfäden](https://www.fhir.org/guides/registry/)
 * durch Suche in der [FHIR Registry](https://registry.fhir.org/)

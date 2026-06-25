@@ -15,7 +15,7 @@ Für folgenden Elemente des Encounters werden innerhalb der Deutschen Basisprofi
     - [Encounter.hospitalization.dischargeDisposition (Extension) - Entlassungsgrund](http://fhir.de/CodeSystem/dkgev/EntlassungsgrundErsteUndZweiteStelle)
     - [Encounter.hospitalization (Extension) - Wahlleistung](http://fhir.de/CodeSystem/wahlleistungen-de)
 
-Für die Ausgestaltung des Encounters im stationären Kontext wird auf das [Basismodul 'Fall' der Medizininformatik-Initative](https://simplifier.net/guide/mii-ig-modul-fall-2024-de/MII-IG-Modul-Fall/TechnischeImplementierung/FHIRProfile/EncounterKontaktGesundheitseinrichtung.page.md?version=current) verwiesen und das [ISiK Basismodul Stufe 3 der gematik](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Kontakt?version=current).
+Für die Ausgestaltung des Encounters im stationären Kontext wird auf das [Basismodul 'Fall' der Medizininformatik-Initative](https://www.medizininformatik-initiative.de/de/basismodule-des-kerndatensatzes-der-mii) verwiesen und das [ISiK Basismodul Stufe 3 der gematik](https://simplifier.net/guide/isik-basis-v3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-Kontakt?version=current).
 
 #### **Abrechnungsfall** 
 
