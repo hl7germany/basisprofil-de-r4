@@ -19,6 +19,16 @@ Das Profil enthält spezielle Extensions, die Informationen über den Einlesevor
 
 Siehe {{pagelink:ig/markdown/ExtensionsfrCoverage.md}}.
 
+### Kompatibilität zu VSDM 2.0
+
+Mit VSDM 2.0 hat die gematik eigene Strukturen für die Versichertenstammdaten eingeführt, u.a. das Profil [VSDMCoverageGKV](https://simplifier.net/vsdm2/vsdmcoveragegkv). Dieses leitet – wie `CoverageDeGkv` – vom deutschen Basisprofil `coverage-de-basis` ab. Das GKV-Profil wurde so weiterentwickelt, dass beide Strukturwelten zueinander kompatibel sind, ohne die Abwärtskompatibilität zu brechen:
+
+- **Abrechnender Kostenträger als zweite `payor`-Instanz**: In Angleichung an VSDM 2.0 kann ein abweichender abrechnender Kostenträger nun als zweite `payor`-Referenz angegeben werden (`payor 1..2`). Die erste Referenz ist stets der Hauptkostenträger. Die bisherige Abbildung über die Extension `AbrechnendeIK` bleibt aus Gründen der Abwärtskompatibilität weiterhin möglich.
+- **Gemeinsame Basis**: Da beide Profile auf `coverage-de-basis` aufsetzen, sind die nicht genutzten Elemente (`policyHolder`, `subscriberId`, `order`, `network`) identisch ausgeschlossen.
+- **Offene Extensions**: Das Slicing der Extensions ist offen; VSDM-2.0-spezifische Extensions (z.B. DMP-Teilnahme) können daher zusätzlich geführt werden.
+
+**Hinweis zu `Coverage.identifier`**: `CoverageDeGkv` verlangt mindestens einen Identifier (KVNR / Pseudo-KVNR). VSDMCoverageGKV fordert `Coverage.identifier` hingegen nicht – die Krankenversichertennummer wird dort ausschließlich am Patienten (`VSDMPatient`) geführt und ist über die `beneficiary`-Referenz erreichbar. Damit eine aus VSDM 2.0 stammende Coverage auch gegen `CoverageDeGkv` valide ist, muss die KVNR der versicherten Person aus dem referenzierten `VSDMPatient` übernommen und zusätzlich in `Coverage.identifier` (System `http://fhir.de/sid/gkv/kvid-10`) eingetragen werden.
+
 ### Beispiel
 
 Folgendes Beispiel deckt das GKV-Profil vollständig ab:

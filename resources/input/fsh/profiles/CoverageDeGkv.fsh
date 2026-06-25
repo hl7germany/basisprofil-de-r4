@@ -52,9 +52,20 @@ Description: "Profil für die Nutzung der Coverage-Resource zur Darstellung eine
     * ^patternIdentifier.system = "http://fhir.de/sid/gkv/kvid-10"
   * display ^short = "Name der Versicherten Person"
     * ^definition = "Die Angabe des Namens des Versicherten dient der geeigneten Darstellung für den Benutzer und hat keine technische Bedeutung."
-* payor ..1
-  * ^definition = "Gibt den Kostenträger des Versicherten an. Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.\r\nDie Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.\r\nSofern eine zweite Referenz auf einen Kostenträger existiert, kann diese durch die Extension 'Abrechnende IK' angegeben werden."
-  * ^comment = "Die Angabe der IK-Nummer des Versicherers in payor.identifier ist verpflichtend. Weitere Angaben zum Versicherer (Name, Adresse) können in einer Organization-Resource hinterlegt werden, auf die hier referenziert wird."
+* payor ..2
+  * ^definition = """
+      Gibt den bzw. die Kostenträger des Versicherten an.
+      Die Angabe der IK-Nummer als logische Referenz sowie des Namens als Display ist zwingend erforderlich.
+      Die Referenz auf eine Resource vom Typ Organization, die weitere Details zur Versicherung enthalten kann (z.B. Adresse, Kontaktdaten) ist optional.
+      Sofern eine zweite Referenz auf einen Kostenträger existiert, wurde diese bisherdurch die Extension 'Abrechnende IK' angegeben.
+      Im Zuge der Angleichung an VSDM 2.0 wird ein abrechnender Kostenträger als zweite payor-Instanz angegeben. 
+      Es gilt deshalb: Die erste payor-Referenz ist immer der Hauptkostenträger und immer vorhanden. 
+      Die zweite payor-Referenz ist optional und gibt den abrechnenden Kostenträger an.
+    """
+  * ^comment = """
+      Die Angabe der IK-Nummer des Versicherers in payor.identifier ist verpflichtend. 
+      Weitere Angaben zum Versicherer (Name, Adresse) können in einer Organization-Resource hinterlegt werden, auf die hier referenziert wird.
+    """
   * extension ^slicing.discriminator.type = #value
     * ^slicing.discriminator.path = "url"
     * ^slicing.rules = #open
