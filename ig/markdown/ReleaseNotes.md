@@ -1,7 +1,7 @@
 ### Release Notes
 
 
-v1.6.0
+v1.6.0 - 29.06.2026
 * ``added`` Invariante und Längenbegrenzung zu ``identifier-telematik-id`` hinzugefügt (HDB-818)  
 * `removed` redundante Invariante ``ruhend-1``  aus ``ExtensionGKVRuhenderLeistungsanspruch`` entfernt (HDB-824)  
 * `fixed` falsche Artefaktnamen in Release Notes korrigiert (HDB-822)  
