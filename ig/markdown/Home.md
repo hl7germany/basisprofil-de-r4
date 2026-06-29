@@ -6,9 +6,9 @@
 ---
 Version: 1.6.0 ({{pagelink:ig/markdown/ReleaseNotes.md}})
 
-Datum: 23.12.2025
+Datum: 29.06.2026
 
-Status: In Ballotierung
+Status: Final
 
 Realm: Deutschland
 
