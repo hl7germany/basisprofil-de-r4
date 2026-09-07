@@ -201,3 +201,34 @@ Beispiel:
     </country>
 </address>
 ```
+
+Als `display` des kodierten Werts ist ausschließlich die englischsprachige Bezeichnung aus ISO 3166 zulässig (für `DE` also `Germany`).
+Deutschsprachige Bezeichnungen der Staaten werden über das CodeSystem-Supplement {{pagelink:ig/markdown/Terminologie-CodeSystemSupplement-ISO3166.md}} (`http://fhir.de/CodeSystem/supplement-iso-3166`) bereitgestellt.
+Terminologieserver können diese Bezeichnungen bei der ValueSet-Expansion (Parameter `displayLanguage=de-DE`) ausgeben; in einer Instanz kann die deutsche Bezeichnung mittels der [Translation-Extension](http://hl7.org/fhir/StructureDefinition/translation) mitgeführt werden.
+Beispiel:
+
+```xml
+<address>
+    <line value="Musterstraße 1" />
+    <city value="Musterstadt" />
+    <postalCode value="77777" />
+    <country value="Deutschland">
+        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-codedString">
+            <valueCoding>
+                <system value="urn:iso:std:iso:3166" />
+                <code value="DE" />
+                <display value="Germany">
+                    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+                        <extension url="lang">
+                            <valueCode value="de-DE" />
+                        </extension>
+                        <extension url="content">
+                            <valueString value="Deutschland" />
+                        </extension>
+                    </extension>
+                </display>
+            </valueCoding>
+        </extension>
+    </country>
+</address>
+```
