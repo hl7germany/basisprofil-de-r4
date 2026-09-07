@@ -1,0 +1,53 @@
+{
+  "resourceType": "Patient",
+  "id": "Example-patient-address-de-basis-uebersetzung",
+  "name": [
+    {
+      "use": "official",
+      "family": "Mustermann",
+      "given": [
+        "Martina"
+      ]
+    }
+  ],
+  "address": [
+    {
+      "type": "physical",
+      "line": [
+        "Musterstr. 1"
+      ],
+      "city": "Köln",
+      "postalCode": "50823",
+      "country": "Deutschland",
+      "_country": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-codedString",
+            "valueCoding": {
+              "code": "DE",
+              "system": "urn:iso:std:iso:3166",
+              "display": "Germany",
+              "_display": {
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "lang",
+                        "valueCode": "de-DE"
+                      },
+                      {
+                        "url": "content",
+                        "valueString": "Deutschland"
+                      }
+                    ],
+                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
