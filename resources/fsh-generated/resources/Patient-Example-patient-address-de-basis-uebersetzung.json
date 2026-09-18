@@ -30,6 +30,7 @@
               "_display": {
                 "extension": [
                   {
+                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
                     "extension": [
                       {
                         "url": "lang",
@@ -39,8 +40,7 @@
                         "url": "content",
                         "valueString": "Deutschland"
                       }
-                    ],
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                    ]
                   }
                 ]
               }
