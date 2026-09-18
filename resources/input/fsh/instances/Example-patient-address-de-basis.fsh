@@ -20,4 +20,4 @@ Usage: #example
 * address.postalCode = "50823"
 * address.country = "Deutschland"
   * extension[+].url = $codedString
-  * extension[=].valueCoding = urn:iso:std:iso:3166#DE "Deutschland"
+  * extension[=].valueCoding = urn:iso:std:iso:3166#DE "Germany"

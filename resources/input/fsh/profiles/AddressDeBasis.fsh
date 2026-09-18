@@ -71,5 +71,5 @@ Description: "Erweiterung des komplexen Datentyps Address zur Verwendung im Kont
         Durch die Verwendung der internationalen Kodierung wird die interoperable Verwendung der Adressangabe erleichtert.
       """
     * ^example.label = "Beispiel für kodierte Landesangabe"
-    * ^example.valueCoding = urn:iso:std:iso:3166#DE "Deutschland"
+    * ^example.valueCoding = urn:iso:std:iso:3166#DE "Germany"
     * valueCoding from $iso3166-1-2 (required)
