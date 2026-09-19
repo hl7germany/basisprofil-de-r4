@@ -308,6 +308,12 @@
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2|4.0.1"
         }
+      },
+      {
+        "id": "Address.country.extension:countryCode.value[x].system",
+        "path": "Address.country.extension.value[x].system",
+        "min": 1,
+        "fixedUri": "urn:iso:std:iso:3166"
       }
     ]
   }
